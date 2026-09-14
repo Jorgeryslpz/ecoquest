@@ -25,15 +25,24 @@ html,body{background:var(--outer);}
 body{font-family:'Baloo 2', system-ui, -apple-system, sans-serif; color:var(--ink); display:flex; justify-content:center; min-height:100vh;}
 #app{width:100%; max-width:440px; min-height:100vh; background:var(--bg); display:flex; flex-direction:column; position:relative; overflow:hidden;}
 
+/* ---------- transiciones globales ---------- */
+body *{transition:background-color .2s ease, border-color .2s ease, color .2s ease, box-shadow .12s ease, transform .12s ease, opacity .15s ease;}
+@media (prefers-reduced-motion: reduce){
+  body *{transition-duration:.001s !important; animation-duration:.001s !important;}
+}
+
 /* ---------- barra superior ---------- */
 .topbar{display:flex; align-items:center; gap:10px; padding:14px 16px; background:var(--panel); border-bottom:2px solid var(--line); position:sticky; top:0; z-index:20;}
 .topbar .tb-title{font-weight:800; font-size:17px; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .iconbtn{background:var(--panel2); border:2px solid var(--line); color:var(--ink); border-radius:14px; width:40px; height:40px; font-size:18px; font-family:inherit; font-weight:700; cursor:pointer; display:flex; align-items:center; justify-content:center;}
 .iconbtn:active{transform:scale(.94);}
 
-.screen{flex:1; padding:20px 18px 40px; overflow-y:auto; display:none; animation:pop .18s ease;}
+.screen{flex:1; padding:20px 18px 40px; overflow-y:auto; display:none;}
 .screen.active{display:block;}
-@keyframes pop{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;}}
+.screen.nav-fwd{animation:screenFwd .22s cubic-bezier(.22,1,.36,1);}
+.screen.nav-back{animation:screenBack .22s cubic-bezier(.22,1,.36,1);}
+@keyframes screenFwd{from{opacity:0; transform:translateX(18px);} to{opacity:1; transform:none;}}
+@keyframes screenBack{from{opacity:0; transform:translateX(-18px);} to{opacity:1; transform:none;}}
 
 h1{font-size:26px; font-weight:800; line-height:1.15;}
 h2{font-size:20px; font-weight:800; margin-bottom:6px;}
@@ -160,9 +169,10 @@ p{line-height:1.45;}
 .plan .sub{font-size:13px; color:var(--dim); display:block;}
 
 /* ---------- modal ---------- */
-.modal-bg{position:fixed; inset:0; background:rgba(14,14,16,.75); display:none; align-items:center; justify-content:center; z-index:50; padding:24px;}
-.modal-bg.show{display:flex;}
-.modal{background:var(--panel); border:2px solid var(--line); border-radius:22px; padding:22px; width:100%; max-width:360px; animation:pop .18s ease;}
+.modal-bg{position:fixed; inset:0; background:rgba(14,14,16,.75); display:flex; align-items:center; justify-content:center; z-index:50; padding:24px; opacity:0; pointer-events:none;}
+.modal-bg.show{opacity:1; pointer-events:auto;}
+.modal{background:var(--panel); border:2px solid var(--line); border-radius:22px; padding:22px; width:100%; max-width:360px; transform:scale(.92) translateY(6px); opacity:0;}
+.modal-bg.show .modal{transform:none; opacity:1;}
 .modal h2{margin-bottom:8px;}
 
 .gold{color:var(--gold);} .green-t{color:var(--green);} .red-t{color:var(--red);}
@@ -339,9 +349,12 @@ const screens = $("#screens");
 let historyStack = [];
 let currentScreen = null;
 let quizActivo = false;
+let navDir = "fwd";
 
 function render(name, html, title){
-  screens.innerHTML = `<div class="screen active">${html}</div>`;
+  const cls = navDir === "back" ? "nav-back" : navDir === "none" ? "" : "nav-fwd";
+  navDir = "fwd";
+  screens.innerHTML = `<div class="screen active ${cls}">${html}</div>`;
   $("#tb-title").textContent = title || "ECOEMS Quest";
   window.scrollTo(0,0);
 }
@@ -350,13 +363,14 @@ function go(name, opts={}){
   currentScreen = {name, opts};
   quizActivo = false;
   clearInterval(timerInt);
+  navDir = opts.replace ? "none" : "fwd";
   $("#topbar").style.display = (name==="portada"||name==="login"||name==="registro") ? "none":"flex";
   SCREENS[name](opts);
 }
 function back(){
   if(quizActivo){ confirmSalirQuiz(); return; }
   const prev = historyStack.pop();
-  if(prev){ currentScreen = prev; SCREENS[prev.name](prev.opts); $("#topbar").style.display = (prev.name==="portada")?"none":"flex"; }
+  if(prev){ currentScreen = prev; navDir = "back"; SCREENS[prev.name](prev.opts); $("#topbar").style.display = (prev.name==="portada")?"none":"flex"; }
   else go("home",{replace:true});
 }
 $("#btn-back").onclick = back;
