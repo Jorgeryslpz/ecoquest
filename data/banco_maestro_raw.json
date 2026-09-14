@@ -1,0 +1,1604 @@
+{
+  "titulo": "Banco Maestro de Reactivos ECOEMS - 128 Preguntas",
+  "descripcion": "Corpus estructurado a partir del archivo original proporcionado, con preguntas, opciones, respuesta y explicación, organizado por materia.",
+  "total_preguntas": 128,
+  "total_materias": 10,
+  "materias": [
+    {
+      "numero": 1,
+      "nombre": "ESPAÑOL",
+      "reactivos": [
+        {
+          "numero": 1,
+          "pregunta": "Según los estándares de investigación documental, ¿cuál es el propósito epistemológico fundamental de una ficha bibliográfica de paráfrasis frente a una de cita textual?",
+          "opciones": {
+            "A": "Transcribir con exactitud empírica las palabras del autor original.",
+            "B": "Registrar los datos editoriales del libro para evitar el plagio académico.",
+            "C": "Asimilar y reconstruir el argumento del autor utilizando el léxico y la estructura cognitiva del investigador.",
+            "D": "Resumir cronológicamente los capítulos de una obra literaria."
+          },
+          "respuesta": "C",
+          "explicacion": "La paráfrasis exige comprensión profunda y reestructuración semántica del texto, no solo reproducción mecánica."
+        },
+        {
+          "numero": 2,
+          "pregunta": "En un texto expositivo sobre biología molecular, el autor utiliza recuadros y tipografía en negritas. ¿Qué función estructural cumplen estos recursos gráficos?",
+          "opciones": {
+            "A": "Ejemplificar gráficamente el proceso de mitosis.",
+            "B": "Jerarquizar conceptos clave y aislar información complementaria para facilitar la comprensión sistemática.",
+            "C": "Sustituir la argumentación lógica por elementos puramente visuales.",
+            "D": "Establecer un orden cronológico estricto de los descubrimientos científicos."
+          },
+          "respuesta": "B",
+          "explicacion": "Los recuadros y negritas son marcadores textuales que organizan y priorizan la carga cognitiva del lector."
+        },
+        {
+          "numero": 3,
+          "pregunta": "¿Cuál de los siguientes nexos introduce una premisa concesiva, reconociendo un obstáculo que no impide la acción principal?",
+          "opciones": {
+            "A": "Por consiguiente, la economía sufrió una contracción.",
+            "B": "A pesar de que las pruebas empíricas eran contundentes, la teoría fue rechazada.",
+            "C": "Dado que los recursos son limitados, debemos optimizar el consumo.",
+            "D": "Es decir, la ontología estudia la naturaleza del ser."
+          },
+          "respuesta": "B",
+          "explicacion": "\"A pesar de que\" indica concesión: una dificultad que no anula el predicado."
+        },
+        {
+          "numero": 4,
+          "pregunta": "Identifica el enunciado que presenta una estricta concordancia gramatical entre sujeto y predicado colectivo:",
+          "opciones": {
+            "A": "La jauría de lobos hambrientos devoraron al siervo en cuestión de minutos.",
+            "B": "El enjambre, junto con las avispas reina, atacaron el campamento.",
+            "C": "La mayor parte de los asambleístas votó en contra de la reforma constitucional.",
+            "D": "Un sinfín de problemas estructurales afecta la viabilidad del proyecto."
+          },
+          "respuesta": "C",
+          "explicacion": "Los sustantivos cuantificadores (la mayor parte) admiten concordancia en singular con el verbo núcleo, o plural si se atiende al complemento, siendo \"votó\" gramaticalmente irreprochable."
+        },
+        {
+          "numero": 5,
+          "pregunta": "Lee la siguiente oración: \"La epistemología, rama de la filosofía que estudia los fundamentos del conocimiento humano, ha evolucionado desde los griegos\". El texto entre comas funciona como:",
+          "opciones": {
+            "A": "Una oración principal coordinada.",
+            "B": "Una aposición explicativa que define al sujeto.",
+            "C": "Un predicado nominal compuesto.",
+            "D": "Un nexo de subordinación causal."
+          },
+          "respuesta": "B",
+          "explicacion": "La aposición explicativa amplía o precisa la información del núcleo del sujeto y va siempre entre comas."
+        },
+        {
+          "numero": 6,
+          "pregunta": "En la construcción de un texto argumentativo, ¿qué signo de puntuación es preceptivo para introducir una enumeración explicativa que desglosa un concepto previo?",
+          "opciones": {
+            "A": "Punto y seguido.",
+            "B": "Puntos suspensivos.",
+            "C": "Dos puntos.",
+            "D": "Punto y coma."
+          },
+          "respuesta": "C",
+          "explicacion": "Los dos puntos detienen el discurso para llamar la atención sobre lo que sigue, típicamente enumeraciones, citas o explicaciones."
+        },
+        {
+          "numero": 7,
+          "pregunta": "En el contexto de una investigación histórica, el uso del \"presente histórico\" tiene como finalidad estilística:",
+          "opciones": {
+            "A": "Proyectar eventos pasados hacia un futuro hipotético.",
+            "B": "Actualizar y otorgar inmediatez narrativa a sucesos cronológicamente pretéritos.",
+            "C": "Expresar verdades universales atemporales que no cambian con los siglos.",
+            "D": "Describir acciones que ocurren en el momento exacto de la enunciación."
+          },
+          "respuesta": "B",
+          "explicacion": "El presente histórico acerca el pasado al lector, haciéndolo más vívido (ej. \"En 1810, Hidalgo da el Grito\")."
+        },
+        {
+          "numero": 8,
+          "pregunta": "Identifica la oración temática que vertebra semánticamente el siguiente párrafo: \"Primero, la quema de combustibles fósiles libera toneladas de dióxido de carbono. Además, la ganadería extensiva emite altos niveles de metano. En definitiva, la actividad industrial humana es el catalizador indiscutible del calentamiento global antropogénico.\"",
+          "opciones": {
+            "A": "Primero, la quema de combustibles fósiles libera toneladas de dióxido de carbono.",
+            "B": "Además, la ganadería extensiva emite altos niveles de metano.",
+            "C": "En definitiva, la actividad industrial humana es el catalizador indiscutible del calentamiento global antropogénico.",
+            "D": "La quema de combustibles y la ganadería son procesos naturales."
+          },
+          "respuesta": "C",
+          "explicacion": "La oración temática condensa la tesis central; las demás son oraciones secundarias o de apoyo."
+        },
+        {
+          "numero": 9,
+          "pregunta": "A diferencia de una nota informativa, el artículo de opinión se caracteriza retóricamente por:",
+          "opciones": {
+            "A": "Privilegiar la objetividad y omitir juicios de valor del redactor.",
+            "B": "Estructurarse exclusivamente con base en la pirámide invertida (qué, quién, cuándo).",
+            "C": "Incorporar la argumentación subjetiva y el análisis crítico del autor sobre un hecho.",
+            "D": "Limitarse a transcribir declaraciones de figuras públicas sin interpretación."
+          },
+          "respuesta": "C",
+          "explicacion": "El artículo de opinión es un género periodístico interpretativo y argumentativo."
+        },
+        {
+          "numero": 10,
+          "pregunta": "¿Qué recurso lingüístico es inherente a los textos publicitarios para maximizar el impacto persuasivo y manipular la recepción del consumidor?",
+          "opciones": {
+            "A": "El uso del copretérito para atenuar afirmaciones.",
+            "B": "La hipérbole (exageración de cualidades) y las oraciones imperativas.",
+            "C": "La construcción de silogismos lógicos estrictos.",
+            "D": "El empleo de lenguaje denotativo y neutro."
+          },
+          "respuesta": "B",
+          "explicacion": "La publicidad recurre a la exageración (hipérbole) y mandatos (compra, únete) para incitar a la acción."
+        },
+        {
+          "numero": 11,
+          "pregunta": "Analiza el siguiente fragmento de un texto administrativo (un contrato): \"El arrendatario se compromete a sufragar los gastos de mantenimiento derivados del desgaste natural del inmueble\". En este contexto, \"sufragar\" significa:",
+          "opciones": {
+            "A": "Emitir un voto en una asamblea.",
+            "B": "Padecer las consecuencias legales de un acto.",
+            "C": "Costear o pagar los gastos mencionados.",
+            "D": "Ignorar deliberadamente las cláusulas."
+          },
+          "respuesta": "C",
+          "explicacion": "En lenguaje jurídico/administrativo, sufragar significa pagar o satisfacer el costo de algo."
+        },
+        {
+          "numero": 12,
+          "pregunta": "Selecciona la opción que emplea correctamente el participio como adjetivo para modificar un sustantivo:",
+          "opciones": {
+            "A": "El estudiante había estudiando toda la madrugada para el examen final.",
+            "B": "Las tesis, redactadas con rigor metodológico, fueron aprobadas por el sínodo.",
+            "C": "Habiendo resolviendo el teorema, el profesor dio por concluida la cátedra.",
+            "D": "Ellos están imprimiendo los documentos legales en este preciso instante."
+          },
+          "respuesta": "B",
+          "explicacion": "\"Redactadas\" es un participio que funciona como adjetivo calificativo, concordando en género y número con \"tesis\".\n\n## 2. HABILIDAD VERBAL (16 Reactivos)\n\n*(Para los reactivos 13 al 20, toma como base el siguiente texto)*\n\"La alienación contemporánea no surge del trabajo industrial alienante descrito por Marx en el siglo XIX, sino de la hipervigilancia voluntaria. Hoy, el sujeto se auto-explota creyendo que se realiza. Las redes sociales operan como un panóptico digital donde cada individuo es, simultáneamente, prisionero y celador. Publicamos nuestra intimidad no por coerción estatal, sino impulsados por una necesidad narcisista de validación algorítmica. En este régimen de la transparencia, lo oculto o lo misterioso se considera una anomalía amenazante. Así, la libertad se transforma paradojalmente en el instrumento más eficaz de control sistémico.\""
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "nombre": "HABILIDAD VERBAL",
+      "reactivos": [
+        {
+          "numero": 13,
+          "pregunta": "¿Cuál es la premisa central (idea principal) que articula el texto?",
+          "opciones": {
+            "A": "Las redes sociales son herramientas del Estado para oprimir a las clases trabajadoras.",
+            "B": "La auto-explotación y la búsqueda de validación digital son las nuevas formas de control social voluntario.",
+            "C": "El marxismo clásico sigue siendo el único marco teórico válido para entender la alienación.",
+            "D": "La privacidad en internet debe ser legislada para evitar la hipervigilancia."
+          },
+          "respuesta": "B",
+          "explicacion": "El texto argumenta cómo la libertad aparente (validación) es hoy el mecanismo de alienación."
+        },
+        {
+          "numero": 14,
+          "pregunta": "Del texto se puede inferir lógicamente que, para el autor, el concepto de \"panóptico digital\" implica:",
+          "opciones": {
+            "A": "Una prisión física donde los reos tienen acceso ilimitado a internet.",
+            "B": "Un sistema descentralizado donde la vigilancia es ejercida por los propios usuarios entre sí.",
+            "C": "Un dispositivo de hardware instalado por el gobierno en los hogares de los ciudadanos.",
+            "D": "La liberación definitiva de la alienación gracias a la transparencia de la información."
+          },
+          "respuesta": "B",
+          "explicacion": "Si el sujeto es \"prisionero y celador\" voluntariamente, la vigilancia es mutua y descentralizada."
+        },
+        {
+          "numero": 15,
+          "pregunta": "La relación que establece el autor entre \"libertad\" y \"control sistémico\" es de carácter:",
+          "opciones": {
+            "A": "Sinónima.",
+            "B": "Cronológica.",
+            "C": "Paradójica o contradictoria.",
+            "D": "Ejemplificativa."
+          },
+          "respuesta": "C",
+          "explicacion": "Menciona explícitamente que \"la libertad se transforma paradojalmente\" en un instrumento de control."
+        },
+        {
+          "numero": 16,
+          "pregunta": "Según el contexto semántico del ensayo, la palabra \"alienación\" se refiere más cercanamente a:",
+          "opciones": {
+            "A": "La presencia de seres extraterrestres en la cultura popular.",
+            "B": "La pérdida de la identidad y la sumisión inconsciente a un sistema dominante.",
+            "C": "El acto jurídico de transferir el dominio de una propiedad a un tercero.",
+            "D": "El aislamiento físico en comunidades rurales alejadas de la tecnología."
+          },
+          "respuesta": "B",
+          "explicacion": "En filosofía crítica, alienación denota enajenación, pérdida del sí mismo ante estructuras de poder."
+        },
+        {
+          "numero": 17,
+          "pregunta": "Identifica el enunciado que representa una OPINIÓN del autor, y no un hecho comprobable en el texto:",
+          "opciones": {
+            "A": "Marx describió el trabajo industrial alienante en el siglo XIX.",
+            "B": "Las redes sociales permiten la publicación de aspectos íntimos de la vida diaria.",
+            "C": "Hoy, el sujeto se auto-explota creyendo que se realiza.",
+            "D": "El panóptico es un concepto utilizado para explicar dinámicas de vigilancia."
+          },
+          "respuesta": "C",
+          "explicacion": "Es una valoración filosófica e interpretativa (subjetiva) del comportamiento humano moderno, no un dato fáctico."
+        },
+        {
+          "numero": 18,
+          "pregunta": "¿Qué relación lógica existe entre la \"necesidad narcisista de validación\" y la \"publicación de nuestra intimidad\"?",
+          "opciones": {
+            "A": "Causa – consecuencia.",
+            "B": "Oposición – semejanza.",
+            "C": "General – particular.",
+            "D": "Cronología absoluta."
+          },
+          "respuesta": "A",
+          "explicacion": "El texto indica que publicamos la intimidad \\*impulsados por\\* (a causa de) esa necesidad narcisista."
+        },
+        {
+          "numero": 19,
+          "pregunta": "En la frase \"lo oculto o misterioso se considera una anomalía amenazante\", la palabra \"anomalía\" puede ser sustituida por su sinónimo:",
+          "opciones": {
+            "A": "Normatividad.",
+            "B": "Irregularidad.",
+            "C": "Virtud.",
+            "D": "Conjetura."
+          },
+          "respuesta": "B",
+          "explicacion": "Anomalía significa desviación de la norma, irregularidad."
+        },
+        {
+          "numero": 20,
+          "pregunta": "Si tuviéramos que resumir el texto en un cuadro sinóptico, la categoría \"Mecanismos históricos de alienación\" se dividiría en dos subramas que son:",
+          "opciones": {
+            "A": "Burguesía y Proletariado.",
+            "B": "Redes Sociales y Panóptico.",
+            "C": "Trabajo industrial coercitivo (S. XIX) e Hipervigilancia voluntaria (Contemporaneidad).",
+            "D": "Estado absolutista y Democracia liberal."
+          },
+          "respuesta": "C",
+          "explicacion": "El texto contrasta explícitamente el modelo marxista del siglo XIX con el modelo actual de auto-explotación."
+        },
+        {
+          "numero": 21,
+          "pregunta": "Resuelve la siguiente analogía. DOGMATISMO es a DUDA como:",
+          "opciones": {
+            "A": "Relativismo es a Verdad Absoluta.",
+            "B": "Escepticismo es a Cuestionamiento.",
+            "C": "Empirismo es a Experiencia.",
+            "D": "Axioma es a Principio."
+          },
+          "respuesta": "A",
+          "explicacion": "El dogmatismo rechaza o es incompatible con la duda; el relativismo rechaza la existencia de una verdad absoluta (relación de antonimia conceptual)."
+        },
+        {
+          "numero": 22,
+          "pregunta": "Resuelve la siguiente analogía. DEMAGOGIA es a POLÍTICA como:",
+          "opciones": {
+            "A": "Retórica es a Literatura.",
+            "B": "Charlatanería es a Medicina.",
+            "C": "Dialéctica es a Filosofía.",
+            "D": "Ética es a Derecho."
+          },
+          "respuesta": "B",
+          "explicacion": "La demagogia es la degeneración engañosa de la política; la charlatanería es la práctica engañosa y fraudulenta de la medicina."
+        },
+        {
+          "numero": 23,
+          "pregunta": "Selecciona el sinónimo de la palabra INEXORABLE en el siguiente contexto: \"El avance del cambio climático parece un proceso inexorable si no se alteran los medios de producción.\"",
+          "opciones": {
+            "A": "Reversible.",
+            "B": "Dubitativo.",
+            "C": "Ineludible.",
+            "D": "Efímero."
+          },
+          "respuesta": "C",
+          "explicacion": "Inexorable significa que no se puede evitar, detener o eludir."
+        },
+        {
+          "numero": 24,
+          "pregunta": "Selecciona el antónimo de la palabra PUSILÁNIME:",
+          "opciones": {
+            "A": "Cobarde.",
+            "B": "Temerario.",
+            "C": "Indiferente.",
+            "D": "Melancólico."
+          },
+          "respuesta": "B",
+          "explicacion": "Pusilánime es alguien falto de ánimo o valor. Su opuesto es temerario o valiente."
+        },
+        {
+          "numero": 25,
+          "pregunta": "Identifica el par de palabras que presentan una relación de significado OPUESTO:",
+          "opciones": {
+            "A": "Prolífico – Fecundo.",
+            "B": "Altruismo – Filantropía.",
+            "C": "Laconismo – Verborrea.",
+            "D": "Disidencia – Heterodoxia."
+          },
+          "respuesta": "C",
+          "explicacion": "Laconismo es hablar poco, breve y conciso. Verborrea es hablar en exceso. Son antónimos."
+        },
+        {
+          "numero": 26,
+          "pregunta": "¿Qué opción muestra una relación analógica de PARTE a TODO?",
+          "opciones": {
+            "A": "Prólogo : Epílogo.",
+            "B": "Mitocondria : Célula.",
+            "C": "Monarquía : Aristocracia.",
+            "D": "Madera : Mueble."
+          },
+          "respuesta": "B",
+          "explicacion": "La mitocondria es un organelo que forma parte intrínseca de la célula."
+        },
+        {
+          "numero": 27,
+          "pregunta": "En el contexto de la expresión \"Sus argumentos resultaron completamente ESPURIOS ante el tribunal\", la palabra capitalizada significa:",
+          "opciones": {
+            "A": "Legítimos.",
+            "B": "Falsos.",
+            "C": "Complejos.",
+            "D": "Convincentes."
+          },
+          "respuesta": "B",
+          "explicacion": "Espurio es algo falso, engañoso o no auténtico."
+        },
+        {
+          "numero": 28,
+          "pregunta": "Elige el conector que otorga cohesión de SIMULTANEIDAD cronológica a las siguientes oraciones: \"El senado debatía la aprobación de la ley; \\_\\_\\_\\_\\_\\_\\_\\_, miles de ciudadanos protestaban en la plaza de la constitución.\"",
+          "opciones": {
+            "A": "Posteriormente.",
+            "B": "Por consiguiente.",
+            "C": "En contraposición.",
+            "D": "Mientras tanto."
+          },
+          "respuesta": "D",
+          "explicacion": "\"Mientras tanto\" establece que ambas acciones ocurren en el mismo lapso de tiempo.\n\n## 3. MATEMÁTICAS (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "nombre": "MATEMÁTICAS",
+      "reactivos": [
+        {
+          "numero": 29,
+          "pregunta": "Al resolver la siguiente jerarquía de operaciones con números enteros: -5 + [ 3 - ( -2 + 4 ) \\times 3 ] - (-7), el resultado axiomático es:",
+          "opciones": {
+            "A": "-5",
+            "B": "1",
+            "C": "-1",
+            "D": "7"
+          },
+          "respuesta": "C",
+          "explicacion": "Se resuelve paréntesis: (-2+4) = 2. Luego multiplicación: 2 x 3 = 6. Corchete: [3 - 6] = -3. Finalmente: -5 + (-3) + 7 = -8 + 7 = -1."
+        },
+        {
+          "numero": 30,
+          "pregunta": "La dosis de un medicamento oncológico es de $3/4$ de miligramo por cada kilogramo de peso corporal. Si un paciente pesa $68.5 \\text{ kg}$, ¿cuántos miligramos exactos del compuesto activo debe recibir?",
+          "opciones": {
+            "A": "51.375 mg",
+            "B": "91.333 mg",
+            "C": "45.750 mg",
+            "D": "55.250 mg"
+          },
+          "respuesta": "A",
+          "explicacion": "Se multiplica el peso por la fracción: $68.5 \\times 0.75 = 51.375$."
+        },
+        {
+          "numero": 31,
+          "pregunta": "Simplifica la siguiente expresión algebraica operando los términos semejantes: 3x^2y - 5xy^2 + 7x^2y + 2xy^2 - 4xy",
+          "opciones": {
+            "A": "$10x^2y - 3xy^2 - 4xy$",
+            "B": "$10x^4y^2 - 3x^2y^4 - 4xy$",
+            "C": "$-2x^2y + 9xy^2 - 4xy$",
+            "D": "$3x^2y$"
+          },
+          "respuesta": "A",
+          "explicacion": "Sumando los coeficientes de variables idénticas: $(3+7)x^2y = 10x^2y$; $(-5+2)xy^2 = -3xy^2$; y el término $-4xy$ queda igual."
+        },
+        {
+          "numero": 32,
+          "pregunta": "Un inversor destina $\\\\$24,000$ en dos fondos distintos. El Fondo A genera un $5\\\\%$ de interés anual, y el Fondo B un $8\\\\%$ anual. Si al final de un año el interés total obtenido es de $\\\\$1,440$, ¿cuál es el sistema de ecuaciones lineales que modela el problema para encontrar el capital invertido en cada fondo?",
+          "opciones": {
+            "A": "$x - y = 24000$ ; $0.05x - 0.08y = 1440$",
+            "B": "$x + y = 24000$ ; $5x + 8y = 1440$",
+            "C": "$x + y = 24000$ ; $0.05x + 0.08y = 1440$",
+            "D": "$0.05x + 0.08y = 24000$ ; $x + y = 1440$"
+          },
+          "respuesta": "C",
+          "explicacion": "$x$ e $y$ suman el capital total. Sus tasas decimales multiplicadas por el capital de cada fondo suman el interés total."
+        },
+        {
+          "numero": 33,
+          "pregunta": "Factoriza completamente el trinomio de la forma $ax^2 + bx + c$: 6x^2 - 7x - 3",
+          "opciones": {
+            "A": "$(3x - 1)(2x + 3)$",
+            "B": "$(2x - 3)(3x + 1)$",
+            "C": "$(6x - 3)(x + 1)$",
+            "D": "$(2x + 3)(3x - 1)$"
+          },
+          "respuesta": "B",
+          "explicacion": "Multiplicando $(2x)(3x)=6x^2$; extremos $(2x)(1)=2x$; medios $(-3)(3x)=-9x$; suma $2x-9x=-7x$; e independientes $(-3)(1)=-3$."
+        },
+        {
+          "numero": 34,
+          "pregunta": "Determina las raíces de la ecuación cuadrática x^2 - 5x - 14 = 0. ¿Qué significado geométrico tienen dichas raíces respecto a la función $y = x^2 - 5x - 14$?",
+          "opciones": {
+            "A": "Las raíces son $x\\_1=7, x\\_2=-2$. Representan los puntos de intersección de la parábola con el eje X (abscisas).",
+            "B": "Las raíces son $x\\_1=-7, x\\_2=2$. Representan el vértice de la parábola.",
+            "C": "Las raíces son $x\\_1=14, x\\_2=1$. Representan los puntos de intersección con el eje Y.",
+            "D": "Las raíces son complejas conjugadas. La parábola no toca el eje X."
+          },
+          "respuesta": "A",
+          "explicacion": "Al factorizar obtenemos $(x-7)(x+2)=0$. Soluciones: 7 y -2. Las raíces de un polinomio igualado a cero son sus cortes con el eje horizontal."
+        },
+        {
+          "numero": 35,
+          "pregunta": "En una encuesta a 120 estudiantes sobre su asignatura favorita, 30 eligieron Historia, 45 Matemáticas, 20 Física y el resto Biología. Si se representa en una gráfica circular, ¿cuántos grados medirá el sector correspondiente a Biología?",
+          "opciones": {
+            "A": "$105^\\circ$",
+            "B": "$75^\\circ$",
+            "C": "$25^\\circ$",
+            "D": "$45^\\circ$"
+          },
+          "respuesta": "B",
+          "explicacion": "Biología = $120 - (30+45+20) = 25$ alumnos. Fracción: $25/120 = 5/24$. En grados: $(5/24) \\times 360^\\circ = 75^\\circ$."
+        },
+        {
+          "numero": 36,
+          "pregunta": "El promedio (media aritmética) de cinco calificaciones es 8.4. Si cuatro de las calificaciones son 9, 7, 8 y 10, ¿cuál es la mediana del conjunto de datos completo?",
+          "opciones": {
+            "A": "8",
+            "B": "8.4",
+            "C": "9",
+            "D": "7"
+          },
+          "respuesta": "A",
+          "explicacion": "Suma total = $8.4 \\times 5 = 42$. La quinta calificación es $42 - (9+7+8+10) = 8$. Datos ordenados: 7, 8, 8, 9, 10. La mediana (valor central) es 8."
+        },
+        {
+          "numero": 37,
+          "pregunta": "Se lanza un par de dados legales de seis caras. ¿Cuál es la probabilidad empírica de que la suma de los números que caen en las caras superiores sea un número primo mayor a 5?",
+          "opciones": {
+            "A": "$5/36$",
+            "B": "$2/9$",
+            "C": "$1/4$",
+            "D": "$7/36$"
+          },
+          "respuesta": "C",
+          "explicacion": "Primos mayores a 5 posibles al tirar dos dados: 7 y 11. Sumas para 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 formas. Sumas para 11: (5,6), (6,5) = 2 formas. Total: $8/36 = 2/9$. \\*Nota: Opción corregida internamente para la DB, la B es 2/9. Respuesta B.\\*"
+        },
+        {
+          "numero": 38,
+          "pregunta": "Dos ángulos son suplementarios. Si uno de ellos excede al triple del otro en $20^\\circ$, determina la medida del ángulo mayor.",
+          "opciones": {
+            "A": "$40^\\circ$",
+            "B": "$140^\\circ$",
+            "C": "$120^\\circ$",
+            "D": "$160^\\circ$"
+          },
+          "respuesta": "B",
+          "explicacion": "Suplementarios suman $180^\\circ$. $x + y = 180$. Si $y = 3x + 20$. Entonces $x + 3x + 20 = 180 \\rightarrow 4x = 160 \\rightarrow x = 40^\\circ$. El mayor es $y = 140^\\circ$."
+        },
+        {
+          "numero": 39,
+          "pregunta": "Una escalera de $6.5 \\text{ m}$ de longitud está apoyada contra una pared vertical. Si la base de la escalera se encuentra a $2.5 \\text{ m}$ de la pared, ¿a qué altura exacta sobre el piso alcanza a tocar la escalera la pared, utilizando el Teorema de Pitágoras?",
+          "opciones": {
+            "A": "$5.5 \\text{ m}$",
+            "B": "$4.0 \\text{ m}$",
+            "C": "$6.0 \\text{ m}$",
+            "D": "$7.0 \\text{ m}$"
+          },
+          "respuesta": "C",
+          "explicacion": "La hipotenusa es $6.5$ y un cateto es $2.5$. El cateto buscado $a = \\sqrt{6.5^2 - 2.5^2} = \\sqrt{42.25 - 6.25} = \\sqrt{36} = 6 \\text{ m}$."
+        },
+        {
+          "numero": 40,
+          "pregunta": "Calcula el volumen de un cilindro recto que tiene un diámetro de base de $10 \\text{ cm}$ y una altura de $15 \\text{ cm}$. Expresa el resultado en función de $\\pi$.",
+          "opciones": {
+            "A": "$150\\pi \\text{ cm}^3$",
+            "B": "$375\\pi \\text{ cm}^3$",
+            "C": "$1500\\pi \\text{ cm}^3$",
+            "D": "$750\\pi \\text{ cm}^3$"
+          },
+          "respuesta": "B",
+          "explicacion": "Radio = $5 \\text{ cm}$. Volumen = Área de base $\\times$ altura = $\\pi r^2 h = \\pi (5^2)(15) = 25 \\times 15\\pi = 375\\pi \\text{ cm}^3$.\n\n## 4. HABILIDAD MATEMÁTICA (16 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "nombre": "HABILIDAD MATEMÁTICA",
+      "reactivos": [
+        {
+          "numero": 41,
+          "pregunta": "Determina el término general (enésimo) de la siguiente sucesión aritmética: -4, 1, 6, 11, 16...",
+          "opciones": {
+            "A": "$5n - 4$",
+            "B": "$5n - 9$",
+            "C": "$4n - 5$",
+            "D": "$-4n + 5$"
+          },
+          "respuesta": "B",
+          "explicacion": "La diferencia constante es $+5$. El término general tiene la forma $dn + b$. $5(1) + b = -4$, por tanto $b = -9$. La fórmula es $5n - 9$."
+        },
+        {
+          "numero": 42,
+          "pregunta": "En la serie geométrica 2, -6, 18, -54..., ¿cuál es el sexto término?",
+          "opciones": {
+            "A": "-486",
+            "B": "486",
+            "C": "-162",
+            "D": "162"
+          },
+          "respuesta": "A",
+          "explicacion": "La razón es $-3$. Términos: $2, -6, 18, -54, 162, -486$."
+        },
+        {
+          "numero": 43,
+          "pregunta": "Identifica el par numérico que rompe la lógica de la siguiente sucesión alterna: 1, 26, 3, 24, 6, 22, 10, 19, 15, 18",
+          "opciones": {
+            "A": "6, 22",
+            "B": "10, 19",
+            "C": "3, 24",
+            "D": "15, 18"
+          },
+          "respuesta": "B",
+          "explicacion": "La serie 1 (impares): 1 (+2) 3 (+3) 6 (+4) 10 (+5) 15. La serie 2 (pares): 26 (-2) 24 (-2) 22 (-2) 20 (-2) 18. El número 19 rompe la serie, debería ser 20."
+        },
+        {
+          "numero": 44,
+          "pregunta": "¿Cuántos cuadrados perfectos existen entre los números 50 y 200, ambos excluidos?",
+          "opciones": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+          },
+          "respuesta": "C",
+          "explicacion": "Los cuadrados en ese rango son: $8^2(64), 9^2(81), 10^2(100), 11^2(121), 12^2(144), 13^2(169), 14^2(196)$. Son 7 números."
+        },
+        {
+          "numero": 45,
+          "pregunta": "Imagina un cubo de madera de 3x3x3 unidades pintado de rojo por fuera. Si se corta en 27 cubitos de 1x1x1 unidad, ¿cuántos cubitos tendrán exactamente dos caras pintadas de rojo?",
+          "opciones": {
+            "A": "8",
+            "B": "12",
+            "C": "6",
+            "D": "24"
+          },
+          "respuesta": "B",
+          "explicacion": "Los cubitos con dos caras pintadas se ubican en el centro de las aristas. Un cubo tiene 12 aristas, y en un 3x3x3 hay exactamente 1 en el medio de cada arista."
+        },
+        {
+          "numero": 46,
+          "pregunta": "Si se desdobla la superficie de un tetraedro regular (pirámide de base triangular), ¿qué figura geométrica plana bidimensional se obtiene?",
+          "opciones": {
+            "A": "Un cuadrado rodeado por 4 triángulos isósceles.",
+            "B": "Un triángulo equilátero mayor compuesto por 4 triángulos equiláteros idénticos.",
+            "C": "Un rectángulo dividido por diagonales.",
+            "D": "Tres triángulos rectángulos unidos por las hipotenusas."
+          },
+          "respuesta": "B",
+          "explicacion": "El desarrollo plano de un tetraedro regular está formado por cuatro triángulos equiláteros (uno central como base y tres laterales que se doblan)."
+        },
+        {
+          "numero": 47,
+          "pregunta": "Se tienen 3 engranes acoplados en línea: A, B y C. El engrane A gira en sentido horario. ¿En qué dirección giran los engranes B y C respectivamente?",
+          "opciones": {
+            "A": "B: horario, C: horario.",
+            "B": "B: antihorario, C: horario.",
+            "C": "B: antihorario, C: antihorario.",
+            "D": "Depende del número de dientes de cada engrane."
+          },
+          "respuesta": "B",
+          "explicacion": "Los engranes acoplados directamente invierten el sentido de rotación. Si A es horario, B es antihorario, por consiguiente C es horario."
+        },
+        {
+          "numero": 48,
+          "pregunta": "Desde un punto P observas un objeto. Giras 90° a la derecha, caminas 10 pasos, giras 180°, caminas 20 pasos, giras 90° a la izquierda y caminas 10 pasos. ¿En qué dirección respecto al punto P inicial y su orientación original te encuentras ahora?",
+          "opciones": {
+            "A": "Detrás de P, mirando en dirección opuesta.",
+            "B": "A la izquierda de P, mirando en la misma dirección inicial.",
+            "C": "A la derecha de P, mirando perpendicularmente.",
+            "D": "A la izquierda de P, mirando en dirección opuesta."
+          },
+          "respuesta": "B",
+          "explicacion": "Trazando el vector en el plano cartesiano: Inicialmente miras al Norte. Giras Este (10 pasos). Giras 180 (miras Oeste) caminas 20 pasos (pasas P y quedas 10 pasos a su izquierda). Giras 90 izq (miras Sur) y caminas 10. Quedas a la izquierda del inicio."
+        },
+        {
+          "numero": 49,
+          "pregunta": "Una cisterna se llena en 4 horas con una manguera A, y se vacía en 6 horas con un desagüe B. Si la cisterna está vacía y se abren A y B simultáneamente, ¿en cuánto tiempo se llenará completamente?",
+          "opciones": {
+            "A": "12 horas",
+            "B": "10 horas",
+            "C": "2 horas",
+            "D": "Nunca se llenará."
+          },
+          "respuesta": "A",
+          "explicacion": "Ecuación de tasas de trabajo: $1/4 - 1/6 = 3/12 - 2/12 = 1/12$. Se llena 1/12 de tanque por hora, por lo que tardará 12 horas."
+        },
+        {
+          "numero": 50,
+          "pregunta": "Si \"Ningún A es B\" y \"Todos los C son A\", entonces se concluye lógicamente e irrefutablemente que:",
+          "opciones": {
+            "A": "Algunos C son B.",
+            "B": "Todos los B son C.",
+            "C": "Ningún C es B.",
+            "D": "Algunos A no son C."
+          },
+          "respuesta": "C",
+          "explicacion": "Silogismo categórico clásico de tipo CELARENT. Si C pertenece por completo al conjunto A, y el conjunto A está totalmente separado de B, entonces C está totalmente separado de B."
+        },
+        {
+          "numero": 51,
+          "pregunta": "En una granja hay gallinas y borregos. Si en total se cuentan 35 cabezas y 110 patas, ¿cuántos borregos hay en la granja?",
+          "opciones": {
+            "A": "15 gallinas y 20 borregos.",
+            "B": "20 borregos y 15 gallinas.",
+            "C": "20 gallinas y 15 borregos.",
+            "D": "No se puede determinar."
+          },
+          "respuesta": "B",
+          "explicacion": "Sistema de ecuaciones: $g + b = 35$, y $2g + 4b = 110$. Multiplicando la primera por -2: $-2g - 2b = -70$. Sumando: $2b = 40 \\rightarrow b = 20$. Hay 20 borregos."
+        },
+        {
+          "numero": 52,
+          "pregunta": "Para escribir todos los números enteros del 1 al 100, ¿cuántas veces en total se utiliza el dígito \"9\"?",
+          "opciones": {
+            "A": "10",
+            "B": "11",
+            "C": "19",
+            "D": "20"
+          },
+          "respuesta": "D",
+          "explicacion": "En las unidades (9, 19, 29... 99) son 10 veces. En las decenas (90, 91, 92... 99) son 10 veces. El 99 tiene dos nueves y se cuenta en ambas categorías. Total = 20 veces."
+        },
+        {
+          "numero": 53,
+          "pregunta": "En un código secreto, la palabra ROMA se escribe como 18-15-13-1. Siguiendo este cifrado criptográfico, ¿qué significa la serie 16-1-26?",
+          "opciones": {
+            "A": "PAZ",
+            "B": "PAN",
+            "C": "PIZ",
+            "D": "PEZ"
+          },
+          "respuesta": "A",
+          "explicacion": "El código utiliza el orden alfabético español internacional sin 'CH' ni 'LL'. R=18, O=15, M=13, A=1. Por lo tanto, 16=P, 1=A, 26=Z. (Asumiendo alfabeto de 27 letras donde Z=27, o alfabeto inglés de 26 donde Z=26. En este contexto lógico estricto, encaja PAZ)."
+        },
+        {
+          "numero": 54,
+          "pregunta": "Juan es mayor que Pedro, Luis es menor que Juan, y Pedro es mayor que Luis. ¿Cuál es el orden estricto de mayor a menor edad?",
+          "opciones": {
+            "A": "Juan, Luis, Pedro.",
+            "B": "Juan, Pedro, Luis.",
+            "C": "Pedro, Juan, Luis.",
+            "D": "Luis, Pedro, Juan."
+          },
+          "respuesta": "B",
+          "explicacion": "Planteamiento de desigualdades: J > P. J > L. P > L. Integrando: J > P > L."
+        },
+        {
+          "numero": 55,
+          "pregunta": "Si el día de ayer fuese mañana, hoy sería viernes. Analizando lógicamente la premisa, ¿qué día es hoy realmente?",
+          "opciones": {
+            "A": "Jueves.",
+            "B": "Miércoles.",
+            "C": "Domingo.",
+            "D": "Lunes."
+          },
+          "respuesta": "B",
+          "explicacion": "\"Ayer fuese mañana (respecto al viernes)\". Si el \"mañana\" del hipotético caso es Jueves (para que hoy fuera viernes). El día cuyo \"ayer\" es Jueves, es el Viernes. Pero si retrocedemos la condicional: Si hoy fuera viernes, mañana sería sábado. Si ayer (martes) fuese sábado, hay un error. Solución correcta: Ayer (miércoles-1 = Martes). Si Martes = Mañana (del supuesto), el supuesto hoy es Lunes. Esta paradoja clásica se resuelve determinando que hoy es Miércoles. (Si ayer [martes] fuese mañana [del lunes], hoy sería [martes? No, la estructura temporal es: Si el día de AYER toma la cualidad temporal de MAÑANA respecto al día objetivo). Resolviendo la ecuación lingüística: Hoy real es Miércoles."
+        },
+        {
+          "numero": 56,
+          "pregunta": "Tienes 9 monedas de idéntico tamaño y apariencia, pero una de ellas es falsa y pesa ligeramente menos. Utilizando una balanza de platillos clásicos, ¿cuál es el mínimo número de pesadas que garantizan 100% encontrar la moneda falsa?",
+          "opciones": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "8"
+          },
+          "respuesta": "A",
+          "explicacion": "Se dividen en grupos de 3-3-3. Pesada 1: Pesas dos grupos. Si pesan igual, la falsa está en el grupo no pesado. Si uno pesa menos, está ahí. Pesada 2: Del grupo de 3 sospechoso, pesas dos monedas. Si son iguales, es la tercera. Si una pesa menos, es esa.\n\n## 5. BIOLOGÍA (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "nombre": "BIOLOGÍA",
+      "reactivos": [
+        {
+          "numero": 57,
+          "pregunta": "La enorme biodiversidad de México se explica biogeográficamente porque su territorio es una zona de transición entre dos regiones ecológicas principales. ¿Cuáles son estas regiones?",
+          "opciones": {
+            "A": "Neártica y Neotropical.",
+            "B": "Paleártica y Mesoamericana.",
+            "C": "Andina y Caribeña.",
+            "D": "Ecuatorial y Holártica."
+          },
+          "respuesta": "A",
+          "explicacion": "El Eje Neovolcánico Transversal marca aproximadamente el límite donde convergen las especies de la región Neártica (Norteamérica) y la Neotropical (Centro y Sudamérica)."
+        },
+        {
+          "numero": 58,
+          "pregunta": "Desde el paradigma darwiniano de la Selección Natural, el aumento de bacterias resistentes a los antibióticos modernos se explica como un proceso donde:",
+          "opciones": {
+            "A": "Las bacterias modifican voluntariamente su ADN para sobrevivir al medicamento.",
+            "B": "El antibiótico actúa como presión selectiva; sobreviven y se reproducen las bacterias que ya poseían mutaciones ventajosas azarosas.",
+            "C": "El cuerpo humano produce anticuerpos más débiles, permitiendo que la bacteria gane fuerza metabólica.",
+            "D": "Los medicamentos sufren degradación química y dejan de inhibir el crecimiento celular patógeno."
+          },
+          "respuesta": "B",
+          "explicacion": "La variabilidad genética preexistente permite que algunos individuos sobrevivan a la presión ambiental (antibiótico) y hereden esa resistencia."
+        },
+        {
+          "numero": 59,
+          "pregunta": "¿Qué proceso metabólico convierte la energía electromagnética (luz) en energía química almacenada en los enlaces covalentes de carbohidratos, y en qué organelo ocurre?",
+          "opciones": {
+            "A": "Respiración celular / Mitocondrias.",
+            "B": "Quimiosíntesis / Ribosomas.",
+            "C": "Fermentación láctica / Citoplasma.",
+            "D": "Fotosíntesis / Cloroplastos."
+          },
+          "respuesta": "D",
+          "explicacion": "Los organismos autótrofos fotosintéticos fijan carbono en los cloroplastos utilizando los fotones de luz."
+        },
+        {
+          "numero": 60,
+          "pregunta": "En una cadena trófica representativa de la sabana, identifica el rol ecológico de los hongos y bacterias del suelo:",
+          "opciones": {
+            "A": "Productores primarios que inician el flujo de biomasa.",
+            "B": "Consumidores secundarios omnívoros.",
+            "C": "Desintegradores o detritívoros que reciclan materia inorgánica al ecosistema.",
+            "D": "Depredadores ápice poblacionales."
+          },
+          "respuesta": "C",
+          "explicacion": "Cierran el ciclo biogeoquímico al descomponer materia orgánica muerta devolviendo nutrientes al sustrato."
+        },
+        {
+          "numero": 61,
+          "pregunta": "La diferencia fundamental, a nivel de rendimiento energético, entre la respiración aerobia y la anaerobia (fermentación) es que:",
+          "opciones": {
+            "A": "La aerobia no requiere oxígeno y genera 2 moléculas de ATP, mientras que la anaerobia produce 36 ATP.",
+            "B": "La aerobia utiliza oxígeno como aceptor final de electrones produciendo hasta 38 ATP por glucosa; la anaerobia solo rinde 2 ATP.",
+            "C": "La anaerobia ocurre exclusivamente en plantas durante la noche.",
+            "D": "Ambas producen la misma cantidad neta de energía celular metabólica."
+          },
+          "respuesta": "B",
+          "explicacion": "El ciclo de Krebs y la cadena de transporte de electrones (aerobia) son infinitamente más eficientes que la glucólisis aislada (anaerobia)."
+        },
+        {
+          "numero": 62,
+          "pregunta": "Una dieta excesivamente rica en carbohidratos simples y grasas saturadas, sumada al sedentarismo crónico, altera los receptores celulares de insulina. Este cuadro clínico se diagnostica primariamente como:",
+          "opciones": {
+            "A": "Diabetes Mellitus Tipo 1.",
+            "B": "Anemia ferropénica severa.",
+            "C": "Diabetes Mellitus Tipo 2 (resistencia a la insulina).",
+            "D": "Kwashiorkor."
+          },
+          "respuesta": "C",
+          "explicacion": "La resistencia a la insulina adquirida por malos hábitos nutricionales caracteriza a la Diabetes Tipo 2."
+        },
+        {
+          "numero": 63,
+          "pregunta": "La alteración antropogénica del ciclo del carbono mediante emisiones industriales genera el Efecto Invernadero exacerbado. Biológicamente, ¿qué consecuencia sistémica acarrea este fenómeno en los océanos?",
+          "opciones": {
+            "A": "Congelamiento acelerado de las corrientes superficiales marinas.",
+            "B": "Acidificación del océano (disminución del pH) que disuelve el carbonato de calcio de los arrecifes coralinos.",
+            "C": "Aumento de la tasa fotosintética del fitoplancton, estabilizando el clima inmediatamente.",
+            "D": "Disminución absoluta del volumen de agua oceánica debido a la evaporación masiva."
+          },
+          "respuesta": "B",
+          "explicacion": "El exceso de CO2 absorbido por el mar forma ácido carbónico, amenazando a crustáceos y corales (blanqueamiento)."
+        },
+        {
+          "numero": 64,
+          "pregunta": "La división celular que permite la variabilidad genética y mantiene constante el número diploide (2n) de una especie tras la fecundación, originando gametos haploides (n), se denomina:",
+          "opciones": {
+            "A": "Mitosis.",
+            "B": "Meiosis.",
+            "C": "Bipartición.",
+            "D": "Fisión binaria."
+          },
+          "respuesta": "B",
+          "explicacion": "La meiosis consta de dos divisiones que reducen a la mitad la carga genética, fundamental para la reproducción sexual."
+        },
+        {
+          "numero": 65,
+          "pregunta": "Un método anticonceptivo de barrera que, además de prevenir embarazos no deseados, ofrece una alta eficacia profiláctica contra las Infecciones de Transmisión Sexual (ITS) es:",
+          "opciones": {
+            "A": "El Dispositivo Intrauterino (DIU) de Cobre.",
+            "B": "La píldora anticonceptiva de emergencia.",
+            "C": "El método de ritmo u Ogino-Knaus.",
+            "D": "El preservativo masculino o femenino (condón)."
+          },
+          "respuesta": "D",
+          "explicacion": "Único método que bloquea mecánicamente el intercambio de fluidos portadores de agentes patógenos virales o bacterianos."
+        },
+        {
+          "numero": 66,
+          "pregunta": "El Virus de Inmunodeficiencia Humana (VIH) ataca específicamente a:",
+          "opciones": {
+            "A": "Los glóbulos rojos, impidiendo el transporte de oxígeno.",
+            "B": "Las células del páncreas, provocando fallo metabólico.",
+            "C": "Los linfocitos T CD4, comprometiendo drásticamente el sistema inmunológico adaptativo.",
+            "D": "Las neuronas del sistema nervioso central."
+          },
+          "respuesta": "C",
+          "explicacion": "Al destruir las células T, el cuerpo queda indefenso ante infecciones oportunistas, etapa conocida como SIDA."
+        },
+        {
+          "numero": 67,
+          "pregunta": "En genética mendeliana, el término \"genotipo\" se refiere ontológicamente a:",
+          "opciones": {
+            "A": "La expresión física y observable de un rasgo en el individuo.",
+            "B": "La constitución genética completa o los alelos específicos que posee un organismo en su ADN.",
+            "C": "El proceso artificial de clonación de una cadena nucleotídica.",
+            "D": "El medio ambiente que rodea al individuo y modifica su comportamiento."
+          },
+          "respuesta": "B",
+          "explicacion": "El genotipo es la información subyacente (Ej: heterocigoto Aa); el fenotipo es lo que se manifiesta (Ej: color verde)."
+        },
+        {
+          "numero": 68,
+          "pregunta": "La tecnología del ADN recombinante (ingeniería genética) permite insertar genes humanos en bacterias como \\*E. coli\\* para producir insulina sintética. Un beneficio ético y social indiscutible de esta biotecnología es:",
+          "opciones": {
+            "A": "La extinción planificada de especies invasoras.",
+            "B": "La privatización del genoma de mamíferos para evitar mutaciones.",
+            "C": "El abastecimiento seguro, masivo y accesible de medicamentos vitales para enfermedades crónicas.",
+            "D": "La creación de quimeras humanas para experimentación sin regulación legal."
+          },
+          "respuesta": "C",
+          "explicacion": "Antes de esta técnica, la insulina se extraía de cerdos o vacas, proceso lento, costoso y con riesgos de rechazo inmunológico.\n\n## 6. FÍSICA (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "nombre": "FÍSICA",
+      "reactivos": [
+        {
+          "numero": 69,
+          "pregunta": "Un automóvil frena uniformemente y disminuye su rapidez de 20 m/s a 0 m/s en 4 segundos. La magnitud y dirección de su aceleración escalar es:",
+          "opciones": {
+            "A": "$5 \\text{ m/s}^2$ en la misma dirección del movimiento.",
+            "B": "$-5 \\text{ m/s}^2$ indicando una dirección opuesta al movimiento.",
+            "C": "$-20 \\text{ m/s}^2$ indicando pérdida total de energía.",
+            "D": "$80 \\text{ m/s}^2$ de frenado."
+          },
+          "respuesta": "B",
+          "explicacion": "Aceleración = (V\\_final - V\\_inicial) / tiempo = (0 - 20) / 4 = -5 m/s^2. El signo negativo denota vectorialmente un freno."
+        },
+        {
+          "numero": 70,
+          "pregunta": "De acuerdo con la Primera Ley de Newton (Inercia), si sobre un objeto que se mueve a velocidad constante por el espacio vacío de pronto la suma de todas las fuerzas externas se vuelve exactamente cero, el objeto:",
+          "opciones": {
+            "A": "Se detendrá inmediatamente debido a la falta de fuerza propulsora.",
+            "B": "Comenzará a acelerar progresivamente absorbiendo energía del vacío.",
+            "C": "Modificará su trayectoria hacia una órbita circular.",
+            "D": "Mantendrá su estado de movimiento rectilíneo uniforme indefinidamente."
+          },
+          "respuesta": "D",
+          "explicacion": "Un objeto mantiene su estado de reposo o MRU a menos que una fuerza neta externa no nula actúe sobre él."
+        },
+        {
+          "numero": 71,
+          "pregunta": "Dos bloques metálicos A y B de distinto material tienen la misma masa. Al bloque A se le suministran 100 Joules de calor y su temperatura sube 10 °C. Al bloque B se le suministran 100 Joules y sube 5 °C. Con rigor termodinámico se concluye que:",
+          "opciones": {
+            "A": "El calor específico del material B es el doble que el del material A.",
+            "B": "El calor específico del material A es el doble que el del material B.",
+            "C": "Ambos carecen de inercia térmica.",
+            "D": "El bloque A tiene mayor conductividad eléctrica."
+          },
+          "respuesta": "A",
+          "explicacion": "Calor = m \\* c \\* deltaT. A menor incremento de temperatura (B) ante igual energía, mayor capacidad calorífica específica tiene."
+        },
+        {
+          "numero": 72,
+          "pregunta": "El Principio de Pascal establece que la presión ejercida sobre un fluido incompresible confinado se transmite íntegramente en todas las direcciones. La aplicación tecnológica más representativa de este axioma hidroestático es:",
+          "opciones": {
+            "A": "El motor de combustión interna.",
+            "B": "La prensa hidráulica y los sistemas de frenado de los automóviles.",
+            "C": "El ala de un avión (fuerza de sustentación).",
+            "D": "El termómetro de mercurio."
+          },
+          "respuesta": "B",
+          "explicacion": "En la prensa hidráulica, una pequeña fuerza en un émbolo menor genera gran presión que se traduce en una fuerza enorme en el émbolo mayor (F1/A1 = F2/A2)."
+        },
+        {
+          "numero": 73,
+          "pregunta": "Un circuito consta de una batería de 12 Volts conectada a una resistencia óhmica de 4 Ohms. Aplicando la Ley de Ohm empírica, la intensidad de corriente que fluye por el conductor es:",
+          "opciones": {
+            "A": "48 Amperes.",
+            "B": "3 Amperes.",
+            "C": "0.33 Amperes.",
+            "D": "16 Amperes."
+          },
+          "respuesta": "B",
+          "explicacion": "I = V / R = 12 V / 4 Ohms = 3 Amperes."
+        },
+        {
+          "numero": 74,
+          "pregunta": "El fenómeno de \"inducción electromagnética\" formulado por Faraday postula que:",
+          "opciones": {
+            "A": "Cargas eléctricas en reposo repelen magnéticamente a las brújulas.",
+            "B": "Un campo magnético variable en el tiempo genera una fuerza electromotriz (corriente) en un circuito cerrado.",
+            "C": "La luz blanca se difracta en el vacío sin requerir un medio material.",
+            "D": "La materia oscura desvía los campos eléctricos a escalas cuánticas."
+          },
+          "respuesta": "B",
+          "explicacion": "Este es el principio fundamental detrás del funcionamiento de los generadores eléctricos (transformar energía mecánica rotacional en corriente)."
+        },
+        {
+          "numero": 75,
+          "pregunta": "En el espectro electromagnético, las ondas de radio y los rayos X se propagan a la misma velocidad (la de la luz en el vacío), pero difieren fundamentalmente en que:",
+          "opciones": {
+            "A": "Los rayos X tienen mayor longitud de onda y menor frecuencia que la radio.",
+            "B": "Las ondas de radio requieren un medio material como el aire para propagarse.",
+            "C": "Los rayos X tienen altísima frecuencia, longitud de onda muy corta y mayor energía cuántica.",
+            "D": "Las ondas de radio son de naturaleza acústica y los rayos X de naturaleza óptica."
+          },
+          "respuesta": "C",
+          "explicacion": "Energía y frecuencia son directamente proporcionales (E=hf). Los rayos X son radiación ionizante por su alta energía, a diferencia de la radio."
+        },
+        {
+          "numero": 76,
+          "pregunta": "La diferencia conceptual entre la masa y el peso gravitacional de un cuerpo radica en que:",
+          "opciones": {
+            "A": "La masa es una magnitud vectorial; el peso es una magnitud escalar térmica.",
+            "B": "La masa mide la inercia (cantidad de materia) invariante del cuerpo; el peso es la fuerza con la que un campo gravitacional atrae esa masa.",
+            "C": "La masa cambia dependiendo de la altura sobre el nivel del mar; el peso es constante universalmente.",
+            "D": "Son términos científicamente sinónimos utilizados para medir volumen cúbico."
+          },
+          "respuesta": "B",
+          "explicacion": "La masa se mide en kg. El peso es un vector fuerza y se mide en Newtons (W = mg), dependiendo del astro."
+        },
+        {
+          "numero": 77,
+          "pregunta": "Un estudiante frota vigorosamente un globo contra su suéter de lana. El globo adquiere la capacidad de atraer pequeños trozos de papel. Este mecanismo físico de transferencia electrónica se denomina:",
+          "opciones": {
+            "A": "Electrización por inducción.",
+            "B": "Polarización electroquímica.",
+            "C": "Electrización por frotamiento (triboelectricidad).",
+            "D": "Conducción directa de protones."
+          },
+          "respuesta": "C",
+          "explicacion": "Al frotar, se arrancan electrones de la superficie de un material hacia el otro, desequilibrando sus cargas netas."
+        },
+        {
+          "numero": 78,
+          "pregunta": "Según el modelo cinético de partículas de la materia, cuando el agua líquida ebulle y cambia a fase gaseosa (vapor):",
+          "opciones": {
+            "A": "Las moléculas de agua se rompen químicamente liberando átomos de hidrógeno y oxígeno.",
+            "B": "La energía cinética promedio de las moléculas aumenta, venciendo las fuerzas de cohesión intermoleculares y expandiéndose en el volumen disponible.",
+            "C": "La masa total del sistema aumenta por la absorción del calor exterior (conservación de energía).",
+            "D": "Las partículas dejan de moverse (cero absoluto) debido a la altísima presión del gas."
+          },
+          "respuesta": "B",
+          "explicacion": "Los cambios de fase son físicos, no químicos. Romper enlaces intermoleculares requiere calor latente, aumentando el grado de agitación."
+        },
+        {
+          "numero": 79,
+          "pregunta": "Dos polos magnéticos de igual denominación (Norte y Norte) que se acercan uno al otro, de acuerdo a la ley de interacción de los campos magnéticos:",
+          "opciones": {
+            "A": "Experimentan una fuerza de atracción mutua logarítmica.",
+            "B": "Generan espontáneamente un monopolo magnético aislado.",
+            "C": "Experimentan una fuerza de repulsión que aumenta cuadráticamente a menor distancia.",
+            "D": "Se neutralizan y pierden su magnetización instantáneamente."
+          },
+          "respuesta": "C",
+          "explicacion": "Polos iguales se repelen. Polos opuestos se atraen. Las líneas de campo magnético nunca se cruzan."
+        },
+        {
+          "numero": 80,
+          "pregunta": "Para una onda mecánica transversal viajando por una cuerda, la distancia rectilínea comprendida entre dos crestas sucesivas o dos valles sucesivos se define analíticamente como:",
+          "opciones": {
+            "A": "Amplitud de oscilación.",
+            "B": "Periodo de fase temporal.",
+            "C": "Longitud de onda ($\\lambda$).",
+            "D": "Frecuencia de resonancia."
+          },
+          "respuesta": "C",
+          "explicacion": "La longitud de onda es el espacio geométrico necesario para completar un ciclo ondulatorio espacial.\n\n## 7. QUÍMICA (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "nombre": "QUÍMICA",
+      "reactivos": [
+        {
+          "numero": 81,
+          "pregunta": "Un trozo de hielo se derrite al sol, y posteriormente, un trozo de madera arde en una fogata liberando cenizas. Según la epistemología química de los cambios de la materia:",
+          "opciones": {
+            "A": "Ambos son fenómenos químicos porque existe transferencia exotérmica de calor.",
+            "B": "El hielo sufre un cambio químico (hidrólisis) y la madera un cambio físico (fragmentación).",
+            "C": "El derretimiento es un cambio físico (solo altera el estado de agregación molecular), mientras la combustión es un cambio químico profundo que altera la estructura interna y genera nuevas sustancias.",
+            "D": "La masa no se conserva en ninguno de los dos procesos según las leyes termodinámicas."
+          },
+          "respuesta": "C",
+          "explicacion": "Un cambio químico rompe enlaces intramoleculares y reordena los átomos (combustión). El físico mantiene intacta la molécula (H2O sólido a H2O líquido)."
+        },
+        {
+          "numero": 82,
+          "pregunta": "El isótopo más común del Carbono (Carbono-12) tiene un Número Atómico (Z) de 6 y una Masa Atómica (A) de 12. De estas cifras empíricas se deduce innegablemente que el núcleo de este átomo posee:",
+          "opciones": {
+            "A": "12 protones y 6 electrones orbitando.",
+            "B": "6 protones y 6 neutrones unidos por fuerza nuclear fuerte.",
+            "C": "6 neutrones libres y 12 protones ionizados.",
+            "D": "6 positrones en la corteza y 12 quarks en el centro."
+          },
+          "respuesta": "B",
+          "explicacion": "Z indica los protones (6). A es la suma de protones y neutrones (12). Por tanto, Neutrones = A - Z = 12 - 6 = 6."
+        },
+        {
+          "numero": 83,
+          "pregunta": "La organización sistémica de la Tabla Periódica moderna agrupa los elementos en \"Familias\" o \"Grupos\" verticales principalmente porque los elementos que comparten una columna:",
+          "opciones": {
+            "A": "Tienen exactamente la misma masa atómica ponderada.",
+            "B": "Fueron descubiertos en la misma época histórica.",
+            "C": "Poseen el mismo número de electrones en su capa de valencia (última órbita), lo que confiere propiedades químicas análogas.",
+            "D": "Pertenecen exclusivamente a la categoría de los gases nobles diatómicos."
+          },
+          "respuesta": "C",
+          "explicacion": "Los electrones de valencia determinan la reactividad. Ejemplo: Los halógenos (Grupo VIIA) siempre tienen 7 electrones, haciéndolos muy reactivos."
+        },
+        {
+          "numero": 84,
+          "pregunta": "En la molécula diatómica de Oxígeno ($O\\_2$), ambos átomos necesitan dos electrones para cumplir la regla del octeto. La estructura de Lewis que ilustra este comportamiento establece que:",
+          "opciones": {
+            "A": "Un átomo de oxígeno cede sus 6 electrones al otro conformando un enlace iónico extremo.",
+            "B": "Comparten dos pares de electrones formando un enlace covalente doble estable.",
+            "C": "Forman un enlace metálico deslocalizado con cationes flotantes.",
+            "D": "Se repelen por tener electronegatividades diametralmente idénticas, impidiendo el enlace sólido."
+          },
+          "respuesta": "B",
+          "explicacion": "Al ser no metales idénticos, comparten electrones equitativamente (covalente no polar). Compartir 4 electrones en total (2 pares) forma el doble enlace (O=O)."
+        },
+        {
+          "numero": 85,
+          "pregunta": "La neutralización clásica es una reacción entre un ácido y una base (hidróxido). ¿Cuáles son sistemáticamente los productos resultantes de la reacción entre el Ácido Clorhídrico ($HCl$) y el Hidróxido de Sodio ($NaOH$)?",
+          "opciones": {
+            "A": "Sodio metálico precipitado y Cloro gaseoso tóxico.",
+            "B": "Cloruro de Sodio (Sal) y Agua ($H\\_2O$).",
+            "C": "Ácido sulfúrico diluido y amoniaco líquido.",
+            "D": "Óxido de Sodio y una base conjugada fuerte."
+          },
+          "respuesta": "B",
+          "explicacion": "HCl + NaOH -> NaCl + H2O. Toda neutralización de Arrhenius rinde sal y agua."
+        },
+        {
+          "numero": 86,
+          "pregunta": "El postulado ontológico fundamental que Lavoisier aportó a la química moderna (Ley de la Conservación de la Masa) dicta que en un sistema cerrado durante una reacción química:",
+          "opciones": {
+            "A": "La energía total se disipa irreversiblemente en forma de entropía.",
+            "B": "Los átomos reactivos se destruyen para permitir la creación espontánea de nuevos elementos pesados.",
+            "C": "La suma de la masa de los reactivos es axiomáticamente idéntica a la suma de la masa de los productos generados.",
+            "D": "El peso de los gases liberados no se considera como masa sustancial."
+          },
+          "respuesta": "C",
+          "explicacion": "\"La materia no se crea ni se destruye, solo se transforma\". Los átomos simplemente se reordenan."
+        },
+        {
+          "numero": 87,
+          "pregunta": "El valor numérico de la constante de Avogadro ($6.022 \\times 10^{23}$) representa epistemológicamente:",
+          "opciones": {
+            "A": "La velocidad a la que reaccionan los halógenos a presión atmosférica estándar.",
+            "B": "La cantidad exacta de átomos o moléculas entidades discretas contenidas en un \"mol\" de cualquier sustancia pura.",
+            "C": "La carga electrostática indivisible de un electrón solitario.",
+            "D": "El peso en gramos de un litro de oxígeno puro a $0^\\circ$ Celsius."
+          },
+          "respuesta": "B",
+          "explicacion": "El mol es la unidad del Sistema Internacional para cantidad de sustancia; es el \"puente\" que conecta el mundo microscópico (átomos) con el macroscópico (gramos)."
+        },
+        {
+          "numero": 88,
+          "pregunta": "Un método instrumental altamente eficiente para separar mezclas homogéneas líquidas formadas por sustancias con diferentes puntos de ebullición (ej. separación de hidrocarburos en una refinería petrolera) es:",
+          "opciones": {
+            "A": "Centrifugación a altísimas revoluciones.",
+            "B": "Cristalización por sobresaturación.",
+            "C": "Destilación fraccionada.",
+            "D": "Decantación gravitacional simple."
+          },
+          "respuesta": "C",
+          "explicacion": "La destilación evapora primero la sustancia más volátil (menor punto de ebullición) y luego la condensa en un tubo refrigerante, permitiendo separaciones precisas."
+        },
+        {
+          "numero": 89,
+          "pregunta": "Balancea meticulosamente la siguiente ecuación de síntesis mediante tanteo algebraico: \\_ N\\_2 + \\_ H\\_2 \\rightarrow \\_ NH\\_3. ¿Cuáles son los coeficientes estequiométricos correctos?",
+          "opciones": {
+            "A": "2, 3, 2",
+            "B": "1, 3, 2",
+            "C": "1, 2, 3",
+            "D": "2, 6, 4"
+          },
+          "respuesta": "B",
+          "explicacion": "En reactivos hay N2. Para que salgan 2N en el producto (NH3), se requiere el coeficiente 2: 2NH3. Esto demanda 6H. En reactivos, para tener 6H, multiplicamos H2 por 3. Queda: 1 N2 + 3 H2 -> 2 NH3."
+        },
+        {
+          "numero": 90,
+          "pregunta": "En las reacciones químicas de óxido-reducción (redox), el agente oxidante se caracteriza fundamentalmente porque:",
+          "opciones": {
+            "A": "Aumenta su número de oxidación donando protones al medio acuoso.",
+            "B": "Gana electrones reduciéndose a sí mismo, facilitando la oxidación de la otra sustancia.",
+            "C": "Es un catalizador que acelera la reacción sin alterar los estados de oxidación.",
+            "D": "Es exclusivamente una sustancia diatómica con enlaces triples."
+          },
+          "respuesta": "B",
+          "explicacion": "Un agente oxidante arranca electrones (oxida a otro); al ganar esos electrones, su propio estado de oxidación disminuye, es decir, se reduce."
+        },
+        {
+          "numero": 91,
+          "pregunta": "Identifica el tipo de solución acuosa que posee una altísima concentración de iones Hidrógeno ($H^+$) y registra un valor de 1.5 en la escala de pH:",
+          "opciones": {
+            "A": "Alcalina fuerte, como la lejía.",
+            "B": "Neutra estricta, como el agua bidestilada.",
+            "C": "Ácida extremadamente fuerte, como el ácido clorhídrico estomacal.",
+            "D": "Suspensión coloidal anfótera."
+          },
+          "respuesta": "C",
+          "explicacion": "La escala de pH va de 0 a 14. Valores de 0 a 6.9 son ácidos (alta concentración de $H^+$). Valores cercanos a 0 son corrosivos/fuertes."
+        },
+        {
+          "numero": 92,
+          "pregunta": "El átomo, aunque concebido etimológicamente por Demócrito como \"indivisible\", es un sistema complejo. Identifica la carga electrostática intrínseca de sus subpartículas fundacionales:",
+          "opciones": {
+            "A": "Protón: neutra. Electrón: negativa. Neutrón: positiva.",
+            "B": "Protón: positiva. Electrón: negativa. Neutrón: carece de carga eléctrica (neutra).",
+            "C": "Protón: positiva. Electrón: neutra. Neutrón: negativa.",
+            "D": "Las tres partículas oscilan de carga dependiendo del campo cuántico circundante."
+          },
+          "respuesta": "B",
+          "explicacion": "Concepto atómico elemental. El núcleo agrupa masa (protones positivos y neutrones), mientras que las órbitas poseen electrones (negativos).\n\n## 8. HISTORIA (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "nombre": "HISTORIA",
+      "reactivos": [
+        {
+          "numero": 93,
+          "pregunta": "El movimiento intelectual del siglo XVIII conocido como la Ilustración, o \"Siglo de las Luces\", desafió las bases del Antiguo Régimen propugnando ideas subversivas para la época. ¿Cuál de los siguientes principios NO corresponde al marco ontológico ilustrado?",
+          "opciones": {
+            "A": "La soberanía nacional radica en el pueblo y no en el derecho divino de los reyes.",
+            "B": "La división de poderes evita la tiranía del estado absolutista.",
+            "C": "El dogmatismo teológico es el único camino infalible para el avance social e institucional.",
+            "D": "La razón empírica es el instrumento humano supremo para conocer y transformar el mundo."
+          },
+          "respuesta": "C",
+          "explicacion": "La Ilustración (Voltaire, Rousseau, Montesquieu) era ferozmente crítica del dogmatismo eclesiástico, promoviendo el racionalismo."
+        },
+        {
+          "numero": 94,
+          "pregunta": "Durante la Segunda Revolución Industrial (mediados del S.XIX), el imperialismo europeo fragmentó el mapa geopolítico de África y Asia. La principal motivación macroeconómica subyacente a esta expansión colonizadora fue:",
+          "opciones": {
+            "A": "La imperiosa necesidad cívica de educar y democratizar a las sociedades tribales.",
+            "B": "La urgencia de asegurar nuevas fuentes baratas de materias primas y mercados cautivos para absorber la sobreproducción manufacturera.",
+            "C": "El establecimiento de rutas pacíficas de intercambio puramente cultural y filosófico.",
+            "D": "Contener el inminente avance del bloque soviético comunista en el hemisferio sur."
+          },
+          "respuesta": "B",
+          "explicacion": "El imperialismo industrial buscaba materias primas (caucho, minerales, algodón) y mercados dependientes para vender sus productos excedentes (monopolios)."
+        },
+        {
+          "numero": 95,
+          "pregunta": "En el contexto de la Segunda Guerra Mundial, el eje del conflicto giró en torno al expansionismo fascista y nacional-socialista (Tercer Reich). ¿Qué evento táctico precipitó la entrada directa e irreversible de los Estados Unidos en la conflagración militar?",
+          "opciones": {
+            "A": "El Tratado de Versalles y las humillantes reparaciones de guerra exigidas a Alemania.",
+            "B": "El ataque sorpresivo aeronaval del Imperio de Japón a la base de Pearl Harbor en 1941.",
+            "C": "La invasión alemana de Polonia bajo el esquema bélico del Blitzkrieg.",
+            "D": "La Revolución Bolchevique liderada por Lenin en 1917."
+          },
+          "respuesta": "B",
+          "explicacion": "Pearl Harbor (7 dic 1941) forzó a EE.UU. a abandonar su política aislacionista y declarar la guerra al Eje (Japón, Alemania, Italia)."
+        },
+        {
+          "numero": 96,
+          "pregunta": "En Mesoamérica, la cultura hegemónica a la llegada de los españoles basaba su poderío geopolítico en un férreo sistema de tributaje impuesto a los pueblos vasallos y una cosmovisión militarista-religiosa (Guerra Florida). Esta civilización era:",
+          "opciones": {
+            "A": "Los Olmecas en el golfo de México.",
+            "B": "Los Mayas del período clásico en la península de Yucatán.",
+            "C": "Los Mexicas (Aztecas) asentados en la cuenca de México-Tenochtitlán.",
+            "D": "Los Toltecas en el altiplano central."
+          },
+          "respuesta": "C",
+          "explicacion": "El Imperio Mexica mantenía subyugada a gran parte de Mesoamérica cobrando pesados tributos, factor clave que Hernán Cortés explotó al aliarse con los tlaxcaltecas."
+        },
+        {
+          "numero": 97,
+          "pregunta": "La consumación de la Independencia de México (1821) no significó la pacificación inmediata del país. Por el contrario, el siglo XIX se caracterizó por la pugna cruda, política y bélica entre dos proyectos de nación antagónicos:",
+          "opciones": {
+            "A": "Monárquicos vs. Oligarcas corporativistas.",
+            "B": "Liberales (federalistas, secularizadores) vs. Conservadores (centralistas, pro-Iglesia).",
+            "C": "Socialistas marxistas vs. Fascistas corporativos.",
+            "D": "Indigenistas vs. Criollos reformistas."
+          },
+          "respuesta": "B",
+          "explicacion": "Liberales (Juárez, Lerdo) buscaban una república federal y laica; los conservadores (Miramón, Alamán) un gobierno central fuerte apoyado por el clero e incluso monarquías extranjeras."
+        },
+        {
+          "numero": 98,
+          "pregunta": "El gobierno de Porfirio Díaz (El Porfiriato) logró la estabilización económica a través de la política \"Orden y Progreso\" sustentada en el Positivismo. Sin embargo, su principal dialéctica de contradicción (la causa profunda de la Revolución Mexicana) fue:",
+          "opciones": {
+            "A": "La expulsión absoluta del capital extranjero de ferrocarriles y minas.",
+            "B": "La concesión de vastas tierras y derechos sindicales a campesinos y obreros textiles.",
+            "C": "La extrema desigualdad social, el latifundismo feroz y la nula movilidad o democratización política.",
+            "D": "El radical anticlericalismo que desencadenó la Guerra Cristera de manera prematura."
+          },
+          "respuesta": "C",
+          "explicacion": "A pesar del auge macroeconómico, las clases bajas sufrían peonaje, despojo de tierras (leyes de baldíos) y represión armada ante huelgas (Cananea y Río Blanco)."
+        },
+        {
+          "numero": 99,
+          "pregunta": "La Constitución Política de 1917, promulgada por Venustiano Carranza, es históricamente trascendental a nivel mundial debido a que fue la primera en:",
+          "opciones": {
+            "A": "Institucionalizar la división tripartita clásica de poderes (Ejecutivo, Legislativo, Judicial).",
+            "B": "Garantizar los Derechos Sociales irrenunciables (educación laica, derecho a huelga obrera y restitución agraria).",
+            "C": "Establecer el libre comercio irrestricto y la desregulación financiera.",
+            "D": "Aprobar el voto femenino universal e incondicional en las elecciones federales."
+          },
+          "respuesta": "B",
+          "explicacion": "Los Artículos 3, 27 y 123 consagraron respectivamente la educación gratuita laica, el derecho agrario/propiedad nacional del subsuelo, y los derechos laborales."
+        },
+        {
+          "numero": 100,
+          "pregunta": "La Guerra Fría (1945-1991) estructuró el escenario internacional de la posguerra. Este periodo histórico estuvo definido por:",
+          "opciones": {
+            "A": "Un prolongado conflicto bélico en las trincheras de Europa Occidental liderado por potencias del eje.",
+            "B": "La ausencia total de desarrollo tecnológico, debido al estancamiento de las superpotencias.",
+            "C": "Un choque bipolar ideológico y armamentístico entre el bloque capitalista (EE.UU.) y el bloque socialista (URSS), evitando el combate nuclear directo.",
+            "D": "La unidad monolítica del Consejo de Seguridad de la ONU que pacificó los Balcanes y el Medio Oriente."
+          },
+          "respuesta": "C",
+          "explicacion": "EE.UU. y la Unión Soviética compitieron geopolíticamente a través de guerras subsidiarias (Corea, Vietnam) y la carrera espacial/armamentista, sin declararse guerra frontal."
+        },
+        {
+          "numero": 101,
+          "pregunta": "El Neoliberalismo se implementó en México principalmente durante las décadas de 1980 y 1990 como respuesta a la hiperinflación. La política estructural clave que definió este modelo tecno-económico fue:",
+          "opciones": {
+            "A": "La privatización masiva de empresas estatales, la reducción del gasto público y la apertura al Tratado de Libre Comercio (TLCAN).",
+            "B": "El retorno a una economía cerrada basada estrictamente en la Industrialización por Sustitución de Importaciones (ISI).",
+            "C": "La nacionalización de la banca extranjera y la expropiación de tierras petroleras en alta mar.",
+            "D": "El fomento agresivo de políticas proteccionistas y la prohibición de Inversión Extranjera Directa."
+          },
+          "respuesta": "A",
+          "explicacion": "El neoliberalismo reduce la intervención del Estado en la economía, vende paraestatales (ej. Telmex) y abre fronteras al mercado internacional."
+        },
+        {
+          "numero": 102,
+          "pregunta": "El Humanismo, surgido en el Renacimiento italiano, trastocó la epistemología de la Edad Media debido a que su pilar filosófico central fue el antropocentrismo. Esto implicó:",
+          "opciones": {
+            "A": "Considerar que el universo geocéntrico giraba físicamente en torno al individuo.",
+            "B": "Desplazar a Dios del centro explicativo del universo para colocar al ser humano, la razón y el estudio empírico de la naturaleza en el núcleo del saber.",
+            "C": "Fomentar la resignación mística ante el destino divino y rechazar el progreso artístico o científico.",
+            "D": "Negar sistemáticamente la existencia de la divinidad instaurando un ateísmo de Estado."
+          },
+          "respuesta": "B",
+          "explicacion": "El antropocentrismo valora la dignidad humana intelectual, redescubriendo a los clásicos grecolatinos e impulsando la ciencia empírica por encima del escolasticismo religioso cerrado."
+        },
+        {
+          "numero": 103,
+          "pregunta": "La expropiación petrolera decretada el 18 de marzo de 1938 es un hito del nacionalismo económico mexicano. Este acto soberano fue ejecutado por el gobierno presidencial del General:",
+          "opciones": {
+            "A": "Plutarco Elías Calles.",
+            "B": "Manuel Ávila Camacho.",
+            "C": "Lázaro Cárdenas del Río.",
+            "D": "Álvaro Obregón."
+          },
+          "respuesta": "C",
+          "explicacion": "Lázaro Cárdenas aplicó el artículo 27 constitucional para nacionalizar la industria frente a la negativa de las compañías extranjeras a mejorar condiciones laborales."
+        },
+        {
+          "numero": 104,
+          "pregunta": "Durante la década de 1960, el proceso de \"Descolonización\" reconfiguró el mundo. Este fenómeno histórico consistió predominantemente en:",
+          "opciones": {
+            "A": "La emigración forzada de poblaciones latinoamericanas hacia Estados Unidos.",
+            "B": "La ocupación militar de Europa oriental por parte del Ejército Rojo tras el fin del nazismo.",
+            "C": "La lucha por la independencia política y soberanía de los países asiáticos y africanos subyugados por el imperialismo europeo.",
+            "D": "El inicio del neocolonialismo comercial ejecutado por corporaciones tecnológicas transnacionales modernas."
+          },
+          "respuesta": "C",
+          "explicacion": "Impulsados por el debilitamiento de Europa post-WW2 y el derecho a la autodeterminación, surgen naciones independientes como India, Argelia, Congo, entre muchas otras.\n\n## 9. GEOGRAFÍA (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "nombre": "GEOGRAFÍA",
+      "reactivos": [
+        {
+          "numero": 105,
+          "pregunta": "La geografía contemporánea no se limita al estudio topográfico pasivo. Estudia analíticamente el \"Espacio Geográfico\", el cual se define conceptualmente como:",
+          "opciones": {
+            "A": "Un contenedor vacío donde ocurren los eventos biológicos aleatorios.",
+            "B": "El resultado de la constante interrelación dinámica entre los componentes naturales y sociales (humanos, políticos y económicos).",
+            "C": "Exclusivamente la distribución geométrica de los relieves orográficos terrestres.",
+            "D": "El registro histórico de la cartografía medieval."
+          },
+          "respuesta": "B",
+          "explicacion": "El espacio geográfico es una construcción social, producto de cómo el ser humano modifica y habita su entorno natural."
+        },
+        {
+          "numero": 106,
+          "pregunta": "Para localizar una flota pesquera extraviada en medio del océano pacífico con exactitud absoluta, las coordenadas geográficas requeridas se basan en el cruce de:",
+          "opciones": {
+            "A": "Tropopausas y estratosferas isotérmicas.",
+            "B": "Curvas de nivel e isolíneas isobáricas.",
+            "C": "Paralelos (que miden la latitud respecto al ecuador) y Meridianos (que miden la longitud respecto a Greenwich).",
+            "D": "Husos horarios y líneas de cambio de fecha astronómicas."
+          },
+          "respuesta": "C",
+          "explicacion": "El sistema universal de coordenadas divide la esfera en una cuadrícula angular. La latitud va Norte-Sur; la longitud va Este-Oeste."
+        },
+        {
+          "numero": 107,
+          "pregunta": "México posee importantes yacimientos petrolíferos en la sonda de Campeche. De acuerdo a la clasificación geológica y energética rigurosa, el petróleo es un recurso natural:",
+          "opciones": {
+            "A": "Inagotable, impulsado por procesos endógenos terrestres continuos.",
+            "B": "Renovable a corto plazo debido al ciclo biogeoquímico rápido del plancton.",
+            "C": "No renovable, pues su tasa de regeneración (millones de años) es insignificante frente a la de explotación humana antropogénica.",
+            "D": "Sintético, generado artificialmente en la astenosfera por presión tectónica inducida."
+          },
+          "respuesta": "C",
+          "explicacion": "Los combustibles fósiles son finitos a escala temporal humana. Requieren de condiciones geológicas pasadas irremplazables a corto plazo."
+        },
+        {
+          "numero": 108,
+          "pregunta": "En el contexto del flujo migratorio internacional, la \"Fuga de Cerebros\" (migración de profesionistas altamente cualificados) representa para los países periféricos en vías de desarrollo (como varios en América Latina):",
+          "opciones": {
+            "A": "Una ventaja competitiva para cobrar más remesas en monedas fuertes.",
+            "B": "Una estrategia deliberada del estado para desahogar la presión demográfica urbana.",
+            "C": "Una pérdida estructural neta de capital humano y talento que perpetúa el subdesarrollo científico y tecnológico.",
+            "D": "Un modelo exitoso de globalización simétrica."
+          },
+          "respuesta": "C",
+          "explicacion": "Los países en desarrollo invierten en educar talento (médicos, ingenieros) pero éstos migran a países centrales, dejando sus naciones de origen sin ese activo de desarrollo."
+        },
+        {
+          "numero": 109,
+          "pregunta": "La formación de huracanes o ciclones tropicales en los océanos es un fenómeno dinámico impulsado termodinámicamente por la interacción hidro-atmosférica. La principal \"fuente de energía\" que los desencadena y fortalece es:",
+          "opciones": {
+            "A": "La radiación electromagnética directa que choca con las capas altas de hielo atmosférico.",
+            "B": "El calor latente liberado por la evaporación y condensación de aguas oceánicas que superan los $26^\\circ\\text{C}$.",
+            "C": "La desviación inducida por el magnetismo de las corrientes marinas profundas.",
+            "D": "La ceniza volcánica disuelta que reduce el albedo superficial del agua marina."
+          },
+          "respuesta": "B",
+          "explicacion": "Los huracanes son gigantescas máquinas térmicas que extraen su furia del calor de las aguas cálidas oceánicas."
+        },
+        {
+          "numero": 110,
+          "pregunta": "Al contrastar las economías globales, los \"países centrales\" (potencias hegemónicas) dominan el ciclo económico porque concentran:",
+          "opciones": {
+            "A": "La extracción primaria de minerales preciosos en bruto sin valor agregado.",
+            "B": "La producción y el control del capital financiero internacional, la innovación biotecnológica y el diseño industrial de vanguardia.",
+            "C": "La maquila, la mano de obra intensiva mal pagada y la exportación de frutas tropicales.",
+            "D": "Tasas de natalidad demográfica explosivas que impulsan el consumo interno hipertrofiado."
+          },
+          "respuesta": "B",
+          "explicacion": "La teoría centro-periferia establece que el centro controla la tecnología, finanzas (bolsas de valores) y patentes, obteniendo altos márgenes de ganancia."
+        },
+        {
+          "numero": 111,
+          "pregunta": "El \"Desarrollo Sustentable\" se define doctrinariamente en foros ambientales internacionales como aquel modelo de progreso macroeconómico que:",
+          "opciones": {
+            "A": "Detiene por completo la extracción industrial para salvar la pureza prístina de la litosfera.",
+            "B": "Privatiza de forma total los recursos forestales para que las leyes de oferta y demanda los conserven.",
+            "C": "Satisface las necesidades socioeconómicas de la generación presente sin comprometer la capacidad ecológica de las generaciones futuras para satisfacer las suyas.",
+            "D": "Prioriza el ecoturismo exclusivo sobre la seguridad alimentaria en los cinturones de pobreza rural."
+          },
+          "respuesta": "C",
+          "explicacion": "Definición oficial de la Comisión Brundtland (1987). Equilibra crecimiento económico, bienestar social y conservación ambiental a perpetuidad."
+        },
+        {
+          "numero": 112,
+          "pregunta": "El proceso de Globalización Cultural ha promovido, de la mano de corporaciones transnacionales de medios y entretenimiento masivo, una fuerte tendencia sociológica hacia:",
+          "opciones": {
+            "A": "El aislamiento folclórico radical de las culturas locales como mecanismo de autodefensa indígena.",
+            "B": "La homogeneización de pautas de consumo, estilos de vida, dietas y lenguajes (a menudo anglocéntricos) debilitando identidades regionales.",
+            "C": "La recuperación hegemónica estricta del patrimonio intangible en ciudades patrimonio UNESCO.",
+            "D": "La instauración de fronteras físicas impenetrables al intercambio artístico."
+          },
+          "respuesta": "B",
+          "explicacion": "Aunque paradójicamente trae acceso global a información, fomenta estandarización cultural (mismo tipo de cine, comida rápida, música pop, marcas de moda en todo el globo)."
+        },
+        {
+          "numero": 113,
+          "pregunta": "¿Qué concepto demográfico es la variable predictiva clave para prever si un país enfrentará saturación de guarderías y escuelas primarias en el futuro inmediato, o si necesitará expandir su red geriátrica (asilos, pensiones) de largo plazo?",
+          "opciones": {
+            "A": "La densidad poblacional absoluta.",
+            "B": "El índice de morbilidad urbana.",
+            "C": "La composición de la estructura piramidal por edades (Población joven base ancha vs. Población envejecida base invertida).",
+            "D": "El flujo de migración pendular o estacional fronteriza."
+          },
+          "respuesta": "C",
+          "explicacion": "Una pirámide progresiva (ancha abajo) exige invertir en pediatría y educación. Una regresiva (ancha arriba) como Japón o Europa, exige invertir en pensiones y salud geriátrica."
+        },
+        {
+          "numero": 114,
+          "pregunta": "Si vas viajando geográficamente y percibes que el clima dominante se caracteriza por altísimas oscilaciones térmicas (mucho calor de día y frío gélido de noche) y nula precipitación pluvial que restringe drásticamente la biosfera vegetal endémica a cactáceas. ¿En qué región natural o bioma te encuentras situado?",
+          "opciones": {
+            "A": "Tundra siberiana de alta montaña.",
+            "B": "Desierto (zona árida extremosa).",
+            "C": "Selva tropical o ecuatorial perennifolia.",
+            "D": "Taiga septentrional de clima frío."
+          },
+          "respuesta": "B",
+          "explicacion": "La falta de humedad ambiental evita que el calor diurno se retenga, provocando fríos extremos de noche, típico en el Sahara o Sonora."
+        },
+        {
+          "numero": 115,
+          "pregunta": "Identifica la principal falla tectónica transformante que recorre longitudinalmente la península de Baja California, responsable de su lenta separación del macizo continental mexicano y factor de alto riesgo sísmico:",
+          "opciones": {
+            "A": "Fosa subductiva Mesoamericana.",
+            "B": "Dorsal Mediooceánica del Atlántico.",
+            "C": "Falla Lateral de San Andrés.",
+            "D": "Brecha sísmica de Guerrero."
+          },
+          "respuesta": "C",
+          "explicacion": "Es el límite deslizante (transformante) donde la Placa Pacífica roza hacia el noroeste a la Placa Norteamericana."
+        },
+        {
+          "numero": 116,
+          "pregunta": "En geopolítica territorial, la soberanía de una nación costera moderna no termina en la arena de su playa. El espacio oceánico exclusivo asignado internacionalmente para la explotación de todos sus recursos marinos (pesca, yacimientos minerales, gas) se extiende por norma general hasta:",
+          "opciones": {
+            "A": "3 millas náuticas, el límite del Mar Territorial absoluto.",
+            "B": "12 millas náuticas correspondientes a la Plataforma Continental.",
+            "C": "200 millas náuticas, zona jurídicamente denominada Zona Económica Exclusiva (ZEE).",
+            "D": "Aguas internacionales abiertas que carecen de jurisdicción y tratados restrictivos."
+          },
+          "respuesta": "C",
+          "explicacion": "La Convención del Mar de la ONU otorga a México jurisdicción económica sobre los recursos hídricos en la franja de 200 millas náuticas mar adentro (aprox 370 km).\n\n## 10. FORMACIÓN CÍVICA Y ÉTICA (12 Reactivos)"
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "nombre": "FORMACIÓN CÍVICA Y ÉTICA",
+      "reactivos": [
+        {
+          "numero": 117,
+          "pregunta": "Al discutir sobre la construcción de la identidad en la adolescencia, el concepto sociológico de \"grupo de pertenencia\" cumple la crucial función de:",
+          "opciones": {
+            "A": "Imponer dogmáticamente reglas morales invariables e irrevocables mediante la coacción institucional.",
+            "B": "Ofrecer un marco primario de valores compartidos, cohesión psicosocial y modelos referenciales que ayudan al individuo a definir quién es.",
+            "C": "Fomentar sistemáticamente la discriminación exclusivista de individuos externos y marginados.",
+            "D": "Eliminar radicalmente la autonomía y anular por completo el criterio personal del joven en formación cívica."
+          },
+          "respuesta": "B",
+          "explicacion": "Los grupos de pertenencia (familia, amigos, clubes deportivos) brindan arraigo e influencias, pero no deben coartar la toma final de decisiones (autonomía)."
+        },
+        {
+          "numero": 118,
+          "pregunta": "Desde la óptica del Derecho Constitucional Mexicano Moderno, el principio de la Soberanía Popular (Artículo 39) fundamenta que el poder político del Estado emana originalmente y reside esencialmente en:",
+          "opciones": {
+            "A": "Las corporaciones económicas fácticas y entes privados extranjeros, inversores primarios de la nación.",
+            "B": "Las jerarquías eclesiásticas, depositarias históricas del magisterio moral inviolable.",
+            "C": "El pueblo, el cual tiene el derecho irrenunciable e inalienable de alterar o modificar la forma de su gobierno.",
+            "D": "Las fuerzas armadas republicanas, custodias dogmáticas del orden y seguridad civil interina."
+          },
+          "respuesta": "C",
+          "explicacion": "Es el fundamento del pacto democrático republicano; los gobernantes son meros mandatarios o representantes temporales del pueblo soberano."
+        },
+        {
+          "numero": 119,
+          "pregunta": "Un alumno es acosado sistemáticamente en su entorno escolar. El director de la institución escolar, en vez de aplicar los protocolos vigentes para desmantelar la agresión, opta por culpar a la víctima y expulsarla apelando a conservar el \"prestigio y el buen nombre\" del colegio. Éticamente, ¿qué derecho o principio fue vulnerado con esta resolución utilitarista?",
+          "opciones": {
+            "A": "El derecho al voto universal para menores con capacidad volitiva.",
+            "B": "El derecho intrínseco al trato digno, la integridad moral y el interés superior del adolescente protegido por la Constitución.",
+            "C": "El derecho a la objeción de conciencia de los agresores intelectuales directos.",
+            "D": "El derecho a la propiedad privada sobre la infraestructura colegial en litigio."
+          },
+          "respuesta": "B",
+          "explicacion": "Toda autoridad institucional (escolar) está obligada a velar primordialmente por la integridad física y psicológica de los menores. El prestigio escolar jamás antecede a la dignidad humana."
+        },
+        {
+          "numero": 120,
+          "pregunta": "En el contexto de la salud integral y educación sexual, la responsabilidad que conlleva ejercer la sexualidad humana trasciende el nivel estrictamente reproductivo (biológico). Exige fundamentalmente:",
+          "opciones": {
+            "A": "Ignorar completamente el placer y apegarse rígidamente a concepciones reproductivas victorianas anacrónicas.",
+            "B": "Promover el desconocimiento orgánico para priorizar únicamente el desarrollo psico-emocional abstracto e inmaterial de la pareja amorosa.",
+            "C": "El consentimiento activo mutuo, la prevención informada de Infecciones de Transmisión Sexual (ITS) y el profundo respeto socio-afectivo por el cuerpo propio y ajeno.",
+            "D": "La procreación indiscriminada a edades precoces como garantía de supervivencia demográfica y económica a largo plazo de los estados marginales."
+          },
+          "respuesta": "C",
+          "explicacion": "La sexualidad integral involucra dimensiones biológicas, éticas, y psicológicas. Requiere decisiones libres (consentimiento) e informadas (autocuidado)."
+        },
+        {
+          "numero": 121,
+          "pregunta": "Ante el estallido de un severo conflicto laboral (huelga) entre trabajadores disidentes y el sindicato corporativista hegemónico en una fábrica, se recurre a la figura de un árbitro legal oficial. Este mecanismo de resolución de conflictos, sustentado en la jurisdicción laboral, difiere de la simple \"negociación\" en que:",
+          "opciones": {
+            "A": "El árbitro se limita empíricamente a escuchar y proveer apoyo terapéutico sin plantear soluciones concretas en la mesa.",
+            "B": "El árbitro dictará un laudo (resolución) final que es legalmente vinculante y obligatorio de cumplimiento para ambas partes divergentes.",
+            "C": "Promueve un diálogo horizontal donde los involucrados ceden sin injerencias y redactan su propio convenio autónomo y extrajudicial.",
+            "D": "El conflicto es anulado sistemáticamente por coerción o el uso exclusivo y dogmático de las fuerzas armadas disuasivas."
+          },
+          "respuesta": "B",
+          "explicacion": "En el arbitraje, un tercero facultado no solo media, sino que toma la decisión definitoria (laudo) que ambas partes deben obedecer obligatoriamente."
+        },
+        {
+          "numero": 122,
+          "pregunta": "La pluralidad y la tolerancia son presupuestos sine qua non (imprescindibles) para la vida democrática. ¿Cuál de las siguientes situaciones cívicas es un ejemplo claro del principio de interculturalidad que fomenta el respeto a las diversidades orgánicas del país?",
+          "opciones": {
+            "A": "La negación de intérpretes indígenas gratuitos en los juzgados penales apelando a una absurda homologación jurídica y lingüística forzosa.",
+            "B": "La inclusión activa y la apreciación de saberes, cosmogonías y derechos agrarios ancestrales de los pueblos originarios dentro de la estructura de las políticas gubernamentales formales.",
+            "C": "La censura o proscripción deliberada de festividades extranjeras argumentando una supuesta amenaza al purismo del nacionalismo exacerbado local.",
+            "D": "El confinamiento sociológico obligatorio y marginado de minorías para que conserven la pureza antropológica de sus linajes y no interfieran en las urbes y centros cosmopolitas del comercio."
+          },
+          "respuesta": "B",
+          "explicacion": "La interculturalidad es diálogo y convivencia equitativa entre distintas culturas, valorando mutuamente las aportaciones y otorgando igualdad de derechos."
+        },
+        {
+          "numero": 123,
+          "pregunta": "Los partidos políticos en México son jurídicamente considerados \"entidades de interés público\". Su función teleológica u objetivo orgánico dentro del marco de la democracia representativa representacional pluralista radica en:",
+          "opciones": {
+            "A": "Garantizar axiomáticamente que el partido en el poder gobierne ininterrumpidamente sin oposición molesta que frene el desarrollo nacional del proyecto.",
+            "B": "Monopolizar burocráticamente los contratos y el erario económico adjudicado al estado centralista obsoleto de la maquinaria de gobierno en el periodo sexenal.",
+            "C": "Fomentar ideológicamente la organización sistemática ciudadana y servir de cauce legal e institucional para que las fracciones de la sociedad civil logren acceder pacíficamente al ejercicio del poder público estatal.",
+            "D": "Actuar dogmáticamente como tribunales de castigo coercitivo y sentenciar con cárcel a todos los ciudadanos que presenten disidencias ideológicas estructurales contra el estado en turno gobernante."
+          },
+          "respuesta": "C",
+          "explicacion": "El artículo 41 constitucional marca que el fin de los partidos es promover la participación del pueblo en la vida democrática y facilitar la representación política."
+        },
+        {
+          "numero": 124,
+          "pregunta": "Un juicio moral es el acto cognitivo mediante el cual una persona valora una acción como correcta o incorrecta. Para que este juicio tenga genuina validez ética superior y no sea mera obediencia ciega, el individuo debe poseer:",
+          "opciones": {
+            "A": "Dogmatismo acrítico y sumisión a los códigos religiosos impartidos.",
+            "B": "Conciencia moral y la libertad fundamental de elegir, basada en la racionalidad crítica y el desarrollo empático.",
+            "C": "Temor cerval y fundado al castigo coercitivo impartido por las instituciones de justicia penitenciarias formales contemporáneas.",
+            "D": "Una ignorancia supina de las normas sociales comunitarias (amoralidad) para decidir guiado exclusivamente por sus instintos básicos innatos de sobrevivencia primigenia biológica naturalista primitiva básica animal."
+          },
+          "respuesta": "B",
+          "explicacion": "La ética requiere de un sujeto racional libre (autónomo) que comprende el porqué de sus actos; un sujeto coaccionado por el terror o desconocimiento carece de auténtica moralidad."
+        },
+        {
+          "numero": 125,
+          "pregunta": "La Constitución ampara explícitamente derechos humanos de primera generación (civiles y políticos). Entre ellos resalta eminentemente la garantía institucional y procesal de:",
+          "opciones": {
+            "A": "Recibir obligatoriamente, por ley suprema ineludible, una remuneración económica equitativa si sufres de desempleo, provista mágicamente y perpetuamente por un estado todopoderoso paternalista.",
+            "B": "El libre acceso universal e irrestricto, en zonas urbanas y rurales marginales recónditas por igual sin excepciones a las redes telemáticas privadas encriptadas y satelitales interespaciales de alta densidad cibernética de alta velocidad de corporaciones transnacionales.",
+            "C": "La libertad de expresión, asociación política y tránsito pacífico libre por el territorio nacional mexicano entero sin requerir permisos, salvo en casos muy excepcionales tipificados gravemente con antelación por el estado central.",
+            "D": "Obtener dogmáticamente una vivienda residencial opulenta por el mero hecho abstracto de la existencia jurídica del neonato en un centro hospitalario burocratizado urbano federal o municipal del gobierno del turno en proceso gubernamental y gestacional natural u artificial genómico."
+          },
+          "respuesta": "C",
+          "explicacion": "Los derechos de 1a generación defienden libertades individuales fundamentales frente a los abusos del Estado, limitando el alcance punitivo de la autoridad oficial pública imperante de los gobiernos de turno central."
+        },
+        {
+          "numero": 126,
+          "pregunta": "Al contrastar los derechos con las obligaciones cívicas correspondientes. De acuerdo con el entramado del Artículo 31 de la Carta Magna, una obligación correlativa inexcusable al derecho inalienable de percibir servicios e infraestructuras públicas del estado es:",
+          "opciones": {
+            "A": "Servir anualmente obligatoriamente al sistema de voluntariado de las iglesias oficiales mayoritarias dogmáticas constitucionales dominantes vigentes operantes contemporáneas locales circundantes locales regionales estatales institucionales burocráticas teológicas de las curias establecidas de corte canónico antiguo o reformado puritano moderno.",
+            "B": "Contribuir proporcionalmente con cargas impositivas (pago de impuestos) para sostener el gasto gubernamental público.",
+            "C": "Afiliarse y jurar obediencia solemne marcial por estatuto oficial legal forzoso al partido que ganó mayoritariamente o minoritariamente las elecciones gubernamentales sexenales o trienales imperantes interinas oficiales y formales en todos sus periodos transicionales institucionales.",
+            "D": "Comprar bienes inmobiliarios suntuosos de plusvalía y acciones comerciales privadas en instituciones financieras extranjeras y locales."
+          },
+          "respuesta": "B",
+          "explicacion": "Es obligación constitucional contribuir para los gastos públicos de manera equitativa y proporcional para posibilitar al Estado dotar de hospitales, caminos y seguridad a su gente."
+        },
+        {
+          "numero": 127,
+          "pregunta": "Cuando en el seno familiar se estipulan unilateralmente prohibiciones asfixiantes y coactivas extremas, desprovistas de cualquier canal de retroalimentación racional comunicativa y justificadas dogmáticamente con frases como \"lo haces porque yo lo mando y se acabó la discusión inmediatamente y para siempre\", nos encontramos ante un evidente estilo de crianza interaccional diametralmente:",
+          "opciones": {
+            "A": "Permisivo tolerante pasivo indiferente de desapego psicosocial alienante radical y progresivo.",
+            "B": "Democrático deliberativo ilustrado dialéctico pedagógico de vanguardia y consensuado cívicamente y formativamente maduro y estructurado axiológicamente moderno empático afectivo analítico equilibrado.",
+            "C": "Autoritario vertical coercitivo dictatorial intransigente anacrónico violento estructuralmente inmaduro punitivo extremo tradicionalmente vertical dogmático.",
+            "D": "Filantrópico y asertivo lógicamente racional de corte paternalista iluminado pragmáticamente tolerante indulgente y proteccionista amablemente coercitivo benévolo utilitarista afectivo y cariñoso protector condescendiente humanitario pero firme a la vez disciplinario pasivo-agresivo estoico aristotélico dialéctico y comprensivo hermenéuticamente."
+          },
+          "respuesta": "C",
+          "explicacion": "El esquema autoritario impone sin mediar razones, inhibe el desarrollo argumentativo del adolescente y no respeta su capacidad racional volitiva en proceso."
+        },
+        {
+          "numero": 128,
+          "pregunta": "La función sociológica sustancial e indispensable para el entramado cognitivo social político estructural y la higiene axiológica del sistema en que los medios masivos de comunicación (periodísticos) libres de coacción y censura institucional deben cumplir operativamente y deontológicamente en toda genuina sociedad abierta cívicamente madura y democracia ilustrada liberal consiste en:",
+          "opciones": {
+            "A": "Encubrir dogmáticamente las omisiones estatales sistémicas para simular falsamente paz mediática o distracción sistemática publicitaria anestésica social alienante pan y circo fútil y vano enajenante superficial trivializador masificador anestesiante socializado en la psique.",
+            "B": "Proveer a la sociedad de una ingente cantidad de información pluralista, diversa, crítica, independiente, investigada éticamente con rigurosidad fáctica e imparcial que sustente analíticamente y forme opiniones razonadas argumentativamente en el ejercicio del discernimiento para empoderar al elector y ciudadano con autonomía política profunda e incorruptible.",
+            "C": "Adoctrinar unipolarmente con ideologías nacionalistas demagógicas radicales de corte extremista populista manipulador coercitivo beligerante supremacista intransigente de adoctrinamiento escolar pasivo-agresivo imperativo unilateral dogmático fascista excluyente sistemático incesante persuasivo totalitario monolítico homogeneizante incondicional patriarcal absoluto para salvaguardar moralismos obsoletos.",
+            "D": "Operar estrictamente y de forma unívoca, ininterrumpida y perenne como las oficinas paraestatales de relaciones públicas mercadotécnicas oficialistas institucionales financiadas sistemáticamente para apuntalar burocráticamente con impunidad propagandística unilateral las campañas electorales prefabricadas clientelistas populistas oficialistas partidistas reeleccionistas sistemáticamente orquestadas coercitivas."
+          },
+          "respuesta": "B",
+          "explicacion": "Los medios son un contrapeso de poder (cuarto poder). Su deber es el periodismo de investigación veraz, que otorgue elementos al ciudadano para fiscalizar a las autoridades y formar su juicio político con madurez moral y analítica rigurosa."
+        }
+      ]
+    }
+  ]
+}
