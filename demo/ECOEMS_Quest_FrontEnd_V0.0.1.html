@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECOEMS Quest — Front end V0.0.1</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap');
+:root{
+  --outer:#121215; --bg:#1B1B20; --panel:#26262C; --panel2:#223050; --line:#35496E;
+  --ink:#F4F4F6; --dim:#A5A3B8;
+  --gold:#FF8A3D; --gold-deep:#D9641E; --green:#4BD98A; --red:#FF5D73; --blue:#5B9BFF;
+  --ghost-sh:#141417; --node-sh:#0F0F1280; --sel-bg:#263A5E;
+  --tint-ok:#153C2C; --tint-bad:#472034; --tint-warn:#4A2C14;
+}
+body.light{
+  --outer:#E3E7EF; --bg:#F5F6FA; --panel:#FFFFFF; --panel2:#EAEFF8; --line:#C9D3E6;
+  --ink:#1E2433; --dim:#68718C;
+  --gold:#FF8A3D; --gold-deep:#C75812; --green:#1FA45F; --red:#E03B55; --blue:#2E6FD9;
+  --ghost-sh:#C7CEDE; --node-sh:#C7CEDE; --sel-bg:#DCE8FB;
+  --tint-ok:#DDF2E6; --tint-bad:#FBE2E7; --tint-warn:#FBE9DA;
+}
+*{box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent;}
+html,body{background:var(--outer);}
+body{font-family:'Baloo 2', system-ui, -apple-system, sans-serif; color:var(--ink); display:flex; justify-content:center; min-height:100vh;}
+#app{width:100%; max-width:440px; min-height:100vh; background:var(--bg); display:flex; flex-direction:column; position:relative; overflow:hidden;}
+
+/* ---------- barra superior ---------- */
+.topbar{display:flex; align-items:center; gap:10px; padding:14px 16px; background:var(--panel); border-bottom:2px solid var(--line); position:sticky; top:0; z-index:20;}
+.topbar .tb-title{font-weight:800; font-size:17px; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.iconbtn{background:var(--panel2); border:2px solid var(--line); color:var(--ink); border-radius:14px; width:40px; height:40px; font-size:18px; font-family:inherit; font-weight:700; cursor:pointer; display:flex; align-items:center; justify-content:center;}
+.iconbtn:active{transform:scale(.94);}
+
+.screen{flex:1; padding:20px 18px 40px; overflow-y:auto; display:none; animation:pop .18s ease;}
+.screen.active{display:block;}
+@keyframes pop{from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;}}
+
+h1{font-size:26px; font-weight:800; line-height:1.15;}
+h2{font-size:20px; font-weight:800; margin-bottom:6px;}
+p{line-height:1.45;}
+.dim{color:var(--dim); font-size:14px;}
+.spacer{height:14px;}
+
+/* ---------- botones ---------- */
+.btn{display:block; width:100%; padding:14px 18px; border-radius:18px; border:none; font-family:inherit; font-size:17px; font-weight:800; cursor:pointer; text-align:center; color:#2A1200; background:var(--gold); box-shadow:0 4px 0 var(--gold-deep); margin-top:12px;}
+.btn:active{transform:translateY(3px); box-shadow:0 1px 0 var(--gold-deep);}
+.btn.ghost{background:var(--panel2); color:var(--ink); box-shadow:0 4px 0 var(--ghost-sh); border:2px solid var(--line);}
+.btn.green{background:var(--green); box-shadow:0 4px 0 #22995B; color:#03301A;}
+.btn.small{padding:9px 14px; font-size:14px; border-radius:14px; width:auto; display:inline-block;}
+.btn:disabled{opacity:.45; cursor:default;}
+
+.card{background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:16px; margin-top:14px;}
+.field{width:100%; padding:13px 14px; margin-top:10px; border-radius:14px; border:2px solid var(--line); background:var(--panel2); color:var(--ink); font-family:inherit; font-size:16px;}
+.field::placeholder{color:var(--dim);}
+.badge{display:inline-block; background:var(--panel2); border:1.5px solid var(--line); border-radius:999px; padding:3px 12px; font-size:13px; font-weight:700; color:var(--dim);}
+.tag-demo{background:rgba(255,138,61,.14); border-color:var(--gold); color:var(--gold);}
+
+/* ---------- portada ---------- */
+.hero{display:flex; flex-direction:column; align-items:center; text-align:center; padding-top:46px;}
+.logo-shield{width:118px; height:118px; border-radius:34px; background:linear-gradient(160deg,var(--panel2),var(--panel)); border:3px solid var(--gold); display:flex; align-items:center; justify-content:center; font-size:56px; box-shadow:0 10px 30px rgba(0,0,0,.4); margin-bottom:18px;}
+.hero h1 span{color:var(--gold);}
+
+/* ---------- home ---------- */
+.mode-card{display:flex; align-items:center; gap:14px; background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:16px; margin-top:12px; cursor:pointer;}
+.mode-card:active{transform:scale(.98);}
+.mode-ico{width:52px; height:52px; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:26px; flex-shrink:0;}
+.mode-card .mc-txt{flex:1;}
+.mode-card .mc-txt b{font-size:17px; display:block;}
+.mode-card .mc-txt span{font-size:13px; color:var(--dim);}
+.mode-card .chev{color:var(--dim); font-size:20px; font-weight:800;}
+.mode-card.competir-card{border-color:var(--gold); background:linear-gradient(90deg, var(--panel), var(--panel) 60%, rgba(255,138,61,.10));}
+.racha-pill{display:flex; align-items:center; gap:12px; background:var(--panel); border:2px solid var(--gold); border-radius:18px; padding:12px 16px; margin-bottom:16px; cursor:pointer;}
+.racha-pill:active{transform:scale(.98);}
+
+/* ---------- dashboard / grid de inicio (V0.0.1) ---------- */
+.dash-card{background:linear-gradient(160deg,var(--panel2),var(--panel)); border:2px solid var(--line); border-radius:22px; padding:18px; margin-top:6px; display:flex; align-items:center; gap:14px; cursor:pointer;}
+.dash-card:active{transform:scale(.98);}
+.dash-card .dash-flame{font-size:32px; flex-shrink:0;}
+.dash-card .dash-txt{flex:1;}
+.dash-card .dash-txt b{font-size:17px; display:block;}
+.dash-stats{display:flex; gap:10px; margin-top:12px;}
+.stat-box{flex:1; background:var(--panel); border:2px solid var(--line); border-radius:16px; padding:10px 8px; text-align:center;}
+.stat-box b{display:block; font-size:20px; color:var(--gold);}
+.stat-box span{font-size:11px; color:var(--dim);}
+.sec-title{font-size:13px; font-weight:800; letter-spacing:.4px; text-transform:uppercase; color:var(--dim); margin:22px 0 10px;}
+.tile-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+.tile{background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:16px 14px; cursor:pointer; display:flex; flex-direction:column; gap:10px; min-height:112px;}
+.tile:active{transform:scale(.97);}
+.tile .tile-ico{width:44px; height:44px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:22px; flex-shrink:0;}
+.tile b{font-size:15px; display:block; line-height:1.2;}
+.tile span{font-size:12px; color:var(--dim); display:block; margin-top:2px;}
+.feature-card{display:flex; align-items:center; gap:14px; border-radius:22px; padding:18px; margin-top:12px; cursor:pointer; background:linear-gradient(120deg, rgba(255,138,61,.16), var(--panel) 55%); border:2px solid var(--gold);}
+.feature-card:active{transform:scale(.98);}
+.feature-card .feature-ico{width:56px; height:56px; border-radius:16px; background:linear-gradient(135deg,var(--gold),var(--gold-deep)); display:flex; align-items:center; justify-content:center; font-size:28px; flex-shrink:0; box-shadow:0 4px 0 var(--gold-deep);}
+.feature-card .mc-txt{flex:1;}
+.feature-card .mc-txt b{font-size:17px; display:block;}
+.feature-card .mc-txt span{display:block; margin-top:3px; font-size:13px;}
+.feature-card .chev{color:var(--gold); font-size:22px; font-weight:800;}
+
+/* ---------- mapa de niveles ---------- */
+.map-wrap{position:relative; margin-top:10px;}
+.node-row{display:flex; align-items:center; gap:14px; margin:22px 0; position:relative;}
+.node-row.right{flex-direction:row-reverse; text-align:right;}
+.lvl-node{width:74px; height:74px; border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center; font-weight:800; font-size:22px; cursor:pointer; flex-shrink:0; border:4px solid var(--line); background:var(--panel2); color:var(--dim); box-shadow:0 6px 0 var(--node-sh);}
+.lvl-node.open{background:var(--gold); border-color:#fff3; color:#2A1200; box-shadow:0 6px 0 var(--gold-deep);}
+.lvl-node.done{background:var(--green); border-color:#fff3; color:#03301A; box-shadow:0 6px 0 #22995B;}
+.lvl-node:active{transform:translateY(3px);}
+.lvl-node.locked{cursor:default;}
+.lvl-info b{display:block; font-size:15px;}
+.lvl-stars{color:var(--gold); font-size:13px; letter-spacing:1px;}
+.trail{position:absolute; left:36px; top:74px; width:4px; height:44px; background:var(--line); border-radius:2px;}
+
+/* ---------- quiz ---------- */
+.quiz-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;}
+.timer{font-weight:800; font-size:16px; background:var(--panel2); border:2px solid var(--line); border-radius:999px; padding:5px 14px;}
+.timer.low{color:var(--red); border-color:var(--red);}
+.progress{height:12px; background:var(--panel2); border-radius:999px; overflow:hidden; border:2px solid var(--line); margin:8px 0 16px;}
+.progress i{display:block; height:100%; background:var(--gold); border-radius:999px; transition:width .25s;}
+.lectura{background:var(--panel2); border:2px solid var(--line); border-radius:16px; padding:12px 14px; font-size:14px; line-height:1.5; margin-bottom:12px; max-height:180px; overflow-y:auto;}
+.enunciado{font-size:17px; font-weight:700; line-height:1.35; margin-bottom:14px;}
+.opt{display:flex; gap:12px; align-items:flex-start; width:100%; text-align:left; background:var(--panel); border:2px solid var(--line); border-radius:16px; padding:13px 14px; margin-top:10px; font-family:inherit; font-size:15px; color:var(--ink); cursor:pointer; line-height:1.35;}
+.opt .letter{font-weight:800; color:var(--dim);}
+.opt.sel{border-color:var(--blue); background:var(--sel-bg);}
+.opt.ok{border-color:var(--green); background:var(--tint-ok);}
+.opt.bad{border-color:var(--red); background:var(--tint-bad);}
+.feedback{margin-top:12px; padding:12px 14px; border-radius:14px; font-size:14px; line-height:1.4;}
+.feedback.ok{background:var(--tint-ok); border:2px solid var(--green);}
+.feedback.bad{background:var(--tint-bad); border:2px solid var(--red);}
+.quiz-nav{display:flex; gap:10px; margin-top:16px;}
+.quiz-nav .btn{margin-top:0;}
+.repasar-btn{margin-top:12px; background:none; border:2px dashed var(--dim); color:var(--dim); border-radius:14px; padding:9px 14px; font-family:inherit; font-weight:700; font-size:14px; cursor:pointer; width:100%;}
+.repasar-btn.saved{border-style:solid; border-color:var(--gold); color:var(--gold);}
+
+/* ---------- resultado ---------- */
+.score-big{font-size:52px; font-weight:800; text-align:center; margin:10px 0 2px;}
+.stars-big{text-align:center; font-size:30px; color:var(--gold); letter-spacing:4px; margin-bottom:6px;}
+.mat-row{display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1.5px solid var(--line); font-size:15px;}
+.mat-row:last-child{border-bottom:none;}
+.pill{border-radius:999px; padding:2px 12px; font-size:13px; font-weight:800;}
+.pill.f{background:var(--tint-ok); color:var(--green);}
+.pill.r{background:var(--tint-warn); color:var(--gold);}
+.pill.d{background:var(--tint-bad); color:var(--red);}
+
+/* ---------- tutoria ---------- */
+.chat-box{display:flex; flex-direction:column; gap:10px; padding-bottom:10px;}
+.msg{max-width:85%; padding:11px 14px; border-radius:18px; font-size:15px; line-height:1.4; white-space:pre-wrap;}
+.msg.user{align-self:flex-end; background:var(--gold); color:#2A1200; border-bottom-right-radius:6px; font-weight:600;}
+.msg.ia{align-self:flex-start; background:var(--panel); border:2px solid var(--line); border-bottom-left-radius:6px;}
+.msg.ia.err{border-color:var(--red);}
+.chat-input-row{display:flex; gap:8px; margin-top:10px; position:sticky; bottom:0; background:var(--bg); padding:8px 0 4px;}
+.chat-input-row textarea{flex:1; resize:none; height:52px;}
+.chat-input-row .btn{width:auto; margin-top:0; padding:10px 16px;}
+.counter{font-size:13px; color:var(--dim); text-align:center; margin-top:4px;}
+
+/* ---------- pagos ---------- */
+.plan{display:flex; justify-content:space-between; align-items:center; background:var(--panel); border:2px solid var(--line); border-radius:18px; padding:16px; margin-top:12px; cursor:pointer;}
+.plan.best{border-color:var(--gold);}
+.plan b{font-size:17px;}
+.plan .price{font-size:20px; font-weight:800; color:var(--gold);}
+.plan .sub{font-size:13px; color:var(--dim); display:block;}
+
+/* ---------- modal ---------- */
+.modal-bg{position:fixed; inset:0; background:rgba(14,14,16,.75); display:none; align-items:center; justify-content:center; z-index:50; padding:24px;}
+.modal-bg.show{display:flex;}
+.modal{background:var(--panel); border:2px solid var(--line); border-radius:22px; padding:22px; width:100%; max-width:360px; animation:pop .18s ease;}
+.modal h2{margin-bottom:8px;}
+
+.gold{color:var(--gold);} .green-t{color:var(--green);} .red-t{color:var(--red);}
+.center{text-align:center;}
+.row2{display:flex; gap:10px;} .row2 .btn{flex:1;}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="topbar" id="topbar" style="display:none;">
+    <button class="iconbtn" id="btn-back" title="Regresar">←</button>
+    <div class="tb-title" id="tb-title">ECOEMS Quest</div>
+    <button class="iconbtn theme-btn" title="Cambiar a modo claro" onclick="toggleTema()"><svg viewBox="0 0 24 24" style="width:1em;height:1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg></button>
+    <button class="iconbtn" id="btn-home" title="Inicio"><svg viewBox="0 0 24 24" style="width:1em;height:1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5L12 4l8 7.5"/><path d="M6 10v9a1 1 0 001 1h3v-5h4v5h3a1 1 0 001-1v-9"/></svg></button>
+    <button class="iconbtn" id="btn-perfil" title="Perfil"><svg viewBox="0 0 24 24" style="width:1em;height:1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1-4 4-6 7.5-6s6.5 2 7.5 6"/></svg></button>
+  </div>
+  <div id="screens"></div>
+  <div class="modal-bg" id="modal-bg"><div class="modal" id="modal-content"></div></div>
+</div>
+
+<script>
+/* =====================================================================
+   ECOEMS QUEST — DEMO NAVEGABLE
+   Versión corta: niveles de 3 preguntas, ejercicio de 5, simulacro de 8.
+   Todo el estado vive en memoria (se reinicia al recargar).
+   TutorIA llama a la API real de Anthropic.
+===================================================================== */
+
+/* ---------------- BANCO DE PREGUNTAS (demo, reactivos originales) ---------------- */
+const LECTURA_1 = "El mercado de Xochimilco abre antes de que salga el sol. Doña Remedios acomoda sus flores mientras los canales todavía huelen a noche. Dice que vender no es su oficio: su oficio es conocer a la gente. Sabe qué ramo lleva quien va a una boda y cuál busca quien va a pedir perdón. Por eso, cuando un cliente duda, ella no pregunta qué flor quiere, sino a quién se la va a dar.";
+
+const BANK = [
+ // Matemáticas
+ {id:"MAT-01", m:"Matemáticas", t:"Fracciones", q:"¿Cuál es el resultado de 3/4 + 1/8?", o:["7/8","4/12","1/2","5/8"], r:0, f:"Se convierte 3/4 a 6/8 y se suma 1/8: 6/8 + 1/8 = 7/8."},
+ {id:"MAT-02", m:"Matemáticas", t:"Ecuaciones", q:"Si 2x − 6 = 10, ¿cuánto vale x?", o:["2","6","8","16"], r:2, f:"2x = 16, por lo tanto x = 8."},
+ {id:"MAT-03", m:"Matemáticas", t:"Porcentajes", q:"El 25% de 240 es:", o:["48","50","60","80"], r:2, f:"25% es la cuarta parte: 240 ÷ 4 = 60."},
+ // Habilidad Matemática
+ {id:"HMA-01", m:"Habilidad Matemática", t:"Sucesiones", q:"¿Qué número sigue en la sucesión 2, 6, 18, 54, ...?", o:["108","162","148","216"], r:1, f:"Cada término se multiplica por 3: 54 × 3 = 162."},
+ {id:"HMA-02", m:"Habilidad Matemática", t:"Problemas", q:"Un tinaco se llena en 6 horas con una llave. Con dos llaves iguales abiertas, ¿en cuánto tiempo se llena?", o:["12 horas","6 horas","3 horas","2 horas"], r:2, f:"Dos llaves aportan el doble de agua, así que tardan la mitad: 3 horas."},
+ {id:"HMA-03", m:"Habilidad Matemática", t:"Series espaciales", q:"Un dado marca 1 arriba. Si el 1 y el 6 son caras opuestas, ¿qué número queda abajo?", o:["2","4","5","6"], r:3, f:"Las caras opuestas de 1 es 6; si 1 está arriba, 6 queda abajo."},
+ // Español
+ {id:"ESP-01", m:"Español", t:"Comprensión lectora", lect:LECTURA_1, q:"Según el texto, ¿cuál es el verdadero oficio de doña Remedios?", o:["Cultivar flores en los canales","Conocer a la gente","Organizar bodas","Abrir el mercado"], r:1, f:"El texto lo dice de forma directa: 'su oficio es conocer a la gente'."},
+ {id:"ESP-02", m:"Español", t:"Comprensión lectora", lect:LECTURA_1, q:"¿Qué pregunta hace doña Remedios cuando un cliente duda?", o:["Qué flor quiere","Cuánto quiere gastar","A quién se la va a dar","Para qué ocasión es"], r:2, f:"El final del texto indica que pregunta a quién va dirigido el ramo."},
+ {id:"ESP-03", m:"Español", t:"Ortografía", q:"¿Cuál oración está escrita correctamente?", o:["Aver si llegas temprano.","A ver si llegas temprano.","Haber si llegas temprano.","Avér si llegas temprano."], r:1, f:"'A ver' (preposición + verbo ver) se usa para expectativa; 'haber' es otro verbo y 'aver' no existe."},
+ // Habilidad Verbal
+ {id:"HVE-01", m:"Habilidad Verbal", t:"Analogías", q:"Libro es a biblioteca como cuadro es a...", o:["pintor","museo","marco","pincel"], r:1, f:"La relación es objeto y lugar donde se resguarda: los cuadros se exhiben en museos."},
+ {id:"HVE-02", m:"Habilidad Verbal", t:"Sinónimos", q:"Un sinónimo de 'efímero' es:", o:["eterno","pasajero","enorme","frágil"], r:1, f:"Efímero significa que dura poco tiempo: pasajero."},
+ {id:"HVE-03", m:"Habilidad Verbal", t:"Antónimos", q:"El antónimo de 'escasez' es:", o:["pobreza","carencia","abundancia","ausencia"], r:2, f:"Escasez es falta de algo; su opuesto es abundancia."},
+ // Biología
+ {id:"BIO-01", m:"Biología", t:"Célula", q:"¿Qué organelo produce la energía de la célula?", o:["Núcleo","Ribosoma","Mitocondria","Vacuola"], r:2, f:"La mitocondria realiza la respiración celular y produce ATP."},
+ {id:"BIO-02", m:"Biología", t:"Ecología", q:"En una cadena alimenticia, las plantas son organismos:", o:["consumidores","descomponedores","productores","depredadores"], r:2, f:"Las plantas producen su propio alimento mediante fotosíntesis: son productores."},
+ {id:"BIO-03", m:"Biología", t:"Genética", q:"La molécula que contiene la información hereditaria es:", o:["El ARN mensajero","El ADN","La proteína","La glucosa"], r:1, f:"El ADN almacena la información genética que se hereda."},
+ // Física
+ {id:"FIS-01", m:"Física", t:"Mecánica", q:"Un auto recorre 120 km en 2 horas a velocidad constante. Su velocidad es:", o:["40 km/h","60 km/h","80 km/h","240 km/h"], r:1, f:"v = d/t = 120 ÷ 2 = 60 km/h."},
+ {id:"FIS-02", m:"Física", t:"Leyes de Newton", q:"La ley que dice que a toda acción corresponde una reacción igual y opuesta es la:", o:["Primera ley","Segunda ley","Tercera ley","Ley de gravitación"], r:2, f:"Es la tercera ley de Newton: acción y reacción."},
+ {id:"FIS-03", m:"Física", t:"Electricidad", q:"Según la ley de Ohm, si V = 12 volts y R = 4 ohms, la corriente es:", o:["48 A","8 A","3 A","0.3 A"], r:2, f:"I = V/R = 12 ÷ 4 = 3 amperes."},
+ // Química
+ {id:"QUI-01", m:"Química", t:"Tabla periódica", q:"El símbolo químico del sodio es:", o:["So","S","Na","N"], r:2, f:"Na viene de su nombre en latín, natrium."},
+ {id:"QUI-02", m:"Química", t:"Enlaces", q:"El enlace que se forma cuando dos átomos comparten electrones es:", o:["iónico","covalente","metálico","de hidrógeno"], r:1, f:"En el enlace covalente los átomos comparten pares de electrones."},
+ {id:"QUI-03", m:"Química", t:"Estructura atómica", q:"La partícula del átomo con carga negativa es:", o:["el protón","el neutrón","el electrón","el ion"], r:2, f:"El electrón tiene carga negativa; el protón positiva y el neutrón no tiene carga."},
+ // Historia
+ {id:"HIS-01", m:"Historia", t:"Independencia", q:"El movimiento de Independencia de México inició en el año:", o:["1810","1821","1910","1857"], r:0, f:"Inició el 16 de septiembre de 1810 con el Grito de Dolores; se consumó en 1821."},
+ {id:"HIS-02", m:"Historia", t:"Revolución", q:"¿Quién promulgó el Plan de San Luis, que llamaba a levantarse en armas el 20 de noviembre de 1910?", o:["Emiliano Zapata","Porfirio Díaz","Francisco I. Madero","Venustiano Carranza"], r:2, f:"Madero lanzó el Plan de San Luis contra la reelección de Porfirio Díaz."},
+ {id:"HIS-03", m:"Historia", t:"México antiguo", q:"La ciudad de Tenochtitlan fue fundada por los:", o:["mayas","mexicas","olmecas","zapotecas"], r:1, f:"Los mexicas (aztecas) fundaron Tenochtitlan en 1325 sobre el lago de Texcoco."},
+ // Geografía
+ {id:"GEO-01", m:"Geografía", t:"México físico", q:"¿Cuál es el río más largo de México?", o:["Río Balsas","Río Bravo","Río Lerma","Río Usumacinta"], r:1, f:"El Río Bravo, en la frontera norte, es el más largo del país."},
+ {id:"GEO-02", m:"Geografía", t:"Coordenadas", q:"Las líneas imaginarias que van de polo a polo y miden la longitud son los:", o:["paralelos","trópicos","meridianos","husos"], r:2, f:"Los meridianos van de polo a polo; los paralelos son horizontales."},
+ {id:"GEO-03", m:"Geografía", t:"Clima", q:"El clima predominante en la península de Yucatán es:", o:["polar","templado de montaña","cálido","desértico frío"], r:2, f:"Yucatán tiene clima cálido, con variantes húmedas y subhúmedas."},
+ // Formación Cívica y Ética
+ {id:"FCE-01", m:"Formación Cívica y Ética", t:"Derechos", q:"El derecho a la educación en México está garantizado en el artículo:", o:["1º","3º","27","123"], r:1, f:"El artículo 3º constitucional garantiza la educación."},
+ {id:"FCE-02", m:"Formación Cívica y Ética", t:"Democracia", q:"En una democracia, las autoridades se eligen mediante:", o:["sorteo","herencia","el voto","designación militar"], r:2, f:"La democracia se basa en elecciones libres mediante el voto."},
+ {id:"FCE-03", m:"Formación Cívica y Ética", t:"Valores", q:"Tratar a todas las personas sin discriminación es ejercer el valor de la:", o:["igualdad","obediencia","competencia","costumbre"], r:0, f:"La igualdad implica el mismo trato y derechos para todas las personas."},
+];
+
+const MATERIAS = ["Español","Habilidad Verbal","Matemáticas","Habilidad Matemática","Biología","Física","Química","Historia","Geografía","Formación Cívica y Ética"];
+const byMat = m => BANK.filter(q => q.m === m);
+
+/* ---------------- ICONOS (SVG estático, sin emojis ni animaciones) ---------------- */
+function svgIco(paths, opts={}){
+  const attrs = opts.fill
+    ? 'fill="currentColor" stroke="none"'
+    : 'fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
+  return `<svg viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.14em;flex-shrink:0" ${attrs}>${paths}</svg>`;
+}
+const ICONS = {
+  "Español": svgIco('<path d="M12 6c-2-1.5-5-1.5-8-1v14c3-.5 6-.5 8 1 2-1.5 5-1.5 8-1V5c-3-.5-6-.5-8 1z"/><path d="M12 6v14"/>'),
+  "Habilidad Verbal": svgIco('<path d="M4 5h16v10H9l-4 4v-4H4z"/>'),
+  "Matemáticas": svgIco('<circle cx="12" cy="6.5" r="1.5"/><rect x="5" y="11" width="14" height="2" rx="1"/><circle cx="12" cy="17.5" r="1.5"/>', {fill:true}),
+  "Habilidad Matemática": svgIco('<path d="M4 4h5v2a2 2 0 104 0V4h5v5h-2a2 2 0 100 4h2v5h-5v-2a2 2 0 10-4 0v2H4v-5h2a2 2 0 100-4H4z"/>', {fill:true}),
+  "Biología": svgIco('<path d="M20 4C10 4 4 10 4 18c8 0 14-6 14-14z"/><path d="M7 17c3-4 6-7 11-11"/>'),
+  "Física": svgIco('<ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>'),
+  "Química": svgIco('<path d="M9 2h6M10 2v6l-5.5 9.5A2 2 0 006.2 21h11.6a2 2 0 001.7-3.5L14 8V2"/><path d="M8 14h8"/>'),
+  "Historia": svgIco('<rect x="3" y="3" width="18" height="2" rx="1"/><rect x="3" y="19" width="18" height="2" rx="1"/><rect x="5" y="7" width="2" height="10"/><rect x="9" y="7" width="2" height="10"/><rect x="13" y="7" width="2" height="10"/><rect x="17" y="7" width="2" height="10"/>', {fill:true}),
+  "Geografía": svgIco('<circle cx="10.5" cy="10.5" r="7.5"/><path d="M3 10.5h15M10.5 3c2.6 2.7 2.6 12.3 0 15M10.5 3c-2.6 2.7-2.6 12.3 0 15"/><path d="M19 14c1.7 0 3 1.4 3 3.1 0 2.3-3 5-3 5s-3-2.7-3-5c0-1.7 1.3-3.1 3-3.1z" fill="currentColor" stroke="none"/>'),
+  "Formación Cívica y Ética": svgIco('<path d="M12 3v18M7 21h10M5 7h14M5 7L2.5 12a2.5 2.5 0 005 0L5 7zM19 7l-2.5 5a2.5 2.5 0 005 0L19 7z"/>'),
+};
+const ICO = {
+  mundos: svgIco('<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3 3.2 3 14.8 0 18"/><path d="M12 3c-3 3.2-3 14.8 0 18"/>'),
+  materias: ICONS["Español"],
+  examen: svgIco('<rect x="5" y="4" width="14" height="17" rx="2"/><rect x="9" y="2.5" width="6" height="3" rx="1"/><path d="M8.5 11h7M8.5 15h7"/>'),
+  tutoria: svgIco('<rect x="4.5" y="8.5" width="15" height="10" rx="3"/><circle cx="9" cy="13.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15" cy="13.5" r="1.2" fill="currentColor" stroke="none"/><path d="M12 8.5V5.5"/><circle cx="12" cy="4.3" r="1.2"/><path d="M2.5 12v3M21.5 12v3"/>'),
+  trofeo: svgIco('<path d="M6 3h12v3.5c0 3.6-2.3 6.3-5 6.9v2.6h2.5a1.5 1.5 0 011.5 1.5V19H7v-1.5A1.5 1.5 0 018.5 16H11v-2.6C8.3 12.8 6 10.1 6 6.5V3z"/><path d="M4 4h2v2.2c0 1.6.9 2.9 2 3.4C6.6 8.8 5 7.1 5 5V4z" opacity=".85"/><path d="M20 4h-2v2.2c0 1.6-.9 2.9-2 3.4 1.4-.8 3-2.5 3-4.6V4z" opacity=".85"/><rect x="6.5" y="19.4" width="11" height="1.8" rx=".9"/>', {fill:true}),
+  battleroyale: svgIco('<path d="M13 2L4.5 14h5.7l-1.4 8L19 10h-5.8l1.3-8H13z"/>', {fill:true}),
+  arena: svgIco('<path d="M4 20L18 6M15 3l3 3-2 2-3-3z"/><path d="M20 20L6 6M9 3L6 6l2 2 3-3z"/>'),
+  clanes: svgIco('<path d="M12 2.5l7.5 3v5.4c0 5.4-3.3 9-7.5 10.6-4.2-1.6-7.5-5.2-7.5-10.6V5.5l7.5-3z"/>', {fill:true}),
+  marcador: svgIco('<rect x="3" y="13" width="5" height="8" rx="1"/><rect x="9.5" y="8" width="5" height="13" rx="1"/><rect x="16" y="11" width="5" height="10" rx="1"/>', {fill:true}),
+  fuego: svgIco('<path d="M12 2c1 3-2.5 4-2.5 7.5 0 1 .4 1.8 1 2.3-1.6-.3-3-2-3-4.3C4.7 10 3 12.8 3 15.5 3 19.6 6.6 22 11 22c5 0 8.5-3 8.5-7.3 0-3.4-2-5.7-3.8-7.4.3 1.6-.2 2.9-1.2 3.6.4-2-.4-3.4-1.5-4.6C12.4 5.3 12.3 3.6 12 2z"/>', {fill:true}),
+  vacaciones: svgIco('<circle cx="17" cy="6" r="2.4"/><path d="M12 21c0-6 3-9 8-10M4 21c2-5 5-7 8-8"/>'),
+  congelado: svgIco('<path d="M12 2v20M3.5 7l17 10M20.5 7l-17 10"/>'),
+  diagnostico: svgIco('<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/>'),
+  logo: svgIco('<circle cx="12" cy="12" r="9.5"/><path d="M15.5 8.5l-2 5-5 2 2-5z" fill="currentColor" stroke="none"/>'),
+  home: svgIco('<path d="M4 11.5L12 4l8 7.5"/><path d="M6 10v9a1 1 0 001 1h3v-5h4v5h3a1 1 0 001-1v-9"/>'),
+  user: svgIco('<circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1-4 4-6 7.5-6s6.5 2 7.5 6"/>'),
+  sun: svgIco('<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/>'),
+  moon: svgIco('<path d="M20 14.5A8.5 8.5 0 1110 3.6 6.8 6.8 0 0020 14.5z"/>', {fill:true}),
+  lock: svgIco('<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/>'),
+  bookmark: svgIco('<path d="M6 3h12v18l-6-4-6 4z"/>', {fill:true}),
+};
+function medal(tier){
+  const c = {bronce:"#C97C3D", plata:"#AEB7C4", oro:"#FFC94D", diamante:"#6FE0EE"}[tier] || "currentColor";
+  return `<svg viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.14em"><circle cx="12" cy="10" r="7.2" fill="${c}"/><circle cx="12" cy="10" r="4.6" fill="none" stroke="#ffffffb0" stroke-width="1.1"/><path d="M9 15.5l-2 5.5 5-2.3 5 2.3-2-5.5" fill="${c}" opacity=".9"/></svg>`;
+}
+function rankIco(i){ return i===0?medal('oro'):i===1?medal('plata'):i===2?medal('bronce'):(i+1)+"."; }
+
+/* ---------------- ESTADO (en memoria; el demo se reinicia al recargar) ---------------- */
+const S = {
+  logueado:false, pagado:false, plan:null, email:"", diagHecho:false, diagResultado:null,
+  mundos:{},           // {materia: {nivel: {stars, best}}}
+  repaso:[],           // ids de preguntas guardadas
+  histMaterias:[], histExamen:[],
+  msgsMes:100, msgsExtra:0, saldo:50,
+  chat:[],             // historial TutorIA
+  trofeos:60, clan:null,
+  racha:{dias:4, mejor:11, congelados:1, vacaciones:false, actividadHoy:false},
+};
+MATERIAS.forEach(m => S.mundos[m] = {});
+
+/* ---------------- DATOS PARA MODO COMPETITIVO (demo) ---------------- */
+const BOT_NAMES = ["Fer_23","Maru.exe","ElChamo","Nayelii","Toño_MX","Karla.dev","Bryan_99","LaChiquis","Emi_04","DiegoXV","Vale_R","Kevin.js","Ximena22","ElNeto","Ari_Prepa","Sofi.gg","Renexd","Michelle_A","Pau2010","Santi_MX"];
+const GLOBAL_BOTS = Array.from({length:40},(_,i)=>({nombre:BOT_NAMES[i%BOT_NAMES.length]+(i>=BOT_NAMES.length?"_"+i:""), score: Math.round(300 + Math.random()*2600)}));
+
+function ligaInfo(t){
+  const ligas = [{n:"Bronce",min:0,max:99,e:medal('bronce')},{n:"Plata",min:100,max:249,e:medal('plata')},{n:"Oro",min:250,max:499,e:medal('oro')},{n:"Diamante",min:500,max:99999,e:medal('diamante')}];
+  const cur = ligas.find(l=>t>=l.min && t<=l.max) || ligas[ligas.length-1];
+  const idx = ligas.indexOf(cur);
+  const next = ligas[idx+1];
+  const pct = next ? Math.round((t-cur.min)/(next.min-cur.min)*100) : 100;
+  return {nombre:cur.n, emoji:cur.e, pct, next: next?next.min:null, nextNombre: next?next.n:null};
+}
+
+/* ---------------- RACHAS DE ESTUDIO ---------------- */
+const HITOS_RACHA = [3,7,30,100,180,365];
+function marcarActividadHoy(){
+  if(S.racha.vacaciones) return;
+  if(S.racha.actividadHoy) return; // ya contaba el día de hoy
+  S.racha.actividadHoy = true;
+  S.racha.dias++;
+  if(S.racha.dias > S.racha.mejor) S.racha.mejor = S.racha.dias;
+  if(S.racha.dias % 7 === 0) S.racha.congelados = Math.min(2, S.racha.congelados + 1);
+  if(HITOS_RACHA.includes(S.racha.dias)){
+    setTimeout(()=> modal(`<h2 class="center"><span style="color:var(--gold)">${ICO.fuego}</span> ¡${S.racha.dias} días seguidos!</h2>
+      <p class="dim center">${S.racha.dias % 7 === 0 ? `Ganaste un congelado de racha ${ICO.congelado} gratis.` : "Sigue así, vas increíble."}</p>
+      <button class="btn" onclick="closeModal()">¡Vamos!</button>`), 900);
+  }
+}
+function toggleVacaciones(){
+  S.racha.vacaciones = !S.racha.vacaciones;
+  go('perfil',{replace:true});
+}
+
+/* ---------------- NAVEGACIÓN ---------------- */
+const $ = s => document.querySelector(s);
+const screens = $("#screens");
+let historyStack = [];
+let currentScreen = null;
+let quizActivo = false;
+
+function render(name, html, title){
+  screens.innerHTML = `<div class="screen active">${html}</div>`;
+  $("#tb-title").textContent = title || "ECOEMS Quest";
+  window.scrollTo(0,0);
+}
+function go(name, opts={}){
+  if(currentScreen && !opts.replace) historyStack.push(currentScreen);
+  currentScreen = {name, opts};
+  quizActivo = false;
+  clearInterval(timerInt);
+  $("#topbar").style.display = (name==="portada"||name==="login"||name==="registro") ? "none":"flex";
+  SCREENS[name](opts);
+}
+function back(){
+  if(quizActivo){ confirmSalirQuiz(); return; }
+  const prev = historyStack.pop();
+  if(prev){ currentScreen = prev; SCREENS[prev.name](prev.opts); $("#topbar").style.display = (prev.name==="portada")?"none":"flex"; }
+  else go("home",{replace:true});
+}
+$("#btn-back").onclick = back;
+$("#btn-home").onclick = () => { if(quizActivo){confirmSalirQuiz("home"); return;} historyStack=[]; go("home",{replace:true}); };
+$("#btn-perfil").onclick = () => { if(quizActivo){confirmSalirQuiz("perfil"); return;} go("perfil"); };
+
+/* ---------------- MODAL ---------------- */
+function modal(html){ $("#modal-content").innerHTML = html; $("#modal-bg").classList.add("show"); }
+function closeModal(){ $("#modal-bg").classList.remove("show"); }
+$("#modal-bg").addEventListener("click", e => { if(e.target.id==="modal-bg") closeModal(); });
+
+function confirmSalirQuiz(dest){
+  modal(`<h2>¿Salir del ejercicio?</h2><p class="dim">Perderás el progreso de este intento.</p>
+    <div class="row2" style="margin-top:14px">
+      <button class="btn ghost" onclick="closeModal()">Seguir</button>
+      <button class="btn" onclick="closeModal(); quizActivo=false; clearInterval(timerInt); ${dest==='perfil'?"go('perfil')":dest==='home'?"historyStack=[];go('home',{replace:true})":"back()"}">Salir</button>
+    </div>`);
+}
+
+/* ---------------- MOTOR DE QUIZ ---------------- */
+let timerInt = null;
+function startQuiz(cfg){
+  // cfg: {titulo, preguntas, tiempoSeg, onFinish, contexto}
+  quizActivo = true;
+  const st = {i:0, resp:Array(cfg.preguntas.length).fill(null), fin:false, t:cfg.tiempoSeg};
+  $("#tb-title").textContent = cfg.titulo;
+
+  function fmt(s){ const m=Math.floor(s/60), ss=s%60; return `${m}:${ss<10?"0":""}${ss}`; }
+
+  function terminar(auto){
+    if(st.fin) return; st.fin = true; quizActivo=false; clearInterval(timerInt);
+    const aciertos = cfg.preguntas.reduce((a,q,ix)=> a + (st.resp[ix]===q.r ?1:0), 0);
+    cfg.onFinish(aciertos, st.resp, auto);
+  }
+
+  function paint(){
+    const q = cfg.preguntas[st.i];
+    const respondida = st.resp[st.i] !== null;
+    const enRepaso = S.repaso.includes(q.id);
+    screens.innerHTML = `<div class="screen active">
+      <div class="quiz-head">
+        <span class="badge">${q.m}</span>
+        <span class="timer ${st.t<=30?'low':''}" id="qtimer">⏱ ${fmt(st.t)}</span>
+      </div>
+      <div class="progress"><i style="width:${(st.i)/cfg.preguntas.length*100}%"></i></div>
+      <p class="dim">Pregunta ${st.i+1} de ${cfg.preguntas.length}</p>
+      ${q.lect ? `<div class="lectura">${q.lect}</div>` : ""}
+      <p class="enunciado">${q.q}</p>
+      <div id="opts">${q.o.map((o,ix)=>{
+        let cls="opt";
+        if(respondida){ if(ix===q.r) cls+=" ok"; else if(ix===st.resp[st.i]) cls+=" bad"; }
+        return `<button class="${cls}" data-ix="${ix}" ${respondida?"disabled":""}><span class="letter">${"ABCD"[ix]})</span><span>${o}</span></button>`;
+      }).join("")}</div>
+      ${respondida ? `<div class="feedback ${st.resp[st.i]===q.r?'ok':'bad'}"><b>${st.resp[st.i]===q.r?'¡Correcto!':'Incorrecto.'}</b> ${q.f}</div>`:""}
+      <button class="repasar-btn ${enRepaso?'saved':''}" id="btn-repasar">${enRepaso?ICO.bookmark+' Guardada para repasar con TutorIA':ICO.bookmark+' Repasar — no le sé, guárdala para TutorIA'}</button>
+      <div class="quiz-nav">
+        <button class="btn ghost" id="q-prev" ${st.i===0?"disabled":""}>← Anterior</button>
+        ${st.i < cfg.preguntas.length-1
+          ? `<button class="btn" id="q-next">Siguiente →</button>`
+          : `<button class="btn green" id="q-fin">Terminar ✔</button>`}
+      </div>
+      <button class="btn ghost" id="q-salir" style="margin-top:10px">✖ Salir del ejercicio</button>
+    </div>`;
+
+    document.querySelectorAll("#opts .opt").forEach(b=>{
+      b.onclick = () => { st.resp[st.i] = +b.dataset.ix; paint(); };
+    });
+    $("#btn-repasar").onclick = () => {
+      const ix = S.repaso.indexOf(q.id);
+      if(ix>=0) S.repaso.splice(ix,1); else S.repaso.push(q.id);
+      paint();
+    };
+    $("#q-prev").onclick = () => { st.i--; paint(); };
+    const nx = $("#q-next"); if(nx) nx.onclick = () => { st.i++; paint(); };
+    const fin = $("#q-fin"); if(fin) fin.onclick = () => {
+      const sinResp = st.resp.filter(r=>r===null).length;
+      modal(`<h2>Terminar y calificar</h2><p class="dim">${sinResp>0?`Tienes ${sinResp} pregunta(s) sin responder.`:"Respondiste todo."}</p>
+        <div class="row2" style="margin-top:14px">
+          <button class="btn ghost" onclick="closeModal()">Revisar</button>
+          <button class="btn green" id="conf-fin">Calificar</button>
+        </div>`);
+      $("#conf-fin").onclick = () => { closeModal(); terminar(false); };
+    };
+    $("#q-salir").onclick = () => confirmSalirQuiz();
+  }
+
+  clearInterval(timerInt);
+  timerInt = setInterval(()=>{
+    st.t--;
+    const el = $("#qtimer");
+    if(el){ el.textContent = "⏱ " + fmt(st.t); if(st.t<=30) el.classList.add("low"); }
+    if(st.t<=0) terminar(true);
+  },1000);
+  paint();
+}
+
+function pickRandom(arr, n){
+  const copy=[...arr], out=[];
+  while(out.length<n && copy.length) out.push(copy.splice(Math.floor(Math.random()*copy.length),1)[0]);
+  return out;
+}
+function clasif(p){ return p>=80?["Fuerte","f"]:p>=50?["Regular","r"]:["Débil","d"]; }
+
+/* ---------------- PANTALLAS ---------------- */
+const SCREENS = {
+
+portada(){
+  render("portada", `
+    <button class="iconbtn theme-btn" onclick="toggleTema()" title="Cambiar tema" style="position:absolute; top:16px; right:16px; z-index:5">${ICO.sun}</button>
+    <div class="hero">
+      <div class="logo-shield" style="color:var(--gold)">${ICO.logo}</div>
+      <h1>ECOEMS <span>QUEST</span></h1>
+      <p class="dim" style="margin-top:6px">Tu aventura rumbo a la prepa que quieres.<br>128 reactivos. 10 materias. Un mapa.</p>
+      <div style="width:100%; margin-top:26px">
+        <button class="btn" onclick="go('registro')">Crear cuenta</button>
+        <button class="btn ghost" onclick="go('login')">Iniciar sesión</button>
+      </div>
+    </div>`, "");
+},
+
+login(){
+  render("login", `
+    <button class="iconbtn" onclick="back()" style="margin-bottom:14px">←</button>
+    <h1>Iniciar sesión</h1>
+    <input class="field" type="email" id="login-email" placeholder="Correo">
+    <input class="field" type="password" id="login-pass" placeholder="Contraseña">
+    <button class="btn" onclick="S.email=$('#login-email').value.trim()||S.email; S.logueado=true; S.pagado ? (historyStack=[],go('home',{replace:true})) : go('pago')">Entrar</button>
+    <p class="dim center" style="margin-top:14px; text-decoration:underline; cursor:pointer" onclick="modal('<h2>Recuperar contraseña</h2><p class=dim>Te llega un correo con un link para crear una nueva contraseña.</p><button class=btn onclick=closeModal()>Entendido</button>')">¿Olvidaste tu contraseña?</p>
+  `, "Iniciar sesión");
+},
+
+registro(){
+  render("registro", `
+    <button class="iconbtn" onclick="back()" style="margin-bottom:14px">←</button>
+    <h1>Crear cuenta</h1>
+    <button class="btn ghost" onclick="modal('<h2>Google</h2><p class=dim>Autoriza tu cuenta de Google para continuar. ✔</p><button class=btn onclick=\\'closeModal(); S.logueado=true; go(&quot;pago&quot;)\\'>Continuar</button>')" style="margin-top:16px">Continuar con Google</button>
+    <div class="dim center" style="margin:14px 0">— o con tu correo —</div>
+    <input class="field" type="email" id="reg-email" placeholder="Correo">
+    <input class="field" type="password" id="reg-pass1" placeholder="Contraseña">
+    <input class="field" type="password" id="reg-pass2" placeholder="Confirmar contraseña">
+    <button class="btn" onclick="S.email=$('#reg-email').value.trim()||S.email; go('verificar')">Crear cuenta</button>
+  `, "Crear cuenta");
+},
+
+verificar(){
+  render("verificar", `
+    <h1>Revisa tu correo 📬</h1>
+    <p class="dim" style="margin-top:8px">Te enviamos un código de 6 dígitos a <b>${S.email||'tu correo'}</b>.</p>
+    <input class="field" id="verif-code" placeholder="000000" style="text-align:center; letter-spacing:8px; font-size:22px; font-weight:800">
+    <button class="btn" onclick="S.logueado=true; go('pago')">Verificar</button>
+    <button class="btn ghost" onclick="modal('<h2>Código reenviado ✔</h2><p class=dim>Espera hasta 60 segundos para pedir uno nuevo.</p><button class=btn onclick=closeModal()>Ok</button>')">Reenviar código</button>
+  `, "Verificación");
+},
+
+pago(){
+  render("pago", `
+    <h1>Elige tu plan</h1>
+    <p class="dim" style="margin-top:6px">Tu plan corre desde hoy. Sin fechas de corte.</p>
+    <div class="plan" onclick="simPago('1 mes','$149')"><div><b>1 mes</b><span class="sub">Para el empujón final</span></div><span class="price">$149</span></div>
+    <div class="plan best" onclick="simPago('6 meses','$549')"><div><b>6 meses ⭐</b><span class="sub">El más elegido</span></div><span class="price">$549</span></div>
+    <div class="plan" onclick="simPago('1 año','$949')"><div><b>1 año</b><span class="sub">Preparación completa</span></div><span class="price">$949</span></div>
+    <button class="btn ghost" onclick="S.logueado=false; historyStack=[]; go('portada',{replace:true})" style="margin-top:20px">Cerrar sesión</button>
+  `, "Suscripción");
+},
+
+home(){
+  const diagCard = !S.diagHecho ? `
+    <div class="card" style="border-color:var(--gold)">
+      <h2><span style="color:var(--gold)">${ICO.diagnostico}</span> Examen diagnóstico</h2>
+      <p class="dim">5 preguntas rápidas para saber de dónde partes. Solo se hace una vez.</p>
+      <div class="row2"><button class="btn small" onclick="startDiag()">Comenzar</button>
+      <button class="btn small ghost" onclick="S.diagHecho=true; go('home',{replace:true})">Omitir</button></div>
+    </div>` : "";
+  const prog = MATERIAS.reduce((a,m)=> a + Object.values(S.mundos[m]).filter(l=>l.stars>0).length, 0);
+  render("home", `
+    <h1>¡Hola, aspirante! 👋</h1>
+    <div class="dash-card" onclick="go('perfil')">
+      <span class="dash-flame" style="color:${S.racha.vacaciones?'var(--blue)':'var(--gold)'}">${S.racha.vacaciones?ICO.vacaciones:ICO.fuego}</span>
+      <div class="dash-txt">
+        <b>${S.racha.dias} día${S.racha.dias===1?'':'s'} de racha</b>
+        <span class="dim" style="font-size:12px">${S.racha.vacaciones? "En modo vacaciones" : S.racha.actividadHoy ? "✅ Ya estudiaste hoy" : "⭕ Aún no estudias hoy"}</span>
+      </div>
+      <span class="chev">›</span>
+    </div>
+    <div class="dash-stats">
+      <div class="stat-box"><b>${prog}</b><span>Niveles aprobados</span></div>
+      <div class="stat-box"><b>${S.repaso.length}</b><span>En repaso</span></div>
+      <div class="stat-box"><b>${S.trofeos}</b><span><span style="color:var(--gold)">${ICO.trofeo}</span> Trofeos</span></div>
+    </div>
+    ${diagCard}
+
+    <p class="sec-title">Practica</p>
+    <div class="tile-grid">
+      <div class="tile" onclick="go('mundos')">
+        <div class="tile-ico" style="background:var(--tint-ok); color:var(--green)">${ICO.mundos}</div>
+        <div><b>Mundos</b><span>Mundo por materia, nivel a nivel</span></div>
+      </div>
+      <div class="tile" onclick="go('materias')">
+        <div class="tile-ico" style="background:#263A5E; color:#fff">${ICO.materias}</div>
+        <div><b>Materias</b><span>Ejercicio tipo examen</span></div>
+      </div>
+      <div class="tile" onclick="go('examenIntro')">
+        <div class="tile-ico" style="background:var(--tint-warn); color:var(--gold-deep)">${ICO.examen}</div>
+        <div><b>Examen</b><span>Simulacro cronometrado</span></div>
+      </div>
+      <div class="tile" onclick="go('tutoria')">
+        <div class="tile-ico" style="background:var(--tint-bad); color:var(--red)">${ICO.tutoria}</div>
+        <div><b>TutorIA</b><span>Tu tutor con IA real</span></div>
+      </div>
+    </div>
+
+    <p class="sec-title">Competir</p>
+    <div class="feature-card" onclick="go('competir')">
+      <div class="feature-ico" style="color:#fff">${ICO.trofeo}</div>
+      <div class="mc-txt"><b>Batalla en Aula · Arena · Grupos</b><span class="dim">Reta a tu salón o a todo el país</span></div>
+      <span class="chev">›</span>
+    </div>
+  `, "Inicio");
+},
+
+competir(){
+  render("competir", `
+    <h1><span style="color:var(--gold)">${ICO.trofeo}</span> Competir</h1>
+    <p class="dim">Ideal para hacerlo con tu salón: reta a tus compañeros o compite contra todo el país.</p>
+    <div class="card center" style="margin-top:14px">
+      <div style="font-size:30px">${ligaInfo(S.trofeos).emoji}</div>
+      <h2>Liga ${ligaInfo(S.trofeos).nombre}</h2>
+      <p class="dim"><span style="color:var(--gold)">${ICO.trofeo}</span> ${S.trofeos} trofeos totales</p>
+    </div>
+    <div class="tile-grid" style="margin-top:14px">
+      <div class="tile" onclick="go('brIntro')">
+        <div class="tile-ico" style="background:#4A2C14; color:#fff">${ICO.battleroyale}</div>
+        <div><b>Batalla en Aula</b><span>Compite en tiempo real</span></div>
+      </div>
+      <div class="tile" onclick="go('arena')">
+        <div class="tile-ico" style="background:var(--panel2); color:var(--blue)">${ICO.arena}</div>
+        <div><b>Arena PvP</b><span>Duelos 1v1 · trofeos y liga</span></div>
+      </div>
+      <div class="tile" onclick="go('clanes')">
+        <div class="tile-ico" style="background:var(--tint-ok); color:var(--green)">${ICO.clanes}</div>
+        <div><b>Grupos de Estudio</b><span>${S.clan? "Tu grupo: "+S.clan.nombre : "Estudia con tu salón"}</span></div>
+      </div>
+      <div class="tile" onclick="go('marcador')">
+        <div class="tile-ico" style="background:var(--tint-bad); color:var(--red)">${ICO.marcador}</div>
+        <div><b>Marcador Global</b><span>Tu posición entre todos</span></div>
+      </div>
+    </div>
+  `, "Competir");
+},
+
+/* ---------- BATTLE ROYALE ---------- */
+brIntro(){
+  render("brIntro", `
+    <h1><span style="color:var(--gold)">${ICO.battleroyale}</span> Batalla en Aula</h1>
+    <div class="card">
+      <p><b>En la app real:</b> un anfitrión (puede ser tu profesor) crea la sala, comparte un código, y entre 20 y 50 jugadores se unen desde su celular. Todos ven la misma pregunta al mismo tiempo — gana quien acierta y responde más rápido.</p>
+      <div class="spacer"></div>
+      <p><b class="gold">Sala de práctica:</b> mientras se conecta el modo en vivo, juegas contra 24 participantes (bots) en tiempo real.</p>
+    </div>
+    <button class="btn" onclick="go('brLobby')">Crear/entrar a una sala</button>
+    <button class="btn ghost" onclick="back()">← Regresar</button>
+  `, "Batalla en Aula");
+},
+
+brLobby(){
+  const jugadores = 24;
+  render("brLobby", `
+    <h1 class="center">Sala #KAH-7734</h1>
+    <p class="dim center">Comparte este código con tu salón</p>
+    <div class="card center">
+      <div style="font-size:34px; font-weight:800; letter-spacing:6px; color:var(--gold)">7734</div>
+      <p class="dim" style="margin-top:6px">${jugadores}/50 jugadores conectados</p>
+    </div>
+    <div class="card">
+      <p class="dim" style="font-size:13px">🟢 Tú &nbsp;·&nbsp; 🟢 Fer_23 &nbsp;·&nbsp; 🟢 Maru.exe &nbsp;·&nbsp; 🟢 ElChamo &nbsp;·&nbsp; 🟢 Nayelii &nbsp;·&nbsp; 🟢 Toño_MX &nbsp;·&nbsp; +${jugadores-6} más...</p>
+    </div>
+    <button class="btn green" onclick="startBattleRoyale()">Iniciar partida</button>
+    <button class="btn ghost" onclick="back()">← Salir de la sala</button>
+  `, "Sala de Batalla en Aula");
+},
+
+/* ---------- ARENA PVP ---------- */
+arena(){
+  const info = ligaInfo(S.trofeos);
+  render("arena", `
+    <h1><span style="color:var(--blue)">${ICO.arena}</span> Arena PvP</h1>
+    <div class="card center">
+      <div style="font-size:40px">${info.emoji}</div>
+      <h2>Liga ${info.nombre}</h2>
+      <p class="dim"><span style="color:var(--gold)">${ICO.trofeo}</span> ${S.trofeos} trofeos</p>
+      <div class="progress" style="margin-top:10px"><i style="width:${info.pct}%; background:var(--blue)"></i></div>
+      <p class="dim" style="font-size:12px">${info.next ? `Te faltan ${info.next - S.trofeos} trofeos para ${info.nextNombre}` : "¡Liga máxima!"}</p>
+    </div>
+    <div class="card">
+      <h2>Ligas por trofeos</h2>
+      <div class="mat-row"><span>${medal('bronce')} Bronce</span><span class="dim">0–99</span></div>
+      <div class="mat-row"><span>${medal('plata')} Plata</span><span class="dim">100–249</span></div>
+      <div class="mat-row"><span>${medal('oro')} Oro</span><span class="dim">250–499</span></div>
+      <div class="mat-row"><span>${medal('diamante')} Diamante</span><span class="dim">500+</span></div>
+    </div>
+    <button class="btn" onclick="buscarRival()">Buscar rival</button>
+    <p class="dim center" style="margin-top:8px">Duelo de 5 preguntas (real: 10) · +20 trofeos si ganas, −15 si pierdes</p>
+  `, "Arena PvP");
+},
+
+/* ---------- CLANES ---------- */
+clanes(){
+  if(!S.clan){
+    render("clanes", `
+      <h1><span style="color:var(--green)">${ICO.clanes}</span> Grupos de Estudio</h1>
+      <p class="dim">Grupos de estudio persistentes. Perfectos para un salón completo o un grupo de amigos.</p>
+      <div class="card">
+        <h2>Crear un grupo</h2>
+        <input class="field" id="clan-nombre" placeholder="Nombre del grupo" value="Los Cerebritos 3ºB">
+        <button class="btn small" style="margin-top:10px" onclick="crearClan()">Crear</button>
+      </div>
+      <div class="card">
+        <h2>Unirse con código</h2>
+        <input class="field" id="clan-codigo" placeholder="Código de 6 letras" value="ABC123" style="text-transform:uppercase">
+        <button class="btn small ghost" style="margin-top:10px" onclick="unirseClan()">Unirme</button>
+      </div>
+    `, "Grupos de Estudio");
+    return;
+  }
+  const miembros = S.clan.miembros;
+  render("clanes", `
+    <h1><span style="color:var(--green)">${ICO.clanes}</span> ${S.clan.nombre}</h1>
+    <p class="dim">Código para invitar: <b class="gold">${S.clan.codigo}</b></p>
+    <div class="card center">
+      <div style="font-size:30px">🏅 ${miembros.reduce((a,m)=>a+m.puntos,0)}</div>
+      <p class="dim">puntos del grupo esta semana</p>
+    </div>
+    <div class="card">
+      <h2>Ranking del grupo</h2>
+      ${[...miembros].sort((a,b)=>b.puntos-a.puntos).map((m,i)=>`
+        <div class="mat-row"><span>${rankIco(i)} ${m.nombre}${m.tu?' <span class="badge tag-demo">Tú</span>':''}</span><b>${m.puntos} pts</b></div>
+      `).join("")}
+    </div>
+    <button class="btn ghost" onclick="salirClan()">Salir del grupo</button>
+  `, "Mi grupo");
+},
+
+/* ---------- MARCADOR GLOBAL ---------- */
+marcador(){
+  const miScore = S.trofeos*2 + Object.values(S.mundos).reduce((a,mm)=>a+Object.values(mm).reduce((b,l)=>b+l.stars,0),0)*15;
+  const bots = GLOBAL_BOTS.map(b=>({...b}));
+  const todos = [...bots, {nombre:"Tú", score:miScore, tu:true}].sort((a,b)=>b.score-a.score);
+  const miPos = todos.findIndex(u=>u.tu) + 1;
+  render("marcador", `
+    <h1><span style="color:var(--red)">${ICO.marcador}</span> Marcador Global</h1>
+    <p class="dim">Combina estrellas de Mundos + trofeos de Arena. Apodos únicamente — nunca nombres reales.</p>
+    <div class="card center" style="border-color:var(--gold)">
+      <p class="dim">Tu posición</p>
+      <div style="font-size:30px; font-weight:800" class="gold">#${miPos} <span class="dim" style="font-size:15px; font-weight:400">de ${todos.length + 11980} aspirantes</span></div>
+    </div>
+    <div class="card">
+      <h2>Top 10</h2>
+      ${todos.slice(0,10).map((u,i)=>`
+        <div class="mat-row"><span>${rankIco(i)} ${u.nombre}${u.tu?' <span class="badge tag-demo">Tú</span>':''}</span><b>${u.score} pts</b></div>
+      `).join("")}
+    </div>
+  `, "Marcador Global");
+},
+
+mundos(){
+  render("mundos", `
+    <h1>Mundos <span style="color:var(--green)">${ICO.mundos}</span></h1>
+    <p class="dim">Cada materia es un mundo con niveles cortos de práctica. Aprueba uno para desbloquear el siguiente.</p>
+    <div class="tile-grid" style="margin-top:14px">
+    ${MATERIAS.map(m=>{
+      const niveles = S.mundos[m];
+      const aprobados = Object.values(niveles).filter(l=>l.stars>0).length;
+      const pct = Math.round(aprobados/3*100);
+      return `<div class="tile" onclick="go('mapa',{m:'${m}'})">
+        <div class="tile-ico" style="background:var(--panel2); color:var(--gold)">${ICONS[m]}</div>
+        <div><b>${m}</b><span>${aprobados}/3 niveles</span></div>
+        <div class="progress" style="height:8px; margin:0"><i style="width:${pct}%"></i></div>
+      </div>`;
+    }).join("")}
+    </div>
+  `, "Mundos");
+},
+
+mapa({m}){
+  const niveles = S.mundos[m];
+  const nodos = [1,2,3].map(n=>{
+    const dat = niveles[n];
+    const prevOk = n===1 || (niveles[n-1] && niveles[n-1].stars>0);
+    const estado = dat && dat.stars>0 ? "done" : prevOk ? "open" : "locked";
+    const stars = dat ? "★".repeat(dat.stars)+"☆".repeat(5-dat.stars) : "";
+    return `<div class="node-row ${n%2===0?'right':''}">
+      <div class="lvl-node ${estado}" onclick="${estado==='locked'?`modal('<h2>Nivel bloqueado</h2><p class=dim>Aprueba el nivel anterior (mínimo 2 de 3 aciertos) para desbloquearlo.</p><button class=btn onclick=closeModal()>Ok</button>')`:`jugarNivel('${m}',${n})`}">
+        ${estado==='done'?'✔':estado==='locked'?ICO.lock:n}
+      </div>
+      <div class="lvl-info"><b>Nivel ${n}</b><span class="dim" style="font-size:13px">${estado==='done'?'Mejor: '+dat.best+'/3':'3 preguntas'}</span><div class="lvl-stars">${stars}</div></div>
+    </div>`;
+  }).join("");
+  render("mapa", `
+    <h1>${ICONS[m]} ${m}</h1>
+    <p class="dim">Aprueba con 2/3 para desbloquear el siguiente nivel. Repite las veces que quieras: se guarda tu mejor puntaje.</p>
+    <div class="map-wrap">${nodos}</div>
+  `, "Mundo: "+m);
+},
+
+materias(){
+  render("materias", `
+    <h1>Materias <span style="color:var(--blue)">${ICO.materias}</span></h1>
+    <p class="dim">Ejercicio tipo examen con opciones A–D, cronometrado por materia.</p>
+    <div class="tile-grid" style="margin-top:14px">
+    ${MATERIAS.map(m=>`<div class="tile" onclick="startMaterias('${m}')">
+      <div class="tile-ico" style="background:var(--panel2); color:var(--gold)">${ICONS[m]}</div>
+      <div><b>${m}</b><span>${byMat(m).length} reactivos</span></div>
+    </div>`).join("")}
+    </div>
+  `, "Materias");
+},
+
+examenIntro(){
+  render("examenIntro", `
+    <h1>Simulador de examen 📝</h1>
+    <div class="card">
+      <p><b>Simulacro:</b> preguntas mezcladas de varias materias, cronometrado, sin pausa — como el día del examen.</p>
+    </div>
+    <button class="btn" onclick="startExamen()">Comenzar simulacro</button>
+    <button class="btn ghost" onclick="back()">← Regresar</button>
+  `, "Examen");
+},
+
+tutoria(){
+  const disponibles = S.msgsMes + S.msgsExtra;
+  render("tutoria", `
+    <div class="chat-box" id="chatbox">
+      ${S.chat.length===0 ? `<div class="msg ia">¡Hola! Soy <b>TutorIA</b> 🤖 y estoy conectado de verdad. Pregúntame cualquier duda de las 10 materias del ECOEMS, o pídeme que te explique tus preguntas guardadas en Repasar (tienes ${S.repaso.length}).</div>`:""}
+      ${S.chat.map(c=>`<div class="msg ${c.role==='user'?'user':'ia'} ${c.err?'err':''}">${c.text}</div>`).join("")}
+    </div>
+    <div class="chat-input-row">
+      <textarea class="field" id="chat-in" placeholder="Escribe tu duda..." maxlength="1500"></textarea>
+      <button class="btn" id="chat-send">➤</button>
+    </div>
+    <p class="counter">Te quedan <b class="gold">${S.msgsMes}/100</b> tokens este mes${S.msgsExtra>0?` + <b class="gold">${S.msgsExtra}</b> extra`:""} · <span style="text-decoration:underline; cursor:pointer" onclick="go('perfil')">Recargar</span></p>
+  `, "TutorIA 🤖");
+  const box = $("#chatbox"); box.scrollTop = box.scrollHeight; window.scrollTo(0, document.body.scrollHeight);
+  $("#chat-send").onclick = enviarTutoria;
+  $("#chat-in").addEventListener("keydown", e=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); enviarTutoria(); }});
+},
+
+perfil(){
+  const repasoHTML = S.repaso.length===0 ? `<p class="dim">Aún no guardas preguntas. Usa el botón ${ICO.bookmark} Repasar dentro de los ejercicios.</p>`
+    : S.repaso.map(id=>{ const q = BANK.find(b=>b.id===id);
+      return `<div class="mat-row"><span style="flex:1; font-size:14px">${ICONS[q.m]} ${q.t} <span class="dim">(${q.m})</span></span>
+      <button class="btn small ghost" onclick="preguntarRepaso('${id}')">Preguntar</button></div>`;}).join("");
+  const hist = S.histExamen.length===0 ? `<p class="dim">Sin simulacros todavía.</p>`
+    : S.histExamen.map(h=>`<div class="mat-row"><span>${h.fecha}</span><b>${h.aciertos}/${h.total}</b></div>`).join("");
+  render("perfil", `
+    <h1><span style="color:var(--blue)">${ICO.user}</span> Tu perfil</h1>
+    <div class="card" style="border-color:${S.racha.vacaciones?'var(--blue)':'var(--gold)'}">
+      <h2><span style="color:${S.racha.vacaciones?'var(--blue)':'var(--gold)'}">${S.racha.vacaciones?ICO.vacaciones:ICO.fuego}</span> Racha de estudio</h2>
+      <div class="score-big" style="font-size:40px">${S.racha.dias} <span style="font-size:16px; color:var(--dim)">día${S.racha.dias===1?'':'s'}</span></div>
+      <p class="dim center">Mejor racha: ${S.racha.mejor} días</p>
+      <div class="mat-row"><span><span style="color:var(--blue)">${ICO.congelado}</span> Congelados disponibles</span><b>${S.racha.congelados}/2</b></div>
+      <div class="mat-row"><span>Hoy</span><span class="pill ${S.racha.actividadHoy?'f':S.racha.vacaciones?'r':'d'}">${S.racha.vacaciones?'En vacaciones':S.racha.actividadHoy?'✔ Cumplido':'Pendiente'}</span></div>
+      <div class="row2" style="margin-top:12px">
+        <button class="btn small ${S.racha.vacaciones?'green':'ghost'}" onclick="toggleVacaciones()">${S.racha.vacaciones?'Desactivar':'Activar'} modo vacaciones</button>
+      </div>
+      <p class="dim" style="font-size:12px; margin-top:10px"><span style="color:var(--blue)">${ICO.congelado}</span> Ganas un congelado gratis cada 7 días de racha (nunca se compran). En modo vacaciones tu racha se pausa sin romperse.</p>
+    </div>
+    <div class="card"><h2>Suscripción</h2>
+      <p>Plan: <b class="gold">${S.plan||"—"}</b> · Estado: <b class="green-t">Activa</b></p>
+      <button class="btn small ghost" onclick="modal('<h2>Renovar / cambiar plan</h2><p class=dim>Aquí ves tu fecha de vencimiento, cambias de plan y descargas tus recibos de Stripe.</p><button class=btn onclick=closeModal()>Ok</button>')" style="margin-top:8px">Administrar</button>
+    </div>
+    <div class="card"><h2>Monedero TutorIA</h2>
+      <p>Saldo: <b class="gold">$${S.saldo} MXN</b> · Tokens del mes: <b>${S.msgsMes}/100</b> · Extra: <b>${S.msgsExtra}</b></p>
+      <div class="row2" style="margin-top:10px">
+        <button class="btn small ghost" onclick="S.saldo+=50; go('perfil',{replace:true})">Abonar $50</button>
+        <button class="btn small" onclick="comprarMsgs()">+30 tokens ($9)</button>
+      </div>
+    </div>
+    <div class="card"><h2>${ICO.bookmark} Mi repaso (${S.repaso.length})</h2>${repasoHTML}</div>
+    <div class="card"><h2>Historial de simulacros</h2>${hist}</div>
+    <div class="card"><h2>Cuenta</h2>
+      <p class="dim">${S.email||'Sin correo registrado'}</p>
+      <button class="btn small ghost" style="margin-top:8px" onclick="modal('<h2>¿Cerrar sesión?</h2><div class=row2 style=margin-top:14px><button class=\\'btn ghost\\' onclick=closeModal()>Cancelar</button><button class=btn onclick=\\'closeModal(); historyStack=[]; S.logueado=false; go(&quot;portada&quot;,{replace:true})\\'>Salir</button></div>')">Cerrar sesión</button>
+    </div>
+  `, "Perfil");
+},
+};
+
+/* ---------------- ACCIONES ---------------- */
+function simPago(plan, precio){
+  modal(`<h2>Pago con Stripe 💳</h2><p class="dim">Plan <b>${plan}</b> por <b>${precio} MXN</b>. Pago confirmado. ✔</p>
+  <button class="btn green" onclick="closeModal(); S.pagado=true; S.plan='${plan}'; historyStack=[]; go('home',{replace:true})">Entrar a mi cuenta</button>`);
+}
+
+function startDiag(){
+  const qs = pickRandom(["Matemáticas","Español","Biología","Historia","Habilidad Verbal"].map(m=>pickRandom(byMat(m),1)[0]),5);
+  startQuiz({titulo:"Diagnóstico", preguntas:qs, tiempoSeg:300, onFinish:(ac,resp,auto)=>{
+    marcarActividadHoy();
+    S.diagHecho = true;
+    const porMat = qs.map((q,ix)=>({m:q.m, ok:resp[ix]===q.r}));
+    S.diagResultado = porMat;
+    render("res", `
+      <h1 class="center">Diagnóstico listo <span style="color:var(--gold)">${ICO.diagnostico}</span></h1>
+      <div class="score-big">${ac}/5</div>
+      ${auto?'<p class="dim center">(Se acabó el tiempo y se calificó automáticamente)</p>':''}
+      <div class="card">${porMat.map(r=>`<div class="mat-row"><span>${ICONS[r.m]} ${r.m}</span><span class="pill ${r.ok?'f':'d'}">${r.ok?'Bien':'A repasar'}</span></div>`).join("")}</div>
+      <p class="dim center" style="margin-top:10px">Estos resultados ya los conoce TutorIA.</p>
+      <button class="btn" onclick="historyStack=[]; go('home',{replace:true})">Ir al inicio</button>
+    `, "Resultado");
+  }});
+}
+
+function jugarNivel(m, n){
+  const qs = pickRandom(byMat(m), 3);
+  startQuiz({titulo:`${m} · Nivel ${n}`, preguntas:qs, tiempoSeg:180, onFinish:(ac)=>{
+    marcarActividadHoy();
+    const stars = ac===3?5:ac===2?3:ac===1?1:0;
+    const aprobado = ac>=2;
+    const prev = S.mundos[m][n];
+    if(!prev || stars>prev.stars) S.mundos[m][n] = {stars:aprobado?stars:0, best:Math.max(ac, prev?prev.best:0)};
+    render("res", `
+      <h1 class="center">${aprobado?"¡Nivel aprobado! 🎉":"Casi... 💪"}</h1>
+      <div class="score-big">${ac}/3</div>
+      <div class="stars-big">${aprobado?"★".repeat(stars)+"☆".repeat(5-stars):"☆☆☆☆☆"}</div>
+      <p class="dim center">${aprobado?"Desbloqueaste el siguiente nivel.":"Necesitas 2/3 para aprobar. Reintenta, no pasa nada."}</p>
+      <div class="row2" style="margin-top:16px">
+        <button class="btn ghost" onclick="jugarNivel('${m}',${n})">Reintentar</button>
+        <button class="btn" onclick="go('mapa',{m:'${m}',replace:true})">Volver al mapa</button>
+      </div>
+    `, "Resultado");
+  }});
+}
+
+function startMaterias(m){
+  const pool = byMat(m);
+  const qs = pickRandom(pool, Math.min(5, pool.length));
+  const esHab = m.startsWith("Habilidad");
+  startQuiz({titulo:"Ejercicio: "+m, preguntas:qs, tiempoSeg:180, onFinish:(ac,resp,auto)=>{
+    marcarActividadHoy();
+    S.histMaterias.push({m, ac, total:qs.length});
+    const pend = S.repaso.length;
+    render("res", `
+      <h1 class="center">Ejercicio terminado</h1>
+      <div class="score-big">${ac}/${qs.length}</div>
+      ${auto?'<p class="dim center">(Tiempo agotado)</p>':''}
+      <div class="card">${qs.map((q,ix)=>`<div class="mat-row"><span style="flex:1; font-size:14px">${q.t}</span><span class="pill ${resp[ix]===q.r?'f':'d'}">${resp[ix]===q.r?'✔':'✘ '+"ABCD"[q.r]+')'}</span></div>`).join("")}</div>
+      ${pend>0?`<button class="btn ghost" onclick="go('tutoria')">${ICO.bookmark} Ver mis ${pend} pendientes con TutorIA</button>`:""}
+      <div class="row2" style="margin-top:12px">
+        <button class="btn ghost" onclick="startMaterias('${m}')">Otro ejercicio</button>
+        <button class="btn" onclick="go('materias',{replace:true})">Materias</button>
+      </div>
+    `, "Resultado");
+  }});
+}
+
+function startExamen(){
+  const qs = pickRandom(BANK, 8);
+  startQuiz({titulo:"Simulacro", preguntas:qs, tiempoSeg:360, onFinish:(ac,resp,auto)=>{
+    marcarActividadHoy();
+    const mats = {};
+    qs.forEach((q,ix)=>{ if(!mats[q.m]) mats[q.m]={ok:0,tot:0}; mats[q.m].tot++; if(resp[ix]===q.r) mats[q.m].ok++; });
+    const fecha = new Date().toLocaleDateString("es-MX",{day:"numeric",month:"short"});
+    S.histExamen.push({fecha, aciertos:ac, total:8});
+    const filas = Object.entries(mats).map(([m,d])=>{
+      const p = Math.round(d.ok/d.tot*100); const [lbl,cls] = clasif(p);
+      return `<div class="mat-row"><span>${ICONS[m]} ${m}</span><span><b>${d.ok}/${d.tot}</b> <span class="pill ${cls}">${lbl}</span></span></div>`;
+    }).join("");
+    render("res", `
+      <h1 class="center">Resultados del simulacro 📝</h1>
+      <div class="score-big">${ac}/8</div>
+      ${auto?'<p class="dim center">(Tiempo agotado)</p>':''}
+      <div class="card">${filas}</div>
+      <button class="btn ghost" onclick="go('tutoria')">Enviar resultados a TutorIA 🤖</button>
+      <button class="btn" onclick="historyStack=[]; go('home',{replace:true})">Ir al inicio</button>
+    `, "Resultado");
+  }});
+}
+
+function comprarMsgs(){
+  if(S.saldo < 9){ modal('<h2>Saldo insuficiente</h2><p class="dim">Abona saldo a tu monedero primero.</p><button class="btn" onclick="closeModal()">Ok</button>'); return; }
+  S.saldo -= 9; S.msgsExtra += 30;
+  go('perfil',{replace:true});
+}
+
+function preguntarRepaso(id){
+  const q = BANK.find(b=>b.id===id);
+  go('tutoria');
+  setTimeout(()=>{ const inp = $("#chat-in"); if(inp){ inp.value = `Explícame esta pregunta que guardé en repaso: "${q.q}" (materia: ${q.m}, tema: ${q.t}). La respuesta correcta es ${"ABCD"[q.r]}) ${q.o[q.r]}, pero no entiendo por qué.`; inp.focus(); } }, 80);
+}
+
+/* ---------------- BATTLE ROYALE (motor de ronda en vivo simulada) ---------------- */
+function startBattleRoyale(){
+  const NJUG = 24;
+  const qs = pickRandom(BANK, 5);
+  const board = {"Tú":0};
+  BOT_NAMES.slice(0, NJUG-1).forEach(n => board[n]=0);
+  let ronda = 0;
+
+  function jugarRonda(){
+    const q = qs[ronda];
+    let t = 12;
+    render("br", `
+      <div class="quiz-head"><span class="badge">Pregunta ${ronda+1}/${qs.length}</span><span class="timer" id="brtimer">⏱ ${t}</span></div>
+      <div class="progress"><i style="width:${ronda/qs.length*100}%; background:var(--gold)"></i></div>
+      <p class="enunciado">${q.q}</p>
+      <div id="bropts">${q.o.map((o,ix)=>`<button class="opt" data-ix="${ix}"><span class="letter">${"ABCD"[ix]})</span><span>${o}</span></button>`).join("")}</div>
+      <p class="dim center" style="margin-top:10px">¡Responde rápido! La velocidad también cuenta.</p>
+    `, "Batalla en Aula");
+    let respondida = false; const start = Date.now();
+    document.querySelectorAll("#bropts .opt").forEach(b=>{
+      b.onclick = ()=>{
+        if(respondida) return; respondida = true; clearInterval(iv);
+        const ix = +b.dataset.ix; const tomo = (Date.now()-start)/1000;
+        if(ix===q.r){ b.classList.add("ok"); board["Tú"] += Math.round(100 + Math.max(0,12-tomo)*8.3); }
+        else b.classList.add("bad");
+        setTimeout(siguienteFase, 700);
+      };
+    });
+    const iv = setInterval(()=>{ t--; const el=$("#brtimer"); if(el) el.textContent="⏱ "+t; if(t<=0){ clearInterval(iv); if(!respondida){ respondida=true; siguienteFase(); } } },1000);
+  }
+  function siguienteFase(){
+    // bots responden con probabilidad de acierto y velocidad variable
+    Object.keys(board).forEach(n=>{ if(n==="Tú") return;
+      const acierta = Math.random() < 0.55; const tomo = 1 + Math.random()*11;
+      if(acierta) board[n] += Math.round(100 + Math.max(0,12-tomo)*8.3);
+    });
+    ronda++;
+    if(ronda < qs.length){
+      const top5 = Object.entries(board).sort((a,b)=>b[1]-a[1]).slice(0,5);
+      render("br", `
+        <h1 class="center">Posiciones parciales</h1>
+        <div class="card">${top5.map(([n,p],i)=>`<div class="mat-row"><span>${rankIco(i)} ${n}${n==="Tú"?' <span class="badge tag-demo">Tú</span>':''}</span><b class="gold">${p}</b></div>`).join("")}</div>
+        <p class="dim center">Siguiente pregunta en unos segundos...</p>
+      `, "Posiciones");
+      setTimeout(jugarRonda, 1600);
+    } else {
+      const final = Object.entries(board).sort((a,b)=>b[1]-a[1]);
+      const miPos = final.findIndex(([n])=>n==="Tú")+1;
+      marcarActividadHoy();
+      render("res", `
+        <h1 class="center">¡Partida terminada!</h1>
+        <div class="stars-big">${miPos<=3?medal(['oro','plata','bronce'][miPos-1]):'#'+miPos}</div>
+        <p class="center dim">Quedaste en el lugar <b class="gold">#${miPos}</b> de ${final.length}</p>
+        <div class="card"><h2>Podio</h2>${final.slice(0,5).map(([n,p],i)=>`<div class="mat-row"><span>${rankIco(i)} ${n}${n==="Tú"?' <span class="badge tag-demo">Tú</span>':''}</span><b>${p}</b></div>`).join("")}</div>
+        <button class="btn" onclick="historyStack=[]; go('competir',{replace:true})">Volver a Competir</button>
+      `, "Resultado");
+    }
+  }
+  jugarRonda();
+}
+
+/* ---------------- ARENA PVP ---------------- */
+function buscarRival(){
+  modal(`<h2>Buscando rival… 🔍</h2><p class="dim">Emparejando por trofeos similares...</p>`);
+  setTimeout(()=>{
+    closeModal();
+    const rivalTrofeos = S.trofeos + Math.round((Math.random()-0.5)*40);
+    const rival = BOT_NAMES[Math.floor(Math.random()*BOT_NAMES.length)];
+    duelo(rival, Math.max(0,rivalTrofeos));
+  }, 900);
+}
+function duelo(rival, rivalTrofeos){
+  const qs = pickRandom(BANK, 5);
+  startQuiz({titulo:"⚔️ Duelo vs "+rival, preguntas:qs, tiempoSeg:120, onFinish:(ac)=>{
+    marcarActividadHoy();
+    const acRival = Math.min(qs.length, Math.max(0, Math.round(ac + (Math.random()-0.5)*3)));
+    let cambio, resultado;
+    if(ac > acRival){ cambio = 20; resultado = "¡Ganaste! 🎉"; }
+    else if(ac < acRival){ cambio = -15; resultado = "Perdiste 😕"; }
+    else { cambio = 5; resultado = "Empate 🤝"; }
+    S.trofeos = Math.max(0, S.trofeos + cambio);
+    const info = ligaInfo(S.trofeos);
+    render("res", `
+      <h1 class="center">${resultado}</h1>
+      <div class="card center">
+        <div class="mat-row"><span>Tú</span><b>${ac}/${qs.length}</b></div>
+        <div class="mat-row"><span>${rival}</span><b>${acRival}/${qs.length}</b></div>
+      </div>
+      <div class="score-big" style="font-size:34px">${cambio>0?'+':''}${cambio} <span style="color:var(--gold)">${ICO.trofeo}</span></div>
+      <p class="center dim">Ahora tienes ${S.trofeos} trofeos · Liga ${info.emoji} ${info.nombre}</p>
+      <button class="btn" onclick="historyStack=[]; go('arena',{replace:true})">Volver a Arena</button>
+    `, "Resultado del duelo");
+  }});
+}
+
+/* ---------------- CLANES ---------------- */
+function crearClan(){
+  const nombre = $("#clan-nombre").value.trim() || "Mi Grupo";
+  S.clan = { nombre, codigo: Math.random().toString(36).slice(2,8).toUpperCase(),
+    miembros: [
+      {nombre:"Tú", puntos:0, tu:true},
+      ...pickRandom(BOT_NAMES,6).map(n=>({nombre:n, puntos: Math.round(20+Math.random()*180)}))
+    ]};
+  go('clanes', {replace:true});
+}
+function unirseClan(){
+  const codigo = ($("#clan-codigo").value.trim() || "ABC123").toUpperCase();
+  S.clan = { nombre:"Grupo 3ºB — Prepa 8", codigo,
+    miembros: [
+      {nombre:"Tú", puntos:0, tu:true},
+      ...pickRandom(BOT_NAMES,9).map(n=>({nombre:n, puntos: Math.round(20+Math.random()*180)}))
+    ]};
+  go('clanes', {replace:true});
+}
+function salirClan(){
+  modal(`<h2>¿Salir del grupo?</h2><div class="row2" style="margin-top:14px">
+    <button class="btn ghost" onclick="closeModal()">Cancelar</button>
+    <button class="btn" onclick="closeModal(); S.clan=null; go('clanes',{replace:true})">Salir</button>
+  </div>`);
+}
+
+/* ---------------- TUTORIA (API real de Anthropic) ---------------- */
+let enviando = false;
+async function enviarTutoria(){
+  const inp = $("#chat-in");
+  const texto = inp.value.trim();
+  if(!texto || enviando) return;
+  if(S.msgsMes<=0 && S.msgsExtra<=0){
+    modal('<h2>Se acabaron tus tokens 😅</h2><p class="dim">Recarga 30 tokens por $9 desde tu monedero en Perfil.</p><button class="btn" onclick="closeModal(); go(\'perfil\')">Ir a recargar</button>');
+    return;
+  }
+  enviando = true;
+  S.chat.push({role:"user", text:texto});
+  SCREENS.tutoria();
+  S.chat.push({role:"ia", text:"Pensando… 🤔"});
+  SCREENS.tutoria();
+
+  const debiles = S.diagResultado ? S.diagResultado.filter(r=>!r.ok).map(r=>r.m).join(", ") : "aún sin diagnóstico";
+  const repasoTxt = S.repaso.map(id=>{ const q=BANK.find(b=>b.id===id); return `- [${q.m} / ${q.t}] ${q.q} (correcta: ${q.o[q.r]})`; }).join("\n") || "ninguna";
+  const system = `Eres TutorIA, el tutor de ECOEMS Quest: preparas a estudiantes de secundaria (13-15 años) en México para el examen ECOEMS de ingreso a la prepa. Materias: Español, Habilidad Verbal, Matemáticas, Habilidad Matemática, Biología, Física, Química, Historia, Geografía y Formación Cívica y Ética. Explica paso a paso, con lenguaje claro y ejemplos cotidianos mexicanos, en español. Sé breve (máximo ~150 palabras salvo que pidan más). Si preguntan algo fuera de las materias del examen, redirige con amabilidad al estudio. Contexto del alumno — materias a reforzar: ${debiles}. Preguntas que guardó para repasar:\n${repasoTxt}`;
+
+  const historial = S.chat.filter(c=>!c.err && c.text!=="Pensando… 🤔").slice(-10).map(c=>({role: c.role==="user"?"user":"assistant", content: c.text}));
+
+  try{
+    const resp = await fetch("https://api.anthropic.com/v1/messages",{
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({model:"claude-sonnet-4-6", max_tokens:1000, system, messages:historial})
+    });
+    const data = await resp.json();
+    const textoIA = (data.content||[]).filter(b=>b.type==="text").map(b=>b.text).join("\n").trim();
+    S.chat.pop();
+    if(textoIA){
+      S.chat.push({role:"ia", text:textoIA});
+      if(S.msgsMes>0) S.msgsMes--; else S.msgsExtra--;
+    } else {
+      S.chat.push({role:"ia", text:"TutorIA no está disponible en este momento. Intenta de nuevo en unos minutos. (No se descontó tu token.)", err:true});
+    }
+  }catch(e){
+    S.chat.pop();
+    S.chat.push({role:"ia", text:"TutorIA no está disponible en este momento. Intenta de nuevo en unos minutos. (No se descontó tu token.)", err:true});
+  }
+  enviando = false;
+  SCREENS.tutoria();
+}
+
+/* ---------------- TEMA CLARO / OSCURO ---------------- */
+let temaClaro = false;
+function toggleTema(){
+  temaClaro = !temaClaro;
+  document.body.classList.toggle('light', temaClaro);
+  document.querySelectorAll('.theme-btn').forEach(b=>{
+    b.innerHTML = temaClaro ? ICO.moon : ICO.sun;
+    b.title = temaClaro ? 'Cambiar a modo oscuro' : 'Cambiar a modo claro';
+  });
+}
+
+/* ---------------- INICIO ---------------- */
+go("portada",{replace:true});
+</script>
+</body>
+</html>
