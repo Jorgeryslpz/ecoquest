@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECOEMS Quest — Front end V0.0.3</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap');
+:root{
+  --outer:#121215; --bg:#1B1B20; --panel:#26262C; --panel2:#223050; --line:#35496E;
+  --ink:#F4F4F6; --dim:#A5A3B8;
+  --gold:#FF8A3D; --gold-deep:#D9641E; --green:#4BD98A; --red:#FF5D73; --blue:#5B9BFF;
+  --ghost-sh:#141417; --node-sh:#0F0F1280; --sel-bg:#263A5E;
+  --tint-ok:#153C2C; --tint-bad:#472034; --tint-warn:#4A2C14;
+}
+body.light{
+  --outer:#E3E7EF; --bg:#F5F6FA; --panel:#FFFFFF; --panel2:#EAEFF8; --line:#C9D3E6;
+  --ink:#1E2433; --dim:#68718C;
+  --gold:#FF8A3D; --gold-deep:#C75812; --green:#1FA45F; --red:#E03B55; --blue:#2E6FD9;
+  --ghost-sh:#C7CEDE; --node-sh:#C7CEDE; --sel-bg:#DCE8FB;
+  --tint-ok:#DDF2E6; --tint-bad:#FBE2E7; --tint-warn:#FBE9DA;
+}
+*{box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent;}
+html,body{background:var(--outer);}
+body{font-family:'Baloo 2', system-ui, -apple-system, sans-serif; color:var(--ink); display:flex; justify-content:center; min-height:100vh;}
+#app{width:100%; max-width:440px; min-height:100vh; background:var(--bg); display:flex; flex-direction:column; position:relative; overflow:hidden;}
+
+/* ---------- transiciones globales ---------- */
+body *{transition:background-color .2s ease, border-color .2s ease, color .2s ease, box-shadow .12s ease, transform .12s ease, opacity .15s ease;}
+@media (prefers-reduced-motion: reduce){
+  body *{transition-duration:.001s !important; animation-duration:.001s !important;}
+}
+
+/* ---------- barra superior ---------- */
+.topbar{display:flex; align-items:center; gap:10px; padding:14px 16px; background:var(--panel); border-bottom:2px solid var(--line); position:sticky; top:0; z-index:20;}
+.topbar .tb-title{font-weight:800; font-size:17px; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.iconbtn{background:var(--panel2); border:2px solid var(--line); color:var(--ink); border-radius:14px; width:40px; height:40px; font-size:18px; font-family:inherit; font-weight:700; cursor:pointer; display:flex; align-items:center; justify-content:center;}
+.iconbtn:active{transform:scale(.94);}
+
+.screen{flex:1; padding:20px 18px 40px; overflow-y:auto; display:none;}
+.screen.active{display:block;}
+.screen.nav-fwd{animation:screenFwd .22s cubic-bezier(.22,1,.36,1);}
+.screen.nav-back{animation:screenBack .22s cubic-bezier(.22,1,.36,1);}
+@keyframes screenFwd{from{opacity:0; transform:translateX(18px);} to{opacity:1; transform:none;}}
+@keyframes screenBack{from{opacity:0; transform:translateX(-18px);} to{opacity:1; transform:none;}}
+
+h1{font-size:26px; font-weight:800; line-height:1.15;}
+h2{font-size:20px; font-weight:800; margin-bottom:6px;}
+p{line-height:1.45;}
+.dim{color:var(--dim); font-size:14px;}
+.spacer{height:14px;}
+
+/* ---------- botones ---------- */
+.btn{display:block; width:100%; padding:14px 18px; border-radius:18px; border:none; font-family:inherit; font-size:17px; font-weight:800; cursor:pointer; text-align:center; color:#2A1200; background:var(--gold); box-shadow:0 4px 0 var(--gold-deep); margin-top:12px;}
+.btn:active{transform:translateY(3px); box-shadow:0 1px 0 var(--gold-deep);}
+.btn.ghost{background:var(--panel2); color:var(--ink); box-shadow:0 4px 0 var(--ghost-sh); border:2px solid var(--line);}
+.btn.green{background:var(--green); box-shadow:0 4px 0 #22995B; color:#03301A;}
+.btn.small{padding:9px 14px; font-size:14px; border-radius:14px; width:auto; display:inline-block;}
+.btn:disabled{opacity:.45; cursor:default;}
+
+.card{background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:16px; margin-top:14px;}
+.field{width:100%; padding:13px 14px; margin-top:10px; border-radius:14px; border:2px solid var(--line); background:var(--panel2); color:var(--ink); font-family:inherit; font-size:16px;}
+.field::placeholder{color:var(--dim);}
+.badge{display:inline-block; background:var(--panel2); border:1.5px solid var(--line); border-radius:999px; padding:3px 12px; font-size:13px; font-weight:700; color:var(--dim);}
+.tag-demo{background:rgba(255,138,61,.14); border-color:var(--gold); color:var(--gold);}
+
+/* ---------- portada ---------- */
+.hero{display:flex; flex-direction:column; align-items:center; text-align:center; padding-top:46px;}
+.logo-shield{width:118px; height:118px; border-radius:34px; background:linear-gradient(160deg,var(--panel2),var(--panel)); border:3px solid var(--gold); display:flex; align-items:center; justify-content:center; font-size:56px; box-shadow:0 10px 30px rgba(0,0,0,.4); margin-bottom:18px;}
+.hero h1 span{color:var(--gold);}
+
+/* ---------- home ---------- */
+.mode-card{display:flex; align-items:center; gap:14px; background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:16px; margin-top:12px; cursor:pointer;}
+.mode-card:active{transform:scale(.98);}
+.mode-ico{width:52px; height:52px; border-radius:16px; display:flex; align-items:center; justify-content:center; font-size:26px; flex-shrink:0;}
+.mode-card .mc-txt{flex:1;}
+.mode-card .mc-txt b{font-size:17px; display:block;}
+.mode-card .mc-txt span{font-size:13px; color:var(--dim);}
+.mode-card .chev{color:var(--dim); font-size:20px; font-weight:800;}
+.mode-card.competir-card{border-color:var(--gold); background:linear-gradient(90deg, var(--panel), var(--panel) 60%, rgba(255,138,61,.10));}
+.racha-pill{display:flex; align-items:center; gap:12px; background:var(--panel); border:2px solid var(--gold); border-radius:18px; padding:12px 16px; margin-bottom:16px; cursor:pointer;}
+.racha-pill:active{transform:scale(.98);}
+
+/* ---------- dashboard / grid de inicio (V0.0.1) ---------- */
+.dash-card{background:linear-gradient(160deg,var(--panel2),var(--panel)); border:2px solid var(--line); border-radius:22px; padding:18px; margin-top:6px; display:flex; align-items:center; gap:14px; cursor:pointer;}
+.dash-card:active{transform:scale(.98);}
+.dash-card .dash-flame{font-size:32px; flex-shrink:0;}
+.dash-card .dash-txt{flex:1;}
+.dash-card .dash-txt b{font-size:17px; display:block;}
+.dash-stats{display:flex; gap:10px; margin-top:12px;}
+.stat-box{flex:1; background:var(--panel); border:2px solid var(--line); border-radius:16px; padding:10px 8px; text-align:center;}
+.stat-box b{display:block; font-size:20px; color:var(--gold);}
+.stat-box span{font-size:11px; color:var(--dim);}
+.sec-title{font-size:13px; font-weight:800; letter-spacing:.4px; text-transform:uppercase; color:var(--dim); margin:22px 0 10px;}
+.tile-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+.tile{background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:16px 14px; cursor:pointer; display:flex; flex-direction:column; gap:10px; min-height:112px;}
+.tile:active{transform:scale(.97);}
+.tile .tile-ico{width:44px; height:44px; border-radius:14px; display:flex; align-items:center; justify-content:center; font-size:22px; flex-shrink:0;}
+.tile b{font-size:15px; display:block; line-height:1.2;}
+.tile span{font-size:12px; color:var(--dim); display:block; margin-top:2px;}
+.feature-card{display:flex; align-items:center; gap:14px; border-radius:22px; padding:18px; margin-top:12px; cursor:pointer; background:linear-gradient(120deg, rgba(255,138,61,.16), var(--panel) 55%); border:2px solid var(--gold);}
+.feature-card:active{transform:scale(.98);}
+.feature-card .feature-ico{width:56px; height:56px; border-radius:16px; background:linear-gradient(135deg,var(--gold),var(--gold-deep)); display:flex; align-items:center; justify-content:center; font-size:28px; flex-shrink:0; box-shadow:0 4px 0 var(--gold-deep);}
+.feature-card .mc-txt{flex:1;}
+.feature-card .mc-txt b{font-size:17px; display:block;}
+.feature-card .mc-txt span{display:block; margin-top:3px; font-size:13px;}
+.feature-card .chev{color:var(--gold); font-size:22px; font-weight:800;}
+
+/* ---------- mapa de niveles ---------- */
+.map-wrap{position:relative; margin-top:10px;}
+.node-row{display:flex; align-items:center; gap:14px; margin:22px 0; position:relative;}
+.node-row.right{flex-direction:row-reverse; text-align:right;}
+.lvl-node{width:74px; height:74px; border-radius:50%; display:flex; flex-direction:column; align-items:center; justify-content:center; font-weight:800; font-size:22px; cursor:pointer; flex-shrink:0; border:4px solid var(--line); background:var(--panel2); color:var(--dim); box-shadow:0 6px 0 var(--node-sh);}
+.lvl-node.open{background:var(--gold); border-color:#fff3; color:#2A1200; box-shadow:0 6px 0 var(--gold-deep);}
+.lvl-node.done{background:var(--green); border-color:#fff3; color:#03301A; box-shadow:0 6px 0 #22995B;}
+.lvl-node:active{transform:translateY(3px);}
+.lvl-node.locked{cursor:default;}
+.lvl-info b{display:block; font-size:15px;}
+.lvl-stars{color:var(--gold); font-size:13px; letter-spacing:1px;}
+.trail{position:absolute; left:36px; top:74px; width:4px; height:44px; background:var(--line); border-radius:2px;}
+
+/* ---------- quiz ---------- */
+.quiz-head{display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;}
+.timer{font-weight:800; font-size:16px; background:var(--panel2); border:2px solid var(--line); border-radius:999px; padding:5px 14px;}
+.timer.low{color:var(--red); border-color:var(--red);}
+.progress{height:12px; background:var(--panel2); border-radius:999px; overflow:hidden; border:2px solid var(--line); margin:8px 0 16px;}
+.progress i{display:block; height:100%; background:var(--gold); border-radius:999px; transition:width .25s;}
+.lectura{background:var(--panel2); border:2px solid var(--line); border-radius:16px; padding:12px 14px; font-size:14px; line-height:1.5; margin-bottom:12px; max-height:180px; overflow-y:auto;}
+.enunciado{font-size:17px; font-weight:700; line-height:1.35; margin-bottom:14px;}
+.opt{display:flex; gap:12px; align-items:flex-start; width:100%; text-align:left; background:var(--panel); border:2px solid var(--line); border-radius:16px; padding:13px 14px; margin-top:10px; font-family:inherit; font-size:15px; color:var(--ink); cursor:pointer; line-height:1.35;}
+.opt .letter{font-weight:800; color:var(--dim);}
+.opt.sel{border-color:var(--blue); background:var(--sel-bg);}
+.opt.ok{border-color:var(--green); background:var(--tint-ok);}
+.opt.bad{border-color:var(--red); background:var(--tint-bad);}
+.feedback{margin-top:12px; padding:12px 14px; border-radius:14px; font-size:14px; line-height:1.4;}
+.feedback.ok{background:var(--tint-ok); border:2px solid var(--green);}
+.feedback.bad{background:var(--tint-bad); border:2px solid var(--red);}
+
+/* ---------- Mundo de Preguntas: oración con hueco + 4 opciones (sin A-D, sin cronómetro) ---------- */
+.enunciado-basico{font-size:20px; font-weight:700; line-height:1.4; margin:18px 0 20px; text-align:center;}
+.hueco{display:inline-block; min-width:3.2em; border-bottom:3px solid var(--dim); padding:0 4px;}
+.hueco.ok{border-color:var(--green); background:var(--tint-ok); color:var(--green); border-radius:8px;}
+.hueco.bad{border-color:var(--red); background:var(--tint-bad); color:var(--red); border-radius:8px;}
+.opt-grid{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+.opt-grid .opt{margin-top:0; justify-content:center; text-align:center; font-weight:700; font-size:16px;}
+.opt-grid .opt.fade{opacity:.45;}
+.lvl-row{display:flex; align-items:center; gap:14px; width:100%; background:var(--panel); border:2px solid var(--line); border-radius:20px; padding:12px; margin-top:12px; cursor:pointer; text-align:left;}
+.lvl-row:disabled{cursor:default; opacity:.6;}
+.lvl-row:active:not(:disabled){transform:scale(.98);}
+.quiz-nav{display:flex; gap:10px; margin-top:16px;}
+.quiz-nav .btn{margin-top:0;}
+.repasar-btn{margin-top:12px; background:none; border:2px dashed var(--dim); color:var(--dim); border-radius:14px; padding:9px 14px; font-family:inherit; font-weight:700; font-size:14px; cursor:pointer; width:100%;}
+.repasar-btn.saved{border-style:solid; border-color:var(--gold); color:var(--gold);}
+
+/* ---------- resultado ---------- */
+.score-big{font-size:52px; font-weight:800; text-align:center; margin:10px 0 2px;}
+.stars-big{text-align:center; font-size:30px; color:var(--gold); letter-spacing:4px; margin-bottom:6px;}
+.mat-row{display:flex; justify-content:space-between; align-items:center; padding:10px 0; border-bottom:1.5px solid var(--line); font-size:15px;}
+.mat-row:last-child{border-bottom:none;}
+.pill{border-radius:999px; padding:2px 12px; font-size:13px; font-weight:800;}
+.pill.f{background:var(--tint-ok); color:var(--green);}
+.pill.r{background:var(--tint-warn); color:var(--gold);}
+.pill.d{background:var(--tint-bad); color:var(--red);}
+
+/* ---------- tutoria ---------- */
+.chat-box{display:flex; flex-direction:column; gap:10px; padding-bottom:10px;}
+.msg{max-width:85%; padding:11px 14px; border-radius:18px; font-size:15px; line-height:1.4; white-space:pre-wrap;}
+.msg.user{align-self:flex-end; background:var(--gold); color:#2A1200; border-bottom-right-radius:6px; font-weight:600;}
+.msg.ia{align-self:flex-start; background:var(--panel); border:2px solid var(--line); border-bottom-left-radius:6px;}
+.msg.ia.err{border-color:var(--red);}
+.chat-input-row{display:flex; gap:8px; margin-top:10px; position:sticky; bottom:0; background:var(--bg); padding:8px 0 4px;}
+.chat-input-row textarea{flex:1; resize:none; height:52px;}
+.chat-input-row .btn{width:auto; margin-top:0; padding:10px 16px;}
+.counter{font-size:13px; color:var(--dim); text-align:center; margin-top:4px;}
+
+/* ---------- pagos ---------- */
+.plan{display:flex; justify-content:space-between; align-items:center; background:var(--panel); border:2px solid var(--line); border-radius:18px; padding:16px; margin-top:12px; cursor:pointer;}
+.plan.best{border-color:var(--gold);}
+.plan b{font-size:17px;}
+.plan .price{font-size:20px; font-weight:800; color:var(--gold);}
+.plan .sub{font-size:13px; color:var(--dim); display:block;}
+
+/* ---------- modal ---------- */
+.modal-bg{position:fixed; inset:0; background:rgba(14,14,16,.75); display:flex; align-items:center; justify-content:center; z-index:50; padding:24px; opacity:0; pointer-events:none;}
+.modal-bg.show{opacity:1; pointer-events:auto;}
+.modal{background:var(--panel); border:2px solid var(--line); border-radius:22px; padding:22px; width:100%; max-width:360px; transform:scale(.92) translateY(6px); opacity:0;}
+.modal-bg.show .modal{transform:none; opacity:1;}
+.modal h2{margin-bottom:8px;}
+
+.gold{color:var(--gold);} .green-t{color:var(--green);} .red-t{color:var(--red);}
+.center{text-align:center;}
+.row2{display:flex; gap:10px;} .row2 .btn{flex:1;}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="topbar" id="topbar" style="display:none;">
+    <button class="iconbtn" id="btn-back" title="Regresar">←</button>
+    <div class="tb-title" id="tb-title">ECOEMS Quest</div>
+    <button class="iconbtn theme-btn" title="Cambiar a modo claro" onclick="toggleTema()"><svg viewBox="0 0 24 24" style="width:1em;height:1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg></button>
+    <button class="iconbtn" id="btn-home" title="Inicio"><svg viewBox="0 0 24 24" style="width:1em;height:1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5L12 4l8 7.5"/><path d="M6 10v9a1 1 0 001 1h3v-5h4v5h3a1 1 0 001-1v-9"/></svg></button>
+    <button class="iconbtn" id="btn-perfil" title="Perfil"><svg viewBox="0 0 24 24" style="width:1em;height:1em" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1-4 4-6 7.5-6s6.5 2 7.5 6"/></svg></button>
+  </div>
+  <div id="screens"></div>
+  <div class="modal-bg" id="modal-bg"><div class="modal" id="modal-content"></div></div>
+</div>
+
+<script>
+/* =====================================================================
+   ECOEMS QUEST — DEMO NAVEGABLE
+   Versión corta: niveles de 3 preguntas, ejercicio de 5, simulacro de 8.
+   Todo el estado vive en memoria (se reinicia al recargar).
+   TutorIA llama a la API real de Anthropic.
+===================================================================== */
+
+/* ---------------- BANCO DE PREGUNTAS (demo, reactivos originales) ---------------- */
+const LECTURA_1 = "El mercado de Xochimilco abre antes de que salga el sol. Doña Remedios acomoda sus flores mientras los canales todavía huelen a noche. Dice que vender no es su oficio: su oficio es conocer a la gente. Sabe qué ramo lleva quien va a una boda y cuál busca quien va a pedir perdón. Por eso, cuando un cliente duda, ella no pregunta qué flor quiere, sino a quién se la va a dar.";
+
+const BANK = [
+ // Matemáticas
+ {id:"MAT-01", m:"Matemáticas", t:"Fracciones", q:"¿Cuál es el resultado de 3/4 + 1/8?", o:["7/8","4/12","1/2","5/8"], r:0, f:"Se convierte 3/4 a 6/8 y se suma 1/8: 6/8 + 1/8 = 7/8."},
+ {id:"MAT-02", m:"Matemáticas", t:"Ecuaciones", q:"Si 2x − 6 = 10, ¿cuánto vale x?", o:["2","6","8","16"], r:2, f:"2x = 16, por lo tanto x = 8."},
+ {id:"MAT-03", m:"Matemáticas", t:"Porcentajes", q:"El 25% de 240 es:", o:["48","50","60","80"], r:2, f:"25% es la cuarta parte: 240 ÷ 4 = 60."},
+ // Habilidad Matemática
+ {id:"HMA-01", m:"Habilidad Matemática", t:"Sucesiones", q:"¿Qué número sigue en la sucesión 2, 6, 18, 54, ...?", o:["108","162","148","216"], r:1, f:"Cada término se multiplica por 3: 54 × 3 = 162."},
+ {id:"HMA-02", m:"Habilidad Matemática", t:"Problemas", q:"Un tinaco se llena en 6 horas con una llave. Con dos llaves iguales abiertas, ¿en cuánto tiempo se llena?", o:["12 horas","6 horas","3 horas","2 horas"], r:2, f:"Dos llaves aportan el doble de agua, así que tardan la mitad: 3 horas."},
+ {id:"HMA-03", m:"Habilidad Matemática", t:"Series espaciales", q:"Un dado marca 1 arriba. Si el 1 y el 6 son caras opuestas, ¿qué número queda abajo?", o:["2","4","5","6"], r:3, f:"Las caras opuestas de 1 es 6; si 1 está arriba, 6 queda abajo."},
+ // Español
+ {id:"ESP-01", m:"Español", t:"Comprensión lectora", lect:LECTURA_1, q:"Según el texto, ¿cuál es el verdadero oficio de doña Remedios?", o:["Cultivar flores en los canales","Conocer a la gente","Organizar bodas","Abrir el mercado"], r:1, f:"El texto lo dice de forma directa: 'su oficio es conocer a la gente'."},
+ {id:"ESP-02", m:"Español", t:"Comprensión lectora", lect:LECTURA_1, q:"¿Qué pregunta hace doña Remedios cuando un cliente duda?", o:["Qué flor quiere","Cuánto quiere gastar","A quién se la va a dar","Para qué ocasión es"], r:2, f:"El final del texto indica que pregunta a quién va dirigido el ramo."},
+ {id:"ESP-03", m:"Español", t:"Ortografía", q:"¿Cuál oración está escrita correctamente?", o:["Aver si llegas temprano.","A ver si llegas temprano.","Haber si llegas temprano.","Avér si llegas temprano."], r:1, f:"'A ver' (preposición + verbo ver) se usa para expectativa; 'haber' es otro verbo y 'aver' no existe."},
+ // Habilidad Verbal
+ {id:"HVE-01", m:"Habilidad Verbal", t:"Analogías", q:"Libro es a biblioteca como cuadro es a...", o:["pintor","museo","marco","pincel"], r:1, f:"La relación es objeto y lugar donde se resguarda: los cuadros se exhiben en museos."},
+ {id:"HVE-02", m:"Habilidad Verbal", t:"Sinónimos", q:"Un sinónimo de 'efímero' es:", o:["eterno","pasajero","enorme","frágil"], r:1, f:"Efímero significa que dura poco tiempo: pasajero."},
+ {id:"HVE-03", m:"Habilidad Verbal", t:"Antónimos", q:"El antónimo de 'escasez' es:", o:["pobreza","carencia","abundancia","ausencia"], r:2, f:"Escasez es falta de algo; su opuesto es abundancia."},
+ // Biología
+ {id:"BIO-01", m:"Biología", t:"Célula", q:"¿Qué organelo produce la energía de la célula?", o:["Núcleo","Ribosoma","Mitocondria","Vacuola"], r:2, f:"La mitocondria realiza la respiración celular y produce ATP."},
+ {id:"BIO-02", m:"Biología", t:"Ecología", q:"En una cadena alimenticia, las plantas son organismos:", o:["consumidores","descomponedores","productores","depredadores"], r:2, f:"Las plantas producen su propio alimento mediante fotosíntesis: son productores."},
+ {id:"BIO-03", m:"Biología", t:"Genética", q:"La molécula que contiene la información hereditaria es:", o:["El ARN mensajero","El ADN","La proteína","La glucosa"], r:1, f:"El ADN almacena la información genética que se hereda."},
+ // Física
+ {id:"FIS-01", m:"Física", t:"Mecánica", q:"Un auto recorre 120 km en 2 horas a velocidad constante. Su velocidad es:", o:["40 km/h","60 km/h","80 km/h","240 km/h"], r:1, f:"v = d/t = 120 ÷ 2 = 60 km/h."},
+ {id:"FIS-02", m:"Física", t:"Leyes de Newton", q:"La ley que dice que a toda acción corresponde una reacción igual y opuesta es la:", o:["Primera ley","Segunda ley","Tercera ley","Ley de gravitación"], r:2, f:"Es la tercera ley de Newton: acción y reacción."},
+ {id:"FIS-03", m:"Física", t:"Electricidad", q:"Según la ley de Ohm, si V = 12 volts y R = 4 ohms, la corriente es:", o:["48 A","8 A","3 A","0.3 A"], r:2, f:"I = V/R = 12 ÷ 4 = 3 amperes."},
+ // Química
+ {id:"QUI-01", m:"Química", t:"Tabla periódica", q:"El símbolo químico del sodio es:", o:["So","S","Na","N"], r:2, f:"Na viene de su nombre en latín, natrium."},
+ {id:"QUI-02", m:"Química", t:"Enlaces", q:"El enlace que se forma cuando dos átomos comparten electrones es:", o:["iónico","covalente","metálico","de hidrógeno"], r:1, f:"En el enlace covalente los átomos comparten pares de electrones."},
+ {id:"QUI-03", m:"Química", t:"Estructura atómica", q:"La partícula del átomo con carga negativa es:", o:["el protón","el neutrón","el electrón","el ion"], r:2, f:"El electrón tiene carga negativa; el protón positiva y el neutrón no tiene carga."},
+ // Historia
+ {id:"HISMX-01", m:"Historia de México", t:"Independencia", q:"El movimiento de Independencia de México inició en el año:", o:["1810","1821","1910","1857"], r:0, f:"Inició el 16 de septiembre de 1810 con el Grito de Dolores; se consumó en 1821."},
+ {id:"HISMX-02", m:"Historia de México", t:"Revolución", q:"¿Quién promulgó el Plan de San Luis, que llamaba a levantarse en armas el 20 de noviembre de 1910?", o:["Emiliano Zapata","Porfirio Díaz","Francisco I. Madero","Venustiano Carranza"], r:2, f:"Madero lanzó el Plan de San Luis contra la reelección de Porfirio Díaz."},
+ {id:"HISMX-03", m:"Historia de México", t:"México antiguo", q:"La ciudad de Tenochtitlan fue fundada por los:", o:["mayas","mexicas","olmecas","zapotecas"], r:1, f:"Los mexicas (aztecas) fundaron Tenochtitlan en 1325 sobre el lago de Texcoco."},
+ // Historia Universal
+ {id:"HISUN-01", m:"Historia Universal", t:"Roma antigua", q:"El imperio que gobernó gran parte de Europa, África del norte y Medio Oriente desde la antigua Roma fue el:", o:["Imperio Romano","Imperio Persa","Imperio Otomano","Imperio Bizantino"], r:0, f:"El Imperio Romano dominó el Mediterráneo durante siglos, desde Roma."},
+ {id:"HISUN-02", m:"Historia Universal", t:"Revolución Francesa", q:"La Revolución Francesa, que puso fin a la monarquía absoluta en Francia, comenzó en el año:", o:["1789","1810","1776","1848"], r:0, f:"La toma de la Bastilla, el 14 de julio de 1789, marca el inicio de la Revolución Francesa."},
+ {id:"HISUN-03", m:"Historia Universal", t:"Segunda Guerra Mundial", q:"La Segunda Guerra Mundial terminó en el año:", o:["1945","1939","1918","1950"], r:0, f:"La guerra terminó en 1945 con la rendición de Alemania y después de Japón."},
+ // Geografía
+ {id:"GEO-01", m:"Geografía", t:"México físico", q:"¿Cuál es el río más largo de México?", o:["Río Balsas","Río Bravo","Río Lerma","Río Usumacinta"], r:1, f:"El Río Bravo, en la frontera norte, es el más largo del país."},
+ {id:"GEO-02", m:"Geografía", t:"Coordenadas", q:"Las líneas imaginarias que van de polo a polo y miden la longitud son los:", o:["paralelos","trópicos","meridianos","husos"], r:2, f:"Los meridianos van de polo a polo; los paralelos son horizontales."},
+ {id:"GEO-03", m:"Geografía", t:"Clima", q:"El clima predominante en la península de Yucatán es:", o:["polar","templado de montaña","cálido","desértico frío"], r:2, f:"Yucatán tiene clima cálido, con variantes húmedas y subhúmedas."},
+ // Formación Cívica y Ética
+ {id:"FCE-01", m:"Formación Cívica y Ética", t:"Derechos", q:"El derecho a la educación en México está garantizado en el artículo:", o:["1º","3º","27","123"], r:1, f:"El artículo 3º constitucional garantiza la educación."},
+ {id:"FCE-02", m:"Formación Cívica y Ética", t:"Democracia", q:"En una democracia, las autoridades se eligen mediante:", o:["sorteo","herencia","el voto","designación militar"], r:2, f:"La democracia se basa en elecciones libres mediante el voto."},
+ {id:"FCE-03", m:"Formación Cívica y Ética", t:"Valores", q:"Tratar a todas las personas sin discriminación es ejercer el valor de la:", o:["igualdad","obediencia","competencia","costumbre"], r:0, f:"La igualdad implica el mismo trato y derechos para todas las personas."},
+];
+
+const MATERIAS = ["Español","Habilidad Verbal","Matemáticas","Habilidad Matemática","Biología","Física","Química","Historia de México","Historia Universal","Geografía","Formación Cívica y Ética"];
+const byMat = m => BANK.filter(q => q.m === m);
+
+/* ---------------- MUNDO DE PREGUNTAS — "Modo Básico" (formato real, reemplaza el viejo A-D+cronómetro) ----------------
+   Los 330 ítems reales ya cargados en Supabase (11 materias × 3 niveles × 10 preguntas).
+   id, m (asignatura), n (nivel 1-3), ins (instrucción), o (oración con hueco ___), op (4 opciones), r (respuesta_correcta), f (feedback) */
+const BASICO = [{"id":"BAS-MAT-N1-01","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"2 + 3 = ___","op":["5","4","6","3"],"r":"5","f":"2 más 3 es igual a 5."},{"id":"BAS-MAT-N1-02","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"5 - 2 = ___","op":["3","4","2","5"],"r":"3","f":"5 menos 2 es igual a 3."},{"id":"BAS-MAT-N1-03","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"4 + 4 = ___","op":["8","7","6","9"],"r":"8","f":"4 más 4 es igual a 8."},{"id":"BAS-MAT-N1-04","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"10 - 5 = ___","op":["5","6","4","10"],"r":"5","f":"10 menos 5 es igual a 5."},{"id":"BAS-MAT-N1-05","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"6 + 1 = ___","op":["7","8","6","5"],"r":"7","f":"6 más 1 es igual a 7."},{"id":"BAS-MAT-N1-06","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"9 - 3 = ___","op":["6","7","5","3"],"r":"6","f":"9 menos 3 es igual a 6."},{"id":"BAS-MAT-N1-07","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"3 + 3 = ___","op":["6","5","7","3"],"r":"6","f":"3 más 3 es igual a 6."},{"id":"BAS-MAT-N1-08","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"8 - 4 = ___","op":["4","5","3","8"],"r":"4","f":"8 menos 4 es igual a 4."},{"id":"BAS-MAT-N1-09","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"7 + 2 = ___","op":["9","8","10","7"],"r":"9","f":"7 más 2 es igual a 9."},{"id":"BAS-MAT-N1-10","m":"Matemáticas","n":1,"ins":"Completa el espacio en blanco","o":"10 - 7 = ___","op":["3","4","2","7"],"r":"3","f":"10 menos 7 es igual a 3."},{"id":"BAS-MAT-N2-01","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"3 × 4 = ___","op":["12","10","7","14"],"r":"12","f":"3 multiplicado por 4 es 12."},{"id":"BAS-MAT-N2-02","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"5 × 2 = ___","op":["10","7","12","8"],"r":"10","f":"5 multiplicado por 2 es 10."},{"id":"BAS-MAT-N2-03","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"6 × 3 = ___","op":["18","16","20","15"],"r":"18","f":"6 multiplicado por 3 es 18."},{"id":"BAS-MAT-N2-04","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"La mitad de 10 es ___","op":["5","10","2","4"],"r":"5","f":"La mitad de 10 es 5."},{"id":"BAS-MAT-N2-05","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"2 × 8 = ___","op":["16","14","18","10"],"r":"16","f":"2 multiplicado por 8 es 16."},{"id":"BAS-MAT-N2-06","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"El doble de 6 es ___","op":["12","10","8","14"],"r":"12","f":"El doble de 6 es 12."},{"id":"BAS-MAT-N2-07","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"20 ÷ 4 = ___","op":["5","4","6","8"],"r":"5","f":"20 dividido entre 4 es 5."},{"id":"BAS-MAT-N2-08","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"4 × 4 = ___","op":["16","12","20","8"],"r":"16","f":"4 multiplicado por 4 es 16."},{"id":"BAS-MAT-N2-09","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"La mitad de 8 es ___","op":["4","8","2","6"],"r":"4","f":"La mitad de 8 es 4."},{"id":"BAS-MAT-N2-10","m":"Matemáticas","n":2,"ins":"Completa el espacio en blanco","o":"15 ÷ 3 = ___","op":["5","3","6","4"],"r":"5","f":"15 dividido entre 3 es 5."},{"id":"BAS-MAT-N3-01","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"Si x + 2 = 5, entonces x = ___","op":["3","2","5","7"],"r":"3","f":"Despejando: x = 5 - 2 = 3."},{"id":"BAS-MAT-N3-02","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"Si x - 3 = 4, entonces x = ___","op":["7","4","1","3"],"r":"7","f":"Despejando: x = 4 + 3 = 7."},{"id":"BAS-MAT-N3-03","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"El área de un cuadrado de lado 4 es ___","op":["16","8","12","4"],"r":"16","f":"Área = lado × lado = 4 × 4 = 16."},{"id":"BAS-MAT-N3-04","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"Si 2x = 10, entonces x = ___","op":["5","10","2","20"],"r":"5","f":"Despejando: x = 10 ÷ 2 = 5."},{"id":"BAS-MAT-N3-05","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"El perímetro de un cuadrado de lado 3 es ___","op":["12","9","6","3"],"r":"12","f":"Perímetro = 4 × lado = 4 × 3 = 12."},{"id":"BAS-MAT-N3-06","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"30% de 100 es ___","op":["30","3","70","13"],"r":"30","f":"El 30% de 100 es 30."},{"id":"BAS-MAT-N3-07","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"Si x + 5 = 12, entonces x = ___","op":["7","5","12","17"],"r":"7","f":"Despejando: x = 12 - 5 = 7."},{"id":"BAS-MAT-N3-08","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"El triple de 5 es ___","op":["15","10","20","5"],"r":"15","f":"El triple de 5 es 15."},{"id":"BAS-MAT-N3-09","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"50% de 20 es ___","op":["10","5","15","20"],"r":"10","f":"El 50% de 20 es 10."},{"id":"BAS-MAT-N3-10","m":"Matemáticas","n":3,"ins":"Completa el espacio en blanco","o":"Si 3x = 9, entonces x = ___","op":["3","9","6","1"],"r":"3","f":"Despejando: x = 9 ÷ 3 = 3."},{"id":"BAS-HABMAT-N1-01","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"2, 4, 6, ___","op":["8","7","10","6"],"r":"8","f":"La secuencia suma 2 cada vez: 8."},{"id":"BAS-HABMAT-N1-02","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"1, 2, 3, ___","op":["4","5","3","6"],"r":"4","f":"La secuencia suma 1 cada vez: 4."},{"id":"BAS-HABMAT-N1-03","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"5, 10, 15, ___","op":["20","25","18","10"],"r":"20","f":"La secuencia suma 5 cada vez: 20."},{"id":"BAS-HABMAT-N1-04","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"10, 9, 8, ___","op":["7","6","9","10"],"r":"7","f":"La secuencia resta 1 cada vez: 7."},{"id":"BAS-HABMAT-N1-05","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"3, 6, 9, ___","op":["12","10","15","9"],"r":"12","f":"La secuencia suma 3 cada vez: 12."},{"id":"BAS-HABMAT-N1-06","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"¿Cuál número es mayor: 15 o 12? ___","op":["15","12","Son iguales","Ninguno"],"r":"15","f":"15 es mayor que 12."},{"id":"BAS-HABMAT-N1-07","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"¿Cuál número es menor: 8 o 20? ___","op":["8","20","Son iguales","Ninguno"],"r":"8","f":"8 es menor que 20."},{"id":"BAS-HABMAT-N1-08","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"4, 8, 12, ___","op":["16","14","20","12"],"r":"16","f":"La secuencia suma 4 cada vez: 16."},{"id":"BAS-HABMAT-N1-09","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"20, 15, 10, ___","op":["5","10","0","15"],"r":"5","f":"La secuencia resta 5 cada vez: 5."},{"id":"BAS-HABMAT-N1-10","m":"Habilidad Matemática","n":1,"ins":"Completa el espacio en blanco","o":"1, 3, 5, ___","op":["7","6","8","5"],"r":"7","f":"La secuencia de números impares continúa con 7."},{"id":"BAS-HABMAT-N2-01","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"2, 4, 8, ___","op":["16","12","10","20"],"r":"16","f":"Cada número se multiplica por 2: 16."},{"id":"BAS-HABMAT-N2-02","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"Si Juan tiene 5 pesos y le dan 3 más, tiene ___ pesos","op":["8","5","3","2"],"r":"8","f":"5 + 3 = 8 pesos."},{"id":"BAS-HABMAT-N2-03","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"1, 4, 9, ___","op":["16","12","14","10"],"r":"16","f":"Son cuadrados: 1²,2²,3²,4²=16."},{"id":"BAS-HABMAT-N2-04","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"Si un pastel se parte en 4 partes iguales, cada parte es ___ del total","op":["1/4","1/2","2/4","4/4"],"r":"1/4","f":"Cada parte representa un cuarto del total."},{"id":"BAS-HABMAT-N2-05","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"100, 90, 80, ___","op":["70","60","75","85"],"r":"70","f":"La secuencia resta 10 cada vez: 70."},{"id":"BAS-HABMAT-N2-06","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"Si tengo 3 cajas con 4 dulces cada una, tengo ___ dulces en total","op":["12","7","9","16"],"r":"12","f":"3 × 4 = 12 dulces."},{"id":"BAS-HABMAT-N2-07","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"2, 6, 18, ___","op":["54","36","24","20"],"r":"54","f":"Cada número se multiplica por 3: 54."},{"id":"BAS-HABMAT-N2-08","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"Si un tren sale a las 3:00 y tarda 2 horas, llega a las ___","op":["5:00","4:00","6:00","3:00"],"r":"5:00","f":"3:00 + 2 horas = 5:00."},{"id":"BAS-HABMAT-N2-09","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"1, 1, 2, 3, 5, ___","op":["8","6","7","10"],"r":"8","f":"Cada número es la suma de los dos anteriores: 3+5=8."},{"id":"BAS-HABMAT-N2-10","m":"Habilidad Matemática","n":2,"ins":"Completa el espacio en blanco","o":"Si algo cuesta 50 pesos y pago con 100, me regresan ___","op":["50","40","60","100"],"r":"50","f":"100 - 50 = 50 pesos."},{"id":"BAS-HABMAT-N3-01","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Si un auto viaja a 60 km/h durante 2 horas, recorre ___ km","op":["120","60","30","180"],"r":"120","f":"60 × 2 = 120 km."},{"id":"BAS-HABMAT-N3-02","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Ana es más alta que Luis, y Luis es más alto que Pedro. El más bajo es ___","op":["Pedro","Ana","Luis","No se sabe"],"r":"Pedro","f":"Si Ana>Luis>Pedro, Pedro es el más bajo."},{"id":"BAS-HABMAT-N3-03","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Si 5 obreros hacen un trabajo en 10 días, 10 obreros lo harían en ___ días","op":["5","10","20","15"],"r":"5","f":"El doble de obreros hace el trabajo en la mitad del tiempo."},{"id":"BAS-HABMAT-N3-04","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Un número par más un número par siempre da un número ___","op":["par","impar","negativo","decimal"],"r":"par","f":"La suma de dos números pares siempre es par."},{"id":"BAS-HABMAT-N3-05","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Si hoy es martes, dentro de 3 días será ___","op":["viernes","jueves","sábado","lunes"],"r":"viernes","f":"Martes + 3 días = viernes."},{"id":"BAS-HABMAT-N3-06","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"De cada 10 alumnos, 3 reprobaron. Aprobaron ___ alumnos","op":["7","3","10","5"],"r":"7","f":"10 - 3 = 7 alumnos aprobaron."},{"id":"BAS-HABMAT-N3-07","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Si un litro de leche cuesta 20 pesos, 3 litros cuestan ___","op":["60","40","20","80"],"r":"60","f":"20 × 3 = 60 pesos."},{"id":"BAS-HABMAT-N3-08","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"El siguiente número primo después de 7 es ___","op":["11","9","10","8"],"r":"11","f":"9 y 10 no son primos; el siguiente primo es 11."},{"id":"BAS-HABMAT-N3-09","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"Si María nació en el año 2000, en 2015 tenía ___ años","op":["15","10","20","5"],"r":"15","f":"2015 - 2000 = 15 años."},{"id":"BAS-HABMAT-N3-10","m":"Habilidad Matemática","n":3,"ins":"Completa el espacio en blanco","o":"La mitad de la mitad de 20 es ___","op":["5","10","2.5","15"],"r":"5","f":"La mitad de 20 es 10, y la mitad de 10 es 5."},{"id":"BAS-ESP-N1-01","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"El perro ___ en el jardín.","op":["corre","corren","correr","corriendo"],"r":"corre","f":"Concuerda con 'el perro' (singular)."},{"id":"BAS-ESP-N1-02","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Las flores ___ muy bonitas.","op":["son","es","fue","era"],"r":"son","f":"Concuerda con 'las flores' (plural)."},{"id":"BAS-ESP-N1-03","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Yo ___ Juan.","op":["soy","es","son","eres"],"r":"soy","f":"La primera persona usa 'soy'."},{"id":"BAS-ESP-N1-04","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Tú ___ mi amigo.","op":["eres","soy","es","somos"],"r":"eres","f":"La segunda persona usa 'eres'."},{"id":"BAS-ESP-N1-05","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Nosotros ___ estudiantes.","op":["somos","soy","es","son"],"r":"somos","f":"La primera persona plural usa 'somos'."},{"id":"BAS-ESP-N1-06","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"El sol ___ muy fuerte hoy.","op":["está","son","están","es"],"r":"está","f":"'Está' se usa para estados temporales."},{"id":"BAS-ESP-N1-07","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"La casa ___ grande.","op":["es","son","está","están"],"r":"es","f":"'Es' se usa para características permanentes."},{"id":"BAS-ESP-N1-08","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Ellos ___ en la escuela.","op":["están","es","está","son"],"r":"están","f":"Concuerda con 'ellos' (plural)."},{"id":"BAS-ESP-N1-09","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Mi mamá ___ pan todos los días.","op":["compra","compran","comprar","comprando"],"r":"compra","f":"Concuerda con 'mi mamá' (singular)."},{"id":"BAS-ESP-N1-10","m":"Español","n":1,"ins":"Completa el espacio en blanco","o":"Los niños ___ en el parque.","op":["juegan","juega","jugar","jugando"],"r":"juegan","f":"Concuerda con 'los niños' (plural)."},{"id":"BAS-ESP-N2-01","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'feliz' es ___.","op":["contento","triste","enojado","cansado"],"r":"contento","f":"'Contento' significa lo mismo que 'feliz'."},{"id":"BAS-ESP-N2-02","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'grande' es ___.","op":["enorme","pequeño","chico","bajo"],"r":"enorme","f":"'Enorme' significa lo mismo que 'grande'."},{"id":"BAS-ESP-N2-03","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'alto' es ___.","op":["bajo","grande","enorme","ancho"],"r":"bajo","f":"'Bajo' es lo contrario de 'alto'."},{"id":"BAS-ESP-N2-04","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'rápido' es ___.","op":["lento","veloz","ligero","ágil"],"r":"lento","f":"'Lento' es lo contrario de 'rápido'."},{"id":"BAS-ESP-N2-05","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'bonito' es ___.","op":["hermoso","feo","raro","normal"],"r":"hermoso","f":"'Hermoso' significa lo mismo que 'bonito'."},{"id":"BAS-ESP-N2-06","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'día' es ___.","op":["noche","tarde","sol","luz"],"r":"noche","f":"'Noche' es lo contrario de 'día'."},{"id":"BAS-ESP-N2-07","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'comenzar' es ___.","op":["iniciar","terminar","acabar","concluir"],"r":"iniciar","f":"'Iniciar' significa lo mismo que 'comenzar'."},{"id":"BAS-ESP-N2-08","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'abrir' es ___.","op":["cerrar","entrar","salir","abrir"],"r":"cerrar","f":"'Cerrar' es lo contrario de 'abrir'."},{"id":"BAS-ESP-N2-09","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'triste' es ___.","op":["melancólico","alegre","feliz","contento"],"r":"melancólico","f":"'Melancólico' significa lo mismo que 'triste'."},{"id":"BAS-ESP-N2-10","m":"Español","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'limpio' es ___.","op":["sucio","claro","brillante","nuevo"],"r":"sucio","f":"'Sucio' es lo contrario de 'limpio'."},{"id":"BAS-ESP-N3-01","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"Quiero pan ___ también quiero leche.","op":["y","pero","o","porque"],"r":"y","f":"'Y' une dos ideas que se agregan."},{"id":"BAS-ESP-N3-02","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"Quiero salir ___ está lloviendo.","op":["pero","y","porque","entonces"],"r":"pero","f":"'Pero' introduce una idea contraria."},{"id":"BAS-ESP-N3-03","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"No fui a la escuela ___ estaba enfermo.","op":["porque","pero","aunque","sin embargo"],"r":"porque","f":"'Porque' explica la causa."},{"id":"BAS-ESP-N3-04","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"¿Vas a comer arroz ___ pasta?","op":["o","y","pero","porque"],"r":"o","f":"'O' presenta una opción entre dos cosas."},{"id":"BAS-ESP-N3-05","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"Estudié mucho, ___ no aprobé el examen.","op":["sin embargo","y","porque","o"],"r":"sin embargo","f":"'Sin embargo' indica un contraste."},{"id":"BAS-ESP-N3-06","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"La palabra 'árbol' lleva tilde porque es ___.","op":["grave","aguda","esdrújula","monosílaba"],"r":"grave","f":"'Árbol' termina en consonante distinta de n/s y lleva tilde: es grave."},{"id":"BAS-ESP-N3-07","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"La palabra 'camión' es ___.","op":["aguda","grave","esdrújula","monosílaba"],"r":"aguda","f":"'Camión' termina en 'n' con acento en la última sílaba: es aguda."},{"id":"BAS-ESP-N3-08","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"En la oración 'El perro corre rápido', la palabra 'rápido' es un ___.","op":["adverbio","sustantivo","verbo","artículo"],"r":"adverbio","f":"'Rápido' modifica al verbo 'corre': es un adverbio."},{"id":"BAS-ESP-N3-09","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"En la oración 'La casa azul', la palabra 'azul' es un ___.","op":["adjetivo","sustantivo","verbo","adverbio"],"r":"adjetivo","f":"'Azul' describe a 'casa': es un adjetivo."},{"id":"BAS-ESP-N3-10","m":"Español","n":3,"ins":"Completa el espacio en blanco","o":"En la oración 'María canta', la palabra 'canta' es un ___.","op":["verbo","sustantivo","adjetivo","adverbio"],"r":"verbo","f":"'Canta' indica la acción: es un verbo."},{"id":"BAS-HABVER-N1-01","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'casa' es ___.","op":["hogar","calle","carro","árbol"],"r":"hogar","f":"'Hogar' significa lo mismo que 'casa'."},{"id":"BAS-HABVER-N1-02","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'niño' es ___.","op":["chico","grande","viejo","adulto"],"r":"chico","f":"'Chico' significa lo mismo que 'niño'."},{"id":"BAS-HABVER-N1-03","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"El antónimo de 'amigo' es ___.","op":["enemigo","compañero","hermano","vecino"],"r":"enemigo","f":"'Enemigo' es lo contrario de 'amigo'."},{"id":"BAS-HABVER-N1-04","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"El antónimo de 'nuevo' es ___.","op":["viejo","moderno","reciente","fresco"],"r":"viejo","f":"'Viejo' es lo contrario de 'nuevo'."},{"id":"BAS-HABVER-N1-05","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Perro es a ladrar como gato es a ___.","op":["maullar","volar","nadar","correr"],"r":"maullar","f":"Cada animal tiene su sonido característico."},{"id":"BAS-HABVER-N1-06","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Sol es a día como luna es a ___.","op":["noche","tarde","mañana","sol"],"r":"noche","f":"El sol se asocia al día y la luna a la noche."},{"id":"BAS-HABVER-N1-07","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'contento' es ___.","op":["feliz","triste","enojado","serio"],"r":"feliz","f":"'Feliz' significa lo mismo que 'contento'."},{"id":"BAS-HABVER-N1-08","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Pez es a agua como ave es a ___.","op":["aire","tierra","fuego","hielo"],"r":"aire","f":"El pez vive en el agua y el ave vuela en el aire."},{"id":"BAS-HABVER-N1-09","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"El antónimo de 'subir' es ___.","op":["bajar","correr","saltar","caminar"],"r":"bajar","f":"'Bajar' es lo contrario de 'subir'."},{"id":"BAS-HABVER-N1-10","m":"Habilidad Verbal","n":1,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'rápido' es ___.","op":["veloz","lento","despacio","tranquilo"],"r":"veloz","f":"'Veloz' significa lo mismo que 'rápido'."},{"id":"BAS-HABVER-N2-01","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Médico es a hospital como maestro es a ___.","op":["escuela","hospital","tienda","parque"],"r":"escuela","f":"Cada profesión tiene su lugar de trabajo."},{"id":"BAS-HABVER-N2-02","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Libro es a leer como pelota es a ___.","op":["jugar","comer","dormir","escribir"],"r":"jugar","f":"Cada objeto se asocia a su función principal."},{"id":"BAS-HABVER-N2-03","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'difícil' es ___.","op":["complicado","fácil","simple","sencillo"],"r":"complicado","f":"'Complicado' significa lo mismo que 'difícil'."},{"id":"BAS-HABVER-N2-04","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'comprar' es ___.","op":["vender","pagar","gastar","ahorrar"],"r":"vender","f":"'Vender' es lo contrario de 'comprar'."},{"id":"BAS-HABVER-N2-05","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Carpintero es a madera como herrero es a ___.","op":["metal","tela","papel","vidrio"],"r":"metal","f":"Cada oficio trabaja con un material distinto."},{"id":"BAS-HABVER-N2-06","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'hablar' es ___.","op":["conversar","callar","escuchar","pensar"],"r":"conversar","f":"'Conversar' significa lo mismo que 'hablar'."},{"id":"BAS-HABVER-N2-07","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"El antónimo de 'permitir' es ___.","op":["prohibir","aceptar","dejar","autorizar"],"r":"prohibir","f":"'Prohibir' es lo contrario de 'permitir'."},{"id":"BAS-HABVER-N2-08","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Llave es a puerta como interruptor es a ___.","op":["luz","mesa","silla","ventana"],"r":"luz","f":"Cada objeto activa algo distinto."},{"id":"BAS-HABVER-N2-09","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Un sinónimo de 'valiente' es ___.","op":["audaz","cobarde","tímido","miedoso"],"r":"audaz","f":"'Audaz' significa lo mismo que 'valiente'."},{"id":"BAS-HABVER-N2-10","m":"Habilidad Verbal","n":2,"ins":"Completa el espacio en blanco","o":"Panadero es a pan como zapatero es a ___.","op":["zapatos","ropa","muebles","libros"],"r":"zapatos","f":"Cada oficio produce algo distinto."},{"id":"BAS-HABVER-N3-01","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"En el texto, la idea principal es aquella que ___.","op":["resume el tema central","es la primera oración siempre","tiene más palabras","aparece al final siempre"],"r":"resume el tema central","f":"La idea principal resume de qué trata el texto."},{"id":"BAS-HABVER-N3-02","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Un párrafo bien organizado tiene una idea ___ y varias ideas secundarias.","op":["principal","irrelevante","repetida","opuesta"],"r":"principal","f":"El párrafo se organiza alrededor de una idea principal."},{"id":"BAS-HABVER-N3-03","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Cuando un texto explica una opinión con argumentos, decimos que es ___.","op":["argumentativo","narrativo","descriptivo","poético"],"r":"argumentativo","f":"Un texto argumentativo defiende una postura con razones."},{"id":"BAS-HABVER-N3-04","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Cuando un texto cuenta una historia con personajes, decimos que es ___.","op":["narrativo","argumentativo","expositivo","informativo"],"r":"narrativo","f":"Un texto narrativo cuenta una historia."},{"id":"BAS-HABVER-N3-05","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"La palabra que conecta dos ideas opuestas es ___.","op":["pero","y","también","además"],"r":"pero","f":"'Pero' conecta ideas que contrastan."},{"id":"BAS-HABVER-N3-06","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Resumir un texto significa ___.","op":["decir lo más importante en pocas palabras","copiar el texto completo","inventar una historia nueva","traducir el texto"],"r":"decir lo más importante en pocas palabras","f":"Resumir es sintetizar las ideas clave."},{"id":"BAS-HABVER-N3-07","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Un texto informativo busca principalmente ___.","op":["dar datos y hechos","contar una historia","convencer con opiniones","expresar sentimientos"],"r":"dar datos y hechos","f":"El objetivo de un texto informativo es informar con datos."},{"id":"BAS-HABVER-N3-08","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Cuando una palabra tiene varios significados según el contexto, se llama ___.","op":["polisemia","sinonimia","antonimia","rima"],"r":"polisemia","f":"La polisemia ocurre cuando una palabra tiene varios significados."},{"id":"BAS-HABVER-N3-09","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"El propósito de un texto publicitario es ___.","op":["convencer para comprar algo","narrar una historia","explicar un fenómeno natural","dar instrucciones técnicas"],"r":"convencer para comprar algo","f":"La publicidad busca persuadir al consumidor."},{"id":"BAS-HABVER-N3-10","m":"Habilidad Verbal","n":3,"ins":"Completa el espacio en blanco","o":"Inferir en un texto significa ___.","op":["deducir algo que no está escrito directamente","copiar una idea textual","memorizar el texto completo","ignorar el contexto"],"r":"deducir algo que no está escrito directamente","f":"Inferir es concluir algo a partir de pistas del texto."},{"id":"BAS-FÍS-N1-01","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"La unidad para medir la distancia es el ___.","op":["metro","segundo","kilogramo","litro"],"r":"metro","f":"La distancia se mide en metros."},{"id":"BAS-FÍS-N1-02","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"La unidad para medir el tiempo es el ___.","op":["segundo","metro","kilogramo","litro"],"r":"segundo","f":"El tiempo se mide en segundos."},{"id":"BAS-FÍS-N1-03","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"La unidad para medir la masa es el ___.","op":["kilogramo","metro","segundo","litro"],"r":"kilogramo","f":"La masa se mide en kilogramos."},{"id":"BAS-FÍS-N1-04","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"Un objeto en reposo no se mueve porque no tiene ___ actuando sobre él.","op":["fuerza","color","tiempo","masa"],"r":"fuerza","f":"Sin fuerza que lo mueva, un objeto permanece en reposo."},{"id":"BAS-FÍS-N1-05","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"El agua hierve y se convierte en ___.","op":["vapor","hielo","piedra","madera"],"r":"vapor","f":"Al hervir, el agua se convierte en vapor."},{"id":"BAS-FÍS-N1-06","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"El hielo es agua en estado ___.","op":["sólido","líquido","gaseoso","plasma"],"r":"sólido","f":"El hielo es agua congelada, en estado sólido."},{"id":"BAS-FÍS-N1-07","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"La luz viaja más ___ que el sonido.","op":["rápido","lento","despacio","igual"],"r":"rápido","f":"La luz viaja mucho más rápido que el sonido."},{"id":"BAS-FÍS-N1-08","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"Cuando algo cae al suelo, es por la fuerza de ___.","op":["gravedad","electricidad","magnetismo","fricción"],"r":"gravedad","f":"La gravedad atrae los objetos hacia el suelo."},{"id":"BAS-FÍS-N1-09","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"El termómetro sirve para medir la ___.","op":["temperatura","distancia","masa","velocidad"],"r":"temperatura","f":"El termómetro mide la temperatura."},{"id":"BAS-FÍS-N1-10","m":"Física","n":1,"ins":"Completa el espacio en blanco","o":"Un imán atrae objetos de ___.","op":["hierro","madera","plástico","vidrio"],"r":"hierro","f":"Los imanes atraen materiales como el hierro."},{"id":"BAS-FÍS-N2-01","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"La velocidad se calcula dividiendo la distancia entre el ___.","op":["tiempo","peso","color","volumen"],"r":"tiempo","f":"Velocidad = distancia / tiempo."},{"id":"BAS-FÍS-N2-02","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"La fórmula de la fuerza es masa por ___.","op":["aceleración","velocidad","tiempo","distancia"],"r":"aceleración","f":"Fuerza = masa × aceleración."},{"id":"BAS-FÍS-N2-03","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"Un cuerpo que cae libremente acelera por la ___.","op":["gravedad","fricción","electricidad","tensión"],"r":"gravedad","f":"La gravedad acelera los cuerpos en caída libre."},{"id":"BAS-FÍS-N2-04","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"La energía que tiene un objeto en movimiento se llama energía ___.","op":["cinética","potencial","térmica","eléctrica"],"r":"cinética","f":"La energía cinética es la energía del movimiento."},{"id":"BAS-FÍS-N2-05","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"La energía que tiene un objeto por su altura se llama energía ___.","op":["potencial","cinética","térmica","eléctrica"],"r":"potencial","f":"La energía potencial depende de la posición o altura."},{"id":"BAS-FÍS-N2-06","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"Los polos opuestos de un imán se ___.","op":["atraen","repelen","ignoran","destruyen"],"r":"atraen","f":"Polos opuestos (norte-sur) se atraen."},{"id":"BAS-FÍS-N2-07","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"Los polos iguales de un imán se ___.","op":["repelen","atraen","unen","funden"],"r":"repelen","f":"Polos iguales (norte-norte) se repelen."},{"id":"BAS-FÍS-N2-08","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"El sonido necesita un ___ para propagarse.","op":["medio material","vacío","espacio","color"],"r":"medio material","f":"El sonido no puede viajar en el vacío."},{"id":"BAS-FÍS-N2-09","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"La corriente eléctrica se mide en ___.","op":["amperes","metros","segundos","kilogramos"],"r":"amperes","f":"La corriente eléctrica se mide en amperes."},{"id":"BAS-FÍS-N2-10","m":"Física","n":2,"ins":"Completa el espacio en blanco","o":"La resistencia eléctrica se mide en ___.","op":["ohms","watts","volts","amperes"],"r":"ohms","f":"La resistencia se mide en ohms."},{"id":"BAS-FÍS-N3-01","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"Si un auto acelera de 0 a 20 m/s en 4 segundos, su aceleración es ___ m/s².","op":["5","4","20","80"],"r":"5","f":"Aceleración = (20-0)/4 = 5 m/s²."},{"id":"BAS-FÍS-N3-02","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La ley de Newton que dice 'a toda acción corresponde una reacción' es la ___ ley.","op":["tercera","primera","segunda","cuarta"],"r":"tercera","f":"La tercera ley de Newton es la ley de acción y reacción."},{"id":"BAS-FÍS-N3-03","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La ley de la inercia es la ___ ley de Newton.","op":["primera","segunda","tercera","cuarta"],"r":"primera","f":"La primera ley de Newton es la ley de la inercia."},{"id":"BAS-FÍS-N3-04","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La fórmula de la energía cinética es ___.","op":["½mv²","mgh","m×a","V×I"],"r":"½mv²","f":"La energía cinética se calcula como ½ masa × velocidad²."},{"id":"BAS-FÍS-N3-05","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La ley de Ohm relaciona el voltaje, la corriente y la ___.","op":["resistencia","masa","distancia","temperatura"],"r":"resistencia","f":"La ley de Ohm: Voltaje = Corriente × Resistencia."},{"id":"BAS-FÍS-N3-06","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"Un cuerpo con más masa tiene más ___ al cambio de movimiento.","op":["inercia","velocidad","color","temperatura"],"r":"inercia","f":"La inercia aumenta con la masa del cuerpo."},{"id":"BAS-FÍS-N3-07","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La potencia eléctrica se calcula como voltaje por ___.","op":["corriente","resistencia","tiempo","masa"],"r":"corriente","f":"Potencia = Voltaje × Corriente."},{"id":"BAS-FÍS-N3-08","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"Un cuerpo que cae desde el reposo tras 2 segundos (g=10) tiene una velocidad de ___ m/s.","op":["20","10","5","40"],"r":"20","f":"v = g × t = 10 × 2 = 20 m/s."},{"id":"BAS-FÍS-N3-09","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La frecuencia de una onda se mide en ___.","op":["Hertz","metros","segundos","Newtons"],"r":"Hertz","f":"La frecuencia se mide en Hertz (Hz)."},{"id":"BAS-FÍS-N3-10","m":"Física","n":3,"ins":"Completa el espacio en blanco","o":"La energía no se crea ni se destruye, solo se ___.","op":["transforma","elimina","multiplica","detiene"],"r":"transforma","f":"Ley de conservación de la energía."},{"id":"BAS-QUÍ-N1-01","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El símbolo químico del agua es ___.","op":["H2O","O2","CO2","H2"],"r":"H2O","f":"El agua está formada por 2 hidrógenos y 1 oxígeno."},{"id":"BAS-QUÍ-N1-02","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El aire que respiramos contiene principalmente ___.","op":["oxígeno y nitrógeno","solo oxígeno","solo hidrógeno","solo dióxido de carbono"],"r":"oxígeno y nitrógeno","f":"El aire es una mezcla, principalmente de nitrógeno y oxígeno."},{"id":"BAS-QUÍ-N1-03","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El estado del agua a temperatura ambiente es ___.","op":["líquido","sólido","gaseoso","plasma"],"r":"líquido","f":"A temperatura ambiente el agua es líquida."},{"id":"BAS-QUÍ-N1-04","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"La sal de mesa se llama químicamente ___.","op":["cloruro de sodio","óxido de hierro","dióxido de carbono","carbonato de calcio"],"r":"cloruro de sodio","f":"La sal común es cloruro de sodio (NaCl)."},{"id":"BAS-QUÍ-N1-05","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El elemento más ligero de la tabla periódica es el ___.","op":["hidrógeno","oxígeno","carbono","hierro"],"r":"hidrógeno","f":"El hidrógeno es el elemento más ligero."},{"id":"BAS-QUÍ-N1-06","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El símbolo del oxígeno es ___.","op":["O","Ox","Og","On"],"r":"O","f":"El símbolo químico del oxígeno es O."},{"id":"BAS-QUÍ-N1-07","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El símbolo del hierro es ___.","op":["Fe","Hi","Ir","He"],"r":"Fe","f":"El símbolo del hierro viene del latín 'ferrum': Fe."},{"id":"BAS-QUÍ-N1-08","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"Una mezcla de agua y aceite es ___.","op":["heterogénea","homogénea","pura","elemental"],"r":"heterogénea","f":"El agua y el aceite no se mezclan uniformemente."},{"id":"BAS-QUÍ-N1-09","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"Un elemento químico está formado por un solo tipo de ___.","op":["átomo","molécula","mezcla","compuesto"],"r":"átomo","f":"Un elemento tiene un solo tipo de átomo."},{"id":"BAS-QUÍ-N1-10","m":"Química","n":1,"ins":"Completa el espacio en blanco","o":"El proceso de pasar de líquido a gas se llama ___.","op":["evaporación","condensación","solidificación","fusión"],"r":"evaporación","f":"La evaporación convierte líquido en gas."},{"id":"BAS-QUÍ-N2-01","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"El número atómico indica la cantidad de ___ en un átomo.","op":["protones","neutrones","electrones libres","moléculas"],"r":"protones","f":"El número atómico es igual al número de protones."},{"id":"BAS-QUÍ-N2-02","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Un átomo neutro tiene el mismo número de protones que de ___.","op":["electrones","neutrones","moléculas","iones"],"r":"electrones","f":"En un átomo neutro, protones = electrones."},{"id":"BAS-QUÍ-N2-03","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Las filas horizontales de la tabla periódica se llaman ___.","op":["periodos","grupos","familias","bloques"],"r":"periodos","f":"Las filas horizontales son periodos."},{"id":"BAS-QUÍ-N2-04","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Las columnas verticales de la tabla periódica se llaman ___.","op":["grupos","periodos","capas","niveles"],"r":"grupos","f":"Las columnas verticales son grupos o familias."},{"id":"BAS-QUÍ-N2-05","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Un enlace donde se comparten electrones se llama ___.","op":["covalente","iónico","metálico","nuclear"],"r":"covalente","f":"En el enlace covalente los átomos comparten electrones."},{"id":"BAS-QUÍ-N2-06","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Un enlace donde se transfieren electrones se llama ___.","op":["iónico","covalente","metálico","débil"],"r":"iónico","f":"En el enlace iónico hay transferencia de electrones."},{"id":"BAS-QUÍ-N2-07","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Una sustancia con pH menor a 7 es ___.","op":["ácida","básica","neutra","sólida"],"r":"ácida","f":"Valores de pH menores a 7 indican acidez."},{"id":"BAS-QUÍ-N2-08","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"Una sustancia con pH mayor a 7 es ___.","op":["básica","ácida","neutra","gaseosa"],"r":"básica","f":"Valores de pH mayores a 7 indican basicidad."},{"id":"BAS-QUÍ-N2-09","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"El agua pura tiene un pH de ___.","op":["7","0","14","10"],"r":"7","f":"El agua pura es neutra, con pH 7."},{"id":"BAS-QUÍ-N2-10","m":"Química","n":2,"ins":"Completa el espacio en blanco","o":"La unidad para medir la cantidad de sustancia es el ___.","op":["mol","litro","gramo","metro"],"r":"mol","f":"El mol es la unidad para medir cantidad de sustancia."},{"id":"BAS-QUÍ-N3-01","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"Si un elemento tiene número atómico 6, tiene ___ protones.","op":["6","12","3","0"],"r":"6","f":"El número atómico es directamente el número de protones."},{"id":"BAS-QUÍ-N3-02","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"En la ecuación 2H2 + O2 → 2H2O, hay ___ átomos de hidrógeno en los reactivos.","op":["4","2","6","8"],"r":"4","f":"2 moléculas de H2 tienen 4 átomos de hidrógeno."},{"id":"BAS-QUÍ-N3-03","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"Una reacción que libera calor se llama ___.","op":["exotérmica","endotérmica","neutra","catalítica"],"r":"exotérmica","f":"Las reacciones exotérmicas liberan calor."},{"id":"BAS-QUÍ-N3-04","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"Una reacción que absorbe calor se llama ___.","op":["endotérmica","exotérmica","neutra","espontánea"],"r":"endotérmica","f":"Las reacciones endotérmicas absorben calor."},{"id":"BAS-QUÍ-N3-05","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"La ley que dice que la masa no se crea ni se destruye es la ley de ___.","op":["conservación de la masa","gravitación","Ohm","Newton"],"r":"conservación de la masa","f":"Ley de Lavoisier: la masa se conserva en una reacción."},{"id":"BAS-QUÍ-N3-06","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"El proceso de separar un sólido disuelto evaporando el líquido se llama ___.","op":["evaporación","filtración","decantación","destilación"],"r":"evaporación","f":"La evaporación separa un sólido disuelto en líquido."},{"id":"BAS-QUÍ-N3-07","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"El proceso de separar líquidos por su punto de ebullición se llama ___.","op":["destilación","filtración","decantación","tamizado"],"r":"destilación","f":"La destilación separa líquidos según su punto de ebullición."},{"id":"BAS-QUÍ-N3-08","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"Un ácido y una base al reaccionar forman sal y ___.","op":["agua","gas","metal","óxido"],"r":"agua","f":"La neutralización entre ácido y base produce sal y agua."},{"id":"BAS-QUÍ-N3-09","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"El reactivo que se consume por completo primero en una reacción se llama reactivo ___.","op":["limitante","exceso","catalizador","neutro"],"r":"limitante","f":"El reactivo limitante determina cuánto producto se forma."},{"id":"BAS-QUÍ-N3-10","m":"Química","n":3,"ins":"Completa el espacio en blanco","o":"Si se disuelven 2 moles de sal en agua, la cantidad de sustancia es ___.","op":["2 mol","2 gramos","2 litros","2 átomos"],"r":"2 mol","f":"La cantidad de sustancia se mide en moles."},{"id":"BAS-BIO-N1-01","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"La célula es la unidad básica de los ___.","op":["seres vivos","minerales","planetas","metales"],"r":"seres vivos","f":"Todos los seres vivos están hechos de células."},{"id":"BAS-BIO-N1-02","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"Las plantas producen su alimento mediante la ___.","op":["fotosíntesis","respiración","digestión","circulación"],"r":"fotosíntesis","f":"La fotosíntesis permite a las plantas producir su alimento."},{"id":"BAS-BIO-N1-03","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"El corazón bombea ___ por todo el cuerpo.","op":["sangre","aire","agua","comida"],"r":"sangre","f":"El corazón bombea sangre a través del cuerpo."},{"id":"BAS-BIO-N1-04","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"Los pulmones sirven para ___.","op":["respirar","digerir","pensar","caminar"],"r":"respirar","f":"Los pulmones son el órgano principal de la respiración."},{"id":"BAS-BIO-N1-05","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"El estómago ayuda a ___ los alimentos.","op":["digerir","respirar","bombear","pensar"],"r":"digerir","f":"El estómago participa en la digestión de los alimentos."},{"id":"BAS-BIO-N1-06","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"Los animales que comen solo plantas se llaman ___.","op":["herbívoros","carnívoros","omnívoros","insectívoros"],"r":"herbívoros","f":"Los herbívoros se alimentan de plantas."},{"id":"BAS-BIO-N1-07","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"Los animales que comen solo carne se llaman ___.","op":["carnívoros","herbívoros","omnívoros","vegetarianos"],"r":"carnívoros","f":"Los carnívoros se alimentan de otros animales."},{"id":"BAS-BIO-N1-08","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"El órgano que controla el cuerpo es el ___.","op":["cerebro","hígado","estómago","riñón"],"r":"cerebro","f":"El cerebro controla las funciones del cuerpo."},{"id":"BAS-BIO-N1-09","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"Los huesos forman el ___ del cuerpo.","op":["esqueleto","sistema digestivo","sistema circulatorio","cerebro"],"r":"esqueleto","f":"Los huesos forman el esqueleto que da soporte al cuerpo."},{"id":"BAS-BIO-N1-10","m":"Biología","n":1,"ins":"Completa el espacio en blanco","o":"Las plantas absorben agua a través de sus ___.","op":["raíces","hojas","flores","tallos"],"r":"raíces","f":"Las raíces absorben el agua del suelo."},{"id":"BAS-BIO-N2-01","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"El organelo que produce energía en la célula es la ___.","op":["mitocondria","membrana","vacuola","pared celular"],"r":"mitocondria","f":"La mitocondria es la 'central energética' de la célula."},{"id":"BAS-BIO-N2-02","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"El núcleo de la célula contiene el ___.","op":["ADN","citoplasma","oxígeno","agua"],"r":"ADN","f":"El núcleo contiene el material genético (ADN)."},{"id":"BAS-BIO-N2-03","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"Los glóbulos rojos transportan ___ en la sangre.","op":["oxígeno","comida","agua","hueso"],"r":"oxígeno","f":"Los glóbulos rojos llevan oxígeno por el cuerpo."},{"id":"BAS-BIO-N2-04","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"Los glóbulos blancos ayudan a combatir ___.","op":["infecciones","el hambre","el sueño","el frío"],"r":"infecciones","f":"Los glóbulos blancos defienden al cuerpo de infecciones."},{"id":"BAS-BIO-N2-05","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"Las plantas tienen cloroplastos para hacer la ___.","op":["fotosíntesis","digestión","respiración","reproducción"],"r":"fotosíntesis","f":"Los cloroplastos son donde ocurre la fotosíntesis."},{"id":"BAS-BIO-N2-06","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"El proceso de división celular para crecer se llama ___.","op":["mitosis","meiosis","fotosíntesis","digestión"],"r":"mitosis","f":"La mitosis permite que las células se dividan y el organismo crezca."},{"id":"BAS-BIO-N2-07","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"Los seres vivos que producen su propio alimento se llaman ___.","op":["productores","consumidores","descomponedores","depredadores"],"r":"productores","f":"Las plantas son productores porque hacen su propio alimento."},{"id":"BAS-BIO-N2-08","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"Los seres vivos que descomponen materia muerta se llaman ___.","op":["descomponedores","productores","consumidores","herbívoros"],"r":"descomponedores","f":"Los hongos y bacterias son descomponedores."},{"id":"BAS-BIO-N2-09","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"El ADN se encuentra dentro del ___ de la célula.","op":["núcleo","citoplasma","membrana","mitocondria"],"r":"núcleo","f":"El ADN está guardado en el núcleo celular."},{"id":"BAS-BIO-N2-10","m":"Biología","n":2,"ins":"Completa el espacio en blanco","o":"Los seres humanos tenemos ___ cromosomas en cada célula.","op":["46","23","100","10"],"r":"46","f":"Una célula humana normal tiene 46 cromosomas (23 pares)."},{"id":"BAS-BIO-N3-01","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"La teoría de la evolución fue propuesta por ___.","op":["Charles Darwin","Isaac Newton","Gregor Mendel","Albert Einstein"],"r":"Charles Darwin","f":"Darwin propuso la teoría de la evolución por selección natural."},{"id":"BAS-BIO-N3-02","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"Gregor Mendel es conocido como el padre de la ___.","op":["genética","física","química","astronomía"],"r":"genética","f":"Mendel hizo los primeros estudios sobre herencia genética."},{"id":"BAS-BIO-N3-03","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"Un ecosistema está formado por seres vivos y su ___.","op":["ambiente físico","dinero","tecnología","idioma"],"r":"ambiente físico","f":"Un ecosistema incluye a los seres vivos y su entorno."},{"id":"BAS-BIO-N3-04","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"La cadena alimenticia muestra cómo se transfiere la ___ entre organismos.","op":["energía","masa","temperatura","electricidad"],"r":"energía","f":"La cadena alimenticia representa el flujo de energía."},{"id":"BAS-BIO-N3-05","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"El proceso de selección natural favorece a los individuos mejor ___.","op":["adaptados","alimentados","altos","fuertes exclusivamente"],"r":"adaptados","f":"La selección natural favorece a quienes se adaptan mejor a su ambiente."},{"id":"BAS-BIO-N3-06","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"Un alelo dominante se manifiesta ___.","op":["aunque solo haya una copia","solo con dos copias","nunca","solo en animales"],"r":"aunque solo haya una copia","f":"Un alelo dominante se expresa con una sola copia presente."},{"id":"BAS-BIO-N3-07","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"La reproducción sexual combina genes de ___ progenitores.","op":["dos","uno","tres","ninguno"],"r":"dos","f":"La reproducción sexual une el material genético de dos progenitores."},{"id":"BAS-BIO-N3-08","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"El proceso de división celular que forma células sexuales se llama ___.","op":["meiosis","mitosis","fotosíntesis","digestión"],"r":"meiosis","f":"La meiosis produce las células sexuales (gametos)."},{"id":"BAS-BIO-N3-09","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"La biodiversidad se refiere a la variedad de ___ en un lugar.","op":["especies","rocas","edificios","carreteras"],"r":"especies","f":"La biodiversidad es la variedad de formas de vida."},{"id":"BAS-BIO-N3-10","m":"Biología","n":3,"ins":"Completa el espacio en blanco","o":"Un organismo transgénico tiene genes de ___ especie insertados.","op":["otra","la misma","ninguna","tres"],"r":"otra","f":"Un transgénico contiene material genético de otra especie."},{"id":"BAS-HISDEM-N1-01","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"La capital de México se llama ___.","op":["Ciudad de México","Guadalajara","Monterrey","Puebla"],"r":"Ciudad de México","f":"La capital del país es la Ciudad de México."},{"id":"BAS-HISDEM-N1-02","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"Los mexicas fundaron la ciudad de ___.","op":["Tenochtitlan","Teotihuacán","Palenque","Monte Albán"],"r":"Tenochtitlan","f":"Tenochtitlan fue la capital del imperio mexica."},{"id":"BAS-HISDEM-N1-03","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"El alimento base de las culturas prehispánicas era el ___.","op":["maíz","trigo","arroz","papa"],"r":"maíz","f":"El maíz fue el alimento principal en Mesoamérica."},{"id":"BAS-HISDEM-N1-04","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"México se independizó de ___.","op":["España","Francia","Estados Unidos","Portugal"],"r":"España","f":"México se independizó del dominio español."},{"id":"BAS-HISDEM-N1-05","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"El Grito de Independencia lo dio ___.","op":["Miguel Hidalgo","Benito Juárez","Porfirio Díaz","Emiliano Zapata"],"r":"Miguel Hidalgo","f":"Miguel Hidalgo dio el Grito de Dolores en 1810."},{"id":"BAS-HISDEM-N1-06","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"México se independizó en el año ___.","op":["1821","1810","1910","1857"],"r":"1821","f":"La independencia se consumó en 1821 (aunque inició en 1810)."},{"id":"BAS-HISDEM-N1-07","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"Benito Juárez fue un importante ___ de México.","op":["presidente","rey","emperador","virrey"],"r":"presidente","f":"Benito Juárez fue presidente de México."},{"id":"BAS-HISDEM-N1-08","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"La Revolución Mexicana comenzó en el año ___.","op":["1910","1821","1857","1521"],"r":"1910","f":"La Revolución Mexicana inició en 1910."},{"id":"BAS-HISDEM-N1-09","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"Emiliano Zapata luchó principalmente por la ___.","op":["tierra","independencia","religión","monarquía"],"r":"tierra","f":"Zapata luchó por la repartición de tierras a los campesinos."},{"id":"BAS-HISDEM-N1-10","m":"Historia de México","n":1,"ins":"Completa el espacio en blanco","o":"La bandera de México tiene los colores verde, blanco y ___.","op":["rojo","azul","amarillo","negro"],"r":"rojo","f":"La bandera mexicana es verde, blanco y rojo."},{"id":"BAS-HISDEM-N2-01","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"El imperio mexica tenía como capital a ___.","op":["Tenochtitlan","Teotihuacán","Tula","Palenque"],"r":"Tenochtitlan","f":"Tenochtitlan fue la capital del imperio mexica."},{"id":"BAS-HISDEM-N2-02","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"El último emperador mexica que resistió a los españoles fue ___.","op":["Cuauhtémoc","Moctezuma","Netzahualcóyotl","Itzcóatl"],"r":"Cuauhtémoc","f":"Cuauhtémoc resistió el asedio final de Tenochtitlan."},{"id":"BAS-HISDEM-N2-03","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"Hernán Cortés llegó a México en el año ___.","op":["1519","1521","1810","1910"],"r":"1519","f":"Cortés llegó a las costas mexicanas en 1519."},{"id":"BAS-HISDEM-N2-04","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"Las Leyes de Reforma fueron impulsadas por ___.","op":["Benito Juárez","Porfirio Díaz","Agustín de Iturbide","Vicente Guerrero"],"r":"Benito Juárez","f":"Juárez impulsó las Leyes de Reforma."},{"id":"BAS-HISDEM-N2-05","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"Porfirio Díaz gobernó México durante el periodo llamado ___.","op":["Porfiriato","Virreinato","Colonia","Imperio"],"r":"Porfiriato","f":"El gobierno de Díaz se conoce como el Porfiriato."},{"id":"BAS-HISDEM-N2-06","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"La Constitución mexicana vigente se promulgó en ___.","op":["1917","1857","1824","1810"],"r":"1917","f":"La Constitución actual data de 1917."},{"id":"BAS-HISDEM-N2-07","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"Francisco I. Madero luchó contra la reelección de ___.","op":["Porfirio Díaz","Benito Juárez","Antonio López de Santa Anna","Agustín de Iturbide"],"r":"Porfirio Díaz","f":"Madero se opuso a la reelección de Díaz."},{"id":"BAS-HISDEM-N2-08","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"Pancho Villa lideró la División del ___.","op":["Norte","Sur","Centro","Occidente"],"r":"Norte","f":"Pancho Villa encabezó la famosa División del Norte."},{"id":"BAS-HISDEM-N2-09","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"México perdió gran parte de su territorio en una guerra contra ___.","op":["Estados Unidos","Francia","España","Inglaterra"],"r":"Estados Unidos","f":"México perdió territorio en la guerra contra Estados Unidos (1846-1848)."},{"id":"BAS-HISDEM-N2-10","m":"Historia de México","n":2,"ins":"Completa el espacio en blanco","o":"La intervención francesa impuso como emperador a ___.","op":["Maximiliano de Habsburgo","Agustín de Iturbide","Porfirio Díaz","Antonio López de Santa Anna"],"r":"Maximiliano de Habsburgo","f":"Maximiliano fue impuesto como emperador durante la intervención francesa."},{"id":"BAS-HISDEM-N3-01","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El documento firmado en 1821 que estableció las bases de la independencia se llama Plan de ___.","op":["Iguala","Ayala","San Luis","Agua Prieta"],"r":"Iguala","f":"El Plan de Iguala estableció las Tres Garantías en 1821."},{"id":"BAS-HISDEM-N3-02","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El artículo constitucional que establece los derechos laborales en México es el ___.","op":["123","3","27","4"],"r":"123","f":"El artículo 123 regula los derechos laborales."},{"id":"BAS-HISDEM-N3-03","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El artículo constitucional que establece la educación laica y gratuita es el ___.","op":["3","123","27","4"],"r":"3","f":"El artículo 3° regula la educación en México."},{"id":"BAS-HISDEM-N3-04","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"La Guerra de Reforma enfrentó a liberales contra ___.","op":["conservadores","Estados Unidos","Francia","España"],"r":"conservadores","f":"La Guerra de Reforma fue un conflicto interno entre liberales y conservadores."},{"id":"BAS-HISDEM-N3-05","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El movimiento zapatista tenía como lema 'Tierra y ___'.","op":["Libertad","Justicia","Igualdad","Progreso"],"r":"Libertad","f":"El lema zapatista era 'Tierra y Libertad'."},{"id":"BAS-HISDEM-N3-06","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El Plan de Ayala fue promovido por ___.","op":["Emiliano Zapata","Francisco I. Madero","Venustiano Carranza","Pancho Villa"],"r":"Emiliano Zapata","f":"El Plan de Ayala exigía la devolución de tierras a los campesinos."},{"id":"BAS-HISDEM-N3-07","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"La Triple Alianza mexica estaba formada por Tenochtitlan, Texcoco y ___.","op":["Tlacopan","Tula","Cholula","Cuernavaca"],"r":"Tlacopan","f":"La Triple Alianza unía a Tenochtitlan, Texcoco y Tlacopan."},{"id":"BAS-HISDEM-N3-08","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El sistema agrícola mexica que se cultivaba sobre el lago se llama ___.","op":["chinampas","milpas","terrazas","huertos"],"r":"chinampas","f":"Las chinampas eran parcelas flotantes de cultivo."},{"id":"BAS-HISDEM-N3-09","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"La Constitución de 1917 surgió como resultado de la ___.","op":["Revolución Mexicana","Independencia","Guerra de Reforma","Conquista"],"r":"Revolución Mexicana","f":"La Constitución de 1917 fue producto de la Revolución Mexicana."},{"id":"BAS-HISDEM-N3-10","m":"Historia de México","n":3,"ins":"Completa el espacio en blanco","o":"El movimiento armado de 1910 buscaba terminar con la dictadura de ___.","op":["Porfirio Díaz","Benito Juárez","Antonio López de Santa Anna","Agustín de Iturbide"],"r":"Porfirio Díaz","f":"La Revolución buscaba terminar con la larga dictadura porfirista."},{"id":"BAS-HISUNI-N1-01","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"Los antiguos egipcios construyeron las famosas ___.","op":["pirámides","murallas","catedrales","torres"],"r":"pirámides","f":"Los egipcios construyeron las grandes pirámides."},{"id":"BAS-HISUNI-N1-02","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"El río más importante para el antiguo Egipto fue el ___.","op":["Nilo","Amazonas","Tigris","Misisipi"],"r":"Nilo","f":"El río Nilo fue vital para la civilización egipcia."},{"id":"BAS-HISUNI-N1-03","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"Los antiguos griegos crearon la ___ como forma de gobierno.","op":["democracia","monarquía","dictadura","teocracia"],"r":"democracia","f":"Los griegos, en Atenas, crearon la democracia."},{"id":"BAS-HISUNI-N1-04","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"El Imperio Romano tuvo como capital a ___.","op":["Roma","Atenas","El Cairo","París"],"r":"Roma","f":"Roma fue la capital del Imperio Romano."},{"id":"BAS-HISUNI-N1-05","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"Cristóbal Colón llegó a América en el año ___.","op":["1492","1521","1810","1600"],"r":"1492","f":"Colón llegó a América en 1492."},{"id":"BAS-HISUNI-N1-06","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"La Segunda Guerra Mundial terminó en el año ___.","op":["1945","1939","1918","1950"],"r":"1945","f":"La Segunda Guerra Mundial terminó en 1945."},{"id":"BAS-HISUNI-N1-07","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"La Revolución Francesa comenzó en el año ___.","op":["1789","1776","1810","1917"],"r":"1789","f":"La Revolución Francesa inició en 1789."},{"id":"BAS-HISUNI-N1-08","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"La Torre Eiffel se encuentra en la ciudad de ___.","op":["París","Roma","Londres","Berlín"],"r":"París","f":"La Torre Eiffel está en París, Francia."},{"id":"BAS-HISUNI-N1-09","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"El primer hombre en llegar a la Luna fue de nacionalidad ___.","op":["estadounidense","rusa","francesa","china"],"r":"estadounidense","f":"Neil Armstrong, el primer hombre en la Luna, era estadounidense."},{"id":"BAS-HISUNI-N1-10","m":"Historia Universal","n":1,"ins":"Completa el espacio en blanco","o":"La Gran Muralla se encuentra en el país de ___.","op":["China","Egipto","México","Grecia"],"r":"China","f":"La Gran Muralla está en China."},{"id":"BAS-HISUNI-N2-01","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"La invención de la imprenta se le atribuye a ___.","op":["Johannes Gutenberg","Isaac Newton","Cristóbal Colón","Napoleón"],"r":"Johannes Gutenberg","f":"Gutenberg inventó la imprenta de tipos móviles."},{"id":"BAS-HISUNI-N2-02","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"El Renacimiento surgió principalmente en ___.","op":["Italia","Francia","Alemania","España"],"r":"Italia","f":"El Renacimiento nació en ciudades italianas como Florencia."},{"id":"BAS-HISUNI-N2-03","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"Leonardo da Vinci pintó la famosa obra ___.","op":["La Mona Lisa","El Guernica","Las Meninas","La noche estrellada"],"r":"La Mona Lisa","f":"Leonardo da Vinci es autor de la Mona Lisa."},{"id":"BAS-HISUNI-N2-04","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"La Primera Guerra Mundial inició en el año ___.","op":["1914","1939","1918","1900"],"r":"1914","f":"La Primera Guerra Mundial comenzó en 1914."},{"id":"BAS-HISUNI-N2-05","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"El muro de Berlín cayó en el año ___.","op":["1989","1945","1991","1961"],"r":"1989","f":"El Muro de Berlín cayó en 1989."},{"id":"BAS-HISUNI-N2-06","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"La Guerra Fría enfrentó principalmente a Estados Unidos contra ___.","op":["la Unión Soviética","Francia","China","Alemania"],"r":"la Unión Soviética","f":"La Guerra Fría fue entre EUA y la URSS."},{"id":"BAS-HISUNI-N2-07","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"Napoleón Bonaparte fue emperador de ___.","op":["Francia","España","Inglaterra","Italia"],"r":"Francia","f":"Napoleón fue emperador de Francia."},{"id":"BAS-HISUNI-N2-08","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"La Declaración de Independencia de Estados Unidos se firmó en ___.","op":["1776","1789","1810","1865"],"r":"1776","f":"Estados Unidos declaró su independencia en 1776."},{"id":"BAS-HISUNI-N2-09","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"Martín Lutero inició el movimiento religioso conocido como ___.","op":["Reforma protestante","Contrarreforma","Cisma de Oriente","Concilio de Trento"],"r":"Reforma protestante","f":"Lutero inició la Reforma protestante en 1517."},{"id":"BAS-HISUNI-N2-10","m":"Historia Universal","n":2,"ins":"Completa el espacio en blanco","o":"El Imperio Bizantino tenía como capital a ___.","op":["Constantinopla","Roma","Atenas","El Cairo"],"r":"Constantinopla","f":"Constantinopla fue la capital del Imperio Bizantino."},{"id":"BAS-HISUNI-N3-01","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"La Revolución Industrial se originó primero en ___.","op":["Inglaterra","Francia","Alemania","Estados Unidos"],"r":"Inglaterra","f":"La Revolución Industrial comenzó en Inglaterra."},{"id":"BAS-HISUNI-N3-02","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"El sistema político medieval basado en señores y vasallos se llama ___.","op":["feudalismo","capitalismo","socialismo","imperialismo"],"r":"feudalismo","f":"El feudalismo dominó la organización social medieval."},{"id":"BAS-HISUNI-N3-03","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"La caída de Constantinopla en 1453 marcó el fin de la ___.","op":["Edad Media","Edad Antigua","Edad Moderna","Prehistoria"],"r":"Edad Media","f":"Tradicionalmente, 1453 marca el fin de la Edad Media."},{"id":"BAS-HISUNI-N3-04","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"El filósofo griego maestro de Alejandro Magno fue ___.","op":["Aristóteles","Sócrates","Platón","Pitágoras"],"r":"Aristóteles","f":"Aristóteles fue tutor de Alejandro Magno."},{"id":"BAS-HISUNI-N3-05","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"La ONU se fundó al terminar la ___.","op":["Segunda Guerra Mundial","Primera Guerra Mundial","Guerra Fría","Revolución Francesa"],"r":"Segunda Guerra Mundial","f":"La ONU se creó en 1945, tras la Segunda Guerra Mundial."},{"id":"BAS-HISUNI-N3-06","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"El movimiento que buscó recuperar ideales de la cultura griega y romana antigua fue el ___.","op":["Renacimiento","Feudalismo","Absolutismo","Colonialismo"],"r":"Renacimiento","f":"El Renacimiento retomó ideales clásicos grecorromanos."},{"id":"BAS-HISUNI-N3-07","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"Adolf Hitler lideró a la Alemania ___.","op":["nazi","comunista","imperial","republicana"],"r":"nazi","f":"Hitler lideró el régimen nazi en Alemania."},{"id":"BAS-HISUNI-N3-08","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"La bomba atómica fue lanzada por Estados Unidos sobre ___.","op":["Japón","Alemania","Italia","China"],"r":"Japón","f":"Estados Unidos lanzó bombas atómicas sobre Hiroshima y Nagasaki, en Japón."},{"id":"BAS-HISUNI-N3-09","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"El proceso de independencia de muchas colonias africanas y asiáticas del siglo XX se llama ___.","op":["descolonización","colonización","globalización","industrialización"],"r":"descolonización","f":"La descolonización liberó a muchas colonias en el siglo XX."},{"id":"BAS-HISUNI-N3-10","m":"Historia Universal","n":3,"ins":"Completa el espacio en blanco","o":"Karl Marx es considerado el principal teórico del ___.","op":["socialismo","liberalismo","feudalismo","fascismo"],"r":"socialismo","f":"Marx es el principal teórico del socialismo científico."},{"id":"BAS-GEO-N1-01","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"México se encuentra en el continente ___.","op":["América","Europa","Asia","África"],"r":"América","f":"México está ubicado en el continente americano."},{"id":"BAS-GEO-N1-02","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"La capital de Francia es ___.","op":["París","Madrid","Roma","Londres"],"r":"París","f":"París es la capital de Francia."},{"id":"BAS-GEO-N1-03","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"El océano más grande del mundo es el ___.","op":["Pacífico","Atlántico","Índico","Ártico"],"r":"Pacífico","f":"El océano Pacífico es el más grande y profundo."},{"id":"BAS-GEO-N1-04","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"El río más largo del mundo es el ___.","op":["Nilo","Amazonas","Misisipi","Yangtsé"],"r":"Nilo","f":"El Nilo es considerado el río más largo del mundo."},{"id":"BAS-GEO-N1-05","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"La montaña más alta del mundo es el ___.","op":["Everest","Aconcagua","Kilimanjaro","Popocatépetl"],"r":"Everest","f":"El Everest es la montaña más alta del mundo."},{"id":"BAS-GEO-N1-06","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"Un lugar con mucha lluvia y vegetación se llama ___.","op":["selva","desierto","tundra","estepa"],"r":"selva","f":"La selva se caracteriza por abundante lluvia y vegetación."},{"id":"BAS-GEO-N1-07","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"Un lugar muy seco con poca lluvia se llama ___.","op":["desierto","selva","bosque","pradera"],"r":"desierto","f":"El desierto tiene muy poca precipitación."},{"id":"BAS-GEO-N1-08","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"La capital de Estados Unidos es ___.","op":["Washington D.C.","Nueva York","Los Ángeles","Chicago"],"r":"Washington D.C.","f":"Washington D.C. es la capital de Estados Unidos."},{"id":"BAS-GEO-N1-09","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"Japón se encuentra en el continente ___.","op":["Asia","Europa","América","Oceanía"],"r":"Asia","f":"Japón está en el continente asiático."},{"id":"BAS-GEO-N1-10","m":"Geografía","n":1,"ins":"Completa el espacio en blanco","o":"La línea que divide la Tierra en norte y sur se llama ___.","op":["ecuador","meridiano","trópico","polo"],"r":"ecuador","f":"El ecuador divide la Tierra en hemisferio norte y sur."},{"id":"BAS-GEO-N2-01","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"La capital de Japón es ___.","op":["Tokio","Pekín","Seúl","Bangkok"],"r":"Tokio","f":"Tokio es la capital de Japón."},{"id":"BAS-GEO-N2-02","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"El continente más grande del mundo es ___.","op":["Asia","África","América","Europa"],"r":"Asia","f":"Asia es el continente más extenso."},{"id":"BAS-GEO-N2-03","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"El desierto más grande del mundo (cálido) es el ___.","op":["Sahara","Atacama","Gobi","Kalahari"],"r":"Sahara","f":"El Sahara es el desierto cálido más grande del mundo."},{"id":"BAS-GEO-N2-04","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"Las líneas horizontales de un mapa que miden la latitud se llaman ___.","op":["paralelos","meridianos","fronteras","cordilleras"],"r":"paralelos","f":"Los paralelos son las líneas horizontales que miden latitud."},{"id":"BAS-GEO-N2-05","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"Las líneas verticales de un mapa que miden la longitud se llaman ___.","op":["meridianos","paralelos","fronteras","ríos"],"r":"meridianos","f":"Los meridianos son las líneas verticales que miden longitud."},{"id":"BAS-GEO-N2-06","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"Un país que no tiene salida al mar se llama país ___.","op":["sin litoral","costero","insular","peninsular"],"r":"sin litoral","f":"Un país sin litoral no tiene acceso directo al mar."},{"id":"BAS-GEO-N2-07","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"La península más grande de México es la de ___.","op":["Yucatán","Baja California","Florida","Baja California Sur"],"r":"Yucatán","f":"La península de Yucatán es la más extensa de México."},{"id":"BAS-GEO-N2-08","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"Un país formado completamente por islas se llama país ___.","op":["insular","costero","continental","fronterizo"],"r":"insular","f":"Un país insular está formado por islas."},{"id":"BAS-GEO-N2-09","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"El clima con veranos secos e inviernos lluviosos se llama ___.","op":["mediterráneo","tropical","polar","desértico"],"r":"mediterráneo","f":"El clima mediterráneo tiene veranos secos e inviernos húmedos."},{"id":"BAS-GEO-N2-10","m":"Geografía","n":2,"ins":"Completa el espacio en blanco","o":"La brújula sirve para orientarse usando el ___.","op":["norte magnético","sol","viento","reloj"],"r":"norte magnético","f":"La brújula señala el norte magnético."},{"id":"BAS-GEO-N3-01","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"Rusia se extiende sobre los continentes de ___.","op":["Europa y Asia","Asia y África","Europa y América","Asia y Oceanía"],"r":"Europa y Asia","f":"Rusia es un país transcontinental entre Europa y Asia."},{"id":"BAS-GEO-N3-02","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"La densidad de población se calcula dividiendo habitantes entre ___.","op":["superficie","tiempo","dinero","temperatura"],"r":"superficie","f":"Densidad = número de habitantes / superficie."},{"id":"BAS-GEO-N3-03","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"El fenómeno de crecimiento de las ciudades se llama ___.","op":["urbanización","migración","globalización","industrialización"],"r":"urbanización","f":"La urbanización es el crecimiento de las zonas urbanas."},{"id":"BAS-GEO-N3-04","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"Un huso horario agrupa zonas que comparten la misma ___.","op":["hora","temperatura","altitud","lluvia"],"r":"hora","f":"Los husos horarios dividen el mundo en zonas con la misma hora."},{"id":"BAS-GEO-N3-05","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"El sector económico dedicado a la agricultura y minería es el sector ___.","op":["primario","secundario","terciario","cuaternario"],"r":"primario","f":"El sector primario extrae recursos naturales directamente."},{"id":"BAS-GEO-N3-06","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"El sector económico dedicado a los servicios es el sector ___.","op":["terciario","primario","secundario","cuaternario"],"r":"terciario","f":"El sector terciario incluye servicios como el comercio y el turismo."},{"id":"BAS-GEO-N3-07","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"La escala de un mapa representa la relación entre distancia real y ___.","op":["distancia en el mapa","altitud","clima","población"],"r":"distancia en el mapa","f":"La escala relaciona distancias reales con las del mapa."},{"id":"BAS-GEO-N3-08","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"Un recurso que se puede regenerar con el tiempo se llama ___.","op":["renovable","no renovable","fósil","escaso"],"r":"renovable","f":"Un recurso renovable se regenera naturalmente."},{"id":"BAS-GEO-N3-09","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"El petróleo es un recurso natural ___.","op":["no renovable","renovable","inagotable","ilimitado"],"r":"no renovable","f":"El petróleo tarda millones de años en formarse: es no renovable."},{"id":"BAS-GEO-N3-10","m":"Geografía","n":3,"ins":"Completa el espacio en blanco","o":"Los países con muy alto crecimiento económico reciente se llaman países ___.","op":["emergentes","desarrollados","subdesarrollados","estancados"],"r":"emergentes","f":"Los países emergentes tienen un crecimiento económico acelerado."},{"id":"BAS-FORCÍV-N1-01","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Decir siempre la verdad es un ejemplo del valor de la ___.","op":["honestidad","envidia","pereza","mentira"],"r":"honestidad","f":"Decir la verdad refleja honestidad."},{"id":"BAS-FORCÍV-N1-02","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Cumplir con nuestras tareas y compromisos es ser ___.","op":["responsable","irresponsable","flojo","descuidado"],"r":"responsable","f":"Cumplir compromisos refleja responsabilidad."},{"id":"BAS-FORCÍV-N1-03","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Ayudar a un compañero que lo necesita es un acto de ___.","op":["solidaridad","egoísmo","indiferencia","envidia"],"r":"solidaridad","f":"Ayudar a otros es un acto solidario."},{"id":"BAS-FORCÍV-N1-04","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Respetar las opiniones distintas a la mía es ser ___.","op":["tolerante","intolerante","grosero","indiferente"],"r":"tolerante","f":"Aceptar opiniones diferentes es tolerancia."},{"id":"BAS-FORCÍV-N1-05","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"El derecho a expresar mis ideas libremente se llama libertad de ___.","op":["expresión","trabajo","tránsito","comercio"],"r":"expresión","f":"La libertad de expresión permite compartir ideas."},{"id":"BAS-FORCÍV-N1-06","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Todos los niños tienen derecho a ir a la ___.","op":["escuela","cárcel","fábrica","mina"],"r":"escuela","f":"La educación es un derecho de la niñez."},{"id":"BAS-FORCÍV-N1-07","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"El derecho a votar en las elecciones se llama ___.","op":["sufragio","comercio","impuesto","salario"],"r":"sufragio","f":"El sufragio es el derecho al voto."},{"id":"BAS-FORCÍV-N1-08","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Tratar igual a hombres y mujeres es promover la ___ de género.","op":["igualdad","superioridad","diferencia","exclusión"],"r":"igualdad","f":"Tratar igual a todos promueve la igualdad de género."},{"id":"BAS-FORCÍV-N1-09","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Cuidar el medio ambiente es una ___ de todos.","op":["responsabilidad","opción","broma","tontería"],"r":"responsabilidad","f":"Cuidar el ambiente es responsabilidad de todos."},{"id":"BAS-FORCÍV-N1-10","m":"Formación Cívica y Ética","n":1,"ins":"Completa el espacio en blanco","o":"Un país gobernado por el pueblo mediante elecciones se llama ___.","op":["democracia","monarquía","dictadura","imperio"],"r":"democracia","f":"La democracia es el gobierno del pueblo."},{"id":"BAS-FORCÍV-N2-01","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"El documento que contiene las leyes más importantes de México se llama ___.","op":["Constitución","Reglamento","Manual","Diccionario"],"r":"Constitución","f":"La Constitución es la ley suprema de México."},{"id":"BAS-FORCÍV-N2-02","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"El poder encargado de crear las leyes en México es el ___.","op":["Legislativo","Ejecutivo","Judicial","Electoral"],"r":"Legislativo","f":"El Poder Legislativo crea las leyes."},{"id":"BAS-FORCÍV-N2-03","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"El poder encargado de aplicar las leyes, encabezado por el presidente, es el ___.","op":["Ejecutivo","Legislativo","Judicial","Municipal"],"r":"Ejecutivo","f":"El Poder Ejecutivo aplica y hace cumplir las leyes."},{"id":"BAS-FORCÍV-N2-04","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"El poder encargado de impartir justicia es el ___.","op":["Judicial","Ejecutivo","Legislativo","Militar"],"r":"Judicial","f":"El Poder Judicial imparte justicia."},{"id":"BAS-FORCÍV-N2-05","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"Un documento internacional que protege los derechos de todas las personas es la Declaración de los ___.","op":["Derechos Humanos","Impuestos","Tratados","Aranceles"],"r":"Derechos Humanos","f":"La Declaración Universal protege los derechos humanos."},{"id":"BAS-FORCÍV-N2-06","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"Discriminar a alguien por su origen o religión va en contra de la ___.","op":["igualdad","libertad de tránsito","propiedad privada","democracia directa"],"r":"igualdad","f":"La discriminación viola el principio de igualdad."},{"id":"BAS-FORCÍV-N2-07","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"El derecho a no ser esclavizado es un derecho ___.","op":["humano","opcional","municipal","comercial"],"r":"humano","f":"La libertad personal es un derecho humano fundamental."},{"id":"BAS-FORCÍV-N2-08","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"El organismo que organiza las elecciones en México se llama ___.","op":["INE","SEP","IMSS","DIF"],"r":"INE","f":"El INE organiza las elecciones federales en México."},{"id":"BAS-FORCÍV-N2-09","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"La edad mínima para votar en México es ___ años.","op":["18","16","21","15"],"r":"18","f":"En México se puede votar a partir de los 18 años."},{"id":"BAS-FORCÍV-N2-10","m":"Formación Cívica y Ética","n":2,"ins":"Completa el espacio en blanco","o":"Un conflicto se puede resolver hablando en vez de pelear, esto se llama resolución ___ de conflictos.","op":["pacífica","violenta","ignorada","forzada"],"r":"pacífica","f":"La resolución pacífica evita la violencia para resolver problemas."},{"id":"BAS-FORCÍV-N3-01","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"Un dilema ético ocurre cuando debo elegir entre dos valores en ___.","op":["conflicto","armonía","venta","préstamo"],"r":"conflicto","f":"Un dilema ético surge cuando los valores en juego se contraponen."},{"id":"BAS-FORCÍV-N3-02","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"La corrupción es el uso indebido del poder para obtener un beneficio ___.","op":["personal","colectivo","legal","transparente"],"r":"personal","f":"La corrupción busca beneficio personal a costa del bien común."},{"id":"BAS-FORCÍV-N3-03","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"La rendición de cuentas obliga a los gobernantes a ___ sus decisiones.","op":["informar","ocultar","inventar","negar"],"r":"informar","f":"La rendición de cuentas implica transparencia e información."},{"id":"BAS-FORCÍV-N3-04","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"Un mecanismo donde el pueblo vota directamente sobre una ley específica se llama ___.","op":["referéndum","dictadura","monarquía","censura"],"r":"referéndum","f":"El referéndum permite votar directamente sobre un tema."},{"id":"BAS-FORCÍV-N3-05","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"El principio de que nadie está por encima de la ley se llama Estado de ___.","op":["derecho","excepción","emergencia","sitio"],"r":"derecho","f":"El Estado de derecho asegura que todos, incluidas las autoridades, respeten la ley."},{"id":"BAS-FORCÍV-N3-06","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"Cuando un Estado no impone ninguna religión oficial, se dice que es un Estado ___.","op":["laico","religioso","teocrático","confesional"],"r":"laico","f":"Un Estado laico separa la religión del gobierno."},{"id":"BAS-FORCÍV-N3-07","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"El bien común se refiere a lo que beneficia a ___.","op":["toda la comunidad","una sola persona","el gobierno exclusivamente","una empresa"],"r":"toda la comunidad","f":"El bien común beneficia a la sociedad en general."},{"id":"BAS-FORCÍV-N3-08","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"La capacidad de tomar decisiones éticas por uno mismo se llama ___ moral.","op":["autonomía","dependencia","obediencia ciega","indiferencia"],"r":"autonomía","f":"La autonomía moral es decidir según los propios valores."},{"id":"BAS-FORCÍV-N3-09","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"Cuando una persona actúa igual a lo que piensa y dice, se dice que es ___.","op":["congruente","hipócrita","mentirosa","indiferente"],"r":"congruente","f":"La congruencia es actuar conforme a lo que se piensa."},{"id":"BAS-FORCÍV-N3-10","m":"Formación Cívica y Ética","n":3,"ins":"Completa el espacio en blanco","o":"El acoso repetido hacia un compañero en la escuela se llama ___.","op":["bullying","amistad","juego","cooperación"],"r":"bullying","f":"El bullying es el maltrato repetido hacia otra persona."}];
+const byBasico = (m, n) => BASICO.filter(x => x.m === m && x.n === n);
+
+/* ---------------- ICONOS (SVG estático, sin emojis ni animaciones) ---------------- */
+function svgIco(paths, opts={}){
+  const attrs = opts.fill
+    ? 'fill="currentColor" stroke="none"'
+    : 'fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"';
+  return `<svg viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.14em;flex-shrink:0" ${attrs}>${paths}</svg>`;
+}
+const ICONS = {
+  "Español": svgIco('<path d="M12 6c-2-1.5-5-1.5-8-1v14c3-.5 6-.5 8 1 2-1.5 5-1.5 8-1V5c-3-.5-6-.5-8 1z"/><path d="M12 6v14"/>'),
+  "Habilidad Verbal": svgIco('<path d="M4 5h16v10H9l-4 4v-4H4z"/>'),
+  "Matemáticas": svgIco('<circle cx="12" cy="6.5" r="1.5"/><rect x="5" y="11" width="14" height="2" rx="1"/><circle cx="12" cy="17.5" r="1.5"/>', {fill:true}),
+  "Habilidad Matemática": svgIco('<path d="M4 4h5v2a2 2 0 104 0V4h5v5h-2a2 2 0 100 4h2v5h-5v-2a2 2 0 10-4 0v2H4v-5h2a2 2 0 100-4H4z"/>', {fill:true}),
+  "Biología": svgIco('<path d="M20 4C10 4 4 10 4 18c8 0 14-6 14-14z"/><path d="M7 17c3-4 6-7 11-11"/>'),
+  "Física": svgIco('<ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>'),
+  "Química": svgIco('<path d="M9 2h6M10 2v6l-5.5 9.5A2 2 0 006.2 21h11.6a2 2 0 001.7-3.5L14 8V2"/><path d="M8 14h8"/>'),
+  "Historia de México": svgIco('<rect x="3" y="3" width="18" height="2" rx="1"/><rect x="3" y="19" width="18" height="2" rx="1"/><rect x="5" y="7" width="2" height="10"/><rect x="9" y="7" width="2" height="10"/><rect x="13" y="7" width="2" height="10"/><rect x="17" y="7" width="2" height="10"/>', {fill:true}),
+  "Historia Universal": svgIco('<rect x="3" y="3" width="18" height="2" rx="1"/><rect x="3" y="19" width="18" height="2" rx="1"/><rect x="5" y="7" width="2" height="10"/><rect x="9" y="7" width="2" height="10"/><rect x="13" y="7" width="2" height="10"/><rect x="17" y="7" width="2" height="10"/>', {fill:true}),
+  "Geografía": svgIco('<circle cx="10.5" cy="10.5" r="7.5"/><path d="M3 10.5h15M10.5 3c2.6 2.7 2.6 12.3 0 15M10.5 3c-2.6 2.7-2.6 12.3 0 15"/><path d="M19 14c1.7 0 3 1.4 3 3.1 0 2.3-3 5-3 5s-3-2.7-3-5c0-1.7 1.3-3.1 3-3.1z" fill="currentColor" stroke="none"/>'),
+  "Formación Cívica y Ética": svgIco('<path d="M12 3v18M7 21h10M5 7h14M5 7L2.5 12a2.5 2.5 0 005 0L5 7zM19 7l-2.5 5a2.5 2.5 0 005 0L19 7z"/>'),
+};
+const ICO = {
+  mundos: svgIco('<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3 3.2 3 14.8 0 18"/><path d="M12 3c-3 3.2-3 14.8 0 18"/>'),
+  materias: ICONS["Español"],
+  examen: svgIco('<rect x="5" y="4" width="14" height="17" rx="2"/><rect x="9" y="2.5" width="6" height="3" rx="1"/><path d="M8.5 11h7M8.5 15h7"/>'),
+  tutoria: svgIco('<rect x="4.5" y="8.5" width="15" height="10" rx="3"/><circle cx="9" cy="13.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15" cy="13.5" r="1.2" fill="currentColor" stroke="none"/><path d="M12 8.5V5.5"/><circle cx="12" cy="4.3" r="1.2"/><path d="M2.5 12v3M21.5 12v3"/>'),
+  trofeo: svgIco('<path d="M6 3h12v3.5c0 3.6-2.3 6.3-5 6.9v2.6h2.5a1.5 1.5 0 011.5 1.5V19H7v-1.5A1.5 1.5 0 018.5 16H11v-2.6C8.3 12.8 6 10.1 6 6.5V3z"/><path d="M4 4h2v2.2c0 1.6.9 2.9 2 3.4C6.6 8.8 5 7.1 5 5V4z" opacity=".85"/><path d="M20 4h-2v2.2c0 1.6-.9 2.9-2 3.4 1.4-.8 3-2.5 3-4.6V4z" opacity=".85"/><rect x="6.5" y="19.4" width="11" height="1.8" rx=".9"/>', {fill:true}),
+  battleroyale: svgIco('<path d="M13 2L4.5 14h5.7l-1.4 8L19 10h-5.8l1.3-8H13z"/>', {fill:true}),
+  arena: svgIco('<path d="M4 20L18 6M15 3l3 3-2 2-3-3z"/><path d="M20 20L6 6M9 3L6 6l2 2 3-3z"/>'),
+  clanes: svgIco('<path d="M12 2.5l7.5 3v5.4c0 5.4-3.3 9-7.5 10.6-4.2-1.6-7.5-5.2-7.5-10.6V5.5l7.5-3z"/>', {fill:true}),
+  marcador: svgIco('<rect x="3" y="13" width="5" height="8" rx="1"/><rect x="9.5" y="8" width="5" height="13" rx="1"/><rect x="16" y="11" width="5" height="10" rx="1"/>', {fill:true}),
+  fuego: svgIco('<path d="M12 2c1 3-2.5 4-2.5 7.5 0 1 .4 1.8 1 2.3-1.6-.3-3-2-3-4.3C4.7 10 3 12.8 3 15.5 3 19.6 6.6 22 11 22c5 0 8.5-3 8.5-7.3 0-3.4-2-5.7-3.8-7.4.3 1.6-.2 2.9-1.2 3.6.4-2-.4-3.4-1.5-4.6C12.4 5.3 12.3 3.6 12 2z"/>', {fill:true}),
+  vacaciones: svgIco('<circle cx="17" cy="6" r="2.4"/><path d="M12 21c0-6 3-9 8-10M4 21c2-5 5-7 8-8"/>'),
+  congelado: svgIco('<path d="M12 2v20M3.5 7l17 10M20.5 7l-17 10"/>'),
+  diagnostico: svgIco('<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/>'),
+  logo: svgIco('<circle cx="12" cy="12" r="9.5"/><path d="M15.5 8.5l-2 5-5 2 2-5z" fill="currentColor" stroke="none"/>'),
+  home: svgIco('<path d="M4 11.5L12 4l8 7.5"/><path d="M6 10v9a1 1 0 001 1h3v-5h4v5h3a1 1 0 001-1v-9"/>'),
+  user: svgIco('<circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c1-4 4-6 7.5-6s6.5 2 7.5 6"/>'),
+  sun: svgIco('<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/>'),
+  moon: svgIco('<path d="M20 14.5A8.5 8.5 0 1110 3.6 6.8 6.8 0 0020 14.5z"/>', {fill:true}),
+  lock: svgIco('<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 018 0v3"/>'),
+  bookmark: svgIco('<path d="M6 3h12v18l-6-4-6 4z"/>', {fill:true}),
+};
+function medal(tier){
+  const c = {bronce:"#C97C3D", plata:"#AEB7C4", oro:"#FFC94D", diamante:"#6FE0EE"}[tier] || "currentColor";
+  return `<svg viewBox="0 0 24 24" style="width:1em;height:1em;vertical-align:-0.14em"><circle cx="12" cy="10" r="7.2" fill="${c}"/><circle cx="12" cy="10" r="4.6" fill="none" stroke="#ffffffb0" stroke-width="1.1"/><path d="M9 15.5l-2 5.5 5-2.3 5 2.3-2-5.5" fill="${c}" opacity=".9"/></svg>`;
+}
+function rankIco(i){ return i===0?medal('oro'):i===1?medal('plata'):i===2?medal('bronce'):(i+1)+"."; }
+
+/* ---------------- ESTADO (en memoria; el demo se reinicia al recargar) ---------------- */
+const S = {
+  logueado:false, pagado:false, plan:null, email:"", diagHecho:false, diagResultado:null,
+  mundos:{},           // {materia: {nivel: {mejor}}} — mejor = aciertos/10, aprobado si >=6
+  repaso:[],           // ids de preguntas guardadas
+  histMaterias:[], histExamen:[],
+  msgsMes:100, msgsExtra:0, saldo:50,
+  chat:[],             // historial TutorIA
+  trofeos:60, clan:null,
+  racha:{dias:4, mejor:11, congelados:1, vacaciones:false, actividadHoy:false},
+};
+MATERIAS.forEach(m => S.mundos[m] = {});
+
+/* ---------------- DATOS PARA MODO COMPETITIVO (demo) ---------------- */
+const BOT_NAMES = ["Fer_23","Maru.exe","ElChamo","Nayelii","Toño_MX","Karla.dev","Bryan_99","LaChiquis","Emi_04","DiegoXV","Vale_R","Kevin.js","Ximena22","ElNeto","Ari_Prepa","Sofi.gg","Renexd","Michelle_A","Pau2010","Santi_MX"];
+const GLOBAL_BOTS = Array.from({length:40},(_,i)=>({nombre:BOT_NAMES[i%BOT_NAMES.length]+(i>=BOT_NAMES.length?"_"+i:""), score: Math.round(300 + Math.random()*2600)}));
+
+function ligaInfo(t){
+  const ligas = [{n:"Bronce",min:0,max:99,e:medal('bronce')},{n:"Plata",min:100,max:249,e:medal('plata')},{n:"Oro",min:250,max:499,e:medal('oro')},{n:"Diamante",min:500,max:99999,e:medal('diamante')}];
+  const cur = ligas.find(l=>t>=l.min && t<=l.max) || ligas[ligas.length-1];
+  const idx = ligas.indexOf(cur);
+  const next = ligas[idx+1];
+  const pct = next ? Math.round((t-cur.min)/(next.min-cur.min)*100) : 100;
+  return {nombre:cur.n, emoji:cur.e, pct, next: next?next.min:null, nextNombre: next?next.n:null};
+}
+
+/* ---------------- RACHAS DE ESTUDIO ---------------- */
+const HITOS_RACHA = [3,7,30,100,180,365];
+function marcarActividadHoy(){
+  if(S.racha.vacaciones) return;
+  if(S.racha.actividadHoy) return; // ya contaba el día de hoy
+  S.racha.actividadHoy = true;
+  S.racha.dias++;
+  if(S.racha.dias > S.racha.mejor) S.racha.mejor = S.racha.dias;
+  if(S.racha.dias % 7 === 0) S.racha.congelados = Math.min(2, S.racha.congelados + 1);
+  if(HITOS_RACHA.includes(S.racha.dias)){
+    setTimeout(()=> modal(`<h2 class="center"><span style="color:var(--gold)">${ICO.fuego}</span> ¡${S.racha.dias} días seguidos!</h2>
+      <p class="dim center">${S.racha.dias % 7 === 0 ? `Ganaste un congelado de racha ${ICO.congelado} gratis.` : "Sigue así, vas increíble."}</p>
+      <button class="btn" onclick="closeModal()">¡Vamos!</button>`), 900);
+  }
+}
+function toggleVacaciones(){
+  S.racha.vacaciones = !S.racha.vacaciones;
+  go('perfil',{replace:true});
+}
+
+/* ---------------- NAVEGACIÓN ---------------- */
+const $ = s => document.querySelector(s);
+const screens = $("#screens");
+let historyStack = [];
+let currentScreen = null;
+let quizActivo = false;
+let navDir = "fwd";
+
+function render(name, html, title){
+  const cls = navDir === "back" ? "nav-back" : navDir === "none" ? "" : "nav-fwd";
+  navDir = "fwd";
+  screens.innerHTML = `<div class="screen active ${cls}">${html}</div>`;
+  $("#tb-title").textContent = title || "ECOEMS Quest";
+  window.scrollTo(0,0);
+}
+function go(name, opts={}){
+  if(currentScreen && !opts.replace) historyStack.push(currentScreen);
+  currentScreen = {name, opts};
+  quizActivo = false;
+  clearInterval(timerInt);
+  navDir = opts.replace ? "none" : "fwd";
+  $("#topbar").style.display = (name==="portada"||name==="login"||name==="registro") ? "none":"flex";
+  SCREENS[name](opts);
+}
+function back(){
+  if(quizActivo){ confirmSalirQuiz(); return; }
+  const prev = historyStack.pop();
+  if(prev){ currentScreen = prev; navDir = "back"; SCREENS[prev.name](prev.opts); $("#topbar").style.display = (prev.name==="portada")?"none":"flex"; }
+  else go("home",{replace:true});
+}
+$("#btn-back").onclick = back;
+$("#btn-home").onclick = () => { if(quizActivo){confirmSalirQuiz("home"); return;} historyStack=[]; go("home",{replace:true}); };
+$("#btn-perfil").onclick = () => { if(quizActivo){confirmSalirQuiz("perfil"); return;} go("perfil"); };
+
+/* ---------------- MODAL ---------------- */
+function modal(html){ $("#modal-content").innerHTML = html; $("#modal-bg").classList.add("show"); }
+function closeModal(){ $("#modal-bg").classList.remove("show"); }
+$("#modal-bg").addEventListener("click", e => { if(e.target.id==="modal-bg") closeModal(); });
+
+function confirmSalirQuiz(dest){
+  modal(`<h2>¿Salir del ejercicio?</h2><p class="dim">Perderás el progreso de este intento.</p>
+    <div class="row2" style="margin-top:14px">
+      <button class="btn ghost" onclick="closeModal()">Seguir</button>
+      <button class="btn" onclick="closeModal(); quizActivo=false; clearInterval(timerInt); ${dest==='perfil'?"go('perfil')":dest==='home'?"historyStack=[];go('home',{replace:true})":"back()"}">Salir</button>
+    </div>`);
+}
+
+/* ---------------- MOTOR DE QUIZ ---------------- */
+let timerInt = null;
+function startQuiz(cfg){
+  // cfg: {titulo, preguntas, tiempoSeg, onFinish, contexto}
+  quizActivo = true;
+  const st = {i:0, resp:Array(cfg.preguntas.length).fill(null), fin:false, t:cfg.tiempoSeg};
+  $("#tb-title").textContent = cfg.titulo;
+
+  function fmt(s){ const m=Math.floor(s/60), ss=s%60; return `${m}:${ss<10?"0":""}${ss}`; }
+
+  function terminar(auto){
+    if(st.fin) return; st.fin = true; quizActivo=false; clearInterval(timerInt);
+    const aciertos = cfg.preguntas.reduce((a,q,ix)=> a + (st.resp[ix]===q.r ?1:0), 0);
+    cfg.onFinish(aciertos, st.resp, auto);
+  }
+
+  function paint(){
+    const q = cfg.preguntas[st.i];
+    const respondida = st.resp[st.i] !== null;
+    const enRepaso = S.repaso.includes(q.id);
+    screens.innerHTML = `<div class="screen active">
+      <div class="quiz-head">
+        <span class="badge">${q.m}</span>
+        <span class="timer ${st.t<=30?'low':''}" id="qtimer">⏱ ${fmt(st.t)}</span>
+      </div>
+      <div class="progress"><i style="width:${(st.i)/cfg.preguntas.length*100}%"></i></div>
+      <p class="dim">Pregunta ${st.i+1} de ${cfg.preguntas.length}</p>
+      ${q.lect ? `<div class="lectura">${q.lect}</div>` : ""}
+      <p class="enunciado">${q.q}</p>
+      <div id="opts">${q.o.map((o,ix)=>{
+        let cls="opt";
+        if(respondida){ if(ix===q.r) cls+=" ok"; else if(ix===st.resp[st.i]) cls+=" bad"; }
+        return `<button class="${cls}" data-ix="${ix}" ${respondida?"disabled":""}><span class="letter">${"ABCD"[ix]})</span><span>${o}</span></button>`;
+      }).join("")}</div>
+      ${respondida ? `<div class="feedback ${st.resp[st.i]===q.r?'ok':'bad'}"><b>${st.resp[st.i]===q.r?'¡Correcto!':'Incorrecto.'}</b> ${q.f}</div>`:""}
+      <button class="repasar-btn ${enRepaso?'saved':''}" id="btn-repasar">${enRepaso?ICO.bookmark+' Guardada para repasar con TutorIA':ICO.bookmark+' Repasar — no le sé, guárdala para TutorIA'}</button>
+      <div class="quiz-nav">
+        <button class="btn ghost" id="q-prev" ${st.i===0?"disabled":""}>← Anterior</button>
+        ${st.i < cfg.preguntas.length-1
+          ? `<button class="btn" id="q-next">Siguiente →</button>`
+          : `<button class="btn green" id="q-fin">Terminar ✔</button>`}
+      </div>
+      <button class="btn ghost" id="q-salir" style="margin-top:10px">✖ Salir del ejercicio</button>
+    </div>`;
+
+    document.querySelectorAll("#opts .opt").forEach(b=>{
+      b.onclick = () => { st.resp[st.i] = +b.dataset.ix; paint(); };
+    });
+    $("#btn-repasar").onclick = () => {
+      const ix = S.repaso.indexOf(q.id);
+      if(ix>=0) S.repaso.splice(ix,1); else S.repaso.push(q.id);
+      paint();
+    };
+    $("#q-prev").onclick = () => { st.i--; paint(); };
+    const nx = $("#q-next"); if(nx) nx.onclick = () => { st.i++; paint(); };
+    const fin = $("#q-fin"); if(fin) fin.onclick = () => {
+      const sinResp = st.resp.filter(r=>r===null).length;
+      modal(`<h2>Terminar y calificar</h2><p class="dim">${sinResp>0?`Tienes ${sinResp} pregunta(s) sin responder.`:"Respondiste todo."}</p>
+        <div class="row2" style="margin-top:14px">
+          <button class="btn ghost" onclick="closeModal()">Revisar</button>
+          <button class="btn green" id="conf-fin">Calificar</button>
+        </div>`);
+      $("#conf-fin").onclick = () => { closeModal(); terminar(false); };
+    };
+    $("#q-salir").onclick = () => confirmSalirQuiz();
+  }
+
+  clearInterval(timerInt);
+  timerInt = setInterval(()=>{
+    st.t--;
+    const el = $("#qtimer");
+    if(el){ el.textContent = "⏱ " + fmt(st.t); if(st.t<=30) el.classList.add("low"); }
+    if(st.t<=0) terminar(true);
+  },1000);
+  paint();
+}
+
+function pickRandom(arr, n){
+  const copy=[...arr], out=[];
+  while(out.length<n && copy.length) out.push(copy.splice(Math.floor(Math.random()*copy.length),1)[0]);
+  return out;
+}
+function clasif(p){ return p>=80?["Fuerte","f"]:p>=50?["Regular","r"]:["Débil","d"]; }
+
+/* ---------------- PANTALLAS ---------------- */
+const SCREENS = {
+
+portada(){
+  render("portada", `
+    <button class="iconbtn theme-btn" onclick="toggleTema()" title="Cambiar tema" style="position:absolute; top:16px; right:16px; z-index:5">${ICO.sun}</button>
+    <div class="hero">
+      <div class="logo-shield" style="color:var(--gold)">${ICO.logo}</div>
+      <h1>ECOEMS <span>QUEST</span></h1>
+      <p class="dim" style="margin-top:6px">Tu aventura rumbo a la prepa que quieres.<br>128 reactivos. 11 materias. Un mapa.</p>
+      <div style="width:100%; margin-top:26px">
+        <button class="btn" onclick="go('registro')">Crear cuenta</button>
+        <button class="btn ghost" onclick="go('login')">Iniciar sesión</button>
+      </div>
+    </div>`, "");
+},
+
+login(){
+  render("login", `
+    <button class="iconbtn" onclick="back()" style="margin-bottom:14px">←</button>
+    <h1>Iniciar sesión</h1>
+    <input class="field" type="email" id="login-email" placeholder="Correo">
+    <input class="field" type="password" id="login-pass" placeholder="Contraseña">
+    <button class="btn" onclick="S.email=$('#login-email').value.trim()||S.email; S.logueado=true; S.pagado ? (historyStack=[],go('home',{replace:true})) : go('pago')">Entrar</button>
+    <p class="dim center" style="margin-top:14px; text-decoration:underline; cursor:pointer" onclick="modal('<h2>Recuperar contraseña</h2><p class=dim>Te llega un correo con un link para crear una nueva contraseña.</p><button class=btn onclick=closeModal()>Entendido</button>')">¿Olvidaste tu contraseña?</p>
+  `, "Iniciar sesión");
+},
+
+registro(){
+  render("registro", `
+    <button class="iconbtn" onclick="back()" style="margin-bottom:14px">←</button>
+    <h1>Crear cuenta</h1>
+    <button class="btn ghost" onclick="modal('<h2>Google</h2><p class=dim>Autoriza tu cuenta de Google para continuar. ✔</p><button class=btn onclick=\\'closeModal(); S.logueado=true; go(&quot;pago&quot;)\\'>Continuar</button>')" style="margin-top:16px">Continuar con Google</button>
+    <div class="dim center" style="margin:14px 0">— o con tu correo —</div>
+    <input class="field" type="email" id="reg-email" placeholder="Correo">
+    <input class="field" type="password" id="reg-pass1" placeholder="Contraseña">
+    <input class="field" type="password" id="reg-pass2" placeholder="Confirmar contraseña">
+    <button class="btn" onclick="S.email=$('#reg-email').value.trim()||S.email; go('verificar')">Crear cuenta</button>
+  `, "Crear cuenta");
+},
+
+verificar(){
+  render("verificar", `
+    <h1>Revisa tu correo 📬</h1>
+    <p class="dim" style="margin-top:8px">Te enviamos un código de 6 dígitos a <b>${S.email||'tu correo'}</b>.</p>
+    <input class="field" id="verif-code" placeholder="000000" style="text-align:center; letter-spacing:8px; font-size:22px; font-weight:800">
+    <button class="btn" onclick="S.logueado=true; go('pago')">Verificar</button>
+    <button class="btn ghost" onclick="modal('<h2>Código reenviado ✔</h2><p class=dim>Espera hasta 60 segundos para pedir uno nuevo.</p><button class=btn onclick=closeModal()>Ok</button>')">Reenviar código</button>
+  `, "Verificación");
+},
+
+pago(){
+  render("pago", `
+    <h1>Elige tu plan</h1>
+    <p class="dim" style="margin-top:6px">Tu plan corre desde hoy. Sin fechas de corte.</p>
+    <div class="plan" onclick="simPago('1 mes','$149')"><div><b>1 mes</b><span class="sub">Para el empujón final</span></div><span class="price">$149</span></div>
+    <div class="plan best" onclick="simPago('6 meses','$549')"><div><b>6 meses ⭐</b><span class="sub">El más elegido</span></div><span class="price">$549</span></div>
+    <div class="plan" onclick="simPago('1 año','$949')"><div><b>1 año</b><span class="sub">Preparación completa</span></div><span class="price">$949</span></div>
+    <button class="btn ghost" onclick="S.logueado=false; historyStack=[]; go('portada',{replace:true})" style="margin-top:20px">Cerrar sesión</button>
+  `, "Suscripción");
+},
+
+home(){
+  const diagCard = !S.diagHecho ? `
+    <div class="card" style="border-color:var(--gold)">
+      <h2><span style="color:var(--gold)">${ICO.diagnostico}</span> Examen diagnóstico</h2>
+      <p class="dim">5 preguntas rápidas para saber de dónde partes. Solo se hace una vez.</p>
+      <div class="row2"><button class="btn small" onclick="startDiag()">Comenzar</button>
+      <button class="btn small ghost" onclick="S.diagHecho=true; go('home',{replace:true})">Omitir</button></div>
+    </div>` : "";
+  const prog = MATERIAS.reduce((a,m)=> a + Object.values(S.mundos[m]).filter(l=>l.mejor>=6).length, 0);
+  render("home", `
+    <h1>¡Hola, aspirante! 👋</h1>
+    <div class="dash-card" onclick="go('perfil')">
+      <span class="dash-flame" style="color:${S.racha.vacaciones?'var(--blue)':'var(--gold)'}">${S.racha.vacaciones?ICO.vacaciones:ICO.fuego}</span>
+      <div class="dash-txt">
+        <b>${S.racha.dias} día${S.racha.dias===1?'':'s'} de racha</b>
+        <span class="dim" style="font-size:12px">${S.racha.vacaciones? "En modo vacaciones" : S.racha.actividadHoy ? "✅ Ya estudiaste hoy" : "⭕ Aún no estudias hoy"}</span>
+      </div>
+      <span class="chev">›</span>
+    </div>
+    <div class="dash-stats">
+      <div class="stat-box"><b>${prog}</b><span>Niveles aprobados</span></div>
+      <div class="stat-box"><b>${S.repaso.length}</b><span>En repaso</span></div>
+      <div class="stat-box"><b>${S.trofeos}</b><span><span style="color:var(--gold)">${ICO.trofeo}</span> Trofeos</span></div>
+    </div>
+    ${diagCard}
+
+    <p class="sec-title">Practica</p>
+    <div class="tile-grid">
+      <div class="tile" onclick="go('mundos')">
+        <div class="tile-ico" style="background:var(--tint-ok); color:var(--green)">${ICO.mundos}</div>
+        <div><b>Mundos</b><span>Mundo por materia, nivel a nivel</span></div>
+      </div>
+      <div class="tile" onclick="go('materias')">
+        <div class="tile-ico" style="background:#263A5E; color:#fff">${ICO.materias}</div>
+        <div><b>Materias</b><span>Ejercicio tipo examen</span></div>
+      </div>
+      <div class="tile" onclick="go('examenIntro')">
+        <div class="tile-ico" style="background:var(--tint-warn); color:var(--gold-deep)">${ICO.examen}</div>
+        <div><b>Examen</b><span>Simulacro cronometrado</span></div>
+      </div>
+      <div class="tile" onclick="go('tutoria')">
+        <div class="tile-ico" style="background:var(--tint-bad); color:var(--red)">${ICO.tutoria}</div>
+        <div><b>TutorIA</b><span>Tu tutor con IA real</span></div>
+      </div>
+    </div>
+
+    <p class="sec-title">Competir</p>
+    <div class="feature-card" onclick="go('competir')">
+      <div class="feature-ico" style="color:#fff">${ICO.trofeo}</div>
+      <div class="mc-txt"><b>Batalla en Aula · Arena · Grupos</b><span class="dim">Reta a tu salón o a todo el país</span></div>
+      <span class="chev">›</span>
+    </div>
+  `, "Inicio");
+},
+
+competir(){
+  render("competir", `
+    <h1><span style="color:var(--gold)">${ICO.trofeo}</span> Competir</h1>
+    <p class="dim">Ideal para hacerlo con tu salón: reta a tus compañeros o compite contra todo el país.</p>
+    <div class="card center" style="margin-top:14px">
+      <div style="font-size:30px">${ligaInfo(S.trofeos).emoji}</div>
+      <h2>Liga ${ligaInfo(S.trofeos).nombre}</h2>
+      <p class="dim"><span style="color:var(--gold)">${ICO.trofeo}</span> ${S.trofeos} trofeos totales</p>
+    </div>
+    <div class="tile-grid" style="margin-top:14px">
+      <div class="tile" onclick="go('brIntro')">
+        <div class="tile-ico" style="background:#4A2C14; color:#fff">${ICO.battleroyale}</div>
+        <div><b>Batalla en Aula</b><span>Compite en tiempo real</span></div>
+      </div>
+      <div class="tile" onclick="go('arena')">
+        <div class="tile-ico" style="background:var(--panel2); color:var(--blue)">${ICO.arena}</div>
+        <div><b>Arena PvP</b><span>Duelos 1v1 · trofeos y liga</span></div>
+      </div>
+      <div class="tile" onclick="go('clanes')">
+        <div class="tile-ico" style="background:var(--tint-ok); color:var(--green)">${ICO.clanes}</div>
+        <div><b>Grupos de Estudio</b><span>${S.clan? "Tu grupo: "+S.clan.nombre : "Estudia con tu salón"}</span></div>
+      </div>
+      <div class="tile" onclick="go('marcador')">
+        <div class="tile-ico" style="background:var(--tint-bad); color:var(--red)">${ICO.marcador}</div>
+        <div><b>Marcador Global</b><span>Tu posición entre todos</span></div>
+      </div>
+    </div>
+  `, "Competir");
+},
+
+/* ---------- BATTLE ROYALE ---------- */
+brIntro(){
+  render("brIntro", `
+    <h1><span style="color:var(--gold)">${ICO.battleroyale}</span> Batalla en Aula</h1>
+    <div class="card">
+      <p><b>En la app real:</b> un anfitrión (puede ser tu profesor) crea la sala, comparte un código, y entre 20 y 50 jugadores se unen desde su celular. Todos ven la misma pregunta al mismo tiempo — gana quien acierta y responde más rápido.</p>
+      <div class="spacer"></div>
+      <p><b class="gold">Sala de práctica:</b> mientras se conecta el modo en vivo, juegas contra 24 participantes (bots) en tiempo real.</p>
+    </div>
+    <button class="btn" onclick="go('brLobby')">Crear/entrar a una sala</button>
+    <button class="btn ghost" onclick="back()">← Regresar</button>
+  `, "Batalla en Aula");
+},
+
+brLobby(){
+  const jugadores = 24;
+  render("brLobby", `
+    <h1 class="center">Sala #KAH-7734</h1>
+    <p class="dim center">Comparte este código con tu salón</p>
+    <div class="card center">
+      <div style="font-size:34px; font-weight:800; letter-spacing:6px; color:var(--gold)">7734</div>
+      <p class="dim" style="margin-top:6px">${jugadores}/50 jugadores conectados</p>
+    </div>
+    <div class="card">
+      <p class="dim" style="font-size:13px">🟢 Tú &nbsp;·&nbsp; 🟢 Fer_23 &nbsp;·&nbsp; 🟢 Maru.exe &nbsp;·&nbsp; 🟢 ElChamo &nbsp;·&nbsp; 🟢 Nayelii &nbsp;·&nbsp; 🟢 Toño_MX &nbsp;·&nbsp; +${jugadores-6} más...</p>
+    </div>
+    <button class="btn green" onclick="startBattleRoyale()">Iniciar partida</button>
+    <button class="btn ghost" onclick="back()">← Salir de la sala</button>
+  `, "Sala de Batalla en Aula");
+},
+
+/* ---------- ARENA PVP ---------- */
+arena(){
+  const info = ligaInfo(S.trofeos);
+  render("arena", `
+    <h1><span style="color:var(--blue)">${ICO.arena}</span> Arena PvP</h1>
+    <div class="card center">
+      <div style="font-size:40px">${info.emoji}</div>
+      <h2>Liga ${info.nombre}</h2>
+      <p class="dim"><span style="color:var(--gold)">${ICO.trofeo}</span> ${S.trofeos} trofeos</p>
+      <div class="progress" style="margin-top:10px"><i style="width:${info.pct}%; background:var(--blue)"></i></div>
+      <p class="dim" style="font-size:12px">${info.next ? `Te faltan ${info.next - S.trofeos} trofeos para ${info.nextNombre}` : "¡Liga máxima!"}</p>
+    </div>
+    <div class="card">
+      <h2>Ligas por trofeos</h2>
+      <div class="mat-row"><span>${medal('bronce')} Bronce</span><span class="dim">0–99</span></div>
+      <div class="mat-row"><span>${medal('plata')} Plata</span><span class="dim">100–249</span></div>
+      <div class="mat-row"><span>${medal('oro')} Oro</span><span class="dim">250–499</span></div>
+      <div class="mat-row"><span>${medal('diamante')} Diamante</span><span class="dim">500+</span></div>
+    </div>
+    <button class="btn" onclick="buscarRival()">Buscar rival</button>
+    <p class="dim center" style="margin-top:8px">Duelo de 5 preguntas (real: 10) · +20 trofeos si ganas, −15 si pierdes</p>
+  `, "Arena PvP");
+},
+
+/* ---------- CLANES ---------- */
+clanes(){
+  if(!S.clan){
+    render("clanes", `
+      <h1><span style="color:var(--green)">${ICO.clanes}</span> Grupos de Estudio</h1>
+      <p class="dim">Grupos de estudio persistentes. Perfectos para un salón completo o un grupo de amigos.</p>
+      <div class="card">
+        <h2>Crear un grupo</h2>
+        <input class="field" id="clan-nombre" placeholder="Nombre del grupo" value="Los Cerebritos 3ºB">
+        <button class="btn small" style="margin-top:10px" onclick="crearClan()">Crear</button>
+      </div>
+      <div class="card">
+        <h2>Unirse con código</h2>
+        <input class="field" id="clan-codigo" placeholder="Código de 6 letras" value="ABC123" style="text-transform:uppercase">
+        <button class="btn small ghost" style="margin-top:10px" onclick="unirseClan()">Unirme</button>
+      </div>
+    `, "Grupos de Estudio");
+    return;
+  }
+  const miembros = S.clan.miembros;
+  render("clanes", `
+    <h1><span style="color:var(--green)">${ICO.clanes}</span> ${S.clan.nombre}</h1>
+    <p class="dim">Código para invitar: <b class="gold">${S.clan.codigo}</b></p>
+    <div class="card center">
+      <div style="font-size:30px">🏅 ${miembros.reduce((a,m)=>a+m.puntos,0)}</div>
+      <p class="dim">puntos del grupo esta semana</p>
+    </div>
+    <div class="card">
+      <h2>Ranking del grupo</h2>
+      ${[...miembros].sort((a,b)=>b.puntos-a.puntos).map((m,i)=>`
+        <div class="mat-row"><span>${rankIco(i)} ${m.nombre}${m.tu?' <span class="badge tag-demo">Tú</span>':''}</span><b>${m.puntos} pts</b></div>
+      `).join("")}
+    </div>
+    <button class="btn ghost" onclick="salirClan()">Salir del grupo</button>
+  `, "Mi grupo");
+},
+
+/* ---------- MARCADOR GLOBAL ---------- */
+marcador(){
+  const miScore = S.trofeos*2 + Object.values(S.mundos).reduce((a,mm)=>a+Object.values(mm).reduce((b,l)=>b+(l.mejor||0),0),0)*8;
+  const bots = GLOBAL_BOTS.map(b=>({...b}));
+  const todos = [...bots, {nombre:"Tú", score:miScore, tu:true}].sort((a,b)=>b.score-a.score);
+  const miPos = todos.findIndex(u=>u.tu) + 1;
+  render("marcador", `
+    <h1><span style="color:var(--red)">${ICO.marcador}</span> Marcador Global</h1>
+    <p class="dim">Combina tu progreso en Mundo de Preguntas + trofeos de Arena. Apodos únicamente — nunca nombres reales.</p>
+    <div class="card center" style="border-color:var(--gold)">
+      <p class="dim">Tu posición</p>
+      <div style="font-size:30px; font-weight:800" class="gold">#${miPos} <span class="dim" style="font-size:15px; font-weight:400">de ${todos.length + 11980} aspirantes</span></div>
+    </div>
+    <div class="card">
+      <h2>Top 10</h2>
+      ${todos.slice(0,10).map((u,i)=>`
+        <div class="mat-row"><span>${rankIco(i)} ${u.nombre}${u.tu?' <span class="badge tag-demo">Tú</span>':''}</span><b>${u.score} pts</b></div>
+      `).join("")}
+    </div>
+  `, "Marcador Global");
+},
+
+mundos(){
+  render("mundos", `
+    <h1>Mundo de <span style="color:var(--gold)">Preguntas</span></h1>
+    <p class="dim">Completa la oración eligiendo la palabra correcta. Sin cronómetro, sin A-B-C-D — solo toca y avanza.</p>
+    <div class="tile-grid" style="margin-top:14px">
+    ${MATERIAS.map(m=>{
+      const niveles = S.mundos[m];
+      const aprobados = Object.values(niveles).filter(l=>l.mejor>=6).length;
+      const pct = Math.round(aprobados/3*100);
+      return `<div class="tile" onclick="go('mapaBasico',{m:'${m}'})">
+        <div class="tile-ico" style="background:var(--panel2); color:var(--gold)">${ICONS[m]}</div>
+        <div><b>${m}</b><span>${aprobados}/3 niveles</span></div>
+        <div class="progress" style="height:8px; margin:0"><i style="width:${pct}%"></i></div>
+      </div>`;
+    }).join("")}
+    </div>
+  `, "Mundo de Preguntas");
+},
+
+mapaBasico({m}){
+  const niveles = S.mundos[m];
+  const filas = [1,2,3].map(n=>{
+    const dat = niveles[n];
+    const prevOk = n===1 || (niveles[n-1] && niveles[n-1].mejor>=6);
+    const desbloqueado = !!prevOk;
+    return `<button class="lvl-row" ${desbloqueado?'':'disabled'} onclick="${desbloqueado?`jugarNivelBasico('${m}',${n})`:''}">
+      <div class="lvl-node ${desbloqueado?'open':'locked'}">${desbloqueado?n:ICO.lock}</div>
+      <div class="lvl-info"><b>Nivel ${n}</b><span class="dim" style="font-size:13px">${desbloqueado?(dat?`Mejor: ${dat.mejor}/10`:'10 preguntas'):'Bloqueado'}</span></div>
+    </button>`;
+  }).join("");
+  render("mapaBasico", `
+    <h1>${ICONS[m]} ${m}</h1>
+    <p class="dim">Aprueba con 6/10 para desbloquear el siguiente nivel. Repite las veces que quieras: se guarda tu mejor puntaje.</p>
+    ${filas}
+  `, m);
+},
+
+materias(){
+  render("materias", `
+    <h1>Materias <span style="color:var(--blue)">${ICO.materias}</span></h1>
+    <p class="dim">Ejercicio tipo examen con opciones A–D, cronometrado por materia.</p>
+    <div class="tile-grid" style="margin-top:14px">
+    ${MATERIAS.map(m=>`<div class="tile" onclick="startMaterias('${m}')">
+      <div class="tile-ico" style="background:var(--panel2); color:var(--gold)">${ICONS[m]}</div>
+      <div><b>${m}</b><span>${byMat(m).length} reactivos</span></div>
+    </div>`).join("")}
+    </div>
+  `, "Materias");
+},
+
+examenIntro(){
+  render("examenIntro", `
+    <h1>Simulador de examen 📝</h1>
+    <div class="card">
+      <p><b>Simulacro:</b> preguntas mezcladas de varias materias, cronometrado, sin pausa — como el día del examen.</p>
+    </div>
+    <button class="btn" onclick="startExamen()">Comenzar simulacro</button>
+    <button class="btn ghost" onclick="back()">← Regresar</button>
+  `, "Examen");
+},
+
+tutoria(){
+  const disponibles = S.msgsMes + S.msgsExtra;
+  render("tutoria", `
+    <div class="chat-box" id="chatbox">
+      ${S.chat.length===0 ? `<div class="msg ia">¡Hola! Soy <b>TutorIA</b> 🤖 y estoy conectado de verdad. Pregúntame cualquier duda de las 11 materias del ECOEMS, o pídeme que te explique tus preguntas guardadas en Repasar (tienes ${S.repaso.length}).</div>`:""}
+      ${S.chat.map(c=>`<div class="msg ${c.role==='user'?'user':'ia'} ${c.err?'err':''}">${c.text}</div>`).join("")}
+    </div>
+    <div class="chat-input-row">
+      <textarea class="field" id="chat-in" placeholder="Escribe tu duda..." maxlength="1500"></textarea>
+      <button class="btn" id="chat-send">➤</button>
+    </div>
+    <p class="counter">Te quedan <b class="gold">${S.msgsMes}/100</b> tokens este mes${S.msgsExtra>0?` + <b class="gold">${S.msgsExtra}</b> extra`:""} · <span style="text-decoration:underline; cursor:pointer" onclick="go('perfil')">Recargar</span></p>
+  `, "TutorIA 🤖");
+  const box = $("#chatbox"); box.scrollTop = box.scrollHeight; window.scrollTo(0, document.body.scrollHeight);
+  $("#chat-send").onclick = enviarTutoria;
+  $("#chat-in").addEventListener("keydown", e=>{ if(e.key==="Enter" && !e.shiftKey){ e.preventDefault(); enviarTutoria(); }});
+},
+
+perfil(){
+  const repasoHTML = S.repaso.length===0 ? `<p class="dim">Aún no guardas preguntas. Usa el botón ${ICO.bookmark} Repasar dentro de los ejercicios.</p>`
+    : S.repaso.map(id=>{ const q = BANK.find(b=>b.id===id);
+      return `<div class="mat-row"><span style="flex:1; font-size:14px">${ICONS[q.m]} ${q.t} <span class="dim">(${q.m})</span></span>
+      <button class="btn small ghost" onclick="preguntarRepaso('${id}')">Preguntar</button></div>`;}).join("");
+  const hist = S.histExamen.length===0 ? `<p class="dim">Sin simulacros todavía.</p>`
+    : S.histExamen.map(h=>`<div class="mat-row"><span>${h.fecha}</span><b>${h.aciertos}/${h.total}</b></div>`).join("");
+  render("perfil", `
+    <h1><span style="color:var(--blue)">${ICO.user}</span> Tu perfil</h1>
+    <div class="card" style="border-color:${S.racha.vacaciones?'var(--blue)':'var(--gold)'}">
+      <h2><span style="color:${S.racha.vacaciones?'var(--blue)':'var(--gold)'}">${S.racha.vacaciones?ICO.vacaciones:ICO.fuego}</span> Racha de estudio</h2>
+      <div class="score-big" style="font-size:40px">${S.racha.dias} <span style="font-size:16px; color:var(--dim)">día${S.racha.dias===1?'':'s'}</span></div>
+      <p class="dim center">Mejor racha: ${S.racha.mejor} días</p>
+      <div class="mat-row"><span><span style="color:var(--blue)">${ICO.congelado}</span> Congelados disponibles</span><b>${S.racha.congelados}/2</b></div>
+      <div class="mat-row"><span>Hoy</span><span class="pill ${S.racha.actividadHoy?'f':S.racha.vacaciones?'r':'d'}">${S.racha.vacaciones?'En vacaciones':S.racha.actividadHoy?'✔ Cumplido':'Pendiente'}</span></div>
+      <div class="row2" style="margin-top:12px">
+        <button class="btn small ${S.racha.vacaciones?'green':'ghost'}" onclick="toggleVacaciones()">${S.racha.vacaciones?'Desactivar':'Activar'} modo vacaciones</button>
+      </div>
+      <p class="dim" style="font-size:12px; margin-top:10px"><span style="color:var(--blue)">${ICO.congelado}</span> Ganas un congelado gratis cada 7 días de racha (nunca se compran). En modo vacaciones tu racha se pausa sin romperse.</p>
+    </div>
+    <div class="card"><h2>Suscripción</h2>
+      <p>Plan: <b class="gold">${S.plan||"—"}</b> · Estado: <b class="green-t">Activa</b></p>
+      <button class="btn small ghost" onclick="modal('<h2>Renovar / cambiar plan</h2><p class=dim>Aquí ves tu fecha de vencimiento, cambias de plan y descargas tus recibos de Stripe.</p><button class=btn onclick=closeModal()>Ok</button>')" style="margin-top:8px">Administrar</button>
+    </div>
+    <div class="card"><h2>Monedero TutorIA</h2>
+      <p>Saldo: <b class="gold">$${S.saldo} MXN</b> · Tokens del mes: <b>${S.msgsMes}/100</b> · Extra: <b>${S.msgsExtra}</b></p>
+      <div class="row2" style="margin-top:10px">
+        <button class="btn small ghost" onclick="S.saldo+=50; go('perfil',{replace:true})">Abonar $50</button>
+        <button class="btn small" onclick="comprarMsgs()">+30 tokens ($9)</button>
+      </div>
+    </div>
+    <div class="card"><h2>${ICO.bookmark} Mi repaso (${S.repaso.length})</h2>${repasoHTML}</div>
+    <div class="card"><h2>Historial de simulacros</h2>${hist}</div>
+    <div class="card"><h2>Cuenta</h2>
+      <p class="dim">${S.email||'Sin correo registrado'}</p>
+      <button class="btn small ghost" style="margin-top:8px" onclick="modal('<h2>¿Cerrar sesión?</h2><div class=row2 style=margin-top:14px><button class=\\'btn ghost\\' onclick=closeModal()>Cancelar</button><button class=btn onclick=\\'closeModal(); historyStack=[]; S.logueado=false; go(&quot;portada&quot;,{replace:true})\\'>Salir</button></div>')">Cerrar sesión</button>
+    </div>
+  `, "Perfil");
+},
+};
+
+/* ---------------- ACCIONES ---------------- */
+function simPago(plan, precio){
+  modal(`<h2>Pago con Stripe 💳</h2><p class="dim">Plan <b>${plan}</b> por <b>${precio} MXN</b>. Pago confirmado. ✔</p>
+  <button class="btn green" onclick="closeModal(); S.pagado=true; S.plan='${plan}'; historyStack=[]; go('home',{replace:true})">Entrar a mi cuenta</button>`);
+}
+
+function startDiag(){
+  const qs = pickRandom(["Matemáticas","Español","Biología","Historia de México","Habilidad Verbal"].map(m=>pickRandom(byMat(m),1)[0]),5);
+  startQuiz({titulo:"Diagnóstico", preguntas:qs, tiempoSeg:300, onFinish:(ac,resp,auto)=>{
+    marcarActividadHoy();
+    S.diagHecho = true;
+    const porMat = qs.map((q,ix)=>({m:q.m, ok:resp[ix]===q.r}));
+    S.diagResultado = porMat;
+    render("res", `
+      <h1 class="center">Diagnóstico listo <span style="color:var(--gold)">${ICO.diagnostico}</span></h1>
+      <div class="score-big">${ac}/5</div>
+      ${auto?'<p class="dim center">(Se acabó el tiempo y se calificó automáticamente)</p>':''}
+      <div class="card">${porMat.map(r=>`<div class="mat-row"><span>${ICONS[r.m]} ${r.m}</span><span class="pill ${r.ok?'f':'d'}">${r.ok?'Bien':'A repasar'}</span></div>`).join("")}</div>
+      <p class="dim center" style="margin-top:10px">Estos resultados ya los conoce TutorIA.</p>
+      <button class="btn" onclick="historyStack=[]; go('home',{replace:true})">Ir al inicio</button>
+    `, "Resultado");
+  }});
+}
+
+/* ---------------- MOTOR DE MUNDO DE PREGUNTAS (sin cronómetro, sin A-D) ---------------- */
+function jugarNivelBasico(m, n){
+  quizActivo = true;
+  const items = pickRandom(byBasico(m, n), 10).map(it => ({...it, op: pickRandom(it.op, it.op.length)}));
+  const st = {i:0, aciertos:0, elegida:null, feedback:null};
+
+  function paint(){
+    const it = items[st.i];
+    const partes = it.o.split("___");
+    screens.innerHTML = `<div class="screen active">
+      <div class="quiz-head">
+        <span class="badge">${m}</span>
+        <span class="badge">Nivel ${n}</span>
+      </div>
+      <div class="progress"><i style="width:${st.i/items.length*100}%"></i></div>
+      <p class="dim center" style="margin-bottom:4px">Pregunta ${st.i+1} de ${items.length}</p>
+      <p class="dim center" style="margin-bottom:10px">${it.ins}</p>
+      <p class="enunciado-basico">${partes[0]}<span class="hueco ${st.feedback?(st.feedback.correcto?'ok':'bad'):''}">${st.elegida||'    '}</span>${partes[1]}</p>
+      <div class="opt-grid" id="basico-opts">${it.op.map(op=>{
+        let cls = "opt";
+        if(st.feedback){
+          if(op===it.r) cls += " ok";
+          else if(op===st.elegida) cls += " bad";
+          else cls += " fade";
+        }
+        return `<button class="${cls}" ${st.feedback?'disabled':''} data-op="${op}">${op}</button>`;
+      }).join("")}</div>
+      ${st.feedback ? `<div class="feedback ${st.feedback.correcto?'ok':'bad'}">
+        <b class="${st.feedback.correcto?'green-t':'red-t'}">${st.feedback.correcto?'¡Correcto! ✔':'Incorrecto ✘'}</b>
+        ${it.f}
+        <button class="btn" id="basico-siguiente">${st.i+1>=items.length?'Ver resultado':'Siguiente →'}</button>
+      </div>` : ""}
+      <button class="btn ghost" id="basico-salir" style="margin-top:14px">✖ Salir</button>
+    </div>`;
+
+    document.querySelectorAll("#basico-opts .opt").forEach(b=>{
+      b.onclick = () => {
+        if(st.feedback) return;
+        st.elegida = b.dataset.op;
+        const correcto = st.elegida === it.r;
+        st.feedback = {correcto};
+        if(correcto) st.aciertos++;
+        paint();
+      };
+    });
+    const sig = $("#basico-siguiente");
+    if(sig) sig.onclick = () => {
+      if(st.i+1 >= items.length) terminar();
+      else { st.i++; st.elegida=null; st.feedback=null; paint(); }
+    };
+    $("#basico-salir").onclick = () => {
+      modal(`<h2>¿Salir del nivel?</h2><p class="dim">Perderás el progreso de este intento.</p>
+        <div class="row2" style="margin-top:14px">
+          <button class="btn ghost" onclick="closeModal()">Seguir</button>
+          <button class="btn" onclick="closeModal(); quizActivo=false; go('mapaBasico',{m:'${m}'})">Salir</button>
+        </div>`);
+    };
+  }
+
+  function terminar(){
+    quizActivo = false;
+    marcarActividadHoy();
+    const aprobado = st.aciertos >= 6;
+    const prev = S.mundos[m][n];
+    S.mundos[m][n] = {mejor: Math.max(st.aciertos, prev?prev.mejor:0)};
+    render("res", `
+      <h1 class="center">${aprobado?"¡Nivel aprobado! 🎉":"Casi... 💪"}</h1>
+      <div class="score-big">${st.aciertos}/10</div>
+      <p class="dim center">${aprobado?"Desbloqueaste el siguiente nivel.":"Necesitas 6/10 para aprobar. Reintenta, no pasa nada."}</p>
+      <div class="row2" style="margin-top:16px">
+        <button class="btn ghost" onclick="jugarNivelBasico('${m}',${n})">Reintentar</button>
+        <button class="btn" onclick="go('mapaBasico',{m:'${m}',replace:true})">Volver al mapa</button>
+      </div>
+    `, "Resultado");
+  }
+
+  paint();
+}
+
+function startMaterias(m){
+  const pool = byMat(m);
+  const qs = pickRandom(pool, Math.min(5, pool.length));
+  const esHab = m.startsWith("Habilidad");
+  startQuiz({titulo:"Ejercicio: "+m, preguntas:qs, tiempoSeg:180, onFinish:(ac,resp,auto)=>{
+    marcarActividadHoy();
+    S.histMaterias.push({m, ac, total:qs.length});
+    const pend = S.repaso.length;
+    render("res", `
+      <h1 class="center">Ejercicio terminado</h1>
+      <div class="score-big">${ac}/${qs.length}</div>
+      ${auto?'<p class="dim center">(Tiempo agotado)</p>':''}
+      <div class="card">${qs.map((q,ix)=>`<div class="mat-row"><span style="flex:1; font-size:14px">${q.t}</span><span class="pill ${resp[ix]===q.r?'f':'d'}">${resp[ix]===q.r?'✔':'✘ '+"ABCD"[q.r]+')'}</span></div>`).join("")}</div>
+      ${pend>0?`<button class="btn ghost" onclick="go('tutoria')">${ICO.bookmark} Ver mis ${pend} pendientes con TutorIA</button>`:""}
+      <div class="row2" style="margin-top:12px">
+        <button class="btn ghost" onclick="startMaterias('${m}')">Otro ejercicio</button>
+        <button class="btn" onclick="go('materias',{replace:true})">Materias</button>
+      </div>
+    `, "Resultado");
+  }});
+}
+
+function startExamen(){
+  const qs = pickRandom(BANK, 8);
+  startQuiz({titulo:"Simulacro", preguntas:qs, tiempoSeg:360, onFinish:(ac,resp,auto)=>{
+    marcarActividadHoy();
+    const mats = {};
+    qs.forEach((q,ix)=>{ if(!mats[q.m]) mats[q.m]={ok:0,tot:0}; mats[q.m].tot++; if(resp[ix]===q.r) mats[q.m].ok++; });
+    const fecha = new Date().toLocaleDateString("es-MX",{day:"numeric",month:"short"});
+    S.histExamen.push({fecha, aciertos:ac, total:8});
+    const filas = Object.entries(mats).map(([m,d])=>{
+      const p = Math.round(d.ok/d.tot*100); const [lbl,cls] = clasif(p);
+      return `<div class="mat-row"><span>${ICONS[m]} ${m}</span><span><b>${d.ok}/${d.tot}</b> <span class="pill ${cls}">${lbl}</span></span></div>`;
+    }).join("");
+    render("res", `
+      <h1 class="center">Resultados del simulacro 📝</h1>
+      <div class="score-big">${ac}/8</div>
+      ${auto?'<p class="dim center">(Tiempo agotado)</p>':''}
+      <div class="card">${filas}</div>
+      <button class="btn ghost" onclick="go('tutoria')">Enviar resultados a TutorIA 🤖</button>
+      <button class="btn" onclick="historyStack=[]; go('home',{replace:true})">Ir al inicio</button>
+    `, "Resultado");
+  }});
+}
+
+function comprarMsgs(){
+  if(S.saldo < 9){ modal('<h2>Saldo insuficiente</h2><p class="dim">Abona saldo a tu monedero primero.</p><button class="btn" onclick="closeModal()">Ok</button>'); return; }
+  S.saldo -= 9; S.msgsExtra += 30;
+  go('perfil',{replace:true});
+}
+
+function preguntarRepaso(id){
+  const q = BANK.find(b=>b.id===id);
+  go('tutoria');
+  setTimeout(()=>{ const inp = $("#chat-in"); if(inp){ inp.value = `Explícame esta pregunta que guardé en repaso: "${q.q}" (materia: ${q.m}, tema: ${q.t}). La respuesta correcta es ${"ABCD"[q.r]}) ${q.o[q.r]}, pero no entiendo por qué.`; inp.focus(); } }, 80);
+}
+
+/* ---------------- BATTLE ROYALE (motor de ronda en vivo simulada) ---------------- */
+function startBattleRoyale(){
+  const NJUG = 24;
+  const qs = pickRandom(BANK, 5);
+  const board = {"Tú":0};
+  BOT_NAMES.slice(0, NJUG-1).forEach(n => board[n]=0);
+  let ronda = 0;
+
+  function jugarRonda(){
+    const q = qs[ronda];
+    let t = 12;
+    render("br", `
+      <div class="quiz-head"><span class="badge">Pregunta ${ronda+1}/${qs.length}</span><span class="timer" id="brtimer">⏱ ${t}</span></div>
+      <div class="progress"><i style="width:${ronda/qs.length*100}%; background:var(--gold)"></i></div>
+      <p class="enunciado">${q.q}</p>
+      <div id="bropts">${q.o.map((o,ix)=>`<button class="opt" data-ix="${ix}"><span class="letter">${"ABCD"[ix]})</span><span>${o}</span></button>`).join("")}</div>
+      <p class="dim center" style="margin-top:10px">¡Responde rápido! La velocidad también cuenta.</p>
+    `, "Batalla en Aula");
+    let respondida = false; const start = Date.now();
+    document.querySelectorAll("#bropts .opt").forEach(b=>{
+      b.onclick = ()=>{
+        if(respondida) return; respondida = true; clearInterval(iv);
+        const ix = +b.dataset.ix; const tomo = (Date.now()-start)/1000;
+        if(ix===q.r){ b.classList.add("ok"); board["Tú"] += Math.round(100 + Math.max(0,12-tomo)*8.3); }
+        else b.classList.add("bad");
+        setTimeout(siguienteFase, 700);
+      };
+    });
+    const iv = setInterval(()=>{ t--; const el=$("#brtimer"); if(el) el.textContent="⏱ "+t; if(t<=0){ clearInterval(iv); if(!respondida){ respondida=true; siguienteFase(); } } },1000);
+  }
+  function siguienteFase(){
+    // bots responden con probabilidad de acierto y velocidad variable
+    Object.keys(board).forEach(n=>{ if(n==="Tú") return;
+      const acierta = Math.random() < 0.55; const tomo = 1 + Math.random()*11;
+      if(acierta) board[n] += Math.round(100 + Math.max(0,12-tomo)*8.3);
+    });
+    ronda++;
+    if(ronda < qs.length){
+      const top5 = Object.entries(board).sort((a,b)=>b[1]-a[1]).slice(0,5);
+      render("br", `
+        <h1 class="center">Posiciones parciales</h1>
+        <div class="card">${top5.map(([n,p],i)=>`<div class="mat-row"><span>${rankIco(i)} ${n}${n==="Tú"?' <span class="badge tag-demo">Tú</span>':''}</span><b class="gold">${p}</b></div>`).join("")}</div>
+        <p class="dim center">Siguiente pregunta en unos segundos...</p>
+      `, "Posiciones");
+      setTimeout(jugarRonda, 1600);
+    } else {
+      const final = Object.entries(board).sort((a,b)=>b[1]-a[1]);
+      const miPos = final.findIndex(([n])=>n==="Tú")+1;
+      marcarActividadHoy();
+      render("res", `
+        <h1 class="center">¡Partida terminada!</h1>
+        <div class="stars-big">${miPos<=3?medal(['oro','plata','bronce'][miPos-1]):'#'+miPos}</div>
+        <p class="center dim">Quedaste en el lugar <b class="gold">#${miPos}</b> de ${final.length}</p>
+        <div class="card"><h2>Podio</h2>${final.slice(0,5).map(([n,p],i)=>`<div class="mat-row"><span>${rankIco(i)} ${n}${n==="Tú"?' <span class="badge tag-demo">Tú</span>':''}</span><b>${p}</b></div>`).join("")}</div>
+        <button class="btn" onclick="historyStack=[]; go('competir',{replace:true})">Volver a Competir</button>
+      `, "Resultado");
+    }
+  }
+  jugarRonda();
+}
+
+/* ---------------- ARENA PVP ---------------- */
+function buscarRival(){
+  modal(`<h2>Buscando rival… 🔍</h2><p class="dim">Emparejando por trofeos similares...</p>`);
+  setTimeout(()=>{
+    closeModal();
+    const rivalTrofeos = S.trofeos + Math.round((Math.random()-0.5)*40);
+    const rival = BOT_NAMES[Math.floor(Math.random()*BOT_NAMES.length)];
+    duelo(rival, Math.max(0,rivalTrofeos));
+  }, 900);
+}
+function duelo(rival, rivalTrofeos){
+  const qs = pickRandom(BANK, 5);
+  startQuiz({titulo:"⚔️ Duelo vs "+rival, preguntas:qs, tiempoSeg:120, onFinish:(ac)=>{
+    marcarActividadHoy();
+    const acRival = Math.min(qs.length, Math.max(0, Math.round(ac + (Math.random()-0.5)*3)));
+    let cambio, resultado;
+    if(ac > acRival){ cambio = 20; resultado = "¡Ganaste! 🎉"; }
+    else if(ac < acRival){ cambio = -15; resultado = "Perdiste 😕"; }
+    else { cambio = 5; resultado = "Empate 🤝"; }
+    S.trofeos = Math.max(0, S.trofeos + cambio);
+    const info = ligaInfo(S.trofeos);
+    render("res", `
+      <h1 class="center">${resultado}</h1>
+      <div class="card center">
+        <div class="mat-row"><span>Tú</span><b>${ac}/${qs.length}</b></div>
+        <div class="mat-row"><span>${rival}</span><b>${acRival}/${qs.length}</b></div>
+      </div>
+      <div class="score-big" style="font-size:34px">${cambio>0?'+':''}${cambio} <span style="color:var(--gold)">${ICO.trofeo}</span></div>
+      <p class="center dim">Ahora tienes ${S.trofeos} trofeos · Liga ${info.emoji} ${info.nombre}</p>
+      <button class="btn" onclick="historyStack=[]; go('arena',{replace:true})">Volver a Arena</button>
+    `, "Resultado del duelo");
+  }});
+}
+
+/* ---------------- CLANES ---------------- */
+function crearClan(){
+  const nombre = $("#clan-nombre").value.trim() || "Mi Grupo";
+  S.clan = { nombre, codigo: Math.random().toString(36).slice(2,8).toUpperCase(),
+    miembros: [
+      {nombre:"Tú", puntos:0, tu:true},
+      ...pickRandom(BOT_NAMES,6).map(n=>({nombre:n, puntos: Math.round(20+Math.random()*180)}))
+    ]};
+  go('clanes', {replace:true});
+}
+function unirseClan(){
+  const codigo = ($("#clan-codigo").value.trim() || "ABC123").toUpperCase();
+  S.clan = { nombre:"Grupo 3ºB — Prepa 8", codigo,
+    miembros: [
+      {nombre:"Tú", puntos:0, tu:true},
+      ...pickRandom(BOT_NAMES,9).map(n=>({nombre:n, puntos: Math.round(20+Math.random()*180)}))
+    ]};
+  go('clanes', {replace:true});
+}
+function salirClan(){
+  modal(`<h2>¿Salir del grupo?</h2><div class="row2" style="margin-top:14px">
+    <button class="btn ghost" onclick="closeModal()">Cancelar</button>
+    <button class="btn" onclick="closeModal(); S.clan=null; go('clanes',{replace:true})">Salir</button>
+  </div>`);
+}
+
+/* ---------------- TUTORIA (API real de Anthropic) ---------------- */
+let enviando = false;
+async function enviarTutoria(){
+  const inp = $("#chat-in");
+  const texto = inp.value.trim();
+  if(!texto || enviando) return;
+  if(S.msgsMes<=0 && S.msgsExtra<=0){
+    modal('<h2>Se acabaron tus tokens 😅</h2><p class="dim">Recarga 30 tokens por $9 desde tu monedero en Perfil.</p><button class="btn" onclick="closeModal(); go(\'perfil\')">Ir a recargar</button>');
+    return;
+  }
+  enviando = true;
+  S.chat.push({role:"user", text:texto});
+  SCREENS.tutoria();
+  S.chat.push({role:"ia", text:"Pensando… 🤔"});
+  SCREENS.tutoria();
+
+  const debiles = S.diagResultado ? S.diagResultado.filter(r=>!r.ok).map(r=>r.m).join(", ") : "aún sin diagnóstico";
+  const repasoTxt = S.repaso.map(id=>{ const q=BANK.find(b=>b.id===id); return `- [${q.m} / ${q.t}] ${q.q} (correcta: ${q.o[q.r]})`; }).join("\n") || "ninguna";
+  const system = `Eres TutorIA, el tutor de ECOEMS Quest: preparas a estudiantes de secundaria (13-15 años) en México para el examen ECOEMS de ingreso a la prepa. Materias: Español, Habilidad Verbal, Matemáticas, Habilidad Matemática, Biología, Física, Química, Historia, Geografía y Formación Cívica y Ética. Explica paso a paso, con lenguaje claro y ejemplos cotidianos mexicanos, en español. Sé breve (máximo ~150 palabras salvo que pidan más). Si preguntan algo fuera de las materias del examen, redirige con amabilidad al estudio. Contexto del alumno — materias a reforzar: ${debiles}. Preguntas que guardó para repasar:\n${repasoTxt}`;
+
+  const historial = S.chat.filter(c=>!c.err && c.text!=="Pensando… 🤔").slice(-10).map(c=>({role: c.role==="user"?"user":"assistant", content: c.text}));
+
+  try{
+    const resp = await fetch("https://api.anthropic.com/v1/messages",{
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({model:"claude-sonnet-4-6", max_tokens:1000, system, messages:historial})
+    });
+    const data = await resp.json();
+    const textoIA = (data.content||[]).filter(b=>b.type==="text").map(b=>b.text).join("\n").trim();
+    S.chat.pop();
+    if(textoIA){
+      S.chat.push({role:"ia", text:textoIA});
+      if(S.msgsMes>0) S.msgsMes--; else S.msgsExtra--;
+    } else {
+      S.chat.push({role:"ia", text:"TutorIA no está disponible en este momento. Intenta de nuevo en unos minutos. (No se descontó tu token.)", err:true});
+    }
+  }catch(e){
+    S.chat.pop();
+    S.chat.push({role:"ia", text:"TutorIA no está disponible en este momento. Intenta de nuevo en unos minutos. (No se descontó tu token.)", err:true});
+  }
+  enviando = false;
+  SCREENS.tutoria();
+}
+
+/* ---------------- TEMA CLARO / OSCURO ---------------- */
+let temaClaro = false;
+function toggleTema(){
+  temaClaro = !temaClaro;
+  document.body.classList.toggle('light', temaClaro);
+  document.querySelectorAll('.theme-btn').forEach(b=>{
+    b.innerHTML = temaClaro ? ICO.moon : ICO.sun;
+    b.title = temaClaro ? 'Cambiar a modo oscuro' : 'Cambiar a modo claro';
+  });
+}
+
+/* ---------------- INICIO ---------------- */
+go("portada",{replace:true});
+</script>
+</body>
+</html>
