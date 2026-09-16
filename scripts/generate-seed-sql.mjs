@@ -31,6 +31,12 @@ async function main() {
 --
 -- Aplícalo DESPUÉS de supabase/migrations/0001_init_schema.sql, pegándolo
 -- completo en el SQL Editor de Supabase.
+--
+-- TRUNCATE borra cualquier reactivo previo (p.ej. el banco de prueba de
+-- 128) antes de cargar este banco completo. CASCADE también borra las
+-- filas de "repaso" que apunten a esos reactivos — no hay problema porque
+-- todavía no hay usuarios reales en producción.
+truncate table public.reactivos restart identity cascade;
 
 insert into public.reactivos
   (id_reactivo, asignatura, subtemario, dificultad, id_texto, texto_lectura, enunciado, opciones, respuesta_correcta, feedback)

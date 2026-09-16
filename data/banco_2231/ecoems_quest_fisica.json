@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "FIS-0001",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 15 m/s durante 8 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "120 m",
+      "B": "135 m",
+      "C": "105 m",
+      "D": "240 m"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 15 × 8 = 120 m."
+  },
+  {
+    "id_reactivo": "FIS-0002",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 50 m/s durante 5 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "300 m",
+      "B": "250 m",
+      "C": "200 m",
+      "D": "500 m"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 50 × 5 = 250 m."
+  },
+  {
+    "id_reactivo": "FIS-0003",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 60 m/s durante 10 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "1200 m",
+      "B": "540 m",
+      "C": "600 m",
+      "D": "660 m"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 60 × 10 = 600 m."
+  },
+  {
+    "id_reactivo": "FIS-0004",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 30 m/s durante 8 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "270 m",
+      "B": "210 m",
+      "C": "480 m",
+      "D": "240 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 30 × 8 = 240 m."
+  },
+  {
+    "id_reactivo": "FIS-0005",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 20 m/s durante 2 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "40 m",
+      "B": "60 m",
+      "C": "20 m",
+      "D": "80 m"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 20 × 2 = 40 m."
+  },
+  {
+    "id_reactivo": "FIS-0006",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 72 m/s durante 9 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "1296 m",
+      "B": "576 m",
+      "C": "720 m",
+      "D": "648 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 72 × 9 = 648 m."
+  },
+  {
+    "id_reactivo": "FIS-0007",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 10 m/s durante 7 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "80 m",
+      "B": "60 m",
+      "C": "140 m",
+      "D": "70 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 10 × 7 = 70 m."
+  },
+  {
+    "id_reactivo": "FIS-0008",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 10 m/s durante 2 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "10 m",
+      "B": "30 m",
+      "C": "20 m",
+      "D": "40 m"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 10 × 2 = 20 m."
+  },
+  {
+    "id_reactivo": "FIS-0009",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 40 m/s durante 9 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "720 m",
+      "B": "320 m",
+      "C": "360 m",
+      "D": "400 m"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 40 × 9 = 360 m."
+  },
+  {
+    "id_reactivo": "FIS-0010",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 90 m/s durante 3 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "540 m",
+      "B": "360 m",
+      "C": "180 m",
+      "D": "270 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 90 × 3 = 270 m."
+  },
+  {
+    "id_reactivo": "FIS-0011",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 60 m/s durante 8 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "420 m",
+      "B": "480 m",
+      "C": "960 m",
+      "D": "540 m"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 60 × 8 = 480 m."
+  },
+  {
+    "id_reactivo": "FIS-0012",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 25 m/s durante 2 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "25 m",
+      "B": "75 m",
+      "C": "100 m",
+      "D": "50 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 25 × 2 = 50 m."
+  },
+  {
+    "id_reactivo": "FIS-0013",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 5 m/s durante 9 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "50 m",
+      "B": "90 m",
+      "C": "40 m",
+      "D": "45 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 5 × 9 = 45 m."
+  },
+  {
+    "id_reactivo": "FIS-0014",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 72 m/s durante 7 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "576 m",
+      "B": "432 m",
+      "C": "1008 m",
+      "D": "504 m"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 72 × 7 = 504 m."
+  },
+  {
+    "id_reactivo": "FIS-0015",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un objeto se mueve con velocidad constante de 90 m/s durante 7 segundos. ¿Qué distancia recorre?",
+    "opciones": {
+      "A": "630 m",
+      "B": "1260 m",
+      "C": "720 m",
+      "D": "540 m"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En movimiento rectilíneo uniforme, distancia = velocidad × tiempo = 90 × 7 = 630 m."
+  },
+  {
+    "id_reactivo": "FIS-0016",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 250 metros en 8 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "2000 m/s",
+      "B": "30.25 m/s",
+      "C": "31.25 m/s",
+      "D": "32.25 m/s"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Velocidad = distancia/tiempo = 250/8 = 31.25 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0017",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 500 metros en 16 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "8000 m/s",
+      "B": "31.25 m/s",
+      "C": "30.25 m/s",
+      "D": "32.25 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Velocidad = distancia/tiempo = 500/16 = 31.25 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0018",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 250 metros en 18 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "4500 m/s",
+      "B": "13.89 m/s",
+      "C": "12.89 m/s",
+      "D": "14.89 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Velocidad = distancia/tiempo = 250/18 = 13.89 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0019",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 400 metros en 20 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "21.0 m/s",
+      "B": "20.0 m/s",
+      "C": "19.0 m/s",
+      "D": "8000 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Velocidad = distancia/tiempo = 400/20 = 20.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0020",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 250 metros en 10 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "2500 m/s",
+      "B": "24.0 m/s",
+      "C": "26.0 m/s",
+      "D": "25.0 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Velocidad = distancia/tiempo = 250/10 = 25.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0021",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 600 metros en 6 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "3600 m/s",
+      "B": "101.0 m/s",
+      "C": "100.0 m/s",
+      "D": "99.0 m/s"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Velocidad = distancia/tiempo = 600/6 = 100.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0022",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 300 metros en 6 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "51.0 m/s",
+      "B": "49.0 m/s",
+      "C": "50.0 m/s",
+      "D": "1800 m/s"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Velocidad = distancia/tiempo = 300/6 = 50.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0023",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 500 metros en 7 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "72.43 m/s",
+      "B": "71.43 m/s",
+      "C": "3500 m/s",
+      "D": "70.43 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Velocidad = distancia/tiempo = 500/7 = 71.43 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0024",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 200 metros en 20 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "9.0 m/s",
+      "B": "4000 m/s",
+      "C": "11.0 m/s",
+      "D": "10.0 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Velocidad = distancia/tiempo = 200/20 = 10.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0025",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 600 metros en 5 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "119.0 m/s",
+      "B": "120.0 m/s",
+      "C": "3000 m/s",
+      "D": "121.0 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Velocidad = distancia/tiempo = 600/5 = 120.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0026",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 400 metros en 18 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "22.22 m/s",
+      "B": "23.22 m/s",
+      "C": "21.22 m/s",
+      "D": "7200 m/s"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Velocidad = distancia/tiempo = 400/18 = 22.22 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0027",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 300 metros en 9 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "34.33 m/s",
+      "B": "2700 m/s",
+      "C": "33.33 m/s",
+      "D": "32.33 m/s"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Velocidad = distancia/tiempo = 300/9 = 33.33 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0028",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 500 metros en 9 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "4500 m/s",
+      "B": "54.56 m/s",
+      "C": "56.56 m/s",
+      "D": "55.56 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Velocidad = distancia/tiempo = 500/9 = 55.56 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0029",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 200 metros en 9 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "21.22 m/s",
+      "B": "1800 m/s",
+      "C": "22.22 m/s",
+      "D": "23.22 m/s"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Velocidad = distancia/tiempo = 200/9 = 22.22 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0030",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (MRU)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un ciclista recorre 150 metros en 10 segundos, a velocidad constante. ¿Cuál es su velocidad?",
+    "opciones": {
+      "A": "1500 m/s",
+      "B": "16.0 m/s",
+      "C": "14.0 m/s",
+      "D": "15.0 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Velocidad = distancia/tiempo = 150/10 = 15.0 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0031",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 2 m/s a 9 m/s en 3 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "3.67 m/s²",
+      "B": "2.83 m/s²",
+      "C": "2.33 m/s²",
+      "D": "1.83 m/s²"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (9-2)/3 = 2.33 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0032",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 8 m/s a 23 m/s en 8 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "2.38 m/s²",
+      "B": "1.38 m/s²",
+      "C": "1.88 m/s²",
+      "D": "3.88 m/s²"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (23-8)/8 = 1.88 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0033",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 2 m/s a 12 m/s en 8 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "1.75 m/s²",
+      "B": "-0.25 m/s²",
+      "C": "0.75 m/s²",
+      "D": "1.25 m/s²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (12-2)/8 = 1.25 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0034",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 0 m/s a 17 m/s en 9 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "2.39 m/s²",
+      "B": "1.89 m/s²",
+      "C": "1.39 m/s²",
+      "D": "-0.61 m/s²"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (17-0)/9 = 1.89 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0035",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 3 m/s a 16 m/s en 7 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "1.36 m/s²",
+      "B": "2.36 m/s²",
+      "C": "2.71 m/s²",
+      "D": "1.86 m/s²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (16-3)/7 = 1.86 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0036",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 2 m/s a 16 m/s en 6 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "2.83 m/s²",
+      "B": "2.33 m/s²",
+      "C": "1.83 m/s²",
+      "D": "3.0 m/s²"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (16-2)/6 = 2.33 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0037",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 8 m/s a 14 m/s en 10 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "0.6 m/s²",
+      "B": "1.1 m/s²",
+      "C": "2.2 m/s²",
+      "D": "0.1 m/s²"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (14-8)/10 = 0.6 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0038",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 4 m/s a 15 m/s en 3 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "6.33 m/s²",
+      "B": "4.17 m/s²",
+      "C": "3.67 m/s²",
+      "D": "3.17 m/s²"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (15-4)/3 = 3.67 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0039",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 1 m/s a 16 m/s en 8 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "2.38 m/s²",
+      "B": "1.38 m/s²",
+      "C": "2.12 m/s²",
+      "D": "1.88 m/s²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (16-1)/8 = 1.88 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0040",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - cinemática (aceleración)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un auto acelera de 10 m/s a 29 m/s en 10 segundos. ¿Cuál es su aceleración?",
+    "opciones": {
+      "A": "3.9 m/s²",
+      "B": "2.4 m/s²",
+      "C": "1.4 m/s²",
+      "D": "1.9 m/s²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Aceleración = (velocidad final - velocidad inicial)/tiempo = (29-10)/10 = 1.9 m/s²."
+  },
+  {
+    "id_reactivo": "FIS-0041",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 8 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "70 m/s",
+      "B": "80 m/s",
+      "C": "90 m/s",
+      "D": "160 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 8 = 80 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0042",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 4 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "30 m/s",
+      "B": "50 m/s",
+      "C": "80 m/s",
+      "D": "40 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 4 = 40 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0043",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 1 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "10 m/s",
+      "B": "20 m/s",
+      "C": "14 m/s",
+      "D": "15 m/s"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 1 = 10 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0044",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 7 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "60 m/s",
+      "B": "80 m/s",
+      "C": "70 m/s",
+      "D": "140 m/s"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 7 = 70 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0045",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 2 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "10 m/s",
+      "B": "40 m/s",
+      "C": "30 m/s",
+      "D": "20 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 2 = 20 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0046",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 9 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "80 m/s",
+      "B": "100 m/s",
+      "C": "180 m/s",
+      "D": "90 m/s"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 9 = 90 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0047",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 6 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "50 m/s",
+      "B": "60 m/s",
+      "C": "120 m/s",
+      "D": "70 m/s"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 6 = 60 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0048",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - caída libre",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto cae libremente desde el reposo durante 3 segundos (usa g = 10 m/s²). ¿Qué velocidad alcanza?",
+    "opciones": {
+      "A": "30 m/s",
+      "B": "20 m/s",
+      "C": "40 m/s",
+      "D": "60 m/s"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En caída libre desde el reposo, v = g × t = 10 × 3 = 30 m/s."
+  },
+  {
+    "id_reactivo": "FIS-0049",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 10 kg a 10 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "110 N",
+      "B": "100 N",
+      "C": "20 N",
+      "D": "90 N"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Segunda ley de Newton: F = m × a = 10 × 10 = 100 N."
+  },
+  {
+    "id_reactivo": "FIS-0050",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 10 kg a 5 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "60 N",
+      "B": "45 N",
+      "C": "15 N",
+      "D": "50 N"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Segunda ley de Newton: F = m × a = 10 × 5 = 50 N."
+  },
+  {
+    "id_reactivo": "FIS-0051",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 2 kg a 6 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "14 N",
+      "B": "8 N",
+      "C": "12 N",
+      "D": "6 N"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Segunda ley de Newton: F = m × a = 2 × 6 = 12 N."
+  },
+  {
+    "id_reactivo": "FIS-0052",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 15 kg a 1 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "15 N",
+      "B": "30 N",
+      "C": "14 N",
+      "D": "16 N"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Segunda ley de Newton: F = m × a = 15 × 1 = 15 N."
+  },
+  {
+    "id_reactivo": "FIS-0053",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 12 kg a 4 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "60 N",
+      "B": "16 N",
+      "C": "44 N",
+      "D": "48 N"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Segunda ley de Newton: F = m × a = 12 × 4 = 48 N."
+  },
+  {
+    "id_reactivo": "FIS-0054",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 3 kg a 5 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "15 N",
+      "B": "10 N",
+      "C": "8 N",
+      "D": "18 N"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Segunda ley de Newton: F = m × a = 3 × 5 = 15 N."
+  },
+  {
+    "id_reactivo": "FIS-0055",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 10 kg a 4 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "40 N",
+      "B": "14 N",
+      "C": "36 N",
+      "D": "50 N"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Segunda ley de Newton: F = m × a = 10 × 4 = 40 N."
+  },
+  {
+    "id_reactivo": "FIS-0056",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 2 kg a 2 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "6 N",
+      "B": "4 N",
+      "C": "2 N",
+      "D": "0 N"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Segunda ley de Newton: F = m × a = 2 × 2 = 4 N."
+  },
+  {
+    "id_reactivo": "FIS-0057",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 4 kg a 1 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "4 N",
+      "B": "8 N",
+      "C": "3 N",
+      "D": "5 N"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Segunda ley de Newton: F = m × a = 4 × 1 = 4 N."
+  },
+  {
+    "id_reactivo": "FIS-0058",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 12 kg a 6 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "66 N",
+      "B": "72 N",
+      "C": "18 N",
+      "D": "84 N"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Segunda ley de Newton: F = m × a = 12 × 6 = 72 N."
+  },
+  {
+    "id_reactivo": "FIS-0059",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 8 kg a 5 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "48 N",
+      "B": "40 N",
+      "C": "13 N",
+      "D": "35 N"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Segunda ley de Newton: F = m × a = 8 × 5 = 40 N."
+  },
+  {
+    "id_reactivo": "FIS-0060",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 3 kg a 2 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "5 N",
+      "B": "6 N",
+      "C": "4 N",
+      "D": "9 N"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Segunda ley de Newton: F = m × a = 3 × 2 = 6 N."
+  },
+  {
+    "id_reactivo": "FIS-0061",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 5 kg a 6 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "11 N",
+      "B": "30 N",
+      "C": "35 N",
+      "D": "24 N"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Segunda ley de Newton: F = m × a = 5 × 6 = 30 N."
+  },
+  {
+    "id_reactivo": "FIS-0062",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 15 kg a 5 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "90 N",
+      "B": "70 N",
+      "C": "75 N",
+      "D": "20 N"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Segunda ley de Newton: F = m × a = 15 × 5 = 75 N."
+  },
+  {
+    "id_reactivo": "FIS-0063",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fuerza se necesita para acelerar un cuerpo de 15 kg a 8 m/s² (según la segunda ley de Newton)?",
+    "opciones": {
+      "A": "112 N",
+      "B": "23 N",
+      "C": "135 N",
+      "D": "120 N"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Segunda ley de Newton: F = m × a = 15 × 8 = 120 N."
+  },
+  {
+    "id_reactivo": "FIS-0064",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 50 N produce una aceleración de 10 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "500 kg",
+      "B": "6.0 kg",
+      "C": "4.0 kg",
+      "D": "5.0 kg"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de F = m×a: m = F/a = 50/10 = 5.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0065",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 40 N produce una aceleración de 2 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "20.0 kg",
+      "B": "80 kg",
+      "C": "21.0 kg",
+      "D": "19.0 kg"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de F = m×a: m = F/a = 40/2 = 20.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0066",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 40 N produce una aceleración de 8 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "4.0 kg",
+      "B": "320 kg",
+      "C": "6.0 kg",
+      "D": "5.0 kg"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de F = m×a: m = F/a = 40/8 = 5.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0067",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 50 N produce una aceleración de 8 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "400 kg",
+      "B": "7.25 kg",
+      "C": "6.25 kg",
+      "D": "5.25 kg"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de F = m×a: m = F/a = 50/8 = 6.25 kg."
+  },
+  {
+    "id_reactivo": "FIS-0068",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 40 N produce una aceleración de 10 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "5.0 kg",
+      "B": "4.0 kg",
+      "C": "400 kg",
+      "D": "3.0 kg"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de F = m×a: m = F/a = 40/10 = 4.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0069",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 100 N produce una aceleración de 4 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "25.0 kg",
+      "B": "400 kg",
+      "C": "24.0 kg",
+      "D": "26.0 kg"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de F = m×a: m = F/a = 100/4 = 25.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0070",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 50 N produce una aceleración de 4 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "12.5 kg",
+      "B": "200 kg",
+      "C": "13.5 kg",
+      "D": "11.5 kg"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de F = m×a: m = F/a = 50/4 = 12.5 kg."
+  },
+  {
+    "id_reactivo": "FIS-0071",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 30 N produce una aceleración de 4 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "8.5 kg",
+      "B": "7.5 kg",
+      "C": "6.5 kg",
+      "D": "120 kg"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de F = m×a: m = F/a = 30/4 = 7.5 kg."
+  },
+  {
+    "id_reactivo": "FIS-0072",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 80 N produce una aceleración de 10 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "9.0 kg",
+      "B": "8.0 kg",
+      "C": "800 kg",
+      "D": "7.0 kg"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de F = m×a: m = F/a = 80/10 = 8.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0073",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 20 N produce una aceleración de 8 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "3.5 kg",
+      "B": "160 kg",
+      "C": "1.5 kg",
+      "D": "2.5 kg"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de F = m×a: m = F/a = 20/8 = 2.5 kg."
+  },
+  {
+    "id_reactivo": "FIS-0074",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 120 N produce una aceleración de 8 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "960 kg",
+      "B": "15.0 kg",
+      "C": "14.0 kg",
+      "D": "16.0 kg"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de F = m×a: m = F/a = 120/8 = 15.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0075",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 60 N produce una aceleración de 4 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "14.0 kg",
+      "B": "15.0 kg",
+      "C": "16.0 kg",
+      "D": "240 kg"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de F = m×a: m = F/a = 60/4 = 15.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0076",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 50 N produce una aceleración de 2 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "25.0 kg",
+      "B": "26.0 kg",
+      "C": "100 kg",
+      "D": "24.0 kg"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de F = m×a: m = F/a = 50/2 = 25.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0077",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 120 N produce una aceleración de 4 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "29.0 kg",
+      "B": "31.0 kg",
+      "C": "30.0 kg",
+      "D": "480 kg"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de F = m×a: m = F/a = 120/4 = 30.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0078",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (F=ma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Si una fuerza de 20 N produce una aceleración de 2 m/s² en un objeto, ¿cuál es su masa?",
+    "opciones": {
+      "A": "40 kg",
+      "B": "11.0 kg",
+      "C": "10.0 kg",
+      "D": "9.0 kg"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de F = m×a: m = F/a = 20/2 = 10.0 kg."
+  },
+  {
+    "id_reactivo": "FIS-0079",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué establece la primera ley de Newton (ley de la inercia)?",
+    "opciones": {
+      "A": "Un cuerpo permanece en reposo o en movimiento rectilíneo uniforme a menos que actúe sobre él una fuerza externa",
+      "B": "La energía no se crea ni se destruye",
+      "C": "La fuerza es igual a la masa por la aceleración",
+      "D": "A toda acción corresponde una reacción de igual magnitud y sentido opuesto"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0080",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué establece la tercera ley de Newton?",
+    "opciones": {
+      "A": "A toda acción corresponde una reacción de igual magnitud y sentido opuesto",
+      "B": "Un cuerpo en reposo permanece en reposo salvo fuerza externa",
+      "C": "La fuerza es directamente proporcional a la masa",
+      "D": "La velocidad es constante si no hay fricción"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0081",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la unidad de fuerza en el Sistema Internacional?",
+    "opciones": {
+      "A": "Watt (W)",
+      "B": "Pascal (Pa)",
+      "C": "Joule (J)",
+      "D": "Newton (N)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0082",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un objeto en reposo sobre una mesa no se mueve porque, según la primera ley de Newton, ¿qué ocurre?",
+    "opciones": {
+      "A": "Las fuerzas que actúan sobre él están equilibradas",
+      "B": "No existe ninguna fuerza actuando sobre el objeto",
+      "C": "El objeto no tiene masa",
+      "D": "La fuerza de fricción es nula"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0083",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué establece la segunda ley de Newton?",
+    "opciones": {
+      "A": "La fuerza siempre es constante en cualquier sistema",
+      "B": "Los cuerpos en reposo permanecen en reposo indefinidamente sin excepción",
+      "C": "La aceleración de un cuerpo es proporcional a la fuerza neta aplicada e inversamente proporcional a su masa",
+      "D": "La energía cinética siempre es mayor que la potencial"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0084",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Cuando una persona salta desde una barca hacia el muelle, la barca se mueve hacia atrás. ¿Qué ley de Newton explica este fenómeno?",
+    "opciones": {
+      "A": "La ley de conservación de la energía",
+      "B": "La primera ley (inercia)",
+      "C": "La tercera ley (acción y reacción)",
+      "D": "La ley de la gravitación universal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0085",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué representa la masa de un objeto en el contexto de las leyes de Newton?",
+    "opciones": {
+      "A": "La velocidad máxima que puede alcanzar",
+      "B": "La resistencia del objeto a cambiar su estado de movimiento (inercia)",
+      "C": "La cantidad de energía que contiene",
+      "D": "El peso del objeto en la Luna"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0086",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un pasajero de auto se inclina hacia adelante cuando el vehículo frena bruscamente. ¿Qué ley explica esto?",
+    "opciones": {
+      "A": "La ley de Coulomb",
+      "B": "La primera ley de Newton (inercia)",
+      "C": "La ley de Ohm",
+      "D": "La tercera ley de Newton"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0087",
+    "asignatura": "Física",
+    "subtemario": "Mecánica - leyes de Newton (conceptos)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la diferencia entre masa y peso?",
+    "opciones": {
+      "A": "Son exactamente lo mismo en cualquier lugar del universo",
+      "B": "La masa es la cantidad de materia de un cuerpo y el peso es la fuerza de gravedad que actúa sobre esa masa",
+      "C": "La masa se mide en Newtons y el peso en kilogramos",
+      "D": "El peso es constante y la masa cambia con la gravedad"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Esta es la definición/aplicación correcta según las leyes del movimiento de Newton."
+  },
+  {
+    "id_reactivo": "FIS-0088",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 4 kg que se mueve a 2 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "12.0 J",
+      "B": "8.0 J",
+      "C": "6.0 J",
+      "D": "7.0 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 4 × 2² = 8.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0089",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 12 kg que se mueve a 5 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "150.0 J",
+      "B": "60 J",
+      "C": "145.0 J",
+      "D": "162.0 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 12 × 5² = 150.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0090",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 12 kg que se mueve a 3 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "36 J",
+      "B": "51.0 J",
+      "C": "66.0 J",
+      "D": "54.0 J"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 12 × 3² = 54.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0091",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 10 kg que se mueve a 4 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "90.0 J",
+      "B": "76.0 J",
+      "C": "80.0 J",
+      "D": "40 J"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 10 × 4² = 80.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0092",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 8 kg que se mueve a 6 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "48 J",
+      "B": "138.0 J",
+      "C": "144.0 J",
+      "D": "152.0 J"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 8 × 6² = 144.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0093",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 4 kg que se mueve a 3 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "15.0 J",
+      "B": "18.0 J",
+      "C": "12 J",
+      "D": "22.0 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 4 × 3² = 18.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0094",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 12 kg que se mueve a 10 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "600.0 J",
+      "B": "120 J",
+      "C": "590.0 J",
+      "D": "612.0 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 12 × 10² = 600.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0095",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 4 kg que se mueve a 8 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "128.0 J",
+      "B": "132.0 J",
+      "C": "32 J",
+      "D": "120.0 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 4 × 8² = 128.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0096",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 4 kg que se mueve a 4 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "32.0 J",
+      "B": "16 J",
+      "C": "28.0 J",
+      "D": "36.0 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 4 × 4² = 32.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0097",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 8 kg que se mueve a 3 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "24 J",
+      "B": "36.0 J",
+      "C": "44.0 J",
+      "D": "33.0 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 8 × 3² = 36.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0098",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 5 kg que se mueve a 8 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "165.0 J",
+      "B": "152.0 J",
+      "C": "40 J",
+      "D": "160.0 J"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 5 × 8² = 160.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0099",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 12 kg que se mueve a 4 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "96.0 J",
+      "B": "108.0 J",
+      "C": "48 J",
+      "D": "92.0 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 12 × 4² = 96.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0100",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 20 kg que se mueve a 10 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "1000.0 J",
+      "B": "200 J",
+      "C": "990.0 J",
+      "D": "1020.0 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 20 × 10² = 1000.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0101",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 2 kg que se mueve a 8 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "16 J",
+      "B": "64.0 J",
+      "C": "66.0 J",
+      "D": "56.0 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 2 × 8² = 64.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0102",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía cinética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía cinética de un objeto de 20 kg que se mueve a 6 m/s (Ec = ½mv²).",
+    "opciones": {
+      "A": "120 J",
+      "B": "354.0 J",
+      "C": "360.0 J",
+      "D": "380.0 J"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ec = ½ × m × v² = 0.5 × 20 × 6² = 360.0 J."
+  },
+  {
+    "id_reactivo": "FIS-0103",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 2 kg situado a 15 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "285 J",
+      "B": "300 J",
+      "C": "30 J",
+      "D": "302 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ep = m × g × h = 2 × 10 × 15 = 300 J."
+  },
+  {
+    "id_reactivo": "FIS-0104",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 2 kg situado a 25 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "500 J",
+      "B": "475 J",
+      "C": "502 J",
+      "D": "50 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ep = m × g × h = 2 × 10 × 25 = 500 J."
+  },
+  {
+    "id_reactivo": "FIS-0105",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 2 kg situado a 20 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "402 J",
+      "B": "380 J",
+      "C": "400 J",
+      "D": "40 J"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ep = m × g × h = 2 × 10 × 20 = 400 J."
+  },
+  {
+    "id_reactivo": "FIS-0106",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 10 kg situado a 2 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "198 J",
+      "B": "210 J",
+      "C": "20 J",
+      "D": "200 J"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ep = m × g × h = 10 × 10 × 2 = 200 J."
+  },
+  {
+    "id_reactivo": "FIS-0107",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 1 kg situado a 15 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "135 J",
+      "B": "151 J",
+      "C": "15 J",
+      "D": "150 J"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ep = m × g × h = 1 × 10 × 15 = 150 J."
+  },
+  {
+    "id_reactivo": "FIS-0108",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 1 kg situado a 5 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "50 J",
+      "B": "51 J",
+      "C": "5 J",
+      "D": "45 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ep = m × g × h = 1 × 10 × 5 = 50 J."
+  },
+  {
+    "id_reactivo": "FIS-0109",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 10 kg situado a 10 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "990 J",
+      "B": "1000 J",
+      "C": "1010 J",
+      "D": "100 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ep = m × g × h = 10 × 10 × 10 = 1000 J."
+  },
+  {
+    "id_reactivo": "FIS-0110",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 3 kg situado a 10 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "30 J",
+      "B": "303 J",
+      "C": "290 J",
+      "D": "300 J"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ep = m × g × h = 3 × 10 × 10 = 300 J."
+  },
+  {
+    "id_reactivo": "FIS-0111",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 3 kg situado a 15 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "450 J",
+      "B": "453 J",
+      "C": "45 J",
+      "D": "435 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ep = m × g × h = 3 × 10 × 15 = 450 J."
+  },
+  {
+    "id_reactivo": "FIS-0112",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 3 kg situado a 5 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "150 J",
+      "B": "153 J",
+      "C": "15 J",
+      "D": "145 J"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ep = m × g × h = 3 × 10 × 5 = 150 J."
+  },
+  {
+    "id_reactivo": "FIS-0113",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 2 kg situado a 2 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "42 J",
+      "B": "4 J",
+      "C": "40 J",
+      "D": "38 J"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ep = m × g × h = 2 × 10 × 2 = 40 J."
+  },
+  {
+    "id_reactivo": "FIS-0114",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 3 kg situado a 25 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "75 J",
+      "B": "750 J",
+      "C": "725 J",
+      "D": "753 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ep = m × g × h = 3 × 10 × 25 = 750 J."
+  },
+  {
+    "id_reactivo": "FIS-0115",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 1 kg situado a 2 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "18 J",
+      "B": "20 J",
+      "C": "2 J",
+      "D": "21 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ep = m × g × h = 1 × 10 × 2 = 20 J."
+  },
+  {
+    "id_reactivo": "FIS-0116",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 2 kg situado a 10 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "20 J",
+      "B": "200 J",
+      "C": "190 J",
+      "D": "202 J"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ep = m × g × h = 2 × 10 × 10 = 200 J."
+  },
+  {
+    "id_reactivo": "FIS-0117",
+    "asignatura": "Física",
+    "subtemario": "Energía - energía potencial",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Calcula la energía potencial gravitacional de un objeto de 10 kg situado a 25 m de altura (usa g = 10 m/s²).",
+    "opciones": {
+      "A": "2475 J",
+      "B": "2510 J",
+      "C": "250 J",
+      "D": "2500 J"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ep = m × g × h = 10 × 10 × 25 = 2500 J."
+  },
+  {
+    "id_reactivo": "FIS-0118",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué establece la ley de la conservación de la energía?",
+    "opciones": {
+      "A": "Solo la energía cinética se conserva",
+      "B": "La energía se pierde con el tiempo",
+      "C": "La energía no se crea ni se destruye, solo se transforma",
+      "D": "La energía siempre aumenta en un sistema cerrado"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0119",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la unidad de energía en el Sistema Internacional?",
+    "opciones": {
+      "A": "Newton (N)",
+      "B": "Watt (W)",
+      "C": "Joule (J)",
+      "D": "Volt (V)"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0120",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de energía posee un objeto en movimiento?",
+    "opciones": {
+      "A": "Energía térmica",
+      "B": "Energía cinética",
+      "C": "Energía potencial",
+      "D": "Energía nuclear"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0121",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de energía posee un objeto por su posición o altura?",
+    "opciones": {
+      "A": "Energía potencial gravitacional",
+      "B": "Energía sonora",
+      "C": "Energía eléctrica",
+      "D": "Energía cinética"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0122",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué transformación de energía ocurre en un panel solar?",
+    "opciones": {
+      "A": "De energía nuclear a energía cinética",
+      "B": "De energía sonora a energía térmica",
+      "C": "De energía eléctrica a energía química",
+      "D": "De energía luminosa (solar) a energía eléctrica"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0123",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué transformación de energía ocurre al frotar las manos?",
+    "opciones": {
+      "A": "De energía sonora a energía potencial",
+      "B": "De energía eléctrica a energía nuclear",
+      "C": "De energía química a energía luminosa",
+      "D": "De energía mecánica a energía térmica (calor)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0124",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la fórmula de la energía cinética?",
+    "opciones": {
+      "A": "Ec = VI",
+      "B": "Ec = ½mv²",
+      "C": "Ec = m/v",
+      "D": "Ec = mgh"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0125",
+    "asignatura": "Física",
+    "subtemario": "Energía - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la fórmula de la energía potencial gravitacional?",
+    "opciones": {
+      "A": "Ep = ½mv²",
+      "B": "Ep = F/m",
+      "C": "Ep = m/a",
+      "D": "Ep = mgh"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Este es un principio fundamental de la física de la energía."
+  },
+  {
+    "id_reactivo": "FIS-0126",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2.5 A y una resistencia de 10 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "12.5 V",
+      "B": "25.0 V",
+      "C": "22.5 V",
+      "D": "35.0 V"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ley de Ohm: V = I × R = 2.5 × 10 = 25.0 V."
+  },
+  {
+    "id_reactivo": "FIS-0127",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 1 A y una resistencia de 20 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "19 V",
+      "B": "40 V",
+      "C": "20 V",
+      "D": "21 V"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ley de Ohm: V = I × R = 1 × 20 = 20 V."
+  },
+  {
+    "id_reactivo": "FIS-0128",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 3 A y una resistencia de 10 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "30 V",
+      "B": "27 V",
+      "C": "40 V",
+      "D": "13 V"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ley de Ohm: V = I × R = 3 × 10 = 30 V."
+  },
+  {
+    "id_reactivo": "FIS-0129",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2.5 A y una resistencia de 4 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "14.0 V",
+      "B": "10.0 V",
+      "C": "6.5 V",
+      "D": "7.5 V"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ley de Ohm: V = I × R = 2.5 × 4 = 10.0 V."
+  },
+  {
+    "id_reactivo": "FIS-0130",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2.5 A y una resistencia de 2 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "2.5 V",
+      "B": "4.5 V",
+      "C": "5.0 V",
+      "D": "7.0 V"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ley de Ohm: V = I × R = 2.5 × 2 = 5.0 V."
+  },
+  {
+    "id_reactivo": "FIS-0131",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 1 A y una resistencia de 5 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "10 V",
+      "B": "4 V",
+      "C": "6 V",
+      "D": "5 V"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Ley de Ohm: V = I × R = 1 × 5 = 5 V."
+  },
+  {
+    "id_reactivo": "FIS-0132",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2 A y una resistencia de 8 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "16 V",
+      "B": "10 V",
+      "C": "24 V",
+      "D": "14 V"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ley de Ohm: V = I × R = 2 × 8 = 16 V."
+  },
+  {
+    "id_reactivo": "FIS-0133",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2 A y una resistencia de 12 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "22 V",
+      "B": "24 V",
+      "C": "36 V",
+      "D": "14 V"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ley de Ohm: V = I × R = 2 × 12 = 24 V."
+  },
+  {
+    "id_reactivo": "FIS-0134",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 3 A y una resistencia de 5 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "15 V",
+      "B": "20 V",
+      "C": "12 V",
+      "D": "8 V"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ley de Ohm: V = I × R = 3 × 5 = 15 V."
+  },
+  {
+    "id_reactivo": "FIS-0135",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 1.5 A y una resistencia de 2 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "3.0 V",
+      "B": "1.5 V",
+      "C": "3.5 V",
+      "D": "5.0 V"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ley de Ohm: V = I × R = 1.5 × 2 = 3.0 V."
+  },
+  {
+    "id_reactivo": "FIS-0136",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 4 A y una resistencia de 10 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "14 V",
+      "B": "50 V",
+      "C": "40 V",
+      "D": "36 V"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ley de Ohm: V = I × R = 4 × 10 = 40 V."
+  },
+  {
+    "id_reactivo": "FIS-0137",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2 A y una resistencia de 10 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "12 V",
+      "B": "20 V",
+      "C": "18 V",
+      "D": "30 V"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ley de Ohm: V = I × R = 2 × 10 = 20 V."
+  },
+  {
+    "id_reactivo": "FIS-0138",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 4 A y una resistencia de 5 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "16 V",
+      "B": "20 V",
+      "C": "9 V",
+      "D": "25 V"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Ley de Ohm: V = I × R = 4 × 5 = 20 V."
+  },
+  {
+    "id_reactivo": "FIS-0139",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 0.5 A y una resistencia de 12 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "6.0 V",
+      "B": "12.5 V",
+      "C": "18.0 V",
+      "D": "5.5 V"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ley de Ohm: V = I × R = 0.5 × 12 = 6.0 V."
+  },
+  {
+    "id_reactivo": "FIS-0140",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 5 A y una resistencia de 5 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "20 V",
+      "B": "10 V",
+      "C": "25 V",
+      "D": "30 V"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ley de Ohm: V = I × R = 5 × 5 = 25 V."
+  },
+  {
+    "id_reactivo": "FIS-0141",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 2.5 A y una resistencia de 5 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "12.5 V",
+      "B": "17.5 V",
+      "C": "7.5 V",
+      "D": "10.0 V"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Ley de Ohm: V = I × R = 2.5 × 5 = 12.5 V."
+  },
+  {
+    "id_reactivo": "FIS-0142",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 0.5 A y una resistencia de 5 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "5.5 V",
+      "B": "2.0 V",
+      "C": "2.5 V",
+      "D": "7.5 V"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ley de Ohm: V = I × R = 0.5 × 5 = 2.5 V."
+  },
+  {
+    "id_reactivo": "FIS-0143",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene una corriente de 5 A y una resistencia de 20 Ω. ¿Cuál es el voltaje (Ley de Ohm)?",
+    "opciones": {
+      "A": "95 V",
+      "B": "25 V",
+      "C": "100 V",
+      "D": "120 V"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Ley de Ohm: V = I × R = 5 × 20 = 100 V."
+  },
+  {
+    "id_reactivo": "FIS-0144",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 60 V y una corriente de 3 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "21.0 Ω",
+      "B": "19.0 Ω",
+      "C": "20.0 Ω",
+      "D": "180 Ω"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de V=IR: R = V/I = 60/3 = 20.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0145",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 24 V y una corriente de 2 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "12.0 Ω",
+      "B": "13.0 Ω",
+      "C": "11.0 Ω",
+      "D": "48 Ω"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de V=IR: R = V/I = 24/2 = 12.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0146",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 24 V y una corriente de 4 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "5.0 Ω",
+      "B": "6.0 Ω",
+      "C": "7.0 Ω",
+      "D": "96 Ω"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de V=IR: R = V/I = 24/4 = 6.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0147",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 120 V y una corriente de 6 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "720 Ω",
+      "B": "20.0 Ω",
+      "C": "19.0 Ω",
+      "D": "21.0 Ω"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de V=IR: R = V/I = 120/6 = 20.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0148",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 12 V y una corriente de 1 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "9.0 Ω",
+      "B": "11.0 Ω",
+      "C": "13.0 Ω",
+      "D": "12.0 Ω"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de V=IR: R = V/I = 12/1 = 12.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0149",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 100 V y una corriente de 4 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "24.0 Ω",
+      "B": "25.0 Ω",
+      "C": "26.0 Ω",
+      "D": "400 Ω"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de V=IR: R = V/I = 100/4 = 25.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0150",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 120 V y una corriente de 4 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "480 Ω",
+      "B": "31.0 Ω",
+      "C": "29.0 Ω",
+      "D": "30.0 Ω"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de V=IR: R = V/I = 120/4 = 30.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0151",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 24 V y una corriente de 3 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "7.0 Ω",
+      "B": "9.0 Ω",
+      "C": "8.0 Ω",
+      "D": "72 Ω"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de V=IR: R = V/I = 24/3 = 8.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0152",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 12 V y una corriente de 4 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "3.0 Ω",
+      "B": "2.0 Ω",
+      "C": "4.0 Ω",
+      "D": "48 Ω"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de V=IR: R = V/I = 12/4 = 3.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0153",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 120 V y una corriente de 1 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "120.0 Ω",
+      "B": "119.0 Ω",
+      "C": "121.0 Ω",
+      "D": "118.0 Ω"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de V=IR: R = V/I = 120/1 = 120.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0154",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 100 V y una corriente de 5 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "19.0 Ω",
+      "B": "21.0 Ω",
+      "C": "20.0 Ω",
+      "D": "500 Ω"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de V=IR: R = V/I = 100/5 = 20.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0155",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 48 V y una corriente de 3 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "17.0 Ω",
+      "B": "15.0 Ω",
+      "C": "16.0 Ω",
+      "D": "144 Ω"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando de V=IR: R = V/I = 48/3 = 16.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0156",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 48 V y una corriente de 1 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "48.0 Ω",
+      "B": "49.0 Ω",
+      "C": "47.0 Ω",
+      "D": "45.0 Ω"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Despejando de V=IR: R = V/I = 48/1 = 48.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0157",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 48 V y una corriente de 4 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "192 Ω",
+      "B": "12.0 Ω",
+      "C": "13.0 Ω",
+      "D": "11.0 Ω"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando de V=IR: R = V/I = 48/4 = 12.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0158",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 100 V y una corriente de 3 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "34.33 Ω",
+      "B": "32.33 Ω",
+      "C": "300 Ω",
+      "D": "33.33 Ω"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de V=IR: R = V/I = 100/3 = 33.33 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0159",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 100 V y una corriente de 6 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "15.67 Ω",
+      "B": "17.67 Ω",
+      "C": "600 Ω",
+      "D": "16.67 Ω"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de V=IR: R = V/I = 100/6 = 16.67 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0160",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - ley de Ohm",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un circuito tiene un voltaje de 100 V y una corriente de 2 A. ¿Cuál es su resistencia?",
+    "opciones": {
+      "A": "200 Ω",
+      "B": "51.0 Ω",
+      "C": "49.0 Ω",
+      "D": "50.0 Ω"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando de V=IR: R = V/I = 100/2 = 50.0 Ω."
+  },
+  {
+    "id_reactivo": "FIS-0161",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 220 V y una corriente de 3 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "657 W",
+      "B": "660 W",
+      "C": "73.33 W",
+      "D": "880 W"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Potencia eléctrica: P = V × I = 220 × 3 = 660 W."
+  },
+  {
+    "id_reactivo": "FIS-0162",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 110 V y una corriente de 2 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "55.0 W",
+      "B": "218 W",
+      "C": "220 W",
+      "D": "330 W"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Potencia eléctrica: P = V × I = 110 × 2 = 220 W."
+  },
+  {
+    "id_reactivo": "FIS-0163",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 220 V y una corriente de 1 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "220 W",
+      "B": "440 W",
+      "C": "217 W",
+      "D": "219 W"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Potencia eléctrica: P = V × I = 220 × 1 = 220 W."
+  },
+  {
+    "id_reactivo": "FIS-0164",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 220 V y una corriente de 2 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "660 W",
+      "B": "110.0 W",
+      "C": "438 W",
+      "D": "440 W"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Potencia eléctrica: P = V × I = 220 × 2 = 440 W."
+  },
+  {
+    "id_reactivo": "FIS-0165",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 120 V y una corriente de 3 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "357 W",
+      "B": "360 W",
+      "C": "480 W",
+      "D": "40.0 W"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Potencia eléctrica: P = V × I = 120 × 3 = 360 W."
+  },
+  {
+    "id_reactivo": "FIS-0166",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 220 V y una corriente de 0.5 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "110.0 W",
+      "B": "330.0 W",
+      "C": "440.0 W",
+      "D": "109.5 W"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Potencia eléctrica: P = V × I = 220 × 0.5 = 110.0 W."
+  },
+  {
+    "id_reactivo": "FIS-0167",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 120 V y una corriente de 1 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "117 W",
+      "B": "120 W",
+      "C": "119 W",
+      "D": "240 W"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Potencia eléctrica: P = V × I = 120 × 1 = 120 W."
+  },
+  {
+    "id_reactivo": "FIS-0168",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - potencia eléctrica",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un aparato eléctrico funciona con 120 V y una corriente de 5 A. ¿Cuál es su potencia?",
+    "opciones": {
+      "A": "24.0 W",
+      "B": "595 W",
+      "C": "600 W",
+      "D": "720 W"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Potencia eléctrica: P = V × I = 120 × 5 = 600 W."
+  },
+  {
+    "id_reactivo": "FIS-0169",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de carga eléctrica tiene el electrón?",
+    "opciones": {
+      "A": "No tiene carga",
+      "B": "Carga negativa",
+      "C": "Carga positiva",
+      "D": "Carga neutra"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0170",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la unidad de resistencia eléctrica?",
+    "opciones": {
+      "A": "Ohm (Ω)",
+      "B": "Watt (W)",
+      "C": "Ampere (A)",
+      "D": "Volt (V)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0171",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué materiales permiten el paso fácil de la corriente eléctrica?",
+    "opciones": {
+      "A": "Los gases nobles",
+      "B": "Los conductores, como el cobre",
+      "C": "Los aislantes, como el hule",
+      "D": "El vidrio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0172",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fenómeno describe la atracción o repulsión entre cargas eléctricas?",
+    "opciones": {
+      "A": "La ley de Coulomb",
+      "B": "La ley de Ohm",
+      "C": "La ley de la gravitación universal",
+      "D": "La primera ley de Newton"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0173",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un circuito en serie?",
+    "opciones": {
+      "A": "Un circuito donde los componentes están conectados uno después de otro, formando un solo camino para la corriente",
+      "B": "Un tipo de imán permanente",
+      "C": "Un circuito que no permite el paso de corriente",
+      "D": "Un circuito donde cada componente tiene su propio camino independiente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0174",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un circuito en paralelo?",
+    "opciones": {
+      "A": "Un dispositivo para medir voltaje",
+      "B": "Un circuito sin resistencia",
+      "C": "Un circuito donde los componentes están conectados en ramas separadas, cada una con su propio camino para la corriente",
+      "D": "Un circuito con un solo camino para toda la corriente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0175",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento se usa para medir la corriente eléctrica?",
+    "opciones": {
+      "A": "El amperímetro",
+      "B": "El voltímetro",
+      "C": "El termómetro",
+      "D": "El barómetro"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0176",
+    "asignatura": "Física",
+    "subtemario": "Electricidad - conceptos generales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento se usa para medir el voltaje?",
+    "opciones": {
+      "A": "El higrómetro",
+      "B": "El manómetro",
+      "C": "El voltímetro",
+      "D": "El amperímetro"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Este es un concepto fundamental de electricidad estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0177",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una onda mecánica?",
+    "opciones": {
+      "A": "Un tipo de energía nuclear",
+      "B": "Una perturbación que se propaga a través de un medio material",
+      "C": "Una onda que viaja en el vacío sin necesitar medio",
+      "D": "Una fuerza gravitacional"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0178",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la unidad de frecuencia de una onda?",
+    "opciones": {
+      "A": "Segundo (s)",
+      "B": "Newton (N)",
+      "C": "Hertz (Hz)",
+      "D": "Metro (m)"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0179",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué relación existe entre longitud de onda y frecuencia (a velocidad constante)?",
+    "opciones": {
+      "A": "Son directamente proporcionales siempre",
+      "B": "No tienen relación",
+      "C": "Son siempre iguales",
+      "D": "Son inversamente proporcionales"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0180",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de onda es el sonido?",
+    "opciones": {
+      "A": "Una onda electromagnética",
+      "B": "Una onda mecánica longitudinal",
+      "C": "Una onda transversal en el vacío",
+      "D": "Una partícula"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0181",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de onda es la luz visible?",
+    "opciones": {
+      "A": "Una onda electromagnética",
+      "B": "Un sonido de alta frecuencia",
+      "C": "Una vibración del aire",
+      "D": "Una onda mecánica"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0182",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica de una onda determina su volumen (en el sonido)?",
+    "opciones": {
+      "A": "La frecuencia únicamente",
+      "B": "El color",
+      "C": "La amplitud",
+      "D": "La longitud de onda únicamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0183",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica de una onda sonora determina el tono (agudo o grave)?",
+    "opciones": {
+      "A": "La frecuencia",
+      "B": "El medio de propagación",
+      "C": "La velocidad de propagación",
+      "D": "La amplitud"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0184",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué medio viaja más rápido el sonido: en el aire o en el agua?",
+    "opciones": {
+      "A": "En el agua",
+      "B": "El sonido no viaja en el agua",
+      "C": "En el aire",
+      "D": "Viaja igual en ambos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0185",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Puede el sonido propagarse en el vacío?",
+    "opciones": {
+      "A": "No, el sonido necesita un medio material para propagarse",
+      "B": "Solo de noche",
+      "C": "Sí, el sonido viaja igual que la luz en el vacío",
+      "D": "Solo si la frecuencia es muy alta"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0186",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el eco?",
+    "opciones": {
+      "A": "La refracción de la luz en el agua",
+      "B": "La absorción total del sonido",
+      "C": "La reflexión de una onda sonora al chocar con una superficie",
+      "D": "Un tipo de onda electromagnética"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0187",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué parte del espectro electromagnético corresponde a la luz que podemos ver?",
+    "opciones": {
+      "A": "Los rayos gamma exclusivamente",
+      "B": "El espectro visible",
+      "C": "Los rayos X exclusivamente",
+      "D": "Las ondas de radio exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0188",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los rayos ultravioleta en relación con la luz visible?",
+    "opciones": {
+      "A": "Un tipo de onda mecánica",
+      "B": "Ondas sonoras de baja frecuencia",
+      "C": "Ondas electromagnéticas de mayor frecuencia y menor longitud de onda que la luz visible",
+      "D": "Partículas subatómicas cargadas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0189",
+    "asignatura": "Física",
+    "subtemario": "Ondas - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué unidad se usa para medir la longitud de onda?",
+    "opciones": {
+      "A": "El segundo (s)",
+      "B": "El Hertz (Hz)",
+      "C": "El metro (m)",
+      "D": "El Newton (N)"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre el comportamiento de las ondas mecánicas y electromagnéticas."
+  },
+  {
+    "id_reactivo": "FIS-0190",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué polos magnéticos se atraen entre sí?",
+    "opciones": {
+      "A": "Ningún polo se atrae",
+      "B": "Solo los polos sur se atraen",
+      "C": "Polos opuestos (norte con sur)",
+      "D": "Polos iguales (norte con norte)"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0191",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento se usa para detectar campos magnéticos y orientarse?",
+    "opciones": {
+      "A": "El barómetro",
+      "B": "El voltímetro",
+      "C": "El termómetro",
+      "D": "La brújula"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0192",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fenómeno ocurre cuando una corriente eléctrica pasa por un cable y genera un campo magnético?",
+    "opciones": {
+      "A": "Electromagnetismo",
+      "B": "Radiactividad",
+      "C": "Fotosíntesis",
+      "D": "Conducción térmica"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0193",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué material es fuertemente atraído por los imanes?",
+    "opciones": {
+      "A": "El vidrio",
+      "B": "El plástico",
+      "C": "La madera",
+      "D": "El hierro"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0194",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué genera el núcleo terrestre y produce el campo magnético de la Tierra?",
+    "opciones": {
+      "A": "El movimiento del hierro fundido en el núcleo externo",
+      "B": "La rotación de la Luna",
+      "C": "La radiación solar",
+      "D": "Las corrientes marinas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0195",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién formuló las ecuaciones que unifican electricidad y magnetismo?",
+    "opciones": {
+      "A": "Albert Einstein",
+      "B": "Galileo Galilei",
+      "C": "Isaac Newton",
+      "D": "James Clerk Maxwell"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0196",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ocurre si se corta un imán por la mitad?",
+    "opciones": {
+      "A": "Solo queda un polo norte",
+      "B": "Se pierde el magnetismo por completo",
+      "C": "Se convierte en un conductor eléctrico",
+      "D": "Se forman dos imanes nuevos, cada uno con su propio polo norte y sur"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0197",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se llama la región alrededor de un imán donde se manifiesta su fuerza magnética?",
+    "opciones": {
+      "A": "Campo magnético",
+      "B": "Campo eléctrico",
+      "C": "Campo gravitacional",
+      "D": "Zona de inercia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0198",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dispositivo convierte energía eléctrica en movimiento usando electromagnetismo?",
+    "opciones": {
+      "A": "El termómetro",
+      "B": "El panel solar",
+      "C": "El generador eólico exclusivamente",
+      "D": "El motor eléctrico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0199",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dispositivo convierte energía mecánica en energía eléctrica usando principios electromagnéticos?",
+    "opciones": {
+      "A": "El motor de combustión",
+      "B": "El generador eléctrico",
+      "C": "La brújula",
+      "D": "El transformador de temperatura"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "FIS-0200",
+    "asignatura": "Física",
+    "subtemario": "Magnetismo - conceptos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué polos magnéticos se repelen entre sí?",
+    "opciones": {
+      "A": "Ningún polo se repele",
+      "B": "Solo los polos sur se repelen",
+      "C": "Polos opuestos (norte con sur)",
+      "D": "Polos iguales (norte con norte, o sur con sur)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de electromagnetismo estudiado a nivel secundaria/bachillerato."
+  }
+]

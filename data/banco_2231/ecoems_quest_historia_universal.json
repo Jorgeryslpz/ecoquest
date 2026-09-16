@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "HUN-0001",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región se desarrolló la civilización mesopotámica, considerada una de las cunas de la civilización?",
+    "opciones": {
+      "A": "En la meseta del Tíbet",
+      "B": "Entre los ríos Tigris y Éufrates (actual Irak)",
+      "C": "Entre el río Nilo y el mar Rojo",
+      "D": "En la península itálica"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0002",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué río fue fundamental para el desarrollo de la civilización del antiguo Egipto?",
+    "opciones": {
+      "A": "El río Indo",
+      "B": "El río Tigris",
+      "C": "El río Nilo",
+      "D": "El río Éufrates"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0003",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema de escritura desarrollaron los antiguos egipcios, basado en símbolos pictóricos?",
+    "opciones": {
+      "A": "El alfabeto latino",
+      "B": "Los jeroglíficos",
+      "C": "La escritura cuneiforme",
+      "D": "El alfabeto fenicio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0004",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema de escritura desarrollaron los sumerios en Mesopotamia, considerado uno de los más antiguos del mundo?",
+    "opciones": {
+      "A": "El alfabeto fenicio",
+      "B": "La escritura cuneiforme",
+      "C": "El alfabeto griego",
+      "D": "Los jeroglíficos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0005",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué gobernante egipcio es conocido por ordenar la construcción de la Gran Pirámide de Guiza?",
+    "opciones": {
+      "A": "Akenatón",
+      "B": "Ramsés II",
+      "C": "Keops (Jufu)",
+      "D": "Tutankamón"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0006",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antiguo código de leyes, atribuido al rey babilónico Hammurabi, es uno de los primeros conjuntos de leyes escritas conocidos?",
+    "opciones": {
+      "A": "La Ley de las XII Tablas",
+      "B": "El Código de Manu",
+      "C": "El Código de Hammurabi",
+      "D": "Las Doce Tablas romanas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0007",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué civilización antigua desarrolló la democracia como forma de gobierno en la ciudad de Atenas?",
+    "opciones": {
+      "A": "La antigua Grecia",
+      "B": "El Imperio persa",
+      "C": "El Imperio romano",
+      "D": "El antiguo Egipto"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0008",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué filósofo griego, maestro de Platón, es conocido por el método socrático de preguntas y respuestas?",
+    "opciones": {
+      "A": "Pitágoras",
+      "B": "Aristóteles",
+      "C": "Heráclito",
+      "D": "Sócrates"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0009",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué filósofo griego, discípulo de Sócrates, fundó la Academia de Atenas?",
+    "opciones": {
+      "A": "Aristóteles",
+      "B": "Sócrates",
+      "C": "Platón",
+      "D": "Tales de Mileto"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0010",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué filósofo griego, discípulo de Platón, fue tutor de Alejandro Magno?",
+    "opciones": {
+      "A": "Epicuro",
+      "B": "Sócrates",
+      "C": "Aristóteles",
+      "D": "Platón"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0011",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué rey macedonio conquistó un vasto imperio que se extendió desde Grecia hasta la India?",
+    "opciones": {
+      "A": "Alejandro Magno",
+      "B": "Darío I",
+      "C": "Ciro el Grande",
+      "D": "Julio César"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0012",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antigua ciudad-estado griega era conocida por su rígida organización militar y disciplina espartana?",
+    "opciones": {
+      "A": "Atenas",
+      "B": "Corinto",
+      "C": "Tebas",
+      "D": "Esparta"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0013",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué guerra enfrentó a las ciudades-estado griegas contra el Imperio persa en el siglo V a.C.?",
+    "opciones": {
+      "A": "La Guerra del Peloponeso",
+      "B": "La Guerra de Troya (de carácter legendario, no histórica confirmada)",
+      "C": "Las Guerras Médicas",
+      "D": "Las Guerras Púnicas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0014",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto enfrentó a Atenas y Esparta por el dominio de Grecia?",
+    "opciones": {
+      "A": "Las Guerras Médicas",
+      "B": "Las Guerras Púnicas",
+      "C": "La Guerra del Peloponeso",
+      "D": "La Guerra de las Galias"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0015",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año se fundó tradicionalmente la ciudad de Roma, según la leyenda de Rómulo y Remo?",
+    "opciones": {
+      "A": "476 d.C.",
+      "B": "753 a.C.",
+      "C": "509 a.C.",
+      "D": "27 a.C."
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0016",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año cayó el Imperio Romano de Occidente, marcando tradicionalmente el fin de la Edad Antigua?",
+    "opciones": {
+      "A": "27 a.C.",
+      "B": "476 d.C.",
+      "C": "1453 d.C.",
+      "D": "753 a.C."
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0017",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién fue el primer emperador de Roma, tras el fin de la República Romana?",
+    "opciones": {
+      "A": "Julio César",
+      "B": "Augusto (Octavio)",
+      "C": "Nerón",
+      "D": "Constantino"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0018",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué guerras enfrentaron a Roma contra Cartago por el dominio del Mediterráneo?",
+    "opciones": {
+      "A": "Las Guerras Púnicas",
+      "B": "Las Cruzadas",
+      "C": "La Guerra del Peloponeso",
+      "D": "Las Guerras Médicas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0019",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué general cartaginés es famoso por cruzar los Alpes con elefantes para atacar a Roma?",
+    "opciones": {
+      "A": "Julio César",
+      "B": "Aníbal",
+      "C": "Alejandro Magno",
+      "D": "Escipión"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0020",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué emperador romano convirtió al cristianismo en religión tolerada mediante el Edicto de Milán en el año 313?",
+    "opciones": {
+      "A": "Augusto",
+      "B": "Nerón",
+      "C": "Constantino",
+      "D": "Justiniano"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0021",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema político y legal es uno de los grandes legados del Imperio Romano a la civilización occidental?",
+    "opciones": {
+      "A": "El sistema feudal",
+      "B": "El código de Hammurabi",
+      "C": "La democracia directa ateniense",
+      "D": "El derecho romano"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0022",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué obra de infraestructura es característica de la ingeniería romana, usada para transportar agua a las ciudades?",
+    "opciones": {
+      "A": "Las murallas chinas",
+      "B": "Los acueductos",
+      "C": "Las pirámides",
+      "D": "Los zigurats"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0023",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antiguo pueblo semita desarrolló uno de los primeros alfabetos fonéticos, base de muchos alfabetos posteriores, incluido el griego?",
+    "opciones": {
+      "A": "Los fenicios",
+      "B": "Los sumerios",
+      "C": "Los persas",
+      "D": "Los egipcios"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0024",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antigua civilización asiática desarrolló uno de los primeros sistemas de escritura, en el valle del río Indo?",
+    "opciones": {
+      "A": "La civilización persa",
+      "B": "La civilización china antigua",
+      "C": "La civilización mesopotámica",
+      "D": "La civilización del valle del Indo (Harappa y Mohenjo-Daro)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0025",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dinastía o gobernante unificó por primera vez China, construyendo gran parte de la Gran Muralla y siendo enterrado con el famoso Ejército de Terracota?",
+    "opciones": {
+      "A": "Confucio",
+      "B": "El emperador Han Wudi",
+      "C": "Genghis Khan",
+      "D": "El emperador Qin Shi Huang"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0026",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué filósofo chino, cuyas enseñanzas éticas y sociales influyeron profundamente en la cultura del este de Asia, vivió en el siglo VI a.C.?",
+    "opciones": {
+      "A": "Lao Tse exclusivamente por otra corriente (taoísmo)",
+      "B": "Buda",
+      "C": "Sun Tzu",
+      "D": "Confucio"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0027",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué príncipe indio, tras alcanzar la iluminación, fundó el budismo?",
+    "opciones": {
+      "A": "Ashoka",
+      "B": "Siddharta Gautama (Buda)",
+      "C": "Confucio",
+      "D": "Mahavira exclusivamente (fundador del jainismo)"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0028",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antiguo imperio persa, gobernado por Darío I y Jerjes I, se enfrentó a los griegos en las Guerras Médicas?",
+    "opciones": {
+      "A": "El Imperio asirio",
+      "B": "El Imperio otomano",
+      "C": "El Imperio babilónico",
+      "D": "El Imperio aqueménida (Imperio persa)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0029",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué civilización antigua construyó los zigurats, grandes estructuras piramidales escalonadas usadas como templos?",
+    "opciones": {
+      "A": "Los egipcios",
+      "B": "Los romanos",
+      "C": "Los griegos",
+      "D": "Los sumerios (y otras culturas mesopotámicas)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0030",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué faraón egipcio es famoso por su tumba casi intacta descubierta en 1922, a pesar de haber muerto joven y sin grandes logros militares?",
+    "opciones": {
+      "A": "Keops",
+      "B": "Akenatón",
+      "C": "Tutankamón",
+      "D": "Ramsés II"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0031",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué faraón egipcio es conocido por sus extensas conquistas militares y por la gran cantidad de monumentos construidos durante su largo reinado?",
+    "opciones": {
+      "A": "Akenatón",
+      "B": "Keops",
+      "C": "Tutankamón",
+      "D": "Ramsés II"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0032",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reina egipcia, de la dinastía ptolemaica, es conocida por sus alianzas con Julio César y Marco Antonio?",
+    "opciones": {
+      "A": "Nefertiti",
+      "B": "Hatshepsut",
+      "C": "Nefertari",
+      "D": "Cleopatra VII"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0033",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué general y político romano cruzó el río Rubicón en el año 49 a.C., desencadenando una guerra civil que terminó con el fin de la República Romana?",
+    "opciones": {
+      "A": "Augusto",
+      "B": "Pompeyo",
+      "C": "Julio César",
+      "D": "Marco Antonio"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0034",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué forma de gobierno tuvo Roma antes de convertirse en Imperio, caracterizada por magistrados electos y un Senado?",
+    "opciones": {
+      "A": "Una teocracia",
+      "B": "El Imperio Romano exclusivamente desde su fundación",
+      "C": "La República Romana",
+      "D": "La monarquía romana exclusivamente durante todo su periodo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0035",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento del año 79 d.C. destruyó las ciudades romanas de Pompeya y Herculano?",
+    "opciones": {
+      "A": "Un terremoto en Roma",
+      "B": "La invasión de los bárbaros",
+      "C": "Un incendio provocado por Nerón",
+      "D": "La erupción del volcán Vesubio"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0036",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué pueblos, conocidos como 'bárbaros' por los romanos, contribuyeron a la caída del Imperio Romano de Occidente mediante sucesivas invasiones?",
+    "opciones": {
+      "A": "Los pueblos germánicos (visigodos, vándalos, hunos, entre otros)",
+      "B": "Los persas",
+      "C": "Los egipcios",
+      "D": "Los fenicios"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0037",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antigua civilización mediterránea, con centro en la isla de Creta, es considerada precursora de la civilización griega clásica?",
+    "opciones": {
+      "A": "La civilización minoica",
+      "B": "La civilización micénica exclusivamente sin relación",
+      "C": "La civilización fenicia",
+      "D": "La civilización etrusca"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0038",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué poeta griego es tradicionalmente considerado autor de la Ilíada y la Odisea, obras fundamentales de la literatura occidental?",
+    "opciones": {
+      "A": "Virgilio (autor romano, no griego)",
+      "B": "Hesíodo",
+      "C": "Sófocles",
+      "D": "Homero"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0039",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué matemático griego es conocido por el teorema geométrico que relaciona los lados de un triángulo rectángulo?",
+    "opciones": {
+      "A": "Pitágoras",
+      "B": "Euclides",
+      "C": "Tales de Mileto",
+      "D": "Arquímedes"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0040",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué científico e inventor griego de la antigüedad es conocido por sus descubrimientos en física (como el principio de flotación) y sus inventos mecánicos?",
+    "opciones": {
+      "A": "Hipócrates",
+      "B": "Arquímedes",
+      "C": "Pitágoras",
+      "D": "Euclides"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0041",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿A qué imperio antiguo se le atribuye la construcción de los Jardines Colgantes de Babilonia, una de las Siete Maravillas del Mundo Antiguo?",
+    "opciones": {
+      "A": "El Imperio romano",
+      "B": "El Imperio egipcio",
+      "C": "El Imperio persa",
+      "D": "El Imperio babilónico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0042",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura egipcia, construida como tumba monumental y considerada de las Siete Maravillas del Mundo Antiguo, aún se conserva casi intacta?",
+    "opciones": {
+      "A": "Los Jardines Colgantes de Babilonia",
+      "B": "El Coloso de Rodas",
+      "C": "El Faro de Alejandría",
+      "D": "La Gran Pirámide de Guiza"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0043",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso de momificación practicaban los antiguos egipcios, relacionado con sus creencias sobre la vida después de la muerte?",
+    "opciones": {
+      "A": "La incineración ritual sin conservación",
+      "B": "El entierro directo sin ningún tratamiento",
+      "C": "El embalsamamiento del cuerpo para preservarlo tras la muerte",
+      "D": "La cremación de los cuerpos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0044",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dios egipcio, representado con cabeza de chacal, estaba asociado con la momificación y el más allá?",
+    "opciones": {
+      "A": "Ra",
+      "B": "Horus",
+      "C": "Osiris (dios del más allá, distinto en función específica)",
+      "D": "Anubis"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0045",
+    "asignatura": "Historia Universal",
+    "subtemario": "Civilizaciones antiguas (Egipto, Mesopotamia, Grecia, Roma)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dios egipcio era considerado la principal deidad solar, representado a menudo con cabeza de halcón y un disco solar?",
+    "opciones": {
+      "A": "Osiris",
+      "B": "Set",
+      "C": "Anubis",
+      "D": "Ra"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia de las civilizaciones antiguas."
+  },
+  {
+    "id_reactivo": "HUN-0046",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema socioeconómico y político predominó en Europa durante la Edad Media, basado en relaciones de vasallaje y posesión de tierras?",
+    "opciones": {
+      "A": "El mercantilismo",
+      "B": "El capitalismo",
+      "C": "El socialismo",
+      "D": "El feudalismo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0047",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué serie de expediciones militares religiosas organizaron los cristianos europeos entre los siglos XI y XIII para recuperar Tierra Santa?",
+    "opciones": {
+      "A": "Las Cruzadas",
+      "B": "Las Guerras Médicas",
+      "C": "Las Guerras Púnicas",
+      "D": "La Reconquista exclusivamente (aunque relacionada)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0048",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso histórico en la península ibérica consistió en la recuperación de territorios ocupados por musulmanes por parte de los reinos cristianos?",
+    "opciones": {
+      "A": "El Renacimiento",
+      "B": "Las Cruzadas",
+      "C": "La Reconquista",
+      "D": "La Ilustración"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0049",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año cayó Constantinopla ante los turcos otomanos, marcando tradicionalmente el fin de la Edad Media?",
+    "opciones": {
+      "A": "1517",
+      "B": "1453",
+      "C": "1492",
+      "D": "1096"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0050",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué enfermedad, conocida como 'peste negra', devastó a la población europea durante el siglo XIV?",
+    "opciones": {
+      "A": "La gripe española",
+      "B": "La peste bubónica",
+      "C": "La viruela",
+      "D": "El cólera"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0051",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué imperio, con capital en Constantinopla, fue la continuación oriental del Imperio Romano durante gran parte de la Edad Media?",
+    "opciones": {
+      "A": "El Imperio Bizantino",
+      "B": "El Imperio Otomano",
+      "C": "El Imperio Carolingio",
+      "D": "El Sacro Imperio Romano Germánico"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0052",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué emperador franco fue coronado 'Emperador de los Romanos' por el papa en el año 800, unificando gran parte de Europa occidental?",
+    "opciones": {
+      "A": "Carlomagno",
+      "B": "Clodoveo",
+      "C": "Otón I",
+      "D": "Federico Barbarroja"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0053",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución religiosa tuvo una enorme influencia política, social y cultural en la Europa medieval?",
+    "opciones": {
+      "A": "La Iglesia católica",
+      "B": "El shogunato japonés",
+      "C": "El Imperio Otomano",
+      "D": "El califato abasí"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0054",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo social medieval estaba dedicado a la vida religiosa dentro de monasterios, preservando textos antiguos mediante la copia manual?",
+    "opciones": {
+      "A": "Los caballeros",
+      "B": "Los burgueses",
+      "C": "Los siervos",
+      "D": "Los monjes"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0055",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué clase social medieval trabajaba la tierra de los señores feudales a cambio de protección, con movilidad restringida?",
+    "opciones": {
+      "A": "El clero",
+      "B": "Los burgueses",
+      "C": "Los siervos",
+      "D": "Los nobles"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0056",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué guerra, que duró más de cien años, enfrentó a Inglaterra y Francia entre los siglos XIV y XV?",
+    "opciones": {
+      "A": "Las Cruzadas",
+      "B": "La Guerra de las Dos Rosas",
+      "C": "La Guerra de Sucesión Española",
+      "D": "La Guerra de los Cien Años"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0057",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué joven francesa lideró tropas francesas durante la Guerra de los Cien Años y es venerada como heroína nacional y santa?",
+    "opciones": {
+      "A": "Leonor de Aquitania",
+      "B": "Catalina de Médici",
+      "C": "Isabel la Católica",
+      "D": "Juana de Arco"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0058",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué imperio musulmán controló gran parte de la península ibérica durante la Edad Media, con Al-Ándalus como su territorio principal?",
+    "opciones": {
+      "A": "El Imperio Mongol",
+      "B": "El califato omeya (y posteriores taifas) de Al-Ándalus",
+      "C": "El Imperio Persa",
+      "D": "El Imperio Otomano"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0059",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento de 1215, firmado por el rey Juan de Inglaterra, es considerado un antecedente importante de los derechos y límites al poder real?",
+    "opciones": {
+      "A": "El Edicto de Milán",
+      "B": "La Declaración de los Derechos del Hombre",
+      "C": "La Carta Magna",
+      "D": "El Código de Hammurabi"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0060",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué guerra civil inglesa del siglo XV, entre las casas de Lancaster y York, disputó el trono de Inglaterra?",
+    "opciones": {
+      "A": "Las Cruzadas",
+      "B": "La Guerra de los Cien Años",
+      "C": "La Guerra Civil inglesa del siglo XVII",
+      "D": "La Guerra de las Dos Rosas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0061",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué gran imperio mongol, fundado por Genghis Khan en el siglo XIII, llegó a ser el imperio territorial contiguo más grande de la historia?",
+    "opciones": {
+      "A": "El Sacro Imperio Romano Germánico",
+      "B": "El Imperio bizantino",
+      "C": "El Imperio otomano",
+      "D": "El Imperio mongol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0062",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué imperio, con capital en Constantinopla tras 1453, se expandió por gran parte del sureste de Europa, Medio Oriente y el norte de África?",
+    "opciones": {
+      "A": "El Imperio mongol",
+      "B": "El Imperio bizantino",
+      "C": "El Imperio persa",
+      "D": "El Imperio otomano"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0063",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de arquitectura, caracterizada por arcos apuntados, bóvedas de crucería y grandes vitrales, se desarrolló en las catedrales europeas de la Baja Edad Media?",
+    "opciones": {
+      "A": "El estilo gótico",
+      "B": "El estilo barroco",
+      "C": "El estilo renacentista",
+      "D": "El estilo románico"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0064",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estilo arquitectónico, caracterizado por muros gruesos, arcos de medio punto y pocas ventanas, predominó en Europa durante la Alta Edad Media?",
+    "opciones": {
+      "A": "El estilo barroco",
+      "B": "El estilo neoclásico",
+      "C": "El estilo gótico",
+      "D": "El estilo románico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0065",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución educativa medieval, antecesora de las universidades modernas, comenzó a formarse en ciudades como Bolonia y París durante los siglos XI y XII?",
+    "opciones": {
+      "A": "Los monasterios exclusivamente",
+      "B": "Las escuelas catedralicias exclusivamente sin evolución posterior",
+      "C": "Los gremios artesanales",
+      "D": "Las universidades medievales"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0066",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué agrupaciones de artesanos y comerciantes medievales regulaban la producción y el comercio de un oficio específico en las ciudades?",
+    "opciones": {
+      "A": "Las órdenes de caballería",
+      "B": "Los concilios",
+      "C": "Los gremios",
+      "D": "Los feudos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0067",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué territorio disputado en las Cruzadas era considerado sagrado tanto para cristianos, judíos como musulmanes?",
+    "opciones": {
+      "A": "Roma",
+      "B": "Jerusalén (Tierra Santa)",
+      "C": "Bagdad",
+      "D": "Constantinopla"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0068",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado líder musulmán reconquistó Jerusalén de manos cristianas durante las Cruzadas en el siglo XII?",
+    "opciones": {
+      "A": "Ricardo Corazón de León (líder cristiano, no musulmán)",
+      "B": "Genghis Khan",
+      "C": "Solimán el Magnífico",
+      "D": "Saladino"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0069",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué rey inglés, conocido como 'Corazón de León', participó destacadamente en la Tercera Cruzada?",
+    "opciones": {
+      "A": "Juan Sin Tierra",
+      "B": "Ricardo I de Inglaterra",
+      "C": "Guillermo el Conquistador",
+      "D": "Enrique VIII"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0070",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento de 1066 marcó la conquista normanda de Inglaterra, liderada por Guillermo el Conquistador?",
+    "opciones": {
+      "A": "La batalla de Hastings",
+      "B": "La firma de la Carta Magna",
+      "C": "La Guerra de las Dos Rosas",
+      "D": "La batalla de Hattin"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0071",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué cisma de 1054 dividió al cristianismo entre la Iglesia católica de Occidente y la Iglesia ortodoxa de Oriente?",
+    "opciones": {
+      "A": "El Cisma de Oriente (Gran Cisma)",
+      "B": "El Concilio de Trento",
+      "C": "El Cisma de Occidente del siglo XIV",
+      "D": "La Reforma protestante"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0072",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué literatura épica medieval, escrita en lengua vernácula, narra las hazañas de héroes como El Cid Campeador en España?",
+    "opciones": {
+      "A": "Los cuentos de Canterbury (obra inglesa posterior)",
+      "B": "El Cantar de Mio Cid",
+      "C": "La Divina Comedia (obra del Renacimiento temprano/Trecento)",
+      "D": "La Ilíada"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0073",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué escritor italiano de la Baja Edad Media es autor de 'La Divina Comedia', obra cumbre de la literatura medieval en lengua vernácula?",
+    "opciones": {
+      "A": "Dante Alighieri",
+      "B": "Francesco Petrarca",
+      "C": "Geoffrey Chaucer",
+      "D": "Giovanni Boccaccio"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0074",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema económico predominaba en los feudos medievales, basado principalmente en la agricultura de subsistencia y el autoabastecimiento?",
+    "opciones": {
+      "A": "El capitalismo industrial",
+      "B": "La economía feudal (agraria y de autoconsumo)",
+      "C": "El mercantilismo",
+      "D": "La economía de libre mercado global"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0075",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel desempeñaban los caballeros en la sociedad feudal medieval?",
+    "opciones": {
+      "A": "Se dedicaban exclusivamente al comercio internacional",
+      "B": "Servían militarmente a sus señores feudales a cambio de tierras o beneficios, siguiendo un código de honor (caballería)",
+      "C": "Gobernaban las universidades medievales",
+      "D": "Cultivaban la tierra como siervos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0076",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región geográfica y cultural, con centro en Bagdad durante la Edad Media, vivió una notable época de esplendor científico y cultural bajo el califato abasí?",
+    "opciones": {
+      "A": "El mundo islámico (Califato Abasí)",
+      "B": "El Imperio bizantino exclusivamente",
+      "C": "China durante la dinastía Tang",
+      "D": "Europa occidental exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0077",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugó Constantinopla como capital del Imperio Bizantino durante gran parte de la Edad Media?",
+    "opciones": {
+      "A": "Fue un importante centro comercial, cultural y religioso que preservó gran parte de la herencia grecorromana",
+      "B": "Fue conquistada por los mongoles en el siglo IX",
+      "C": "Fue una ciudad abandonada durante toda la Edad Media",
+      "D": "Fue la capital del Imperio Carolingio"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0078",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué invasiones nórdicas, provenientes de Escandinavia, afectaron gran parte de Europa entre los siglos VIII y XI?",
+    "opciones": {
+      "A": "Las invasiones vikingas",
+      "B": "Las invasiones hunas",
+      "C": "Las invasiones árabes",
+      "D": "Las invasiones mongolas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0079",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reyes españoles, conocidos como los Reyes Católicos, unificaron los reinos de Castilla y Aragón y completaron la Reconquista en 1492?",
+    "opciones": {
+      "A": "Isabel de Castilla y Fernando de Aragón",
+      "B": "Alfonso X y Sancho IV",
+      "C": "Juana la Loca y Felipe el Hermoso",
+      "D": "Carlos V y Felipe II"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0080",
+    "asignatura": "Historia Universal",
+    "subtemario": "Edad Media",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de comerciantes y marinos italianos, especialmente de Venecia y Génova, dominó gran parte del comercio mediterráneo durante la Baja Edad Media?",
+    "opciones": {
+      "A": "Los mercaderes fenicios",
+      "B": "Los comerciantes del Imperio Otomano exclusivamente",
+      "C": "Los comerciantes de las repúblicas marítimas italianas (Venecia, Génova, Pisa)",
+      "D": "Los comerciantes hanseáticos del norte de Europa exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia medieval."
+  },
+  {
+    "id_reactivo": "HUN-0081",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué país y ciudad se originó principalmente el movimiento cultural del Renacimiento en el siglo XV?",
+    "opciones": {
+      "A": "Francia, en París",
+      "B": "España, en Madrid",
+      "C": "Alemania, en Berlín",
+      "D": "Italia, especialmente en la ciudad de Florencia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0082",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué pintor renacentista italiano es autor de obras como 'La Gioconda' (Mona Lisa) y 'La última cena'?",
+    "opciones": {
+      "A": "Rafael Sanzio",
+      "B": "Sandro Botticelli",
+      "C": "Miguel Ángel",
+      "D": "Leonardo da Vinci"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0083",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artista renacentista esculpió el 'David' y pintó los frescos de la Capilla Sixtina?",
+    "opciones": {
+      "A": "Miguel Ángel Buonarroti",
+      "B": "Donatello",
+      "C": "Rafael Sanzio",
+      "D": "Leonardo da Vinci"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0084",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué invento de Johannes Gutenberg, hacia 1440, revolucionó la difusión del conocimiento en Europa?",
+    "opciones": {
+      "A": "La imprenta de tipos móviles",
+      "B": "La pólvora",
+      "C": "La brújula",
+      "D": "El telescopio"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0085",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué movimiento religioso, iniciado por Martín Lutero en 1517, dividió al cristianismo occidental en católicos y protestantes?",
+    "opciones": {
+      "A": "La Reforma protestante",
+      "B": "La Contrarreforma",
+      "C": "El Cisma de Oriente",
+      "D": "El Concilio de Trento"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0086",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento redactó Martín Lutero en 1517, cuestionando prácticas de la Iglesia católica como la venta de indulgencias?",
+    "opciones": {
+      "A": "El Edicto de Nantes",
+      "B": "El Edicto de Worms",
+      "C": "Las 95 tesis",
+      "D": "La Carta Magna"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0087",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reforma llevó a cabo la Iglesia católica en respuesta a la Reforma protestante, buscando corregir abusos y reafirmar su doctrina?",
+    "opciones": {
+      "A": "La Contrarreforma",
+      "B": "La Reforma protestante",
+      "C": "El Concilio Vaticano II",
+      "D": "El Cisma de Oriente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0088",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué navegante genovés, financiado por los Reyes Católicos de España, llegó a América en 1492?",
+    "opciones": {
+      "A": "Cristóbal Colón",
+      "B": "Fernando de Magallanes",
+      "C": "Américo Vespucio",
+      "D": "Vasco de Gama"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0089",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué navegante portugués completó la primera circunnavegación del globo (aunque murió antes de finalizarla)?",
+    "opciones": {
+      "A": "Cristóbal Colón",
+      "B": "Vasco de Gama",
+      "C": "Fernando de Magallanes",
+      "D": "Bartolomé Díaz"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0090",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué navegante portugués llegó a la India rodeando África en 1498, abriendo una ruta marítima comercial?",
+    "opciones": {
+      "A": "Cristóbal Colón",
+      "B": "Fernando de Magallanes",
+      "C": "Américo Vespucio",
+      "D": "Vasco de Gama"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0091",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué avances tecnológicos facilitaron las exploraciones marítimas europeas de los siglos XV y XVI?",
+    "opciones": {
+      "A": "La pólvora exclusivamente",
+      "B": "El microscopio",
+      "C": "La brújula, el astrolabio y las carabelas",
+      "D": "La imprenta exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0092",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué explorador italiano dio nombre al continente americano, tras determinar que se trataba de un nuevo continente?",
+    "opciones": {
+      "A": "Américo Vespucio",
+      "B": "Fernando de Magallanes",
+      "C": "Cristóbal Colón",
+      "D": "Hernán Cortés"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0093",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué corriente de pensamiento renacentista puso al ser humano y sus capacidades en el centro de la reflexión filosófica y artística, en contraste con el teocentrismo medieval?",
+    "opciones": {
+      "A": "El absolutismo",
+      "B": "El feudalismo",
+      "C": "El escolasticismo medieval",
+      "D": "El humanismo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0094",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué astrónomo polaco propuso el modelo heliocéntrico, en el que la Tierra y los planetas giran alrededor del Sol?",
+    "opciones": {
+      "A": "Isaac Newton",
+      "B": "Galileo Galilei",
+      "C": "Johannes Kepler",
+      "D": "Nicolás Copérnico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0095",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué científico italiano perfeccionó el telescopio y confirmó observacionalmente el modelo heliocéntrico, siendo procesado por la Inquisición por ello?",
+    "opciones": {
+      "A": "Johannes Kepler",
+      "B": "Nicolás Copérnico",
+      "C": "Giordano Bruno",
+      "D": "Galileo Galilei"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0096",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué pintor y arquitecto renacentista italiano es autor de obras como 'La Escuela de Atenas' y numerosos frescos en el Vaticano?",
+    "opciones": {
+      "A": "Leonardo da Vinci",
+      "B": "Miguel Ángel",
+      "C": "Rafael Sanzio",
+      "D": "Donatello"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0097",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué escultor renacentista italiano, considerado precursor de Miguel Ángel, es famoso por su estatua de bronce de David?",
+    "opciones": {
+      "A": "Donatello",
+      "B": "Rafael Sanzio",
+      "C": "Leonardo da Vinci",
+      "D": "Miguel Ángel"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0098",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué familia de banqueros y mecenas italianos impulsó fuertemente el arte y la cultura renacentista en Florencia?",
+    "opciones": {
+      "A": "Los Habsburgo",
+      "B": "Los Borgia",
+      "C": "Los Médici",
+      "D": "Los Sforza"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0099",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué político y escritor florentino, autor de 'El Príncipe', es considerado uno de los fundadores del pensamiento político moderno?",
+    "opciones": {
+      "A": "Dante Alighieri",
+      "B": "Erasmo de Rotterdam",
+      "C": "Nicolás Maquiavelo",
+      "D": "Francesco Petrarca"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0100",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué humanista holandés, autor de 'Elogio de la locura', criticó los abusos de la Iglesia católica sin romper con ella, a diferencia de Lutero?",
+    "opciones": {
+      "A": "Erasmo de Rotterdam",
+      "B": "Tomás Moro",
+      "C": "Martín Lutero",
+      "D": "Juan Calvino"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0101",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reformador religioso francés, radicado en Ginebra, fundó una corriente del protestantismo conocida como calvinismo?",
+    "opciones": {
+      "A": "Juan Calvino",
+      "B": "Enrique VIII",
+      "C": "Erasmo de Rotterdam",
+      "D": "Martín Lutero"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0102",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué rey inglés rompió con la Iglesia católica en el siglo XVI y fundó la Iglesia Anglicana, principalmente por motivos personales relacionados con su matrimonio?",
+    "opciones": {
+      "A": "Juan Calvino",
+      "B": "Felipe II",
+      "C": "Enrique VIII",
+      "D": "Martín Lutero"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0103",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué explorador español encabezó la conquista del Imperio inca en Sudamérica en la década de 1530?",
+    "opciones": {
+      "A": "Hernán Cortés",
+      "B": "Francisco Pizarro",
+      "C": "Vasco Núñez de Balboa",
+      "D": "Diego de Almagro"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0104",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué explorador español fue el primer europeo en ver el océano Pacífico desde América, al cruzar el istmo de Panamá?",
+    "opciones": {
+      "A": "Francisco Pizarro",
+      "B": "Fernando de Magallanes",
+      "C": "Hernán Cortés",
+      "D": "Vasco Núñez de Balboa"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0105",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tratado de 1494 dividió las tierras recién descubiertas en América entre España y Portugal?",
+    "opciones": {
+      "A": "El Tratado de Tordesillas",
+      "B": "El Tratado de Utrecht",
+      "C": "El Tratado de Versalles",
+      "D": "El Tratado de Westfalia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0106",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugó el papado en la resolución de conflictos territoriales entre España y Portugal tras el descubrimiento de América?",
+    "opciones": {
+      "A": "Prohibió cualquier exploración transatlántica",
+      "B": "Emitió bulas papales (como la Inter Caetera) que sirvieron de base para el Tratado de Tordesillas",
+      "C": "Declaró la guerra a ambos reinos",
+      "D": "No tuvo ninguna intervención en el tema"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0107",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica definía a las carabelas, las embarcaciones usadas en las exploraciones marítimas del siglo XV?",
+    "opciones": {
+      "A": "Eran barcos propulsados por motores de vapor",
+      "B": "Eran submarinos primitivos",
+      "C": "Eran enormes acorazados de hierro",
+      "D": "Eran naves ligeras y maniobrables, con velas que permitían navegar contra el viento"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0108",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué corriente artística y literaria del Renacimiento recuperó y se inspiró en los ideales, formas y temas de la cultura clásica grecorromana?",
+    "opciones": {
+      "A": "El romanticismo",
+      "B": "El clasicismo renacentista",
+      "C": "El gótico medieval",
+      "D": "El barroco"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0109",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué avance en la cartografía y la navegación, impulsado durante la época de las exploraciones, permitió trazar rutas marítimas más precisas?",
+    "opciones": {
+      "A": "El uso de submarinos",
+      "B": "La invención del GPS",
+      "C": "El desarrollo de mapas y portulanos más exactos, junto con instrumentos como el astrolabio",
+      "D": "La fotografía aérea"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0110",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué imperio americano fue conquistado por Francisco Pizarro entre 1532 y 1533?",
+    "opciones": {
+      "A": "El Imperio azteca (mexica)",
+      "B": "El Imperio maya",
+      "C": "El Imperio inca",
+      "D": "El Imperio tolteca"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0111",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento científico, perfeccionado durante el Renacimiento, permitió a los navegantes calcular su posición mediante la observación de astros?",
+    "opciones": {
+      "A": "El microscopio",
+      "B": "El barómetro",
+      "C": "El sextante (desarrollado más tarde, en el siglo XVIII)",
+      "D": "El astrolabio"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0112",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso de intercambio de plantas, animales, enfermedades y culturas entre América y Europa tras 1492 se conoce como 'Intercambio Colombino'?",
+    "opciones": {
+      "A": "El Intercambio Colombino",
+      "B": "El Tratado de Tordesillas",
+      "C": "La Reconquista",
+      "D": "La Revolución Verde"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0113",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producto europeo, como el caballo y el trigo, fue introducido en América tras la llegada de los españoles, no existiendo previamente en el continente?",
+    "opciones": {
+      "A": "El cacao",
+      "B": "El tomate",
+      "C": "El maíz",
+      "D": "El caballo (junto con el trigo, la vid y el ganado bovino, entre otros)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0114",
+    "asignatura": "Historia Universal",
+    "subtemario": "Renacimiento, Reforma y Exploraciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugó Portugal en las exploraciones marítimas del siglo XV, siendo pionero bajo el patrocinio del príncipe Enrique el Navegante?",
+    "opciones": {
+      "A": "Prohibió cualquier expedición marítima",
+      "B": "Se enfocó exclusivamente en el comercio mediterráneo",
+      "C": "Impulsó la exploración de la costa africana, buscando una ruta marítima hacia Asia",
+      "D": "Se mantuvo aislado sin participar en las exploraciones"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Renacimiento, la Reforma y las exploraciones."
+  },
+  {
+    "id_reactivo": "HUN-0115",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué país se originó la Revolución Industrial a finales del siglo XVIII?",
+    "opciones": {
+      "A": "Inglaterra (Gran Bretaña)",
+      "B": "Estados Unidos",
+      "C": "Francia",
+      "D": "Alemania"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0116",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué invento fue fundamental para el desarrollo de la Revolución Industrial, al mejorar la máquina de vapor?",
+    "opciones": {
+      "A": "La máquina de vapor perfeccionada por James Watt",
+      "B": "El telégrafo",
+      "C": "La imprenta",
+      "D": "El motor de combustión interna"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0117",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sector productivo fue el primero en industrializarse de forma masiva durante la Revolución Industrial?",
+    "opciones": {
+      "A": "La industria electrónica",
+      "B": "La industria automotriz",
+      "C": "La industria petrolera",
+      "D": "La industria textil"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0118",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año estalló la Revolución Francesa?",
+    "opciones": {
+      "A": "1776",
+      "B": "1789",
+      "C": "1804",
+      "D": "1848"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0119",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento simbólico marcó el inicio de la Revolución Francesa el 14 de julio de 1789?",
+    "opciones": {
+      "A": "La coronación de Napoleón",
+      "B": "La firma de la Declaración de Independencia",
+      "C": "La toma de la Bastilla",
+      "D": "La ejecución de Luis XVI"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0120",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento de la Revolución Francesa (1789) proclamó principios como la libertad, la igualdad y la fraternidad?",
+    "opciones": {
+      "A": "La Carta Magna",
+      "B": "Las 95 tesis",
+      "C": "El Código Napoleónico",
+      "D": "La Declaración de los Derechos del Hombre y del Ciudadano"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0121",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué rey francés fue ejecutado en 1793 durante la Revolución Francesa?",
+    "opciones": {
+      "A": "Luis XVI",
+      "B": "Carlos X",
+      "C": "Luis XIV",
+      "D": "Napoleón Bonaparte"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0122",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué militar y posterior emperador francés se destacó tras la Revolución Francesa, expandiendo un vasto imperio en Europa?",
+    "opciones": {
+      "A": "Luis Felipe",
+      "B": "Luis XVI",
+      "C": "Robespierre",
+      "D": "Napoleón Bonaparte"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0123",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año se declaró la independencia de las Trece Colonias, dando origen a Estados Unidos?",
+    "opciones": {
+      "A": "1783",
+      "B": "1776",
+      "C": "1804",
+      "D": "1789"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0124",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento de 1776 proclamó la independencia de las Trece Colonias británicas en América?",
+    "opciones": {
+      "A": "La Declaración de Independencia de Estados Unidos",
+      "B": "La Declaración de los Derechos del Hombre",
+      "C": "El Tratado de Versalles",
+      "D": "La Carta Magna"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0125",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién es considerado el primer presidente de Estados Unidos, tras la independencia de las Trece Colonias?",
+    "opciones": {
+      "A": "Abraham Lincoln",
+      "B": "George Washington",
+      "C": "Thomas Jefferson",
+      "D": "Benjamin Franklin"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0126",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué periodo revolucionario francés (1793-1794), liderado por Robespierre, se caracterizó por una intensa represión política, incluyendo numerosas ejecuciones?",
+    "opciones": {
+      "A": "El Directorio",
+      "B": "La Restauración",
+      "C": "El Consulado",
+      "D": "El Terror (o Régimen del Terror)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0127",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué código legal, promulgado por Napoleón en 1804, sistematizó el derecho civil francés y tuvo gran influencia en otros países?",
+    "opciones": {
+      "A": "El Tratado de Versalles",
+      "B": "La Carta Magna",
+      "C": "El Código Napoleónico (Código Civil francés)",
+      "D": "La Declaración de los Derechos del Hombre"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0128",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué invención de finales del siglo XVIII y principios del XIX transformó el transporte terrestre durante la Revolución Industrial?",
+    "opciones": {
+      "A": "El automóvil de combustión interna",
+      "B": "La locomotora de vapor (ferrocarril)",
+      "C": "El avión",
+      "D": "El submarino"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0129",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nueva clase social adquirió gran poder económico gracias a la Revolución Industrial, poseyendo fábricas y medios de producción?",
+    "opciones": {
+      "A": "La nobleza terrateniente exclusivamente",
+      "B": "El clero",
+      "C": "El campesinado",
+      "D": "La burguesía industrial"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0130",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué clase social surgió y creció significativamente durante la Revolución Industrial, trabajando en las fábricas en condiciones a menudo precarias?",
+    "opciones": {
+      "A": "El clero",
+      "B": "Los comerciantes coloniales exclusivamente",
+      "C": "El proletariado (clase obrera)",
+      "D": "La nobleza"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0131",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué congreso europeo de 1814-1815 buscó reorganizar el mapa político de Europa tras la derrota de Napoleón?",
+    "opciones": {
+      "A": "El Concilio de Trento",
+      "B": "El Congreso de Versalles",
+      "C": "El Congreso de Viena",
+      "D": "El Congreso Continental"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0132",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué batalla de 1815 fue derrotado definitivamente Napoleón Bonaparte?",
+    "opciones": {
+      "A": "La batalla de Leipzig",
+      "B": "La batalla de Trafalgar",
+      "C": "La batalla de Austerlitz",
+      "D": "La batalla de Waterloo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0133",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ideología política, surgida como reacción a la Revolución Industrial, propuso la abolición de la propiedad privada de los medios de producción?",
+    "opciones": {
+      "A": "El liberalismo económico",
+      "B": "El absolutismo",
+      "C": "El socialismo (y posteriormente el marxismo)",
+      "D": "El conservadurismo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0134",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué filósofos son considerados los principales teóricos del marxismo, base del socialismo científico del siglo XIX?",
+    "opciones": {
+      "A": "Voltaire y Rousseau",
+      "B": "Karl Marx y Friedrich Engels",
+      "C": "John Locke y Montesquieu",
+      "D": "Adam Smith y David Ricardo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0135",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué economista escocés, autor de 'La riqueza de las naciones' (1776), es considerado el padre del liberalismo económico clásico?",
+    "opciones": {
+      "A": "David Ricardo",
+      "B": "Adam Smith",
+      "C": "Karl Marx",
+      "D": "John Maynard Keynes"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0136",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué filósofos ilustrados franceses influyeron directamente en las ideas que motivaron la Revolución Francesa, con obras sobre la separación de poderes y el contrato social?",
+    "opciones": {
+      "A": "Immanuel Kant y Hegel",
+      "B": "Karl Marx y Friedrich Engels",
+      "C": "Montesquieu y Jean-Jacques Rousseau",
+      "D": "Adam Smith y David Ricardo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0137",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué movimiento intelectual del siglo XVIII, previo a la Revolución Francesa, promovió el uso de la razón, la ciencia y la crítica a las estructuras tradicionales de poder?",
+    "opciones": {
+      "A": "El Renacimiento",
+      "B": "La Ilustración",
+      "C": "El Humanismo medieval",
+      "D": "El Romanticismo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0138",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento marcó el fin de la primera etapa moderada de la Revolución Francesa y el ascenso de sectores más radicales al poder?",
+    "opciones": {
+      "A": "La toma de la Bastilla",
+      "B": "La coronación de Napoleón",
+      "C": "El Congreso de Viena",
+      "D": "La caída de la monarquía y la proclamación de la Primera República Francesa (1792)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0139",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué gobierno de transición sucedió al Terror en Francia, antes del ascenso de Napoleón al poder?",
+    "opciones": {
+      "A": "La Convención Nacional",
+      "B": "El Consulado",
+      "C": "La Restauración borbónica",
+      "D": "El Directorio"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0140",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué régimen político estableció Napoleón Bonaparte tras dar un golpe de Estado en 1799, previo a proclamarse emperador en 1804?",
+    "opciones": {
+      "A": "La Convención Nacional",
+      "B": "El Directorio",
+      "C": "La Restauración",
+      "D": "El Consulado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0141",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado revolucionario radical francés, símbolo del período del Terror, fue finalmente ejecutado en 1794?",
+    "opciones": {
+      "A": "Maximilien Robespierre",
+      "B": "Luis XVI",
+      "C": "Georges Danton (también ejecutado, pero menos identificado con el liderazgo del Terror)",
+      "D": "Napoleón Bonaparte"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0142",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de máquinas y procesos caracterizaron la 'Segunda Revolución Industrial' de finales del siglo XIX, con avances en electricidad y acero?",
+    "opciones": {
+      "A": "La agricultura de subsistencia",
+      "B": "El feudalismo industrial",
+      "C": "El uso de la electricidad, el motor de combustión interna y la producción de acero a gran escala",
+      "D": "El uso exclusivo de la máquina de vapor"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0143",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué invento de finales del siglo XIX transformó las comunicaciones a larga distancia, permitiendo enviar mensajes casi instantáneamente?",
+    "opciones": {
+      "A": "La radio exclusivamente sin telégrafo previo",
+      "B": "La imprenta",
+      "C": "El telégrafo (y posteriormente el teléfono)",
+      "D": "El internet"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0144",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué consecuencia social tuvo la Revolución Industrial en las ciudades europeas, debido a la migración masiva del campo a las fábricas urbanas?",
+    "opciones": {
+      "A": "Un despoblamiento total de las ciudades",
+      "B": "Un rápido y a menudo desordenado crecimiento urbano (urbanización acelerada)",
+      "C": "La desaparición completa de la agricultura",
+      "D": "Una disminución generalizada de la población mundial"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0145",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué guerra de independencia latinoamericana, inspirada en parte por los ideales de la Revolución Francesa y Estadounidense, fue liderada por Simón Bolívar en Sudamérica?",
+    "opciones": {
+      "A": "La Guerra Franco-Prusiana",
+      "B": "La Guerra de los Cien Años",
+      "C": "La Revolución Mexicana",
+      "D": "Las guerras de independencia hispanoamericanas (lideradas en gran parte por Bolívar en el norte de Sudamérica)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0146",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder militar y político es conocido como 'El Libertador' por su papel en la independencia de varios países sudamericanos, como Venezuela, Colombia, Ecuador, Perú y Bolivia?",
+    "opciones": {
+      "A": "Bernardo O'Higgins",
+      "B": "José de San Martín",
+      "C": "Miguel Hidalgo",
+      "D": "Simón Bolívar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0147",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué militar argentino lideró la independencia de Argentina, Chile y contribuyó a la de Perú, mediante campañas militares como el cruce de los Andes?",
+    "opciones": {
+      "A": "Bernardo O'Higgins",
+      "B": "Antonio José de Sucre",
+      "C": "Simón Bolívar",
+      "D": "José de San Martín"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0148",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué levantamiento de esclavos en la colonia francesa de Saint-Domingue, iniciado en 1791, condujo a la independencia de Haití en 1804?",
+    "opciones": {
+      "A": "La Revolución Haitiana",
+      "B": "La Guerra de Independencia de Estados Unidos",
+      "C": "La Revolución Francesa",
+      "D": "Las guerras de independencia hispanoamericanas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0149",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué antiguo esclavo liberado lideró la Revolución Haitiana, convirtiéndose en una figura clave de la lucha contra la esclavitud y el colonialismo francés?",
+    "opciones": {
+      "A": "Napoleón Bonaparte",
+      "B": "Simón Bolívar",
+      "C": "Toussaint Louverture",
+      "D": "José de San Martín"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0150",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento de 1789, previo a la Constitución francesa, sentó las bases de los derechos individuales que luego influirían en constituciones de todo el mundo?",
+    "opciones": {
+      "A": "La Declaración de los Derechos del Hombre y del Ciudadano",
+      "B": "La Carta Magna",
+      "C": "El Código Napoleónico",
+      "D": "El Tratado de Versalles"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0151",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué facción política moderada de la Revolución Francesa buscaba una monarquía constitucional y se opuso a los excesos radicales posteriores?",
+    "opciones": {
+      "A": "Los girondinos",
+      "B": "Los sans-culottes",
+      "C": "Los realistas",
+      "D": "Los jacobinos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0152",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué facción radical de la Revolución Francesa, liderada por Robespierre, impulsó el periodo del Terror?",
+    "opciones": {
+      "A": "Los girondinos",
+      "B": "Los jacobinos",
+      "C": "Los feuillants",
+      "D": "Los realistas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0153",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nombre recibía la asamblea legislativa francesa que gobernó durante la etapa más radical de la Revolución, entre 1792 y 1795?",
+    "opciones": {
+      "A": "La Asamblea Nacional Constituyente",
+      "B": "La Convención Nacional",
+      "C": "Los Estados Generales",
+      "D": "El Directorio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0154",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reunión de representantes de los tres estamentos (nobleza, clero y pueblo llano) convocada por Luis XVI en 1789 desencadenó los primeros pasos hacia la Revolución Francesa?",
+    "opciones": {
+      "A": "El Congreso de Viena",
+      "B": "Los Estados Generales",
+      "C": "La Convención Nacional",
+      "D": "El Directorio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0155",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué juramento realizaron los diputados del Tercer Estado en 1789, comprometiéndose a no disolverse hasta dotar a Francia de una Constitución?",
+    "opciones": {
+      "A": "El Juramento del Juego de Pelota",
+      "B": "La toma de la Bastilla",
+      "C": "El Edicto de Nantes",
+      "D": "La Paz de Westfalia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0156",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué invento de finales del siglo XVIII, atribuido a Eli Whitney, revolucionó la producción de algodón en Estados Unidos?",
+    "opciones": {
+      "A": "El telar mecánico",
+      "B": "La máquina de vapor",
+      "C": "La locomotora",
+      "D": "La desmotadora de algodón"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0157",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué país europeo, además de Inglaterra, se industrializó tempranamente durante el siglo XIX, destacando en la producción de acero y productos químicos?",
+    "opciones": {
+      "A": "España",
+      "B": "Portugal",
+      "C": "Alemania",
+      "D": "Grecia"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0158",
+    "asignatura": "Historia Universal",
+    "subtemario": "Revoluciones (Industrial, Francesa, Independencia de EUA)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué consecuencia tuvo la Revolución Industrial sobre la producción agrícola, gracias a nuevas técnicas y maquinaria?",
+    "opciones": {
+      "A": "Una disminución generalizada de la producción de alimentos",
+      "B": "Un notable aumento en la productividad agrícola, lo que permitió sostener a una población urbana creciente",
+      "C": "La desaparición completa de la agricultura tradicional",
+      "D": "Ningún cambio significativo en la producción agrícola"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las revoluciones que transformaron el mundo moderno."
+  },
+  {
+    "id_reactivo": "HUN-0159",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año inició la Primera Guerra Mundial?",
+    "opciones": {
+      "A": "1939",
+      "B": "1945",
+      "C": "1918",
+      "D": "1914"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0160",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento es considerado el detonante inmediato de la Primera Guerra Mundial?",
+    "opciones": {
+      "A": "El asesinato del archiduque Francisco Fernando de Austria en Sarajevo",
+      "B": "La Revolución Rusa",
+      "C": "El ataque a Pearl Harbor",
+      "D": "La invasión de Polonia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0161",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tratado de 1919 puso fin oficialmente a la Primera Guerra Mundial, imponiendo duras condiciones a Alemania?",
+    "opciones": {
+      "A": "El Tratado de Versalles",
+      "B": "El Tratado de Yalta",
+      "C": "El Tratado de Brest-Litovsk",
+      "D": "El Tratado de Utrecht"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0162",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año inició la Segunda Guerra Mundial, con la invasión alemana a Polonia?",
+    "opciones": {
+      "A": "1914",
+      "B": "1929",
+      "C": "1945",
+      "D": "1939"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0163",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año terminó la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "1950",
+      "B": "1939",
+      "C": "1918",
+      "D": "1945"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0164",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder encabezó la Alemania nazi durante la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "Iósif Stalin",
+      "B": "Winston Churchill",
+      "C": "Benito Mussolini",
+      "D": "Adolf Hitler"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0165",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué política de exterminio sistemático llevó a cabo la Alemania nazi contra la población judía y otros grupos durante la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "La Gran Purga",
+      "B": "La Revolución Cultural",
+      "C": "El Terror rojo",
+      "D": "El Holocausto"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0166",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ciudades japonesas fueron atacadas con bombas atómicas por Estados Unidos en 1945?",
+    "opciones": {
+      "A": "Tokio y Osaka",
+      "B": "Hiroshima y Nagasaki",
+      "C": "Kioto y Yokohama",
+      "D": "Nagoya y Kobe"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0167",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento de 1941 provocó el ingreso de Estados Unidos a la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "El desembarco de Normandía",
+      "B": "La caída de Berlín",
+      "C": "El ataque japonés a Pearl Harbor",
+      "D": "La invasión de Polonia"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0168",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué operación militar aliada de 1944, conocida como 'Día D', marcó el inicio de la liberación de Francia ocupada por los nazis?",
+    "opciones": {
+      "A": "La Batalla de Stalingrado",
+      "B": "La Batalla de Berlín",
+      "C": "La Batalla de Midway",
+      "D": "El desembarco de Normandía"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0169",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organización internacional se fundó en 1945, al término de la Segunda Guerra Mundial, para mantener la paz mundial?",
+    "opciones": {
+      "A": "La Unión Europea",
+      "B": "La Sociedad de Naciones",
+      "C": "La Organización de las Naciones Unidas (ONU)",
+      "D": "La OTAN"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0170",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organización internacional, precursora de la ONU, se fundó tras la Primera Guerra Mundial y fracasó en evitar la Segunda?",
+    "opciones": {
+      "A": "La Sociedad de Naciones",
+      "B": "La OTAN",
+      "C": "La ONU",
+      "D": "El Pacto de Varsovia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0171",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto ideológico y geopolítico, sin confrontación militar directa, enfrentó a Estados Unidos y la Unión Soviética tras la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "La Primera Guerra Mundial",
+      "B": "La Guerra de Corea exclusivamente",
+      "C": "La Guerra de Vietnam exclusivamente",
+      "D": "La Guerra Fría"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0172",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué muro, construido en 1961 y derribado en 1989, simbolizó la división ideológica de la Guerra Fría en Europa?",
+    "opciones": {
+      "A": "El Muro de Adriano",
+      "B": "La Línea Maginot",
+      "C": "El Muro de Berlín",
+      "D": "La Gran Muralla China"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0173",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué alianza militar occidental se formó en 1949 durante la Guerra Fría, liderada por Estados Unidos?",
+    "opciones": {
+      "A": "El Pacto de Varsovia",
+      "B": "La OTAN (Organización del Tratado del Atlántico Norte)",
+      "C": "La Unión Europea",
+      "D": "La ONU"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0174",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué alianza militar formaron la Unión Soviética y sus aliados del bloque comunista en 1955, en respuesta a la OTAN?",
+    "opciones": {
+      "A": "La Comunidad Económica Europea",
+      "B": "El Pacto de Varsovia",
+      "C": "La ONU",
+      "D": "La OTAN"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0175",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué crisis de 1962 llevó al mundo cerca de una guerra nuclear entre Estados Unidos y la Unión Soviética?",
+    "opciones": {
+      "A": "La crisis del Muro de Berlín",
+      "B": "La Guerra de Corea",
+      "C": "La invasión de Bahía de Cochinos",
+      "D": "La Crisis de los Misiles de Cuba"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0176",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año colapsó la Unión Soviética, marcando el fin de la Guerra Fría?",
+    "opciones": {
+      "A": "1991",
+      "B": "1945",
+      "C": "1985",
+      "D": "1989"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0177",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué revolución de 1917, liderada por los bolcheviques encabezados por Lenin, derrocó al zar ruso e instauró un gobierno comunista?",
+    "opciones": {
+      "A": "La Revolución Rusa",
+      "B": "La Revolución Francesa",
+      "C": "La Revolución Cubana",
+      "D": "La Revolución China"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0178",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder soviético gobernó la URSS durante gran parte de la Segunda Guerra Mundial y la posguerra, conocido por su régimen totalitario?",
+    "opciones": {
+      "A": "Vladimir Lenin",
+      "B": "Mijaíl Gorbachov",
+      "C": "Nikita Jrushchov",
+      "D": "Iósif Stalin"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0179",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder soviético inició en la década de 1980 las reformas de 'glásnost' (apertura) y 'perestroika' (reestructuración), que contribuyeron al fin de la Guerra Fría?",
+    "opciones": {
+      "A": "Iósif Stalin",
+      "B": "Nikita Jrushchov",
+      "C": "Leonid Brézhnev",
+      "D": "Mijaíl Gorbachov"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0180",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto armado (1950-1953) enfrentó a Corea del Norte (apoyada por China y la URSS) contra Corea del Sur (apoyada por Estados Unidos y la ONU)?",
+    "opciones": {
+      "A": "La Guerra de Vietnam",
+      "B": "La Guerra de Afganistán",
+      "C": "La Guerra del Golfo",
+      "D": "La Guerra de Corea"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0181",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto armado prolongado (décadas de 1950 a 1970) enfrentó a Vietnam del Norte comunista contra Vietnam del Sur, con fuerte intervención militar de Estados Unidos?",
+    "opciones": {
+      "A": "La Guerra de Vietnam",
+      "B": "La Guerra de Corea",
+      "C": "La Guerra del Golfo",
+      "D": "La Crisis de los Misiles de Cuba"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0182",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué primer ministro británico es reconocido por su liderazgo durante la Segunda Guerra Mundial, especialmente en la resistencia contra la Alemania nazi?",
+    "opciones": {
+      "A": "Winston Churchill",
+      "B": "Tony Blair",
+      "C": "Neville Chamberlain",
+      "D": "Margaret Thatcher"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0183",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder italiano fascista gobernó Italia como dictador y fue aliado de la Alemania nazi durante la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "Benito Mussolini",
+      "B": "Francisco Franco",
+      "C": "Adolf Hitler",
+      "D": "Charles de Gaulle"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0184",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué revolución de 1949, liderada por Mao Zedong, estableció un gobierno comunista en China?",
+    "opciones": {
+      "A": "La Revolución Rusa",
+      "B": "La Revolución China",
+      "C": "La Revolución Cubana",
+      "D": "La Revolución Cultural (evento posterior dentro de la China comunista)"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0185",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué revolución de 1959, liderada por Fidel Castro, derrocó al gobierno de Fulgencio Batista en Cuba, estableciendo un régimen socialista?",
+    "opciones": {
+      "A": "La Revolución Sandinista",
+      "B": "La Revolución Cubana",
+      "C": "La Revolución China",
+      "D": "La Revolución Rusa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0186",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué política económica y militar de Estados Unidos, propuesta tras la Segunda Guerra Mundial, ayudó a la reconstrucción de Europa occidental?",
+    "opciones": {
+      "A": "La Doctrina Truman exclusivamente sin componente económico",
+      "B": "La Alianza para el Progreso (posterior, enfocada en Latinoamérica)",
+      "C": "El Tratado de Versalles",
+      "D": "El Plan Marshall"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0187",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué doctrina estadounidense de 1947 estableció el apoyo a países amenazados por el comunismo durante la Guerra Fría?",
+    "opciones": {
+      "A": "La Doctrina Truman",
+      "B": "La Doctrina Monroe (del siglo XIX)",
+      "C": "El Plan Marshall",
+      "D": "La Alianza para el Progreso"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0188",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso histórico, ocurrido principalmente entre las décadas de 1950 y 1970, llevó a la independencia de numerosas colonias africanas y asiáticas de las potencias europeas?",
+    "opciones": {
+      "A": "La Revolución Industrial",
+      "B": "El colonialismo",
+      "C": "La Guerra Fría exclusivamente",
+      "D": "La descolonización"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0189",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismo internacional, fundado en 1945, incluye entre sus principales órganos al Consejo de Seguridad, la Asamblea General y la Corte Internacional de Justicia?",
+    "opciones": {
+      "A": "La Organización de las Naciones Unidas (ONU)",
+      "B": "El Banco Mundial",
+      "C": "La OTAN",
+      "D": "La Unión Europea"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0190",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder sudafricano, símbolo de la lucha contra el apartheid, fue encarcelado durante 27 años y luego se convirtió en presidente de Sudáfrica?",
+    "opciones": {
+      "A": "Julius Nyerere",
+      "B": "Nelson Mandela",
+      "C": "Desmond Tutu (también relevante, pero no fue presidente)",
+      "D": "Kwame Nkrumah"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0191",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema de segregación racial institucionalizada existió en Sudáfrica desde 1948 hasta principios de la década de 1990?",
+    "opciones": {
+      "A": "El colonialismo",
+      "B": "El apartheid",
+      "C": "El totalitarismo",
+      "D": "El feudalismo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0192",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento de 1989 simbolizó el fin de la división de Europa entre el bloque occidental y el bloque comunista?",
+    "opciones": {
+      "A": "La caída del Muro de Berlín",
+      "B": "La Crisis de los Misiles de Cuba",
+      "C": "El fin de la Segunda Guerra Mundial",
+      "D": "La firma del Tratado de Versalles"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0193",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué presidente estadounidense encabezó la política del 'Nuevo Trato' (New Deal) para enfrentar la Gran Depresión de la década de 1930?",
+    "opciones": {
+      "A": "Woodrow Wilson",
+      "B": "Franklin D. Roosevelt",
+      "C": "Dwight Eisenhower",
+      "D": "Harry Truman"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0194",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué crisis económica mundial, iniciada en 1929 con el desplome de la bolsa de Nueva York, provocó desempleo masivo y pobreza a nivel global?",
+    "opciones": {
+      "A": "La Gran Depresión",
+      "B": "La crisis del petróleo de 1973",
+      "C": "La crisis financiera de 2008",
+      "D": "La hiperinflación alemana de 1923"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0195",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo político y militar japonés impulsó una política expansionista en Asia durante las décadas de 1930 y 1940, aliándose con Alemania e Italia?",
+    "opciones": {
+      "A": "Corea del Sur",
+      "B": "La República China",
+      "C": "La Unión Soviética",
+      "D": "El Imperio de Japón (bajo su gobierno militarista)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0196",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué alianza militar formaron Alemania, Italia y Japón durante la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "Los Aliados",
+      "B": "La OTAN",
+      "C": "El Eje (Potencias del Eje)",
+      "D": "El Pacto de Varsovia"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0197",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué países conformaron principalmente el bando de los Aliados durante la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "Alemania, Italia y Japón",
+      "B": "Estados Unidos, la Unión Soviética, el Reino Unido y Francia, entre otros",
+      "C": "China y Corea del Norte exclusivamente",
+      "D": "España y Portugal"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0198",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conferencia de 1945, entre Roosevelt, Churchill y Stalin, definió el reparto de Europa y el establecimiento de la ONU al término de la Segunda Guerra Mundial?",
+    "opciones": {
+      "A": "La Conferencia de Yalta",
+      "B": "La Conferencia de Potsdam (posterior, tras la muerte de Roosevelt)",
+      "C": "El Congreso de Viena",
+      "D": "El Tratado de Versalles"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0199",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué político francés lideró la resistencia contra la ocupación nazi desde el exilio y posteriormente fue presidente de Francia?",
+    "opciones": {
+      "A": "Charles de Gaulle",
+      "B": "Georges Clemenceau",
+      "C": "Winston Churchill",
+      "D": "Philippe Pétain (colaboró con los nazis en el régimen de Vichy)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  },
+  {
+    "id_reactivo": "HUN-0200",
+    "asignatura": "Historia Universal",
+    "subtemario": "Siglo XX: Guerras Mundiales y Guerra Fría",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué régimen colaboracionista francés gobernó la zona no ocupada de Francia durante la Segunda Guerra Mundial, en coordinación con la Alemania nazi?",
+    "opciones": {
+      "A": "El Directorio",
+      "B": "La Tercera República",
+      "C": "El régimen de Vichy",
+      "D": "La Francia Libre de De Gaulle"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del siglo XX: Guerras Mundiales y Guerra Fría."
+  }
+]

@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "ecoquest-dev",
-      "runtimeExecutable": "/Users/jorge/Desktop/ecoquest 2/.tools/node-v20.17.0-darwin-arm64/bin/npm",
+      "runtimeExecutable": "/Users/jorge/Desktop/ecoquest 2/.tools/node-v22.11.0-darwin-arm64/bin/npm",
       "runtimeArgs": ["run", "dev"],
       "port": 3000
     }

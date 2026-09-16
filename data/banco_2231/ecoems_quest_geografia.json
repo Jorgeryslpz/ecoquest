@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "GEO-0001",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de España?",
+    "opciones": {
+      "A": "Atenas",
+      "B": "Santiago",
+      "C": "Madrid",
+      "D": "Lisboa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de España es Madrid, país ubicado en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0002",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de China?",
+    "opciones": {
+      "A": "Pekín",
+      "B": "Madrid",
+      "C": "Bangkok",
+      "D": "Santiago"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de China es Pekín, país ubicado en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0003",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Tailandia?",
+    "opciones": {
+      "A": "Nairobi",
+      "B": "Bangkok",
+      "C": "Riad",
+      "D": "Nueva Delhi"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Tailandia es Bangkok, país ubicado en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0004",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Canadá?",
+    "opciones": {
+      "A": "Atenas",
+      "B": "Tokio",
+      "C": "Berlín",
+      "D": "Ottawa"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Canadá es Ottawa, país ubicado en América del Norte."
+  },
+  {
+    "id_reactivo": "GEO-0005",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Colombia?",
+    "opciones": {
+      "A": "Berlín",
+      "B": "Bangkok",
+      "C": "Bogotá",
+      "D": "Atenas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Colombia es Bogotá, país ubicado en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0006",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Rusia?",
+    "opciones": {
+      "A": "Lima",
+      "B": "Tokio",
+      "C": "Moscú",
+      "D": "Atenas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Rusia es Moscú, país ubicado en Europa/Asia."
+  },
+  {
+    "id_reactivo": "GEO-0007",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de India?",
+    "opciones": {
+      "A": "Nueva Delhi",
+      "B": "París",
+      "C": "Caracas",
+      "D": "Roma"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de India es Nueva Delhi, país ubicado en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0008",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Corea del Sur?",
+    "opciones": {
+      "A": "Ottawa",
+      "B": "Moscú",
+      "C": "Seúl",
+      "D": "Atenas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Corea del Sur es Seúl, país ubicado en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0009",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Grecia?",
+    "opciones": {
+      "A": "Rabat",
+      "B": "Nueva Delhi",
+      "C": "Atenas",
+      "D": "Lisboa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Grecia es Atenas, país ubicado en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0010",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Brasil?",
+    "opciones": {
+      "A": "Nairobi",
+      "B": "Seúl",
+      "C": "Wellington",
+      "D": "Brasilia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Brasil es Brasilia, país ubicado en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0011",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Sudáfrica?",
+    "opciones": {
+      "A": "Bangkok",
+      "B": "Tokio",
+      "C": "Pretoria",
+      "D": "Ciudad de México"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Sudáfrica es Pretoria, país ubicado en África."
+  },
+  {
+    "id_reactivo": "GEO-0012",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Portugal?",
+    "opciones": {
+      "A": "Lisboa",
+      "B": "Brasilia",
+      "C": "Rabat",
+      "D": "Atenas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Portugal es Lisboa, país ubicado en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0013",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Francia?",
+    "opciones": {
+      "A": "Rabat",
+      "B": "Buenos Aires",
+      "C": "Madrid",
+      "D": "París"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Francia es París, país ubicado en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0014",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Nigeria?",
+    "opciones": {
+      "A": "Washington D.C.",
+      "B": "Abuya",
+      "C": "Pretoria",
+      "D": "Bogotá"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Nigeria es Abuya, país ubicado en África."
+  },
+  {
+    "id_reactivo": "GEO-0015",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Kenia?",
+    "opciones": {
+      "A": "Bangkok",
+      "B": "Caracas",
+      "C": "Nairobi",
+      "D": "Canberra"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Kenia es Nairobi, país ubicado en África."
+  },
+  {
+    "id_reactivo": "GEO-0016",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Chile?",
+    "opciones": {
+      "A": "Santiago",
+      "B": "Nairobi",
+      "C": "Berlín",
+      "D": "Buenos Aires"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Chile es Santiago, país ubicado en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0017",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Alemania?",
+    "opciones": {
+      "A": "Ciudad de México",
+      "B": "Rabat",
+      "C": "Canberra",
+      "D": "Berlín"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Alemania es Berlín, país ubicado en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0018",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Argentina?",
+    "opciones": {
+      "A": "Pretoria",
+      "B": "París",
+      "C": "El Cairo",
+      "D": "Buenos Aires"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Argentina es Buenos Aires, país ubicado en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0019",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Arabia Saudita?",
+    "opciones": {
+      "A": "Brasilia",
+      "B": "Riad",
+      "C": "Caracas",
+      "D": "París"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Arabia Saudita es Riad, país ubicado en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0020",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Japón?",
+    "opciones": {
+      "A": "Tokio",
+      "B": "Londres",
+      "C": "Washington D.C.",
+      "D": "Canberra"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Japón es Tokio, país ubicado en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0021",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Venezuela?",
+    "opciones": {
+      "A": "Caracas",
+      "B": "Ottawa",
+      "C": "Wellington",
+      "D": "Madrid"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Venezuela es Caracas, país ubicado en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0022",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Perú?",
+    "opciones": {
+      "A": "Berlín",
+      "B": "Lima",
+      "C": "Abuya",
+      "D": "Bangkok"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Perú es Lima, país ubicado en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0023",
+    "asignatura": "Geografía",
+    "subtemario": "Países y capitales del mundo",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital de Marruecos?",
+    "opciones": {
+      "A": "Pretoria",
+      "B": "Nueva Delhi",
+      "C": "Santiago",
+      "D": "Rabat"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Marruecos es Rabat, país ubicado en África."
+  },
+  {
+    "id_reactivo": "GEO-0024",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Marruecos?",
+    "opciones": {
+      "A": "África",
+      "B": "América del Norte",
+      "C": "Oceanía",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Marruecos se ubica en África."
+  },
+  {
+    "id_reactivo": "GEO-0025",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Argentina?",
+    "opciones": {
+      "A": "América del Norte",
+      "B": "Oceanía",
+      "C": "América del Sur",
+      "D": "Europa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Argentina se ubica en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0026",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Tailandia?",
+    "opciones": {
+      "A": "África",
+      "B": "Oceanía",
+      "C": "Asia",
+      "D": "América del Norte"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Tailandia se ubica en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0027",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Colombia?",
+    "opciones": {
+      "A": "Asia",
+      "B": "Europa",
+      "C": "África",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Colombia se ubica en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0028",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Francia?",
+    "opciones": {
+      "A": "América del Sur",
+      "B": "Asia",
+      "C": "Europa",
+      "D": "Oceanía"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Francia se ubica en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0029",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Grecia?",
+    "opciones": {
+      "A": "Europa",
+      "B": "Oceanía",
+      "C": "África",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Grecia se ubica en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0030",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Sudáfrica?",
+    "opciones": {
+      "A": "Europa",
+      "B": "África",
+      "C": "Oceanía",
+      "D": "Asia"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Sudáfrica se ubica en África."
+  },
+  {
+    "id_reactivo": "GEO-0031",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica España?",
+    "opciones": {
+      "A": "Europa",
+      "B": "América del Sur",
+      "C": "Oceanía",
+      "D": "África"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "España se ubica en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0032",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Reino Unido?",
+    "opciones": {
+      "A": "América del Norte",
+      "B": "Oceanía",
+      "C": "Asia",
+      "D": "Europa"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Reino Unido se ubica en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0033",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Arabia Saudita?",
+    "opciones": {
+      "A": "Asia",
+      "B": "América del Sur",
+      "C": "América del Norte",
+      "D": "África"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Arabia Saudita se ubica en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0034",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Alemania?",
+    "opciones": {
+      "A": "Asia",
+      "B": "Europa",
+      "C": "América del Norte",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Alemania se ubica en Europa."
+  },
+  {
+    "id_reactivo": "GEO-0035",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Brasil?",
+    "opciones": {
+      "A": "América del Sur",
+      "B": "América del Norte",
+      "C": "África",
+      "D": "Oceanía"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Brasil se ubica en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0036",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Venezuela?",
+    "opciones": {
+      "A": "Asia",
+      "B": "Oceanía",
+      "C": "América del Sur",
+      "D": "África"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Venezuela se ubica en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0037",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Chile?",
+    "opciones": {
+      "A": "África",
+      "B": "América del Norte",
+      "C": "Oceanía",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Chile se ubica en América del Sur."
+  },
+  {
+    "id_reactivo": "GEO-0038",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica India?",
+    "opciones": {
+      "A": "Asia",
+      "B": "África",
+      "C": "Oceanía",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "India se ubica en Asia."
+  },
+  {
+    "id_reactivo": "GEO-0039",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Estados Unidos?",
+    "opciones": {
+      "A": "África",
+      "B": "Oceanía",
+      "C": "América del Norte",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Estados Unidos se ubica en América del Norte."
+  },
+  {
+    "id_reactivo": "GEO-0040",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Entre qué dos continentes se extiende el territorio de Rusia?",
+    "opciones": {
+      "A": "Europa y Asia",
+      "B": "Asia y África",
+      "C": "Europa y América",
+      "D": "Asia y Oceanía"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Rusia es un país transcontinental: la mayor parte de su territorio está en Asia, pero también se extiende sobre Europa, donde se ubican Moscú y San Petersburgo."
+  },
+  {
+    "id_reactivo": "GEO-0041",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Australia?",
+    "opciones": {
+      "A": "América del Sur",
+      "B": "Oceanía",
+      "C": "África",
+      "D": "Europa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Australia se ubica en Oceanía."
+  },
+  {
+    "id_reactivo": "GEO-0042",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Nigeria?",
+    "opciones": {
+      "A": "África",
+      "B": "Europa",
+      "C": "Asia",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Nigeria se ubica en África."
+  },
+  {
+    "id_reactivo": "GEO-0043",
+    "asignatura": "Geografía",
+    "subtemario": "Continentes y ubicación de países",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿En qué continente se ubica Canadá?",
+    "opciones": {
+      "A": "África",
+      "B": "Asia",
+      "C": "América del Sur",
+      "D": "América del Norte"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Canadá se ubica en América del Norte."
+  },
+  {
+    "id_reactivo": "GEO-0044",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Puebla?",
+    "opciones": {
+      "A": "Xalapa",
+      "B": "Mexicali",
+      "C": "Puebla de Zaragoza",
+      "D": "Oaxaca de Juárez"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Puebla es Puebla de Zaragoza, ubicado en la región Centro de México."
+  },
+  {
+    "id_reactivo": "GEO-0045",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Chihuahua?",
+    "opciones": {
+      "A": "Monterrey",
+      "B": "Chihuahua",
+      "C": "Chetumal",
+      "D": "Guadalajara"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Chihuahua es Chihuahua, ubicado en la región Norte de México."
+  },
+  {
+    "id_reactivo": "GEO-0046",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Nuevo León?",
+    "opciones": {
+      "A": "Monterrey",
+      "B": "Puebla de Zaragoza",
+      "C": "Oaxaca de Juárez",
+      "D": "Xalapa"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Nuevo León es Monterrey, ubicado en la región Noreste de México."
+  },
+  {
+    "id_reactivo": "GEO-0047",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Yucatán?",
+    "opciones": {
+      "A": "Ciudad Victoria",
+      "B": "Monterrey",
+      "C": "Mérida",
+      "D": "Guanajuato"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Yucatán es Mérida, ubicado en la región Sureste de México."
+  },
+  {
+    "id_reactivo": "GEO-0048",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Guanajuato?",
+    "opciones": {
+      "A": "Oaxaca de Juárez",
+      "B": "Chetumal",
+      "C": "Guanajuato",
+      "D": "Mexicali"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Guanajuato es Guanajuato, ubicado en la región Centro de México."
+  },
+  {
+    "id_reactivo": "GEO-0049",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Baja California?",
+    "opciones": {
+      "A": "Mexicali",
+      "B": "Guadalajara",
+      "C": "Hermosillo",
+      "D": "Tuxtla Gutiérrez"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Baja California es Mexicali, ubicado en la región Noroeste de México."
+  },
+  {
+    "id_reactivo": "GEO-0050",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Sinaloa?",
+    "opciones": {
+      "A": "Monterrey",
+      "B": "Culiacán",
+      "C": "Chetumal",
+      "D": "Xalapa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Sinaloa es Culiacán, ubicado en la región Noroeste de México."
+  },
+  {
+    "id_reactivo": "GEO-0051",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Quintana Roo?",
+    "opciones": {
+      "A": "Puebla de Zaragoza",
+      "B": "Mexicali",
+      "C": "Saltillo",
+      "D": "Chetumal"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La capital de Quintana Roo es Chetumal, ubicado en la región Sureste de México."
+  },
+  {
+    "id_reactivo": "GEO-0052",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Chiapas?",
+    "opciones": {
+      "A": "Tuxtla Gutiérrez",
+      "B": "Chihuahua",
+      "C": "Mérida",
+      "D": "Oaxaca de Juárez"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La capital de Chiapas es Tuxtla Gutiérrez, ubicado en la región Sureste de México."
+  },
+  {
+    "id_reactivo": "GEO-0053",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Oaxaca?",
+    "opciones": {
+      "A": "Chetumal",
+      "B": "Mérida",
+      "C": "Oaxaca de Juárez",
+      "D": "Tuxtla Gutiérrez"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Oaxaca es Oaxaca de Juárez, ubicado en la región Sur de México."
+  },
+  {
+    "id_reactivo": "GEO-0054",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Jalisco?",
+    "opciones": {
+      "A": "Saltillo",
+      "B": "Morelia",
+      "C": "Guadalajara",
+      "D": "Chihuahua"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La capital de Jalisco es Guadalajara, ubicado en la región Occidente de México."
+  },
+  {
+    "id_reactivo": "GEO-0055",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - estados y capitales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la capital del estado de Tamaulipas?",
+    "opciones": {
+      "A": "Xalapa",
+      "B": "Ciudad Victoria",
+      "C": "Tuxtla Gutiérrez",
+      "D": "Guanajuato"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La capital de Tamaulipas es Ciudad Victoria, ubicado en la región Noreste de México."
+  },
+  {
+    "id_reactivo": "GEO-0056",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Sinaloa?",
+    "opciones": {
+      "A": "Noreste",
+      "B": "Golfo de México",
+      "C": "Sureste",
+      "D": "Noroeste"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Sinaloa se ubica en la región Noroeste de México."
+  },
+  {
+    "id_reactivo": "GEO-0057",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Nuevo León?",
+    "opciones": {
+      "A": "Noreste",
+      "B": "Sureste",
+      "C": "Noroeste",
+      "D": "Centro"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Nuevo León se ubica en la región Noreste de México."
+  },
+  {
+    "id_reactivo": "GEO-0058",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Tamaulipas?",
+    "opciones": {
+      "A": "Sureste",
+      "B": "Golfo de México",
+      "C": "Centro",
+      "D": "Noreste"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Tamaulipas se ubica en la región Noreste de México."
+  },
+  {
+    "id_reactivo": "GEO-0059",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Chiapas?",
+    "opciones": {
+      "A": "Norte",
+      "B": "Noroeste",
+      "C": "Noreste",
+      "D": "Sureste"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Chiapas se ubica en la región Sureste de México."
+  },
+  {
+    "id_reactivo": "GEO-0060",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Puebla?",
+    "opciones": {
+      "A": "Centro",
+      "B": "Norte",
+      "C": "Sureste",
+      "D": "Occidente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Puebla se ubica en la región Centro de México."
+  },
+  {
+    "id_reactivo": "GEO-0061",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Guanajuato?",
+    "opciones": {
+      "A": "Sureste",
+      "B": "Centro",
+      "C": "Occidente",
+      "D": "Noroeste"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Guanajuato se ubica en la región Centro de México."
+  },
+  {
+    "id_reactivo": "GEO-0062",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Veracruz?",
+    "opciones": {
+      "A": "Golfo de México",
+      "B": "Centro",
+      "C": "Sureste",
+      "D": "Norte"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Veracruz se ubica en la región Golfo de México de México."
+  },
+  {
+    "id_reactivo": "GEO-0063",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Jalisco?",
+    "opciones": {
+      "A": "Sur",
+      "B": "Golfo de México",
+      "C": "Occidente",
+      "D": "Norte"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Jalisco se ubica en la región Occidente de México."
+  },
+  {
+    "id_reactivo": "GEO-0064",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Chihuahua?",
+    "opciones": {
+      "A": "Norte",
+      "B": "Sureste",
+      "C": "Occidente",
+      "D": "Sur"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Chihuahua se ubica en la región Norte de México."
+  },
+  {
+    "id_reactivo": "GEO-0065",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Sonora?",
+    "opciones": {
+      "A": "Noroeste",
+      "B": "Centro",
+      "C": "Occidente",
+      "D": "Sureste"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Sonora se ubica en la región Noroeste de México."
+  },
+  {
+    "id_reactivo": "GEO-0066",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Quintana Roo?",
+    "opciones": {
+      "A": "Noroeste",
+      "B": "Centro",
+      "C": "Occidente",
+      "D": "Sureste"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Quintana Roo se ubica en la región Sureste de México."
+  },
+  {
+    "id_reactivo": "GEO-0067",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - regiones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México se ubica el estado de Oaxaca?",
+    "opciones": {
+      "A": "Norte",
+      "B": "Sureste",
+      "C": "Centro",
+      "D": "Sur"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Oaxaca se ubica en la región Sur de México."
+  },
+  {
+    "id_reactivo": "GEO-0068",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - datos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos estados conforman la República Mexicana (sin contar Ciudad de México)?",
+    "opciones": {
+      "A": "32",
+      "B": "30",
+      "C": "31",
+      "D": "29"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Dato geográfico fundamental sobre México."
+  },
+  {
+    "id_reactivo": "GEO-0069",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - datos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el río más largo de México?",
+    "opciones": {
+      "A": "El río Bravo",
+      "B": "El río Usumacinta",
+      "C": "El río Balsas",
+      "D": "El río Lerma"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Dato geográfico fundamental sobre México."
+  },
+  {
+    "id_reactivo": "GEO-0070",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - datos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la montaña más alta de México?",
+    "opciones": {
+      "A": "El Popocatépetl",
+      "B": "El Nevado de Toluca",
+      "C": "El Pico de Orizaba (Citlaltépetl)",
+      "D": "El Iztaccíhuatl"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Dato geográfico fundamental sobre México."
+  },
+  {
+    "id_reactivo": "GEO-0071",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - datos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué océano baña las costas del Pacífico mexicano?",
+    "opciones": {
+      "A": "El mar Caribe exclusivamente",
+      "B": "El océano Atlántico",
+      "C": "El golfo Pérsico",
+      "D": "El océano Pacífico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Dato geográfico fundamental sobre México."
+  },
+  {
+    "id_reactivo": "GEO-0072",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - datos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Con qué países comparte México su frontera terrestre?",
+    "opciones": {
+      "A": "Estados Unidos y Cuba",
+      "B": "Estados Unidos, Guatemala y Belice",
+      "C": "Solo Estados Unidos",
+      "D": "Guatemala y Honduras exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Dato geográfico fundamental sobre México."
+  },
+  {
+    "id_reactivo": "GEO-0073",
+    "asignatura": "Geografía",
+    "subtemario": "Geografía de México - datos generales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la península más grande de México?",
+    "opciones": {
+      "A": "La península de California",
+      "B": "La península de Baja California",
+      "C": "La península de Yucatán",
+      "D": "La península de Baja California Sur exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Dato geográfico fundamental sobre México."
+  },
+  {
+    "id_reactivo": "GEO-0074",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el río más largo del mundo?",
+    "opciones": {
+      "A": "El río Nilo (o el Amazonas, según el criterio de medición)",
+      "B": "El río Misisipi",
+      "C": "El río Yangtsé",
+      "D": "El río Amazonas exclusivamente sin discusión"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0075",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la cadena montañosa más larga del mundo?",
+    "opciones": {
+      "A": "Las Montañas Rocosas",
+      "B": "El Himalaya",
+      "C": "Los Alpes",
+      "D": "La cordillera de los Andes"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0076",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el monte más alto del mundo?",
+    "opciones": {
+      "A": "El Kilimanjaro",
+      "B": "El Aconcagua",
+      "C": "El monte Everest",
+      "D": "El K2"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0077",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el desierto más grande del mundo (cálido)?",
+    "opciones": {
+      "A": "El desierto de Gobi",
+      "B": "El desierto de Atacama",
+      "C": "El desierto del Sahara",
+      "D": "El desierto de Kalahari"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0078",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de clima se caracteriza por temperaturas altas y lluvias abundantes todo el año?",
+    "opciones": {
+      "A": "Clima desértico",
+      "B": "Clima mediterráneo",
+      "C": "Clima polar",
+      "D": "Clima tropical húmedo (ecuatorial)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0079",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de clima se caracteriza por veranos secos y calurosos e inviernos templados y lluviosos?",
+    "opciones": {
+      "A": "Clima polar",
+      "B": "Clima tropical",
+      "C": "Clima continental húmedo",
+      "D": "Clima mediterráneo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0080",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una cuenca hidrográfica?",
+    "opciones": {
+      "A": "Un tipo de montaña volcánica",
+      "B": "Un tipo de bosque tropical",
+      "C": "Una zona desértica sin ríos",
+      "D": "El territorio drenado por un río principal y sus afluentes"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0081",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nombre reciben las formaciones montañosas producidas por el choque de placas tectónicas?",
+    "opciones": {
+      "A": "Cordilleras (u orogenias)",
+      "B": "Llanuras",
+      "C": "Deltas",
+      "D": "Mesetas exclusivamente sin relación tectónica"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0082",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una meseta, en términos de relieve?",
+    "opciones": {
+      "A": "Una isla volcánica",
+      "B": "Un tipo de río subterráneo",
+      "C": "Una extensión de terreno plano y elevado respecto al nivel del mar",
+      "D": "Una depresión profunda bajo el nivel del mar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0083",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una llanura?",
+    "opciones": {
+      "A": "Una extensión de terreno plano, generalmente a poca altitud sobre el nivel del mar",
+      "B": "Un tipo de arrecife de coral",
+      "C": "Un cráter volcánico",
+      "D": "Una montaña de gran altitud"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0084",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un delta, en geografía fluvial?",
+    "opciones": {
+      "A": "La formación de tierra en la desembocadura de un río, por acumulación de sedimentos",
+      "B": "Un tipo de lago artificial",
+      "C": "El nacimiento de un río en la montaña",
+      "D": "Una cordillera submarina"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0085",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué océano es el más grande y profundo del mundo?",
+    "opciones": {
+      "A": "El océano Ártico",
+      "B": "El océano Atlántico",
+      "C": "El océano Índico",
+      "D": "El océano Pacífico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0086",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el lago de agua dulce más grande del mundo por superficie?",
+    "opciones": {
+      "A": "El lago Superior (en Norteamérica)",
+      "B": "El lago Victoria",
+      "C": "El lago Titicaca",
+      "D": "El mar Caspio"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0087",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el Círculo Polar Ártico?",
+    "opciones": {
+      "A": "Una zona desértica del hemisferio norte",
+      "B": "Una cordillera montañosa en el polo norte",
+      "C": "Un tipo de corriente marina fría",
+      "D": "Una línea imaginaria que delimita la región donde ocurre el fenómeno del sol de medianoche"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0088",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el continente más extenso del mundo?",
+    "opciones": {
+      "A": "América",
+      "B": "Asia",
+      "C": "África",
+      "D": "Europa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0089",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el continente más pequeño del mundo (excluyendo la Antártida)?",
+    "opciones": {
+      "A": "Europa",
+      "B": "África",
+      "C": "América del Sur",
+      "D": "Oceanía"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0090",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el océano más pequeño del mundo?",
+    "opciones": {
+      "A": "El océano Ártico",
+      "B": "El océano Índico",
+      "C": "El océano Pacífico",
+      "D": "El océano Atlántico"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0091",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una corriente marina?",
+    "opciones": {
+      "A": "Un tipo de ola producida por terremotos",
+      "B": "Un fenómeno exclusivo de los ríos",
+      "C": "Un flujo continuo y dirigido de agua oceánica, que puede ser cálida o fría",
+      "D": "Una línea imaginaria de longitud"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0092",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué corriente marina cálida influye en el clima templado de Europa occidental?",
+    "opciones": {
+      "A": "La corriente de Kuroshio",
+      "B": "La corriente de Humboldt",
+      "C": "La corriente del Golfo",
+      "D": "La corriente de California"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0093",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un volcán?",
+    "opciones": {
+      "A": "Una depresión producida por la erosión eólica",
+      "B": "Una montaña formada exclusivamente por sedimentos marinos",
+      "C": "Un tipo de glaciar en zonas polares",
+      "D": "Una abertura en la corteza terrestre por donde emerge material fundido del interior de la Tierra"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0094",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fenómeno geológico se produce por el choque o fricción entre placas tectónicas y libera energía en forma de ondas sísmicas?",
+    "opciones": {
+      "A": "Una sequía",
+      "B": "Un huracán",
+      "C": "Un tsunami exclusivamente sin relación sísmica",
+      "D": "Un terremoto (sismo)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0095",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un glaciar?",
+    "opciones": {
+      "A": "Un volcán inactivo cubierto de nieve",
+      "B": "Una corriente marina polar",
+      "C": "Una gran masa de hielo formada por la acumulación y compactación de nieve a lo largo del tiempo",
+      "D": "Un tipo de desierto frío sin hielo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0096",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la erosión, en geografía física?",
+    "opciones": {
+      "A": "La formación de nuevas montañas por actividad volcánica",
+      "B": "El proceso de evaporación del agua de los océanos",
+      "C": "El desgaste y transporte de materiales de la superficie terrestre por agentes como el agua, el viento o el hielo",
+      "D": "El movimiento de las placas tectónicas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0097",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una isla?",
+    "opciones": {
+      "A": "Una porción de tierra rodeada completamente de agua",
+      "B": "Un tipo de arrecife artificial",
+      "C": "Una montaña submarina que no llega a la superficie",
+      "D": "Una península unida al continente por un istmo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0098",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una península?",
+    "opciones": {
+      "A": "Una isla completamente rodeada de agua",
+      "B": "Una porción de tierra rodeada de agua por casi todos sus lados, excepto por una franja que la conecta con el continente",
+      "C": "Una cordillera submarina",
+      "D": "Un tipo de bahía profunda"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0099",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un istmo?",
+    "opciones": {
+      "A": "Un tipo de desierto costero",
+      "B": "Una cadena montañosa submarina",
+      "C": "Una isla aislada en medio del océano",
+      "D": "Una franja estrecha de tierra que conecta dos masas continentales más grandes"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0100",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un estrecho, en geografía?",
+    "opciones": {
+      "A": "Una montaña con forma alargada",
+      "B": "Un paso de mar angosto que conecta dos grandes masas de agua",
+      "C": "Una franja de tierra que une dos continentes",
+      "D": "Un tipo de bahía poco profunda"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0101",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué zona climática se caracteriza por temperaturas extremadamente bajas todo el año, cerca de los polos?",
+    "opciones": {
+      "A": "Clima mediterráneo",
+      "B": "Clima desértico cálido",
+      "C": "Clima tropical",
+      "D": "Clima polar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0102",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué zona climática se caracteriza por veranos e inviernos marcados, con estaciones bien diferenciadas, típica del interior de los continentes?",
+    "opciones": {
+      "A": "Clima polar",
+      "B": "Clima continental",
+      "C": "Clima ecuatorial",
+      "D": "Clima tropical húmedo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0103",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la altitud y cómo afecta al clima de una región?",
+    "opciones": {
+      "A": "La cantidad de lluvia anual de una región",
+      "B": "La distancia de una región al ecuador exclusivamente",
+      "C": "La altura sobre el nivel del mar; a mayor altitud, generalmente menor temperatura",
+      "D": "El tipo de suelo predominante en la región"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0104",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la latitud y cómo afecta al clima?",
+    "opciones": {
+      "A": "La distancia de un lugar al mar más cercano",
+      "B": "La distancia angular de un punto respecto al ecuador; a mayor latitud, generalmente menor temperatura",
+      "C": "El tipo de vegetación de una región",
+      "D": "La altura de un lugar sobre el nivel del mar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0105",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los trópicos de Cáncer y Capricornio?",
+    "opciones": {
+      "A": "Cordilleras ubicadas en el hemisferio sur",
+      "B": "Corrientes marinas cálidas del Pacífico",
+      "C": "Paralelos que delimitan la zona donde el sol puede estar directamente sobre la vertical (zona intertropical)",
+      "D": "Meridianos que dividen los husos horarios"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0106",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica define a un bosque templado?",
+    "opciones": {
+      "A": "Presenta estaciones bien marcadas y árboles como robles y pinos, en zonas de clima templado",
+      "B": "Ausencia total de vegetación por el frío extremo",
+      "C": "Vegetación exclusivamente de cactáceas",
+      "D": "Temperaturas altas constantes y lluvias todo el año"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0107",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica define a la sabana como tipo de vegetación?",
+    "opciones": {
+      "A": "Pastizales con árboles dispersos, típica de climas tropicales con estación seca marcada",
+      "B": "Ausencia total de vegetación por aridez extrema",
+      "C": "Vegetación de coníferas en climas fríos",
+      "D": "Bosques densos con lluvia constante todo el año"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0108",
+    "asignatura": "Geografía",
+    "subtemario": "Relieve, ríos y climas del mundo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la selva tropical (bosque lluvioso)?",
+    "opciones": {
+      "A": "Una zona sin biodiversidad significativa",
+      "B": "Un ecosistema árido con escasa vegetación",
+      "C": "Un tipo de bosque exclusivo de climas fríos",
+      "D": "Un ecosistema con abundante vegetación y biodiversidad, propio de climas cálidos y húmedos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía física."
+  },
+  {
+    "id_reactivo": "GEO-0109",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la densidad de población?",
+    "opciones": {
+      "A": "La tasa de natalidad de una región",
+      "B": "El número total de habitantes de un país",
+      "C": "El porcentaje de población urbana",
+      "D": "El número de habitantes por unidad de superficie (por ejemplo, por km²)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0110",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el país más poblado del mundo actualmente (según estimaciones recientes)?",
+    "opciones": {
+      "A": "India",
+      "B": "China",
+      "C": "Estados Unidos",
+      "D": "Indonesia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0111",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la migración, en términos demográficos?",
+    "opciones": {
+      "A": "La distribución de recursos naturales",
+      "B": "El crecimiento natural de una población",
+      "C": "El desplazamiento de personas de un lugar a otro, cambiando su lugar de residencia",
+      "D": "Un tipo de clima estacional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0112",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por urbanización?",
+    "opciones": {
+      "A": "El proceso de crecimiento de las ciudades y aumento de la población que vive en zonas urbanas",
+      "B": "La construcción exclusiva de zonas industriales",
+      "C": "La disminución de la población mundial",
+      "D": "El abandono total de las zonas rurales"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0113",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la tasa de natalidad?",
+    "opciones": {
+      "A": "El número de nacimientos por cada mil habitantes en un periodo determinado",
+      "B": "La cantidad de matrimonios registrados al año",
+      "C": "El porcentaje de personas mayores de 65 años",
+      "D": "El número de personas que emigran de un país"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0114",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la tasa de mortalidad?",
+    "opciones": {
+      "A": "El número de defunciones por cada mil habitantes en un periodo determinado",
+      "B": "El porcentaje de población que emigra",
+      "C": "El crecimiento económico de un país",
+      "D": "El número de nacimientos en un año"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0115",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una megalópolis?",
+    "opciones": {
+      "A": "Un tipo de clima urbano",
+      "B": "Un pequeño poblado rural",
+      "C": "Una extensa área urbana formada por la unión de varias ciudades y sus zonas metropolitanas",
+      "D": "Una zona exclusivamente industrial sin población"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0116",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué factores suelen influir en la distribución de la población mundial?",
+    "opciones": {
+      "A": "Únicamente el color del suelo",
+      "B": "Exclusivamente la cercanía a volcanes activos",
+      "C": "El clima, el relieve, la disponibilidad de agua y las actividades económicas",
+      "D": "Solo la temperatura promedio anual"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0117",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una pirámide de población?",
+    "opciones": {
+      "A": "Un indicador exclusivo de la actividad económica",
+      "B": "Una gráfica que representa la distribución de una población por edad y sexo",
+      "C": "Un tipo de monumento arqueológico",
+      "D": "Una medida de la superficie de un país"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0118",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por esperanza de vida?",
+    "opciones": {
+      "A": "La edad mínima legal para trabajar",
+      "B": "El promedio de años que se espera que viva una persona en una población determinada",
+      "C": "El número total de habitantes de un país",
+      "D": "El porcentaje de población que vive en ciudades"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0119",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la emigración?",
+    "opciones": {
+      "A": "La construcción de nuevas ciudades",
+      "B": "El crecimiento natural de la población",
+      "C": "La salida de personas de su país o región de origen hacia otro lugar",
+      "D": "La llegada de personas a un país distinto al de origen"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0120",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la inmigración?",
+    "opciones": {
+      "A": "El aumento de la tasa de natalidad",
+      "B": "La salida de personas de su país de origen",
+      "C": "La disminución de la población urbana",
+      "D": "La llegada de personas a un país o región distinto al de su origen para establecerse ahí"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0121",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una zona metropolitana?",
+    "opciones": {
+      "A": "Una región exclusivamente rural sin ciudades",
+      "B": "Un país completo sin divisiones internas",
+      "C": "El área que incluye una ciudad central y los municipios o localidades conurbadas que dependen económicamente de ella",
+      "D": "Un tipo de clima urbano específico"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0122",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por población económicamente activa (PEA)?",
+    "opciones": {
+      "A": "El conjunto de personas en edad de trabajar que están empleadas o buscan empleo activamente",
+      "B": "Únicamente los estudiantes universitarios",
+      "C": "Solo las personas jubiladas",
+      "D": "Todos los habitantes de un país sin excepción"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0123",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el envejecimiento poblacional?",
+    "opciones": {
+      "A": "La disminución de la esperanza de vida",
+      "B": "El crecimiento acelerado de las zonas rurales",
+      "C": "El aumento en la tasa de natalidad de un país",
+      "D": "El aumento en la proporción de personas de edad avanzada dentro de una población"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0124",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la transición demográfica?",
+    "opciones": {
+      "A": "La urbanización exclusiva de zonas costeras",
+      "B": "El proceso histórico de cambio de altas tasas de natalidad y mortalidad a tasas bajas, conforme un país se desarrolla",
+      "C": "Un tipo de migración forzada por conflictos",
+      "D": "El cambio climático en una región determinada"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0125",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué características suele tener una pirámide de población de un país en desarrollo, con alta natalidad?",
+    "opciones": {
+      "A": "Una base angosta y una cúspide ancha",
+      "B": "Una forma completamente rectangular",
+      "C": "Una forma invertida con más ancianos que jóvenes",
+      "D": "Una base ancha, reflejando una gran proporción de población joven"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0126",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'población rural'?",
+    "opciones": {
+      "A": "La población que vive exclusivamente en grandes ciudades",
+      "B": "La población que trabaja únicamente en el sector servicios",
+      "C": "La población que habita en localidades pequeñas, generalmente dedicada a actividades agropecuarias",
+      "D": "La totalidad de la población de un país"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0127",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'población urbana'?",
+    "opciones": {
+      "A": "La población que vive exclusivamente en el campo",
+      "B": "La población dedicada únicamente a la agricultura",
+      "C": "La población que habita en ciudades y zonas con alta concentración de habitantes e infraestructura",
+      "D": "La población menor de edad de un país"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0128",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué factor demográfico mide el número de hijos promedio que tendría una mujer durante su vida fértil?",
+    "opciones": {
+      "A": "La esperanza de vida",
+      "B": "La tasa de urbanización",
+      "C": "La tasa de mortalidad infantil",
+      "D": "La tasa de fecundidad"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0129",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un flujo migratorio?",
+    "opciones": {
+      "A": "El movimiento de un grupo de personas desde un lugar de origen hacia un lugar de destino en un periodo determinado",
+      "B": "Una medida de la densidad de población",
+      "C": "Un tipo de corriente marina",
+      "D": "Un fenómeno climático estacional"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0130",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la segregación urbana?",
+    "opciones": {
+      "A": "La separación espacial de grupos sociales dentro de una ciudad, generalmente por nivel socioeconómico",
+      "B": "El crecimiento poblacional de una zona rural",
+      "C": "Un tipo de clima urbano",
+      "D": "La construcción de nuevas carreteras en una ciudad"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0131",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel juegan las remesas en la economía de países con alta emigración, como México?",
+    "opciones": {
+      "A": "Representan un ingreso económico importante enviado por migrantes a sus familias en el país de origen",
+      "B": "Son subsidios que el gobierno da a los migrantes para salir del país",
+      "C": "Son impuestos que los migrantes pagan a su país de destino",
+      "D": "No tienen ningún impacto económico relevante"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0132",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una favela o asentamiento irregular en el contexto urbano latinoamericano?",
+    "opciones": {
+      "A": "Áreas naturales protegidas dentro de las ciudades",
+      "B": "Barrios residenciales de altos ingresos",
+      "C": "Zonas de vivienda precaria, generalmente surgidas de forma no planificada en las periferias urbanas",
+      "D": "Zonas industriales exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0133",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la conurbación?",
+    "opciones": {
+      "A": "El abandono total de una zona urbana",
+      "B": "La separación de una ciudad en varios municipios independientes",
+      "C": "El proceso de unión física entre dos o más ciudades que originalmente estaban separadas, formando una sola área urbana continua",
+      "D": "Un tipo de clima característico de las grandes ciudades"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0134",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué indicador se usa comúnmente para medir el nivel de desarrollo humano de un país, combinando salud, educación e ingreso?",
+    "opciones": {
+      "A": "La tasa de natalidad exclusivamente",
+      "B": "El número total de habitantes",
+      "C": "El Índice de Desarrollo Humano (IDH)",
+      "D": "La superficie territorial del país"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0135",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'brecha digital' en geografía humana?",
+    "opciones": {
+      "A": "La distancia física entre dos ciudades",
+      "B": "Un tipo de frontera política",
+      "C": "La desigualdad en el acceso a tecnologías de información entre distintas regiones o grupos sociales",
+      "D": "La diferencia de husos horarios entre países"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0136",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región del mundo tiene actualmente una de las tasas de natalidad más altas?",
+    "opciones": {
+      "A": "Asia oriental",
+      "B": "Europa occidental",
+      "C": "África subsahariana",
+      "D": "América del Norte"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0137",
+    "asignatura": "Geografía",
+    "subtemario": "Población y geografía humana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un país 'sobrepoblado' en términos relativos?",
+    "opciones": {
+      "A": "Un país donde la población excede la capacidad de sus recursos y infraestructura disponibles",
+      "B": "Un país con superficie territorial muy extensa",
+      "C": "Un país con baja densidad de población",
+      "D": "Un país con alta esperanza de vida"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía humana y demografía."
+  },
+  {
+    "id_reactivo": "GEO-0138",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un recurso natural renovable?",
+    "opciones": {
+      "A": "Un recurso que se agota y no puede regenerarse, como el petróleo",
+      "B": "Un recurso fabricado exclusivamente por el ser humano",
+      "C": "Un tipo de moneda internacional",
+      "D": "Un recurso que se regenera de forma natural en un periodo razonable, como el agua o los bosques"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0139",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un recurso natural no renovable?",
+    "opciones": {
+      "A": "Un recurso que no se regenera o tarda millones de años en formarse, como el petróleo o el carbón",
+      "B": "Un recurso que se regenera rápidamente, como el viento",
+      "C": "Un producto manufacturado en fábricas",
+      "D": "Un recurso disponible de forma ilimitada"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0140",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué actividad económica se dedica a la extracción directa de recursos naturales, como la agricultura, ganadería, pesca y minería?",
+    "opciones": {
+      "A": "El sector primario",
+      "B": "El sector terciario",
+      "C": "El sector cuaternario",
+      "D": "El sector secundario"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0141",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué actividad económica transforma las materias primas en productos manufacturados?",
+    "opciones": {
+      "A": "El sector informal exclusivamente",
+      "B": "El sector primario",
+      "C": "El sector terciario",
+      "D": "El sector secundario (industria)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0142",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué actividad económica incluye los servicios, como el comercio, la educación y el turismo?",
+    "opciones": {
+      "A": "El sector extractivo",
+      "B": "El sector secundario",
+      "C": "El sector terciario",
+      "D": "El sector primario"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0143",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son las energías renovables?",
+    "opciones": {
+      "A": "Un tipo de energía que se agota en pocos años",
+      "B": "Energía generada únicamente por centrales nucleares",
+      "C": "Fuentes de energía basadas exclusivamente en combustibles fósiles",
+      "D": "Fuentes de energía que provienen de recursos naturales inagotables, como el sol, el viento y el agua"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0144",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región del mundo es conocida por concentrar las mayores reservas de petróleo?",
+    "opciones": {
+      "A": "Medio Oriente",
+      "B": "Oceanía",
+      "C": "Antártida",
+      "D": "Europa del Norte"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0145",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la globalización, en el contexto de la geografía económica?",
+    "opciones": {
+      "A": "El proceso de creciente interconexión económica, cultural y política entre países del mundo",
+      "B": "Un tipo de clima que afecta solo a zonas tropicales",
+      "C": "El aislamiento comercial de un país respecto al resto del mundo",
+      "D": "Una política exclusiva de países en desarrollo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0146",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el sector cuaternario de la economía?",
+    "opciones": {
+      "A": "El sector dedicado exclusivamente a la agricultura",
+      "B": "El sector dedicado únicamente a la construcción",
+      "C": "El sector encargado de la extracción de minerales",
+      "D": "El sector relacionado con actividades intelectuales y de información, como investigación y desarrollo tecnológico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0147",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un tratado de libre comercio?",
+    "opciones": {
+      "A": "Un tipo de moneda compartida entre países",
+      "B": "Un impuesto adicional sobre las importaciones",
+      "C": "Un acuerdo entre países para reducir o eliminar barreras arancelarias al comercio entre ellos",
+      "D": "Una prohibición total de comercio entre naciones"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0148",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producto agrícola es uno de los principales cultivos de exportación de países como Colombia y Brasil?",
+    "opciones": {
+      "A": "El café",
+      "B": "El algodón exclusivamente",
+      "C": "La soya exclusivamente",
+      "D": "El trigo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0149",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región del mundo concentra gran parte de la manufactura electrónica global actualmente?",
+    "opciones": {
+      "A": "África subsahariana",
+      "B": "Oceanía",
+      "C": "Asia oriental (China, Corea del Sur, Taiwán, entre otros)",
+      "D": "América del Sur"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0150",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una zona económica especial?",
+    "opciones": {
+      "A": "Un área geográfica delimitada con reglas económicas distintas (como menores impuestos) para atraer inversión",
+      "B": "Un área exclusivamente turística sin comercio",
+      "C": "Una región protegida por su valor ecológico exclusivamente",
+      "D": "Una zona sin ninguna actividad económica permitida"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0151",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué recurso natural es fundamental en la matriz energética de países como Arabia Saudita y Venezuela?",
+    "opciones": {
+      "A": "El carbón exclusivamente",
+      "B": "El petróleo",
+      "C": "El gas natural exclusivamente sin petróleo",
+      "D": "La energía eólica"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0152",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la balanza comercial de un país?",
+    "opciones": {
+      "A": "La diferencia entre el valor de sus exportaciones y sus importaciones",
+      "B": "El tipo de cambio de su moneda",
+      "C": "El total de impuestos recaudados en un año",
+      "D": "El número de empresas registradas en el país"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0153",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'materia prima' en economía?",
+    "opciones": {
+      "A": "Un servicio ofrecido al consumidor final",
+      "B": "Un producto ya terminado listo para la venta",
+      "C": "Un recurso natural utilizado como insumo básico en un proceso de producción",
+      "D": "Un tipo de moneda de intercambio internacional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0154",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el turismo como actividad económica?",
+    "opciones": {
+      "A": "Una actividad exclusiva del sector primario",
+      "B": "Un servicio del sector terciario relacionado con los viajes y la estancia de personas fuera de su lugar habitual",
+      "C": "Una actividad relacionada únicamente con la minería",
+      "D": "Un tipo de industria manufacturera"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0155",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los 'países emergentes' en el contexto económico mundial?",
+    "opciones": {
+      "A": "Los países con las economías más desarrolladas del mundo",
+      "B": "Naciones en proceso de rápido crecimiento económico e industrialización, como Brasil, India o México",
+      "C": "Países que han dejado de participar en el comercio internacional",
+      "D": "Naciones sin ningún tipo de actividad económica"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0156",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el comercio justo (fair trade)?",
+    "opciones": {
+      "A": "Un sistema que elimina cualquier tipo de comercio internacional",
+      "B": "Un modelo de comercio que busca condiciones más equitativas para productores, especialmente en países en desarrollo",
+      "C": "Un impuesto exclusivo sobre productos de lujo",
+      "D": "Una política que prohíbe la exportación de alimentos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0157",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región concentra la mayor producción mundial de cobre, incluyendo a Chile como principal productor?",
+    "opciones": {
+      "A": "Oceanía",
+      "B": "América del Sur",
+      "C": "Europa del Este",
+      "D": "América del Norte"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0158",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la agricultura de subsistencia?",
+    "opciones": {
+      "A": "Una agricultura orientada exclusivamente a la exportación masiva",
+      "B": "Un tipo de agricultura orientada a producir alimentos principalmente para el consumo de la propia familia o comunidad",
+      "C": "Un tipo de ganadería industrializada",
+      "D": "Una técnica de pesca en aguas profundas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0159",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la agroindustria?",
+    "opciones": {
+      "A": "Una rama de la minería subterránea",
+      "B": "Un sector relacionado únicamente con servicios financieros",
+      "C": "El conjunto de actividades económicas relacionadas con la transformación de productos agrícolas y ganaderos",
+      "D": "Un tipo de actividad exclusivamente extractiva sin transformación"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0160",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una maquiladora, término usado frecuentemente en el contexto económico de México?",
+    "opciones": {
+      "A": "Un tipo de institución financiera",
+      "B": "Una tienda dedicada exclusivamente a la venta minorista",
+      "C": "Una granja dedicada a la agricultura orgánica",
+      "D": "Una planta industrial que ensambla o procesa productos, generalmente para exportación, usando insumos importados"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0161",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismo internacional regula y promueve el comercio entre países, estableciendo normas comerciales globales?",
+    "opciones": {
+      "A": "El Fondo Monetario Internacional (exclusivamente)",
+      "B": "La Organización Mundial del Comercio (OMC)",
+      "C": "La Organización Mundial de la Salud",
+      "D": "La Organización de las Naciones Unidas (exclusivamente en temas comerciales)"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0162",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región es conocida como el 'granero del mundo' por su alta producción de cereales, como trigo y maíz?",
+    "opciones": {
+      "A": "El desierto del Sahara",
+      "B": "La región de las llanuras de Estados Unidos, Canadá, Argentina y algunas zonas de Europa del Este",
+      "C": "El Ártico",
+      "D": "La región amazónica"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0163",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la pesca industrial, a diferencia de la pesca artesanal?",
+    "opciones": {
+      "A": "Una actividad prohibida en todos los países",
+      "B": "Una técnica de pesca practicada únicamente por comunidades pequeñas para consumo propio",
+      "C": "La captura de grandes volúmenes de peces mediante embarcaciones y tecnología a gran escala, orientada al mercado masivo",
+      "D": "Un tipo de agricultura marina exclusivamente orgánica"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0164",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región del mundo es reconocida por su alta producción de arroz, siendo esencial en su dieta y economía?",
+    "opciones": {
+      "A": "El sudeste asiático (incluyendo países como China, India, Tailandia y Vietnam)",
+      "B": "América Central exclusivamente",
+      "C": "El norte de África",
+      "D": "Escandinavia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0165",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la infraestructura de transporte y por qué es importante para la economía de una región?",
+    "opciones": {
+      "A": "El conjunto de vías, puertos, aeropuertos y ferrocarriles que permiten el movimiento de personas y mercancías, facilitando el comercio",
+      "B": "Un indicador exclusivo del clima de una región",
+      "C": "Un tipo de recurso natural no renovable",
+      "D": "Una medida de la biodiversidad de un país"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0166",
+    "asignatura": "Geografía",
+    "subtemario": "Recursos naturales y actividades económicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la minería a cielo abierto?",
+    "opciones": {
+      "A": "Un método de extracción exclusivamente subterráneo",
+      "B": "Una técnica de pesca en aguas profundas",
+      "C": "Un método de extracción de minerales que se realiza en la superficie terrestre, removiendo grandes cantidades de tierra",
+      "D": "Un tipo de agricultura de alta tecnología"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de geografía económica."
+  },
+  {
+    "id_reactivo": "GEO-0167",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 62° de latitud sur y 91° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio oriental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0168",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 25° de latitud sur y 43° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio oriental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0169",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 33° de latitud norte y 160° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio norte y hemisferio oriental",
+      "C": "Hemisferio sur y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio occidental"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0170",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 31° de latitud sur y 91° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio oriental",
+      "B": "Hemisferio sur y hemisferio oriental",
+      "C": "Hemisferio norte y hemisferio occidental",
+      "D": "Hemisferio sur y hemisferio occidental"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0171",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 58° de latitud norte y 134° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio oriental",
+      "B": "Hemisferio sur y hemisferio oriental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio occidental"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0172",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 48° de latitud norte y 56° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio oriental",
+      "B": "Hemisferio sur y hemisferio oriental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio occidental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0173",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 12° de latitud sur y 120° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio oriental",
+      "B": "Hemisferio norte y hemisferio oriental",
+      "C": "Hemisferio norte y hemisferio occidental",
+      "D": "Hemisferio sur y hemisferio occidental"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0174",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 38° de latitud sur y 58° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio occidental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0175",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 51° de latitud norte y 151° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio oriental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0176",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 15° de latitud norte y 26° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio sur y hemisferio oriental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0177",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 16° de latitud norte y 99° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio oriental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio sur y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0178",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 35° de latitud norte y 6° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio oriental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio sur y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0179",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 50° de latitud sur y 125° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio occidental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0180",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 22° de latitud sur y 88° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio oriental"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0181",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 51° de latitud sur y 148° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio oriental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0182",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 37° de latitud sur y 142° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio oriental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio oriental",
+      "D": "Hemisferio norte y hemisferio occidental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0183",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 58° de latitud sur y 165° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio sur y hemisferio oriental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio occidental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0184",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 10° de latitud sur y 158° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio norte y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio oriental"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0185",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 18° de latitud sur y 117° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio sur y hemisferio oriental",
+      "C": "Hemisferio norte y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio occidental"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La latitud sur ubica el punto en el hemisferio sur, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0186",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 59° de latitud norte y 1° de longitud este. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio oriental",
+      "B": "Hemisferio norte y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio oriental",
+      "D": "Hemisferio sur y hemisferio occidental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud este lo ubica en el hemisferio oriental."
+  },
+  {
+    "id_reactivo": "GEO-0187",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - coordenadas geográficas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un punto se ubica a 18° de latitud norte y 40° de longitud oeste. ¿En qué hemisferios se encuentra este punto?",
+    "opciones": {
+      "A": "Hemisferio norte y hemisferio occidental",
+      "B": "Hemisferio sur y hemisferio occidental",
+      "C": "Hemisferio sur y hemisferio oriental",
+      "D": "Hemisferio norte y hemisferio oriental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La latitud norte ubica el punto en el hemisferio norte, y la longitud oeste lo ubica en el hemisferio occidental."
+  },
+  {
+    "id_reactivo": "GEO-0188",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué línea imaginaria divide a la Tierra en hemisferio norte y hemisferio sur?",
+    "opciones": {
+      "A": "El trópico de Cáncer",
+      "B": "El círculo polar ártico",
+      "C": "El ecuador",
+      "D": "El meridiano de Greenwich"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0189",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué línea imaginaria se usa como referencia (0°) para medir la longitud geográfica?",
+    "opciones": {
+      "A": "El ecuador",
+      "B": "El trópico de Capricornio",
+      "C": "El meridiano de Greenwich",
+      "D": "El paralelo 45"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0190",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué representan los paralelos en un mapa?",
+    "opciones": {
+      "A": "Líneas imaginarias horizontales que miden la latitud",
+      "B": "Las rutas de navegación marítima",
+      "C": "Líneas imaginarias verticales que miden la longitud",
+      "D": "Los límites políticos entre países"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0191",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué representan los meridianos en un mapa?",
+    "opciones": {
+      "A": "Los husos horarios exclusivamente sin relación con longitud",
+      "B": "Líneas imaginarias verticales que miden la longitud",
+      "C": "Líneas imaginarias horizontales que miden la latitud",
+      "D": "Las corrientes marinas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0192",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento se utiliza tradicionalmente para orientarse geográficamente señalando el norte magnético?",
+    "opciones": {
+      "A": "El termómetro",
+      "B": "El sextante exclusivamente",
+      "C": "El barómetro",
+      "D": "La brújula"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0193",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la escala de un mapa?",
+    "opciones": {
+      "A": "El número total de países representados",
+      "B": "El color utilizado para representar la altitud",
+      "C": "El tipo de proyección cartográfica utilizada exclusivamente",
+      "D": "La relación entre las distancias representadas en el mapa y las distancias reales en el terreno"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0194",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un huso horario?",
+    "opciones": {
+      "A": "Una zona de alta actividad sísmica",
+      "B": "Un tipo de proyección cartográfica",
+      "C": "Una línea que divide climas distintos",
+      "D": "Cada una de las 24 divisiones de la Tierra que comparten la misma hora, basadas en la longitud"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0195",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una proyección cartográfica?",
+    "opciones": {
+      "A": "Un sistema de coordenadas exclusivo para la navegación aérea",
+      "B": "Una medida de altitud sobre el nivel del mar",
+      "C": "Un tipo de brújula digital",
+      "D": "Un método para representar la superficie curva de la Tierra sobre una superficie plana, como un mapa"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0196",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un mapa topográfico?",
+    "opciones": {
+      "A": "Un mapa que muestra únicamente los límites políticos",
+      "B": "Un mapa usado solo para la navegación marítima",
+      "C": "Un mapa que representa exclusivamente el clima de una región",
+      "D": "Un mapa que representa las formas del relieve de un territorio mediante curvas de nivel"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0197",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son las curvas de nivel en un mapa topográfico?",
+    "opciones": {
+      "A": "Líneas que indican la densidad de población",
+      "B": "Líneas que representan las fronteras entre países",
+      "C": "Líneas que muestran las corrientes marinas",
+      "D": "Líneas que conectan puntos de igual altitud sobre el nivel del mar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0198",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el GPS (Sistema de Posicionamiento Global)?",
+    "opciones": {
+      "A": "Un sistema de satélites que permite determinar la ubicación exacta de un punto en la superficie terrestre",
+      "B": "Un tipo de mapa impreso tradicional",
+      "C": "Un instrumento para medir la temperatura ambiental",
+      "D": "Una proyección cartográfica específica"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0199",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un mapa temático?",
+    "opciones": {
+      "A": "Un mapa diseñado para representar un tema específico, como el clima, la población o los recursos naturales de una región",
+      "B": "Un mapa sin ningún tipo de información adicional",
+      "C": "Un mapa exclusivo para la navegación aérea",
+      "D": "Un mapa que representa únicamente el relieve"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de cartografía."
+  },
+  {
+    "id_reactivo": "GEO-0200",
+    "asignatura": "Geografía",
+    "subtemario": "Cartografía - conceptos y orientación",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la teledetección (o percepción remota) en geografía?",
+    "opciones": {
+      "A": "Un método de medición de la profundidad oceánica con sonar",
+      "B": "La técnica de obtener información sobre la superficie terrestre a través de sensores en satélites o aviones, sin contacto directo",
+      "C": "El uso exclusivo de brújulas para orientarse",
+      "D": "Una técnica de dibujo manual de mapas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de cartografía."
+  }
+]

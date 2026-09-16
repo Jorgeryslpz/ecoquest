@@ -40,31 +40,38 @@ Supabase (auth + Postgres + Realtime) + Stripe + API de Anthropic.
 
 ## Banco de reactivos
 
-- `data/banco_maestro_raw.json` — archivo original que diste (128
-  reactivos, uno por cuota exacta de cada materia en el examen real).
-- `scripts/transform-banco-maestro.mjs` — lo convierte al esquema canónico
-  de la spec (§8.1) → `supabase/seed/reactivos.json`.
+**2,231 reactivos reales ya cargados en Supabase** (arriba del mínimo de
+lanzamiento de 600 de la spec), en `data/banco_2231/` — 11 archivos JSON
+que diste, uno por materia, con `id_reactivo`, `asignatura`, `subtemario`,
+`dificultad`, `texto_lectura`, `enunciado`, `opciones`, `respuesta_correcta`
+y `feedback` ya completos.
+
+- `scripts/merge-banco-reactivos.mjs` — combina los 11 archivos en
+  `supabase/seed/reactivos.json`, con el mapeo exacto a las columnas de la
+  tabla `reactivos`. Solo dos conversiones: `dificultad` viene como texto
+  (fácil/media/difícil) y se pasa a 1/2/3; y **"Historia de México" +
+  "Historia Universal" se combinan en una sola asignatura "Historia"**
+  (conservando el origen como prefijo del subtemario) para no romper la
+  distribución de 10 materias de la spec — si prefieres tratarlas como dos
+  materias reales (11 mundos), dímelo y se deshace fácil.
 - `scripts/generate-seed-sql.mjs` — genera
-  `supabase/seed/0001_reactivos_seed.sql` a partir de ese JSON, para poder
-  cargarlo por el SQL Editor sin necesitar la Secret key.
-- `scripts/seed-reactivos.mjs` — carga (o actualiza) el banco directo a
-  Supabase por API, para cuando agregues más reactivos más adelante.
-  Requiere `SUPABASE_SECRET_KEY` en el entorno:
+  `supabase/seed/0001_reactivos_seed.sql` a partir de ese JSON (con un
+  `TRUNCATE` al inicio), para poder recargar el banco completo por el SQL
+  Editor sin necesitar la Secret key.
+- `scripts/reset-and-seed-reactivos.mjs` — hace lo mismo que el SQL de
+  arriba pero por API (borra todo y vuelve a insertar en lotes). Así se
+  cargó el banco real la primera vez:
   ```bash
-  node scripts/seed-reactivos.mjs
+  node --env-file=.env.local scripts/reset-and-seed-reactivos.mjs
+  ```
+- `scripts/seed-reactivos.mjs` — hace *upsert* (no borra nada) para cuando
+  agregues o corrijas reactivos sueltos más adelante:
+  ```bash
+  node --env-file=.env.local scripts/seed-reactivos.mjs
   ```
 
-**Huecos conocidos del banco actual** (no inventé estos datos, son huecos
-reales de lo que diste):
-- Solo **128 reactivos** en total (12-16 por materia) — la spec pide un
-  **mínimo de 60 por materia (600 total)** para lanzar, y una meta de 150
-  por materia. Con 128 no alcanza para armar un ejercicio de Materias (que
-  necesita 20 preguntas por intento) sin repetir dentro del mismo intento
-  en las materias de 12 reactivos.
-- Ningún reactivo trae `subtemario` — quedó en `null` en todos. Los Mundos
-  necesitan subtemario para organizar sus niveles; por ahora no se puede
-  hacer esa separación real.
-- Ningún reactivo trae `dificultad` — quedó en `2` (media) en todos.
+Todos requieren `SUPABASE_SECRET_KEY` y Node **22 o superior** (el cliente
+de Supabase necesita WebSocket nativo, que Node 20 no trae).
 
 ## Variables de entorno
 
@@ -73,7 +80,7 @@ falta y de dónde sacarlo:
 
 | Variable | De dónde sale | Para qué etapa |
 |---|---|---|
-| `SUPABASE_SECRET_KEY` | Supabase → Project Settings → API → Secret keys (`sb_secret_...`) | Etapa 1 (backend) |
+| `SUPABASE_SECRET_KEY` | ✅ ya está en `.env.local` — Supabase → Project Settings → API → Secret keys si necesitas rotarla | Etapa 1 (backend) |
 | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Stripe → Developers → API keys (modo prueba) | Etapa 2 |
 | `STRIPE_SECRET_KEY` | Stripe → Developers → API keys (modo prueba) | Etapa 2 |
 | `STRIPE_WEBHOOK_SECRET` | Se genera al crear el webhook en Stripe | Etapa 2 |
@@ -81,8 +88,8 @@ falta y de dónde sacarlo:
 
 ## Pendientes de tu lado
 
-- Banco de preguntas real hasta el mínimo de lanzamiento (600 reactivos),
-  con `subtemario` y `dificultad` por reactivo.
+- Confirmar si "Historia de México" / "Historia Universal" quedan como una
+  sola materia "Historia" (así está ahora) o como dos materias separadas.
 - Dominio (ecoemsquest.mx o similar).
 - Datos fiscales en Stripe antes del primer cobro real.
 - Aviso de privacidad y términos (usuarios menores de edad).

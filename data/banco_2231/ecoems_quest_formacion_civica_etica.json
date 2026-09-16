@@ -1,0 +1,3186 @@
+[
+  {
+    "id_reactivo": "CIV-0001",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento internacional, adoptado por la ONU en 1948, establece los derechos básicos que corresponden a todos los seres humanos?",
+    "opciones": {
+      "A": "El Tratado de Versalles",
+      "B": "La Carta Magna",
+      "C": "La Declaración Universal de los Derechos Humanos",
+      "D": "La Constitución de 1917"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0002",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica tienen los derechos humanos respecto a la posibilidad de renunciar a ellos?",
+    "opciones": {
+      "A": "Dependen de la voluntad del gobierno en turno",
+      "B": "Son inalienables: no se pueden renunciar ni transferir a otra persona",
+      "C": "Solo aplican a ciudadanos de países desarrollados",
+      "D": "Se pueden vender libremente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0003",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué principio establece que todos los derechos humanos tienen la misma importancia, sin que unos prevalezcan sobre otros?",
+    "opciones": {
+      "A": "El principio de subsidiariedad",
+      "B": "El principio de reciprocidad",
+      "C": "El principio de jerarquía",
+      "D": "El principio de indivisibilidad"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0004",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué generación de derechos humanos incluye los derechos civiles y políticos, como la libertad de expresión y el derecho al voto?",
+    "opciones": {
+      "A": "Los derechos de cuarta generación",
+      "B": "Los derechos de tercera generación",
+      "C": "Los derechos de primera generación",
+      "D": "Los derechos de segunda generación"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0005",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué generación de derechos humanos incluye los derechos económicos, sociales y culturales, como el derecho a la educación y a la salud?",
+    "opciones": {
+      "A": "No existe tal clasificación",
+      "B": "Los derechos de segunda generación",
+      "C": "Los derechos de tercera generación",
+      "D": "Los derechos de primera generación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0006",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué generación de derechos humanos incluye derechos colectivos como el derecho a un medio ambiente sano y a la paz?",
+    "opciones": {
+      "A": "Los derechos de tercera generación",
+      "B": "Los derechos de segunda generación",
+      "C": "Los derechos de primera generación",
+      "D": "Los derechos civiles exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0007",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismo de la ONU se encarga de vigilar el cumplimiento de los derechos humanos a nivel internacional?",
+    "opciones": {
+      "A": "El Fondo Monetario Internacional",
+      "B": "La Organización Mundial del Comercio",
+      "C": "El Consejo de Derechos Humanos de la ONU",
+      "D": "La Organización Mundial de la Salud"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0008",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución en México tiene como función proteger y defender los derechos humanos de las personas frente a actos de autoridad?",
+    "opciones": {
+      "A": "El Instituto Nacional Electoral",
+      "B": "La Secretaría de Gobernación",
+      "C": "La Comisión Nacional de los Derechos Humanos (CNDH)",
+      "D": "La Suprema Corte de Justicia"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0009",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por dignidad humana, concepto base de los derechos humanos?",
+    "opciones": {
+      "A": "Un privilegio otorgado solo a ciertas personas",
+      "B": "Un concepto exclusivamente religioso sin relevancia legal",
+      "C": "El valor inherente que posee toda persona por el simple hecho de ser humana, sin importar su condición",
+      "D": "Un derecho que se gana con el trabajo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0010",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la discriminación, en el contexto de los derechos humanos?",
+    "opciones": {
+      "A": "Una ley que protege a las minorías",
+      "B": "Un trato desigual o injusto hacia una persona o grupo, basado en características como raza, género o religión",
+      "C": "Un tipo de derecho humano de primera generación",
+      "D": "Un trato igualitario aplicado a todas las personas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0011",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué principio establece que todas las personas deben ser tratadas de la misma manera ante la ley, sin distinción?",
+    "opciones": {
+      "A": "El principio de proporcionalidad",
+      "B": "El principio de subsidiariedad",
+      "C": "El principio de igualdad",
+      "D": "El principio de jerarquía normativa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0012",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué derecho humano protege la posibilidad de expresar ideas y opiniones libremente, con ciertos límites legales?",
+    "opciones": {
+      "A": "El derecho a la libertad de expresión",
+      "B": "El derecho a la salud",
+      "C": "El derecho al trabajo",
+      "D": "El derecho a la propiedad privada"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0013",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué derecho humano garantiza que ninguna persona sea sometida a esclavitud o servidumbre?",
+    "opciones": {
+      "A": "El derecho al voto",
+      "B": "El derecho a la vivienda",
+      "C": "El derecho a la educación",
+      "D": "El derecho a la libertad personal (prohibición de la esclavitud)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0014",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué convención internacional, adoptada en 1989, protege específicamente los derechos de niñas, niños y adolescentes?",
+    "opciones": {
+      "A": "La Convención sobre los Derechos de las Personas con Discapacidad",
+      "B": "La Convención sobre los Derechos del Niño",
+      "C": "La Declaración Universal de los Derechos Humanos",
+      "D": "El Pacto de San José"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0015",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la equidad de género, en el ámbito de los derechos humanos?",
+    "opciones": {
+      "A": "Un privilegio exclusivo para un solo género",
+      "B": "El trato idéntico sin considerar ninguna diferencia entre las personas",
+      "C": "El trato justo entre hombres y mujeres, reconociendo sus diferencias y necesidades específicas para lograr igualdad real de oportunidades",
+      "D": "Un concepto sin relación con los derechos humanos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0016",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la interculturalidad, en el contexto de la convivencia entre distintos grupos sociales?",
+    "opciones": {
+      "A": "La imposición de una cultura sobre las demás",
+      "B": "La eliminación de las diferencias culturales",
+      "C": "La separación total entre distintos grupos culturales",
+      "D": "El proceso de interacción y respeto entre culturas diferentes, reconociendo y valorando su diversidad"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0017",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un grupo vulnerable, en el contexto de los derechos humanos?",
+    "opciones": {
+      "A": "Un grupo político mayoritario",
+      "B": "Un grupo de personas que, por sus condiciones sociales, económicas o físicas, enfrenta mayor riesgo de discriminación o violación de sus derechos",
+      "C": "Un grupo con todos sus derechos garantizados sin excepción",
+      "D": "Un sinónimo de clase alta"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0018",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la xenofobia?",
+    "opciones": {
+      "A": "Un sinónimo de patriotismo",
+      "B": "Un tipo de derecho humano",
+      "C": "El rechazo, miedo u odio hacia personas de otras nacionalidades o culturas",
+      "D": "El aprecio por la diversidad cultural"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0019",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mecanismo legal permite a una persona en México solicitar la protección de la justicia federal cuando considera que sus derechos han sido violados por una autoridad?",
+    "opciones": {
+      "A": "El juicio de amparo",
+      "B": "La consulta popular",
+      "C": "El referéndum",
+      "D": "El plebiscito"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0020",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el derecho a la no discriminación?",
+    "opciones": {
+      "A": "El derecho de toda persona a no ser tratada de manera desigual o injusta por motivos como su origen, género, religión o condición social",
+      "B": "Un derecho reservado únicamente a las minorías",
+      "C": "Un concepto sin aplicación legal en México",
+      "D": "El derecho a recibir un trato preferencial exclusivo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0021",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el derecho a la libertad de tránsito?",
+    "opciones": {
+      "A": "Un derecho que solo aplica a ciertos estados del país",
+      "B": "Un derecho exclusivo de los turistas",
+      "C": "El derecho a viajar únicamente al extranjero",
+      "D": "El derecho de toda persona a entrar, salir, viajar y residir libremente dentro del territorio nacional, sin necesidad de pasaporte u otro requisito similar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0022",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el derecho al debido proceso?",
+    "opciones": {
+      "A": "El derecho de toda persona a ser juzgada conforme a las leyes vigentes, con garantías como un juicio justo y la presunción de inocencia",
+      "B": "El derecho a evitar cualquier tipo de juicio",
+      "C": "Un derecho que solo aplica en casos civiles",
+      "D": "Un derecho exclusivo de las autoridades"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0023",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la presunción de inocencia, principio fundamental del derecho penal?",
+    "opciones": {
+      "A": "El principio de que toda persona acusada de un delito debe considerarse inocente hasta que se demuestre su culpabilidad mediante un juicio",
+      "B": "Un derecho exclusivo de los abogados",
+      "C": "Un concepto sin relación con el sistema judicial",
+      "D": "El principio de que toda persona acusada debe considerarse culpable de inmediato"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0024",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el derecho a la privacidad?",
+    "opciones": {
+      "A": "El derecho de toda persona a que su vida privada, datos personales y comunicaciones no sean invadidos sin su consentimiento",
+      "B": "El derecho a que el gobierno divulgue toda la información personal",
+      "C": "Un derecho exclusivo de personajes públicos",
+      "D": "Un concepto sin protección legal en México"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0025",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la protección de datos personales, derecho reconocido en la legislación mexicana?",
+    "opciones": {
+      "A": "Un concepto sin aplicación práctica",
+      "B": "El derecho de las personas a controlar el uso que se da a su información personal por parte de instituciones públicas y privadas",
+      "C": "El derecho de cualquier persona a acceder libremente a los datos de otros sin restricción",
+      "D": "Un derecho exclusivo de las empresas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0026",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un grupo étnico o pueblo indígena, en el reconocimiento de derechos en México?",
+    "opciones": {
+      "A": "Un concepto exclusivamente histórico sin relevancia actual",
+      "B": "Comunidades con una identidad, cultura, lengua e historia propias, reconocidas y protegidas por la Constitución mexicana",
+      "C": "Un grupo sin ningún reconocimiento legal en México",
+      "D": "Un sinónimo de clase socioeconómica baja"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0027",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por accesibilidad universal, en relación con los derechos de las personas con discapacidad?",
+    "opciones": {
+      "A": "Un privilegio exclusivo para ciertas personas",
+      "B": "El diseño de espacios, servicios y productos que puedan ser utilizados por todas las personas, incluidas aquellas con discapacidad",
+      "C": "Un concepto que solo aplica a edificios gubernamentales",
+      "D": "Un concepto sin relación con los derechos humanos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0028",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el derecho a un medio ambiente sano, reconocido en la Constitución mexicana?",
+    "opciones": {
+      "A": "Un concepto sin reconocimiento legal en México",
+      "B": "Un privilegio otorgado solo a ciertas comunidades",
+      "C": "Un derecho exclusivo de las zonas rurales",
+      "D": "El derecho de toda persona a vivir en un ambiente adecuado para su desarrollo y bienestar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0029",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la trata de personas, delito grave que viola múltiples derechos humanos?",
+    "opciones": {
+      "A": "La captación, transporte o recepción de personas mediante engaño o coerción, con fines de explotación",
+      "B": "Un tipo de migración legal y voluntaria",
+      "C": "Un contrato laboral formal",
+      "D": "Un sinónimo de turismo internacional"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0030",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por interseccionalidad, concepto usado en el análisis de la discriminación?",
+    "opciones": {
+      "A": "Un concepto exclusivo de las matemáticas",
+      "B": "Un tipo de derecho humano de primera generación",
+      "C": "Un sinónimo de igualdad total sin matices",
+      "D": "El reconocimiento de que una persona puede sufrir discriminación por la combinación de varias condiciones (género, raza, clase, entre otras) a la vez"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0031",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por víctima de un delito, en el marco de la justicia y los derechos humanos?",
+    "opciones": {
+      "A": "La persona que comete un delito",
+      "B": "Un concepto sin reconocimiento legal",
+      "C": "La persona que ha sufrido un daño físico, psicológico o patrimonial como consecuencia de un delito, con derecho a reparación y protección",
+      "D": "Un sinónimo de testigo exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0032",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por reparación del daño, en el ámbito de la justicia?",
+    "opciones": {
+      "A": "Un castigo aplicado exclusivamente al delincuente sin beneficio para la víctima",
+      "B": "Las medidas orientadas a compensar a la víctima de un delito o violación de derechos por el daño sufrido",
+      "C": "Un sinónimo de perdón obligatorio",
+      "D": "Un concepto sin relación con el sistema de justicia"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0033",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismo internacional se especializa en la protección de los derechos de las personas refugiadas?",
+    "opciones": {
+      "A": "La Organización Mundial de la Salud",
+      "B": "La Agencia de la ONU para los Refugiados (ACNUR)",
+      "C": "El Fondo Monetario Internacional",
+      "D": "La Organización Mundial del Comercio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0034",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el derecho de asilo?",
+    "opciones": {
+      "A": "Un derecho exclusivo de los ciudadanos de un país",
+      "B": "El derecho de una persona perseguida en su país de origen a buscar protección y refugio en otro país",
+      "C": "El derecho a la propiedad privada",
+      "D": "Un sinónimo de deportación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0035",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por interdependencia de los derechos humanos?",
+    "opciones": {
+      "A": "El principio de que los derechos humanos son completamente independientes entre sí",
+      "B": "Un concepto sin relevancia en la práctica",
+      "C": "El principio de que el cumplimiento de un derecho humano a menudo depende del cumplimiento de otros derechos relacionados",
+      "D": "Un sinónimo de jerarquía de derechos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0036",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por derechos culturales, reconocidos como derechos humanos?",
+    "opciones": {
+      "A": "El derecho de las personas y comunidades a participar en la vida cultural, preservar su identidad y acceder al patrimonio cultural",
+      "B": "Un concepto sin reconocimiento en tratados internacionales",
+      "C": "Un derecho exclusivo de artistas profesionales",
+      "D": "Un sinónimo de derechos económicos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0037",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por acoso laboral (mobbing), en el ámbito de los derechos de los trabajadores?",
+    "opciones": {
+      "A": "Un concepto sin relación con los derechos laborales",
+      "B": "Una práctica recomendada de gestión de personal",
+      "C": "Un sinónimo de evaluación de desempeño",
+      "D": "El maltrato psicológico repetido hacia un trabajador por parte de superiores o compañeros, afectando su dignidad y desempeño"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0038",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por explotación infantil, violación grave de los derechos de la niñez?",
+    "opciones": {
+      "A": "Un sinónimo de educación en el hogar",
+      "B": "Una práctica educativa recomendada",
+      "C": "El uso de niñas, niños o adolescentes en trabajos que ponen en riesgo su salud, educación o desarrollo integral",
+      "D": "Un concepto sin relación con los derechos del niño"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0039",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por libertad de conciencia y religión, derecho humano fundamental?",
+    "opciones": {
+      "A": "Un concepto sin reconocimiento legal en México",
+      "B": "Un derecho exclusivo de las personas religiosas",
+      "C": "Un sinónimo de laicidad exclusivamente estatal",
+      "D": "El derecho de toda persona a tener, cambiar o no tener creencias religiosas o filosóficas, sin ser obligada a actuar en contra de ellas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0040",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Derechos humanos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por derecho a la identidad, reconocido como derecho humano fundamental de niñas, niños y adolescentes?",
+    "opciones": {
+      "A": "Un concepto sin relación con los derechos de la niñez",
+      "B": "Un privilegio otorgado únicamente en ciertos países",
+      "C": "El derecho a tener un nombre, una nacionalidad y a conocer su origen familiar desde el nacimiento",
+      "D": "Un derecho exclusivo de los adultos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de derechos humanos."
+  },
+  {
+    "id_reactivo": "CIV-0041",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año se promulgó la Constitución Política vigente de los Estados Unidos Mexicanos?",
+    "opciones": {
+      "A": "1917",
+      "B": "1824",
+      "C": "1857",
+      "D": "1810"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0042",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo constitucional mexicano establece la educación como un derecho, actualmente laica, gratuita y obligatoria?",
+    "opciones": {
+      "A": "El artículo 4°",
+      "B": "El artículo 123",
+      "C": "El artículo 27",
+      "D": "El artículo 3°"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0043",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo constitucional establece los derechos laborales en México, como la jornada máxima de trabajo y el salario mínimo?",
+    "opciones": {
+      "A": "El artículo 130",
+      "B": "El artículo 27",
+      "C": "El artículo 123",
+      "D": "El artículo 3°"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0044",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo constitucional regula la propiedad de tierras, aguas y recursos naturales de la nación mexicana?",
+    "opciones": {
+      "A": "El artículo 27",
+      "B": "El artículo 123",
+      "C": "El artículo 3°",
+      "D": "El artículo 4°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0045",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo constitucional mexicano reconoce diversos derechos humanos, como el acceso al agua, la vivienda digna y la alimentación?",
+    "opciones": {
+      "A": "El artículo 27",
+      "B": "El artículo 4°",
+      "C": "El artículo 123",
+      "D": "El artículo 3°"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0046",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué forma de gobierno establece la Constitución mexicana para el país?",
+    "opciones": {
+      "A": "Una dictadura militar",
+      "B": "Una monarquía constitucional",
+      "C": "Un imperio",
+      "D": "Una república representativa, democrática, laica y federal"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0047",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En cuántos poderes se divide el gobierno federal mexicano, según el principio de división de poderes?",
+    "opciones": {
+      "A": "Cuatro",
+      "B": "Dos",
+      "C": "Tres (Ejecutivo, Legislativo y Judicial)",
+      "D": "Cinco"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0048",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué poder del gobierno mexicano se encarga de crear y aprobar las leyes?",
+    "opciones": {
+      "A": "El Poder Electoral (no es un poder formal en México)",
+      "B": "El Poder Legislativo (Congreso de la Unión)",
+      "C": "El Poder Judicial",
+      "D": "El Poder Ejecutivo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0049",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué poder del gobierno mexicano se encarga de aplicar y ejecutar las leyes, encabezado por el presidente?",
+    "opciones": {
+      "A": "El Poder Judicial",
+      "B": "El Poder Constituyente",
+      "C": "El Poder Legislativo",
+      "D": "El Poder Ejecutivo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0050",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué poder del gobierno mexicano se encarga de interpretar las leyes y administrar justicia?",
+    "opciones": {
+      "A": "El Poder Constituyente",
+      "B": "El Poder Judicial",
+      "C": "El Poder Legislativo",
+      "D": "El Poder Ejecutivo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0051",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo está compuesto el Congreso de la Unión en México?",
+    "opciones": {
+      "A": "Por la Cámara de Diputados y la Cámara de Senadores",
+      "B": "Solo por el Senado",
+      "C": "Solo por la Cámara de Diputados",
+      "D": "Por un Congreso unicameral"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0052",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el máximo tribunal del Poder Judicial en México?",
+    "opciones": {
+      "A": "El Instituto Nacional Electoral",
+      "B": "El Congreso de la Unión",
+      "C": "La Suprema Corte de Justicia de la Nación",
+      "D": "La Comisión Nacional de los Derechos Humanos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0053",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos años dura el periodo presidencial en México, según la Constitución vigente?",
+    "opciones": {
+      "A": "6 años",
+      "B": "5 años",
+      "C": "4 años",
+      "D": "8 años"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0054",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué principio constitucional establece que ningún presidente de México puede ser reelecto para un periodo inmediato posterior?",
+    "opciones": {
+      "A": "El principio de no reelección",
+      "B": "El principio de división de poderes",
+      "C": "El principio de laicidad",
+      "D": "El principio de soberanía popular"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0055",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por soberanía popular, principio reconocido en la Constitución mexicana?",
+    "opciones": {
+      "A": "El poder reside exclusivamente en el presidente",
+      "B": "El poder supremo del Estado reside esencial y originariamente en el pueblo",
+      "C": "El poder reside en organismos internacionales",
+      "D": "El poder reside únicamente en el Congreso"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0056",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el Estado de derecho?",
+    "opciones": {
+      "A": "Un sistema sin leyes escritas",
+      "B": "Un sistema donde las autoridades están por encima de la ley",
+      "C": "Un sistema exclusivamente militar",
+      "D": "Un sistema en el que todas las personas, incluidas las autoridades, están sujetas a la ley"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0057",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por laicidad del Estado mexicano?",
+    "opciones": {
+      "A": "La separación entre el Estado y las instituciones religiosas, garantizando neutralidad frente a las creencias",
+      "B": "La imposición de una religión oficial",
+      "C": "La subordinación del Estado a la Iglesia",
+      "D": "La prohibición total de practicar cualquier religión"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0058",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento establece los derechos y obligaciones fundamentales de los ciudadanos mexicanos, siendo la norma jurídica suprema del país?",
+    "opciones": {
+      "A": "La Ley Federal del Trabajo",
+      "B": "El Código Civil",
+      "C": "La Constitución Política de los Estados Unidos Mexicanos",
+      "D": "El Código Penal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0059",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano autónomo se encarga de organizar las elecciones federales en México?",
+    "opciones": {
+      "A": "El Instituto Nacional Electoral (INE)",
+      "B": "El Congreso de la Unión",
+      "C": "La Secretaría de Gobernación",
+      "D": "La Suprema Corte de Justicia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0060",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué requisito de edad mínima establece la Constitución mexicana para poder votar en las elecciones?",
+    "opciones": {
+      "A": "18 años cumplidos",
+      "B": "16 años",
+      "C": "21 años",
+      "D": "15 años"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0061",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos senadores integran actualmente el Senado de la República en México?",
+    "opciones": {
+      "A": "500",
+      "B": "128",
+      "C": "300",
+      "D": "64"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0062",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos diputados integran actualmente la Cámara de Diputados en México?",
+    "opciones": {
+      "A": "128",
+      "B": "500",
+      "C": "628",
+      "D": "300"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0063",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué requisito constitucional deben cumplir las leyes para ser válidas y obligatorias en México?",
+    "opciones": {
+      "A": "No requieren ningún proceso formal para ser válidas",
+      "B": "Deben ser aprobadas exclusivamente por el presidente sin intervención del Congreso",
+      "C": "Deben ser aprobadas conforme al proceso legislativo establecido y no contradecir la Constitución",
+      "D": "Solo requieren la aprobación de un gobernador estatal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0064",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por jerarquía normativa en el sistema jurídico mexicano, con la Constitución en la cúspide?",
+    "opciones": {
+      "A": "El orden de importancia de las normas jurídicas, donde ninguna ley puede contradecir lo establecido en la Constitución",
+      "B": "Un concepto sin aplicación práctica en México",
+      "C": "Un sistema donde todas las leyes tienen el mismo nivel de importancia",
+      "D": "Un sinónimo de reforma constitucional"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0065",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un municipio, como nivel de gobierno en México?",
+    "opciones": {
+      "A": "La base de la organización política y administrativa del país, gobernada por un ayuntamiento encabezado por un presidente municipal",
+      "B": "Un organismo internacional",
+      "C": "Una dependencia exclusiva del gobierno federal",
+      "D": "Un sinónimo de estado o entidad federativa"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0066",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántas entidades federativas (32, incluyendo la Ciudad de México) conforman actualmente la República Mexicana?",
+    "opciones": {
+      "A": "31",
+      "B": "33",
+      "C": "30",
+      "D": "32"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0067",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué figura encabeza el gobierno de cada entidad federativa (estado) en México?",
+    "opciones": {
+      "A": "El presidente de la República exclusivamente",
+      "B": "El presidente municipal",
+      "C": "El gobernador o gobernadora (o Jefe de Gobierno en el caso de la Ciudad de México)",
+      "D": "El diputado local"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0068",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano legislativo existe en cada entidad federativa de México, encargado de aprobar leyes locales?",
+    "opciones": {
+      "A": "El Congreso de la Unión",
+      "B": "La Suprema Corte de Justicia",
+      "C": "El Congreso local (Legislatura estatal)",
+      "D": "El Instituto Nacional Electoral"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0069",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso permite modificar el texto de la Constitución mexicana, requiriendo un procedimiento más riguroso que una ley ordinaria?",
+    "opciones": {
+      "A": "Una consulta popular exclusivamente sin intervención legislativa",
+      "B": "Un fallo de la Suprema Corte de Justicia",
+      "C": "El proceso de reforma constitucional (que requiere aprobación calificada del Congreso y de la mayoría de los congresos estatales)",
+      "D": "Un decreto presidencial sin intervención del Congreso"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0070",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por garantías individuales (actualmente llamadas derechos humanos) en la Constitución mexicana?",
+    "opciones": {
+      "A": "Beneficios exclusivos para ciudadanos extranjeros",
+      "B": "Los derechos fundamentales que el Estado reconoce y debe proteger para todas las personas dentro de su territorio",
+      "C": "Privilegios exclusivos de los funcionarios públicos",
+      "D": "Un concepto eliminado de la Constitución vigente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0071",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por federalismo, sistema de organización territorial adoptado por México?",
+    "opciones": {
+      "A": "Un sinónimo de monarquía",
+      "B": "Un sistema en el que el poder se distribuye entre un gobierno federal (nacional) y gobiernos estatales con cierta autonomía",
+      "C": "Un sistema exclusivo de gobiernos municipales sin relación estatal o federal",
+      "D": "Un sistema donde todo el poder se concentra únicamente en el gobierno central"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0072",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué facultad tiene el Poder Legislativo respecto al presupuesto de egresos de la Federación en México?",
+    "opciones": {
+      "A": "Es facultad exclusiva del presidente sin intervención del Congreso",
+      "B": "Aprobarlo anualmente, siendo facultad exclusiva de la Cámara de Diputados",
+      "C": "Es facultad exclusiva del Poder Judicial",
+      "D": "No tiene ninguna facultad relacionada con el presupuesto"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0073",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un tratado internacional, en relación con el sistema jurídico mexicano?",
+    "opciones": {
+      "A": "Una ley exclusivamente local sin validez internacional",
+      "B": "Un concepto sin aplicación en el derecho mexicano",
+      "C": "Un acuerdo formal entre México y otro u otros países, que una vez ratificado se incorpora al sistema jurídico nacional",
+      "D": "Un decreto presidencial sin relación con otros países"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0074",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano tiene la facultad de nombrar a los ministros de la Suprema Corte de Justicia de la Nación en México, actualmente mediante elección popular tras la reforma judicial reciente?",
+    "opciones": {
+      "A": "La Cámara de Diputados de forma exclusiva",
+      "B": "El Instituto Nacional Electoral exclusivamente sin intervención de otros poderes",
+      "C": "El Senado (históricamente, a partir de una terna presidencial) y actualmente mediante voto popular conforme a reformas recientes",
+      "D": "El presidente de forma unilateral y sin ningún otro proceso"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0075",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por juicio político, mecanismo constitucional en México?",
+    "opciones": {
+      "A": "Un mecanismo exclusivo para elegir presidente",
+      "B": "Un tipo de elección popular",
+      "C": "Un sinónimo de amparo",
+      "D": "Un procedimiento para sancionar a servidores públicos por faltas graves cometidas en el ejercicio de sus funciones"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0076",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autonomía municipal, principio reconocido en la Constitución mexicana?",
+    "opciones": {
+      "A": "La subordinación total del municipio al gobierno estatal en todas sus decisiones",
+      "B": "Un sinónimo de independencia total sin relación con el estado",
+      "C": "La capacidad de los municipios para gobernarse y administrar sus propios recursos, dentro del marco legal establecido",
+      "D": "Un concepto sin reconocimiento constitucional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0077",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano constitucional autónomo se encarga de garantizar el acceso a la información pública y proteger datos personales en México?",
+    "opciones": {
+      "A": "La Comisión Nacional de los Derechos Humanos",
+      "B": "La Secretaría de Gobernación",
+      "C": "El Instituto Nacional Electoral",
+      "D": "El Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI, aunque su función ha sido reestructurada en reformas recientes)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0078",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por control constitucional, función asignada principalmente al Poder Judicial?",
+    "opciones": {
+      "A": "Un concepto exclusivo del Poder Ejecutivo",
+      "B": "Un sinónimo de reforma electoral",
+      "C": "La facultad de crear nuevas leyes sin intervención del Congreso",
+      "D": "La facultad de revisar que las leyes y actos de autoridad se ajusten a lo establecido en la Constitución"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0079",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por división de poderes, principio fundamental del Estado democrático mexicano?",
+    "opciones": {
+      "A": "Un concepto exclusivo de sistemas monárquicos",
+      "B": "Un sinónimo de centralismo absoluto",
+      "C": "La concentración de todo el poder en una sola persona o institución",
+      "D": "La distribución del poder público en distintos órganos (Ejecutivo, Legislativo y Judicial) para evitar la concentración excesiva del poder"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0080",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Constitución mexicana y organización del Estado",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por pesos y contrapesos (checks and balances), mecanismo relacionado con la división de poderes?",
+    "opciones": {
+      "A": "El sistema mediante el cual cada poder del Estado puede vigilar y limitar las acciones de los otros poderes, evitando abusos",
+      "B": "Un sistema donde un solo poder controla completamente a los demás",
+      "C": "Un sinónimo de dictadura",
+      "D": "Un concepto sin aplicación en el sistema político mexicano"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del marco constitucional y legal de México."
+  },
+  {
+    "id_reactivo": "CIV-0081",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por ética, como disciplina filosófica?",
+    "opciones": {
+      "A": "El estudio de la economía de un país",
+      "B": "El estudio de las leyes físicas del universo",
+      "C": "El estudio de la estructura de los átomos",
+      "D": "La rama de la filosofía que estudia la moral, el bien y el mal, y el comportamiento humano correcto"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0082",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué diferencia existe entre ética y moral, de forma general?",
+    "opciones": {
+      "A": "Son términos sin ninguna relación entre sí",
+      "B": "La ética es exclusivamente religiosa y la moral es científica",
+      "C": "No existe ninguna diferencia, son sinónimos exactos en todos los contextos",
+      "D": "La moral se refiere a las normas y costumbres concretas de una sociedad, mientras la ética reflexiona filosóficamente sobre esas normas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0083",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un valor, en el contexto de la formación ética?",
+    "opciones": {
+      "A": "Una ley escrita en un código penal",
+      "B": "Un artículo constitucional",
+      "C": "Un tipo de derecho humano exclusivamente",
+      "D": "Un principio o cualidad que se considera deseable y que orienta el comportamiento de las personas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0084",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué valor se refiere al reconocimiento y aceptación de las diferencias entre las personas?",
+    "opciones": {
+      "A": "La lealtad",
+      "B": "El respeto a la diversidad (tolerancia)",
+      "C": "La honestidad",
+      "D": "La puntualidad"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0085",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué valor implica actuar conforme a la verdad, sin engañar a los demás?",
+    "opciones": {
+      "A": "La empatía",
+      "B": "La honestidad",
+      "C": "La tolerancia",
+      "D": "La responsabilidad"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0086",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué valor implica cumplir con las obligaciones y compromisos asumidos?",
+    "opciones": {
+      "A": "La tolerancia",
+      "B": "La responsabilidad",
+      "C": "La solidaridad",
+      "D": "La honestidad"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0087",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué valor implica ponerse en el lugar del otro para comprender sus sentimientos y perspectivas?",
+    "opciones": {
+      "A": "La empatía",
+      "B": "La responsabilidad",
+      "C": "La honestidad",
+      "D": "La puntualidad"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0088",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué valor se refiere al apoyo mutuo entre las personas, especialmente hacia quienes lo necesitan?",
+    "opciones": {
+      "A": "La solidaridad",
+      "B": "La empatía (relacionada, pero distinta en énfasis)",
+      "C": "La honestidad",
+      "D": "La tolerancia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0089",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autonomía moral?",
+    "opciones": {
+      "A": "La capacidad de una persona para tomar decisiones éticas por sí misma, basándose en su propio juicio y valores",
+      "B": "La obediencia ciega a cualquier autoridad",
+      "C": "La dependencia total de las decisiones de otros",
+      "D": "Un sinónimo de libertinaje sin ninguna responsabilidad"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0090",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un dilema ético?",
+    "opciones": {
+      "A": "Una ley que no tiene excepciones",
+      "B": "Un artículo constitucional específico",
+      "C": "Una situación en la que una persona debe elegir entre dos o más opciones que involucran valores en conflicto",
+      "D": "Un tipo de derecho humano"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0091",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué corriente ética sostiene que una acción es correcta si produce el mayor bienestar para el mayor número de personas?",
+    "opciones": {
+      "A": "El utilitarismo",
+      "B": "El hedonismo exclusivamente individual",
+      "C": "El relativismo moral",
+      "D": "El deontologismo (que se basa en el cumplimiento del deber, no en las consecuencias)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0092",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué corriente ética sostiene que una acción es correcta si cumple con un deber o norma moral, independientemente de sus consecuencias?",
+    "opciones": {
+      "A": "El utilitarismo",
+      "B": "El nihilismo",
+      "C": "El relativismo moral",
+      "D": "El deontologismo (ética del deber)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0093",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por relativismo moral?",
+    "opciones": {
+      "A": "La creencia en que existen valores morales absolutos e iguales para todas las culturas",
+      "B": "Un sinónimo de ética universal",
+      "C": "Una ley constitucional específica",
+      "D": "La postura que sostiene que los valores y normas morales dependen del contexto cultural o histórico, sin que existan verdades morales universales"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0094",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la integridad, como valor personal?",
+    "opciones": {
+      "A": "La coherencia entre lo que una persona piensa, dice y hace, actuando conforme a sus principios",
+      "B": "Un sinónimo exclusivo de inteligencia",
+      "C": "Un tipo de derecho legal",
+      "D": "La capacidad de adaptarse a cualquier situación sin principios fijos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0095",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por proyecto de vida, en el contexto de la formación cívica y ética?",
+    "opciones": {
+      "A": "El conjunto de metas, valores y decisiones que una persona traza para su desarrollo personal a lo largo del tiempo",
+      "B": "Un tipo de contrato laboral",
+      "C": "Un documento legal obligatorio",
+      "D": "Un artículo constitucional"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0096",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la resiliencia, como capacidad humana?",
+    "opciones": {
+      "A": "Un sinónimo de indiferencia ante los demás",
+      "B": "La capacidad de una persona para adaptarse y recuperarse ante situaciones adversas o difíciles",
+      "C": "Un tipo de derecho humano",
+      "D": "La incapacidad de enfrentar problemas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0097",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por bien común, concepto central en la ética social?",
+    "opciones": {
+      "A": "Un concepto sin relevancia social",
+      "B": "El conjunto de condiciones que permiten el bienestar y desarrollo de toda la comunidad, no solo de individuos particulares",
+      "C": "El beneficio exclusivo de un grupo reducido de personas",
+      "D": "Un sinónimo de propiedad privada"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0098",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la justicia, como valor ético y social?",
+    "opciones": {
+      "A": "Dar a cada quien lo que le corresponde, actuando con equidad e imparcialidad",
+      "B": "Favorecer siempre a quienes tienen más poder",
+      "C": "Aplicar las mismas reglas sin considerar ninguna circunstancia particular",
+      "D": "Un sinónimo de venganza"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0099",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por libertad responsable, en el contexto de la ética?",
+    "opciones": {
+      "A": "Hacer cualquier cosa sin ninguna consideración por los demás",
+      "B": "Un sinónimo exclusivo de independencia económica",
+      "C": "La capacidad de actuar según la propia voluntad, considerando las consecuencias de los actos y respetando los derechos de los demás",
+      "D": "La ausencia total de reglas o límites"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0100",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la autoestima, en el desarrollo personal?",
+    "opciones": {
+      "A": "La valoración positiva y realista que una persona tiene de sí misma",
+      "B": "Un sinónimo de arrogancia",
+      "C": "Un sentimiento de superioridad sobre los demás",
+      "D": "La dependencia total de la opinión de otros"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0101",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la tolerancia, como valor de convivencia social?",
+    "opciones": {
+      "A": "La imposición de las propias ideas sobre los demás",
+      "B": "El respeto hacia las ideas, creencias o prácticas de los demás, aunque sean diferentes a las propias",
+      "C": "Un sinónimo de indiferencia total",
+      "D": "La aceptación de cualquier conducta sin ningún límite ético"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0102",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la prudencia, como virtud ética?",
+    "opciones": {
+      "A": "La indecisión constante ante cualquier situación",
+      "B": "La toma de decisiones impulsivas sin reflexión",
+      "C": "Un sinónimo de cobardía",
+      "D": "La capacidad de reflexionar y actuar con cautela, considerando las consecuencias de las decisiones antes de tomarlas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0103",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por congruencia, en el ámbito de la ética personal?",
+    "opciones": {
+      "A": "Un concepto sin relación con la ética",
+      "B": "Un sinónimo de hipocresía",
+      "C": "Actuar de manera distinta según convenga en cada situación sin ningún principio fijo",
+      "D": "La correspondencia entre los valores que una persona dice tener y las acciones que realmente lleva a cabo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0104",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la gratitud, como valor en las relaciones humanas?",
+    "opciones": {
+      "A": "Un sinónimo de deuda obligatoria",
+      "B": "Un concepto sin relevancia en la ética",
+      "C": "El reconocimiento y aprecio hacia las acciones positivas que otras personas han hecho por uno",
+      "D": "La indiferencia ante la ayuda recibida de los demás"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0105",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por ética profesional?",
+    "opciones": {
+      "A": "Un concepto sin aplicación en el trabajo",
+      "B": "El conjunto de principios y normas de conducta que orientan el desempeño correcto de una persona en su ámbito laboral o profesional",
+      "C": "Un conjunto de leyes exclusivamente penales",
+      "D": "Un sinónimo de eficiencia económica exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0106",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por dilema entre el bien individual y el bien colectivo, tema recurrente en la ética social?",
+    "opciones": {
+      "A": "Un sinónimo de egoísmo obligatorio",
+      "B": "La tensión que surge cuando lo que beneficia a una persona podría perjudicar a la comunidad, o viceversa",
+      "C": "Una situación que nunca ocurre en la vida real",
+      "D": "Un concepto exclusivo de la economía"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0107",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la empatía cognitiva, distinguida de la empatía emocional?",
+    "opciones": {
+      "A": "La incapacidad de comprender a los demás",
+      "B": "Un sinónimo exacto de simpatía emocional",
+      "C": "La capacidad de comprender racionalmente la perspectiva y los pensamientos de otra persona, sin necesariamente compartir sus emociones",
+      "D": "Un concepto sin relación con la empatía"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0108",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por juicio moral?",
+    "opciones": {
+      "A": "Un sinónimo de opinión política",
+      "B": "La evaluación que una persona hace sobre si una acción es correcta o incorrecta, con base en sus valores y principios éticos",
+      "C": "Un concepto exclusivo del derecho penal",
+      "D": "Una sentencia dictada por un juez en un tribunal"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0109",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por ética del cuidado, corriente que enfatiza las relaciones y la responsabilidad hacia los demás?",
+    "opciones": {
+      "A": "Una corriente que ignora completamente las relaciones humanas",
+      "B": "Un concepto exclusivo de la medicina",
+      "C": "Un sinónimo de utilitarismo",
+      "D": "Una perspectiva ética que prioriza las relaciones interpersonales, la empatía y la atención a las necesidades de los demás"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0110",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autorregulación emocional?",
+    "opciones": {
+      "A": "La capacidad de una persona para gestionar y controlar sus propias emociones de manera adecuada ante distintas situaciones",
+      "B": "La expresión descontrolada de las emociones sin ninguna gestión",
+      "C": "Un sinónimo de indiferencia emocional",
+      "D": "La supresión total de cualquier emoción"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0111",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por vocación, en relación con el proyecto de vida de una persona?",
+    "opciones": {
+      "A": "Un concepto sin relación con las decisiones de vida",
+      "B": "Un sinónimo de empleo temporal",
+      "C": "Una obligación impuesta exclusivamente por la familia",
+      "D": "La inclinación o inclinación personal hacia determinada actividad, profesión u oficio que resulta significativa para la persona"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0112",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por sentido de pertenencia, en el desarrollo de la identidad personal y social?",
+    "opciones": {
+      "A": "El sentimiento de formar parte de un grupo, comunidad o cultura con la que una persona se identifica",
+      "B": "Un sinónimo de aislamiento social",
+      "C": "Un concepto exclusivo de la vida laboral",
+      "D": "La negación de cualquier identidad colectiva"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0113",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autocrítica constructiva, como habilidad ética y personal?",
+    "opciones": {
+      "A": "Un sinónimo de autocompasión excesiva sin reflexión",
+      "B": "La capacidad de reconocer los propios errores con el fin de aprender y mejorar, sin caer en la autodestrucción",
+      "C": "La negación total de cualquier error propio",
+      "D": "Un concepto sin relación con el desarrollo personal"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0114",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por ética ambiental, corriente que ha cobrado relevancia en las últimas décadas?",
+    "opciones": {
+      "A": "La reflexión ética sobre la relación entre los seres humanos y la naturaleza, promoviendo el cuidado y respeto del medio ambiente",
+      "B": "Una corriente que ignora completamente el impacto humano en la naturaleza",
+      "C": "Un concepto exclusivo de la biología, sin componente ético",
+      "D": "Un sinónimo de economía ambiental exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0115",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por libre albedrío, concepto filosófico relacionado con la responsabilidad moral?",
+    "opciones": {
+      "A": "La ausencia total de cualquier tipo de decisión personal",
+      "B": "Un sinónimo de destino predeterminado sin posibilidad de elección",
+      "C": "Un concepto sin relación con la ética",
+      "D": "La capacidad de las personas para tomar decisiones de manera libre, sin estar completamente determinadas por factores externos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0116",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por civismo, valor relacionado con la convivencia en sociedad?",
+    "opciones": {
+      "A": "El comportamiento respetuoso y responsable de una persona hacia su comunidad y las normas de convivencia social",
+      "B": "Un concepto exclusivo del ámbito escolar",
+      "C": "Un sinónimo de individualismo extremo",
+      "D": "La indiferencia hacia las normas sociales"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0117",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por sentido crítico, habilidad fundamental en la formación ética y cívica?",
+    "opciones": {
+      "A": "La aceptación automática de cualquier información sin analizarla",
+      "B": "La capacidad de analizar y evaluar información, situaciones o argumentos de manera reflexiva antes de aceptarlos o actuar en consecuencia",
+      "C": "Un sinónimo de escepticismo total sobre todo",
+      "D": "Un concepto sin relación con la toma de decisiones"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0118",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por perseverancia, como valor personal?",
+    "opciones": {
+      "A": "Un concepto sin relación con el logro de metas personales",
+      "B": "Rendirse ante la primera dificultad encontrada",
+      "C": "Un sinónimo de terquedad sin ninguna reflexión",
+      "D": "La capacidad de mantener el esfuerzo y la disciplina para alcanzar una meta, a pesar de las dificultades"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0119",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por humildad, como valor ético?",
+    "opciones": {
+      "A": "La negación de los propios logros o capacidades",
+      "B": "Un concepto sin relevancia en la ética personal",
+      "C": "Un sinónimo de baja autoestima",
+      "D": "El reconocimiento realista de las propias capacidades y limitaciones, sin sobrevalorarse ni menospreciarse"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0120",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Valores y ética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por cooperación, valor esencial para la convivencia y el trabajo colectivo?",
+    "opciones": {
+      "A": "Un concepto sin relación con el trabajo en equipo",
+      "B": "La búsqueda exclusiva del beneficio individual sin considerar a los demás",
+      "C": "La disposición a colaborar con otras personas para alcanzar objetivos comunes, aportando esfuerzo y recursos propios",
+      "D": "Un sinónimo de competencia desleal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ética y valores."
+  },
+  {
+    "id_reactivo": "CIV-0121",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por democracia, como forma de gobierno?",
+    "opciones": {
+      "A": "Un gobierno controlado exclusivamente por el ejército",
+      "B": "Un sistema de gobierno en el que el poder reside en el pueblo, ejercido directa o indirectamente a través de representantes electos",
+      "C": "Un sistema donde el poder es hereditario",
+      "D": "Un sistema donde una sola persona gobierna sin límites"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0122",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué diferencia existe entre democracia directa y democracia representativa?",
+    "opciones": {
+      "A": "Son exactamente el mismo sistema con distinto nombre",
+      "B": "En la directa, el pueblo toma decisiones sin intermediarios; en la representativa, elige representantes que deciden en su nombre",
+      "C": "La democracia directa solo existe en teoría, nunca en la práctica",
+      "D": "La democracia representativa no incluye elecciones"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0123",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mecanismo de participación ciudadana permite a la población votar directamente sobre una decisión política específica?",
+    "opciones": {
+      "A": "El referéndum",
+      "B": "El juicio de amparo",
+      "C": "El voto electrónico exclusivamente",
+      "D": "La sesión ordinaria del Congreso"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0124",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mecanismo de participación ciudadana permite a los ciudadanos proponer directamente una ley o reforma?",
+    "opciones": {
+      "A": "El plebiscito",
+      "B": "El juicio de amparo",
+      "C": "La iniciativa popular (o iniciativa ciudadana)",
+      "D": "El referéndum"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0125",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mecanismo de participación ciudadana consiste en consultar a la población sobre un tema de interés nacional o local, como una decisión de gobierno?",
+    "opciones": {
+      "A": "La consulta popular",
+      "B": "El juicio de amparo",
+      "C": "La revocación de mandato",
+      "D": "El voto de castigo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0126",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mecanismo permite a la ciudadanía decidir si un funcionario electo debe continuar o no en su cargo antes de que termine su periodo?",
+    "opciones": {
+      "A": "El juicio político",
+      "B": "El referéndum",
+      "C": "La revocación de mandato",
+      "D": "La iniciativa popular"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0127",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el sufragio, derecho fundamental en toda democracia?",
+    "opciones": {
+      "A": "El derecho a la libertad de expresión",
+      "B": "El derecho a la propiedad privada",
+      "C": "El derecho a la educación",
+      "D": "El derecho a votar en elecciones para elegir representantes o decidir asuntos públicos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0128",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué significa que el voto en México sea 'universal, libre, secreto y directo'?",
+    "opciones": {
+      "A": "Que el voto se debe hacer públicamente frente a las autoridades",
+      "B": "Que solo ciertas personas privilegiadas pueden votar",
+      "C": "Que todos los ciudadanos pueden votar sin coacción, de manera confidencial y eligiendo directamente a sus representantes",
+      "D": "Que el voto es opcional según decida cada gobernador"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0129",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un partido político?",
+    "opciones": {
+      "A": "Un organismo internacional",
+      "B": "Una organización de ciudadanos que comparten ideas y objetivos políticos, y que busca acceder al poder mediante elecciones",
+      "C": "Una empresa privada con fines de lucro",
+      "D": "Una organización religiosa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0130",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el pluralismo político?",
+    "opciones": {
+      "A": "La existencia de un único partido político permitido",
+      "B": "La coexistencia de diversas ideologías, partidos y opiniones políticas dentro de una sociedad democrática",
+      "C": "Un sinónimo de dictadura",
+      "D": "La prohibición de opiniones distintas a las del gobierno"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0131",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por sociedad civil, en el contexto de la participación ciudadana?",
+    "opciones": {
+      "A": "Un tipo de empresa privada exclusivamente",
+      "B": "Las fuerzas armadas de un país",
+      "C": "Un sinónimo del gobierno federal",
+      "D": "El conjunto de organizaciones y ciudadanos que actúan de forma independiente del gobierno para atender asuntos de interés público"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0132",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una organización no gubernamental (ONG)?",
+    "opciones": {
+      "A": "Una dependencia oficial del gobierno federal",
+      "B": "Un partido político registrado",
+      "C": "Una organización sin fines de lucro, independiente del gobierno, que trabaja en temas de interés social, ambiental o humanitario",
+      "D": "Una empresa que cotiza en bolsa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0133",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por transparencia gubernamental?",
+    "opciones": {
+      "A": "El derecho exclusivo de los funcionarios a mantener en secreto toda su información",
+      "B": "Un sinónimo de censura",
+      "C": "Un concepto sin relación con el gobierno",
+      "D": "La obligación de las autoridades de dar a conocer públicamente información sobre sus acciones y el uso de recursos públicos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0134",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la rendición de cuentas (accountability) en el ejercicio del poder público?",
+    "opciones": {
+      "A": "Un sinónimo de corrupción",
+      "B": "Un derecho exclusivo del Poder Judicial",
+      "C": "La obligación de los gobernantes de responder e informar sobre sus decisiones y ser evaluados por la ciudadanía",
+      "D": "La posibilidad de que los gobernantes actúen sin ninguna supervisión"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0135",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la corrupción, en el ámbito de la vida pública?",
+    "opciones": {
+      "A": "Un tipo de derecho ciudadano",
+      "B": "El cumplimiento estricto de la ley por parte de un funcionario",
+      "C": "Un sinónimo de transparencia",
+      "D": "El uso indebido del poder o de recursos públicos para obtener un beneficio personal o de terceros"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0136",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la cultura de la legalidad?",
+    "opciones": {
+      "A": "Un sinónimo de anarquía",
+      "B": "Un concepto exclusivamente académico sin aplicación práctica",
+      "C": "El conjunto de valores y prácticas que promueven el respeto y cumplimiento de las leyes por parte de toda la sociedad",
+      "D": "La creencia de que las leyes solo aplican a ciertas personas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0137",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por interés público, en contraste con el interés particular?",
+    "opciones": {
+      "A": "Aquello que beneficia a la colectividad o a la sociedad en su conjunto, por encima de intereses individuales o de grupos reducidos",
+      "B": "Un sinónimo de propiedad privada",
+      "C": "Lo que beneficia exclusivamente a una persona o empresa",
+      "D": "Un concepto sin relevancia legal"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0138",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por ciudadanía activa o participativa?",
+    "opciones": {
+      "A": "Limitarse únicamente a cumplir con obligaciones fiscales",
+      "B": "Evitar cualquier tipo de participación en asuntos públicos",
+      "C": "Un sinónimo de indiferencia política",
+      "D": "La actitud y práctica de involucrarse activamente en los asuntos públicos, más allá de solo votar en elecciones"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0139",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por Estado laico en relación con la libertad religiosa de los ciudadanos?",
+    "opciones": {
+      "A": "Un Estado que obliga a profesar una sola religión",
+      "B": "Un Estado gobernado directamente por una institución religiosa",
+      "C": "Un Estado que garantiza la libertad de creencias y no impone ni privilegia ninguna religión oficial",
+      "D": "Un Estado que prohíbe toda práctica religiosa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0140",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por nacionalismo, como sentimiento e ideología política?",
+    "opciones": {
+      "A": "Un sinónimo de xenofobia",
+      "B": "La identificación y lealtad de una persona hacia su nación, sus valores, cultura e historia",
+      "C": "Un tipo de sistema económico",
+      "D": "El rechazo total hacia otras naciones"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0141",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por globalización política, fenómeno que afecta la participación ciudadana actual?",
+    "opciones": {
+      "A": "La creciente interconexión entre países en temas políticos, económicos y sociales, que influye en las decisiones nacionales",
+      "B": "El aislamiento total de un país respecto al resto del mundo",
+      "C": "Un concepto exclusivo del comercio internacional sin relación política",
+      "D": "Un sinónimo de dictadura"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0142",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por opinión pública, en el contexto de la vida democrática?",
+    "opciones": {
+      "A": "La opinión exclusiva de los funcionarios de gobierno",
+      "B": "El conjunto de puntos de vista compartidos por una parte significativa de la sociedad sobre temas de interés colectivo",
+      "C": "Un concepto sin relevancia en la democracia",
+      "D": "Un sinónimo de censura estatal"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0143",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel juegan los medios de comunicación en una sociedad democrática?",
+    "opciones": {
+      "A": "Servir exclusivamente como instrumento de propaganda gubernamental",
+      "B": "No tener ninguna función relevante en la democracia",
+      "C": "Informar a la ciudadanía y servir como un mecanismo de vigilancia sobre las acciones del gobierno",
+      "D": "Sustituir por completo las funciones del Poder Judicial"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0144",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por libertad de prensa, derecho fundamental en una democracia?",
+    "opciones": {
+      "A": "El derecho del Estado a censurar cualquier información que considere inconveniente",
+      "B": "El derecho de los medios de comunicación a informar y opinar libremente, sin censura previa por parte del Estado",
+      "C": "Un derecho exclusivo de los medios oficiales del gobierno",
+      "D": "Un concepto sin relación con la democracia"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0145",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por gobernabilidad democrática?",
+    "opciones": {
+      "A": "La capacidad de un gobierno para tomar e implementar decisiones efectivas, respetando las reglas democráticas y los derechos de la ciudadanía",
+      "B": "Un sinónimo de anarquía",
+      "C": "La capacidad de un gobierno para imponer decisiones sin ningún control ciudadano",
+      "D": "Un concepto exclusivo de gobiernos autoritarios"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0146",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por alternancia política, fenómeno observado en muchas democracias?",
+    "opciones": {
+      "A": "Un concepto exclusivo de sistemas de partido único",
+      "B": "El cambio periódico del partido o grupo político en el poder, como resultado de elecciones libres",
+      "C": "La permanencia indefinida de un mismo grupo político en el poder",
+      "D": "Un sinónimo de golpe de Estado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0147",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por voto informado, como responsabilidad ciudadana en una democracia?",
+    "opciones": {
+      "A": "Un sinónimo de voto obligatorio",
+      "B": "Un concepto sin relevancia en las elecciones",
+      "C": "La decisión de votar basada en el conocimiento de las propuestas, trayectoria y plataformas de los candidatos o partidos",
+      "D": "Votar sin ningún tipo de información previa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0148",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por abstencionismo electoral?",
+    "opciones": {
+      "A": "Un sinónimo de fraude electoral",
+      "B": "La decisión de un ciudadano de no participar en un proceso electoral, absteniéndose de votar",
+      "C": "Un mecanismo de participación ciudadana activa",
+      "D": "La obligación legal de votar en todas las elecciones sin excepción"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0149",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por fraude electoral?",
+    "opciones": {
+      "A": "Un mecanismo legal de participación ciudadana",
+      "B": "Cualquier acción ilegal que altera los resultados reales de una elección, violando la voluntad de los votantes",
+      "C": "Un concepto sin relación con los procesos electorales",
+      "D": "Un sinónimo de democracia directa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0150",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por observación electoral, práctica común en procesos democráticos?",
+    "opciones": {
+      "A": "Un mecanismo exclusivo de los partidos políticos ganadores",
+      "B": "Un sinónimo de propaganda electoral",
+      "C": "Un concepto sin relevancia en las elecciones",
+      "D": "La supervisión, por parte de ciudadanos u organismos independientes, del desarrollo de un proceso electoral para garantizar su legalidad y transparencia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0151",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por golpe de Estado, en contraste con los mecanismos democráticos de cambio de gobierno?",
+    "opciones": {
+      "A": "Un mecanismo legal de participación ciudadana",
+      "B": "Un concepto exclusivo de tiempos antiguos sin relevancia actual",
+      "C": "Un sinónimo de elección democrática",
+      "D": "La toma ilegal y generalmente violenta del poder político, sin respetar los procesos democráticos o constitucionales establecidos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0152",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autoritarismo, como forma de ejercer el poder opuesta a la democracia?",
+    "opciones": {
+      "A": "Un concepto sin relación con las formas de gobierno",
+      "B": "Un sinónimo de democracia representativa",
+      "C": "Un sistema de gobierno en el que el poder se concentra en una persona o grupo reducido, con escaso o nulo respeto a la participación ciudadana y los derechos humanos",
+      "D": "Un sistema que promueve activamente la participación ciudadana"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0153",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por totalitarismo, forma extrema de control estatal sobre la sociedad?",
+    "opciones": {
+      "A": "Un sinónimo de democracia liberal",
+      "B": "Un sistema político en el que el Estado ejerce un control absoluto sobre todos los aspectos de la vida pública y privada de los ciudadanos",
+      "C": "Un sistema que garantiza plenamente los derechos humanos",
+      "D": "Un concepto exclusivo de sistemas económicos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0154",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por diplomacia, en las relaciones entre países?",
+    "opciones": {
+      "A": "Un concepto exclusivo del comercio internacional",
+      "B": "El conjunto de prácticas y negociaciones mediante las cuales los Estados gestionan sus relaciones internacionales de forma pacífica",
+      "C": "Un mecanismo interno de gobierno sin relación exterior",
+      "D": "Un sinónimo de guerra o conflicto armado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0155",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismo internacional busca promover la cooperación económica, política y social entre los países de América?",
+    "opciones": {
+      "A": "La Liga Árabe",
+      "B": "La Organización de los Estados Americanos (OEA)",
+      "C": "La Unión Europea",
+      "D": "La OTAN"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0156",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por soberanía nacional, principio reconocido en el derecho internacional?",
+    "opciones": {
+      "A": "La subordinación total de un país a decisiones de otros países",
+      "B": "El derecho de un Estado a gobernarse a sí mismo sin injerencia de otros Estados u organismos externos",
+      "C": "Un sinónimo de aislamiento económico obligatorio",
+      "D": "Un concepto sin relación con la política internacional"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0157",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por multilateralismo, en las relaciones internacionales?",
+    "opciones": {
+      "A": "Un sinónimo de aislacionismo",
+      "B": "La toma de decisiones exclusivamente por un solo país sin cooperación internacional",
+      "C": "La cooperación entre múltiples países para abordar problemas comunes mediante organismos y acuerdos internacionales",
+      "D": "Un concepto exclusivo del comercio bilateral"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0158",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por participación ciudadana en la vigilancia del gasto público?",
+    "opciones": {
+      "A": "Un sinónimo de secreto fiscal absoluto",
+      "B": "El derecho y la posibilidad de los ciudadanos de conocer y supervisar cómo se utilizan los recursos públicos",
+      "C": "Un concepto sin relevancia en la democracia",
+      "D": "Un derecho exclusivo de los funcionarios de gobierno"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0159",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Democracia y participación ciudadana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por descentralización política, tendencia en varios sistemas democráticos modernos?",
+    "opciones": {
+      "A": "Un concepto exclusivo de sistemas monárquicos",
+      "B": "La concentración total del poder en el gobierno central",
+      "C": "El proceso de transferir funciones y responsabilidades del gobierno central hacia gobiernos locales o regionales",
+      "D": "Un sinónimo de dictadura regional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de democracia y participación ciudadana."
+  },
+  {
+    "id_reactivo": "CIV-0160",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por violencia de género?",
+    "opciones": {
+      "A": "Todo acto que cause daño físico, psicológico o sexual a una persona por razón de su género, generalmente contra mujeres",
+      "B": "Un sinónimo de igualdad de género",
+      "C": "Un tipo de derecho humano protegido por ley sin restricciones",
+      "D": "Un concepto sin relación con la violencia familiar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0161",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por bullying o acoso escolar?",
+    "opciones": {
+      "A": "Un sinónimo de trabajo en equipo",
+      "B": "Un juego cooperativo entre compañeros",
+      "C": "El maltrato físico, verbal o psicológico repetido que un estudiante ejerce sobre otro en el contexto escolar",
+      "D": "Una técnica pedagógica de enseñanza"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0162",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por adicción, en el contexto de la salud y el bienestar personal?",
+    "opciones": {
+      "A": "Un hábito saludable recomendado por médicos",
+      "B": "Una elección sin consecuencias para la salud",
+      "C": "Una dependencia física o psicológica hacia una sustancia o conducta, que afecta negativamente la vida de la persona",
+      "D": "Un sinónimo de disciplina personal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0163",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por sexualidad, desde una perspectiva integral de la formación cívica y ética?",
+    "opciones": {
+      "A": "Un concepto limitado únicamente a la reproducción biológica",
+      "B": "Un sinónimo exclusivo de actividad sexual",
+      "C": "Una dimensión humana que incluye aspectos biológicos, psicológicos, sociales y afectivos relacionados con el cuerpo, el género y las relaciones",
+      "D": "Un tema exclusivamente médico sin componente social"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0164",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por identidad de género?",
+    "opciones": {
+      "A": "Un sinónimo de orientación sexual",
+      "B": "Lo mismo que el sexo biológico asignado al nacer, sin ninguna diferencia conceptual",
+      "C": "La vivencia interna e individual del género tal como cada persona la siente y experimenta",
+      "D": "Un concepto exclusivamente legal sin relación personal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0165",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por consentimiento, en el contexto de las relaciones interpersonales y la educación sexual?",
+    "opciones": {
+      "A": "Un sinónimo de silencio o falta de objeción",
+      "B": "Una obligación impuesta por otra persona",
+      "C": "Un concepto sin relevancia en las relaciones humanas",
+      "D": "El acuerdo voluntario, libre e informado que una persona da para participar en una acción o relación"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0166",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución de salud pública en México promueve campañas de prevención de enfermedades y educación sexual integral?",
+    "opciones": {
+      "A": "El Congreso de la Unión",
+      "B": "La Secretaría de Salud",
+      "C": "El Instituto Nacional Electoral",
+      "D": "La Suprema Corte de Justicia"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0167",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por salud integral, más allá de la ausencia de enfermedad?",
+    "opciones": {
+      "A": "Un sinónimo de estar en forma físicamente",
+      "B": "El estado de bienestar físico, mental y social completo de una persona",
+      "C": "Únicamente la ausencia de síntomas físicos",
+      "D": "Un concepto exclusivamente relacionado con la alimentación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0168",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por resolución pacífica de conflictos?",
+    "opciones": {
+      "A": "Evitar cualquier tipo de comunicación entre las partes",
+      "B": "Ignorar por completo cualquier conflicto que surja",
+      "C": "Imponer la solución mediante la fuerza",
+      "D": "El proceso de solucionar diferencias o disputas mediante el diálogo, la negociación y el respeto mutuo, sin recurrir a la violencia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0169",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por mediación, como herramienta de resolución de conflictos?",
+    "opciones": {
+      "A": "Un proceso en el que una tercera persona neutral ayuda a las partes en conflicto a llegar a un acuerdo mutuamente aceptable",
+      "B": "Un sinónimo de arbitraje deportivo exclusivamente",
+      "C": "Un proceso judicial obligatorio con sentencia definitiva",
+      "D": "Una imposición unilateral de una de las partes"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0170",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por asertividad, como habilidad de comunicación?",
+    "opciones": {
+      "A": "Un sinónimo de sumisión total",
+      "B": "La imposición agresiva de las propias ideas sobre los demás",
+      "C": "La capacidad de expresar opiniones, sentimientos y necesidades de manera clara y respetuosa, sin agredir ni someterse a los demás",
+      "D": "La incapacidad de expresar cualquier opinión"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0171",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por trabajo en equipo, como habilidad social valorada en la convivencia escolar y laboral?",
+    "opciones": {
+      "A": "El trabajo realizado de forma completamente individual",
+      "B": "La colaboración de un grupo de personas para alcanzar un objetivo común, aprovechando las fortalezas de cada integrante",
+      "C": "La competencia constante entre los miembros de un grupo",
+      "D": "Un sinónimo de subordinación jerárquica estricta"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0172",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por prevención de adicciones, en el contexto de la educación para la salud?",
+    "opciones": {
+      "A": "El conjunto de acciones educativas e informativas orientadas a evitar el consumo de sustancias nocivas o conductas de riesgo",
+      "B": "Un tema sin relevancia en la formación de adolescentes",
+      "C": "La promoción del consumo controlado de sustancias",
+      "D": "Un sinónimo de tratamiento médico exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0173",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autocuidado, en el ámbito de la salud personal?",
+    "opciones": {
+      "A": "El conjunto de prácticas que una persona realiza para mantener y mejorar su propio bienestar físico y emocional",
+      "B": "Un sinónimo de aislamiento social",
+      "C": "Un concepto exclusivo de la vejez",
+      "D": "Depender completamente de otras personas para el cuidado de la salud"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0174",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por diversidad familiar, reconocida en la formación cívica actual?",
+    "opciones": {
+      "A": "El reconocimiento de que existen distintos tipos de estructuras familiares (nucleares, monoparentales, extendidas, entre otras), todas válidas",
+      "B": "La existencia de un único modelo de familia válido y correcto",
+      "C": "Un sinónimo de desintegración familiar",
+      "D": "Un concepto sin relevancia social o legal"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0175",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por proyecto de vida saludable, en el contexto de la adolescencia?",
+    "opciones": {
+      "A": "Un documento legal sin relación con decisiones personales",
+      "B": "Un sinónimo de horario escolar",
+      "C": "Una obligación impuesta exclusivamente por la escuela",
+      "D": "La planeación de metas personales, académicas y de salud que orientan las decisiones de una persona hacia su bienestar futuro"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0176",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por presión de grupo (presión de pares) durante la adolescencia?",
+    "opciones": {
+      "A": "La influencia que un grupo de compañeros ejerce sobre una persona para que adopte ciertas conductas o actitudes",
+      "B": "Un sinónimo de apoyo emocional incondicional",
+      "C": "Un concepto sin relación con la toma de decisiones",
+      "D": "Un fenómeno exclusivo de la vida adulta"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0177",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por comunicación asertiva en la resolución de conflictos familiares o escolares?",
+    "opciones": {
+      "A": "Imponer el propio punto de vista sin escuchar al otro",
+      "B": "Expresar de forma clara, honesta y respetuosa lo que se piensa o siente, escuchando también al otro",
+      "C": "Un sinónimo de indiferencia",
+      "D": "Evitar cualquier comunicación para prevenir conflictos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0178",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por respeto a la diversidad sexual, en el marco de los derechos humanos?",
+    "opciones": {
+      "A": "Un sinónimo de tolerancia condicionada",
+      "B": "Un concepto sin relación con los derechos humanos",
+      "C": "El reconocimiento y aceptación de las distintas orientaciones sexuales e identidades de género, sin discriminación",
+      "D": "La imposición de una única orientación sexual como válida"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0179",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por embarazo adolescente y por qué es un tema relevante en la educación para la salud?",
+    "opciones": {
+      "A": "Un sinónimo de madurez emocional garantizada",
+      "B": "Un fenómeno que no requiere educación preventiva",
+      "C": "Un tema sin relevancia social o educativa",
+      "D": "El embarazo que ocurre durante la adolescencia, con implicaciones importantes para la salud, educación y proyecto de vida de la persona"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0180",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por infecciones de transmisión sexual (ITS) y por qué es importante su prevención?",
+    "opciones": {
+      "A": "Un tema sin relación con la educación sexual",
+      "B": "Enfermedades que solo afectan a personas de edad avanzada",
+      "C": "Enfermedades que no requieren ningún tipo de prevención",
+      "D": "Enfermedades que se transmiten principalmente por contacto sexual, cuya prevención es clave mediante educación e información adecuada"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0181",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por métodos anticonceptivos, en el contexto de la educación sexual integral?",
+    "opciones": {
+      "A": "Los medios utilizados para prevenir un embarazo no planeado, permitiendo a las personas decidir sobre su reproducción de forma informada",
+      "B": "Un tema exclusivo de personas casadas",
+      "C": "Un concepto sin relevancia en la educación de adolescentes",
+      "D": "Métodos que garantizan la prevención de cualquier enfermedad no relacionada con la reproducción"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0182",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por derechos sexuales y reproductivos?",
+    "opciones": {
+      "A": "Un privilegio otorgado únicamente a los adultos mayores",
+      "B": "Un concepto sin reconocimiento en los derechos humanos",
+      "C": "El derecho de las personas a decidir libre e informadamente sobre su sexualidad y reproducción, sin discriminación ni violencia",
+      "D": "Un derecho exclusivo de las personas casadas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0183",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por autocuidado emocional durante la adolescencia, etapa de importantes cambios físicos y psicológicos?",
+    "opciones": {
+      "A": "La represión total de las emociones",
+      "B": "El conjunto de prácticas que ayudan a una persona joven a manejar sus emociones y bienestar durante los cambios propios de esta etapa",
+      "C": "Un sinónimo de aislamiento social durante la adolescencia",
+      "D": "Un concepto exclusivo de la vida adulta"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0184",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por red de apoyo, en el contexto del bienestar emocional de una persona?",
+    "opciones": {
+      "A": "Un sinónimo de aislamiento",
+      "B": "La dependencia exclusiva de una sola persona sin ninguna otra relación",
+      "C": "Un concepto exclusivo del ámbito laboral",
+      "D": "El conjunto de personas (familiares, amigos, profesionales) que brindan apoyo emocional, social o práctico a un individuo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0185",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por estigmatización, en relación con ciertas condiciones de salud mental?",
+    "opciones": {
+      "A": "El trato negativo o discriminatorio hacia una persona debido a prejuicios sociales sobre una condición que padece",
+      "B": "Un sinónimo de empatía",
+      "C": "Un trato de apoyo y comprensión hacia la persona",
+      "D": "Un concepto sin relación con la salud mental"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0186",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por salud mental, como parte integral del bienestar de una persona?",
+    "opciones": {
+      "A": "Un sinónimo de ausencia total de emociones negativas",
+      "B": "Un concepto exclusivo de personas con diagnósticos clínicos",
+      "C": "El estado de bienestar emocional y psicológico que permite a una persona afrontar el estrés cotidiano y desarrollarse plenamente",
+      "D": "Únicamente la ausencia de enfermedades físicas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0187",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por ciberacoso (ciberbullying), fenómeno relevante en la convivencia actual?",
+    "opciones": {
+      "A": "Un concepto exclusivo del ámbito laboral",
+      "B": "El acoso o maltrato realizado a través de medios digitales, como redes sociales o mensajería, hacia otra persona",
+      "C": "Un tipo de comunicación positiva entre compañeros",
+      "D": "Un sinónimo de amistad virtual"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0188",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por uso responsable de las redes sociales, tema relevante en la educación actual?",
+    "opciones": {
+      "A": "El manejo consciente y cuidadoso de la información y el tiempo dedicado a plataformas digitales, considerando sus efectos en la vida personal y social",
+      "B": "El uso ilimitado y sin ninguna reflexión de las redes sociales",
+      "C": "Evitar por completo cualquier tipo de tecnología",
+      "D": "Un concepto sin relación con la convivencia escolar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0189",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por identidad digital, concepto relevante en la era de internet?",
+    "opciones": {
+      "A": "Un tipo de documento oficial",
+      "B": "Un concepto exclusivo de empresas tecnológicas",
+      "C": "Un sinónimo de identidad de género",
+      "D": "La forma en que una persona se presenta y es percibida en entornos digitales, a través de sus publicaciones y actividad en línea"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0190",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por consumo responsable, valor relacionado con la sustentabilidad y la ética personal?",
+    "opciones": {
+      "A": "Un concepto sin relación con la ética personal",
+      "B": "Un sinónimo de ahorro obligatorio",
+      "C": "Comprar la mayor cantidad posible de productos sin ninguna consideración",
+      "D": "La toma de decisiones de compra considerando el impacto social, ambiental y económico de los productos o servicios adquiridos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0191",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por hábitos saludables, en el contexto de la educación para la salud?",
+    "opciones": {
+      "A": "Un sinónimo de dieta extrema",
+      "B": "Conductas que perjudican la salud a largo plazo",
+      "C": "Un concepto exclusivo de deportistas profesionales",
+      "D": "Conductas cotidianas que favorecen el bienestar físico y mental, como una alimentación balanceada, actividad física y descanso adecuado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0192",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por manejo del estrés, habilidad importante para el bienestar durante la adolescencia y la vida adulta?",
+    "opciones": {
+      "A": "Un sinónimo de indiferencia ante los problemas",
+      "B": "La evitación total de cualquier situación desafiante",
+      "C": "Un concepto sin relación con la salud mental",
+      "D": "El conjunto de estrategias que permiten a una persona afrontar de manera saludable las situaciones de tensión o presión"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0193",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por violencia familiar, problemática que afecta la convivencia dentro del hogar?",
+    "opciones": {
+      "A": "Cualquier acto de maltrato físico, psicológico, sexual o económico entre miembros de una familia",
+      "B": "Un concepto sin relevancia legal o social",
+      "C": "Un conflicto normal y sin consecuencias dentro del hogar",
+      "D": "Un sinónimo de disciplina adecuada"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0194",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instancia en México brinda atención y protección a víctimas de violencia familiar y de género?",
+    "opciones": {
+      "A": "El Instituto Nacional Electoral",
+      "B": "El Sistema Nacional para el Desarrollo Integral de la Familia (DIF), entre otras instituciones especializadas",
+      "C": "La Secretaría de Relaciones Exteriores",
+      "D": "El Congreso de la Unión"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0195",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por comunicación no violenta, como herramienta para la convivencia pacífica?",
+    "opciones": {
+      "A": "Una forma de comunicarse que busca expresar necesidades y sentimientos sin recurrir a la agresión o el juicio hacia el otro",
+      "B": "Una forma de comunicación basada en el silencio absoluto",
+      "C": "Un sinónimo de imposición verbal",
+      "D": "Un concepto sin relación con la resolución de conflictos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0196",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por inclusión educativa, principio relevante en la convivencia escolar?",
+    "opciones": {
+      "A": "Un privilegio exclusivo para ciertos estudiantes",
+      "B": "El derecho de todos los estudiantes, incluidos aquellos con discapacidad o necesidades especiales, a recibir una educación de calidad en el mismo entorno",
+      "C": "Un concepto sin relación con los derechos humanos",
+      "D": "La separación de estudiantes según sus capacidades en escuelas distintas de forma obligatoria"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0197",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por diversidad cultural en el aula, y por qué es relevante para la convivencia escolar?",
+    "opciones": {
+      "A": "Un sinónimo de discriminación obligatoria",
+      "B": "Un problema que debe eliminarse en las escuelas",
+      "C": "La coexistencia de estudiantes con diferentes orígenes, culturas y tradiciones en un mismo espacio educativo, que enriquece el aprendizaje si se gestiona con respeto",
+      "D": "Un concepto sin relación con la convivencia escolar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0198",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por educación para la paz, enfoque pedagógico relacionado con la formación cívica?",
+    "opciones": {
+      "A": "Un enfoque educativo orientado a desarrollar habilidades para la resolución pacífica de conflictos y la convivencia armónica",
+      "B": "Un concepto exclusivo de la educación militar",
+      "C": "Un enfoque que ignora la existencia de conflictos",
+      "D": "Un sinónimo de pasividad ante la injusticia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  },
+  {
+    "id_reactivo": "CIV-0199",
+    "asignatura": "Formación Cívica y Ética",
+    "subtemario": "Convivencia, sexualidad y salud integral",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por empatía intercultural, habilidad relevante en sociedades diversas?",
+    "opciones": {
+      "A": "El rechazo hacia las costumbres de otras culturas",
+      "B": "Un sinónimo de asimilación forzada de otras culturas",
+      "C": "Un concepto exclusivo de viajeros internacionales",
+      "D": "La capacidad de comprender y respetar las perspectivas de personas provenientes de culturas distintas a la propia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de convivencia, salud y desarrollo personal."
+  }
+]

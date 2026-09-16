@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "HMAT-0001",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 11, 15, 19, 23, 27, ___?",
+    "opciones": {
+      "A": "35",
+      "B": "31",
+      "C": "27",
+      "D": "32"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 4; el siguiente término es 27 + (4) = 31."
+  },
+  {
+    "id_reactivo": "HMAT-0002",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 3, 0, -3, -6, -9, ___?",
+    "opciones": {
+      "A": "-9",
+      "B": "-11",
+      "C": "-15",
+      "D": "-12"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -3; el siguiente término es -9 + (-3) = -12."
+  },
+  {
+    "id_reactivo": "HMAT-0003",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 17, 22, 27, 32, 37, ___?",
+    "opciones": {
+      "A": "37",
+      "B": "47",
+      "C": "43",
+      "D": "42"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 5; el siguiente término es 37 + (5) = 42."
+  },
+  {
+    "id_reactivo": "HMAT-0004",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 14, 17, 20, 23, 26, ___?",
+    "opciones": {
+      "A": "26",
+      "B": "30",
+      "C": "29",
+      "D": "32"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 3; el siguiente término es 26 + (3) = 29."
+  },
+  {
+    "id_reactivo": "HMAT-0005",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 2, -2, -6, -10, -14, ___?",
+    "opciones": {
+      "A": "-22",
+      "B": "-14",
+      "C": "-17",
+      "D": "-18"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -4; el siguiente término es -14 + (-4) = -18."
+  },
+  {
+    "id_reactivo": "HMAT-0006",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 19, 15, 11, 7, 3, ___?",
+    "opciones": {
+      "A": "-5",
+      "B": "3",
+      "C": "-1",
+      "D": "0"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -4; el siguiente término es 3 + (-4) = -1."
+  },
+  {
+    "id_reactivo": "HMAT-0007",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 2, -1, -4, -7, -10, ___?",
+    "opciones": {
+      "A": "-13",
+      "B": "-10",
+      "C": "-12",
+      "D": "-16"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -3; el siguiente término es -10 + (-3) = -13."
+  },
+  {
+    "id_reactivo": "HMAT-0008",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 5, 2, -1, -4, -7, ___?",
+    "opciones": {
+      "A": "-9",
+      "B": "-13",
+      "C": "-7",
+      "D": "-10"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -3; el siguiente término es -7 + (-3) = -10."
+  },
+  {
+    "id_reactivo": "HMAT-0009",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 18, 22, 26, 30, 34, ___?",
+    "opciones": {
+      "A": "42",
+      "B": "39",
+      "C": "34",
+      "D": "38"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 4; el siguiente término es 34 + (4) = 38."
+  },
+  {
+    "id_reactivo": "HMAT-0010",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 12, 15, 18, 21, 24, ___?",
+    "opciones": {
+      "A": "30",
+      "B": "28",
+      "C": "24",
+      "D": "27"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 3; el siguiente término es 24 + (3) = 27."
+  },
+  {
+    "id_reactivo": "HMAT-0011",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 20, 25, 30, 35, 40, ___?",
+    "opciones": {
+      "A": "45",
+      "B": "50",
+      "C": "40",
+      "D": "46"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 5; el siguiente término es 40 + (5) = 45."
+  },
+  {
+    "id_reactivo": "HMAT-0012",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 11, 9, 7, 5, 3, ___?",
+    "opciones": {
+      "A": "1",
+      "B": "3",
+      "C": "-1",
+      "D": "2"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -2; el siguiente término es 3 + (-2) = 1."
+  },
+  {
+    "id_reactivo": "HMAT-0013",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 8, 12, 16, 20, 24, ___?",
+    "opciones": {
+      "A": "24",
+      "B": "29",
+      "C": "28",
+      "D": "32"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Es una sucesión aritmética con diferencia constante de 4; el siguiente término es 24 + (4) = 28."
+  },
+  {
+    "id_reactivo": "HMAT-0014",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 17, 15, 13, 11, 9, ___?",
+    "opciones": {
+      "A": "7",
+      "B": "5",
+      "C": "8",
+      "D": "9"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -2; el siguiente término es 9 + (-2) = 7."
+  },
+  {
+    "id_reactivo": "HMAT-0015",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones aritméticas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 10, 6, 2, -2, -6, ___?",
+    "opciones": {
+      "A": "-6",
+      "B": "-14",
+      "C": "-9",
+      "D": "-10"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Es una sucesión aritmética con diferencia constante de -4; el siguiente término es -6 + (-4) = -10."
+  },
+  {
+    "id_reactivo": "HMAT-0016",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 3, 9, 27, 81, ___?",
+    "opciones": {
+      "A": "243",
+      "B": "240",
+      "C": "135",
+      "D": "246"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 3 (razón geométrica); el siguiente término es 81 × 3 = 243."
+  },
+  {
+    "id_reactivo": "HMAT-0017",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 1, 4, 16, 64, ___?",
+    "opciones": {
+      "A": "112",
+      "B": "260",
+      "C": "252",
+      "D": "256"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Cada término se multiplica por 4 (razón geométrica); el siguiente término es 64 × 4 = 256."
+  },
+  {
+    "id_reactivo": "HMAT-0018",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 6, 24, 96, 384, ___?",
+    "opciones": {
+      "A": "1536",
+      "B": "1540",
+      "C": "672",
+      "D": "1532"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 4 (razón geométrica); el siguiente término es 384 × 4 = 1536."
+  },
+  {
+    "id_reactivo": "HMAT-0019",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 10, 30, 90, 270, ___?",
+    "opciones": {
+      "A": "807",
+      "B": "813",
+      "C": "450",
+      "D": "810"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Cada término se multiplica por 3 (razón geométrica); el siguiente término es 270 × 3 = 810."
+  },
+  {
+    "id_reactivo": "HMAT-0020",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 8, 32, 128, 512, ___?",
+    "opciones": {
+      "A": "2044",
+      "B": "2052",
+      "C": "896",
+      "D": "2048"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Cada término se multiplica por 4 (razón geométrica); el siguiente término es 512 × 4 = 2048."
+  },
+  {
+    "id_reactivo": "HMAT-0021",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 10, 40, 160, 640, ___?",
+    "opciones": {
+      "A": "2560",
+      "B": "2556",
+      "C": "2564",
+      "D": "1120"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 4 (razón geométrica); el siguiente término es 640 × 4 = 2560."
+  },
+  {
+    "id_reactivo": "HMAT-0022",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 6, 12, 24, 48, ___?",
+    "opciones": {
+      "A": "94",
+      "B": "96",
+      "C": "98",
+      "D": "72"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Cada término se multiplica por 2 (razón geométrica); el siguiente término es 48 × 2 = 96."
+  },
+  {
+    "id_reactivo": "HMAT-0023",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 10, 20, 40, 80, ___?",
+    "opciones": {
+      "A": "162",
+      "B": "158",
+      "C": "160",
+      "D": "120"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Cada término se multiplica por 2 (razón geométrica); el siguiente término es 80 × 2 = 160."
+  },
+  {
+    "id_reactivo": "HMAT-0024",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 5, 10, 20, 40, ___?",
+    "opciones": {
+      "A": "80",
+      "B": "78",
+      "C": "60",
+      "D": "82"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 2 (razón geométrica); el siguiente término es 40 × 2 = 80."
+  },
+  {
+    "id_reactivo": "HMAT-0025",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 8, 16, 32, 64, ___?",
+    "opciones": {
+      "A": "128",
+      "B": "126",
+      "C": "96",
+      "D": "130"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 2 (razón geométrica); el siguiente término es 64 × 2 = 128."
+  },
+  {
+    "id_reactivo": "HMAT-0026",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 9, 27, 81, 243, ___?",
+    "opciones": {
+      "A": "729",
+      "B": "726",
+      "C": "405",
+      "D": "732"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 3 (razón geométrica); el siguiente término es 243 × 3 = 729."
+  },
+  {
+    "id_reactivo": "HMAT-0027",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 7, 21, 63, 189, ___?",
+    "opciones": {
+      "A": "570",
+      "B": "564",
+      "C": "567",
+      "D": "315"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Cada término se multiplica por 3 (razón geométrica); el siguiente término es 189 × 3 = 567."
+  },
+  {
+    "id_reactivo": "HMAT-0028",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 2, 4, 8, 16, ___?",
+    "opciones": {
+      "A": "24",
+      "B": "30",
+      "C": "32",
+      "D": "34"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Cada término se multiplica por 2 (razón geométrica); el siguiente término es 16 × 2 = 32."
+  },
+  {
+    "id_reactivo": "HMAT-0029",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 1, 3, 9, 27, ___?",
+    "opciones": {
+      "A": "81",
+      "B": "78",
+      "C": "45",
+      "D": "84"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 3 (razón geométrica); el siguiente término es 27 × 3 = 81."
+  },
+  {
+    "id_reactivo": "HMAT-0030",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones geométricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué número sigue en la sucesión: 1, 2, 4, 8, ___?",
+    "opciones": {
+      "A": "16",
+      "B": "18",
+      "C": "14",
+      "D": "12"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Cada término se multiplica por 2 (razón geométrica); el siguiente término es 8 × 2 = 16."
+  },
+  {
+    "id_reactivo": "HMAT-0031",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 400, 441, 484, 529, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "574",
+      "B": "1058",
+      "C": "576",
+      "D": "578"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Son cuadrados consecutivos (20²,21²,...); el siguiente es (24)² = 576."
+  },
+  {
+    "id_reactivo": "HMAT-0032",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 225, 256, 289, 324, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "361",
+      "B": "363",
+      "C": "359",
+      "D": "648"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Son cuadrados consecutivos (15²,16²,...); el siguiente es (19)² = 361."
+  },
+  {
+    "id_reactivo": "HMAT-0033",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 169, 196, 225, 256, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "512",
+      "B": "291",
+      "C": "287",
+      "D": "289"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Son cuadrados consecutivos (13²,14²,...); el siguiente es (17)² = 289."
+  },
+  {
+    "id_reactivo": "HMAT-0034",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 4, 9, 16, 25, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "50",
+      "B": "38",
+      "C": "36",
+      "D": "34"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Son cuadrados consecutivos (2²,3²,...); el siguiente es (6)² = 36."
+  },
+  {
+    "id_reactivo": "HMAT-0035",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 361, 400, 441, 484, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "968",
+      "B": "529",
+      "C": "531",
+      "D": "527"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Son cuadrados consecutivos (19²,20²,...); el siguiente es (23)² = 529."
+  },
+  {
+    "id_reactivo": "HMAT-0036",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 144, 169, 196, 225, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "254",
+      "B": "258",
+      "C": "450",
+      "D": "256"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Son cuadrados consecutivos (12²,13²,...); el siguiente es (16)² = 256."
+  },
+  {
+    "id_reactivo": "HMAT-0037",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 16, 25, 36, 49, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "64",
+      "B": "66",
+      "C": "62",
+      "D": "98"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Son cuadrados consecutivos (4²,5²,...); el siguiente es (8)² = 64."
+  },
+  {
+    "id_reactivo": "HMAT-0038",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 256, 289, 324, 361, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "398",
+      "B": "722",
+      "C": "400",
+      "D": "402"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Son cuadrados consecutivos (16²,17²,...); el siguiente es (20)² = 400."
+  },
+  {
+    "id_reactivo": "HMAT-0039",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 49, 64, 81, 100, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "119",
+      "B": "200",
+      "C": "121",
+      "D": "123"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Son cuadrados consecutivos (7²,8²,...); el siguiente es (11)² = 121."
+  },
+  {
+    "id_reactivo": "HMAT-0040",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 625, 676, 729, 784, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "839",
+      "B": "841",
+      "C": "1568",
+      "D": "843"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Son cuadrados consecutivos (25²,26²,...); el siguiente es (29)² = 841."
+  },
+  {
+    "id_reactivo": "HMAT-0041",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 529, 576, 625, 676, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "729",
+      "B": "727",
+      "C": "1352",
+      "D": "731"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Son cuadrados consecutivos (23²,24²,...); el siguiente es (27)² = 729."
+  },
+  {
+    "id_reactivo": "HMAT-0042",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 900, 961, 1024, 1089, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "1158",
+      "B": "1156",
+      "C": "2178",
+      "D": "1154"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Son cuadrados consecutivos (30²,31²,...); el siguiente es (34)² = 1156."
+  },
+  {
+    "id_reactivo": "HMAT-0043",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 324, 361, 400, 441, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "482",
+      "B": "484",
+      "C": "882",
+      "D": "486"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Son cuadrados consecutivos (18²,19²,...); el siguiente es (22)² = 484."
+  },
+  {
+    "id_reactivo": "HMAT-0044",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 576, 625, 676, 729, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "786",
+      "B": "1458",
+      "C": "784",
+      "D": "782"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Son cuadrados consecutivos (24²,25²,...); el siguiente es (28)² = 784."
+  },
+  {
+    "id_reactivo": "HMAT-0045",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - sucesiones numéricas especiales",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Observa la sucesión de cuadrados: 64, 81, 100, 121, ___. ¿Qué número continúa?",
+    "opciones": {
+      "A": "146",
+      "B": "142",
+      "C": "242",
+      "D": "144"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Son cuadrados consecutivos (8²,9²,...); el siguiente es (12)² = 144."
+  },
+  {
+    "id_reactivo": "HMAT-0046",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "5 es a 15 como 8 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "25",
+      "B": "24",
+      "C": "23",
+      "D": "8"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el triple de', por lo que si 5 se relaciona con 15, 8 se relaciona con 24 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0047",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "18 es a 9 como 26 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "14",
+      "B": "26",
+      "C": "12",
+      "D": "13"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es la mitad de', por lo que si 18 se relaciona con 9, 26 se relaciona con 13 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0048",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "16 es a 8 como 16 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "7",
+      "B": "9",
+      "C": "8",
+      "D": "16"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es la mitad de', por lo que si 16 se relaciona con 8, 16 se relaciona con 8 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0049",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 36 como 4 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "12",
+      "B": "11",
+      "C": "13",
+      "D": "4"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es el triple de', por lo que si 12 se relaciona con 36, 4 se relaciona con 12 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0050",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "6 es a 3 como 14 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "14",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es la mitad de', por lo que si 6 se relaciona con 3, 14 se relaciona con 7 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0051",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "8 es a 4 como 32 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "16",
+      "B": "32",
+      "C": "15",
+      "D": "17"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es la mitad de', por lo que si 8 se relaciona con 4, 32 se relaciona con 16 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0052",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 36 como 6 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "6",
+      "B": "17",
+      "C": "18",
+      "D": "19"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el triple de', por lo que si 12 se relaciona con 36, 6 se relaciona con 18 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0053",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 24 como 18 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "35",
+      "B": "36",
+      "C": "18",
+      "D": "37"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 12 se relaciona con 24, 18 se relaciona con 36 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0054",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "5 es a 10 como 10 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "19",
+      "B": "20",
+      "C": "10",
+      "D": "21"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 5 se relaciona con 10, 10 se relaciona con 20 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0055",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "11 es a 33 como 10 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "31",
+      "B": "29",
+      "C": "30",
+      "D": "10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el triple de', por lo que si 11 se relaciona con 33, 10 se relaciona con 30 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0056",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "7 es a 21 como 20 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "61",
+      "B": "60",
+      "C": "59",
+      "D": "20"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el triple de', por lo que si 7 se relaciona con 21, 20 se relaciona con 60 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0057",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "10 es a 20 como 18 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "35",
+      "B": "18",
+      "C": "37",
+      "D": "36"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es el doble de', por lo que si 10 se relaciona con 20, 18 se relaciona con 36 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0058",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "11 es a 22 como 6 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "11",
+      "B": "6",
+      "C": "12",
+      "D": "13"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el doble de', por lo que si 11 se relaciona con 22, 6 se relaciona con 12 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0059",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "22 es a 11 como 10 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "10",
+      "B": "4",
+      "C": "6",
+      "D": "5"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es la mitad de', por lo que si 22 se relaciona con 11, 10 se relaciona con 5 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0060",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "6 es a 3 como 6 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "2",
+      "B": "6",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es la mitad de', por lo que si 6 se relaciona con 3, 6 se relaciona con 3 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0061",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "2 es a 4 como 18 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "37",
+      "B": "36",
+      "C": "35",
+      "D": "18"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 2 se relaciona con 4, 18 se relaciona con 36 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0062",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "3 es a 9 como 12 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "36",
+      "B": "12",
+      "C": "35",
+      "D": "37"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es el triple de', por lo que si 3 se relaciona con 9, 12 se relaciona con 36 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0063",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "18 es a 9 como 38 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "20",
+      "B": "19",
+      "C": "18",
+      "D": "38"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es la mitad de', por lo que si 18 se relaciona con 9, 38 se relaciona con 19 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0064",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "10 es a 30 como 19 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "56",
+      "B": "57",
+      "C": "19",
+      "D": "58"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el triple de', por lo que si 10 se relaciona con 30, 19 se relaciona con 57 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0065",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "8 es a 16 como 14 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "27",
+      "B": "28",
+      "C": "29",
+      "D": "14"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 8 se relaciona con 16, 14 se relaciona con 28 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0066",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 24 como 15 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "29",
+      "B": "31",
+      "C": "15",
+      "D": "30"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es el doble de', por lo que si 12 se relaciona con 24, 15 se relaciona con 30 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0067",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "3 es a 6 como 13 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "25",
+      "B": "26",
+      "C": "13",
+      "D": "27"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 3 se relaciona con 6, 13 se relaciona con 26 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0068",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "9 es a 18 como 5 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "5"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 9 se relaciona con 18, 5 se relaciona con 10 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0069",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 24 como 7 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "14",
+      "B": "15",
+      "C": "13",
+      "D": "7"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es el doble de', por lo que si 12 se relaciona con 24, 7 se relaciona con 14 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0070",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "7 es a 21 como 8 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "8",
+      "B": "24",
+      "C": "25",
+      "D": "23"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el triple de', por lo que si 7 se relaciona con 21, 8 se relaciona con 24 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0071",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "7 es a 14 como 12 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "23",
+      "B": "24",
+      "C": "25",
+      "D": "12"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 7 se relaciona con 14, 12 se relaciona con 24 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0072",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "8 es a 24 como 18 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "55",
+      "B": "54",
+      "C": "18",
+      "D": "53"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el triple de', por lo que si 8 se relaciona con 24, 18 se relaciona con 54 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0073",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "3 es a 6 como 5 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "5",
+      "B": "9",
+      "C": "11",
+      "D": "10"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es el doble de', por lo que si 3 se relaciona con 6, 5 se relaciona con 10 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0074",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "2 es a 4 como 10 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "20",
+      "B": "19",
+      "C": "10",
+      "D": "21"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es el doble de', por lo que si 2 se relaciona con 4, 10 se relaciona con 20 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0075",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "8 es a 16 como 19 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "38",
+      "B": "39",
+      "C": "37",
+      "D": "19"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es el doble de', por lo que si 8 se relaciona con 16, 19 se relaciona con 38 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0076",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "3 es a 9 como 3 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "8",
+      "B": "9",
+      "C": "3",
+      "D": "10"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el triple de', por lo que si 3 se relaciona con 9, 3 se relaciona con 9 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0077",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "6 es a 12 como 4 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "9",
+      "B": "4",
+      "C": "8",
+      "D": "7"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el doble de', por lo que si 6 se relaciona con 12, 4 se relaciona con 8 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0078",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "3 es a 9 como 5 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "14",
+      "B": "16",
+      "C": "15",
+      "D": "5"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el triple de', por lo que si 3 se relaciona con 9, 5 se relaciona con 15 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0079",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "10 es a 30 como 10 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "10",
+      "B": "29",
+      "C": "30",
+      "D": "31"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el triple de', por lo que si 10 se relaciona con 30, 10 se relaciona con 30 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0080",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "3 es a 6 como 10 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "21",
+      "B": "19",
+      "C": "10",
+      "D": "20"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es el doble de', por lo que si 3 se relaciona con 6, 10 se relaciona con 20 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0081",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 6 como 22 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "11",
+      "B": "10",
+      "C": "22",
+      "D": "12"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es la mitad de', por lo que si 12 se relaciona con 6, 22 se relaciona con 11 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0082",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "20 es a 10 como 14 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "14",
+      "B": "7",
+      "C": "8",
+      "D": "6"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es la mitad de', por lo que si 20 se relaciona con 10, 14 se relaciona con 7 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0083",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "6 es a 12 como 2 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación es 'es el doble de', por lo que si 6 se relaciona con 12, 2 se relaciona con 4 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0084",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "10 es a 30 como 9 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "26",
+      "B": "28",
+      "C": "27",
+      "D": "9"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el triple de', por lo que si 10 se relaciona con 30, 9 se relaciona con 27 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0085",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "12 es a 36 como 19 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "57",
+      "B": "58",
+      "C": "56",
+      "D": "19"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación es 'es el triple de', por lo que si 12 se relaciona con 36, 19 se relaciona con 57 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0086",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "5 es a 10 como 12 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "12",
+      "B": "24",
+      "C": "23",
+      "D": "25"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es el doble de', por lo que si 5 se relaciona con 10, 12 se relaciona con 24 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0087",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "8 es a 24 como 3 es a ___ (misma relación: es el triple de)",
+    "opciones": {
+      "A": "3",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el triple de', por lo que si 8 se relaciona con 24, 3 se relaciona con 9 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0088",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "24 es a 12 como 20 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "11",
+      "B": "9",
+      "C": "10",
+      "D": "20"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es la mitad de', por lo que si 24 se relaciona con 12, 20 se relaciona con 10 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0089",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "6 es a 3 como 28 es a ___ (misma relación: es la mitad de)",
+    "opciones": {
+      "A": "15",
+      "B": "14",
+      "C": "28",
+      "D": "13"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación es 'es la mitad de', por lo que si 6 se relaciona con 3, 28 se relaciona con 14 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0090",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - analogías numéricas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "6 es a 12 como 16 es a ___ (misma relación: es el doble de)",
+    "opciones": {
+      "A": "31",
+      "B": "16",
+      "C": "32",
+      "D": "33"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación es 'es el doble de', por lo que si 6 se relaciona con 12, 16 se relaciona con 32 de la misma manera."
+  },
+  {
+    "id_reactivo": "HMAT-0091",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 3 años, una persona tenía 31 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "34",
+      "B": "3",
+      "C": "37",
+      "D": "33"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si hace 3 años tenía 31 años, hoy tiene 31 + 3 = 34 años."
+  },
+  {
+    "id_reactivo": "HMAT-0092",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 8 años, una persona tenía 29 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "36",
+      "B": "8",
+      "C": "37",
+      "D": "45"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Si hace 8 años tenía 29 años, hoy tiene 29 + 8 = 37 años."
+  },
+  {
+    "id_reactivo": "HMAT-0093",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 8 años, una persona tenía 18 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "25",
+      "B": "8",
+      "C": "26",
+      "D": "34"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Si hace 8 años tenía 18 años, hoy tiene 18 + 8 = 26 años."
+  },
+  {
+    "id_reactivo": "HMAT-0094",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 4 años, una persona tenía 28 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "31",
+      "B": "32",
+      "C": "36",
+      "D": "4"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Si hace 4 años tenía 28 años, hoy tiene 28 + 4 = 32 años."
+  },
+  {
+    "id_reactivo": "HMAT-0095",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 11 años, una persona tenía 16 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "26",
+      "B": "38",
+      "C": "11",
+      "D": "27"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Si hace 11 años tenía 16 años, hoy tiene 16 + 11 = 27 años."
+  },
+  {
+    "id_reactivo": "HMAT-0096",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 5 años, una persona tenía 17 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "27",
+      "B": "22",
+      "C": "21",
+      "D": "5"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Si hace 5 años tenía 17 años, hoy tiene 17 + 5 = 22 años."
+  },
+  {
+    "id_reactivo": "HMAT-0097",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 3 años, una persona tenía 29 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "3",
+      "B": "32",
+      "C": "35",
+      "D": "31"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Si hace 3 años tenía 29 años, hoy tiene 29 + 3 = 32 años."
+  },
+  {
+    "id_reactivo": "HMAT-0098",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 12 años, una persona tenía 10 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "22",
+      "B": "12",
+      "C": "21",
+      "D": "34"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si hace 12 años tenía 10 años, hoy tiene 10 + 12 = 22 años."
+  },
+  {
+    "id_reactivo": "HMAT-0099",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 8 años, una persona tenía 36 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "43",
+      "B": "52",
+      "C": "44",
+      "D": "8"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Si hace 8 años tenía 36 años, hoy tiene 36 + 8 = 44 años."
+  },
+  {
+    "id_reactivo": "HMAT-0100",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de edades",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Hace 12 años, una persona tenía 31 años. ¿Cuántos años tiene actualmente?",
+    "opciones": {
+      "A": "42",
+      "B": "12",
+      "C": "43",
+      "D": "55"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Si hace 12 años tenía 31 años, hoy tiene 31 + 12 = 43 años."
+  },
+  {
+    "id_reactivo": "HMAT-0101",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 90 km/h. ¿Qué distancia recorre en 5 horas?",
+    "opciones": {
+      "A": "95 km",
+      "B": "450 km",
+      "C": "360 km",
+      "D": "540 km"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Distancia = velocidad × tiempo = 90 × 5 = 450 km."
+  },
+  {
+    "id_reactivo": "HMAT-0102",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 100 km/h. ¿Qué distancia recorre en 5 horas?",
+    "opciones": {
+      "A": "105 km",
+      "B": "400 km",
+      "C": "500 km",
+      "D": "600 km"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Distancia = velocidad × tiempo = 100 × 5 = 500 km."
+  },
+  {
+    "id_reactivo": "HMAT-0103",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 40 km/h. ¿Qué distancia recorre en 2 horas?",
+    "opciones": {
+      "A": "42 km",
+      "B": "120 km",
+      "C": "80 km",
+      "D": "40 km"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Distancia = velocidad × tiempo = 40 × 2 = 80 km."
+  },
+  {
+    "id_reactivo": "HMAT-0104",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 100 km/h. ¿Qué distancia recorre en 4 horas?",
+    "opciones": {
+      "A": "500 km",
+      "B": "104 km",
+      "C": "300 km",
+      "D": "400 km"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Distancia = velocidad × tiempo = 100 × 4 = 400 km."
+  },
+  {
+    "id_reactivo": "HMAT-0105",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 40 km/h. ¿Qué distancia recorre en 4 horas?",
+    "opciones": {
+      "A": "200 km",
+      "B": "44 km",
+      "C": "120 km",
+      "D": "160 km"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Distancia = velocidad × tiempo = 40 × 4 = 160 km."
+  },
+  {
+    "id_reactivo": "HMAT-0106",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 60 km/h. ¿Qué distancia recorre en 1 horas?",
+    "opciones": {
+      "A": "120 km",
+      "B": "61 km",
+      "C": "60 km",
+      "D": "70 km"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Distancia = velocidad × tiempo = 60 × 1 = 60 km."
+  },
+  {
+    "id_reactivo": "HMAT-0107",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 50 km/h. ¿Qué distancia recorre en 4 horas?",
+    "opciones": {
+      "A": "150 km",
+      "B": "200 km",
+      "C": "250 km",
+      "D": "54 km"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Distancia = velocidad × tiempo = 50 × 4 = 200 km."
+  },
+  {
+    "id_reactivo": "HMAT-0108",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 70 km/h. ¿Qué distancia recorre en 3 horas?",
+    "opciones": {
+      "A": "280 km",
+      "B": "73 km",
+      "C": "140 km",
+      "D": "210 km"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Distancia = velocidad × tiempo = 70 × 3 = 210 km."
+  },
+  {
+    "id_reactivo": "HMAT-0109",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 40 km/h. ¿Qué distancia recorre en 5 horas?",
+    "opciones": {
+      "A": "200 km",
+      "B": "160 km",
+      "C": "45 km",
+      "D": "240 km"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Distancia = velocidad × tiempo = 40 × 5 = 200 km."
+  },
+  {
+    "id_reactivo": "HMAT-0110",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de velocidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un automóvil viaja a una velocidad constante de 90 km/h. ¿Qué distancia recorre en 3 horas?",
+    "opciones": {
+      "A": "180 km",
+      "B": "93 km",
+      "C": "270 km",
+      "D": "360 km"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Distancia = velocidad × tiempo = 90 × 3 = 270 km."
+  },
+  {
+    "id_reactivo": "HMAT-0111",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 120 pesos en partes iguales entre 6 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$25",
+      "B": "$20",
+      "C": "$100",
+      "D": "$15"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se divide el total entre el número de personas: 120 ÷ 6 = 20 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0112",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 300 pesos en partes iguales entre 4 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$75",
+      "B": "$70",
+      "C": "$80",
+      "D": "$225"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Se divide el total entre el número de personas: 300 ÷ 4 = 75 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0113",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 200 pesos en partes iguales entre 6 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$38",
+      "B": "$28",
+      "C": "$33",
+      "D": "$167"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se divide el total entre el número de personas: 200 ÷ 6 = 33 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0114",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 180 pesos en partes iguales entre 3 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$55",
+      "B": "$65",
+      "C": "$60",
+      "D": "$120"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se divide el total entre el número de personas: 180 ÷ 3 = 60 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0115",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 200 pesos en partes iguales entre 3 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$66",
+      "B": "$61",
+      "C": "$71",
+      "D": "$134"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Se divide el total entre el número de personas: 200 ÷ 3 = 66 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0116",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 150 pesos en partes iguales entre 4 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$42",
+      "B": "$113",
+      "C": "$32",
+      "D": "$37"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Se divide el total entre el número de personas: 150 ÷ 4 = 37 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0117",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 150 pesos en partes iguales entre 5 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$120",
+      "B": "$35",
+      "C": "$30",
+      "D": "$25"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se divide el total entre el número de personas: 150 ÷ 5 = 30 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0118",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 120 pesos en partes iguales entre 5 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$24",
+      "B": "$19",
+      "C": "$96",
+      "D": "$29"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Se divide el total entre el número de personas: 120 ÷ 5 = 24 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0119",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 300 pesos en partes iguales entre 6 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$45",
+      "B": "$50",
+      "C": "$55",
+      "D": "$250"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se divide el total entre el número de personas: 300 ÷ 6 = 50 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0120",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - problemas de reparto proporcional",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Se reparten 200 pesos en partes iguales entre 5 personas. ¿Cuánto recibe cada una?",
+    "opciones": {
+      "A": "$35",
+      "B": "$40",
+      "C": "$45",
+      "D": "$160"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se divide el total entre el número de personas: 200 ÷ 5 = 40 pesos por persona."
+  },
+  {
+    "id_reactivo": "HMAT-0121",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Iván es más alto que Ana, y Ana es más alto que Carla. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Carla",
+      "B": "Iván",
+      "C": "Ana",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Iván > Ana > Carla en estatura, entonces Carla es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0122",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Beto es más alto que Iván, y Iván es más alto que Ana. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Ana",
+      "B": "Beto",
+      "C": "Iván",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Beto > Iván > Ana en estatura, entonces Ana es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0123",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Luis es más alto que Beto, y Beto es más alto que Mara. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Mara",
+      "B": "Luis",
+      "C": "Beto",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Luis > Beto > Mara en estatura, entonces Mara es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0124",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Mara es más alto que Pedro, y Pedro es más alto que Carla. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Carla",
+      "B": "Mara",
+      "C": "Pedro",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Mara > Pedro > Carla en estatura, entonces Carla es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0125",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Ana es más alto que Mara, y Mara es más alto que Iván. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Iván",
+      "B": "Ana",
+      "C": "Mara",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Ana > Mara > Iván en estatura, entonces Iván es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0126",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Diana es más alto que Beto, y Beto es más alto que Pedro. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Pedro",
+      "B": "Diana",
+      "C": "Beto",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Diana > Beto > Pedro en estatura, entonces Pedro es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0127",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Mara es más alto que Ana, y Ana es más alto que Iván. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Iván",
+      "B": "Mara",
+      "C": "Ana",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Mara > Ana > Iván en estatura, entonces Iván es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0128",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Luis es más alto que Ana, y Ana es más alto que Iván. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Iván",
+      "B": "Luis",
+      "C": "Ana",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Luis > Ana > Iván en estatura, entonces Iván es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0129",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Carla es más alto que Iván, y Iván es más alto que Pedro. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Pedro",
+      "B": "Carla",
+      "C": "Iván",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Carla > Iván > Pedro en estatura, entonces Pedro es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0130",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - relaciones lógicas de orden",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Carla es más alto que Luis, y Luis es más alto que Beto. ¿Quién es el más bajo de los tres?",
+    "opciones": {
+      "A": "Beto",
+      "B": "Carla",
+      "C": "Luis",
+      "D": "No se puede saber"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Si Carla > Luis > Beto en estatura, entonces Beto es el más bajo."
+  },
+  {
+    "id_reactivo": "HMAT-0131",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 13] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "3 puntos",
+      "B": "5 puntos",
+      "C": "6 puntos",
+      "D": "4 puntos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0132",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 46] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "6 puntos",
+      "B": "4 puntos",
+      "C": "5 puntos",
+      "D": "3 puntos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0133",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 17] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea triple",
+      "B": "línea doble",
+      "C": "punto",
+      "D": "línea cuádruple"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0134",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 27] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea cuádruple",
+      "B": "línea triple",
+      "C": "línea doble",
+      "D": "punto"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0135",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 44] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "3 puntos",
+      "B": "4 puntos",
+      "C": "5 puntos",
+      "D": "6 puntos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0136",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 2] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "cuadrado",
+      "B": "rombo",
+      "C": "círculo",
+      "D": "triángulo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0137",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 16] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "4 puntos",
+      "B": "3 puntos",
+      "C": "5 puntos",
+      "D": "6 puntos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0138",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 25] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "5 puntos",
+      "B": "4 puntos",
+      "C": "3 puntos",
+      "D": "6 puntos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0139",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 22] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "3 puntos",
+      "B": "4 puntos",
+      "C": "6 puntos",
+      "D": "5 puntos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0140",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 42] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea doble",
+      "B": "punto",
+      "C": "línea cuádruple",
+      "D": "línea triple"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0141",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 29] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "triángulo",
+      "B": "cuadrado",
+      "C": "rombo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0142",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 8] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea triple",
+      "B": "línea cuádruple",
+      "C": "línea doble",
+      "D": "punto"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0143",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 35] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "triángulo",
+      "B": "círculo",
+      "C": "cuadrado",
+      "D": "rombo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0144",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 3] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea triple",
+      "B": "línea doble",
+      "C": "punto",
+      "D": "línea cuádruple"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0145",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 31] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "rombo",
+      "B": "cuadrado",
+      "C": "triángulo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0146",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 19] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea doble",
+      "B": "línea triple",
+      "C": "línea cuádruple",
+      "D": "punto"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0147",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 3] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "rombo",
+      "B": "cuadrado",
+      "C": "triángulo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0148",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 34] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "punto",
+      "B": "línea doble",
+      "C": "línea cuádruple",
+      "D": "línea triple"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0149",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 24] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "círculo",
+      "B": "triángulo",
+      "C": "rombo",
+      "D": "cuadrado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0150",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 19] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "3 puntos",
+      "B": "5 puntos",
+      "C": "4 puntos",
+      "D": "6 puntos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0151",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 12] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "4 puntos",
+      "B": "5 puntos",
+      "C": "3 puntos",
+      "D": "6 puntos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0152",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 4] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "punto",
+      "B": "línea triple",
+      "C": "línea doble",
+      "D": "línea cuádruple"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0153",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 15] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "triángulo",
+      "B": "rombo",
+      "C": "cuadrado",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0154",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 34] Completa la secuencia de figuras: 1 punto, 2 puntos, 3 puntos, 4 puntos, ___",
+    "opciones": {
+      "A": "4 puntos",
+      "B": "6 puntos",
+      "C": "5 puntos",
+      "D": "3 puntos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es '5 puntos'."
+  },
+  {
+    "id_reactivo": "HMAT-0155",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 32] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea cuádruple",
+      "B": "línea doble",
+      "C": "punto",
+      "D": "línea triple"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0156",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 8] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "círculo",
+      "B": "triángulo",
+      "C": "rombo",
+      "D": "cuadrado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0157",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 9] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "cuadrado",
+      "B": "triángulo",
+      "C": "rombo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0158",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 28] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "triángulo",
+      "B": "cuadrado",
+      "C": "rombo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0159",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 26] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "círculo",
+      "B": "triángulo",
+      "C": "cuadrado",
+      "D": "rombo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0160",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 48] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "círculo",
+      "B": "triángulo",
+      "C": "cuadrado",
+      "D": "rombo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0161",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 1] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea doble",
+      "B": "línea triple",
+      "C": "línea cuádruple",
+      "D": "punto"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0162",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 49] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "cuadrado",
+      "B": "triángulo",
+      "C": "rombo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0163",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 13] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea cuádruple",
+      "B": "línea triple",
+      "C": "punto",
+      "D": "línea doble"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0164",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 6] Completa la secuencia de figuras: línea, línea doble, línea triple, ___",
+    "opciones": {
+      "A": "línea doble",
+      "B": "línea cuádruple",
+      "C": "punto",
+      "D": "línea triple"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'línea cuádruple'."
+  },
+  {
+    "id_reactivo": "HMAT-0165",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - series espaciales/figuras",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "[Serie 5] Completa la secuencia de figuras: círculo, cuadrado, triángulo, círculo, cuadrado, ___",
+    "opciones": {
+      "A": "cuadrado",
+      "B": "triángulo",
+      "C": "rombo",
+      "D": "círculo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El patrón aumenta un elemento (o repite el ciclo) en cada paso; el elemento que continúa la secuencia es 'triángulo'."
+  },
+  {
+    "id_reactivo": "HMAT-0166",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 71, 93, 89, 62. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "78.8",
+      "B": "80.8",
+      "C": "93",
+      "D": "76.8"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (315) y dividiendo entre 4: 78.8."
+  },
+  {
+    "id_reactivo": "HMAT-0167",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 83, 81, 88, 70. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "82.5",
+      "B": "78.5",
+      "C": "88",
+      "D": "80.5"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (322) y dividiendo entre 4: 80.5."
+  },
+  {
+    "id_reactivo": "HMAT-0168",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 77, 65, 82, 86. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "79.5",
+      "B": "86",
+      "C": "75.5",
+      "D": "77.5"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (310) y dividiendo entre 4: 77.5."
+  },
+  {
+    "id_reactivo": "HMAT-0169",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 84, 82, 79, 87. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "81.0",
+      "B": "85.0",
+      "C": "87",
+      "D": "83.0"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (332) y dividiendo entre 4: 83.0."
+  },
+  {
+    "id_reactivo": "HMAT-0170",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 72, 83, 94, 88. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "84.2",
+      "B": "82.2",
+      "C": "94",
+      "D": "86.2"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (337) y dividiendo entre 4: 84.2."
+  },
+  {
+    "id_reactivo": "HMAT-0171",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 90, 61, 100, 86. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "84.2",
+      "B": "100",
+      "C": "82.2",
+      "D": "86.2"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (337) y dividiendo entre 4: 84.2."
+  },
+  {
+    "id_reactivo": "HMAT-0172",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 62, 84, 62, 89. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "72.2",
+      "B": "76.2",
+      "C": "89",
+      "D": "74.2"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (297) y dividiendo entre 4: 74.2."
+  },
+  {
+    "id_reactivo": "HMAT-0173",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 72, 64, 98, 81. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "78.8",
+      "B": "98",
+      "C": "80.8",
+      "D": "76.8"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (315) y dividiendo entre 4: 78.8."
+  },
+  {
+    "id_reactivo": "HMAT-0174",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 99, 62, 76, 80. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "99",
+      "B": "79.2",
+      "C": "81.2",
+      "D": "77.2"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (317) y dividiendo entre 4: 79.2."
+  },
+  {
+    "id_reactivo": "HMAT-0175",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 98, 100, 64, 61. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "78.8",
+      "B": "100",
+      "C": "80.8",
+      "D": "82.8"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (323) y dividiendo entre 4: 80.8."
+  },
+  {
+    "id_reactivo": "HMAT-0176",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 89, 84, 76, 87. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "82.0",
+      "B": "86.0",
+      "C": "84.0",
+      "D": "89"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (336) y dividiendo entre 4: 84.0."
+  },
+  {
+    "id_reactivo": "HMAT-0177",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 71, 60, 79, 69. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "69.8",
+      "B": "67.8",
+      "C": "79",
+      "D": "71.8"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (279) y dividiendo entre 4: 69.8."
+  },
+  {
+    "id_reactivo": "HMAT-0178",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 89, 83, 98, 65. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "81.8",
+      "B": "83.8",
+      "C": "98",
+      "D": "85.8"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (335) y dividiendo entre 4: 83.8."
+  },
+  {
+    "id_reactivo": "HMAT-0179",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 75, 86, 64, 62. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "71.8",
+      "B": "73.8",
+      "C": "69.8",
+      "D": "86"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (287) y dividiendo entre 4: 71.8."
+  },
+  {
+    "id_reactivo": "HMAT-0180",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 70, 87, 66, 64. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "73.8",
+      "B": "71.8",
+      "C": "87",
+      "D": "69.8"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (287) y dividiendo entre 4: 71.8."
+  },
+  {
+    "id_reactivo": "HMAT-0181",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 73, 66, 86, 91. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "81.0",
+      "B": "77.0",
+      "C": "79.0",
+      "D": "91"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (316) y dividiendo entre 4: 79.0."
+  },
+  {
+    "id_reactivo": "HMAT-0182",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 68, 86, 89, 99. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "99",
+      "B": "85.5",
+      "C": "83.5",
+      "D": "87.5"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (342) y dividiendo entre 4: 85.5."
+  },
+  {
+    "id_reactivo": "HMAT-0183",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 78, 78, 77, 96. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "82.2",
+      "B": "96",
+      "C": "84.2",
+      "D": "80.2"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (329) y dividiendo entre 4: 82.2."
+  },
+  {
+    "id_reactivo": "HMAT-0184",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 76, 72, 88, 75. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "88",
+      "B": "75.8",
+      "C": "77.8",
+      "D": "79.8"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (311) y dividiendo entre 4: 77.8."
+  },
+  {
+    "id_reactivo": "HMAT-0185",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 69, 78, 97, 72. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "97",
+      "B": "81.0",
+      "C": "79.0",
+      "D": "77.0"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (316) y dividiendo entre 4: 79.0."
+  },
+  {
+    "id_reactivo": "HMAT-0186",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 76, 75, 92, 93. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "93",
+      "B": "84.0",
+      "C": "82.0",
+      "D": "86.0"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (336) y dividiendo entre 4: 84.0."
+  },
+  {
+    "id_reactivo": "HMAT-0187",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 89, 62, 66, 60. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "67.2",
+      "B": "71.2",
+      "C": "69.2",
+      "D": "89"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (277) y dividiendo entre 4: 69.2."
+  },
+  {
+    "id_reactivo": "HMAT-0188",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 83, 62, 78, 74. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "76.2",
+      "B": "72.2",
+      "C": "83",
+      "D": "74.2"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (297) y dividiendo entre 4: 74.2."
+  },
+  {
+    "id_reactivo": "HMAT-0189",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 98, 97, 72, 64. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "84.8",
+      "B": "82.8",
+      "C": "98",
+      "D": "80.8"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (331) y dividiendo entre 4: 82.8."
+  },
+  {
+    "id_reactivo": "HMAT-0190",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 88, 98, 76, 60. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "98",
+      "B": "82.5",
+      "C": "78.5",
+      "D": "80.5"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (322) y dividiendo entre 4: 80.5."
+  },
+  {
+    "id_reactivo": "HMAT-0191",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 73, 62, 83, 81. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "83",
+      "B": "72.8",
+      "C": "74.8",
+      "D": "76.8"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (299) y dividiendo entre 4: 74.8."
+  },
+  {
+    "id_reactivo": "HMAT-0192",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 76, 62, 98, 73. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "98",
+      "B": "75.2",
+      "C": "79.2",
+      "D": "77.2"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (309) y dividiendo entre 4: 77.2."
+  },
+  {
+    "id_reactivo": "HMAT-0193",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 83, 71, 99, 79. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "85.0",
+      "B": "81.0",
+      "C": "99",
+      "D": "83.0"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (332) y dividiendo entre 4: 83.0."
+  },
+  {
+    "id_reactivo": "HMAT-0194",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 91, 95, 90, 64. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "83.0",
+      "B": "87.0",
+      "C": "85.0",
+      "D": "95"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (340) y dividiendo entre 4: 85.0."
+  },
+  {
+    "id_reactivo": "HMAT-0195",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 95, 69, 100, 94. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "91.5",
+      "B": "100",
+      "C": "87.5",
+      "D": "89.5"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (358) y dividiendo entre 4: 89.5."
+  },
+  {
+    "id_reactivo": "HMAT-0196",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 85, 77, 86, 78. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "86",
+      "B": "81.5",
+      "C": "83.5",
+      "D": "79.5"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (326) y dividiendo entre 4: 81.5."
+  },
+  {
+    "id_reactivo": "HMAT-0197",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 79, 96, 82, 86. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "83.8",
+      "B": "87.8",
+      "C": "85.8",
+      "D": "96"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El promedio se calcula sumando las calificaciones (343) y dividiendo entre 4: 85.8."
+  },
+  {
+    "id_reactivo": "HMAT-0198",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 72, 85, 85, 73. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "76.8",
+      "B": "85",
+      "C": "80.8",
+      "D": "78.8"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El promedio se calcula sumando las calificaciones (315) y dividiendo entre 4: 78.8."
+  },
+  {
+    "id_reactivo": "HMAT-0199",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 87, 67, 65, 85. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "87",
+      "B": "76.0",
+      "C": "78.0",
+      "D": "74.0"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El promedio se calcula sumando las calificaciones (304) y dividiendo entre 4: 76.0."
+  },
+  {
+    "id_reactivo": "HMAT-0200",
+    "asignatura": "Habilidad Matemática",
+    "subtemario": "Razonamiento - promedios aplicados",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un estudiante obtuvo las siguientes calificaciones en 4 exámenes: 68, 60, 63, 95. ¿Cuál es su promedio?",
+    "opciones": {
+      "A": "71.5",
+      "B": "95",
+      "C": "69.5",
+      "D": "73.5"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El promedio se calcula sumando las calificaciones (286) y dividiendo entre 4: 71.5."
+  }
+]

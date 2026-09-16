@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "MAT-0001",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 2/2 + 5/5?",
+    "opciones": {
+      "A": "1/1",
+      "B": "2/1",
+      "C": "2/2",
+      "D": "3/1"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El resultado correcto es 2/1, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0002",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 7/2 + 1/3?",
+    "opciones": {
+      "A": "22/6",
+      "B": "23/6",
+      "C": "23/7",
+      "D": "24/6"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El resultado correcto es 23/6, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0003",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de multiplicar 9/8 × 4/9?",
+    "opciones": {
+      "A": "2/2",
+      "B": "3/2",
+      "C": "1/2",
+      "D": "1/3"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El resultado correcto es 1/2, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0004",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de restar 1/1 - 3/5?",
+    "opciones": {
+      "A": "2/6",
+      "B": "3/5",
+      "C": "1/5",
+      "D": "2/5"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El resultado correcto es 2/5, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0005",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de multiplicar 6/7 × 5/2?",
+    "opciones": {
+      "A": "16/7",
+      "B": "15/7",
+      "C": "15/8",
+      "D": "14/7"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El resultado correcto es 15/7, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0006",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de multiplicar 2/10 × 5/7?",
+    "opciones": {
+      "A": "3/7",
+      "B": "1/7",
+      "C": "1/8",
+      "D": "2/7"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El resultado correcto es 1/7, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0007",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 4/6 + 2/5?",
+    "opciones": {
+      "A": "16/15",
+      "B": "16/16",
+      "C": "17/15",
+      "D": "15/15"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El resultado correcto es 16/15, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0008",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - operaciones con fracciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de multiplicar 3/7 × 6/5?",
+    "opciones": {
+      "A": "19/35",
+      "B": "18/35",
+      "C": "17/35",
+      "D": "18/36"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El resultado correcto es 18/35, obtenido al realizar la operación con fracciones usando denominador común o multiplicando numeradores y denominadores según corresponda."
+  },
+  {
+    "id_reactivo": "MAT-0009",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 15% de 600?",
+    "opciones": {
+      "A": "90",
+      "B": "75",
+      "C": "135",
+      "D": "105"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El 15% de 600 se calcula multiplicando 600 × 15/100 = 90."
+  },
+  {
+    "id_reactivo": "MAT-0010",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 15% de 240?",
+    "opciones": {
+      "A": "51",
+      "B": "54",
+      "C": "36",
+      "D": "21"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El 15% de 240 se calcula multiplicando 240 × 15/100 = 36."
+  },
+  {
+    "id_reactivo": "MAT-0011",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 25% de 80?",
+    "opciones": {
+      "A": "25",
+      "B": "20",
+      "C": "45",
+      "D": "30"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El 25% de 80 se calcula multiplicando 80 × 25/100 = 20."
+  },
+  {
+    "id_reactivo": "MAT-0012",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 25% de 200?",
+    "opciones": {
+      "A": "50",
+      "B": "25",
+      "C": "75",
+      "D": "24"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El 25% de 200 se calcula multiplicando 200 × 25/100 = 50."
+  },
+  {
+    "id_reactivo": "MAT-0013",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 20% de 150?",
+    "opciones": {
+      "A": "10",
+      "B": "45",
+      "C": "30",
+      "D": "50"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El 20% de 150 se calcula multiplicando 150 × 20/100 = 30."
+  },
+  {
+    "id_reactivo": "MAT-0014",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 30% de 750?",
+    "opciones": {
+      "A": "195",
+      "B": "225",
+      "C": "255",
+      "D": "337"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El 30% de 750 se calcula multiplicando 750 × 30/100 = 225."
+  },
+  {
+    "id_reactivo": "MAT-0015",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 40% de 150?",
+    "opciones": {
+      "A": "100",
+      "B": "20",
+      "C": "90",
+      "D": "60"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El 40% de 150 se calcula multiplicando 150 × 40/100 = 60."
+  },
+  {
+    "id_reactivo": "MAT-0016",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - porcentajes",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuánto es el 12% de 150?",
+    "opciones": {
+      "A": "30",
+      "B": "18",
+      "C": "6",
+      "D": "27"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El 12% de 150 se calcula multiplicando 150 × 12/100 = 18."
+  },
+  {
+    "id_reactivo": "MAT-0017",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 14 + 14 × 10?",
+    "opciones": {
+      "A": "154",
+      "B": "280",
+      "C": "38",
+      "D": "206"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Primero se resuelve la multiplicación (14×10=140) y después la suma: 14 + 140 = 154. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0018",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 19 + 2 × 11?",
+    "opciones": {
+      "A": "49",
+      "B": "231",
+      "C": "32",
+      "D": "41"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Primero se resuelve la multiplicación (2×11=22) y después la suma: 19 + 22 = 41. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0019",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 26 + 12 × 2?",
+    "opciones": {
+      "A": "314",
+      "B": "50",
+      "C": "76",
+      "D": "40"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Primero se resuelve la multiplicación (12×2=24) y después la suma: 26 + 24 = 50. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0020",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 16 + 2 × 12?",
+    "opciones": {
+      "A": "216",
+      "B": "40",
+      "C": "44",
+      "D": "30"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Primero se resuelve la multiplicación (2×12=24) y después la suma: 16 + 24 = 40. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0021",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 18 + 5 × 14?",
+    "opciones": {
+      "A": "322",
+      "B": "88",
+      "C": "104",
+      "D": "37"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Primero se resuelve la multiplicación (5×14=70) y después la suma: 18 + 70 = 88. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0022",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 6 + 13 × 13?",
+    "opciones": {
+      "A": "91",
+      "B": "175",
+      "C": "32",
+      "D": "247"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Primero se resuelve la multiplicación (13×13=169) y después la suma: 6 + 169 = 175. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0023",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 21 + 12 × 8?",
+    "opciones": {
+      "A": "41",
+      "B": "264",
+      "C": "260",
+      "D": "117"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Primero se resuelve la multiplicación (12×8=96) y después la suma: 21 + 96 = 117. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0024",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - jerarquía de operaciones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Aplicando la jerarquía de operaciones, ¿cuál es el resultado de 30 + 11 × 4?",
+    "opciones": {
+      "A": "164",
+      "B": "45",
+      "C": "334",
+      "D": "74"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Primero se resuelve la multiplicación (11×4=44) y después la suma: 30 + 44 = 74. Multiplicar antes que sumar es la regla de jerarquía de operaciones."
+  },
+  {
+    "id_reactivo": "MAT-0025",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 5.2 + 10.23?",
+    "opciones": {
+      "A": "15.53",
+      "B": "53.20",
+      "C": "15.33",
+      "D": "15.43"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al alinear los puntos decimales y sumar, 5.2 + 10.23 = 15.43."
+  },
+  {
+    "id_reactivo": "MAT-0026",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 7.29 + 10.03?",
+    "opciones": {
+      "A": "17.32",
+      "B": "17.22",
+      "C": "73.12",
+      "D": "17.42"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Al alinear los puntos decimales y sumar, 7.29 + 10.03 = 17.32."
+  },
+  {
+    "id_reactivo": "MAT-0027",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 48.25 + 18.65?",
+    "opciones": {
+      "A": "66.90",
+      "B": "899.86",
+      "C": "66.80",
+      "D": "67.00"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Al alinear los puntos decimales y sumar, 48.25 + 18.65 = 66.90."
+  },
+  {
+    "id_reactivo": "MAT-0028",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 20.55 + 13.76?",
+    "opciones": {
+      "A": "34.31",
+      "B": "282.77",
+      "C": "34.41",
+      "D": "34.21"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Al alinear los puntos decimales y sumar, 20.55 + 13.76 = 34.31."
+  },
+  {
+    "id_reactivo": "MAT-0029",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 6.93 + 5.27?",
+    "opciones": {
+      "A": "12.30",
+      "B": "36.52",
+      "C": "12.20",
+      "D": "12.10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al alinear los puntos decimales y sumar, 6.93 + 5.27 = 12.20."
+  },
+  {
+    "id_reactivo": "MAT-0030",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 29.83 + 1.14?",
+    "opciones": {
+      "A": "31.07",
+      "B": "30.87",
+      "C": "34.01",
+      "D": "30.97"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al alinear los puntos decimales y sumar, 29.83 + 1.14 = 30.97."
+  },
+  {
+    "id_reactivo": "MAT-0031",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 45.37 + 17.33?",
+    "opciones": {
+      "A": "62.80",
+      "B": "786.26",
+      "C": "62.60",
+      "D": "62.70"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al alinear los puntos decimales y sumar, 45.37 + 17.33 = 62.70."
+  },
+  {
+    "id_reactivo": "MAT-0032",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - números decimales",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de sumar 14.65 + 10.22?",
+    "opciones": {
+      "A": "24.87",
+      "B": "149.72",
+      "C": "24.77",
+      "D": "24.97"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Al alinear los puntos decimales y sumar, 14.65 + 10.22 = 24.87."
+  },
+  {
+    "id_reactivo": "MAT-0033",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 120 personas se reparte en razón 5:9. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "60",
+      "B": "37",
+      "C": "42",
+      "D": "47"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La razón 5:9 indica que el total se divide en 14 partes iguales; cada parte vale 120/14, y la primera porción corresponde a 5 partes: 42."
+  },
+  {
+    "id_reactivo": "MAT-0034",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 100 personas se reparte en razón 12:8. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "60",
+      "B": "55",
+      "C": "65",
+      "D": "50"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón 12:8 indica que el total se divide en 20 partes iguales; cada parte vale 100/20, y la primera porción corresponde a 12 partes: 60."
+  },
+  {
+    "id_reactivo": "MAT-0035",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 60 personas se reparte en razón 2:12. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "30",
+      "B": "3",
+      "C": "13",
+      "D": "8"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón 2:12 indica que el total se divide en 14 partes iguales; cada parte vale 60/14, y la primera porción corresponde a 2 partes: 8."
+  },
+  {
+    "id_reactivo": "MAT-0036",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 80 personas se reparte en razón 3:5. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "30",
+      "B": "40",
+      "C": "25",
+      "D": "35"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón 3:5 indica que el total se divide en 8 partes iguales; cada parte vale 80/8, y la primera porción corresponde a 3 partes: 30."
+  },
+  {
+    "id_reactivo": "MAT-0037",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 80 personas se reparte en razón 4:8. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "40",
+      "B": "26",
+      "C": "31",
+      "D": "21"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón 4:8 indica que el total se divide en 12 partes iguales; cada parte vale 80/12, y la primera porción corresponde a 4 partes: 26."
+  },
+  {
+    "id_reactivo": "MAT-0038",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 150 personas se reparte en razón 3:9. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "42",
+      "B": "32",
+      "C": "75",
+      "D": "37"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón 3:9 indica que el total se divide en 12 partes iguales; cada parte vale 150/12, y la primera porción corresponde a 3 partes: 37."
+  },
+  {
+    "id_reactivo": "MAT-0039",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 60 personas se reparte en razón 5:8. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "18",
+      "B": "23",
+      "C": "30",
+      "D": "28"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón 5:8 indica que el total se divide en 13 partes iguales; cada parte vale 60/13, y la primera porción corresponde a 5 partes: 23."
+  },
+  {
+    "id_reactivo": "MAT-0040",
+    "asignatura": "Matemáticas",
+    "subtemario": "Aritmética - razones y proporciones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un grupo de 120 personas se reparte en razón 8:6. ¿Cuántas personas corresponden a la primera parte?",
+    "opciones": {
+      "A": "68",
+      "B": "60",
+      "C": "73",
+      "D": "63"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón 8:6 indica que el total se divide en 14 partes iguales; cada parte vale 120/14, y la primera porción corresponde a 8 partes: 68."
+  },
+  {
+    "id_reactivo": "MAT-0041",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 4x + (-2) = -18. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "4",
+      "B": "-5",
+      "C": "-4",
+      "D": "-3"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando: 4x = -18 - (-2) = -16, entonces x = -16/4 = -4."
+  },
+  {
+    "id_reactivo": "MAT-0042",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 7x + (-17) = -80. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-8",
+      "B": "-9",
+      "C": "-10",
+      "D": "9"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando: 7x = -80 - (-17) = -63, entonces x = -63/7 = -9."
+  },
+  {
+    "id_reactivo": "MAT-0043",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 2x + (-15) = -3. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-6",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando: 2x = -3 - (-15) = 12, entonces x = 12/2 = 6."
+  },
+  {
+    "id_reactivo": "MAT-0044",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 5x + (-13) = -3. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-2",
+      "B": "2",
+      "C": "1",
+      "D": "3"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando: 5x = -3 - (-13) = 10, entonces x = 10/5 = 2."
+  },
+  {
+    "id_reactivo": "MAT-0045",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 3x + (17) = 26. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-3",
+      "B": "3",
+      "C": "4",
+      "D": "2"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando: 3x = 26 - (17) = 9, entonces x = 9/3 = 3."
+  },
+  {
+    "id_reactivo": "MAT-0046",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 7x + (-4) = -25. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-4",
+      "B": "-2",
+      "C": "-3",
+      "D": "3"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando: 7x = -25 - (-4) = -21, entonces x = -21/7 = -3."
+  },
+  {
+    "id_reactivo": "MAT-0047",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 9x + (-20) = -92. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-7",
+      "B": "-8",
+      "C": "-9",
+      "D": "8"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Despejando: 9x = -92 - (-20) = -72, entonces x = -72/9 = -8."
+  },
+  {
+    "id_reactivo": "MAT-0048",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 3x + (-7) = 14. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-7",
+      "B": "8",
+      "C": "7",
+      "D": "6"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando: 3x = 14 - (-7) = 21, entonces x = 21/3 = 7."
+  },
+  {
+    "id_reactivo": "MAT-0049",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 3x + (3) = -6. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "3",
+      "B": "-2",
+      "C": "-3",
+      "D": "-4"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Despejando: 3x = -6 - (3) = -9, entonces x = -9/3 = -3."
+  },
+  {
+    "id_reactivo": "MAT-0050",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - ecuaciones lineales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Resuelve la ecuación: 6x + (13) = 67. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "-9",
+      "B": "10",
+      "C": "8",
+      "D": "9"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Despejando: 6x = 67 - (13) = 54, entonces x = 54/6 = 9."
+  },
+  {
+    "id_reactivo": "MAT-0051",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x + 15)²?",
+    "opciones": {
+      "A": "x² + 30x + 15",
+      "B": "x² + 30x + 225",
+      "C": "x² - 30x + 225",
+      "D": "x² + 15x + 225"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=15, por lo que el resultado es x² + 30x + 225."
+  },
+  {
+    "id_reactivo": "MAT-0052",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x + 10)²?",
+    "opciones": {
+      "A": "x² - 20x + 100",
+      "B": "x² + 10x + 100",
+      "C": "x² + 20x + 100",
+      "D": "x² + 20x + 10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=10, por lo que el resultado es x² + 20x + 100."
+  },
+  {
+    "id_reactivo": "MAT-0053",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x - 9)²?",
+    "opciones": {
+      "A": "x² - 9x + 81",
+      "B": "x² - 18x - 81",
+      "C": "x² - 18x + 81",
+      "D": "x² + 18x + 81"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=9, por lo que el resultado es x² - 18x + 81."
+  },
+  {
+    "id_reactivo": "MAT-0054",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x - 11)²?",
+    "opciones": {
+      "A": "x² - 11x + 121",
+      "B": "x² - 22x - 121",
+      "C": "x² - 22x + 121",
+      "D": "x² + 22x + 121"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=11, por lo que el resultado es x² - 22x + 121."
+  },
+  {
+    "id_reactivo": "MAT-0055",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x + 6)²?",
+    "opciones": {
+      "A": "x² - 12x + 36",
+      "B": "x² + 6x + 36",
+      "C": "x² + 12x + 36",
+      "D": "x² + 12x + 6"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=6, por lo que el resultado es x² + 12x + 36."
+  },
+  {
+    "id_reactivo": "MAT-0056",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x + 7)²?",
+    "opciones": {
+      "A": "x² - 14x + 49",
+      "B": "x² + 14x + 7",
+      "C": "x² + 7x + 49",
+      "D": "x² + 14x + 49"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=7, por lo que el resultado es x² + 14x + 49."
+  },
+  {
+    "id_reactivo": "MAT-0057",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x + 11)²?",
+    "opciones": {
+      "A": "x² + 22x + 121",
+      "B": "x² + 11x + 121",
+      "C": "x² - 22x + 121",
+      "D": "x² + 22x + 11"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=11, por lo que el resultado es x² + 22x + 121."
+  },
+  {
+    "id_reactivo": "MAT-0058",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x - 15)²?",
+    "opciones": {
+      "A": "x² + 30x + 225",
+      "B": "x² - 15x + 225",
+      "C": "x² - 30x - 225",
+      "D": "x² - 30x + 225"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=15, por lo que el resultado es x² - 30x + 225."
+  },
+  {
+    "id_reactivo": "MAT-0059",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x - 13)²?",
+    "opciones": {
+      "A": "x² + 26x + 169",
+      "B": "x² - 26x + 169",
+      "C": "x² - 26x - 169",
+      "D": "x² - 13x + 169"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=13, por lo que el resultado es x² - 26x + 169."
+  },
+  {
+    "id_reactivo": "MAT-0060",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - productos notables",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el resultado de desarrollar (x + 13)²?",
+    "opciones": {
+      "A": "x² + 26x + 13",
+      "B": "x² + 13x + 169",
+      "C": "x² + 26x + 169",
+      "D": "x² - 26x + 169"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se aplica el binomio al cuadrado (a±b)² = a² ± 2ab + b². Aquí a=x, b=13, por lo que el resultado es x² + 26x + 169."
+  },
+  {
+    "id_reactivo": "MAT-0061",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 4x + 3y = 28; 3x + 2y = 20. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "5",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 4 (y y = 4)."
+  },
+  {
+    "id_reactivo": "MAT-0062",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 3x + 1y = 27; 3x + 3y = 39. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "8",
+      "B": "7",
+      "C": "7",
+      "D": "6"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 7 (y y = 6)."
+  },
+  {
+    "id_reactivo": "MAT-0063",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 3x + 1y = 18; 1x + 4y = 17. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "5",
+      "B": "6",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 5 (y y = 3)."
+  },
+  {
+    "id_reactivo": "MAT-0064",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 4x + 2y = 32; 3x + 1y = 23. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "8",
+      "B": "6",
+      "C": "7",
+      "D": "2"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 7 (y y = 2)."
+  },
+  {
+    "id_reactivo": "MAT-0065",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 1x + 3y = 27; 3x + 1y = 25. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "6",
+      "B": "7",
+      "C": "6",
+      "D": "5"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 6 (y y = 7)."
+  },
+  {
+    "id_reactivo": "MAT-0066",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 3x + 2y = 32; 2x + 4y = 40. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "6",
+      "B": "6",
+      "C": "5",
+      "D": "7"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 6 (y y = 7)."
+  },
+  {
+    "id_reactivo": "MAT-0067",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 3x + 3y = 24; 2x + 4y = 18. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "7",
+      "B": "1",
+      "C": "8",
+      "D": "6"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 7 (y y = 1)."
+  },
+  {
+    "id_reactivo": "MAT-0068",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 4x + 2y = 40; 1x + 3y = 20. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "9",
+      "B": "4",
+      "C": "8",
+      "D": "7"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 8 (y y = 4)."
+  },
+  {
+    "id_reactivo": "MAT-0069",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 2x + 2y = 18; 1x + 1y = 9. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "3"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 5 (y y = 4)."
+  },
+  {
+    "id_reactivo": "MAT-0070",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - sistemas de ecuaciones",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "Dado el sistema: 2x + 4y = 44; 4x + 4y = 60. ¿Cuál es el valor de x?",
+    "opciones": {
+      "A": "6",
+      "B": "8",
+      "C": "7",
+      "D": "9"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Resolviendo el sistema por reducción o sustitución se obtiene x = 8 (y y = 7)."
+  },
+  {
+    "id_reactivo": "MAT-0071",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 14x + 15x - 14x",
+    "opciones": {
+      "A": "29x",
+      "B": "14x",
+      "C": "15x",
+      "D": "210x"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al agrupar términos semejantes: 14x - 14x + 15x = 15x."
+  },
+  {
+    "id_reactivo": "MAT-0072",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 14x + 9 + 13x - 9",
+    "opciones": {
+      "A": "27x + 18",
+      "B": "27",
+      "C": "1x",
+      "D": "27x"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al agrupar términos semejantes: 14x + 13x = 27x, y 9 - 9 = 0, quedando 27x."
+  },
+  {
+    "id_reactivo": "MAT-0073",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 15x + 3x - 15x",
+    "opciones": {
+      "A": "3x",
+      "B": "18x",
+      "C": "15x",
+      "D": "45x"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Al agrupar términos semejantes: 15x - 15x + 3x = 3x."
+  },
+  {
+    "id_reactivo": "MAT-0074",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 14x + 10 + 9x - 10",
+    "opciones": {
+      "A": "5x",
+      "B": "23x + 20",
+      "C": "23x",
+      "D": "23"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al agrupar términos semejantes: 14x + 9x = 23x, y 10 - 10 = 0, quedando 23x."
+  },
+  {
+    "id_reactivo": "MAT-0075",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 9x + 6x - 9x",
+    "opciones": {
+      "A": "6x",
+      "B": "15x",
+      "C": "54x",
+      "D": "9x"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Al agrupar términos semejantes: 9x - 9x + 6x = 6x."
+  },
+  {
+    "id_reactivo": "MAT-0076",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 12x + 5 + 5x - 5",
+    "opciones": {
+      "A": "17",
+      "B": "17x + 10",
+      "C": "7x",
+      "D": "17x"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al agrupar términos semejantes: 12x + 5x = 17x, y 5 - 5 = 0, quedando 17x."
+  },
+  {
+    "id_reactivo": "MAT-0077",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 5x + 6 + 6x - 6",
+    "opciones": {
+      "A": "11x + 12",
+      "B": "1x",
+      "C": "11",
+      "D": "11x"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al agrupar términos semejantes: 5x + 6x = 11x, y 6 - 6 = 0, quedando 11x."
+  },
+  {
+    "id_reactivo": "MAT-0078",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 5x + 8x - 5x",
+    "opciones": {
+      "A": "5x",
+      "B": "40x",
+      "C": "8x",
+      "D": "13x"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al agrupar términos semejantes: 5x - 5x + 8x = 8x."
+  },
+  {
+    "id_reactivo": "MAT-0079",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 8x + 9 + 7x - 9",
+    "opciones": {
+      "A": "15x + 18",
+      "B": "1x",
+      "C": "15x",
+      "D": "15"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al agrupar términos semejantes: 8x + 7x = 15x, y 9 - 9 = 0, quedando 15x."
+  },
+  {
+    "id_reactivo": "MAT-0080",
+    "asignatura": "Matemáticas",
+    "subtemario": "Álgebra - simplificación de expresiones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Simplifica la expresión: 15x + 8x - 15x",
+    "opciones": {
+      "A": "15x",
+      "B": "8x",
+      "C": "23x",
+      "D": "120x"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Al agrupar términos semejantes: 15x - 15x + 8x = 8x."
+  },
+  {
+    "id_reactivo": "MAT-0081",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 14 cm y altura de 12 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "66 cm",
+      "B": "52 cm",
+      "C": "40 cm",
+      "D": "180 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El perímetro del rectángulo es 52 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0082",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 18 cm y altura de 10 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "46 cm",
+      "B": "56 cm",
+      "C": "74 cm",
+      "D": "190 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El perímetro del rectángulo es 56 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0083",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 15 cm y altura de 13 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "43 cm",
+      "B": "56 cm",
+      "C": "208 cm",
+      "D": "71 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El perímetro del rectángulo es 56 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0084",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 20 cm y altura de 3 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "43 cm",
+      "B": "66 cm",
+      "C": "63 cm",
+      "D": "46 cm"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El perímetro del rectángulo es 46 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0085",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 7 cm y altura de 17 cm. ¿Cuál es su área?",
+    "opciones": {
+      "A": "136 cm²",
+      "B": "102 cm²",
+      "C": "126 cm²",
+      "D": "119 cm²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El área del rectángulo es 119 cm², calculado con la fórmula correspondiente (base × altura)."
+  },
+  {
+    "id_reactivo": "MAT-0086",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 13 cm y altura de 9 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "44 cm",
+      "B": "126 cm",
+      "C": "57 cm",
+      "D": "35 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El perímetro del rectángulo es 44 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0087",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 11 cm y altura de 16 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "38 cm",
+      "B": "192 cm",
+      "C": "65 cm",
+      "D": "54 cm"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El perímetro del rectángulo es 54 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0088",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 20 cm y altura de 4 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "84 cm",
+      "B": "48 cm",
+      "C": "44 cm",
+      "D": "68 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El perímetro del rectángulo es 48 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0089",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 4 cm y altura de 3 cm. ¿Cuál es su área?",
+    "opciones": {
+      "A": "15 cm²",
+      "B": "9 cm²",
+      "C": "12 cm²",
+      "D": "16 cm²"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El área del rectángulo es 12 cm², calculado con la fórmula correspondiente (base × altura)."
+  },
+  {
+    "id_reactivo": "MAT-0090",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - perímetros y áreas",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Un rectángulo tiene base de 10 cm y altura de 7 cm. ¿Cuál es su perímetro?",
+    "opciones": {
+      "A": "44 cm",
+      "B": "77 cm",
+      "C": "27 cm",
+      "D": "34 cm"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El perímetro del rectángulo es 34 cm, calculado con la fórmula correspondiente (2×(base+altura))."
+  },
+  {
+    "id_reactivo": "MAT-0091",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 9 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "113.10 cm",
+      "B": "65.55 cm",
+      "C": "56.55 cm",
+      "D": "28.27 cm"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se usa la fórmula C = 2π r con r=9, obteniendo aproximadamente 56.55."
+  },
+  {
+    "id_reactivo": "MAT-0092",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el área aproximada de un círculo con radio de 14 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "1231.50 cm²",
+      "B": "629.75 cm²",
+      "C": "615.75 cm²",
+      "D": "307.88 cm²"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se usa la fórmula A = π r² con r=14, obteniendo aproximadamente 615.75."
+  },
+  {
+    "id_reactivo": "MAT-0093",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 6 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "75.40 cm",
+      "B": "37.70 cm",
+      "C": "18.85 cm",
+      "D": "43.70 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se usa la fórmula C = 2π r con r=6, obteniendo aproximadamente 37.70."
+  },
+  {
+    "id_reactivo": "MAT-0094",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el área aproximada de un círculo con radio de 3 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "31.27 cm²",
+      "B": "56.54 cm²",
+      "C": "14.13 cm²",
+      "D": "28.27 cm²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Se usa la fórmula A = π r² con r=3, obteniendo aproximadamente 28.27."
+  },
+  {
+    "id_reactivo": "MAT-0095",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el área aproximada de un círculo con radio de 15 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "721.86 cm²",
+      "B": "353.43 cm²",
+      "C": "1413.72 cm²",
+      "D": "706.86 cm²"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Se usa la fórmula A = π r² con r=15, obteniendo aproximadamente 706.86."
+  },
+  {
+    "id_reactivo": "MAT-0096",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 12 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "87.40 cm",
+      "B": "150.80 cm",
+      "C": "37.70 cm",
+      "D": "75.40 cm"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Se usa la fórmula C = 2π r con r=12, obteniendo aproximadamente 75.40."
+  },
+  {
+    "id_reactivo": "MAT-0097",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 2 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "6.29 cm",
+      "B": "25.14 cm",
+      "C": "12.57 cm",
+      "D": "14.57 cm"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se usa la fórmula C = 2π r con r=2, obteniendo aproximadamente 12.57."
+  },
+  {
+    "id_reactivo": "MAT-0098",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 7 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "21.99 cm",
+      "B": "43.98 cm",
+      "C": "50.98 cm",
+      "D": "87.96 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Se usa la fórmula C = 2π r con r=7, obteniendo aproximadamente 43.98."
+  },
+  {
+    "id_reactivo": "MAT-0099",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 13 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "81.68 cm",
+      "B": "40.84 cm",
+      "C": "163.36 cm",
+      "D": "94.68 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Se usa la fórmula C = 2π r con r=13, obteniendo aproximadamente 81.68."
+  },
+  {
+    "id_reactivo": "MAT-0100",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - círculo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la circunferencia aproximada de un círculo con radio de 15 cm? (usa π ≈ 3.1416)",
+    "opciones": {
+      "A": "188.50 cm",
+      "B": "109.25 cm",
+      "C": "94.25 cm",
+      "D": "47.12 cm"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Se usa la fórmula C = 2π r con r=15, obteniendo aproximadamente 94.25."
+  },
+  {
+    "id_reactivo": "MAT-0101",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 21 cm y 72 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "75 cm",
+      "B": "74 cm",
+      "C": "93 cm",
+      "D": "76 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 21² + 72² = 5625, por lo que la hipotenusa mide 75 cm."
+  },
+  {
+    "id_reactivo": "MAT-0102",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 9 cm y 12 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "14 cm",
+      "B": "15 cm",
+      "C": "16 cm",
+      "D": "21 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 9² + 12² = 225, por lo que la hipotenusa mide 15 cm."
+  },
+  {
+    "id_reactivo": "MAT-0103",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 20 cm y 48 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "52 cm",
+      "B": "68 cm",
+      "C": "53 cm",
+      "D": "51 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 20² + 48² = 2704, por lo que la hipotenusa mide 52 cm."
+  },
+  {
+    "id_reactivo": "MAT-0104",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 60 cm y 63 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "88 cm",
+      "B": "87 cm",
+      "C": "123 cm",
+      "D": "86 cm"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 60² + 63² = 7569, por lo que la hipotenusa mide 87 cm."
+  },
+  {
+    "id_reactivo": "MAT-0105",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 6 cm y 8 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "10 cm",
+      "B": "14 cm",
+      "C": "9 cm",
+      "D": "11 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 6² + 8² = 100, por lo que la hipotenusa mide 10 cm."
+  },
+  {
+    "id_reactivo": "MAT-0106",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 80 cm y 84 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "116 cm",
+      "B": "164 cm",
+      "C": "115 cm",
+      "D": "117 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 80² + 84² = 13456, por lo que la hipotenusa mide 116 cm."
+  },
+  {
+    "id_reactivo": "MAT-0107",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 28 cm y 96 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "99 cm",
+      "B": "101 cm",
+      "C": "124 cm",
+      "D": "100 cm"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 28² + 96² = 10000, por lo que la hipotenusa mide 100 cm."
+  },
+  {
+    "id_reactivo": "MAT-0108",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 14 cm y 48 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "50 cm",
+      "B": "49 cm",
+      "C": "62 cm",
+      "D": "51 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 14² + 48² = 2500, por lo que la hipotenusa mide 50 cm."
+  },
+  {
+    "id_reactivo": "MAT-0109",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 27 cm y 120 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "123 cm",
+      "B": "122 cm",
+      "C": "124 cm",
+      "D": "147 cm"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 27² + 120² = 15129, por lo que la hipotenusa mide 123 cm."
+  },
+  {
+    "id_reactivo": "MAT-0110",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - teorema de Pitágoras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Un triángulo rectángulo tiene catetos de 15 cm y 36 cm. ¿Cuál es la medida de la hipotenusa?",
+    "opciones": {
+      "A": "40 cm",
+      "B": "51 cm",
+      "C": "38 cm",
+      "D": "39 cm"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Por el teorema de Pitágoras, hipotenusa² = 15² + 36² = 1521, por lo que la hipotenusa mide 39 cm."
+  },
+  {
+    "id_reactivo": "MAT-0111",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 7 cm de largo, 3 cm de ancho y 10 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "40 cm³",
+      "B": "31 cm³",
+      "C": "210 cm³",
+      "D": "217 cm³"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 7×3×10 = 210 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0112",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 9 cm de largo, 6 cm de ancho y 10 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "549 cm³",
+      "B": "50 cm³",
+      "C": "540 cm³",
+      "D": "64 cm³"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 9×6×10 = 540 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0113",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 6 cm de largo, 5 cm de ancho y 7 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "37 cm³",
+      "B": "210 cm³",
+      "C": "36 cm³",
+      "D": "216 cm³"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 6×5×7 = 210 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0114",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 10 cm de largo, 4 cm de ancho y 6 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "46 cm³",
+      "B": "250 cm³",
+      "C": "40 cm³",
+      "D": "240 cm³"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 10×4×6 = 240 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0115",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 4 cm de largo, 9 cm de ancho y 3 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "32 cm³",
+      "B": "112 cm³",
+      "C": "39 cm³",
+      "D": "108 cm³"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 4×9×3 = 108 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0116",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 9 cm de largo, 9 cm de ancho y 9 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "738 cm³",
+      "B": "54 cm³",
+      "C": "729 cm³",
+      "D": "90 cm³"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 9×9×9 = 729 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0117",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 6 cm de largo, 9 cm de ancho y 3 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "36 cm³",
+      "B": "57 cm³",
+      "C": "168 cm³",
+      "D": "162 cm³"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 6×9×3 = 162 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0118",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 3 cm de largo, 2 cm de ancho y 4 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "24 cm³",
+      "B": "18 cm³",
+      "C": "10 cm³",
+      "D": "27 cm³"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 3×2×4 = 24 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0119",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 3 cm de largo, 5 cm de ancho y 3 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "48 cm³",
+      "B": "45 cm³",
+      "C": "18 cm³",
+      "D": "22 cm³"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 3×5×3 = 45 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0120",
+    "asignatura": "Matemáticas",
+    "subtemario": "Geometría - volumen de prismas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una caja rectangular mide 10 cm de largo, 8 cm de ancho y 9 cm de altura. ¿Cuál es su volumen?",
+    "opciones": {
+      "A": "720 cm³",
+      "B": "89 cm³",
+      "C": "730 cm³",
+      "D": "54 cm³"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El volumen de un prisma rectangular es largo × ancho × altura = 10×8×9 = 720 cm³."
+  },
+  {
+    "id_reactivo": "MAT-0121",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 60 y el cateto adyacente mide 63. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "1.10",
+      "B": "1.23",
+      "C": "0.85",
+      "D": "0.95"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.95."
+  },
+  {
+    "id_reactivo": "MAT-0122",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 18 y la hipotenusa mide 82. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.37",
+      "B": "0.22",
+      "C": "0.29",
+      "D": "0.12"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.22."
+  },
+  {
+    "id_reactivo": "MAT-0123",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 10 y la hipotenusa mide 26. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.53",
+      "B": "0.28",
+      "C": "0.49",
+      "D": "0.38"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.38."
+  },
+  {
+    "id_reactivo": "MAT-0124",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 28 y el cateto adyacente mide 96. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.19",
+      "B": "0.29",
+      "C": "0.44",
+      "D": "0.38"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.29."
+  },
+  {
+    "id_reactivo": "MAT-0125",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 16 y el cateto adyacente mide 30. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.53",
+      "B": "0.68",
+      "C": "0.69",
+      "D": "0.43"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.53."
+  },
+  {
+    "id_reactivo": "MAT-0126",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 9 y la hipotenusa mide 41. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.37",
+      "B": "0.22",
+      "C": "0.29",
+      "D": "0.12"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.22."
+  },
+  {
+    "id_reactivo": "MAT-0127",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 12 y el cateto adyacente mide 16. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.98",
+      "B": "0.75",
+      "C": "0.65",
+      "D": "0.90"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.75."
+  },
+  {
+    "id_reactivo": "MAT-0128",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 15 y la hipotenusa mide 39. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.28",
+      "B": "0.53",
+      "C": "0.49",
+      "D": "0.38"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.38."
+  },
+  {
+    "id_reactivo": "MAT-0129",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 45 y el cateto adyacente mide 200. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.30",
+      "B": "0.23",
+      "C": "0.38",
+      "D": "0.13"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.23."
+  },
+  {
+    "id_reactivo": "MAT-0130",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 160 y la hipotenusa mide 164. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.98",
+      "B": "0.88",
+      "C": "1.13",
+      "D": "1.27"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.98."
+  },
+  {
+    "id_reactivo": "MAT-0131",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 40 y la hipotenusa mide 85. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.62",
+      "B": "0.37",
+      "C": "0.61",
+      "D": "0.47"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.47."
+  },
+  {
+    "id_reactivo": "MAT-0132",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 60 y la hipotenusa mide 87. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.69",
+      "B": "0.59",
+      "C": "0.90",
+      "D": "0.84"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.69."
+  },
+  {
+    "id_reactivo": "MAT-0133",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 15 y el cateto adyacente mide 36. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.42",
+      "B": "0.57",
+      "C": "0.32",
+      "D": "0.55"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.42."
+  },
+  {
+    "id_reactivo": "MAT-0134",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 24 y la hipotenusa mide 25. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.96",
+      "B": "0.86",
+      "C": "1.11",
+      "D": "1.25"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.96."
+  },
+  {
+    "id_reactivo": "MAT-0135",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 12 y la hipotenusa mide 13. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.92",
+      "B": "1.07",
+      "C": "0.82",
+      "D": "1.20"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.92."
+  },
+  {
+    "id_reactivo": "MAT-0136",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 120 y la hipotenusa mide 123. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.88",
+      "B": "1.27",
+      "C": "1.13",
+      "D": "0.98"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.98."
+  },
+  {
+    "id_reactivo": "MAT-0137",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 45 y la hipotenusa mide 51. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.78",
+      "B": "1.14",
+      "C": "1.03",
+      "D": "0.88"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.88."
+  },
+  {
+    "id_reactivo": "MAT-0138",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 120 y la hipotenusa mide 125. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.86",
+      "B": "1.11",
+      "C": "1.25",
+      "D": "0.96"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.96."
+  },
+  {
+    "id_reactivo": "MAT-0139",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 35 y el cateto adyacente mide 120. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.44",
+      "B": "0.19",
+      "C": "0.29",
+      "D": "0.38"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.29."
+  },
+  {
+    "id_reactivo": "MAT-0140",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 3 y el cateto adyacente mide 4. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.98",
+      "B": "0.75",
+      "C": "0.65",
+      "D": "0.90"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.75."
+  },
+  {
+    "id_reactivo": "MAT-0141",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 7 y la hipotenusa mide 25. ¿Cuál es el valor del seno del ángulo?",
+    "opciones": {
+      "A": "0.28",
+      "B": "0.18",
+      "C": "0.36",
+      "D": "0.43"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica seno se define como opuesto/hipotenusa, dando 0.28."
+  },
+  {
+    "id_reactivo": "MAT-0142",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto adyacente mide 200 y la hipotenusa mide 205. ¿Cuál es el valor del coseno del ángulo?",
+    "opciones": {
+      "A": "0.98",
+      "B": "0.88",
+      "C": "1.13",
+      "D": "1.27"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La razón trigonométrica coseno se define como adyacente/hipotenusa, dando 0.98."
+  },
+  {
+    "id_reactivo": "MAT-0143",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 14 y el cateto adyacente mide 48. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.19",
+      "B": "0.29",
+      "C": "0.38",
+      "D": "0.44"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.29."
+  },
+  {
+    "id_reactivo": "MAT-0144",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 100 y el cateto adyacente mide 105. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.85",
+      "B": "1.23",
+      "C": "0.95",
+      "D": "1.10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.95."
+  },
+  {
+    "id_reactivo": "MAT-0145",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - razones trigonométricas",
+    "dificultad": "difícil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, el cateto opuesto mide 32 y el cateto adyacente mide 60. ¿Cuál es el valor de la tangente del ángulo?",
+    "opciones": {
+      "A": "0.69",
+      "B": "0.68",
+      "C": "0.53",
+      "D": "0.43"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La razón trigonométrica tangente se define como opuesto/adyacente, dando 0.53."
+  },
+  {
+    "id_reactivo": "MAT-0146",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 66°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "24°",
+      "B": "29°",
+      "C": "114°",
+      "D": "19°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 66° = 24°."
+  },
+  {
+    "id_reactivo": "MAT-0147",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 29°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "61°",
+      "B": "66°",
+      "C": "56°",
+      "D": "151°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 29° = 61°."
+  },
+  {
+    "id_reactivo": "MAT-0148",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 42°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "48°",
+      "B": "53°",
+      "C": "138°",
+      "D": "43°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 42° = 48°."
+  },
+  {
+    "id_reactivo": "MAT-0149",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 49°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "46°",
+      "B": "131°",
+      "C": "41°",
+      "D": "36°"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 49° = 41°."
+  },
+  {
+    "id_reactivo": "MAT-0150",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 56°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "29°",
+      "B": "39°",
+      "C": "34°",
+      "D": "124°"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 56° = 34°."
+  },
+  {
+    "id_reactivo": "MAT-0151",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 22°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "68°",
+      "B": "73°",
+      "C": "158°",
+      "D": "63°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 22° = 68°."
+  },
+  {
+    "id_reactivo": "MAT-0152",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 65°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "20°",
+      "B": "25°",
+      "C": "30°",
+      "D": "115°"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 65° = 25°."
+  },
+  {
+    "id_reactivo": "MAT-0153",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 51°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "34°",
+      "B": "44°",
+      "C": "129°",
+      "D": "39°"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 51° = 39°."
+  },
+  {
+    "id_reactivo": "MAT-0154",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 26°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "59°",
+      "B": "69°",
+      "C": "64°",
+      "D": "154°"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 26° = 64°."
+  },
+  {
+    "id_reactivo": "MAT-0155",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 20°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "65°",
+      "B": "70°",
+      "C": "160°",
+      "D": "75°"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 20° = 70°."
+  },
+  {
+    "id_reactivo": "MAT-0156",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 24°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "66°",
+      "B": "61°",
+      "C": "71°",
+      "D": "156°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 24° = 66°."
+  },
+  {
+    "id_reactivo": "MAT-0157",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 59°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "36°",
+      "B": "31°",
+      "C": "26°",
+      "D": "121°"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 59° = 31°."
+  },
+  {
+    "id_reactivo": "MAT-0158",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 41°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "49°",
+      "B": "44°",
+      "C": "54°",
+      "D": "139°"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 41° = 49°."
+  },
+  {
+    "id_reactivo": "MAT-0159",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 54°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "41°",
+      "B": "126°",
+      "C": "31°",
+      "D": "36°"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 54° = 36°."
+  },
+  {
+    "id_reactivo": "MAT-0160",
+    "asignatura": "Matemáticas",
+    "subtemario": "Trigonometría - ángulos complementarios",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En un triángulo rectángulo, uno de los ángulos agudos mide 35°. ¿Cuánto mide el otro ángulo agudo?",
+    "opciones": {
+      "A": "60°",
+      "B": "145°",
+      "C": "55°",
+      "D": "50°"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un triángulo rectángulo los dos ángulos agudos suman 90°, entonces 90° - 35° = 55°."
+  },
+  {
+    "id_reactivo": "MAT-0161",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 12 canicas en una bolsa, de las cuales 2 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "10/12",
+      "B": "2/10",
+      "C": "1/6",
+      "D": "3/12"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 2/12, que simplificado es 1/6."
+  },
+  {
+    "id_reactivo": "MAT-0162",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 20 canicas en una bolsa, de las cuales 1 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "2/20",
+      "B": "1/19",
+      "C": "1/20",
+      "D": "19/20"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 1/20, que simplificado es 1/20."
+  },
+  {
+    "id_reactivo": "MAT-0163",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 11 fichas de colores, de las cuales 6 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "5/11",
+      "B": "7/11",
+      "C": "6/11",
+      "D": "6/5"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 6/11, que simplificado es 6/11."
+  },
+  {
+    "id_reactivo": "MAT-0164",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 15 boletos numerados, de las cuales 11 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "12/15",
+      "B": "4/15",
+      "C": "11/15",
+      "D": "11/4"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 11/15, que simplificado es 11/15."
+  },
+  {
+    "id_reactivo": "MAT-0165",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 15 fichas de colores, de las cuales 14 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "1/15",
+      "B": "14/15",
+      "C": "15/15",
+      "D": "14/1"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 14/15, que simplificado es 14/15."
+  },
+  {
+    "id_reactivo": "MAT-0166",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 9 cartas en un mazo reducido, de las cuales 8 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "1/9",
+      "B": "8/9",
+      "C": "8/1",
+      "D": "9/9"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 8/9, que simplificado es 8/9."
+  },
+  {
+    "id_reactivo": "MAT-0167",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 20 cartas en un mazo reducido, de las cuales 15 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "5/20",
+      "B": "16/20",
+      "C": "3/4",
+      "D": "15/5"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 15/20, que simplificado es 3/4."
+  },
+  {
+    "id_reactivo": "MAT-0168",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 11 cartas en un mazo reducido, de las cuales 10 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "10/11",
+      "B": "10/1",
+      "C": "1/11",
+      "D": "11/11"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 10/11, que simplificado es 10/11."
+  },
+  {
+    "id_reactivo": "MAT-0169",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 13 boletos numerados, de las cuales 5 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "8/13",
+      "B": "5/13",
+      "C": "5/8",
+      "D": "6/13"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 5/13, que simplificado es 5/13."
+  },
+  {
+    "id_reactivo": "MAT-0170",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 9 cartas en un mazo reducido, de las cuales 7 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "7/9",
+      "B": "7/2",
+      "C": "8/9",
+      "D": "2/9"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 7/9, que simplificado es 7/9."
+  },
+  {
+    "id_reactivo": "MAT-0171",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 6 cartas en un mazo reducido, de las cuales 4 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "4/2",
+      "B": "5/6",
+      "C": "2/6",
+      "D": "2/3"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 4/6, que simplificado es 2/3."
+  },
+  {
+    "id_reactivo": "MAT-0172",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 20 cartas en un mazo reducido, de las cuales 16 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "4/5",
+      "B": "17/20",
+      "C": "4/20",
+      "D": "16/4"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 16/20, que simplificado es 4/5."
+  },
+  {
+    "id_reactivo": "MAT-0173",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 9 cartas en un mazo reducido, de las cuales 4 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "5/8",
+      "B": "4/9",
+      "C": "5/9",
+      "D": "4/5"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 4/9, que simplificado es 4/9."
+  },
+  {
+    "id_reactivo": "MAT-0174",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 20 cartas en un mazo reducido, de las cuales 2 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "18/20",
+      "B": "2/18",
+      "C": "1/10",
+      "D": "3/20"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 2/20, que simplificado es 1/10."
+  },
+  {
+    "id_reactivo": "MAT-0175",
+    "asignatura": "Matemáticas",
+    "subtemario": "Probabilidad - eventos simples",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Una bolsa contiene 17 canicas en una bolsa, de las cuales 5 cumplen cierta condición. Si se elige una al azar, ¿cuál es la probabilidad de obtener una que cumpla la condición?",
+    "opciones": {
+      "A": "5/17",
+      "B": "6/17",
+      "C": "5/12",
+      "D": "12/17"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La probabilidad es casos favorables entre casos posibles: 5/17, que simplificado es 5/17."
+  },
+  {
+    "id_reactivo": "MAT-0176",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 6, 7, 5, 18, 12",
+    "opciones": {
+      "A": "18",
+      "B": "10.60",
+      "C": "9.60",
+      "D": "8.60"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La media se obtiene sumando todos los valores (48) y dividiendo entre la cantidad de datos (5), dando 9.60."
+  },
+  {
+    "id_reactivo": "MAT-0177",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 16, 10, 11, 4, 15",
+    "opciones": {
+      "A": "12.20",
+      "B": "10.20",
+      "C": "16",
+      "D": "11.20"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La media se obtiene sumando todos los valores (56) y dividiendo entre la cantidad de datos (5), dando 11.20."
+  },
+  {
+    "id_reactivo": "MAT-0178",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 13, 18, 12, 3, 13",
+    "opciones": {
+      "A": "10.80",
+      "B": "18",
+      "C": "12.80",
+      "D": "11.80"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La media se obtiene sumando todos los valores (59) y dividiendo entre la cantidad de datos (5), dando 11.80."
+  },
+  {
+    "id_reactivo": "MAT-0179",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 15, 12, 9, 19, 13",
+    "opciones": {
+      "A": "14.60",
+      "B": "19",
+      "C": "13.60",
+      "D": "12.60"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La media se obtiene sumando todos los valores (68) y dividiendo entre la cantidad de datos (5), dando 13.60."
+  },
+  {
+    "id_reactivo": "MAT-0180",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 16, 1, 20, 18, 11",
+    "opciones": {
+      "A": "20",
+      "B": "13.20",
+      "C": "12.20",
+      "D": "14.20"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La media se obtiene sumando todos los valores (66) y dividiendo entre la cantidad de datos (5), dando 13.20."
+  },
+  {
+    "id_reactivo": "MAT-0181",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 15, 10, 14, 4, 5",
+    "opciones": {
+      "A": "8.60",
+      "B": "10.60",
+      "C": "15",
+      "D": "9.60"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La media se obtiene sumando todos los valores (48) y dividiendo entre la cantidad de datos (5), dando 9.60."
+  },
+  {
+    "id_reactivo": "MAT-0182",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 16, 4, 4, 8, 18",
+    "opciones": {
+      "A": "10.00",
+      "B": "9.00",
+      "C": "18",
+      "D": "11.00"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La media se obtiene sumando todos los valores (50) y dividiendo entre la cantidad de datos (5), dando 10.00."
+  },
+  {
+    "id_reactivo": "MAT-0183",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 12, 18, 14, 19, 5",
+    "opciones": {
+      "A": "14.60",
+      "B": "13.60",
+      "C": "12.60",
+      "D": "19"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La media se obtiene sumando todos los valores (68) y dividiendo entre la cantidad de datos (5), dando 13.60."
+  },
+  {
+    "id_reactivo": "MAT-0184",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 16, 20, 14, 9, 2",
+    "opciones": {
+      "A": "20",
+      "B": "13.20",
+      "C": "12.20",
+      "D": "11.20"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La media se obtiene sumando todos los valores (61) y dividiendo entre la cantidad de datos (5), dando 12.20."
+  },
+  {
+    "id_reactivo": "MAT-0185",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (media)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Calcula la media aritmética del siguiente conjunto de datos: 15, 8, 12, 4, 12",
+    "opciones": {
+      "A": "15",
+      "B": "11.20",
+      "C": "10.20",
+      "D": "9.20"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La media se obtiene sumando todos los valores (51) y dividiendo entre la cantidad de datos (5), dando 10.20."
+  },
+  {
+    "id_reactivo": "MAT-0186",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 2, 2, 8, 5, 4, 2",
+    "opciones": {
+      "A": "5",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 2 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0187",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 10, 2, 4, 4, 4, 9",
+    "opciones": {
+      "A": "5",
+      "B": "2",
+      "C": "4",
+      "D": "3"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 4 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0188",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 2, 1, 1, 3, 9, 5",
+    "opciones": {
+      "A": "3",
+      "B": "2",
+      "C": "9",
+      "D": "1"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 1 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0189",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 2, 7, 3, 9, 1, 2",
+    "opciones": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 2 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0190",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 5, 9, 1, 8, 10, 8",
+    "opciones": {
+      "A": "9",
+      "B": "8",
+      "C": "7",
+      "D": "10"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 8 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0191",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 2, 6, 2, 8, 8, 6",
+    "opciones": {
+      "A": "6",
+      "B": "8",
+      "C": "7",
+      "D": "5"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 6 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0192",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 2, 10, 7, 9, 8, 2",
+    "opciones": {
+      "A": "2",
+      "B": "1",
+      "C": "8",
+      "D": "3"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 2 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0193",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (moda)",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la moda del siguiente conjunto de datos? 6, 8, 7, 6, 7, 2",
+    "opciones": {
+      "A": "7",
+      "B": "5",
+      "C": "6",
+      "D": "8"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La moda es el valor que más se repite en el conjunto; en este caso 6 aparece dos veces."
+  },
+  {
+    "id_reactivo": "MAT-0194",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 14, 3, 27, 3, 4",
+    "opciones": {
+      "A": "3",
+      "B": "4",
+      "C": "10",
+      "D": "14"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Al ordenar los datos de menor a mayor (3, 3, 4, 14, 27), la mediana es el valor central: 4."
+  },
+  {
+    "id_reactivo": "MAT-0195",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 28, 22, 14, 12, 25",
+    "opciones": {
+      "A": "14",
+      "B": "20",
+      "C": "22",
+      "D": "25"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al ordenar los datos de menor a mayor (12, 14, 22, 25, 28), la mediana es el valor central: 22."
+  },
+  {
+    "id_reactivo": "MAT-0196",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 28, 8, 22, 16, 5",
+    "opciones": {
+      "A": "8",
+      "B": "16",
+      "C": "21",
+      "D": "22"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Al ordenar los datos de menor a mayor (5, 8, 16, 22, 28), la mediana es el valor central: 16."
+  },
+  {
+    "id_reactivo": "MAT-0197",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 26, 18, 25, 14, 28",
+    "opciones": {
+      "A": "26",
+      "B": "18",
+      "C": "22",
+      "D": "25"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Al ordenar los datos de menor a mayor (14, 18, 25, 26, 28), la mediana es el valor central: 25."
+  },
+  {
+    "id_reactivo": "MAT-0198",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 11, 30, 25, 10, 23",
+    "opciones": {
+      "A": "11",
+      "B": "25",
+      "C": "23",
+      "D": "20"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Al ordenar los datos de menor a mayor (10, 11, 23, 25, 30), la mediana es el valor central: 23."
+  },
+  {
+    "id_reactivo": "MAT-0199",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 1, 21, 24, 3, 24",
+    "opciones": {
+      "A": "24",
+      "B": "21",
+      "C": "3",
+      "D": "15"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Al ordenar los datos de menor a mayor (1, 3, 21, 24, 24), la mediana es el valor central: 21."
+  },
+  {
+    "id_reactivo": "MAT-0200",
+    "asignatura": "Matemáticas",
+    "subtemario": "Estadística - medidas de tendencia central (mediana)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la mediana del siguiente conjunto de datos? 11, 12, 24, 10, 25",
+    "opciones": {
+      "A": "16",
+      "B": "12",
+      "C": "24",
+      "D": "11"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Al ordenar los datos de menor a mayor (10, 11, 12, 24, 25), la mediana es el valor central: 12."
+  }
+]

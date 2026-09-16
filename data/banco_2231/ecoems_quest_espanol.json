@@ -1,0 +1,3618 @@
+[
+  {
+    "id_reactivo": "ESP-0001",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'cercano'.",
+    "opciones": {
+      "A": "próximo",
+      "B": "ventana",
+      "C": "botella",
+      "D": "carro"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'próximo' es sinónimo de 'cercano' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0002",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'generoso'?",
+    "opciones": {
+      "A": "agua",
+      "B": "carro",
+      "C": "desprendido",
+      "D": "cielo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'desprendido' es sinónimo de 'generoso' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0003",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'hábil'.",
+    "opciones": {
+      "A": "carro",
+      "B": "zapato",
+      "C": "mesa",
+      "D": "diestro"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'diestro' es sinónimo de 'hábil' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0004",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'callado'?",
+    "opciones": {
+      "A": "carro",
+      "B": "silencioso",
+      "C": "nube",
+      "D": "mesa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'silencioso' es sinónimo de 'callado' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0005",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'escaso'?",
+    "opciones": {
+      "A": "mesa",
+      "B": "pared",
+      "C": "agua",
+      "D": "insuficiente"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'insuficiente' es sinónimo de 'escaso' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0006",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'claro'?",
+    "opciones": {
+      "A": "fuego",
+      "B": "camino",
+      "C": "evidente",
+      "D": "libro"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'evidente' es sinónimo de 'claro' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0007",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'cortés'?",
+    "opciones": {
+      "A": "estrella",
+      "B": "cielo",
+      "C": "amable",
+      "D": "agua"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'amable' es sinónimo de 'cortés' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0008",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'indiferente'?",
+    "opciones": {
+      "A": "apático",
+      "B": "nube",
+      "C": "ventana",
+      "D": "reloj"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'apático' es sinónimo de 'indiferente' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0009",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'ayudar'?",
+    "opciones": {
+      "A": "papel",
+      "B": "auxiliar",
+      "C": "cielo",
+      "D": "puerta"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'auxiliar' es sinónimo de 'ayudar' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0010",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'alegre'?",
+    "opciones": {
+      "A": "pared",
+      "B": "contento",
+      "C": "zapato",
+      "D": "carro"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'contento' es sinónimo de 'alegre' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0011",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'firme'?",
+    "opciones": {
+      "A": "estrella",
+      "B": "estable",
+      "C": "puerta",
+      "D": "cielo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'estable' es sinónimo de 'firme' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0012",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'alegre'.",
+    "opciones": {
+      "A": "agua",
+      "B": "mesa",
+      "C": "contento",
+      "D": "árbol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'contento' es sinónimo de 'alegre' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0013",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'hábil'?",
+    "opciones": {
+      "A": "papel",
+      "B": "diestro",
+      "C": "reloj",
+      "D": "ventana"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'diestro' es sinónimo de 'hábil' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0014",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'mentiroso'.",
+    "opciones": {
+      "A": "agua",
+      "B": "estrella",
+      "C": "montaña",
+      "D": "embustero"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'embustero' es sinónimo de 'mentiroso' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0015",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'grosero'?",
+    "opciones": {
+      "A": "jardín",
+      "B": "mesa",
+      "C": "descortés",
+      "D": "árbol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'descortés' es sinónimo de 'grosero' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0016",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'moderno'.",
+    "opciones": {
+      "A": "agua",
+      "B": "actual",
+      "C": "pared",
+      "D": "nube"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'actual' es sinónimo de 'moderno' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0017",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'grande'?",
+    "opciones": {
+      "A": "pared",
+      "B": "montaña",
+      "C": "enorme",
+      "D": "cuchara"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'enorme' es sinónimo de 'grande' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0018",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'inestable'?",
+    "opciones": {
+      "A": "montaña",
+      "B": "fuego",
+      "C": "voluble",
+      "D": "puerta"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'voluble' es sinónimo de 'inestable' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0019",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'veloz'?",
+    "opciones": {
+      "A": "jardín",
+      "B": "botella",
+      "C": "rápido",
+      "D": "agua"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'rápido' es sinónimo de 'veloz' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0020",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'grande'.",
+    "opciones": {
+      "A": "botella",
+      "B": "libro",
+      "C": "papel",
+      "D": "enorme"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'enorme' es sinónimo de 'grande' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0021",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'permitir'.",
+    "opciones": {
+      "A": "mesa",
+      "B": "reloj",
+      "C": "autorizar",
+      "D": "montaña"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'autorizar' es sinónimo de 'permitir' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0022",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'responder'?",
+    "opciones": {
+      "A": "montaña",
+      "B": "contestar",
+      "C": "carro",
+      "D": "nube"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'contestar' es sinónimo de 'responder' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0023",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'paciente'?",
+    "opciones": {
+      "A": "árbol",
+      "B": "tolerante",
+      "C": "pared",
+      "D": "mesa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'tolerante' es sinónimo de 'paciente' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0024",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'feliz'.",
+    "opciones": {
+      "A": "carro",
+      "B": "cuchara",
+      "C": "nube",
+      "D": "dichoso"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'dichoso' es sinónimo de 'feliz' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0025",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'importante'?",
+    "opciones": {
+      "A": "camino",
+      "B": "mesa",
+      "C": "pared",
+      "D": "relevante"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'relevante' es sinónimo de 'importante' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0026",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'moderno'?",
+    "opciones": {
+      "A": "papel",
+      "B": "actual",
+      "C": "agua",
+      "D": "jardín"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'actual' es sinónimo de 'moderno' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0027",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'honesto'.",
+    "opciones": {
+      "A": "íntegro",
+      "B": "camino",
+      "C": "carro",
+      "D": "pared"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'íntegro' es sinónimo de 'honesto' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0028",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'callado'.",
+    "opciones": {
+      "A": "silencioso",
+      "B": "estrella",
+      "C": "nube",
+      "D": "ventana"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'silencioso' es sinónimo de 'callado' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0029",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'fuerte'?",
+    "opciones": {
+      "A": "papel",
+      "B": "jardín",
+      "C": "pared",
+      "D": "robusto"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'robusto' es sinónimo de 'fuerte' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0030",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'inteligente'?",
+    "opciones": {
+      "A": "pared",
+      "B": "cielo",
+      "C": "astuto",
+      "D": "carro"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'astuto' es sinónimo de 'inteligente' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0031",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'tacaño'?",
+    "opciones": {
+      "A": "carro",
+      "B": "ventana",
+      "C": "estrella",
+      "D": "mezquino"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'mezquino' es sinónimo de 'tacaño' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0032",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'mentiroso'?",
+    "opciones": {
+      "A": "carro",
+      "B": "reloj",
+      "C": "cielo",
+      "D": "embustero"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'embustero' es sinónimo de 'mentiroso' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0033",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'valiente'?",
+    "opciones": {
+      "A": "fuego",
+      "B": "audaz",
+      "C": "pared",
+      "D": "ventana"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'audaz' es sinónimo de 'valiente' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0034",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'rico'?",
+    "opciones": {
+      "A": "adinerado",
+      "B": "estrella",
+      "C": "camino",
+      "D": "montaña"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'adinerado' es sinónimo de 'rico' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0035",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'lejano'.",
+    "opciones": {
+      "A": "cielo",
+      "B": "árbol",
+      "C": "distante",
+      "D": "ventana"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'distante' es sinónimo de 'lejano' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0036",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'difícil'.",
+    "opciones": {
+      "A": "libro",
+      "B": "fuego",
+      "C": "cuchara",
+      "D": "complicado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'complicado' es sinónimo de 'difícil' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0037",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'veloz'.",
+    "opciones": {
+      "A": "puerta",
+      "B": "rápido",
+      "C": "libro",
+      "D": "cuchara"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'rápido' es sinónimo de 'veloz' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0038",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'verdadero'?",
+    "opciones": {
+      "A": "botella",
+      "B": "auténtico",
+      "C": "nube",
+      "D": "carro"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'auténtico' es sinónimo de 'verdadero' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0039",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es un sinónimo de la palabra 'honesto'?",
+    "opciones": {
+      "A": "carro",
+      "B": "íntegro",
+      "C": "cuchara",
+      "D": "botella"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'íntegro' es sinónimo de 'honesto' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0040",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - sinónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra que significa lo mismo que 'escaso'.",
+    "opciones": {
+      "A": "ventana",
+      "B": "agua",
+      "C": "insuficiente",
+      "D": "estrella"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'insuficiente' es sinónimo de 'escaso' porque ambas palabras comparten un significado equivalente."
+  },
+  {
+    "id_reactivo": "ESP-0041",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'fuerte'.",
+    "opciones": {
+      "A": "callado",
+      "B": "pobre",
+      "C": "oscuro",
+      "D": "débil"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'débil' es antónimo de 'fuerte' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0042",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'cerca'.",
+    "opciones": {
+      "A": "triste",
+      "B": "lejos",
+      "C": "rico",
+      "D": "veloz"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'lejos' es antónimo de 'cerca' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0043",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'simple'?",
+    "opciones": {
+      "A": "complejo",
+      "B": "hablar",
+      "C": "valioso",
+      "D": "valiente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'complejo' es antónimo de 'simple' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0044",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'generoso'?",
+    "opciones": {
+      "A": "tacaño",
+      "B": "grande",
+      "C": "verdadero",
+      "D": "falso"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'tacaño' es antónimo de 'generoso' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0045",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'visible'.",
+    "opciones": {
+      "A": "callado",
+      "B": "claro",
+      "C": "comenzar",
+      "D": "invisible"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'invisible' es antónimo de 'visible' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0046",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'caliente'?",
+    "opciones": {
+      "A": "débil",
+      "B": "callado",
+      "C": "pequeño",
+      "D": "frío"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'frío' es antónimo de 'caliente' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0047",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'permitir'.",
+    "opciones": {
+      "A": "generoso",
+      "B": "abundante",
+      "C": "antiguo",
+      "D": "prohibir"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'prohibir' es antónimo de 'permitir' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0048",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'útil'.",
+    "opciones": {
+      "A": "valioso",
+      "B": "callado",
+      "C": "inútil",
+      "D": "valioso*"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'inútil' es antónimo de 'útil' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0049",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'mejor'.",
+    "opciones": {
+      "A": "hablar",
+      "B": "peor",
+      "C": "torpe",
+      "D": "escaso"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'peor' es antónimo de 'mejor' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0050",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'visible'?",
+    "opciones": {
+      "A": "torpe",
+      "B": "grosero",
+      "C": "invisible",
+      "D": "rico"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'invisible' es antónimo de 'visible' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0051",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'fácil'.",
+    "opciones": {
+      "A": "callado",
+      "B": "responder",
+      "C": "difícil",
+      "D": "hábil"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'difícil' es antónimo de 'fácil' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0052",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'abrir'?",
+    "opciones": {
+      "A": "difícil",
+      "B": "cerrar",
+      "C": "grande",
+      "D": "firme"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'cerrar' es antónimo de 'abrir' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0053",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'dulce'.",
+    "opciones": {
+      "A": "paciente",
+      "B": "inútil",
+      "C": "amargo",
+      "D": "rico"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'amargo' es antónimo de 'dulce' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0054",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'mejor'?",
+    "opciones": {
+      "A": "cortés",
+      "B": "peor",
+      "C": "comenzar",
+      "D": "callado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'peor' es antónimo de 'mejor' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0055",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'fácil'?",
+    "opciones": {
+      "A": "fuerte",
+      "B": "difícil",
+      "C": "hablar",
+      "D": "mirar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'difícil' es antónimo de 'fácil' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0056",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'temprano'?",
+    "opciones": {
+      "A": "indiferente",
+      "B": "grande",
+      "C": "lejano",
+      "D": "tarde"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'tarde' es antónimo de 'temprano' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0057",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'ligero'.",
+    "opciones": {
+      "A": "abundante",
+      "B": "oscuro",
+      "C": "pesado",
+      "D": "permitir"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'pesado' es antónimo de 'ligero' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0058",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'alto'?",
+    "opciones": {
+      "A": "bajo",
+      "B": "mirar",
+      "C": "callado",
+      "D": "claro"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'bajo' es antónimo de 'alto' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0059",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'ligero'?",
+    "opciones": {
+      "A": "hablar",
+      "B": "comenzar",
+      "C": "hábil",
+      "D": "pesado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'pesado' es antónimo de 'ligero' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0060",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'comprar'?",
+    "opciones": {
+      "A": "ayudar",
+      "B": "vender",
+      "C": "furioso",
+      "D": "grande"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'vender' es antónimo de 'comprar' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0061",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'subir'?",
+    "opciones": {
+      "A": "generoso",
+      "B": "permitir",
+      "C": "torpe",
+      "D": "bajar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'bajar' es antónimo de 'subir' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0062",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'verdadero'.",
+    "opciones": {
+      "A": "furioso",
+      "B": "falso",
+      "C": "indiferente",
+      "D": "fuerte"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'falso' es antónimo de 'verdadero' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0063",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'público'.",
+    "opciones": {
+      "A": "fuerte",
+      "B": "valioso",
+      "C": "tacaño",
+      "D": "privado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'privado' es antónimo de 'público' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0064",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'limpio'.",
+    "opciones": {
+      "A": "sucio",
+      "B": "moderno",
+      "C": "alegre",
+      "D": "comenzar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'sucio' es antónimo de 'limpio' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0065",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'cierto'.",
+    "opciones": {
+      "A": "escaso",
+      "B": "incierto",
+      "C": "cortés",
+      "D": "comenzar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'incierto' es antónimo de 'cierto' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0066",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'cierto'?",
+    "opciones": {
+      "A": "hablar",
+      "B": "incierto",
+      "C": "verdadero",
+      "D": "feliz"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'incierto' es antónimo de 'cierto' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0067",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'libre'.",
+    "opciones": {
+      "A": "preso",
+      "B": "verdadero",
+      "C": "inteligente",
+      "D": "tacaño"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'preso' es antónimo de 'libre' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0068",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'suave'.",
+    "opciones": {
+      "A": "responder",
+      "B": "hermoso",
+      "C": "áspero",
+      "D": "inestable"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'áspero' es antónimo de 'suave' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0069",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'grande'?",
+    "opciones": {
+      "A": "cercano",
+      "B": "falso",
+      "C": "pequeño",
+      "D": "inestable"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'pequeño' es antónimo de 'grande' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0070",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'feliz'.",
+    "opciones": {
+      "A": "terminar",
+      "B": "fuerte",
+      "C": "verdadero",
+      "D": "triste"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'triste' es antónimo de 'feliz' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0071",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'comprar'.",
+    "opciones": {
+      "A": "vender",
+      "B": "grande",
+      "C": "cercano",
+      "D": "curioso"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'vender' es antónimo de 'comprar' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0072",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'amable'.",
+    "opciones": {
+      "A": "grosero",
+      "B": "importante",
+      "C": "terminar",
+      "D": "abundante"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'grosero' es antónimo de 'amable' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0073",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'mucho'?",
+    "opciones": {
+      "A": "honesto",
+      "B": "inteligente",
+      "C": "poco",
+      "D": "generoso"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'poco' es antónimo de 'mucho' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0074",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'útil'?",
+    "opciones": {
+      "A": "veloz",
+      "B": "indiferente",
+      "C": "generoso",
+      "D": "inútil"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'inútil' es antónimo de 'útil' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0075",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'valiente'.",
+    "opciones": {
+      "A": "generoso",
+      "B": "triste",
+      "C": "veloz",
+      "D": "cobarde"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'cobarde' es antónimo de 'valiente' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0076",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'tranquilo'.",
+    "opciones": {
+      "A": "ayudar",
+      "B": "agitado",
+      "C": "permitir",
+      "D": "fuerte"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'agitado' es antónimo de 'tranquilo' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0077",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el antónimo de la palabra 'nuevo'?",
+    "opciones": {
+      "A": "falso",
+      "B": "viejo",
+      "C": "valioso",
+      "D": "importante"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'viejo' es antónimo de 'nuevo' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0078",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'claro'.",
+    "opciones": {
+      "A": "responder",
+      "B": "indiferente",
+      "C": "oscuro",
+      "D": "inestable"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'oscuro' es antónimo de 'claro' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0079",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'húmedo'.",
+    "opciones": {
+      "A": "escaso",
+      "B": "seco",
+      "C": "cercano",
+      "D": "importante"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'seco' es antónimo de 'húmedo' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0080",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - antónimos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Selecciona la palabra de significado opuesto a 'temprano'.",
+    "opciones": {
+      "A": "inestable",
+      "B": "tarde",
+      "C": "paciente",
+      "D": "callado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'tarde' es antónimo de 'temprano' porque expresa el significado contrario."
+  },
+  {
+    "id_reactivo": "ESP-0081",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "hormiga es a hormiguero como león es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "hospital",
+      "C": "manada",
+      "D": "madera"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'hormiga' y 'hormiguero' es de animal y su forma de organización; de la misma forma, 'león' se relaciona con 'manada'."
+  },
+  {
+    "id_reactivo": "ESP-0082",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "estudiante es a examen como atleta es a ___",
+    "opciones": {
+      "A": "biblioteca",
+      "B": "hospital",
+      "C": "ladrar",
+      "D": "competencia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'estudiante' y 'examen' es de sujeto y su prueba de desempeño; de la misma forma, 'atleta' se relaciona con 'competencia'."
+  },
+  {
+    "id_reactivo": "ESP-0083",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "agricultor es a cosecha como pescador es a ___",
+    "opciones": {
+      "A": "agua",
+      "B": "biblioteca",
+      "C": "ladrar",
+      "D": "pesca"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'agricultor' y 'cosecha' es de oficio y su producto; de la misma forma, 'pescador' se relaciona con 'pesca'."
+  },
+  {
+    "id_reactivo": "ESP-0084",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "flor es a pétalo como libro es a ___",
+    "opciones": {
+      "A": "ladrar",
+      "B": "biblioteca",
+      "C": "madera",
+      "D": "página"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'flor' y 'pétalo' es de todo y una de sus partes; de la misma forma, 'libro' se relaciona con 'página'."
+  },
+  {
+    "id_reactivo": "ESP-0085",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "panadero es a pan como zapatero es a ___",
+    "opciones": {
+      "A": "zapatos",
+      "B": "agua",
+      "C": "mano",
+      "D": "hospital"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'panadero' y 'pan' es de oficio y producto; de la misma forma, 'zapatero' se relaciona con 'zapatos'."
+  },
+  {
+    "id_reactivo": "ESP-0086",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "piloto es a avión como capitán es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "barco",
+      "C": "biblioteca",
+      "D": "hospital"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'piloto' y 'avión' es de quien conduce y su vehículo; de la misma forma, 'capitán' se relaciona con 'barco'."
+  },
+  {
+    "id_reactivo": "ESP-0087",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "raíz es a árbol como cimiento es a ___",
+    "opciones": {
+      "A": "agua",
+      "B": "madera",
+      "C": "edificio",
+      "D": "ladrar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'raíz' y 'árbol' es de base que sostiene un todo; de la misma forma, 'cimiento' se relaciona con 'edificio'."
+  },
+  {
+    "id_reactivo": "ESP-0088",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "invierno es a frío como verano es a ___",
+    "opciones": {
+      "A": "calor",
+      "B": "hospital",
+      "C": "biblioteca",
+      "D": "agua"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'invierno' y 'frío' es de estación y su clima; de la misma forma, 'verano' se relaciona con 'calor'."
+  },
+  {
+    "id_reactivo": "ESP-0089",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "sol es a día como luna es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "noche",
+      "C": "biblioteca",
+      "D": "ladrar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'sol' y 'día' es de astro y momento asociado; de la misma forma, 'luna' se relaciona con 'noche'."
+  },
+  {
+    "id_reactivo": "ESP-0090",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "semilla es a planta como huevo es a ___",
+    "opciones": {
+      "A": "hospital",
+      "B": "madera",
+      "C": "mano",
+      "D": "ave"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'semilla' y 'planta' es de origen y resultado; de la misma forma, 'huevo' se relaciona con 'ave'."
+  },
+  {
+    "id_reactivo": "ESP-0091",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "profesor es a enseñar como doctor es a ___",
+    "opciones": {
+      "A": "curar",
+      "B": "biblioteca",
+      "C": "agua",
+      "D": "hospital"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'profesor' y 'enseñar' es de oficio y su función; de la misma forma, 'doctor' se relaciona con 'curar'."
+  },
+  {
+    "id_reactivo": "ESP-0092",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "termómetro es a calor como balanza es a ___",
+    "opciones": {
+      "A": "biblioteca",
+      "B": "peso",
+      "C": "madera",
+      "D": "agua"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'termómetro' y 'calor' es de instrumento y lo que mide; de la misma forma, 'balanza' se relaciona con 'peso'."
+  },
+  {
+    "id_reactivo": "ESP-0093",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "araña es a telaraña como castor es a ___",
+    "opciones": {
+      "A": "agua",
+      "B": "ladrar",
+      "C": "presa",
+      "D": "hospital"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'araña' y 'telaraña' es de animal y su construcción; de la misma forma, 'castor' se relaciona con 'presa'."
+  },
+  {
+    "id_reactivo": "ESP-0094",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "abeja es a panal como ave es a ___",
+    "opciones": {
+      "A": "hospital",
+      "B": "nido",
+      "C": "mano",
+      "D": "biblioteca"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'abeja' y 'panal' es de animal y su hogar; de la misma forma, 'ave' se relaciona con 'nido'."
+  },
+  {
+    "id_reactivo": "ESP-0095",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "perro es a ladrar como gato es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "cerradura",
+      "C": "biblioteca",
+      "D": "maullar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'perro' y 'ladrar' es de acción característica; de la misma forma, 'gato' se relaciona con 'maullar'."
+  },
+  {
+    "id_reactivo": "ESP-0096",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "rueda es a carro como hélice es a ___",
+    "opciones": {
+      "A": "avión",
+      "B": "mano",
+      "C": "madera",
+      "D": "ladrar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'rueda' y 'carro' es de parte esencial de un vehículo; de la misma forma, 'hélice' se relaciona con 'avión'."
+  },
+  {
+    "id_reactivo": "ESP-0097",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "libro es a biblioteca como cuadro es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "cerradura",
+      "C": "agua",
+      "D": "museo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'libro' y 'biblioteca' es de lugar donde se resguarda; de la misma forma, 'cuadro' se relaciona con 'museo'."
+  },
+  {
+    "id_reactivo": "ESP-0098",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "llave es a cerradura como interruptor es a ___",
+    "opciones": {
+      "A": "ladrar",
+      "B": "agua",
+      "C": "luz",
+      "D": "mano"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'llave' y 'cerradura' es de objeto que activa otro; de la misma forma, 'interruptor' se relaciona con 'luz'."
+  },
+  {
+    "id_reactivo": "ESP-0099",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "pintor es a pincel como escritor es a ___",
+    "opciones": {
+      "A": "hospital",
+      "B": "pluma",
+      "C": "ladrar",
+      "D": "agua"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'pintor' y 'pincel' es de oficio y su herramienta; de la misma forma, 'escritor' se relaciona con 'pluma'."
+  },
+  {
+    "id_reactivo": "ESP-0100",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "triste es a llorar como feliz es a ___",
+    "opciones": {
+      "A": "agua",
+      "B": "mano",
+      "C": "hospital",
+      "D": "reír"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'triste' y 'llorar' es de emoción y expresión; de la misma forma, 'feliz' se relaciona con 'reír'."
+  },
+  {
+    "id_reactivo": "ESP-0101",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "pez es a agua como ave es a ___",
+    "opciones": {
+      "A": "ladrar",
+      "B": "aire",
+      "C": "mano",
+      "D": "hospital"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'pez' y 'agua' es de medio en que vive; de la misma forma, 'ave' se relaciona con 'aire'."
+  },
+  {
+    "id_reactivo": "ESP-0102",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "dedo es a mano como hoja es a ___",
+    "opciones": {
+      "A": "hospital",
+      "B": "árbol",
+      "C": "agua",
+      "D": "ladrar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'dedo' y 'mano' es de parte de un todo; de la misma forma, 'hoja' se relaciona con 'árbol'."
+  },
+  {
+    "id_reactivo": "ESP-0103",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "cocinero es a cocina como mecánico es a ___",
+    "opciones": {
+      "A": "agua",
+      "B": "taller",
+      "C": "biblioteca",
+      "D": "ladrar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'cocinero' y 'cocina' es de oficio y su espacio de trabajo; de la misma forma, 'mecánico' se relaciona con 'taller'."
+  },
+  {
+    "id_reactivo": "ESP-0104",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "juez es a tribunal como médico es a ___",
+    "opciones": {
+      "A": "biblioteca",
+      "B": "hospital",
+      "C": "madera",
+      "D": "agua"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'juez' y 'tribunal' es de profesión y su lugar de trabajo; de la misma forma, 'médico' se relaciona con 'hospital'."
+  },
+  {
+    "id_reactivo": "ESP-0105",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "ojo es a ver como oído es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "hospital",
+      "C": "escuchar",
+      "D": "biblioteca"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'ojo' y 'ver' es de órgano y su función; de la misma forma, 'oído' se relaciona con 'escuchar'."
+  },
+  {
+    "id_reactivo": "ESP-0106",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "médico es a hospital como maestro es a ___",
+    "opciones": {
+      "A": "escuela",
+      "B": "agua",
+      "C": "mano",
+      "D": "madera"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'médico' y 'hospital' es de lugar de trabajo; de la misma forma, 'maestro' se relaciona con 'escuela'."
+  },
+  {
+    "id_reactivo": "ESP-0107",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "termómetro es a temperatura como reloj es a ___",
+    "opciones": {
+      "A": "mano",
+      "B": "agua",
+      "C": "madera",
+      "D": "tiempo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'termómetro' y 'temperatura' es de instrumento y lo que mide; de la misma forma, 'reloj' se relaciona con 'tiempo'."
+  },
+  {
+    "id_reactivo": "ESP-0108",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "dedo es a guante como pie es a ___",
+    "opciones": {
+      "A": "calcetín",
+      "B": "biblioteca",
+      "C": "hospital",
+      "D": "madera"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'dedo' y 'guante' es de parte del cuerpo y su prenda; de la misma forma, 'pie' se relaciona con 'calcetín'."
+  },
+  {
+    "id_reactivo": "ESP-0109",
+    "asignatura": "Español",
+    "subtemario": "Vocabulario - analogías verbales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "carpintero es a madera como herrero es a ___",
+    "opciones": {
+      "A": "agua",
+      "B": "ladrar",
+      "C": "cerradura",
+      "D": "metal"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'carpintero' y 'madera' es de material con que trabaja; de la misma forma, 'herrero' se relaciona con 'metal'."
+  },
+  {
+    "id_reactivo": "ESP-0110",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "valer",
+      "B": "baca",
+      "C": "baler",
+      "D": "bestido"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La forma correcta es 'valer'; 'baler' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0111",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "bestido",
+      "B": "iba",
+      "C": "proivir",
+      "D": "hiba"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'iba'; 'hiba' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0112",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "bibir",
+      "B": "baler",
+      "C": "valer",
+      "D": "ervido"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La forma correcta es 'valer'; 'baler' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0113",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "bestido",
+      "B": "ervir",
+      "C": "estubo",
+      "D": "vestido"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'vestido'; 'bestido' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0114",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "estubo",
+      "B": "bibir",
+      "C": "vestido",
+      "D": "bestido"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La forma correcta es 'vestido'; 'bestido' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0115",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "estubo",
+      "B": "reciwir",
+      "C": "mober",
+      "D": "mover"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'mover'; 'mober' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0116",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "tubo",
+      "B": "mover",
+      "C": "bestido",
+      "D": "mober"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'mover'; 'mober' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0117",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "baler",
+      "B": "bestido",
+      "C": "bolar",
+      "D": "volar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'volar'; 'bolar' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0118",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "estubo",
+      "B": "votar",
+      "C": "proivir",
+      "D": "estuvo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'estuvo'; 'estubo' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0119",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "recibir",
+      "B": "tubo",
+      "C": "reciwir",
+      "D": "proivir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La forma correcta es 'recibir'; 'reciwir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0120",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "estubo",
+      "B": "absolber",
+      "C": "baca",
+      "D": "vaca"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'vaca'; 'baca' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0121",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "votar",
+      "B": "bender",
+      "C": "baca",
+      "D": "vaca"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'vaca'; 'baca' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0122",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "proivir",
+      "B": "volver",
+      "C": "bestido",
+      "D": "bolver"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'volver'; 'bolver' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0123",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "tubo",
+      "B": "tuvo",
+      "C": "hiba",
+      "D": "bestido"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'tuvo'; 'tubo' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0124",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "vivir",
+      "B": "votar",
+      "C": "bender",
+      "D": "bibir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La forma correcta es 'vivir'; 'bibir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0125",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "ervido",
+      "B": "prohibir",
+      "C": "bolver",
+      "D": "proivir"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'prohibir'; 'proivir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0126",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "ervor",
+      "B": "vender",
+      "C": "ervido",
+      "D": "bender"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'vender'; 'bender' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0127",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "ervor",
+      "B": "escrivir",
+      "C": "hervor",
+      "D": "bender"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La forma correcta es 'hervor'; 'ervor' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0128",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "prohibir",
+      "B": "mober",
+      "C": "tubo",
+      "D": "proivir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La forma correcta es 'prohibir'; 'proivir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0129",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "bender",
+      "B": "hervor",
+      "C": "ervor",
+      "D": "mober"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'hervor'; 'ervor' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0130",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "estubo",
+      "B": "bolver",
+      "C": "baca",
+      "D": "volver"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'volver'; 'bolver' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0131",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "tubo",
+      "B": "estuvo",
+      "C": "estubo",
+      "D": "hiba"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'estuvo'; 'estubo' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0132",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "hubo",
+      "B": "ubo",
+      "C": "mober",
+      "D": "bolar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La forma correcta es 'hubo'; 'ubo' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0133",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "absolber",
+      "B": "volver",
+      "C": "bolver",
+      "D": "estubo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'volver'; 'bolver' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0134",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "absolber",
+      "B": "iba",
+      "C": "hiba",
+      "D": "escrivir"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'iba'; 'hiba' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0135",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "ervir",
+      "B": "hervir",
+      "C": "hiba",
+      "D": "tubo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La forma correcta es 'hervir'; 'ervir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0136",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "hervir",
+      "B": "ervor",
+      "C": "bibir",
+      "D": "ervir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La forma correcta es 'hervir'; 'ervir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0137",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Elige la opción que no tiene errores de ortografía:",
+    "opciones": {
+      "A": "ervor",
+      "B": "bibir",
+      "C": "vivir",
+      "D": "votar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La forma correcta es 'vivir'; 'bibir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0138",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué palabra usa correctamente las letras 'b' o 'v'?",
+    "opciones": {
+      "A": "ervir",
+      "B": "proivir",
+      "C": "escrivir",
+      "D": "prohibir"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La forma correcta es 'prohibir'; 'proivir' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0139",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - uso de b y v",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál de las siguientes palabras está escrita correctamente?",
+    "opciones": {
+      "A": "tubo",
+      "B": "ubo",
+      "C": "tuvo",
+      "D": "votar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La forma correcta es 'tuvo'; 'tubo' es un error común de confusión entre b y v."
+  },
+  {
+    "id_reactivo": "ESP-0140",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "cancion",
+      "B": "arbol",
+      "C": "linea",
+      "D": "canción"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'canción' es una palabra aguda y requiere tilde según las reglas de acentuación; 'cancion' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0141",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "máquina",
+      "B": "jamas",
+      "C": "telefono",
+      "D": "maquina"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'máquina' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'maquina' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0142",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "árbol",
+      "B": "arbol",
+      "C": "despues",
+      "D": "maquina"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'árbol' es una palabra grave y requiere tilde según las reglas de acentuación; 'arbol' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0143",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "pais",
+      "B": "país",
+      "C": "dificil",
+      "D": "cesped"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'país' es una palabra aguda y requiere tilde según las reglas de acentuación; 'pais' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0144",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "rapido",
+      "B": "corazon",
+      "C": "medico",
+      "D": "rápido"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'rápido' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'rapido' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0145",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "camion",
+      "B": "pájaro",
+      "C": "pajaro",
+      "D": "dificil"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'pájaro' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'pajaro' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0146",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "jamas",
+      "B": "medico",
+      "C": "rapido",
+      "D": "rápido"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'rápido' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'rapido' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0147",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "maquina",
+      "B": "azucar",
+      "C": "azúcar",
+      "D": "telefono"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'azúcar' es una palabra grave y requiere tilde según las reglas de acentuación; 'azucar' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0148",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "pais",
+      "B": "dificil",
+      "C": "canción",
+      "D": "cancion"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'canción' es una palabra aguda y requiere tilde según las reglas de acentuación; 'cancion' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0149",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Identifica la palabra que lleva bien colocada la tilde:",
+    "opciones": {
+      "A": "rápido",
+      "B": "rapido",
+      "C": "despues",
+      "D": "ultimo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'rápido' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'rapido' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0150",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "país",
+      "B": "pais",
+      "C": "linea",
+      "D": "despues"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'país' es una palabra aguda y requiere tilde según las reglas de acentuación; 'pais' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0151",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "despues",
+      "B": "jamas",
+      "C": "linea",
+      "D": "después"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'después' es una palabra aguda y requiere tilde según las reglas de acentuación; 'despues' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0152",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Identifica la palabra que lleva bien colocada la tilde:",
+    "opciones": {
+      "A": "telefono",
+      "B": "linea",
+      "C": "teléfono",
+      "D": "azucar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'teléfono' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'telefono' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0153",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "pajaro",
+      "B": "jamás",
+      "C": "jamas",
+      "D": "ultimo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'jamás' es una palabra aguda y requiere tilde según las reglas de acentuación; 'jamas' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0154",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "ultimo",
+      "B": "maquina",
+      "C": "máquina",
+      "D": "medico"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'máquina' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'maquina' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0155",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Identifica la palabra que lleva bien colocada la tilde:",
+    "opciones": {
+      "A": "maquina",
+      "B": "facil",
+      "C": "máquina",
+      "D": "camion"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'máquina' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'maquina' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0156",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "camion",
+      "B": "maquina",
+      "C": "teléfono",
+      "D": "telefono"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'teléfono' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'telefono' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0157",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "linea",
+      "B": "línea",
+      "C": "pajaro",
+      "D": "corazon"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'línea' es una palabra grave y requiere tilde según las reglas de acentuación; 'linea' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0158",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Identifica la palabra que lleva bien colocada la tilde:",
+    "opciones": {
+      "A": "cesped",
+      "B": "jamas",
+      "C": "corazón",
+      "D": "corazon"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'corazón' es una palabra aguda y requiere tilde según las reglas de acentuación; 'corazon' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0159",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "maquina",
+      "B": "jamás",
+      "C": "jamas",
+      "D": "azucar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'jamás' es una palabra aguda y requiere tilde según las reglas de acentuación; 'jamas' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0160",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "cesped",
+      "B": "facil",
+      "C": "césped",
+      "D": "medico"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'césped' es una palabra grave y requiere tilde según las reglas de acentuación; 'cesped' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0161",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Identifica la palabra que lleva bien colocada la tilde:",
+    "opciones": {
+      "A": "difícil",
+      "B": "dificil",
+      "C": "despues",
+      "D": "facil"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'difícil' es una palabra grave y requiere tilde según las reglas de acentuación; 'dificil' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0162",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué opción respeta las reglas de acentuación del español?",
+    "opciones": {
+      "A": "cesped",
+      "B": "linea",
+      "C": "línea",
+      "D": "despues"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'línea' es una palabra grave y requiere tilde según las reglas de acentuación; 'linea' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0163",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "pais",
+      "B": "medico",
+      "C": "médico",
+      "D": "despues"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'médico' es una palabra esdrújula y requiere tilde según las reglas de acentuación; 'medico' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0164",
+    "asignatura": "Español",
+    "subtemario": "Ortografía - acentuación (reglas de tildes)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál palabra está correctamente acentuada según las reglas de ortografía?",
+    "opciones": {
+      "A": "linea",
+      "B": "corazon",
+      "C": "corazón",
+      "D": "despues"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'corazón' es una palabra aguda y requiere tilde según las reglas de acentuación; 'corazon' omite la tilde necesaria."
+  },
+  {
+    "id_reactivo": "ESP-0165",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El auto rojo se detuvo en el semáforo.\" ¿qué categoría gramatical corresponde a la palabra 'rojo'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "sustantivo",
+      "C": "verbo",
+      "D": "adverbio"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'rojo' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0166",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Ella resolvió el problema fácilmente.\" ¿qué categoría gramatical corresponde a la palabra 'fácilmente'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "verbo",
+      "C": "adjetivo",
+      "D": "adverbio"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'fácilmente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0167",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El científico investiga nuevas curas.\" ¿qué categoría gramatical corresponde a la palabra 'investiga'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "verbo",
+      "C": "sustantivo",
+      "D": "adverbio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'investiga' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0168",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Su casa nueva tiene un jardín enorme.\" ¿qué categoría gramatical corresponde a la palabra 'enorme'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "adjetivo",
+      "C": "adverbio",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'enorme' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0169",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Ella habla claramente en público.\" ¿qué categoría gramatical corresponde a la palabra 'claramente'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "adverbio",
+      "C": "adjetivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'claramente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0170",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Los trabajadores construyen el puente lentamente.\" ¿qué categoría gramatical corresponde a la palabra 'construyen'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "sustantivo",
+      "C": "adverbio",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'construyen' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0171",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Compramos frutas frescas en el mercado.\" ¿qué categoría gramatical corresponde a la palabra 'frescas'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "verbo",
+      "C": "adverbio",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'frescas' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0172",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"La ciudad crece rápidamente cada año.\" ¿qué categoría gramatical corresponde a la palabra 'rápidamente'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "verbo",
+      "C": "adverbio",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'rápidamente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0173",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Los pájaros vuelan hacia el sur en invierno.\" ¿qué categoría gramatical corresponde a la palabra 'vuelan'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "adjetivo",
+      "C": "verbo",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'vuelan' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0174",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El tren llegó puntualmente a la estación.\" ¿qué categoría gramatical corresponde a la palabra 'puntualmente'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "sustantivo",
+      "C": "adverbio",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'puntualmente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0175",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Caminó lentamente hacia la puerta.\" ¿qué categoría gramatical corresponde a la palabra 'lentamente'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'lentamente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0176",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Ellos cantan una canción hermosa.\" ¿qué categoría gramatical corresponde a la palabra 'cantan'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "adjetivo",
+      "C": "verbo",
+      "D": "adverbio"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'cantan' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0177",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"La flor amarilla creció en el jardín.\" ¿qué categoría gramatical corresponde a la palabra 'amarilla'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "adjetivo",
+      "C": "verbo",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'amarilla' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0178",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Hoy llegaremos temprano a casa.\" ¿qué categoría gramatical corresponde a la palabra 'temprano'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "adjetivo",
+      "C": "sustantivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'temprano' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0179",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Los estudiantes escriben sus tareas.\" ¿qué categoría gramatical corresponde a la palabra 'escriben'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "verbo",
+      "C": "sustantivo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'escriben' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0180",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El río bajaba con fuerza por la montaña.\" ¿qué categoría gramatical corresponde a la palabra 'río'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "adjetivo",
+      "C": "adverbio",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'río' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0181",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El bosque permanece verde todo el año.\" ¿qué categoría gramatical corresponde a la palabra 'bosque'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "adverbio",
+      "C": "verbo",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'bosque' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0182",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El agua estaba fría esa mañana.\" ¿qué categoría gramatical corresponde a la palabra 'fría'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "verbo",
+      "C": "adjetivo",
+      "D": "adverbio"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'fría' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0183",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Su sonrisa era sincera y cálida.\" ¿qué categoría gramatical corresponde a la palabra 'cálida'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "sustantivo",
+      "C": "adverbio",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'cálida' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0184",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"La montaña se veía imponente desde el valle.\" ¿qué categoría gramatical corresponde a la palabra 'montaña'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'montaña' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0185",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Su respuesta fue breve pero correcta.\" ¿qué categoría gramatical corresponde a la palabra 'breve'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'breve' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0186",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"La lluvia cayó durante toda la tarde.\" ¿qué categoría gramatical corresponde a la palabra 'lluvia'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'lluvia' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0187",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El profesor corrigió los exámenes ayer.\" ¿qué categoría gramatical corresponde a la palabra 'corrigió'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "adjetivo",
+      "C": "verbo",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'corrigió' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0188",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El cielo estaba completamente despejado.\" ¿qué categoría gramatical corresponde a la palabra 'despejado'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "sustantivo",
+      "C": "verbo",
+      "D": "adverbio"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'despejado' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0189",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El equipo ganó fácilmente el partido.\" ¿qué categoría gramatical corresponde a la palabra 'fácilmente'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "verbo",
+      "C": "adverbio",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'fácilmente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0190",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El perro ladra fuertemente por las noches.\" ¿qué categoría gramatical corresponde a la palabra 'fuertemente'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "adjetivo",
+      "C": "sustantivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'fuertemente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0191",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El perro corre en el parque.\" ¿qué categoría gramatical corresponde a la palabra 'corre'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "adverbio",
+      "C": "adjetivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'corre' funciona como verbo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0192",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Los niños juegan alegremente en el patio.\" ¿qué categoría gramatical corresponde a la palabra 'alegremente'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'alegremente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0193",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El niño juega con su pelota.\" ¿qué categoría gramatical corresponde a la palabra 'niño'?",
+    "opciones": {
+      "A": "sustantivo",
+      "B": "adverbio",
+      "C": "verbo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'niño' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0194",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"La casa azul es muy grande.\" ¿qué categoría gramatical corresponde a la palabra 'azul'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "adverbio",
+      "C": "adjetivo",
+      "D": "sustantivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'azul' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0195",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Su respuesta fue muy inteligente.\" ¿qué categoría gramatical corresponde a la palabra 'inteligente'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "'inteligente' funciona como adjetivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0196",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"María llegó rápidamente a la escuela.\" ¿qué categoría gramatical corresponde a la palabra 'rápidamente'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "verbo",
+      "C": "sustantivo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "'rápidamente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0197",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"Los estudiantes aprenden constantemente cosas nuevas.\" ¿qué categoría gramatical corresponde a la palabra 'constantemente'?",
+    "opciones": {
+      "A": "adjetivo",
+      "B": "adverbio",
+      "C": "sustantivo",
+      "D": "verbo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'constantemente' funciona como adverbio en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0198",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"El maestro explicó la lección con claridad.\" ¿qué categoría gramatical corresponde a la palabra 'maestro'?",
+    "opciones": {
+      "A": "verbo",
+      "B": "sustantivo",
+      "C": "adverbio",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "'maestro' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0199",
+    "asignatura": "Español",
+    "subtemario": "Gramática - categorías gramaticales",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la oración: \"La biblioteca guarda miles de libros.\" ¿qué categoría gramatical corresponde a la palabra 'biblioteca'?",
+    "opciones": {
+      "A": "adverbio",
+      "B": "verbo",
+      "C": "sustantivo",
+      "D": "adjetivo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "'biblioteca' funciona como sustantivo en esa oración."
+  },
+  {
+    "id_reactivo": "ESP-0200",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Benito Juárez, nacido en Oaxaca en 1806, es considerado una de las figuras más importantes de la historia de México. Su gobierno impulsó las Leyes de Reforma, que buscaban separar a la Iglesia del Estado y modernizar al país. A pesar de enfrentar la intervención francesa, Juárez logró mantener la soberanía nacional y es recordado como un defensor de la legalidad y la república.",
+    "enunciado": "¿Qué buscaban las Leyes de Reforma impulsadas por Juárez?",
+    "opciones": {
+      "A": "Aumentar el poder de la Iglesia",
+      "B": "Anular la Constitución",
+      "C": "Establecer una monarquía",
+      "D": "Separar a la Iglesia del Estado y modernizar el país"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0201",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El sistema solar está compuesto por el Sol y todos los cuerpos celestes que giran a su alrededor debido a la fuerza de gravedad: ocho planetas, sus satélites naturales, asteroides, cometas y otros objetos menores. Mercurio es el planeta más cercano al Sol, mientras que Neptuno es el más lejano. La Tierra, tercer planeta desde el Sol, es hasta ahora el único lugar conocido en el universo donde existe vida confirmada.",
+    "enunciado": "¿Qué característica única tiene la Tierra, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Es el planeta más cercano al Sol",
+      "B": "Es el planeta más grande del sistema solar",
+      "C": "Es el único planeta con satélites",
+      "D": "Es el único lugar conocido con vida confirmada"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0202",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El ciclo del agua describe el movimiento continuo del agua en la Tierra a través de la evaporación, la condensación y la precipitación. El calor del sol provoca que el agua de océanos, ríos y lagos se evapore, formando vapor que asciende a la atmósfera. Al enfriarse, el vapor se condensa en forma de nubes, y finalmente cae de nuevo a la superficie como lluvia, nieve o granizo, reiniciando el proceso.",
+    "enunciado": "¿Qué proceso inicia el ciclo del agua según el texto?",
+    "opciones": {
+      "A": "La condensación de las nubes",
+      "B": "La evaporación causada por el calor del sol",
+      "C": "El deshielo de los glaciares",
+      "D": "La precipitación de nieve"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0203",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La Revolución Mexicana, iniciada en 1910, fue un movimiento armado que buscaba poner fin a la dictadura de Porfirio Díaz y transformar las estructuras sociales, políticas y económicas del país. Entre sus principales demandas estaban la redistribución de tierras y el respeto a los derechos laborales. Este conflicto dio origen a la Constitución de 1917, que incluyó importantes garantías sociales, consideradas innovadoras para su época a nivel mundial.",
+    "enunciado": "¿Qué buscaba poner fin la Revolución Mexicana?",
+    "opciones": {
+      "A": "Al gobierno virreinal español",
+      "B": "A la guerra con Estados Unidos",
+      "C": "Al imperio de Maximiliano",
+      "D": "A la dictadura de Porfirio Díaz"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0204",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La Revolución Mexicana, iniciada en 1910, fue un movimiento armado que buscaba poner fin a la dictadura de Porfirio Díaz y transformar las estructuras sociales, políticas y económicas del país. Entre sus principales demandas estaban la redistribución de tierras y el respeto a los derechos laborales. Este conflicto dio origen a la Constitución de 1917, que incluyó importantes garantías sociales, consideradas innovadoras para su época a nivel mundial.",
+    "enunciado": "¿Qué demandas tenía este movimiento, según el texto?",
+    "opciones": {
+      "A": "La creación de nuevas fronteras",
+      "B": "Solo la independencia de México",
+      "C": "Redistribución de tierras y derechos laborales",
+      "D": "La abolición de la esclavitud colonial"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0205",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El ciclo del agua describe el movimiento continuo del agua en la Tierra a través de la evaporación, la condensación y la precipitación. El calor del sol provoca que el agua de océanos, ríos y lagos se evapore, formando vapor que asciende a la atmósfera. Al enfriarse, el vapor se condensa en forma de nubes, y finalmente cae de nuevo a la superficie como lluvia, nieve o granizo, reiniciando el proceso.",
+    "enunciado": "¿Cuáles son las formas de precipitación mencionadas en el texto?",
+    "opciones": {
+      "A": "Vapor y gas",
+      "B": "Rocío y neblina",
+      "C": "Lluvia, nieve o granizo",
+      "D": "Solo lluvia"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0206",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El ciclo del agua describe el movimiento continuo del agua en la Tierra a través de la evaporación, la condensación y la precipitación. El calor del sol provoca que el agua de océanos, ríos y lagos se evapore, formando vapor que asciende a la atmósfera. Al enfriarse, el vapor se condensa en forma de nubes, y finalmente cae de nuevo a la superficie como lluvia, nieve o granizo, reiniciando el proceso.",
+    "enunciado": "¿Qué ocurre cuando el vapor de agua se enfría?",
+    "opciones": {
+      "A": "Se convierte en hielo instantáneamente",
+      "B": "Se transforma en oxígeno",
+      "C": "Se condensa formando nubes",
+      "D": "Desaparece en la atmósfera"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0207",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El sistema digestivo humano tiene la función de transformar los alimentos en nutrientes que el cuerpo pueda absorber y utilizar como fuente de energía. El proceso comienza en la boca, donde la masticación y la saliva inician la descomposición de los alimentos, continúa en el estómago con la acción de los jugos gástricos, y finaliza en el intestino delgado, donde ocurre la mayor parte de la absorción de nutrientes hacia el torrente sanguíneo.",
+    "enunciado": "¿Dónde comienza el proceso digestivo, de acuerdo con el texto?",
+    "opciones": {
+      "A": "En el intestino delgado",
+      "B": "En el estómago",
+      "C": "En la boca",
+      "D": "En el hígado"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0208",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Las abejas desempeñan un papel fundamental en los ecosistemas gracias a la polinización, un proceso mediante el cual transportan polen de una flor a otra, permitiendo la reproducción de numerosas especies vegetales. Se calcula que gran parte de los cultivos que consume el ser humano dependen, directa o indirectamente, de este trabajo. La disminución de las poblaciones de abejas en años recientes ha generado preocupación entre científicos y agricultores por sus posibles efectos en la seguridad alimentaria.",
+    "enunciado": "Según el texto, ¿de qué depende gran parte de los cultivos humanos?",
+    "opciones": {
+      "A": "De la importación de semillas",
+      "B": "De la lluvia artificial",
+      "C": "Del trabajo de polinización de las abejas",
+      "D": "De los fertilizantes químicos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0209",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Benito Juárez, nacido en Oaxaca en 1806, es considerado una de las figuras más importantes de la historia de México. Su gobierno impulsó las Leyes de Reforma, que buscaban separar a la Iglesia del Estado y modernizar al país. A pesar de enfrentar la intervención francesa, Juárez logró mantener la soberanía nacional y es recordado como un defensor de la legalidad y la república.",
+    "enunciado": "¿Qué evento militar enfrentó Juárez durante su gobierno?",
+    "opciones": {
+      "A": "La guerra con Estados Unidos",
+      "B": "La intervención francesa",
+      "C": "La guerra de independencia",
+      "D": "La Revolución Mexicana"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0210",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La invención de la imprenta por Johannes Gutenberg, hacia mediados del siglo XV, transformó radicalmente la forma en que se difundía el conocimiento en Europa. Antes de este avance, los libros se copiaban a mano, un proceso lento y costoso que limitaba su acceso a unos pocos privilegiados. Con la imprenta, fue posible producir textos de manera más rápida y económica, lo que contribuyó a la expansión de la alfabetización y a movimientos como el Renacimiento y la Reforma protestante.",
+    "enunciado": "¿Cómo se producían los libros antes de la imprenta?",
+    "opciones": {
+      "A": "No existían libros",
+      "B": "Se copiaban a mano, de forma lenta y costosa",
+      "C": "Se imprimían en talleres artesanales",
+      "D": "Se elaboraban con tecnología digital"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0211",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El sistema solar está compuesto por el Sol y todos los cuerpos celestes que giran a su alrededor debido a la fuerza de gravedad: ocho planetas, sus satélites naturales, asteroides, cometas y otros objetos menores. Mercurio es el planeta más cercano al Sol, mientras que Neptuno es el más lejano. La Tierra, tercer planeta desde el Sol, es hasta ahora el único lugar conocido en el universo donde existe vida confirmada.",
+    "enunciado": "¿Qué mantiene a los planetas girando alrededor del Sol?",
+    "opciones": {
+      "A": "La rotación de la Luna",
+      "B": "Los campos magnéticos terrestres",
+      "C": "La fuerza de gravedad",
+      "D": "El viento solar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0212",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El maíz ha sido, desde hace miles de años, uno de los alimentos más importantes en Mesoamérica. Las civilizaciones prehispánicas no solo lo utilizaban como base de su alimentación, sino que también lo consideraban sagrado y lo incluían en sus rituales y mitos de creación. Actualmente, México cultiva cientos de variedades distintas de maíz, adaptadas a diferentes climas y suelos, lo que representa una riqueza genética única en el mundo.",
+    "enunciado": "Según el texto, ¿qué papel tenía el maíz además de alimenticio?",
+    "opciones": {
+      "A": "Un papel decorativo",
+      "B": "Un papel exclusivamente comercial",
+      "C": "Un papel religioso y ritual",
+      "D": "Un papel medicinal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0213",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Las abejas desempeñan un papel fundamental en los ecosistemas gracias a la polinización, un proceso mediante el cual transportan polen de una flor a otra, permitiendo la reproducción de numerosas especies vegetales. Se calcula que gran parte de los cultivos que consume el ser humano dependen, directa o indirectamente, de este trabajo. La disminución de las poblaciones de abejas en años recientes ha generado preocupación entre científicos y agricultores por sus posibles efectos en la seguridad alimentaria.",
+    "enunciado": "¿Cuál es la función principal de las abejas descrita en el texto?",
+    "opciones": {
+      "A": "La polinización de las flores",
+      "B": "La defensa de los cultivos contra plagas",
+      "C": "La producción de miel exclusivamente",
+      "D": "El transporte de semillas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0214",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La Revolución Mexicana, iniciada en 1910, fue un movimiento armado que buscaba poner fin a la dictadura de Porfirio Díaz y transformar las estructuras sociales, políticas y económicas del país. Entre sus principales demandas estaban la redistribución de tierras y el respeto a los derechos laborales. Este conflicto dio origen a la Constitución de 1917, que incluyó importantes garantías sociales, consideradas innovadoras para su época a nivel mundial.",
+    "enunciado": "¿Qué documento surgió como resultado de este movimiento?",
+    "opciones": {
+      "A": "El Tratado de Córdoba",
+      "B": "La Constitución de 1917",
+      "C": "Las Leyes de Reforma",
+      "D": "El Plan de Iguala"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0215",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Las abejas desempeñan un papel fundamental en los ecosistemas gracias a la polinización, un proceso mediante el cual transportan polen de una flor a otra, permitiendo la reproducción de numerosas especies vegetales. Se calcula que gran parte de los cultivos que consume el ser humano dependen, directa o indirectamente, de este trabajo. La disminución de las poblaciones de abejas en años recientes ha generado preocupación entre científicos y agricultores por sus posibles efectos en la seguridad alimentaria.",
+    "enunciado": "¿Por qué preocupa a los científicos la disminución de abejas?",
+    "opciones": {
+      "A": "Porque aumenta el precio del azúcar",
+      "B": "Porque afecta el clima directamente",
+      "C": "Por su posible efecto en la seguridad alimentaria",
+      "D": "Porque reduce el turismo rural"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0216",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El sistema digestivo humano tiene la función de transformar los alimentos en nutrientes que el cuerpo pueda absorber y utilizar como fuente de energía. El proceso comienza en la boca, donde la masticación y la saliva inician la descomposición de los alimentos, continúa en el estómago con la acción de los jugos gástricos, y finaliza en el intestino delgado, donde ocurre la mayor parte de la absorción de nutrientes hacia el torrente sanguíneo.",
+    "enunciado": "¿Cuál es la función principal del sistema digestivo, según el texto?",
+    "opciones": {
+      "A": "Producir glóbulos rojos",
+      "B": "Regular la temperatura corporal",
+      "C": "Filtrar el aire que respiramos",
+      "D": "Transformar los alimentos en nutrientes utilizables"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0217",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La contaminación por plásticos en los océanos se ha convertido en uno de los problemas ambientales más urgentes de nuestro tiempo. Se estima que millones de toneladas de plástico llegan al mar cada año, afectando a la vida marina y, eventualmente, a la cadena alimenticia humana. Numerosos países han comenzado a implementar leyes que restringen el uso de plásticos de un solo uso, como popotes y bolsas, en un esfuerzo por reducir este impacto.",
+    "enunciado": "¿Qué medida se menciona para reducir el problema?",
+    "opciones": {
+      "A": "Construir más plantas de plástico",
+      "B": "Prohibir la navegación marítima",
+      "C": "Aumentar la pesca",
+      "D": "Leyes que restringen el plástico de un solo uso"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0218",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El maíz ha sido, desde hace miles de años, uno de los alimentos más importantes en Mesoamérica. Las civilizaciones prehispánicas no solo lo utilizaban como base de su alimentación, sino que también lo consideraban sagrado y lo incluían en sus rituales y mitos de creación. Actualmente, México cultiva cientos de variedades distintas de maíz, adaptadas a diferentes climas y suelos, lo que representa una riqueza genética única en el mundo.",
+    "enunciado": "¿Qué se afirma sobre las variedades de maíz en México?",
+    "opciones": {
+      "A": "Que solo existe una variedad",
+      "B": "Que se cultivan únicamente en el norte del país",
+      "C": "Que están desapareciendo por completo",
+      "D": "Que existen cientos, adaptadas a climas distintos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0219",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El sistema solar está compuesto por el Sol y todos los cuerpos celestes que giran a su alrededor debido a la fuerza de gravedad: ocho planetas, sus satélites naturales, asteroides, cometas y otros objetos menores. Mercurio es el planeta más cercano al Sol, mientras que Neptuno es el más lejano. La Tierra, tercer planeta desde el Sol, es hasta ahora el único lugar conocido en el universo donde existe vida confirmada.",
+    "enunciado": "¿Qué planeta es el más cercano al Sol según el texto?",
+    "opciones": {
+      "A": "Marte",
+      "B": "Mercurio",
+      "C": "Neptuno",
+      "D": "La Tierra"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0220",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Benito Juárez, nacido en Oaxaca en 1806, es considerado una de las figuras más importantes de la historia de México. Su gobierno impulsó las Leyes de Reforma, que buscaban separar a la Iglesia del Estado y modernizar al país. A pesar de enfrentar la intervención francesa, Juárez logró mantener la soberanía nacional y es recordado como un defensor de la legalidad y la república.",
+    "enunciado": "¿Por qué es recordado Benito Juárez, según el texto?",
+    "opciones": {
+      "A": "Como defensor de la legalidad y la república",
+      "B": "Como fundador de la monarquía mexicana",
+      "C": "Como líder militar extranjero",
+      "D": "Como creador de la Iglesia católica en México"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0221",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La invención de la imprenta por Johannes Gutenberg, hacia mediados del siglo XV, transformó radicalmente la forma en que se difundía el conocimiento en Europa. Antes de este avance, los libros se copiaban a mano, un proceso lento y costoso que limitaba su acceso a unos pocos privilegiados. Con la imprenta, fue posible producir textos de manera más rápida y económica, lo que contribuyó a la expansión de la alfabetización y a movimientos como el Renacimiento y la Reforma protestante.",
+    "enunciado": "¿Qué transformó la invención de la imprenta, según el texto?",
+    "opciones": {
+      "A": "El sistema político europeo",
+      "B": "El comercio marítimo",
+      "C": "La forma en que se difundía el conocimiento",
+      "D": "La religión católica exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0222",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La contaminación por plásticos en los océanos se ha convertido en uno de los problemas ambientales más urgentes de nuestro tiempo. Se estima que millones de toneladas de plástico llegan al mar cada año, afectando a la vida marina y, eventualmente, a la cadena alimenticia humana. Numerosos países han comenzado a implementar leyes que restringen el uso de plásticos de un solo uso, como popotes y bolsas, en un esfuerzo por reducir este impacto.",
+    "enunciado": "¿Cuál es el tema central del texto?",
+    "opciones": {
+      "A": "El reciclaje de papel",
+      "B": "La pesca industrial",
+      "C": "La contaminación por plásticos en los océanos",
+      "D": "El comercio internacional de plástico"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0223",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El sistema digestivo humano tiene la función de transformar los alimentos en nutrientes que el cuerpo pueda absorber y utilizar como fuente de energía. El proceso comienza en la boca, donde la masticación y la saliva inician la descomposición de los alimentos, continúa en el estómago con la acción de los jugos gástricos, y finaliza en el intestino delgado, donde ocurre la mayor parte de la absorción de nutrientes hacia el torrente sanguíneo.",
+    "enunciado": "¿En qué parte ocurre la mayor absorción de nutrientes?",
+    "opciones": {
+      "A": "En el intestino delgado",
+      "B": "En el esófago",
+      "C": "En el estómago",
+      "D": "En la boca"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0224",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La contaminación por plásticos en los océanos se ha convertido en uno de los problemas ambientales más urgentes de nuestro tiempo. Se estima que millones de toneladas de plástico llegan al mar cada año, afectando a la vida marina y, eventualmente, a la cadena alimenticia humana. Numerosos países han comenzado a implementar leyes que restringen el uso de plásticos de un solo uso, como popotes y bolsas, en un esfuerzo por reducir este impacto.",
+    "enunciado": "¿A qué afecta finalmente la contaminación por plástico, según el texto?",
+    "opciones": {
+      "A": "A la cadena alimenticia humana",
+      "B": "A la producción de petróleo",
+      "C": "Únicamente al turismo",
+      "D": "Solo al clima"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0225",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La invención de la imprenta por Johannes Gutenberg, hacia mediados del siglo XV, transformó radicalmente la forma en que se difundía el conocimiento en Europa. Antes de este avance, los libros se copiaban a mano, un proceso lento y costoso que limitaba su acceso a unos pocos privilegiados. Con la imprenta, fue posible producir textos de manera más rápida y económica, lo que contribuyó a la expansión de la alfabetización y a movimientos como el Renacimiento y la Reforma protestante.",
+    "enunciado": "¿Qué movimientos históricos se relacionan con la difusión de la imprenta?",
+    "opciones": {
+      "A": "La Guerra Fría y la globalización",
+      "B": "El Renacimiento y la Reforma protestante",
+      "C": "El Imperio Romano y el feudalismo",
+      "D": "La Revolución Industrial y el marxismo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "ESP-0226",
+    "asignatura": "Español",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El maíz ha sido, desde hace miles de años, uno de los alimentos más importantes en Mesoamérica. Las civilizaciones prehispánicas no solo lo utilizaban como base de su alimentación, sino que también lo consideraban sagrado y lo incluían en sus rituales y mitos de creación. Actualmente, México cultiva cientos de variedades distintas de maíz, adaptadas a diferentes climas y suelos, lo que representa una riqueza genética única en el mundo.",
+    "enunciado": "¿Cuál es la idea principal del texto?",
+    "opciones": {
+      "A": "La importancia histórica y actual del maíz en Mesoamérica",
+      "B": "Las técnicas modernas de riego en México",
+      "C": "La historia de la agricultura en Europa",
+      "D": "El clima de las zonas mesoamericanas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  }
+]

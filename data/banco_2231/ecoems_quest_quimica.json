@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "QUI-0001",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Cobre (Cu) tiene número atómico 29. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "64",
+      "B": "29",
+      "C": "28",
+      "D": "30"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Cobre, Z = 29."
+  },
+  {
+    "id_reactivo": "QUI-0002",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Sodio (Na) tiene número atómico 11. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "12",
+      "B": "11",
+      "C": "10",
+      "D": "23"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Sodio, Z = 11."
+  },
+  {
+    "id_reactivo": "QUI-0003",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Zinc (Zn) tiene número atómico 30. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "30",
+      "B": "31",
+      "C": "65",
+      "D": "29"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Zinc, Z = 30."
+  },
+  {
+    "id_reactivo": "QUI-0004",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Cloro (Cl) tiene número atómico 17. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "18",
+      "B": "17",
+      "C": "35",
+      "D": "16"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Cloro, Z = 17."
+  },
+  {
+    "id_reactivo": "QUI-0005",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Magnesio (Mg) tiene número atómico 12. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "12",
+      "B": "11",
+      "C": "13",
+      "D": "24"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Magnesio, Z = 12."
+  },
+  {
+    "id_reactivo": "QUI-0006",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Helio (He) tiene número atómico 2. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Helio, Z = 2."
+  },
+  {
+    "id_reactivo": "QUI-0007",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Hierro (Fe) tiene número atómico 26. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "56",
+      "B": "25",
+      "C": "26",
+      "D": "27"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Hierro, Z = 26."
+  },
+  {
+    "id_reactivo": "QUI-0008",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Aluminio (Al) tiene número atómico 13. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "14",
+      "B": "27",
+      "C": "13",
+      "D": "12"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Aluminio, Z = 13."
+  },
+  {
+    "id_reactivo": "QUI-0009",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Silicio (Si) tiene número atómico 14. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "28",
+      "B": "15",
+      "C": "13",
+      "D": "14"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Silicio, Z = 14."
+  },
+  {
+    "id_reactivo": "QUI-0010",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Neón (Ne) tiene número atómico 10. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "20",
+      "B": "10",
+      "C": "11",
+      "D": "9"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Neón, Z = 10."
+  },
+  {
+    "id_reactivo": "QUI-0011",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Fósforo (P) tiene número atómico 15. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "31",
+      "B": "15",
+      "C": "14",
+      "D": "16"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Fósforo, Z = 15."
+  },
+  {
+    "id_reactivo": "QUI-0012",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Litio (Li) tiene número atómico 3. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "7",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Litio, Z = 3."
+  },
+  {
+    "id_reactivo": "QUI-0013",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Hidrógeno (H) tiene número atómico 1. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "2",
+      "B": "1",
+      "C": "5",
+      "D": "3"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Hidrógeno, Z = 1."
+  },
+  {
+    "id_reactivo": "QUI-0014",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Potasio (K) tiene número atómico 19. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "20",
+      "B": "18",
+      "C": "19",
+      "D": "39"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Potasio, Z = 19."
+  },
+  {
+    "id_reactivo": "QUI-0015",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Azufre (S) tiene número atómico 16. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "16",
+      "B": "15",
+      "C": "17",
+      "D": "32"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Azufre, Z = 16."
+  },
+  {
+    "id_reactivo": "QUI-0016",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Carbono (C) tiene número atómico 6. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "6",
+      "B": "12",
+      "C": "5",
+      "D": "7"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Carbono, Z = 6."
+  },
+  {
+    "id_reactivo": "QUI-0017",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Flúor (F) tiene número atómico 9. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "19",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Flúor, Z = 9."
+  },
+  {
+    "id_reactivo": "QUI-0018",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Calcio (Ca) tiene número atómico 20. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "21",
+      "B": "40",
+      "C": "20",
+      "D": "19"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Calcio, Z = 20."
+  },
+  {
+    "id_reactivo": "QUI-0019",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Nitrógeno (N) tiene número atómico 7. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "7",
+      "B": "8",
+      "C": "6",
+      "D": "14"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Nitrógeno, Z = 7."
+  },
+  {
+    "id_reactivo": "QUI-0020",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número atómico y protones",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "El elemento Oxígeno (O) tiene número atómico 8. ¿Cuántos protones tiene un átomo neutro de este elemento?",
+    "opciones": {
+      "A": "9",
+      "B": "16",
+      "C": "8",
+      "D": "7"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número atómico (Z) indica la cantidad de protones en el núcleo; en un átomo neutro, también es igual al número de electrones. Para Oxígeno, Z = 8."
+  },
+  {
+    "id_reactivo": "QUI-0021",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Carbono (C) tiene número atómico 6 y número de masa 12. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "7"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número de neutrones = número de masa - número atómico = 12 - 6 = 6."
+  },
+  {
+    "id_reactivo": "QUI-0022",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Potasio (K) tiene número atómico 19 y número de masa 39. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "21",
+      "B": "19",
+      "C": "20",
+      "D": "18"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número de neutrones = número de masa - número atómico = 39 - 19 = 20."
+  },
+  {
+    "id_reactivo": "QUI-0023",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Fósforo (P) tiene número atómico 15 y número de masa 31. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "15",
+      "B": "16",
+      "C": "17",
+      "D": "13"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número de neutrones = número de masa - número atómico = 31 - 15 = 16."
+  },
+  {
+    "id_reactivo": "QUI-0024",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Cobre (Cu) tiene número atómico 29 y número de masa 64. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "29",
+      "B": "34",
+      "C": "36",
+      "D": "35"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El número de neutrones = número de masa - número atómico = 64 - 29 = 35."
+  },
+  {
+    "id_reactivo": "QUI-0025",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Flúor (F) tiene número atómico 9 y número de masa 19. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "10",
+      "B": "9",
+      "C": "11",
+      "D": "8"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número de neutrones = número de masa - número atómico = 19 - 9 = 10."
+  },
+  {
+    "id_reactivo": "QUI-0026",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Neón (Ne) tiene número atómico 10 y número de masa 20. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "7",
+      "B": "11",
+      "C": "10",
+      "D": "9"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número de neutrones = número de masa - número atómico = 20 - 10 = 10."
+  },
+  {
+    "id_reactivo": "QUI-0027",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Magnesio (Mg) tiene número atómico 12 y número de masa 24. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "9",
+      "B": "12",
+      "C": "13",
+      "D": "11"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número de neutrones = número de masa - número atómico = 24 - 12 = 12."
+  },
+  {
+    "id_reactivo": "QUI-0028",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Calcio (Ca) tiene número atómico 20 y número de masa 40. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "19",
+      "B": "17",
+      "C": "20",
+      "D": "21"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número de neutrones = número de masa - número atómico = 40 - 20 = 20."
+  },
+  {
+    "id_reactivo": "QUI-0029",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Aluminio (Al) tiene número atómico 13 y número de masa 27. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "14",
+      "B": "15",
+      "C": "12",
+      "D": "13"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número de neutrones = número de masa - número atómico = 27 - 13 = 14."
+  },
+  {
+    "id_reactivo": "QUI-0030",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Sodio (Na) tiene número atómico 11 y número de masa 23. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "13",
+      "B": "9",
+      "C": "12",
+      "D": "11"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número de neutrones = número de masa - número atómico = 23 - 11 = 12."
+  },
+  {
+    "id_reactivo": "QUI-0031",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Helio (He) tiene número atómico 2 y número de masa 4. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "-1"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número de neutrones = número de masa - número atómico = 4 - 2 = 2."
+  },
+  {
+    "id_reactivo": "QUI-0032",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Hierro (Fe) tiene número atómico 26 y número de masa 56. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "31",
+      "B": "30",
+      "C": "29",
+      "D": "26"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número de neutrones = número de masa - número atómico = 56 - 26 = 30."
+  },
+  {
+    "id_reactivo": "QUI-0033",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Oxígeno (O) tiene número atómico 8 y número de masa 16. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "9",
+      "B": "6",
+      "C": "8",
+      "D": "7"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número de neutrones = número de masa - número atómico = 16 - 8 = 8."
+  },
+  {
+    "id_reactivo": "QUI-0034",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Cloro (Cl) tiene número atómico 17 y número de masa 35. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "19",
+      "B": "15",
+      "C": "18",
+      "D": "17"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El número de neutrones = número de masa - número atómico = 35 - 17 = 18."
+  },
+  {
+    "id_reactivo": "QUI-0035",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Azufre (S) tiene número atómico 16 y número de masa 32. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "15",
+      "B": "16",
+      "C": "14",
+      "D": "17"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número de neutrones = número de masa - número atómico = 32 - 16 = 16."
+  },
+  {
+    "id_reactivo": "QUI-0036",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Litio (Li) tiene número atómico 3 y número de masa 7. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "5"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número de neutrones = número de masa - número atómico = 7 - 3 = 4."
+  },
+  {
+    "id_reactivo": "QUI-0037",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Nitrógeno (N) tiene número atómico 7 y número de masa 14. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "8",
+      "B": "6",
+      "C": "4",
+      "D": "7"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El número de neutrones = número de masa - número atómico = 14 - 7 = 7."
+  },
+  {
+    "id_reactivo": "QUI-0038",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Silicio (Si) tiene número atómico 14 y número de masa 28. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "15",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El número de neutrones = número de masa - número atómico = 28 - 14 = 14."
+  },
+  {
+    "id_reactivo": "QUI-0039",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Hidrógeno (H) tiene número atómico 1 y número de masa 1. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "0",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El número de neutrones = número de masa - número atómico = 1 - 1 = 0."
+  },
+  {
+    "id_reactivo": "QUI-0040",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - número de masa y neutrones",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El elemento Zinc (Zn) tiene número atómico 30 y número de masa 65. ¿Cuántos neutrones tiene?",
+    "opciones": {
+      "A": "34",
+      "B": "35",
+      "C": "36",
+      "D": "30"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El número de neutrones = número de masa - número atómico = 65 - 30 = 35."
+  },
+  {
+    "id_reactivo": "QUI-0041",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Hidrógeno (H), si su número atómico es 1?",
+    "opciones": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "0"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 1."
+  },
+  {
+    "id_reactivo": "QUI-0042",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Silicio (Si), si su número atómico es 14?",
+    "opciones": {
+      "A": "15",
+      "B": "11",
+      "C": "14",
+      "D": "13"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 14."
+  },
+  {
+    "id_reactivo": "QUI-0043",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Cloro (Cl), si su número atómico es 17?",
+    "opciones": {
+      "A": "14",
+      "B": "16",
+      "C": "18",
+      "D": "17"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 17."
+  },
+  {
+    "id_reactivo": "QUI-0044",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Sodio (Na), si su número atómico es 11?",
+    "opciones": {
+      "A": "11",
+      "B": "12",
+      "C": "9",
+      "D": "10"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 11."
+  },
+  {
+    "id_reactivo": "QUI-0045",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Nitrógeno (N), si su número atómico es 7?",
+    "opciones": {
+      "A": "6",
+      "B": "5",
+      "C": "8",
+      "D": "7"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 7."
+  },
+  {
+    "id_reactivo": "QUI-0046",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Litio (Li), si su número atómico es 3?",
+    "opciones": {
+      "A": "0",
+      "B": "3",
+      "C": "2",
+      "D": "4"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 3."
+  },
+  {
+    "id_reactivo": "QUI-0047",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Oxígeno (O), si su número atómico es 8?",
+    "opciones": {
+      "A": "7",
+      "B": "5",
+      "C": "9",
+      "D": "8"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 8."
+  },
+  {
+    "id_reactivo": "QUI-0048",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Aluminio (Al), si su número atómico es 13?",
+    "opciones": {
+      "A": "11",
+      "B": "14",
+      "C": "13",
+      "D": "12"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 13."
+  },
+  {
+    "id_reactivo": "QUI-0049",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Calcio (Ca), si su número atómico es 20?",
+    "opciones": {
+      "A": "18",
+      "B": "19",
+      "C": "21",
+      "D": "20"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 20."
+  },
+  {
+    "id_reactivo": "QUI-0050",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Azufre (S), si su número atómico es 16?",
+    "opciones": {
+      "A": "16",
+      "B": "15",
+      "C": "14",
+      "D": "17"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 16."
+  },
+  {
+    "id_reactivo": "QUI-0051",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Carbono (C), si su número atómico es 6?",
+    "opciones": {
+      "A": "6",
+      "B": "5",
+      "C": "7",
+      "D": "4"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 6."
+  },
+  {
+    "id_reactivo": "QUI-0052",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Magnesio (Mg), si su número atómico es 12?",
+    "opciones": {
+      "A": "12",
+      "B": "10",
+      "C": "11",
+      "D": "13"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 12."
+  },
+  {
+    "id_reactivo": "QUI-0053",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Cobre (Cu), si su número atómico es 29?",
+    "opciones": {
+      "A": "30",
+      "B": "29",
+      "C": "28",
+      "D": "35"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 29."
+  },
+  {
+    "id_reactivo": "QUI-0054",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Potasio (K), si su número atómico es 19?",
+    "opciones": {
+      "A": "17",
+      "B": "19",
+      "C": "18",
+      "D": "20"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 19."
+  },
+  {
+    "id_reactivo": "QUI-0055",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Fósforo (P), si su número atómico es 15?",
+    "opciones": {
+      "A": "16",
+      "B": "14",
+      "C": "15",
+      "D": "12"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 15."
+  },
+  {
+    "id_reactivo": "QUI-0056",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Zinc (Zn), si su número atómico es 30?",
+    "opciones": {
+      "A": "29",
+      "B": "35",
+      "C": "30",
+      "D": "31"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 30."
+  },
+  {
+    "id_reactivo": "QUI-0057",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Neón (Ne), si su número atómico es 10?",
+    "opciones": {
+      "A": "7",
+      "B": "10",
+      "C": "9",
+      "D": "11"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 10."
+  },
+  {
+    "id_reactivo": "QUI-0058",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Helio (He), si su número atómico es 2?",
+    "opciones": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "0"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 2."
+  },
+  {
+    "id_reactivo": "QUI-0059",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Flúor (F), si su número atómico es 9?",
+    "opciones": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 9."
+  },
+  {
+    "id_reactivo": "QUI-0060",
+    "asignatura": "Química",
+    "subtemario": "Estructura atómica - electrones en átomo neutro",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos electrones tiene un átomo neutro de Hierro (Fe), si su número atómico es 26?",
+    "opciones": {
+      "A": "25",
+      "B": "30",
+      "C": "26",
+      "D": "27"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En un átomo neutro, el número de electrones es igual al número de protones (número atómico): 26."
+  },
+  {
+    "id_reactivo": "QUI-0061",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 5 mol de Zinc (Zn), si su masa molar aproximada es 65 g/mol?",
+    "opciones": {
+      "A": "260 g",
+      "B": "390 g",
+      "C": "70 g",
+      "D": "325 g"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "masa = moles × masa molar = 5 × 65 = 325 g."
+  },
+  {
+    "id_reactivo": "QUI-0062",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 4 mol de Neón (Ne), si su masa molar aproximada es 20 g/mol?",
+    "opciones": {
+      "A": "80 g",
+      "B": "100 g",
+      "C": "24 g",
+      "D": "60 g"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "masa = moles × masa molar = 4 × 20 = 80 g."
+  },
+  {
+    "id_reactivo": "QUI-0063",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 3 mol de Cloro (Cl), si su masa molar aproximada es 35 g/mol?",
+    "opciones": {
+      "A": "70 g",
+      "B": "105 g",
+      "C": "140 g",
+      "D": "38 g"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "masa = moles × masa molar = 3 × 35 = 105 g."
+  },
+  {
+    "id_reactivo": "QUI-0064",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 4 mol de Hierro (Fe), si su masa molar aproximada es 56 g/mol?",
+    "opciones": {
+      "A": "60 g",
+      "B": "280 g",
+      "C": "224 g",
+      "D": "168 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 4 × 56 = 224 g."
+  },
+  {
+    "id_reactivo": "QUI-0065",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 2.5 mol de Potasio (K), si su masa molar aproximada es 39 g/mol?",
+    "opciones": {
+      "A": "136.5 g",
+      "B": "58.5 g",
+      "C": "97.5 g",
+      "D": "41.5 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 2.5 × 39 = 97.5 g."
+  },
+  {
+    "id_reactivo": "QUI-0066",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 3 mol de Calcio (Ca), si su masa molar aproximada es 40 g/mol?",
+    "opciones": {
+      "A": "43 g",
+      "B": "80 g",
+      "C": "160 g",
+      "D": "120 g"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "masa = moles × masa molar = 3 × 40 = 120 g."
+  },
+  {
+    "id_reactivo": "QUI-0067",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1 mol de Zinc (Zn), si su masa molar aproximada es 65 g/mol?",
+    "opciones": {
+      "A": "65 g",
+      "B": "130 g",
+      "C": "66 g",
+      "D": "97.5 g"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "masa = moles × masa molar = 1 × 65 = 65 g."
+  },
+  {
+    "id_reactivo": "QUI-0068",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 3 mol de Hidrógeno (H), si su masa molar aproximada es 1 g/mol?",
+    "opciones": {
+      "A": "3 g",
+      "B": "2 g",
+      "C": "1 g",
+      "D": "4 g"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "masa = moles × masa molar = 3 × 1 = 3 g."
+  },
+  {
+    "id_reactivo": "QUI-0069",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 5 mol de Magnesio (Mg), si su masa molar aproximada es 24 g/mol?",
+    "opciones": {
+      "A": "29 g",
+      "B": "96 g",
+      "C": "120 g",
+      "D": "144 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 5 × 24 = 120 g."
+  },
+  {
+    "id_reactivo": "QUI-0070",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 2.5 mol de Magnesio (Mg), si su masa molar aproximada es 24 g/mol?",
+    "opciones": {
+      "A": "60.0 g",
+      "B": "36.0 g",
+      "C": "84.0 g",
+      "D": "26.5 g"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "masa = moles × masa molar = 2.5 × 24 = 60.0 g."
+  },
+  {
+    "id_reactivo": "QUI-0071",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1 mol de Magnesio (Mg), si su masa molar aproximada es 24 g/mol?",
+    "opciones": {
+      "A": "25 g",
+      "B": "36.0 g",
+      "C": "48 g",
+      "D": "24 g"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "masa = moles × masa molar = 1 × 24 = 24 g."
+  },
+  {
+    "id_reactivo": "QUI-0072",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 0.5 mol de Oxígeno (O), si su masa molar aproximada es 16 g/mol?",
+    "opciones": {
+      "A": "24.0 g",
+      "B": "8.0 g",
+      "C": "16.5 g",
+      "D": "16.0 g"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "masa = moles × masa molar = 0.5 × 16 = 8.0 g."
+  },
+  {
+    "id_reactivo": "QUI-0073",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1.5 mol de Hidrógeno (H), si su masa molar aproximada es 1 g/mol?",
+    "opciones": {
+      "A": "-1.5 g",
+      "B": "2.5 g",
+      "C": "1.5 g",
+      "D": "0.5 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 1.5 × 1 = 1.5 g."
+  },
+  {
+    "id_reactivo": "QUI-0074",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 5 mol de Azufre (S), si su masa molar aproximada es 32 g/mol?",
+    "opciones": {
+      "A": "37 g",
+      "B": "160 g",
+      "C": "128 g",
+      "D": "192 g"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "masa = moles × masa molar = 5 × 32 = 160 g."
+  },
+  {
+    "id_reactivo": "QUI-0075",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 3 mol de Potasio (K), si su masa molar aproximada es 39 g/mol?",
+    "opciones": {
+      "A": "78 g",
+      "B": "156 g",
+      "C": "117 g",
+      "D": "42 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 3 × 39 = 117 g."
+  },
+  {
+    "id_reactivo": "QUI-0076",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 2 mol de Sodio (Na), si su masa molar aproximada es 23 g/mol?",
+    "opciones": {
+      "A": "25 g",
+      "B": "69 g",
+      "C": "46 g",
+      "D": "23 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 2 × 23 = 46 g."
+  },
+  {
+    "id_reactivo": "QUI-0077",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1.5 mol de Cobre (Cu), si su masa molar aproximada es 64 g/mol?",
+    "opciones": {
+      "A": "160.0 g",
+      "B": "65.5 g",
+      "C": "96.0 g",
+      "D": "32.0 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 1.5 × 64 = 96.0 g."
+  },
+  {
+    "id_reactivo": "QUI-0078",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 4 mol de Silicio (Si), si su masa molar aproximada es 28 g/mol?",
+    "opciones": {
+      "A": "32 g",
+      "B": "140 g",
+      "C": "112 g",
+      "D": "84 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 4 × 28 = 112 g."
+  },
+  {
+    "id_reactivo": "QUI-0079",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1.5 mol de Litio (Li), si su masa molar aproximada es 7 g/mol?",
+    "opciones": {
+      "A": "8.5 g",
+      "B": "10.5 g",
+      "C": "3.5 g",
+      "D": "17.5 g"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "masa = moles × masa molar = 1.5 × 7 = 10.5 g."
+  },
+  {
+    "id_reactivo": "QUI-0080",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1.5 mol de Oxígeno (O), si su masa molar aproximada es 16 g/mol?",
+    "opciones": {
+      "A": "24.0 g",
+      "B": "8.0 g",
+      "C": "40.0 g",
+      "D": "17.5 g"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "masa = moles × masa molar = 1.5 × 16 = 24.0 g."
+  },
+  {
+    "id_reactivo": "QUI-0081",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 2.5 mol de Aluminio (Al), si su masa molar aproximada es 27 g/mol?",
+    "opciones": {
+      "A": "67.5 g",
+      "B": "94.5 g",
+      "C": "29.5 g",
+      "D": "40.5 g"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "masa = moles × masa molar = 2.5 × 27 = 67.5 g."
+  },
+  {
+    "id_reactivo": "QUI-0082",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 2 mol de Silicio (Si), si su masa molar aproximada es 28 g/mol?",
+    "opciones": {
+      "A": "30 g",
+      "B": "56 g",
+      "C": "28 g",
+      "D": "84 g"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "masa = moles × masa molar = 2 × 28 = 56 g."
+  },
+  {
+    "id_reactivo": "QUI-0083",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 5 mol de Litio (Li), si su masa molar aproximada es 7 g/mol?",
+    "opciones": {
+      "A": "12 g",
+      "B": "42 g",
+      "C": "35 g",
+      "D": "28 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 5 × 7 = 35 g."
+  },
+  {
+    "id_reactivo": "QUI-0084",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 3 mol de Hierro (Fe), si su masa molar aproximada es 56 g/mol?",
+    "opciones": {
+      "A": "59 g",
+      "B": "224 g",
+      "C": "112 g",
+      "D": "168 g"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "masa = moles × masa molar = 3 × 56 = 168 g."
+  },
+  {
+    "id_reactivo": "QUI-0085",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 0.5 mol de Fósforo (P), si su masa molar aproximada es 31 g/mol?",
+    "opciones": {
+      "A": "31.5 g",
+      "B": "15.5 g",
+      "C": "46.5 g",
+      "D": "31.0 g"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "masa = moles × masa molar = 0.5 × 31 = 15.5 g."
+  },
+  {
+    "id_reactivo": "QUI-0086",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la masa en gramos de 1 mol de Calcio (Ca), si su masa molar aproximada es 40 g/mol?",
+    "opciones": {
+      "A": "60.0 g",
+      "B": "41 g",
+      "C": "40 g",
+      "D": "80 g"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "masa = moles × masa molar = 1 × 40 = 40 g."
+  },
+  {
+    "id_reactivo": "QUI-0087",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 3 g de Hidrógeno (H), si su masa molar aproximada es 1 g/mol?",
+    "opciones": {
+      "A": "3.0 mol",
+      "B": "1.0 mol",
+      "C": "4.0 mol",
+      "D": "2.0 mol"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "moles = masa / masa molar = 3/1 = 3.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0088",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 120 g de Neón (Ne), si su masa molar aproximada es 20 g/mol?",
+    "opciones": {
+      "A": "2400 mol",
+      "B": "6.0 mol",
+      "C": "5.0 mol",
+      "D": "7.0 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 120/20 = 6.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0089",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 144 g de Magnesio (Mg), si su masa molar aproximada es 24 g/mol?",
+    "opciones": {
+      "A": "7.0 mol",
+      "B": "6.0 mol",
+      "C": "3456 mol",
+      "D": "5.0 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 144/24 = 6.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0090",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 56 g de Litio (Li), si su masa molar aproximada es 7 g/mol?",
+    "opciones": {
+      "A": "8.0 mol",
+      "B": "9.0 mol",
+      "C": "392 mol",
+      "D": "7.0 mol"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "moles = masa / masa molar = 56/7 = 8.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0091",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 216 g de Aluminio (Al), si su masa molar aproximada es 27 g/mol?",
+    "opciones": {
+      "A": "7.0 mol",
+      "B": "5832 mol",
+      "C": "9.0 mol",
+      "D": "8.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 216/27 = 8.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0092",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 120 g de Calcio (Ca), si su masa molar aproximada es 40 g/mol?",
+    "opciones": {
+      "A": "4800 mol",
+      "B": "3.0 mol",
+      "C": "4.0 mol",
+      "D": "2.0 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 120/40 = 3.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0093",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 224 g de Hierro (Fe), si su masa molar aproximada es 56 g/mol?",
+    "opciones": {
+      "A": "4.0 mol",
+      "B": "5.0 mol",
+      "C": "12544 mol",
+      "D": "3.0 mol"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "moles = masa / masa molar = 224/56 = 4.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0094",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 224 g de Silicio (Si), si su masa molar aproximada es 28 g/mol?",
+    "opciones": {
+      "A": "7.0 mol",
+      "B": "8.0 mol",
+      "C": "9.0 mol",
+      "D": "6272 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 224/28 = 8.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0095",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 260 g de Zinc (Zn), si su masa molar aproximada es 65 g/mol?",
+    "opciones": {
+      "A": "5.0 mol",
+      "B": "16900 mol",
+      "C": "4.0 mol",
+      "D": "3.0 mol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "moles = masa / masa molar = 260/65 = 4.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0096",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 69 g de Sodio (Na), si su masa molar aproximada es 23 g/mol?",
+    "opciones": {
+      "A": "4.0 mol",
+      "B": "1587 mol",
+      "C": "2.0 mol",
+      "D": "3.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 69/23 = 3.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0097",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 325 g de Zinc (Zn), si su masa molar aproximada es 65 g/mol?",
+    "opciones": {
+      "A": "6.0 mol",
+      "B": "4.0 mol",
+      "C": "21125 mol",
+      "D": "5.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 325/65 = 5.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0098",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 39 g de Potasio (K), si su masa molar aproximada es 39 g/mol?",
+    "opciones": {
+      "A": "2.0 mol",
+      "B": "1521 mol",
+      "C": "1.0 mol",
+      "D": "3.0 mol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "moles = masa / masa molar = 39/39 = 1.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0099",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 60 g de Neón (Ne), si su masa molar aproximada es 20 g/mol?",
+    "opciones": {
+      "A": "4.0 mol",
+      "B": "3.0 mol",
+      "C": "1200 mol",
+      "D": "2.0 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 60/20 = 3.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0100",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 160 g de Oxígeno (O), si su masa molar aproximada es 16 g/mol?",
+    "opciones": {
+      "A": "9.0 mol",
+      "B": "2560 mol",
+      "C": "11.0 mol",
+      "D": "10.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 160/16 = 10.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0101",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 10 g de Hidrógeno (H), si su masa molar aproximada es 1 g/mol?",
+    "opciones": {
+      "A": "11.0 mol",
+      "B": "8.0 mol",
+      "C": "9.0 mol",
+      "D": "10.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 10/1 = 10.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0102",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 168 g de Silicio (Si), si su masa molar aproximada es 28 g/mol?",
+    "opciones": {
+      "A": "5.0 mol",
+      "B": "7.0 mol",
+      "C": "4704 mol",
+      "D": "6.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 168/28 = 6.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0103",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 19 g de Flúor (F), si su masa molar aproximada es 19 g/mol?",
+    "opciones": {
+      "A": "1.0 mol",
+      "B": "2.0 mol",
+      "C": "361 mol",
+      "D": "3.0 mol"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "moles = masa / masa molar = 19/19 = 1.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0104",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 46 g de Sodio (Na), si su masa molar aproximada es 23 g/mol?",
+    "opciones": {
+      "A": "1.0 mol",
+      "B": "1058 mol",
+      "C": "2.0 mol",
+      "D": "3.0 mol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "moles = masa / masa molar = 46/23 = 2.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0105",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 80 g de Calcio (Ca), si su masa molar aproximada es 40 g/mol?",
+    "opciones": {
+      "A": "3.0 mol",
+      "B": "1.0 mol",
+      "C": "3200 mol",
+      "D": "2.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 80/40 = 2.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0106",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 76 g de Flúor (F), si su masa molar aproximada es 19 g/mol?",
+    "opciones": {
+      "A": "3.0 mol",
+      "B": "4.0 mol",
+      "C": "1444 mol",
+      "D": "5.0 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 76/19 = 4.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0107",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 248 g de Fósforo (P), si su masa molar aproximada es 31 g/mol?",
+    "opciones": {
+      "A": "7688 mol",
+      "B": "8.0 mol",
+      "C": "9.0 mol",
+      "D": "7.0 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 248/31 = 8.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0108",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 72 g de Magnesio (Mg), si su masa molar aproximada es 24 g/mol?",
+    "opciones": {
+      "A": "2.0 mol",
+      "B": "4.0 mol",
+      "C": "3.0 mol",
+      "D": "1728 mol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "moles = masa / masa molar = 72/24 = 3.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0109",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 168 g de Hierro (Fe), si su masa molar aproximada es 56 g/mol?",
+    "opciones": {
+      "A": "2.0 mol",
+      "B": "3.0 mol",
+      "C": "4.0 mol",
+      "D": "9408 mol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "moles = masa / masa molar = 168/56 = 3.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0110",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 6 g de Hidrógeno (H), si su masa molar aproximada es 1 g/mol?",
+    "opciones": {
+      "A": "5.0 mol",
+      "B": "7.0 mol",
+      "C": "3.0 mol",
+      "D": "6.0 mol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "moles = masa / masa molar = 6/1 = 6.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0111",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 336 g de Hierro (Fe), si su masa molar aproximada es 56 g/mol?",
+    "opciones": {
+      "A": "6.0 mol",
+      "B": "18816 mol",
+      "C": "7.0 mol",
+      "D": "5.0 mol"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "moles = masa / masa molar = 336/56 = 6.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0112",
+    "asignatura": "Química",
+    "subtemario": "Cálculos con moles y masa molar",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos moles hay en 96 g de Oxígeno (O), si su masa molar aproximada es 16 g/mol?",
+    "opciones": {
+      "A": "6.0 mol",
+      "B": "7.0 mol",
+      "C": "1536 mol",
+      "D": "5.0 mol"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "moles = masa / masa molar = 96/16 = 6.0 mol."
+  },
+  {
+    "id_reactivo": "QUI-0113",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién propuso la primera versión ampliamente aceptada de la tabla periódica organizada por masa atómica?",
+    "opciones": {
+      "A": "Antoine Lavoisier",
+      "B": "John Dalton",
+      "C": "Marie Curie",
+      "D": "Dmitri Mendeléyev"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0114",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo están organizados los elementos en la tabla periódica moderna?",
+    "opciones": {
+      "A": "Por año de descubrimiento",
+      "B": "Por número atómico creciente",
+      "C": "Por color",
+      "D": "Por orden alfabético"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0115",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se llaman las filas horizontales de la tabla periódica?",
+    "opciones": {
+      "A": "Series",
+      "B": "Familias",
+      "C": "Periodos",
+      "D": "Grupos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0116",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se llaman las columnas verticales de la tabla periódica?",
+    "opciones": {
+      "A": "Capas",
+      "B": "Grupos o familias",
+      "C": "Periodos",
+      "D": "Bloques"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0117",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿A qué grupo pertenecen los elementos altamente reactivos como el sodio y el potasio?",
+    "opciones": {
+      "A": "Halógenos",
+      "B": "Gases nobles",
+      "C": "Metales de transición",
+      "D": "Metales alcalinos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0118",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de elementos es conocido por ser prácticamente inerte (no reactivo)?",
+    "opciones": {
+      "A": "Gases nobles",
+      "B": "Metales alcalinos",
+      "C": "Metaloides",
+      "D": "Halógenos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0119",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de elementos incluye al flúor, cloro y yodo?",
+    "opciones": {
+      "A": "Lantánidos",
+      "B": "Gases nobles",
+      "C": "Halógenos",
+      "D": "Metales alcalinotérreos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0120",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En general, ¿cómo cambia el tamaño atómico al bajar en un grupo de la tabla periódica?",
+    "opciones": {
+      "A": "Disminuye",
+      "B": "Permanece igual",
+      "C": "Se vuelve negativo",
+      "D": "Aumenta"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0121",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué zona de la tabla periódica agrupa a los metales de transición?",
+    "opciones": {
+      "A": "El bloque s, a la izquierda",
+      "B": "El bloque d, en la parte central de la tabla",
+      "C": "Los lantánidos exclusivamente",
+      "D": "El bloque p, a la derecha"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0122",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el elemento más abundante en el universo?",
+    "opciones": {
+      "A": "El carbono",
+      "B": "El oxígeno",
+      "C": "El hidrógeno",
+      "D": "El helio"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0123",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué representan los símbolos químicos de una o dos letras en la tabla periódica?",
+    "opciones": {
+      "A": "La cantidad de electrones de valencia únicamente",
+      "B": "El nombre abreviado de cada elemento químico",
+      "C": "El grupo al que pertenece exclusivamente",
+      "D": "El estado físico del elemento a temperatura ambiente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0124",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica comparten los elementos de un mismo grupo en la tabla periódica?",
+    "opciones": {
+      "A": "Tienen la misma masa atómica exacta",
+      "B": "Pertenecen todos al mismo periodo",
+      "C": "Tienen propiedades químicas similares y el mismo número de electrones de valencia",
+      "D": "Tienen el mismo número de neutrones"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0125",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se le llama a los elementos que tienen propiedades intermedias entre metales y no metales?",
+    "opciones": {
+      "A": "Actínidos",
+      "B": "Metaloides o semimetales",
+      "C": "Gases nobles",
+      "D": "Lantánidos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0126",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué elementos se ubican en las dos filas independientes que suelen colocarse debajo de la tabla periódica principal?",
+    "opciones": {
+      "A": "Los lantánidos y actínidos",
+      "B": "Los gases nobles y metaloides",
+      "C": "Los metales de transición",
+      "D": "Los halógenos y metales alcalinos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0127",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En general, ¿cómo cambia la electronegatividad al avanzar de izquierda a derecha en un periodo?",
+    "opciones": {
+      "A": "Aumenta",
+      "B": "Permanece constante",
+      "C": "Disminuye",
+      "D": "Se vuelve negativa"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0128",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué elemento es un gas noble ampliamente usado en focos y letreros luminosos?",
+    "opciones": {
+      "A": "El neón (Ne)",
+      "B": "El sodio (Na)",
+      "C": "El calcio (Ca)",
+      "D": "El cloro (Cl)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0129",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de la tabla periódica incluye elementos como el calcio y el magnesio?",
+    "opciones": {
+      "A": "Gases nobles",
+      "B": "Halógenos",
+      "C": "Metales alcalinos",
+      "D": "Metales alcalinotérreos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0130",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué unidad se usa comúnmente para expresar la masa atómica de los elementos?",
+    "opciones": {
+      "A": "Unidad de masa atómica (uma)",
+      "B": "Litro (L)",
+      "C": "Kilogramo (kg)",
+      "D": "Newton (N)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0131",
+    "asignatura": "Química",
+    "subtemario": "Tabla periódica - organización y grupos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué se basó Mendeléyev principalmente para ordenar los elementos en su tabla periódica original?",
+    "opciones": {
+      "A": "En el año de su descubrimiento",
+      "B": "En la masa atómica creciente y propiedades químicas periódicas",
+      "C": "En el color del elemento",
+      "D": "En su estado físico a temperatura ambiente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre la organización de la tabla periódica."
+  },
+  {
+    "id_reactivo": "QUI-0132",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de enlace se forma cuando dos átomos comparten electrones?",
+    "opciones": {
+      "A": "Enlace metálico",
+      "B": "Enlace covalente",
+      "C": "Enlace iónico",
+      "D": "Puente de hidrógeno"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0133",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de enlace se forma por la transferencia de electrones de un átomo a otro?",
+    "opciones": {
+      "A": "Enlace de Van der Waals",
+      "B": "Enlace metálico",
+      "C": "Enlace iónico",
+      "D": "Enlace covalente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0134",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de enlace mantiene unidos los átomos en los metales, permitiendo su conductividad eléctrica?",
+    "opciones": {
+      "A": "Enlace de hidrógeno",
+      "B": "Enlace covalente",
+      "C": "Enlace iónico",
+      "D": "Enlace metálico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0135",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de compuesto se forma típicamente entre un metal y un no metal?",
+    "opciones": {
+      "A": "Un gas noble",
+      "B": "Un compuesto iónico",
+      "C": "Un compuesto covalente",
+      "D": "Una aleación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0136",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "El agua (H₂O) es un ejemplo clásico de compuesto formado por enlaces...",
+    "opciones": {
+      "A": "Metálicos",
+      "B": "Iónicos",
+      "C": "Covalentes",
+      "D": "De Van der Waals únicamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0137",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "La sal de mesa (NaCl) es un ejemplo clásico de compuesto formado por enlaces...",
+    "opciones": {
+      "A": "Iónicos",
+      "B": "Puente de hidrógeno",
+      "C": "Covalentes",
+      "D": "Metálicos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0138",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la electronegatividad?",
+    "opciones": {
+      "A": "La capacidad de un átomo para atraer electrones en un enlace químico",
+      "B": "La masa total de un átomo",
+      "C": "La cantidad de neutrones en un átomo",
+      "D": "El volumen que ocupa un átomo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0139",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué regla establece que los átomos tienden a ganar, perder o compartir electrones para tener 8 electrones en su última capa?",
+    "opciones": {
+      "A": "La ley de Avogadro",
+      "B": "La regla del octeto",
+      "C": "La ley de conservación de la masa",
+      "D": "El principio de exclusión de Pauli"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0140",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de enlace covalente se forma cuando los átomos comparten los electrones de manera desigual?",
+    "opciones": {
+      "A": "Enlace covalente polar",
+      "B": "Enlace covalente no polar",
+      "C": "Enlace metálico",
+      "D": "Enlace iónico"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0141",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de enlace covalente se forma cuando los átomos comparten los electrones de manera equitativa?",
+    "opciones": {
+      "A": "Enlace iónico",
+      "B": "Enlace covalente polar",
+      "C": "Enlace covalente no polar",
+      "D": "Puente de hidrógeno"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0142",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el puente de hidrógeno?",
+    "opciones": {
+      "A": "Un tipo de enlace covalente muy fuerte dentro de una molécula",
+      "B": "Una reacción de combustión",
+      "C": "Una atracción intermolecular relativamente débil entre un átomo de hidrógeno y un átomo muy electronegativo de otra molécula",
+      "D": "Un enlace iónico entre dos metales"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0143",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica tienen generalmente los compuestos iónicos respecto a su punto de fusión?",
+    "opciones": {
+      "A": "Suelen tener puntos de fusión muy bajos",
+      "B": "Se funden a temperatura ambiente siempre",
+      "C": "No tienen punto de fusión definido",
+      "D": "Suelen tener puntos de fusión altos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0144",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué elementos tienden a perder electrones para formar enlaces iónicos?",
+    "opciones": {
+      "A": "Los gases nobles",
+      "B": "Los metales",
+      "C": "Los no metales",
+      "D": "Los metaloides únicamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0145",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué elementos tienden a ganar electrones para formar enlaces iónicos?",
+    "opciones": {
+      "A": "Los metales de transición",
+      "B": "Los gases nobles",
+      "C": "Los metales",
+      "D": "Los no metales"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0146",
+    "asignatura": "Química",
+    "subtemario": "Enlaces químicos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué representa un ion con carga negativa?",
+    "opciones": {
+      "A": "Un átomo neutro sin carga",
+      "B": "Una molécula covalente",
+      "C": "Un catión, formado cuando un átomo pierde electrones",
+      "D": "Un anión, formado cuando un átomo gana electrones"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre los tipos de enlace químico."
+  },
+  {
+    "id_reactivo": "QUI-0147",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ley establece que la materia no se crea ni se destruye en una reacción química, solo se transforma?",
+    "opciones": {
+      "A": "Ley de Avogadro",
+      "B": "Ley de Coulomb",
+      "C": "Ley de la conservación de la masa",
+      "D": "Ley de los gases ideales"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0148",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un reactivo limitante en una reacción química?",
+    "opciones": {
+      "A": "El producto principal de la reacción",
+      "B": "El reactivo que se consume por completo primero y determina la cantidad de producto formado",
+      "C": "El catalizador de la reacción",
+      "D": "El reactivo que sobra al final de la reacción"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0149",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de reacción libera energía en forma de calor?",
+    "opciones": {
+      "A": "Reacción de descomposición exclusivamente",
+      "B": "Reacción endotérmica",
+      "C": "Reacción exotérmica",
+      "D": "Reacción de neutralización exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0150",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de reacción absorbe energía del entorno?",
+    "opciones": {
+      "A": "Reacción de combustión exclusivamente",
+      "B": "Reacción de oxidación exclusivamente",
+      "C": "Reacción exotérmica",
+      "D": "Reacción endotérmica"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0151",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ocurre en una reacción de combustión?",
+    "opciones": {
+      "A": "Una sustancia reacciona rápidamente con oxígeno liberando calor y luz",
+      "B": "Un compuesto se descompone en presencia de agua únicamente",
+      "C": "Un metal se disuelve en agua fría",
+      "D": "Dos ácidos reaccionan entre sí"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0152",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la ecuación balanceada 2H₂ + O₂ → 2H₂O, ¿cuántos átomos de hidrógeno hay en los reactivos?",
+    "opciones": {
+      "A": "2",
+      "B": "6",
+      "C": "8",
+      "D": "4"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0153",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En la ecuación balanceada N₂ + 3H₂ → 2NH₃, ¿cuántos átomos de hidrógeno hay en los reactivos?",
+    "opciones": {
+      "A": "2",
+      "B": "6",
+      "C": "9",
+      "D": "3"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0154",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de reacción ocurre cuando un ácido y una base reaccionan para formar sal y agua?",
+    "opciones": {
+      "A": "Reacción de combustión",
+      "B": "Reacción de neutralización",
+      "C": "Reacción de descomposición",
+      "D": "Reacción de oxidación-reducción exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0155",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una reacción de síntesis o combinación?",
+    "opciones": {
+      "A": "Cuando dos compuestos intercambian sus componentes",
+      "B": "Cuando un elemento desplaza a otro en un compuesto",
+      "C": "Cuando dos o más sustancias se combinan para formar un solo producto",
+      "D": "Cuando una sustancia se descompone en dos o más productos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0156",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una reacción de descomposición?",
+    "opciones": {
+      "A": "Cuando una sal se disuelve en agua",
+      "B": "Cuando un compuesto se separa en dos o más sustancias más simples",
+      "C": "Cuando un gas se licua",
+      "D": "Cuando dos elementos se combinan para formar un compuesto"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0157",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ocurre en una reacción de desplazamiento simple?",
+    "opciones": {
+      "A": "Un gas se convierte en líquido por enfriamiento",
+      "B": "Un compuesto se descompone espontáneamente en presencia de luz",
+      "C": "Un elemento más reactivo desplaza a otro menos reactivo en un compuesto",
+      "D": "Dos compuestos intercambian sus iones entre sí"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0158",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la oxidación en el contexto de las reacciones químicas?",
+    "opciones": {
+      "A": "La ganancia de electrones por parte de un átomo o ion",
+      "B": "La formación de un enlace covalente",
+      "C": "La pérdida de electrones por parte de un átomo o ion",
+      "D": "La evaporación de un líquido"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0159",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la reducción en el contexto de las reacciones químicas?",
+    "opciones": {
+      "A": "La formación de un precipitado sólido",
+      "B": "La disolución de una sal en agua",
+      "C": "La ganancia de electrones por parte de un átomo o ion",
+      "D": "La pérdida de electrones por parte de un átomo o ion"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0160",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel cumple un catalizador en una reacción química?",
+    "opciones": {
+      "A": "Disminuye siempre la temperatura de la reacción",
+      "B": "Aumenta la velocidad de la reacción sin consumirse en el proceso",
+      "C": "Cambia la identidad química de los reactivos",
+      "D": "Se consume completamente para formar el producto final"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0161",
+    "asignatura": "Química",
+    "subtemario": "Reacciones químicas y balanceo",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento de laboratorio se utiliza para medir con precisión pequeños volúmenes de líquido en una reacción?",
+    "opciones": {
+      "A": "La bureta o pipeta",
+      "B": "El mechero Bunsen",
+      "C": "El microscopio",
+      "D": "La balanza analítica exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de las reacciones y ecuaciones químicas."
+  },
+  {
+    "id_reactivo": "QUI-0162",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 6. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "ácida",
+      "B": "básica (alcalina)*",
+      "C": "neutra",
+      "D": "básica (alcalina)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 6 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0163",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 5. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "neutra",
+      "B": "ácida",
+      "C": "básica (alcalina)",
+      "D": "básica (alcalina)*"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 5 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0164",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 11. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "neutra*",
+      "B": "básica (alcalina)",
+      "C": "ácida",
+      "D": "neutra"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 11 corresponde a una sustancia básica (alcalina)."
+  },
+  {
+    "id_reactivo": "QUI-0165",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 14. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "neutra",
+      "B": "neutra*",
+      "C": "básica (alcalina)",
+      "D": "ácida"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 14 corresponde a una sustancia básica (alcalina)."
+  },
+  {
+    "id_reactivo": "QUI-0166",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 8. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "básica (alcalina)",
+      "B": "neutra",
+      "C": "neutra*",
+      "D": "ácida"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 8 corresponde a una sustancia básica (alcalina)."
+  },
+  {
+    "id_reactivo": "QUI-0167",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 1. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "básica (alcalina)",
+      "B": "ácida",
+      "C": "básica (alcalina)*",
+      "D": "neutra"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 1 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0168",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 9. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "básica (alcalina)",
+      "B": "neutra",
+      "C": "neutra*",
+      "D": "ácida"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 9 corresponde a una sustancia básica (alcalina)."
+  },
+  {
+    "id_reactivo": "QUI-0169",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 0. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "neutra",
+      "B": "básica (alcalina)",
+      "C": "ácida",
+      "D": "básica (alcalina)*"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 0 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0170",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 13. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "neutra*",
+      "B": "neutra",
+      "C": "básica (alcalina)",
+      "D": "ácida"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 13 corresponde a una sustancia básica (alcalina)."
+  },
+  {
+    "id_reactivo": "QUI-0171",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 7. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "ácida",
+      "B": "básica (alcalina)",
+      "C": "básica (alcalina)*",
+      "D": "neutra"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 7 corresponde a una sustancia neutra."
+  },
+  {
+    "id_reactivo": "QUI-0172",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 3. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "básica (alcalina)",
+      "B": "neutra",
+      "C": "básica (alcalina)*",
+      "D": "ácida"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 3 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0173",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 4. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "ácida",
+      "B": "básica (alcalina)",
+      "C": "básica (alcalina)*",
+      "D": "neutra"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 4 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0174",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 10. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "neutra*",
+      "B": "ácida",
+      "C": "neutra",
+      "D": "básica (alcalina)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 10 corresponde a una sustancia básica (alcalina)."
+  },
+  {
+    "id_reactivo": "QUI-0175",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - escala de pH",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "Una sustancia tiene un pH de 2. ¿Cómo se clasifica esta sustancia?",
+    "opciones": {
+      "A": "básica (alcalina)*",
+      "B": "ácida",
+      "C": "básica (alcalina)",
+      "D": "neutra"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "En la escala de pH (0-14): valores menores a 7 son ácidos, igual a 7 es neutro, y mayores a 7 son básicos. Un pH de 2 corresponde a una sustancia ácida."
+  },
+  {
+    "id_reactivo": "QUI-0176",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué escala se usa para medir la acidez o basicidad de una sustancia?",
+    "opciones": {
+      "A": "La escala de Mohs",
+      "B": "La escala Celsius",
+      "C": "La escala de pH",
+      "D": "La escala de Richter"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0177",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el pH del agua pura a temperatura ambiente?",
+    "opciones": {
+      "A": "10 (básico)",
+      "B": "14 (muy básico)",
+      "C": "0 (muy ácido)",
+      "D": "7 (neutro)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0178",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sustancia común es un ejemplo de ácido fuerte?",
+    "opciones": {
+      "A": "El hidróxido de sodio (NaOH)",
+      "B": "El agua destilada",
+      "C": "El cloruro de sodio (sal común)",
+      "D": "El ácido clorhídrico (HCl)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0179",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sustancia común es un ejemplo de base fuerte?",
+    "opciones": {
+      "A": "El hidróxido de sodio (NaOH)",
+      "B": "El dióxido de carbono",
+      "C": "El ácido sulfúrico",
+      "D": "El ácido acético (vinagre)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0180",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué indicador cambia de color según el pH de una solución?",
+    "opciones": {
+      "A": "La bureta",
+      "B": "El barómetro",
+      "C": "El termómetro",
+      "D": "El papel tornasol"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0181",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producen los ácidos al disolverse en agua, según la teoría de Arrhenius?",
+    "opciones": {
+      "A": "Iones hidrógeno (H⁺)",
+      "B": "Átomos de oxígeno",
+      "C": "Electrones libres",
+      "D": "Iones hidróxido (OH⁻)"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0182",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producen las bases al disolverse en agua, según la teoría de Arrhenius?",
+    "opciones": {
+      "A": "Átomos de carbono",
+      "B": "Iones hidrógeno (H⁺)",
+      "C": "Protones libres",
+      "D": "Iones hidróxido (OH⁻)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0183",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sabor característico suelen tener las sustancias ácidas?",
+    "opciones": {
+      "A": "Sabor dulce",
+      "B": "Sabor salado",
+      "C": "Sabor amargo y resbaloso al tacto",
+      "D": "Sabor agrio"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0184",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sabor y textura característicos suelen tener las sustancias básicas?",
+    "opciones": {
+      "A": "Sabor agrio",
+      "B": "No tienen sabor ni textura distintivos",
+      "C": "Sabor dulce y textura granulosa",
+      "D": "Sabor amargo y sensación resbalosa al tacto"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0185",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ocurre en una reacción de neutralización entre un ácido y una base?",
+    "opciones": {
+      "A": "Se forma una sal y agua",
+      "B": "Se forma únicamente un gas",
+      "C": "No ocurre ninguna reacción",
+      "D": "Se forma un nuevo elemento"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0186",
+    "asignatura": "Química",
+    "subtemario": "Ácidos y bases - conceptos",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué gas se libera comúnmente cuando un ácido reacciona con un metal como el zinc?",
+    "opciones": {
+      "A": "Dióxido de carbono (CO₂)",
+      "B": "Hidrógeno (H₂)",
+      "C": "Oxígeno (O₂)",
+      "D": "Nitrógeno (N₂)"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre ácidos, bases y pH."
+  },
+  {
+    "id_reactivo": "QUI-0187",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método de separación se usa para separar un sólido disuelto en un líquido, evaporando el líquido?",
+    "opciones": {
+      "A": "Cromatografía",
+      "B": "Filtración",
+      "C": "Decantación",
+      "D": "Evaporación"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0188",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método de separación se usa para separar un sólido insoluble de un líquido usando un papel o malla?",
+    "opciones": {
+      "A": "Filtración",
+      "B": "Sublimación",
+      "C": "Destilación",
+      "D": "Centrifugación"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0189",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método de separación se usa para separar líquidos con distinto punto de ebullición?",
+    "opciones": {
+      "A": "Tamizado",
+      "B": "Decantación",
+      "C": "Filtración",
+      "D": "Destilación"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0190",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método de separación se usa para separar líquidos no miscibles (como agua y aceite)?",
+    "opciones": {
+      "A": "Decantación",
+      "B": "Filtración",
+      "C": "Cristalización",
+      "D": "Destilación"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0191",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una mezcla homogénea?",
+    "opciones": {
+      "A": "Una mezcla en la que sus componentes no se distinguen a simple vista y tienen composición uniforme",
+      "B": "Un compuesto formado por enlaces iónicos",
+      "C": "Una mezcla en la que se distinguen claramente los componentes",
+      "D": "Una sustancia pura formada por un solo elemento"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0192",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una mezcla heterogénea?",
+    "opciones": {
+      "A": "Una mezcla con composición uniforme en toda su extensión",
+      "B": "Un elemento puro",
+      "C": "Un gas noble",
+      "D": "Una mezcla en la que se distinguen sus componentes y no tiene composición uniforme"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0193",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método se usa para separar los componentes de una mezcla según su tamaño de partícula, usando una malla?",
+    "opciones": {
+      "A": "Cromatografía",
+      "B": "Tamizado",
+      "C": "Destilación",
+      "D": "Decantación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0194",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué técnica separa los componentes de una mezcla según su velocidad de desplazamiento en un medio (como papel)?",
+    "opciones": {
+      "A": "Decantación",
+      "B": "Cromatografía",
+      "C": "Filtración",
+      "D": "Tamizado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0195",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método usa la fuerza centrífuga para separar componentes de una mezcla según su densidad?",
+    "opciones": {
+      "A": "Evaporación",
+      "B": "Tamizado",
+      "C": "Sublimación",
+      "D": "Centrifugación"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0196",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método de separación se basa en el paso directo de un sólido a gas sin pasar por líquido?",
+    "opciones": {
+      "A": "Sublimación",
+      "B": "Filtración",
+      "C": "Cristalización",
+      "D": "Decantación"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0197",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué método se usa para obtener un sólido puro a partir de una disolución, formando cristales al enfriarse lentamente?",
+    "opciones": {
+      "A": "Decantación",
+      "B": "Tamizado",
+      "C": "Cristalización",
+      "D": "Centrifugación"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0198",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una disolución (solución) en química?",
+    "opciones": {
+      "A": "Un compuesto formado por enlaces iónicos únicamente",
+      "B": "Un elemento puro disuelto en sí mismo",
+      "C": "Una mezcla homogénea de dos o más sustancias",
+      "D": "Una mezcla heterogénea de dos sólidos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0199",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En una disolución, ¿cómo se le llama a la sustancia que se disuelve en menor cantidad?",
+    "opciones": {
+      "A": "Soluto",
+      "B": "Catalizador",
+      "C": "Precipitado",
+      "D": "Disolvente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  },
+  {
+    "id_reactivo": "QUI-0200",
+    "asignatura": "Química",
+    "subtemario": "Mezclas y métodos de separación",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "En una disolución, ¿cómo se le llama a la sustancia presente en mayor cantidad, que disuelve al soluto?",
+    "opciones": {
+      "A": "Disolvente (o solvente)",
+      "B": "Soluto",
+      "C": "Reactivo limitante",
+      "D": "Precipitado"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental sobre mezclas y técnicas de separación."
+  }
+]

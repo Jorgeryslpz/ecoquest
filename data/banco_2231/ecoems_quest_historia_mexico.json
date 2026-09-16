@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "HMX-0001",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué civilización mesoamericana es reconocida por su avanzado conocimiento de astronomía y su calendario, además de sus ciudades como Chichén Itzá y Palenque?",
+    "opciones": {
+      "A": "Los toltecas",
+      "B": "Los olmecas",
+      "C": "Los mexicas",
+      "D": "Los mayas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0002",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué civilización es considerada la 'cultura madre' de Mesoamérica, conocida por sus cabezas colosales de piedra?",
+    "opciones": {
+      "A": "Los olmecas",
+      "B": "Los zapotecas",
+      "C": "Los mexicas",
+      "D": "Los mayas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0003",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál era la capital del imperio mexica (azteca) al momento de la llegada de los españoles?",
+    "opciones": {
+      "A": "Teotihuacán",
+      "B": "Tenochtitlan",
+      "C": "Monte Albán",
+      "D": "Tula"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0004",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué lago se fundó la ciudad de Tenochtitlan?",
+    "opciones": {
+      "A": "El lago de Chapala",
+      "B": "El lago de Pátzcuaro",
+      "C": "El lago de Texcoco",
+      "D": "El lago de Xochimilco exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0005",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué civilización construyó la gran ciudad de Teotihuacán, con sus pirámides del Sol y de la Luna?",
+    "opciones": {
+      "A": "Los mixtecos exclusivamente",
+      "B": "Una cultura cuyo origen étnico exacto aún se debate, conocida como los teotihuacanos",
+      "C": "Los mayas exclusivamente",
+      "D": "Los mexicas exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0006",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dios mexica estaba asociado con la guerra y el sol?",
+    "opciones": {
+      "A": "Quetzalcóatl",
+      "B": "Huitzilopochtli",
+      "C": "Xochiquetzal",
+      "D": "Tláloc"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0007",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué dios era representado como una serpiente emplumada y era venerado por varias culturas mesoamericanas, incluidos toltecas y mexicas?",
+    "opciones": {
+      "A": "Quetzalcóatl",
+      "B": "Huitzilopochtli",
+      "C": "Tezcatlipoca",
+      "D": "Tláloc"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0008",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema de escritura utilizaban los mayas?",
+    "opciones": {
+      "A": "El alfabeto latino",
+      "B": "Un sistema numérico exclusivamente sin escritura",
+      "C": "La escritura cuneiforme",
+      "D": "Un sistema de escritura jeroglífica"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0009",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué cultura desarrolló Monte Albán, un importante centro ceremonial en el actual estado de Oaxaca?",
+    "opciones": {
+      "A": "Los mayas",
+      "B": "Los mexicas",
+      "C": "Los zapotecas",
+      "D": "Los toltecas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0010",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producto agrícola fue la base de la alimentación en las civilizaciones mesoamericanas?",
+    "opciones": {
+      "A": "El trigo",
+      "B": "El arroz",
+      "C": "La papa exclusivamente",
+      "D": "El maíz"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0011",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la Triple Alianza en el contexto del imperio mexica?",
+    "opciones": {
+      "A": "Una alianza entre mayas, olmecas y zapotecas",
+      "B": "La alianza entre Tenochtitlan, Texcoco y Tlacopan que dominó gran parte de Mesoamérica",
+      "C": "Un tratado firmado con los conquistadores españoles",
+      "D": "Una confederación de pueblos del norte de México"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0012",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema agrícola utilizaban los mexicas para cultivar en el lago de Texcoco?",
+    "opciones": {
+      "A": "Las chinampas",
+      "B": "El barbecho exclusivamente",
+      "C": "La agricultura de terrazas exclusivamente andina",
+      "D": "El riego por goteo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0013",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué cultura precedió a los mexicas en el centro de México y es asociada con la ciudad de Tula?",
+    "opciones": {
+      "A": "Los purépechas",
+      "B": "Los mayas",
+      "C": "Los toltecas",
+      "D": "Los olmecas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0014",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué pueblo mesoamericano resistió con éxito el dominio del imperio mexica, manteniéndose independiente en el occidente de México?",
+    "opciones": {
+      "A": "Los zapotecas",
+      "B": "Los totonacas",
+      "C": "Los huastecos",
+      "D": "Los purépechas (tarascos)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0015",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué calendario utilizaban los mexicas para organizar el tiempo, además del calendario ritual de 260 días?",
+    "opciones": {
+      "A": "Un calendario lunar exclusivo de 12 meses",
+      "B": "El calendario solar de 365 días (Xiuhpohualli)",
+      "C": "El calendario gregoriano",
+      "D": "El calendario juliano"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0016",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué culturas antiguas del norte de México se caracterizaron por ser principalmente nómadas o seminómadas, a diferencia de las culturas mesoamericanas sedentarias?",
+    "opciones": {
+      "A": "Los zapotecas",
+      "B": "Los mayas",
+      "C": "Los pueblos chichimecas",
+      "D": "Los mexicas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0017",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué juego ritual practicado por varias culturas mesoamericanas se jugaba en canchas especiales con una pelota de hule?",
+    "opciones": {
+      "A": "El patolli exclusivamente sin relación con pelota",
+      "B": "El tlachtli entendido como danza, no juego",
+      "C": "El juego de pelota (ulama)",
+      "D": "La lucha libre prehispánica"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0018",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué material usaban los mexicas y otras culturas mesoamericanas para fabricar herramientas cortantes y armas?",
+    "opciones": {
+      "A": "La obsidiana",
+      "B": "El acero",
+      "C": "El hierro",
+      "D": "El bronce"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0019",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producto derivado del agave era una bebida ritual importante en la cultura mexica?",
+    "opciones": {
+      "A": "La cerveza",
+      "B": "El tequila (bebida destilada posterior a la Colonia)",
+      "C": "El vino de uva",
+      "D": "El pulque"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0020",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué emperador (tlatoani) mexica gobernaba Tenochtitlan al momento de la llegada de Hernán Cortés?",
+    "opciones": {
+      "A": "Itzcóatl",
+      "B": "Cuauhtémoc",
+      "C": "Netzahualcóyotl",
+      "D": "Moctezuma II (Moctezuma Xocoyotzin)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0021",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué último tlatoani mexica resistió el asedio final de Tenochtitlan ante los españoles?",
+    "opciones": {
+      "A": "Cuauhtémoc",
+      "B": "Tízoc",
+      "C": "Moctezuma II",
+      "D": "Netzahualcóyotl"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0022",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué gobernante de Texcoco es célebre por ser también un destacado poeta y filósofo en la cultura náhuatl prehispánica?",
+    "opciones": {
+      "A": "Moctezuma II",
+      "B": "Netzahualcóyotl",
+      "C": "Itzcóatl",
+      "D": "Cuauhtémoc"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0023",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de organización social y política tenían las ciudades-estado mayas?",
+    "opciones": {
+      "A": "Una monarquía hereditaria unificada desde el inicio",
+      "B": "Una democracia directa con elecciones populares",
+      "C": "Ciudades-estado independientes, cada una gobernada por su propio gobernante (ajaw), sin una unidad política central",
+      "D": "Un imperio centralizado bajo un único emperador"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0024",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de estructura arquitectónica religiosa es característica de las civilizaciones mesoamericanas, usada para rituales y ceremonias?",
+    "opciones": {
+      "A": "Las mezquitas",
+      "B": "Los anfiteatros romanos",
+      "C": "Las pirámides (templos escalonados)",
+      "D": "Las catedrales góticas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0025",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema numérico, basado en puntos y barras, utilizaban los mayas, incluyendo el concepto del cero?",
+    "opciones": {
+      "A": "Un sistema vigesimal (base 20)",
+      "B": "Un sistema binario",
+      "C": "Un sistema decimal (base 10)",
+      "D": "Un sistema hexadecimal"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0026",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué actividad económica complementaba la agricultura entre los pueblos mesoamericanos costeros, como los mayas de la península de Yucatán?",
+    "opciones": {
+      "A": "La minería de hierro",
+      "B": "La industria textil mecanizada",
+      "C": "La pesca y el comercio marítimo",
+      "D": "La ganadería de bovinos (inexistente antes de la Colonia)"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0027",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué imperio mesoamericano tenía como práctica religiosa común los sacrificios humanos, asociados a la cosmovisión de mantener el orden cósmico?",
+    "opciones": {
+      "A": "Exclusivamente los zapotecas",
+      "B": "El imperio mexica, entre otras culturas mesoamericanas",
+      "C": "Únicamente los mayas",
+      "D": "Ninguna cultura mesoamericana practicó sacrificios"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0028",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué material se usaba comúnmente para construir las viviendas comunes del pueblo en la época prehispánica, a diferencia de los templos de piedra?",
+    "opciones": {
+      "A": "Ladrillo cocido industrial",
+      "B": "Concreto armado",
+      "C": "Adobe, madera y materiales perecederos como el zacate",
+      "D": "Vidrio y acero"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0029",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué código o documento pictográfico prehispánico o colonial temprano sirve como fuente histórica sobre la vida y cultura mexica?",
+    "opciones": {
+      "A": "Las actas notariales modernas",
+      "B": "Los tratados internacionales",
+      "C": "Los periódicos coloniales",
+      "D": "Los códices (como el Códice Mendoza o el Códice Florentino)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0030",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el 'tributo' en el contexto del imperio mexica?",
+    "opciones": {
+      "A": "Un tipo de moneda usada en el comercio mexica",
+      "B": "Un impuesto exclusivo sobre la tierra agrícola",
+      "C": "Una ofrenda voluntaria sin obligación",
+      "D": "Los bienes y productos que los pueblos sometidos debían entregar periódicamente a Tenochtitlan"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0031",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región de Mesoamérica fue el centro principal de la civilización maya durante su periodo Clásico?",
+    "opciones": {
+      "A": "La costa del Pacífico exclusivamente",
+      "B": "La península de Yucatán, Guatemala, Belice y partes de Chiapas y Honduras",
+      "C": "El norte árido de México",
+      "D": "El altiplano central de México exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0032",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mercado (tianguis) mesoamericano fue descrito por los cronistas españoles como uno de los más grandes e importantes de su época, ubicado cerca de Tenochtitlan?",
+    "opciones": {
+      "A": "El mercado de Teotihuacán",
+      "B": "El mercado de Palenque",
+      "C": "El mercado de Tlatelolco",
+      "D": "El mercado de Monte Albán"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0033",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de gobierno tenía el imperio mexica en su cúspide, encabezado por el tlatoani?",
+    "opciones": {
+      "A": "Una monarquía con fuerte componente teocrático y militar",
+      "B": "Una democracia representativa",
+      "C": "Un gobierno colegiado sin líder único",
+      "D": "Una república federal"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0034",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué región de Mesoamérica es asociada principalmente con la cultura huasteca?",
+    "opciones": {
+      "A": "La selva Lacandona exclusivamente",
+      "B": "El altiplano de Oaxaca",
+      "C": "La zona costera del Golfo de México, entre los actuales estados de Veracruz, Tamaulipas, San Luis Potosí e Hidalgo",
+      "D": "La península de Baja California"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0035",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué instrumento se usaba en la vida cotidiana mesoamericana para moler el maíz y preparar la masa para tortillas?",
+    "opciones": {
+      "A": "El molino de viento",
+      "B": "El metate y el metlapil (mano de moler)",
+      "C": "La licuadora eléctrica",
+      "D": "El molino de agua europeo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0036",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué actividad artesanal destacaba entre los pueblos mixtecos, reconocidos por sus finos trabajos en metales preciosos como el oro?",
+    "opciones": {
+      "A": "La orfebrería",
+      "B": "La fabricación de armas de fuego",
+      "C": "La producción de vidrio soplado",
+      "D": "La construcción naval"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0037",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'cosmovisión' en el contexto de las culturas prehispánicas?",
+    "opciones": {
+      "A": "Un tipo de mapa geográfico prehispánico",
+      "B": "Un calendario exclusivo para fines agrícolas",
+      "C": "La forma particular en que un pueblo concibe y explica el universo, la naturaleza y su lugar en el mundo",
+      "D": "Un sistema de escritura jeroglífica exclusivamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0038",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugaban los sacerdotes en la sociedad mexica?",
+    "opciones": {
+      "A": "Eran considerados esclavos dentro de la sociedad",
+      "B": "Dirigían los rituales religiosos, interpretaban los calendarios y tenían gran influencia social y política",
+      "C": "Se dedicaban exclusivamente al comercio",
+      "D": "No tenían ninguna relevancia social"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0039",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo social mexica tenía la función principal de comerciar a larga distancia y también servía como informantes militares?",
+    "opciones": {
+      "A": "Los pipiltin exclusivamente sin relación comercial",
+      "B": "Los pochtecas",
+      "C": "Los macehuales",
+      "D": "Los tlatoque"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0040",
+    "asignatura": "Historia de México",
+    "subtemario": "Mesoamérica y civilizaciones prehispánicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo social conformaba la base de la sociedad mexica, dedicado principalmente a la agricultura y oficios comunes?",
+    "opciones": {
+      "A": "Los sacerdotes",
+      "B": "Los pipiltin (nobleza)",
+      "C": "Los macehualtin (macehuales)",
+      "D": "Los pochtecas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia prehispánica de México."
+  },
+  {
+    "id_reactivo": "HMX-0041",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año llegó Hernán Cortés a las costas de lo que hoy es México?",
+    "opciones": {
+      "A": "1531",
+      "B": "1519",
+      "C": "1521",
+      "D": "1492"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0042",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año cayó Tenochtitlan ante los españoles, marcando el fin del imperio mexica?",
+    "opciones": {
+      "A": "1492",
+      "B": "1810",
+      "C": "1521",
+      "D": "1519"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0043",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién fue la mujer indígena que sirvió como intérprete y consejera de Hernán Cortés durante la conquista?",
+    "opciones": {
+      "A": "Isabel Moctezuma",
+      "B": "La Malinche (Malintzin)",
+      "C": "Josefa Ortiz de Domínguez",
+      "D": "Sor Juana Inés de la Cruz"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0044",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se llamó el sistema colonial que otorgaba a los españoles el derecho a recibir tributo y trabajo de los indígenas?",
+    "opciones": {
+      "A": "La encomienda",
+      "B": "El cabildo",
+      "C": "La audiencia",
+      "D": "El virreinato"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0045",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se llamó el territorio colonial español que abarcaba gran parte de México y Centroamérica durante la época colonial?",
+    "opciones": {
+      "A": "El Reino de la Nueva Galicia exclusivamente",
+      "B": "El Virreinato del Perú",
+      "C": "La Capitanía General de Guatemala exclusivamente",
+      "D": "El Virreinato de la Nueva España"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0046",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución de la Iglesia católica tuvo como función perseguir la herejía durante la época colonial?",
+    "opciones": {
+      "A": "La Real Audiencia",
+      "B": "El Consulado",
+      "C": "La Inquisición",
+      "D": "El Cabildo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0047",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué metal precioso fue uno de los principales recursos extraídos por los españoles durante la Colonia, especialmente en Zacatecas y Guanajuato?",
+    "opciones": {
+      "A": "El cobre",
+      "B": "El hierro",
+      "C": "El oro exclusivamente",
+      "D": "La plata"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0048",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'castas' en la sociedad novohispana?",
+    "opciones": {
+      "A": "Un sistema de clasificación social basado en la mezcla de orígenes étnicos (español, indígena y africano)",
+      "B": "Un sistema exclusivamente religioso",
+      "C": "Una división territorial administrativa",
+      "D": "Un tipo de moneda utilizada en la Colonia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0049",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacada escritora y poetisa novohispana es reconocida como una de las figuras intelectuales más importantes de la época colonial?",
+    "opciones": {
+      "A": "Leona Vicario",
+      "B": "Sor Juana Inés de la Cruz",
+      "C": "Josefa Ortiz de Domínguez",
+      "D": "La Malinche"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0050",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento marcó el primer gran contacto entre los pueblos indígenas de Mesoamérica y los europeos, antes de la caída de Tenochtitlan?",
+    "opciones": {
+      "A": "La firma de la independencia en 1821",
+      "B": "La fundación de Tenochtitlan",
+      "C": "La llegada de los primeros misioneros franciscanos en 1600",
+      "D": "La llegada de Hernán Cortés a Veracruz en 1519"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0051",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución administraba la justicia en nombre del rey en la Nueva España?",
+    "opciones": {
+      "A": "La Real Audiencia",
+      "B": "El Consejo de Trento",
+      "C": "La Casa de Contratación exclusivamente",
+      "D": "El Cabildo exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0052",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué máximo cargo político representaba al rey de España en el gobierno de la Nueva España?",
+    "opciones": {
+      "A": "El virrey",
+      "B": "El alcalde mayor",
+      "C": "El obispo",
+      "D": "El gobernador exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0053",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugaron las órdenes religiosas (franciscanos, dominicos, agustinos) durante la Colonia?",
+    "opciones": {
+      "A": "Gobernaron políticamente el virreinato en lugar del virrey",
+      "B": "No tuvieron ninguna participación relevante en la Colonia",
+      "C": "Evangelizaron a la población indígena y fundaron misiones, escuelas y hospitales",
+      "D": "Se dedicaron exclusivamente al comercio marítimo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0054",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el mestizaje, proceso central en la formación de la sociedad mexicana durante la Colonia?",
+    "opciones": {
+      "A": "Un tipo de organización política colonial",
+      "B": "La mezcla biológica y cultural entre españoles, indígenas y, en menor medida, africanos",
+      "C": "La migración exclusiva de españoles a América",
+      "D": "La separación estricta entre las distintas razas sin mezcla alguna"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0055",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué producto llegó a América gracias al comercio colonial y se convirtió en un cultivo importante en Nueva España, aunque no era originario de allí?",
+    "opciones": {
+      "A": "El jitomate",
+      "B": "El cacao",
+      "C": "El maíz",
+      "D": "La caña de azúcar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0056",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ruta comercial marítima conectaba a la Nueva España (vía Acapulco) con Asia (Filipinas) durante la Colonia?",
+    "opciones": {
+      "A": "El Camino Real de Tierra Adentro exclusivamente",
+      "B": "La Ruta de la Seda terrestre",
+      "C": "La ruta del Atlántico Norte",
+      "D": "La Nao de China (Galeón de Manila)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0057",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué camino colonial conectaba la Ciudad de México con las minas del norte, como Zacatecas?",
+    "opciones": {
+      "A": "El Camino de Santiago",
+      "B": "La Nao de China",
+      "C": "El Camino Real de Tierra Adentro",
+      "D": "La Ruta Panamericana"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0058",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución económica regulaba el comercio entre España y sus colonias americanas durante gran parte de la Colonia?",
+    "opciones": {
+      "A": "El Consulado de Comerciantes exclusivamente",
+      "B": "El Banco de México",
+      "C": "La Real Audiencia",
+      "D": "La Casa de Contratación de Sevilla"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0059",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de la sociedad colonial estaba formado por personas nacidas en América de padres españoles?",
+    "opciones": {
+      "A": "Los peninsulares",
+      "B": "Los indígenas",
+      "C": "Los mestizos",
+      "D": "Los criollos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0060",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de la sociedad colonial gozaba de mayores privilegios políticos por haber nacido en España?",
+    "opciones": {
+      "A": "Los mestizos",
+      "B": "Los criollos",
+      "C": "Los indígenas",
+      "D": "Los peninsulares (gachupines)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0061",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué población fue traída forzosamente de África a la Nueva España, principalmente para trabajar en labores agrícolas y mineras?",
+    "opciones": {
+      "A": "Mercenarios de origen árabe",
+      "B": "Trabajadores contratados de Asia",
+      "C": "Personas esclavizadas de origen africano",
+      "D": "Colonos voluntarios de Europa del Norte"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0062",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué construcción arquitectónica religiosa es característica del arte colonial en México, combinando elementos europeos e indígenas?",
+    "opciones": {
+      "A": "El estilo gótico puro sin influencia local",
+      "B": "El estilo neoclásico exclusivamente",
+      "C": "El barroco novohispano (como en catedrales y templos)",
+      "D": "El estilo modernista del siglo XX"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0063",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué universidad, una de las primeras de América, fue fundada en la Ciudad de México durante la Colonia (1551)?",
+    "opciones": {
+      "A": "El Colegio de San Ildefonso exclusivamente",
+      "B": "La UNAM en su forma moderna",
+      "C": "La Real y Pontificia Universidad de México",
+      "D": "El Instituto Politécnico Nacional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0064",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué idioma se convirtió en la lengua oficial y dominante durante la Colonia, aunque persistieron muchas lenguas indígenas?",
+    "opciones": {
+      "A": "El español",
+      "B": "El latín exclusivamente",
+      "C": "El náhuatl exclusivamente",
+      "D": "El portugués"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0065",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reformas administrativas del siglo XVIII buscaron modernizar y centralizar el control español sobre sus colonias, incluida la Nueva España?",
+    "opciones": {
+      "A": "Las Leyes de Indias del siglo XVI",
+      "B": "Las Leyes de Reforma del siglo XIX",
+      "C": "Las Reformas Borbónicas",
+      "D": "La Constitución de Cádiz de 1812"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0066",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento de 1808 en España (invasión napoleónica) debilitó la autoridad real y contribuyó indirectamente al surgimiento de movimientos independentistas en América?",
+    "opciones": {
+      "A": "La firma del Tratado de Tordesillas",
+      "B": "La fundación de la Casa de Contratación",
+      "C": "El descubrimiento de América",
+      "D": "La invasión napoleónica a España y la abdicación forzada del rey Fernando VII"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0067",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo indígena del norte de la Nueva España mantuvo una fuerte resistencia contra el dominio colonial español durante gran parte de la época virreinal?",
+    "opciones": {
+      "A": "Los mexicas tras la conquista",
+      "B": "Los mayas de Yucatán exclusivamente",
+      "C": "Los apaches y otros pueblos del norte (como los chichimecas en periodos anteriores)",
+      "D": "Los zapotecas de Oaxaca"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0068",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución eclesiástica se encargaba de recolectar el diezmo, un impuesto religioso sobre la producción agrícola en la Nueva España?",
+    "opciones": {
+      "A": "La Iglesia católica, a través del sistema de diezmos",
+      "B": "La Real Hacienda exclusivamente",
+      "C": "El Cabildo municipal",
+      "D": "La Casa de Moneda"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0069",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución acuñaba las monedas de la Nueva España durante la Colonia?",
+    "opciones": {
+      "A": "El Consulado de Comerciantes",
+      "B": "El Banco de España",
+      "C": "La Casa de Contratación",
+      "D": "La Casa de Moneda de México"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0070",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué fenómeno demográfico ocurrió entre la población indígena en las primeras décadas tras la conquista, principalmente por enfermedades traídas de Europa?",
+    "opciones": {
+      "A": "Una migración masiva hacia Europa",
+      "B": "Una drástica disminución poblacional debido a epidemias como la viruela",
+      "C": "Ningún cambio demográfico significativo",
+      "D": "Un rápido crecimiento poblacional sin precedentes"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0071",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué cultivo de origen americano se exportó a Europa durante la Colonia y transformó la dieta y economía del Viejo Mundo?",
+    "opciones": {
+      "A": "El cacao (entre otros como el maíz, la papa y el jitomate)",
+      "B": "El trigo",
+      "C": "El arroz",
+      "D": "La caña de azúcar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0072",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel cumplían los cabildos (ayuntamientos) en las ciudades de la Nueva España?",
+    "opciones": {
+      "A": "Comandar las fuerzas militares virreinales",
+      "B": "Administrar exclusivamente asuntos religiosos",
+      "C": "Administrar los asuntos locales y de gobierno municipal",
+      "D": "Gobernar todo el virreinato en lugar del virrey"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0073",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué siglo se estableció formalmente el Virreinato de la Nueva España, tras la caída de Tenochtitlan?",
+    "opciones": {
+      "A": "El siglo XVIII exclusivamente",
+      "B": "El siglo XV",
+      "C": "El siglo XVI (a partir de 1535, con el primer virrey Antonio de Mendoza)",
+      "D": "El siglo XVII"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0074",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién fue el primer virrey de la Nueva España?",
+    "opciones": {
+      "A": "Antonio de Mendoza",
+      "B": "Hernán Cortés",
+      "C": "Martín de Mayorga",
+      "D": "Luis de Velasco"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0075",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de arte y arquitectura floreció especialmente en ciudades mineras como Guanajuato y Zacatecas durante la Colonia, gracias a la riqueza de la plata?",
+    "opciones": {
+      "A": "El arte moderno abstracto",
+      "B": "El arte prehispánico sin influencia europea",
+      "C": "El barroco (incluyendo el estilo churrigueresco)",
+      "D": "El estilo art déco"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0076",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto ocurrió en 1692 en la Ciudad de México, relacionado con el descontento popular por la escasez de maíz?",
+    "opciones": {
+      "A": "El motín de 1692 (Tumulto de 1692)",
+      "B": "El levantamiento de Tupac Amaru",
+      "C": "La Guerra de Reforma",
+      "D": "La Guerra de los Pasteles"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0077",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo étnico del sureste de la Nueva España, particularmente en Yucatán, mantuvo su cultura e idioma de forma notable durante toda la Colonia?",
+    "opciones": {
+      "A": "Los mayas yucatecos",
+      "B": "Los apaches",
+      "C": "Los tarahumaras exclusivamente",
+      "D": "Los seris exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0078",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se le llamaba a los territorios del norte de la Nueva España, poco poblados y con presencia de misiones, como la Alta California y Texas?",
+    "opciones": {
+      "A": "Las provincias internas",
+      "B": "La Intendencia de México",
+      "C": "El Reino de Nueva Galicia exclusivamente",
+      "D": "El Bajío"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0079",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué figura eclesiástica, Bartolomé de las Casas, es reconocida históricamente por su defensa de los derechos de los pueblos indígenas ante los abusos coloniales?",
+    "opciones": {
+      "A": "Fray Bernardino de Sahagún exclusivamente por otra razón (cronista)",
+      "B": "Fray Bartolomé de las Casas",
+      "C": "El virrey Antonio de Mendoza",
+      "D": "Hernán Cortés"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0080",
+    "asignatura": "Historia de México",
+    "subtemario": "Conquista y periodo colonial (Virreinato)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué cronista franciscano es reconocido por documentar extensamente la cultura y la lengua náhuatl en obras como el Códice Florentino?",
+    "opciones": {
+      "A": "Fray Bernardino de Sahagún",
+      "B": "Fray Juan de Zumárraga",
+      "C": "Hernán Cortés",
+      "D": "Fray Bartolomé de las Casas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la historia colonial de México (Virreinato de la Nueva España)."
+  },
+  {
+    "id_reactivo": "HMX-0081",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año inició el movimiento de Independencia de México con el Grito de Dolores?",
+    "opciones": {
+      "A": "1821",
+      "B": "1810",
+      "C": "1910",
+      "D": "1519"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0082",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién es reconocido como el iniciador del movimiento de Independencia de México, mediante el Grito de Dolores?",
+    "opciones": {
+      "A": "Miguel Hidalgo y Costilla",
+      "B": "Agustín de Iturbide",
+      "C": "Vicente Guerrero",
+      "D": "José María Morelos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0083",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año se consumó la Independencia de México?",
+    "opciones": {
+      "A": "1821",
+      "B": "1836",
+      "C": "1810",
+      "D": "1824"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0084",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento firmado en 1821 estableció las bases para la consumación de la Independencia de México?",
+    "opciones": {
+      "A": "El Tratado de Córdoba exclusivamente sin relación con el Plan de Iguala",
+      "B": "El Plan de Iguala",
+      "C": "El Acta de Independencia exclusivamente",
+      "D": "La Constitución de 1824"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0085",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién continuó el movimiento de Independencia tras la muerte de Miguel Hidalgo, redactando además los 'Sentimientos de la Nación'?",
+    "opciones": {
+      "A": "José María Morelos y Pavón",
+      "B": "Vicente Guerrero",
+      "C": "Agustín de Iturbide",
+      "D": "Ignacio Allende"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0086",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién fue el líder insurgente que, junto con Agustín de Iturbide, firmó el Plan de Iguala y luego se abrazaron en un episodio histórico conocido como el 'Abrazo de Acatempan'?",
+    "opciones": {
+      "A": "Ignacio Allende",
+      "B": "Miguel Hidalgo",
+      "C": "Vicente Guerrero",
+      "D": "José María Morelos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0087",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién se convirtió en el primer emperador de México tras la consumación de la Independencia?",
+    "opciones": {
+      "A": "Agustín de Iturbide",
+      "B": "Miguel Hidalgo",
+      "C": "Antonio López de Santa Anna",
+      "D": "Vicente Guerrero"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0088",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mujer insurgente es reconocida por avisar a los conspiradores sobre el descubrimiento de la conspiración de Querétaro en 1810?",
+    "opciones": {
+      "A": "Leona Vicario",
+      "B": "La Malinche",
+      "C": "Sor Juana Inés de la Cruz",
+      "D": "Josefa Ortiz de Domínguez ('La Corregidora')"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0089",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuáles son las 'Tres Garantías' proclamadas en el Plan de Iguala?",
+    "opciones": {
+      "A": "Religión, Independencia y Unión",
+      "B": "Libertad, Igualdad y Fraternidad",
+      "C": "Paz, Trabajo y Progreso",
+      "D": "Tierra, Libertad y Justicia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0090",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento redactado por José María Morelos en 1813 estableció principios como la abolición de la esclavitud y la igualdad de todos los mexicanos?",
+    "opciones": {
+      "A": "Los Sentimientos de la Nación",
+      "B": "La Constitución de Cádiz",
+      "C": "El Plan de Iguala",
+      "D": "El Tratado de Córdoba"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0091",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de conspiradores criollos, entre ellos Miguel Hidalgo e Ignacio Allende, planeó el inicio de la lucha independentista en Querétaro?",
+    "opciones": {
+      "A": "La conspiración de Querétaro",
+      "B": "La Junta de Zitácuaro",
+      "C": "El Congreso de Chilpancingo",
+      "D": "El Plan de Iguala"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0092",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué congreso, convocado por Morelos en 1813, proclamó formalmente la independencia de México respecto a España?",
+    "opciones": {
+      "A": "El Congreso de Apatzingán exclusivamente",
+      "B": "El Congreso de Querétaro",
+      "C": "El Congreso de Chilpancingo (Congreso de Anáhuac)",
+      "D": "El Congreso Constituyente de 1824"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0093",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tratado, firmado en 1821 entre Agustín de Iturbide y Juan O'Donojú, reconoció formalmente la independencia de México ante España?",
+    "opciones": {
+      "A": "El Tratado de Guadalupe Hidalgo",
+      "B": "El Tratado de Córdoba",
+      "C": "El Plan de Iguala",
+      "D": "El Tratado de La Mesilla"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0094",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué región de México inició principalmente el movimiento armado de Independencia en 1810?",
+    "opciones": {
+      "A": "La región del Istmo de Tehuantepec",
+      "B": "El Bajío (Guanajuato y alrededores)",
+      "C": "La península de Yucatán",
+      "D": "El norte de México (Sonora y Chihuahua)"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0095",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ocurrió con Miguel Hidalgo tras ser capturado por las fuerzas realistas en 1811?",
+    "opciones": {
+      "A": "Fue nombrado gobernador de Nueva España",
+      "B": "Se exilió en Europa",
+      "C": "Fue perdonado y liberado",
+      "D": "Fue fusilado y su cabeza expuesta públicamente como escarmiento"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0096",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué otro insurgente destacado, junto con Hidalgo, participó en la conspiración de Querétaro y en las primeras batallas de la guerra de Independencia?",
+    "opciones": {
+      "A": "Vicente Guerrero",
+      "B": "Guadalupe Victoria",
+      "C": "Ignacio Allende",
+      "D": "Agustín de Iturbide"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0097",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién es reconocida como una destacada insurgente que apoyó económicamente y con información al movimiento independentista, siendo perseguida por las autoridades virreinales?",
+    "opciones": {
+      "A": "Josefa Ortiz de Domínguez exclusivamente en otro episodio",
+      "B": "Sor Juana Inés de la Cruz",
+      "C": "Leona Vicario",
+      "D": "La Malinche"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0098",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado insurgente afromestizo, conocido como 'El Amo Torres' o por su liderazgo militar en el Bajío, participó en las primeras etapas de la guerra de Independencia?",
+    "opciones": {
+      "A": "José María Morelos (afromestizo, no confundir con Hidalgo)",
+      "B": "Ignacio Allende",
+      "C": "Agustín de Iturbide",
+      "D": "Vicente Guerrero exclusivamente en batallas distintas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0099",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué batalla de 1810 las fuerzas insurgentes lideradas por Hidalgo obtuvieron una importante victoria cerca de la Ciudad de México?",
+    "opciones": {
+      "A": "La Batalla de Calpulalpan",
+      "B": "La Batalla del Monte de las Cruces",
+      "C": "La Batalla de Puebla",
+      "D": "La Batalla de Chapultepec"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0100",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién fue el primer presidente de México tras la caída del Primer Imperio Mexicano de Iturbide?",
+    "opciones": {
+      "A": "Anastasio Bustamante",
+      "B": "Vicente Guerrero",
+      "C": "Guadalupe Victoria",
+      "D": "Antonio López de Santa Anna"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0101",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién sucedió brevemente a Iturbide y fue el segundo presidente de México, además del primer presidente de origen afromexicano en asumir dicho cargo?",
+    "opciones": {
+      "A": "Guadalupe Victoria",
+      "B": "Nicolás Bravo",
+      "C": "Antonio López de Santa Anna",
+      "D": "Vicente Guerrero"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0102",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué forma de gobierno adoptó México en su primera Constitución de 1824, tras la caída del imperio de Iturbide?",
+    "opciones": {
+      "A": "Una república centralista exclusivamente desde el inicio",
+      "B": "Un protectorado español",
+      "C": "Una república federal",
+      "D": "Una monarquía constitucional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0103",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento marcó el fin del Primer Imperio Mexicano encabezado por Agustín de Iturbide?",
+    "opciones": {
+      "A": "El Plan de Iguala",
+      "B": "La Batalla de Puebla",
+      "C": "El Plan de Casa Mata (1823), que forzó la abdicación de Iturbide",
+      "D": "El Tratado de Córdoba"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0104",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año fue fusilado Agustín de Iturbide, tras intentar regresar a México desde su exilio?",
+    "opciones": {
+      "A": "1821",
+      "B": "1810",
+      "C": "1836",
+      "D": "1824"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0105",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado insurgente, apodado 'El Padre de la Patria', es honrado junto con Hidalgo como líder fundamental del movimiento independentista, aunque este título se atribuye mayormente a Hidalgo?",
+    "opciones": {
+      "A": "Vicente Guerrero",
+      "B": "Miguel Hidalgo y Costilla",
+      "C": "José María Morelos",
+      "D": "Ignacio Allende"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0106",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento, promulgado en 1814 por el Congreso de Chilpancingo, es considerada la primera constitución de un México independiente (aunque no llegó a aplicarse plenamente)?",
+    "opciones": {
+      "A": "La Constitución de Apatzingán",
+      "B": "La Constitución de 1824",
+      "C": "El Plan de Iguala",
+      "D": "La Constitución de Cádiz"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0107",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué significaba la frase 'Sentimientos de la Nación' escrita por Morelos en 1813?",
+    "opciones": {
+      "A": "Un tratado con España",
+      "B": "Una carta personal sin relevancia política",
+      "C": "Un poema dedicado a la Virgen de Guadalupe",
+      "D": "Un documento que expresaba los principios e ideales políticos y sociales del movimiento insurgente"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0108",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué imagen religiosa fue utilizada como estandarte por Miguel Hidalgo durante el inicio de la lucha insurgente?",
+    "opciones": {
+      "A": "La Virgen del Carmen",
+      "B": "La Virgen de Guadalupe",
+      "C": "El Sagrado Corazón de Jesús",
+      "D": "San Miguel Arcángel"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0109",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugó la Constitución de Cádiz de 1812, promulgada en España, en el contexto de la lucha independentista novohispana?",
+    "opciones": {
+      "A": "Prohibió cualquier tipo de reforma en las colonias",
+      "B": "No tuvo ninguna relación con los territorios americanos",
+      "C": "Estableció directamente la independencia de México",
+      "D": "Introdujo ideas liberales y cierta autonomía que influyeron en el pensamiento político novohispano, aunque fue derogada por Fernando VII"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0110",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo social criollo, temeroso de perder sus privilegios ante posibles reformas liberales españolas, apoyó inicialmente el Plan de Iguala como una forma de independencia conservadora?",
+    "opciones": {
+      "A": "Los criollos y sectores conservadores de la Nueva España",
+      "B": "Los insurgentes radicales de Morelos exclusivamente",
+      "C": "La población indígena exclusivamente",
+      "D": "El gobierno de España exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0111",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué insurgente es reconocido por su defensa prolongada del sur de México, incluso tras la muerte de Hidalgo y Morelos, resistiendo hasta la alianza final con Iturbide?",
+    "opciones": {
+      "A": "Vicente Guerrero",
+      "B": "Leona Vicario",
+      "C": "Josefa Ortiz de Domínguez",
+      "D": "Ignacio Allende"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0112",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué famosa frase se le atribuye a Vicente Guerrero, reflejando su postura ante la propuesta de amnistía realista a cambio de deponer las armas?",
+    "opciones": {
+      "A": "\"Viva el rey\"",
+      "B": "\"Sufragio efectivo, no reelección\"",
+      "C": "\"Tierra y libertad\"",
+      "D": "\"La patria es primero\""
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0113",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué territorio de la Nueva España fue de los últimos en sumarse o rendirse durante el proceso de consumación de la Independencia en 1821?",
+    "opciones": {
+      "A": "Algunas plazas fuertes realistas, como Veracruz y Acapulco, resistieron hasta después de 1821",
+      "B": "Toda la Nueva España se rindió simultáneamente en 1810",
+      "C": "Ningún territorio ofreció resistencia adicional tras el Plan de Iguala",
+      "D": "La Ciudad de México resistió hasta 1830"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0114",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué significado histórico tiene el 27 de septiembre de 1821 para México?",
+    "opciones": {
+      "A": "Es la fecha de la Batalla de Puebla",
+      "B": "Es la fecha del Grito de Dolores",
+      "C": "Es la fecha de la promulgación de la Constitución de 1824",
+      "D": "Es la fecha en que el Ejército Trigarante, encabezado por Iturbide, entró triunfalmente a la Ciudad de México, consumando la Independencia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0115",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel desempeñó el Ejército Trigarante durante la consumación de la Independencia en 1821?",
+    "opciones": {
+      "A": "Fue una fuerza exclusivamente indígena sin participación criolla",
+      "B": "Fue la fuerza militar conjunta de insurgentes y realistas, liderada por Iturbide, que garantizó las Tres Garantías del Plan de Iguala",
+      "C": "Fue el ejército español que reconquistó México en 1829",
+      "D": "Fue el ejército francés durante la intervención de 1862"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0116",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué intento de reconquista española sobre México ocurrió en 1829, siendo repelido por fuerzas mexicanas encabezadas por Antonio López de Santa Anna?",
+    "opciones": {
+      "A": "La expedición de reconquista de Isidro Barradas",
+      "B": "La intervención francesa de los Pasteles",
+      "C": "La intervención tripartita de 1861",
+      "D": "La invasión estadounidense de 1846"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0117",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado insurgente y posterior primer presidente afromexicano de América murió sin ver consolidada plenamente la república que ayudó a fundar, siendo ejecutado en 1831 tras ser traicionado?",
+    "opciones": {
+      "A": "Vicente Guerrero",
+      "B": "Guadalupe Victoria",
+      "C": "Ignacio Allende",
+      "D": "Miguel Hidalgo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0118",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué significado tiene la fecha del 16 de septiembre de 1810 en la historia de México?",
+    "opciones": {
+      "A": "Marca el inicio de la Revolución Mexicana",
+      "B": "Marca el inicio del movimiento de Independencia con el Grito de Dolores encabezado por Miguel Hidalgo",
+      "C": "Marca la consumación de la Independencia",
+      "D": "Marca la promulgación de la Constitución de 1824"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0119",
+    "asignatura": "Historia de México",
+    "subtemario": "Independencia de México",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugó el cura Miguel Hidalgo antes de convertirse en líder insurgente, en términos de su ocupación y ubicación?",
+    "opciones": {
+      "A": "Era un comerciante español radicado en Veracruz",
+      "B": "Era virrey de la Nueva España",
+      "C": "Era párroco del pueblo de Dolores, en el actual estado de Guanajuato",
+      "D": "Era un militar de alto rango del ejército realista"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de la Independencia de México."
+  },
+  {
+    "id_reactivo": "HMX-0120",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién es considerado el principal impulsor de las Leyes de Reforma en México?",
+    "opciones": {
+      "A": "Antonio López de Santa Anna",
+      "B": "Porfirio Díaz",
+      "C": "Benito Juárez",
+      "D": "Maximiliano de Habsburgo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0121",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué buscaban principalmente las Leyes de Reforma promovidas por Juárez?",
+    "opciones": {
+      "A": "Anexar territorio a Estados Unidos",
+      "B": "Fortalecer el poder de la Iglesia católica",
+      "C": "Establecer una monarquía hereditaria",
+      "D": "Separar a la Iglesia del Estado y reducir el poder económico y político del clero"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0122",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto armado interno (1858-1861) enfrentó a liberales y conservadores mexicanos, en gran parte por las Leyes de Reforma?",
+    "opciones": {
+      "A": "La Guerra de Reforma",
+      "B": "La Revolución Mexicana",
+      "C": "La Guerra de Independencia",
+      "D": "La Guerra de los Pasteles"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0123",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué país europeo intervino militarmente en México entre 1862 y 1867, imponiendo un imperio?",
+    "opciones": {
+      "A": "Reino Unido",
+      "B": "Francia",
+      "C": "Alemania",
+      "D": "España"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0124",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién fue impuesto como emperador de México durante la intervención francesa?",
+    "opciones": {
+      "A": "Porfirio Díaz",
+      "B": "Maximiliano de Habsburgo",
+      "C": "Agustín de Iturbide",
+      "D": "Antonio López de Santa Anna"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0125",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué batalla del 5 de mayo de 1862 el ejército mexicano derrotó al ejército francés en Puebla?",
+    "opciones": {
+      "A": "La Batalla de Zacatecas",
+      "B": "La Batalla de Chapultepec",
+      "C": "La Batalla de Puebla",
+      "D": "La Batalla de Churubusco"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0126",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año fue fusilado Maximiliano de Habsburgo, marcando el fin del Segundo Imperio Mexicano?",
+    "opciones": {
+      "A": "1867",
+      "B": "1862",
+      "C": "1821",
+      "D": "1876"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0127",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué territorio perdió México tras la guerra con Estados Unidos (1846-1848)?",
+    "opciones": {
+      "A": "Ningún territorio significativo",
+      "B": "La península de Yucatán",
+      "C": "Más de la mitad de su territorio, incluyendo lo que hoy es California, Texas, Nuevo México y otros estados",
+      "D": "El estado de Chiapas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0128",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tratado puso fin a la guerra entre México y Estados Unidos en 1848?",
+    "opciones": {
+      "A": "El Tratado de La Mesilla",
+      "B": "El Plan de Iguala",
+      "C": "El Tratado de Córdoba",
+      "D": "El Tratado de Guadalupe Hidalgo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0129",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué territorio adicional vendió México a Estados Unidos en 1853, tras la guerra de 1846-1848?",
+    "opciones": {
+      "A": "Texas",
+      "B": "Baja California",
+      "C": "California",
+      "D": "La Mesilla (en el actual sur de Arizona y Nuevo México)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0130",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántas veces ocupó Antonio López de Santa Anna la presidencia de México, en distintos periodos del siglo XIX?",
+    "opciones": {
+      "A": "Nunca ocupó la presidencia",
+      "B": "En múltiples ocasiones (comúnmente se citan 11 periodos)",
+      "C": "Exactamente dos veces",
+      "D": "Solo una vez"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0131",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto se conoce como la 'Guerra de los Pasteles', ocurrido entre México y Francia en 1838?",
+    "opciones": {
+      "A": "La Guerra de Reforma",
+      "B": "Un conflicto bélico motivado por reclamaciones de comerciantes franceses por daños durante disturbios en México",
+      "C": "La intervención francesa que impuso a Maximiliano",
+      "D": "La guerra por la independencia de Texas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0132",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento constitucional de 1857, de corte liberal, fue una de las causas de la Guerra de Reforma?",
+    "opciones": {
+      "A": "La Constitución de 1917",
+      "B": "La Constitución de 1857",
+      "C": "El Plan de Ayutla exclusivamente",
+      "D": "La Constitución de 1824"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0133",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué plan político de 1854 buscó derrocar la dictadura de Santa Anna y dio paso a la etapa liberal conocida como la Reforma?",
+    "opciones": {
+      "A": "El Plan de Iguala",
+      "B": "El Plan de San Luis",
+      "C": "El Plan de Guadalupe",
+      "D": "El Plan de Ayutla"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0134",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué territorio se independizó de México en 1836 y posteriormente fue anexado por Estados Unidos, detonando la guerra de 1846?",
+    "opciones": {
+      "A": "California",
+      "B": "Texas",
+      "C": "Nuevo México",
+      "D": "Arizona"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0135",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué presidente mexicano liberal, opositor a Santa Anna y precursor de las ideas reformistas, gobernó brevemente antes de la Guerra de Reforma?",
+    "opciones": {
+      "A": "Ignacio Comonfort",
+      "B": "Porfirio Díaz",
+      "C": "Benito Juárez (que gobernó después, durante y tras la guerra)",
+      "D": "Sebastián Lerdo de Tejada"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0136",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado militar y político liberal sucedió a Benito Juárez en la presidencia tras su muerte en 1872?",
+    "opciones": {
+      "A": "Manuel González",
+      "B": "Sebastián Lerdo de Tejada",
+      "C": "Porfirio Díaz",
+      "D": "Ignacio Comonfort"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0137",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué plan político encabezó Porfirio Díaz en 1876 contra la reelección de Lerdo de Tejada, bajo el lema 'no reelección'?",
+    "opciones": {
+      "A": "El Plan de Ayutla",
+      "B": "El Plan de San Luis",
+      "C": "El Plan de Tuxtepec",
+      "D": "El Plan de Iguala"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0138",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo político se opuso a las Leyes de Reforma y defendía los privilegios de la Iglesia católica y el ejército durante el siglo XIX?",
+    "opciones": {
+      "A": "Los conservadores",
+      "B": "Los liberales",
+      "C": "Los insurgentes de 1810",
+      "D": "Los zapatistas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0139",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo político impulsó las Leyes de Reforma y defendía un Estado laico, la libertad de cultos y el debilitamiento del poder eclesiástico?",
+    "opciones": {
+      "A": "Los conservadores",
+      "B": "Los liberales",
+      "C": "Los realistas",
+      "D": "Los criollos monárquicos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0140",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ley de Reforma, promulgada en 1859, estableció la separación oficial entre la Iglesia y el Estado en México?",
+    "opciones": {
+      "A": "El Plan de Iguala",
+      "B": "El Tratado de Córdoba",
+      "C": "La Ley de Nacionalización de Bienes Eclesiásticos (entre el conjunto de Leyes de Reforma de 1859)",
+      "D": "La Constitución de 1824"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0141",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ley de Reforma promovida por Benito Juárez estableció el registro civil de nacimientos, matrimonios y defunciones, antes bajo control eclesiástico?",
+    "opciones": {
+      "A": "La Ley de Desamortización",
+      "B": "La Ley Juárez",
+      "C": "La Ley del Registro Civil",
+      "D": "La Ley Lerdo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0142",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ley de Reforma, impulsada por Miguel Lerdo de Tejada, ordenaba la venta de las tierras comunales de la Iglesia y de las comunidades indígenas?",
+    "opciones": {
+      "A": "La Ley de Nacionalización",
+      "B": "La Ley del Registro Civil",
+      "C": "La Ley Lerdo (Ley de Desamortización de Bienes de Manos Muertas)",
+      "D": "La Ley Juárez"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0143",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué ley de Reforma, impulsada por Benito Juárez cuando era ministro de Justicia, suprimió los fueros especiales del clero y del ejército?",
+    "opciones": {
+      "A": "La Constitución de 1857",
+      "B": "La Ley del Registro Civil",
+      "C": "La Ley Lerdo",
+      "D": "La Ley Juárez"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0144",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué ciudad estableció Benito Juárez su gobierno itinerante durante la intervención francesa, resistiendo al imperio de Maximiliano?",
+    "opciones": {
+      "A": "En Guadalajara exclusivamente",
+      "B": "En Puebla exclusivamente",
+      "C": "En la Ciudad de México, bajo control imperial",
+      "D": "En diversas ciudades del norte, incluyendo Paso del Norte (hoy Ciudad Juárez)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0145",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué frase histórica se le atribuye a Benito Juárez, resumiendo su filosofía sobre el respeto entre naciones y personas?",
+    "opciones": {
+      "A": "\"La patria es primero\"",
+      "B": "\"Tierra y libertad\"",
+      "C": "\"Sufragio efectivo, no reelección\"",
+      "D": "\"Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz\""
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0146",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué emperatriz, esposa de Maximiliano de Habsburgo, viajó a Europa para pedir apoyo militar y político para el imperio mexicano, sin éxito?",
+    "opciones": {
+      "A": "Josefa Ortiz de Domínguez",
+      "B": "Eugenia de Montijo",
+      "C": "Leona Vicario",
+      "D": "Carlota de Bélgica (Carlota Amalia)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0147",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué países, además de Francia, participaron inicialmente en la intervención tripartita de 1861 para cobrar deudas a México, aunque luego se retiraron?",
+    "opciones": {
+      "A": "España y el Reino Unido",
+      "B": "Rusia y Austria",
+      "C": "Italia y Portugal",
+      "D": "Estados Unidos y Alemania"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0148",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué medida tomó el gobierno de Benito Juárez en 1861 que provocó la intervención tripartita europea?",
+    "opciones": {
+      "A": "La anexión de territorio de Guatemala",
+      "B": "La suspensión temporal del pago de la deuda externa mexicana",
+      "C": "La expropiación de todas las propiedades extranjeras",
+      "D": "La declaración de guerra a Francia"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0149",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de mexicanos conservadores apoyó la intervención francesa y el establecimiento del imperio de Maximiliano?",
+    "opciones": {
+      "A": "Los liberales seguidores de Juárez",
+      "B": "Los conservadores mexicanos, que buscaban restaurar una monarquía y frenar las reformas liberales",
+      "C": "Los insurgentes de 1810",
+      "D": "Los zapatistas del siglo XX"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0150",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué política, paradójicamente, mantuvo Maximiliano de Habsburgo durante su imperio, a pesar de haber sido impuesto por los conservadores?",
+    "opciones": {
+      "A": "Abolió completamente todas las Leyes de Reforma",
+      "B": "Devolvió todas las tierras a la Iglesia católica",
+      "C": "Restauró la Inquisición",
+      "D": "Conservó varias de las Leyes de Reforma liberales, lo que le generó el rechazo de los conservadores que lo habían apoyado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0151",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué ciudad fue fusilado Maximiliano de Habsburgo en 1867?",
+    "opciones": {
+      "A": "Veracruz",
+      "B": "Querétaro, en el Cerro de las Campanas",
+      "C": "Ciudad de México",
+      "D": "Puebla"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0152",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué periodo de la historia de México se conoce como la 'República Restaurada', tras el triunfo definitivo de los liberales sobre el imperio en 1867?",
+    "opciones": {
+      "A": "El Porfiriato",
+      "B": "El primer imperio de Iturbide",
+      "C": "El periodo colonial",
+      "D": "El periodo de 1867 a 1876, bajo los gobiernos de Juárez y Lerdo de Tejada"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0153",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué facción política mexicana buscó, sin éxito duradero, establecer una monarquía como forma de gobierno estable tras la independencia, apoyando después la intervención francesa?",
+    "opciones": {
+      "A": "Los federalistas radicales",
+      "B": "Los liberales puros",
+      "C": "Los insurgentes zapatistas",
+      "D": "Los conservadores monárquicos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0154",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué guerra civil mexicana de mediados del siglo XIX enfrentó al gobierno federal con caudillos regionales, en el contexto de las pugnas entre centralistas y federalistas?",
+    "opciones": {
+      "A": "La Revolución Mexicana",
+      "B": "La Guerra de Independencia",
+      "C": "Las guerras y rebeliones federalistas de las décadas de 1830 y 1840 (previas a la Guerra de Reforma)",
+      "D": "La Guerra Cristera"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0155",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué diferencia fundamental existía entre el modelo de gobierno centralista y federalista, debatido intensamente en el México del siglo XIX?",
+    "opciones": {
+      "A": "No existía ninguna diferencia real entre ambos modelos",
+      "B": "El centralismo concentraba el poder en el gobierno nacional, mientras el federalismo otorgaba mayor autonomía a los estados",
+      "C": "El federalismo eliminaba por completo al gobierno nacional",
+      "D": "El centralismo solo aplicaba a asuntos militares"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0156",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué famoso decreto de 1836, conocido como las 'Siete Leyes', transformó a México de una república federal a una centralista?",
+    "opciones": {
+      "A": "La Constitución de 1857",
+      "B": "El Plan de Ayutla",
+      "C": "Las Siete Leyes de 1836",
+      "D": "La Constitución de 1824"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0157",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué plan de 1854, encabezado por Juan Álvarez y otros liberales, buscó derrocar al régimen dictatorial de Santa Anna, dando inicio a la era de la Reforma?",
+    "opciones": {
+      "A": "El Plan de Iguala",
+      "B": "El Plan de San Luis",
+      "C": "El Plan de Ayutla",
+      "D": "El Plan de Tuxtepec"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0158",
+    "asignatura": "Historia de México",
+    "subtemario": "México independiente: Reforma e Intervenciones extranjeras",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué título honorífico recibió Antonio López de Santa Anna durante uno de sus periodos como gobernante, reflejando el poder casi absoluto que llegó a ostentar?",
+    "opciones": {
+      "A": "Su Alteza Serenísima",
+      "B": "El Benemérito de las Américas",
+      "C": "El Libertador",
+      "D": "El Padre de la Patria"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del México independiente del siglo XIX (Reforma e Intervenciones)."
+  },
+  {
+    "id_reactivo": "HMX-0159",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos años gobernó aproximadamente Porfirio Díaz México, en el periodo conocido como el Porfiriato?",
+    "opciones": {
+      "A": "Alrededor de 30 años (con una breve interrupción)",
+      "B": "50 años",
+      "C": "10 años",
+      "D": "5 años"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0160",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué caracterizó económicamente al Porfiriato?",
+    "opciones": {
+      "A": "El aislamiento total de México del comercio internacional",
+      "B": "Un notable desarrollo de infraestructura (ferrocarriles) y modernización, pero con gran desigualdad social",
+      "C": "Una economía completamente igualitaria sin desigualdad social",
+      "D": "La abolición completa de la propiedad privada"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0161",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año estalló la Revolución Mexicana?",
+    "opciones": {
+      "A": "1917",
+      "B": "1910",
+      "C": "1821",
+      "D": "1857"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0162",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién convocó al pueblo mexicano a las armas contra Porfirio Díaz mediante el Plan de San Luis?",
+    "opciones": {
+      "A": "Emiliano Zapata",
+      "B": "Francisco I. Madero",
+      "C": "Venustiano Carranza",
+      "D": "Pancho Villa"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0163",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué lema revolucionario está asociado principalmente con Emiliano Zapata y su lucha por la tierra?",
+    "opciones": {
+      "A": "\"Viva México\" exclusivamente sin relación agraria",
+      "B": "\"Sufragio efectivo, no reelección\"",
+      "C": "\"Religión, Independencia y Unión\"",
+      "D": "\"Tierra y Libertad\""
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0164",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué plan reivindicaba la devolución de tierras a las comunidades campesinas e indígenas, promovido por Emiliano Zapata?",
+    "opciones": {
+      "A": "El Plan de Guadalupe",
+      "B": "El Plan de Ayala",
+      "C": "El Plan de San Luis",
+      "D": "El Plan de Agua Prieta"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0165",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder revolucionario del norte de México es conocido por su Ejército Constitucionalista del norte y su relevancia en la lucha contra Victoriano Huerta?",
+    "opciones": {
+      "A": "Emiliano Zapata",
+      "B": "Maximiliano de Habsburgo",
+      "C": "Francisco (Pancho) Villa (aunque Villa lideró la División del Norte, no el Ejército Constitucionalista)",
+      "D": "Porfirio Díaz"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0166",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién usurpó la presidencia tras el asesinato de Francisco I. Madero en 1913, en un episodio conocido como la 'Decena Trágica'?",
+    "opciones": {
+      "A": "Álvaro Obregón",
+      "B": "Victoriano Huerta",
+      "C": "Plutarco Elías Calles",
+      "D": "Venustiano Carranza"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0167",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué líder revolucionario encabezó el movimiento constitucionalista contra Victoriano Huerta y posteriormente se convirtió en presidente?",
+    "opciones": {
+      "A": "Emiliano Zapata",
+      "B": "Francisco I. Madero",
+      "C": "Venustiano Carranza",
+      "D": "Pancho Villa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0168",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué año se promulgó la Constitución Política que rige (con reformas) hasta la actualidad en México, producto de la Revolución?",
+    "opciones": {
+      "A": "1821",
+      "B": "1857",
+      "C": "1910",
+      "D": "1917"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0169",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo de la Constitución de 1917 estableció importantes derechos laborales, considerados innovadores para su época?",
+    "opciones": {
+      "A": "El artículo 27",
+      "B": "El artículo 130",
+      "C": "El artículo 3",
+      "D": "El artículo 123"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0170",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo constitucional de 1917 estableció la educación laica y gratuita en México?",
+    "opciones": {
+      "A": "El artículo 3",
+      "B": "El artículo 24",
+      "C": "El artículo 27",
+      "D": "El artículo 123"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0171",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué artículo constitucional de 1917 estableció la propiedad de la nación sobre tierras, aguas y recursos del subsuelo, permitiendo el reparto agrario?",
+    "opciones": {
+      "A": "El artículo 27",
+      "B": "El artículo 123",
+      "C": "El artículo 130",
+      "D": "El artículo 3"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0172",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo murió Emiliano Zapata en 1919?",
+    "opciones": {
+      "A": "Fue fusilado tras un juicio público",
+      "B": "Murió de causas naturales",
+      "C": "Fue asesinado en una emboscada en la hacienda de Chinameca",
+      "D": "Fue exiliado y murió en Europa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0173",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué revolucionario del norte fue asesinado en 1923, tras haber liderado la famosa División del Norte?",
+    "opciones": {
+      "A": "Emiliano Zapata",
+      "B": "Álvaro Obregón",
+      "C": "Venustiano Carranza",
+      "D": "Francisco (Pancho) Villa"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0174",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo murió Venustiano Carranza en 1920?",
+    "opciones": {
+      "A": "Fue exiliado y murió en España",
+      "B": "Fue fusilado en Querétaro",
+      "C": "Fue asesinado en Tlaxcalantongo, Puebla, tras huir de la capital ante el levantamiento de Agua Prieta",
+      "D": "Murió de causas naturales en la presidencia"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0175",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué presidente revolucionario, conocido como 'El Manco de Celaya' por perder un brazo en batalla, gobernó México de 1920 a 1924 y fue reelegido después, siendo asesinado en 1928?",
+    "opciones": {
+      "A": "Francisco I. Madero",
+      "B": "Venustiano Carranza",
+      "C": "Álvaro Obregón",
+      "D": "Plutarco Elías Calles"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0176",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué presidente fundó el Partido Nacional Revolucionario (PNR) en 1929, antecesor del actual PRI?",
+    "opciones": {
+      "A": "Venustiano Carranza",
+      "B": "Plutarco Elías Calles",
+      "C": "Lázaro Cárdenas",
+      "D": "Álvaro Obregón"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0177",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué presidente mexicano llevó a cabo la expropiación petrolera en 1938, nacionalizando la industria del petróleo?",
+    "opciones": {
+      "A": "Lázaro Cárdenas",
+      "B": "Plutarco Elías Calles",
+      "C": "Manuel Ávila Camacho",
+      "D": "Miguel Alemán"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0178",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué conflicto armado (1926-1929) enfrentó al gobierno mexicano con grupos católicos que se oponían a las leyes anticlericales?",
+    "opciones": {
+      "A": "La Guerra de Reforma",
+      "B": "La Guerra Cristera",
+      "C": "La Revolución Mexicana",
+      "D": "La Decena Trágica"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0179",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué episodio de 1913, en el que Francisco I. Madero fue derrocado y posteriormente asesinado, es conocido como la 'Decena Trágica'?",
+    "opciones": {
+      "A": "Diez días de combates en la Ciudad de México que culminaron con el golpe de Estado de Victoriano Huerta",
+      "B": "El inicio de la Guerra Cristera",
+      "C": "La firma del Plan de Guadalupe",
+      "D": "La batalla final de la Revolución en 1920"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0180",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué plan, encabezado por Venustiano Carranza en 1913, desconoció el gobierno usurpador de Victoriano Huerta y dio origen al movimiento constitucionalista?",
+    "opciones": {
+      "A": "El Plan de San Luis",
+      "B": "El Plan de Guadalupe",
+      "C": "El Plan de Ayala",
+      "D": "El Plan de Agua Prieta"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0181",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué plan de 1920 desconoció al gobierno de Carranza y llevó a Álvaro Obregón a la presidencia?",
+    "opciones": {
+      "A": "El Plan de San Luis",
+      "B": "El Plan de Guadalupe",
+      "C": "El Plan de Agua Prieta",
+      "D": "El Plan de Ayala"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0182",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué reforma agraria impulsada por Lázaro Cárdenas consistió en la entrega masiva de tierras a campesinos organizados en ejidos?",
+    "opciones": {
+      "A": "El reparto agrario cardenista",
+      "B": "La Reforma Educativa de 1921",
+      "C": "El Plan de Ayala exclusivamente sin acción de gobierno",
+      "D": "La Ley Lerdo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0183",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de trabajadores petroleros y el conflicto con las compañías extranjeras motivó directamente la expropiación petrolera de 1938?",
+    "opciones": {
+      "A": "Un ataque militar de las compañías petroleras contra el gobierno",
+      "B": "Una huelga general de todos los sectores económicos del país",
+      "C": "Una invasión extranjera al territorio petrolero",
+      "D": "Un conflicto laboral por mejores condiciones de trabajo, que las compañías extranjeras se negaron a resolver conforme al fallo de la Suprema Corte"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0184",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué institución educativa y cultural impulsó José Vasconcelos como secretario de Educación Pública tras la Revolución, promoviendo el muralismo y la alfabetización?",
+    "opciones": {
+      "A": "La Secretaría de Educación Pública (SEP)",
+      "B": "El Instituto Politécnico Nacional",
+      "C": "La UNAM en su forma moderna",
+      "D": "El Colegio de México"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0185",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacados muralistas mexicanos plasmaron la historia y los ideales de la Revolución Mexicana en edificios públicos durante las décadas de 1920 y 1930?",
+    "opciones": {
+      "A": "Diego Rivera, David Alfaro Siqueiros y José Clemente Orozco",
+      "B": "Frida Kahlo exclusivamente (pintora principalmente de caballete)",
+      "C": "Remedios Varo exclusivamente",
+      "D": "Rufino Tamayo exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0186",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué presidente, sucesor de Lázaro Cárdenas, gobernó durante gran parte de la Segunda Guerra Mundial y buscó la unidad nacional?",
+    "opciones": {
+      "A": "Miguel Alemán Valdés",
+      "B": "Emilio Portes Gil",
+      "C": "Adolfo Ruiz Cortines",
+      "D": "Manuel Ávila Camacho"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0187",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo revolucionario zapatista tenía su principal base de apoyo social en campesinos del estado de Morelos?",
+    "opciones": {
+      "A": "El Ejército Libertador del Sur",
+      "B": "La División del Norte",
+      "C": "El Ejército Constitucionalista",
+      "D": "Los Dorados de Villa exclusivamente sin relación con Morelos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0188",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cómo se le conocía a las tropas de caballería de Pancho Villa, reconocidas por su lealtad y habilidad en combate?",
+    "opciones": {
+      "A": "El Ejército Libertador del Sur",
+      "B": "Los Dorados de Villa",
+      "C": "Los Colorados",
+      "D": "Los Rurales exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0189",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evento de 1914, tras la caída de Huerta, reunió a las distintas facciones revolucionarias (villistas, zapatistas, carrancistas) para intentar unificar criterios sobre el futuro del país?",
+    "opciones": {
+      "A": "El Congreso de Chilpancingo",
+      "B": "El Plan de Agua Prieta",
+      "C": "La Convención de Aguascalientes",
+      "D": "El Congreso de Querétaro de 1917"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0190",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué ciudad se reunió el Congreso Constituyente que redactó la Constitución de 1917?",
+    "opciones": {
+      "A": "Aguascalientes",
+      "B": "Querétaro",
+      "C": "Ciudad de México",
+      "D": "Saltillo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0191",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué grupo de trabajadores, con apoyo del Estado, se organizó de forma importante durante el cardenismo, fortaleciendo el movimiento obrero mexicano?",
+    "opciones": {
+      "A": "La Confederación Nacional Campesina exclusivamente sin relación obrera",
+      "B": "El Sindicato Nacional de Trabajadores de la Educación (posterior)",
+      "C": "La Confederación de Trabajadores de México (CTM)",
+      "D": "El Partido Acción Nacional"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0192",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica tuvo el periodo posrevolucionario en cuanto a la consolidación de un partido político dominante en México durante gran parte del siglo XX?",
+    "opciones": {
+      "A": "Un sistema multipartidista equilibrado desde 1920",
+      "B": "La alternancia constante de múltiples partidos en igualdad de condiciones",
+      "C": "La ausencia total de partidos políticos organizados",
+      "D": "La formación y consolidación de un partido oficial (PNR, luego PRM y finalmente PRI) que dominó la vida política del país por décadas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0193",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacada revolucionaria participó activamente como enfermera, correo y a veces combatiente durante la Revolución, en un rol conocido colectivamente como 'las soldaderas'?",
+    "opciones": {
+      "A": "Las maestras rurales del cardenismo exclusivamente",
+      "B": "Las obreras de las fábricas porfirianas exclusivamente",
+      "C": "Las religiosas del Virreinato",
+      "D": "Las soldaderas (mujeres que acompañaban y apoyaban a los ejércitos revolucionarios)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0194",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué levantamiento campesino de 1911, encabezado por Emiliano Zapata, exigió el cumplimiento de las promesas agrarias que Madero no había implementado con suficiente rapidez?",
+    "opciones": {
+      "A": "El Plan de Guadalupe",
+      "B": "El Plan de San Luis",
+      "C": "El Plan de Agua Prieta",
+      "D": "El Plan de Ayala"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0195",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel jugó Francisco I. Madero antes de convertirse en el líder que derrocó a Porfirio Díaz?",
+    "opciones": {
+      "A": "Fue ministro de Hacienda de Porfirio Díaz",
+      "B": "Fue general del ejército porfirista",
+      "C": "Fue gobernador de Chihuahua durante el Porfiriato",
+      "D": "Fue un empresario y político que escribió el libro 'La sucesión presidencial en 1910', cuestionando la reelección de Díaz"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0196",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué documento firmado por Madero en 1910, tras ser encarcelado y huir a Estados Unidos, llamó a las armas contra la reelección de Porfirio Díaz?",
+    "opciones": {
+      "A": "El Plan de San Luis Potosí",
+      "B": "El Plan de Guadalupe",
+      "C": "El Plan de Ayala",
+      "D": "El Plan de Agua Prieta"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0197",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué acuerdo de 1911 puso fin a la primera etapa armada de la Revolución, pactando la renuncia de Porfirio Díaz?",
+    "opciones": {
+      "A": "El Plan de San Luis",
+      "B": "El Tratado de Córdoba",
+      "C": "Los Tratados de Ciudad Juárez",
+      "D": "El Plan de Ayala"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0198",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿A qué país se exilió Porfirio Díaz tras su renuncia en 1911?",
+    "opciones": {
+      "A": "Cuba",
+      "B": "Estados Unidos",
+      "C": "España",
+      "D": "Francia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0199",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué destacado revolucionario del estado de Sonora, junto con Obregón y Calles, formó parte del llamado 'Grupo Sonora' que dominó la política mexicana en los años 1920?",
+    "opciones": {
+      "A": "Francisco I. Madero",
+      "B": "Adolfo de la Huerta (junto a Obregón y Calles)",
+      "C": "Victoriano Huerta",
+      "D": "Venustiano Carranza"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  },
+  {
+    "id_reactivo": "HMX-0200",
+    "asignatura": "Historia de México",
+    "subtemario": "Porfiriato y Revolución Mexicana",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nombre recibió el conjunto de acuerdos entre el gobierno mexicano y la Iglesia católica que puso fin a la Guerra Cristera en 1929?",
+    "opciones": {
+      "A": "El Plan de Agua Prieta",
+      "B": "Los arreglos de 1929 (mediados por el embajador estadounidense Dwight Morrow)",
+      "C": "El Plan de Ayala",
+      "D": "Los Tratados de Ciudad Juárez"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental del Porfiriato y la Revolución Mexicana."
+  }
+]

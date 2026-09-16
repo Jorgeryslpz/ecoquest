@@ -24,18 +24,22 @@ async function getEstado(): Promise<Estado> {
   }
   try {
     const supabase = createServiceRoleClient();
-    const { data, error, count } = await supabase
-      .from("reactivos")
-      .select("asignatura", { count: "exact" });
 
-    if (error) return { tipo: "error", mensaje: error.message };
-
+    // Un count exacto por materia (head:true no trae filas, solo el total
+    // en el header) — evita el límite por defecto de PostgREST (~1000
+    // filas) que subcontaba al pedir todas las filas de una sola vez.
     const porMateria: Record<string, number> = {};
-    for (const m of MATERIAS) porMateria[m] = 0;
-    for (const row of data ?? []) {
-      porMateria[row.asignatura] = (porMateria[row.asignatura] ?? 0) + 1;
+    let total = 0;
+    for (const m of MATERIAS) {
+      const { count, error } = await supabase
+        .from("reactivos")
+        .select("*", { count: "exact", head: true })
+        .eq("asignatura", m);
+      if (error) return { tipo: "error", mensaje: error.message };
+      porMateria[m] = count ?? 0;
+      total += count ?? 0;
     }
-    return { tipo: "ok", total: count ?? data?.length ?? 0, porMateria };
+    return { tipo: "ok", total, porMateria };
   } catch (e) {
     return { tipo: "error", mensaje: e instanceof Error ? e.message : String(e) };
   }

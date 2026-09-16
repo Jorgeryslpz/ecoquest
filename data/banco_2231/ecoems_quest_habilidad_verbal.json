@@ -1,0 +1,3298 @@
+[
+  {
+    "id_reactivo": "HVER-0001",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Aunque estaba muy cansado, decidió ___ el trabajo antes de irse a dormir.\"",
+    "opciones": {
+      "A": "olvidar",
+      "B": "terminar",
+      "C": "abandonar",
+      "D": "posponer"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'terminar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0002",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El médico le recomendó ___ más agua durante el día para mantenerse hidratado.\"",
+    "opciones": {
+      "A": "calentar",
+      "B": "desechar",
+      "C": "beber",
+      "D": "evitar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'beber' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0003",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La biblioteca permanecerá ___ durante el periodo vacacional de diciembre.\"",
+    "opciones": {
+      "A": "iluminada",
+      "B": "decorada",
+      "C": "cerrada",
+      "D": "abierta"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'cerrada' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0004",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los científicos llevaron a cabo un experimento para ___ su hipótesis inicial.\"",
+    "opciones": {
+      "A": "ignorar",
+      "B": "comprobar",
+      "C": "inventar",
+      "D": "ocultar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'comprobar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0005",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Debido a la lluvia intensa, el partido de fútbol tuvo que ser ___ para el día siguiente.\"",
+    "opciones": {
+      "A": "transmitido",
+      "B": "ganado",
+      "C": "reprogramado",
+      "D": "iniciado"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'reprogramado' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0006",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El profesor pidió a los alumnos que ___ sus tareas antes del viernes.\"",
+    "opciones": {
+      "A": "entregaran",
+      "B": "rompieran",
+      "C": "quemaran",
+      "D": "perdieran"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'entregaran' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0007",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"A pesar de las dificultades económicas, la familia logró ___ sus metas.\"",
+    "opciones": {
+      "A": "negar",
+      "B": "esconder",
+      "C": "alcanzar",
+      "D": "abandonar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'alcanzar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0008",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El nuevo reglamento busca ___ la seguridad de los trabajadores en la fábrica.\"",
+    "opciones": {
+      "A": "garantizar",
+      "B": "ignorar",
+      "C": "eliminar",
+      "D": "reducir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'garantizar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0009",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Es importante ___ los recursos naturales para las futuras generaciones.\"",
+    "opciones": {
+      "A": "desperdiciar",
+      "B": "agotar",
+      "C": "contaminar",
+      "D": "conservar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'conservar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0010",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El testigo se negó a ___ información sobre lo ocurrido esa noche.\"",
+    "opciones": {
+      "A": "revelar",
+      "B": "inventar",
+      "C": "memorizar",
+      "D": "olvidar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'revelar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0011",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La empresa decidió ___ su producción tras el aumento en la demanda.\"",
+    "opciones": {
+      "A": "vender",
+      "B": "cancelar",
+      "C": "detener",
+      "D": "incrementar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'incrementar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0012",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los alpinistas tuvieron que ___ su expedición debido a las malas condiciones climáticas.\"",
+    "opciones": {
+      "A": "documentar",
+      "B": "acelerar",
+      "C": "suspender",
+      "D": "celebrar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'suspender' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0013",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El gobierno anunció nuevas medidas para ___ la inflación en el país.\"",
+    "opciones": {
+      "A": "festejar",
+      "B": "ignorar",
+      "C": "provocar",
+      "D": "controlar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'controlar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0014",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Su actitud ___ durante la reunión generó un ambiente de tensión entre los asistentes.\"",
+    "opciones": {
+      "A": "serena",
+      "B": "amable",
+      "C": "hostil",
+      "D": "alegre"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'hostil' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0015",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El artista dedicó años enteros a ___ su técnica antes de exponer su obra.\"",
+    "opciones": {
+      "A": "vender",
+      "B": "abandonar",
+      "C": "perfeccionar",
+      "D": "destruir"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'perfeccionar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0016",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La comunidad se organizó para ___ el parque después del huracán.\"",
+    "opciones": {
+      "A": "destruir",
+      "B": "reconstruir",
+      "C": "abandonar",
+      "D": "vender"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'reconstruir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0017",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El abogado presentó pruebas contundentes para ___ la inocencia de su cliente.\"",
+    "opciones": {
+      "A": "confundir",
+      "B": "negar",
+      "C": "demostrar",
+      "D": "ocultar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'demostrar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0018",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La vacuna ayuda a ___ el sistema inmunológico contra ciertas enfermedades.\"",
+    "opciones": {
+      "A": "ignorar",
+      "B": "debilitar",
+      "C": "eliminar",
+      "D": "fortalecer"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'fortalecer' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0019",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El escritor tardó cinco años en ___ su primera novela.\"",
+    "opciones": {
+      "A": "vender",
+      "B": "destruir",
+      "C": "concluir",
+      "D": "regalar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'concluir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0020",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los ingenieros diseñaron un puente capaz de ___ fuertes vientos.\"",
+    "opciones": {
+      "A": "provocar",
+      "B": "evitar",
+      "C": "ignorar",
+      "D": "resistir"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'resistir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0021",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La empresa tuvo que ___ a varios empleados debido a la crisis financiera.\"",
+    "opciones": {
+      "A": "premiar",
+      "B": "ascender",
+      "C": "contratar",
+      "D": "despedir"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'despedir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0022",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El niño mostró gran ___ al resolver el problema matemático sin ayuda.\"",
+    "opciones": {
+      "A": "habilidad",
+      "B": "indiferencia",
+      "C": "pereza",
+      "D": "torpeza"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'habilidad' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0023",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El equipo de rescate trabajó sin descanso para ___ a las personas atrapadas.\"",
+    "opciones": {
+      "A": "esconder",
+      "B": "abandonar",
+      "C": "localizar",
+      "D": "ignorar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'localizar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0024",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El acuerdo comercial busca ___ las relaciones económicas entre ambos países.\"",
+    "opciones": {
+      "A": "fortalecer",
+      "B": "ignorar",
+      "C": "romper",
+      "D": "complicar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'fortalecer' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0025",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La maestra explicó el tema con tanta claridad que todos pudieron ___ el concepto fácilmente.\"",
+    "opciones": {
+      "A": "comprender",
+      "B": "olvidar",
+      "C": "confundir",
+      "D": "ignorar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'comprender' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0026",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El agricultor decidió ___ nuevas técnicas para mejorar su cosecha.\"",
+    "opciones": {
+      "A": "rechazar",
+      "B": "ignorar",
+      "C": "abandonar",
+      "D": "implementar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'implementar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0027",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La falta de sueño puede ___ negativamente el rendimiento escolar.\"",
+    "opciones": {
+      "A": "mejorar",
+      "B": "ignorar",
+      "C": "afectar",
+      "D": "premiar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'afectar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0028",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El director pidió a su equipo que ___ el proyecto antes de la fecha límite.\"",
+    "opciones": {
+      "A": "olvidaran",
+      "B": "cancelaran",
+      "C": "perdieran",
+      "D": "finalizaran"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'finalizaran' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0029",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El científico publicó sus hallazgos para que otros pudieran ___ sus resultados.\"",
+    "opciones": {
+      "A": "inventar",
+      "B": "destruir",
+      "C": "verificar",
+      "D": "ocultar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'verificar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0030",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La ciudad implementó un programa para ___ el reciclaje entre sus habitantes.\"",
+    "opciones": {
+      "A": "ignorar",
+      "B": "castigar",
+      "C": "fomentar",
+      "D": "prohibir"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'fomentar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0031",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El equipo de investigadores decidió ___ sus resultados en una revista científica reconocida.\"",
+    "opciones": {
+      "A": "destruir",
+      "B": "ocultar",
+      "C": "publicar",
+      "D": "negar"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'publicar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0032",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La falta de comunicación puede ___ malentendidos entre los miembros de un equipo.\"",
+    "opciones": {
+      "A": "resolver",
+      "B": "eliminar",
+      "C": "evitar",
+      "D": "generar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'generar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0033",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El nuevo tratamiento médico logró ___ significativamente los síntomas de la enfermedad.\"",
+    "opciones": {
+      "A": "ignorar",
+      "B": "aumentar",
+      "C": "provocar",
+      "D": "reducir"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'reducir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0034",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los estudiantes deben ___ sus dudas antes de presentar el examen final.\"",
+    "opciones": {
+      "A": "ocultar",
+      "B": "ignorar",
+      "C": "inventar",
+      "D": "aclarar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'aclarar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0035",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El arquitecto propuso un diseño que permitiera ___ la luz natural dentro del edificio.\"",
+    "opciones": {
+      "A": "eliminar",
+      "B": "desperdiciar",
+      "C": "aprovechar",
+      "D": "bloquear"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'aprovechar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0036",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La empresa buscó ___ nuevas estrategias para atraer más clientes.\"",
+    "opciones": {
+      "A": "implementar",
+      "B": "olvidar",
+      "C": "rechazar",
+      "D": "prohibir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'implementar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0037",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El comité decidió ___ la propuesta después de analizar todos los detalles.\"",
+    "opciones": {
+      "A": "aprobar",
+      "B": "perder",
+      "C": "ignorar",
+      "D": "ocultar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'aprobar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0038",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los bomberos lograron ___ el incendio antes de que se propagara a otras casas.\"",
+    "opciones": {
+      "A": "provocar",
+      "B": "ignorar",
+      "C": "celebrar",
+      "D": "controlar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'controlar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0039",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El economista explicó cómo la inflación puede ___ el poder adquisitivo de las familias.\"",
+    "opciones": {
+      "A": "afectar",
+      "B": "mejorar",
+      "C": "premiar",
+      "D": "ignorar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'afectar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0040",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La maestra pidió a sus alumnos que ___ sus opiniones con respeto durante el debate.\"",
+    "opciones": {
+      "A": "prohibieran",
+      "B": "ocultaran",
+      "C": "expresaran",
+      "D": "olvidaran"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'expresaran' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0041",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El nuevo software permite ___ grandes cantidades de datos en poco tiempo.\"",
+    "opciones": {
+      "A": "procesar",
+      "B": "ocultar",
+      "C": "ignorar",
+      "D": "destruir"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'procesar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0042",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El equipo de ventas logró ___ sus metas trimestrales gracias a una nueva estrategia.\"",
+    "opciones": {
+      "A": "abandonar",
+      "B": "perder",
+      "C": "ignorar",
+      "D": "superar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'superar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0043",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los especialistas recomiendan ___ el consumo de azúcar para mantener una dieta saludable.\"",
+    "opciones": {
+      "A": "celebrar",
+      "B": "moderar",
+      "C": "ignorar",
+      "D": "aumentar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'moderar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0044",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El museo organizó una exposición para ___ la obra de artistas locales.\"",
+    "opciones": {
+      "A": "difundir",
+      "B": "destruir",
+      "C": "ocultar",
+      "D": "ignorar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'difundir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0045",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La ONG trabaja para ___ los derechos de las comunidades más vulnerables.\"",
+    "opciones": {
+      "A": "reducir",
+      "B": "eliminar",
+      "C": "ignorar",
+      "D": "proteger"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La palabra 'proteger' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0046",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El entrenador pidió a los jugadores que ___ su concentración durante todo el partido.\"",
+    "opciones": {
+      "A": "ignoraran",
+      "B": "perdieran",
+      "C": "mantuvieran",
+      "D": "olvidaran"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La palabra 'mantuvieran' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0047",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La universidad decidió ___ nuevas becas para estudiantes de bajos recursos.\"",
+    "opciones": {
+      "A": "eliminar",
+      "B": "otorgar",
+      "C": "cancelar",
+      "D": "negar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'otorgar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0048",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El biólogo marino se dedica a ___ el comportamiento de las ballenas en su hábitat natural.\"",
+    "opciones": {
+      "A": "estudiar",
+      "B": "destruir",
+      "C": "ignorar",
+      "D": "cazar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'estudiar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0049",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La compañía aérea tuvo que ___ varios vuelos debido a la tormenta.\"",
+    "opciones": {
+      "A": "confirmar",
+      "B": "cancelar",
+      "C": "acelerar",
+      "D": "duplicar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'cancelar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0050",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El gobierno lanzó una campaña para ___ la violencia en las escuelas.\"",
+    "opciones": {
+      "A": "prevenir",
+      "B": "celebrar",
+      "C": "fomentar",
+      "D": "ignorar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'prevenir' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0051",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"Los voluntarios se organizaron para ___ ayuda a los damnificados del terremoto.\"",
+    "opciones": {
+      "A": "brindar",
+      "B": "vender",
+      "C": "ocultar",
+      "D": "negar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'brindar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0052",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El escritor utilizó metáforas para ___ la belleza del paisaje descrito.\"",
+    "opciones": {
+      "A": "ignorar",
+      "B": "resaltar",
+      "C": "eliminar",
+      "D": "ocultar"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'resaltar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0053",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"La compañía tecnológica anunció que va a ___ una nueva versión de su aplicación.\"",
+    "opciones": {
+      "A": "lanzar",
+      "B": "cancelar",
+      "C": "ocultar",
+      "D": "eliminar"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La palabra 'lanzar' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0054",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Oraciones incompletas (completación de sentido)",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Completa la oración con la palabra más adecuada:\n\"El profesor de historia pidió a los alumnos que ___ los eventos en orden cronológico.\"",
+    "opciones": {
+      "A": "ignoraran",
+      "B": "ordenaran",
+      "C": "eliminaran",
+      "D": "confundieran"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La palabra 'ordenaran' es la que completa lógica y gramaticalmente la oración, manteniendo la coherencia del sentido general."
+  },
+  {
+    "id_reactivo": "HVER-0055",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El sistema circulatorio transporta la sangre por todo el cuerpo.\n- El corazón bombea la sangre a través de arterias y venas.\n- Las plantas realizan la fotosíntesis para producir su alimento.\n- Los glóbulos rojos llevan oxígeno a las células del organismo.",
+    "opciones": {
+      "A": "Las plantas realizan la fotosíntesis para producir su alimento.",
+      "B": "El corazón bombea la sangre a través de arterias y venas.",
+      "C": "El sistema circulatorio transporta la sangre por todo el cuerpo.",
+      "D": "Los glóbulos rojos llevan oxígeno a las células del organismo."
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0056",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La Revolución Industrial transformó los métodos de producción en Europa.\n- Las fábricas comenzaron a utilizar máquinas de vapor para aumentar su producción.\n- El fútbol es el deporte más popular del mundo.\n- Las ciudades crecieron rápidamente debido a la migración del campo a la industria.",
+    "opciones": {
+      "A": "La Revolución Industrial transformó los métodos de producción en Europa.",
+      "B": "El fútbol es el deporte más popular del mundo.",
+      "C": "Las ciudades crecieron rápidamente debido a la migración del campo a la industria.",
+      "D": "Las fábricas comenzaron a utilizar máquinas de vapor para aumentar su producción."
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0057",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El agua es esencial para la vida de todos los seres vivos.\n- Cubre aproximadamente el 70% de la superficie terrestre.\n- El chocolate se elabora a partir del cacao.\n- Los océanos regulan en gran medida el clima del planeta.",
+    "opciones": {
+      "A": "Cubre aproximadamente el 70% de la superficie terrestre.",
+      "B": "El agua es esencial para la vida de todos los seres vivos.",
+      "C": "El chocolate se elabora a partir del cacao.",
+      "D": "Los océanos regulan en gran medida el clima del planeta."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0058",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La Constitución mexicana establece los derechos fundamentales de los ciudadanos.\n- Fue promulgada en 1917, tras la Revolución Mexicana.\n- El limón contiene una alta cantidad de vitamina C.\n- Ha sido reformada en múltiples ocasiones desde su origen.",
+    "opciones": {
+      "A": "Ha sido reformada en múltiples ocasiones desde su origen.",
+      "B": "Fue promulgada en 1917, tras la Revolución Mexicana.",
+      "C": "El limón contiene una alta cantidad de vitamina C.",
+      "D": "La Constitución mexicana establece los derechos fundamentales de los ciudadanos."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0059",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- Los volcanes se forman por la acumulación de magma que emerge desde el interior de la Tierra.\n- Algunas erupciones pueden ser explosivas y liberar gran cantidad de ceniza.\n- Las matemáticas son fundamentales para el desarrollo de la tecnología.\n- El estudio de los volcanes se conoce como vulcanología.",
+    "opciones": {
+      "A": "Las matemáticas son fundamentales para el desarrollo de la tecnología.",
+      "B": "Los volcanes se forman por la acumulación de magma que emerge desde el interior de la Tierra.",
+      "C": "El estudio de los volcanes se conoce como vulcanología.",
+      "D": "Algunas erupciones pueden ser explosivas y liberar gran cantidad de ceniza."
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0060",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La Segunda Guerra Mundial finalizó en 1945 tras la rendición de Japón.\n- Provocó millones de muertes y una profunda transformación geopolítica mundial.\n- Los perros son considerados los mejores amigos del ser humano.\n- Al término del conflicto se fundó la Organización de las Naciones Unidas.",
+    "opciones": {
+      "A": "Al término del conflicto se fundó la Organización de las Naciones Unidas.",
+      "B": "La Segunda Guerra Mundial finalizó en 1945 tras la rendición de Japón.",
+      "C": "Los perros son considerados los mejores amigos del ser humano.",
+      "D": "Provocó millones de muertes y una profunda transformación geopolítica mundial."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0061",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El reciclaje ayuda a reducir la cantidad de residuos que llegan a los vertederos.\n- Separar los materiales orgánicos de los inorgánicos facilita este proceso.\n- La capital de Francia es París, una ciudad reconocida por su arte.\n- Reciclar el papel, el vidrio y el plástico contribuye al cuidado ambiental.",
+    "opciones": {
+      "A": "El reciclaje ayuda a reducir la cantidad de residuos que llegan a los vertederos.",
+      "B": "Separar los materiales orgánicos de los inorgánicos facilita este proceso.",
+      "C": "La capital de Francia es París, una ciudad reconocida por su arte.",
+      "D": "Reciclar el papel, el vidrio y el plástico contribuye al cuidado ambiental."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0062",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El sistema solar está compuesto por el Sol y los planetas que giran a su alrededor.\n- Mercurio es el planeta más cercano al Sol.\n- La Segunda Guerra Mundial finalizó en 1945.\n- Neptuno es el planeta más alejado del Sol conocido actualmente.",
+    "opciones": {
+      "A": "Neptuno es el planeta más alejado del Sol conocido actualmente.",
+      "B": "El sistema solar está compuesto por el Sol y los planetas que giran a su alrededor.",
+      "C": "La Segunda Guerra Mundial finalizó en 1945.",
+      "D": "Mercurio es el planeta más cercano al Sol."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0063",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- Los antibióticos se utilizan para combatir infecciones causadas por bacterias.\n- Su uso excesivo puede generar resistencia bacteriana.\n- El maratón es una carrera de larga distancia de 42 kilómetros.\n- Alexander Fleming descubrió la penicilina en 1928.",
+    "opciones": {
+      "A": "El maratón es una carrera de larga distancia de 42 kilómetros.",
+      "B": "Los antibióticos se utilizan para combatir infecciones causadas por bacterias.",
+      "C": "Alexander Fleming descubrió la penicilina en 1928.",
+      "D": "Su uso excesivo puede generar resistencia bacteriana."
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0064",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La Revolución Mexicana inició en 1910 contra la dictadura de Porfirio Díaz.\n- Buscaba mejores condiciones laborales y la redistribución de tierras.\n- El chocolate contiene antioxidantes beneficiosos para la salud.\n- Dio origen a la Constitución de 1917.",
+    "opciones": {
+      "A": "Dio origen a la Constitución de 1917.",
+      "B": "Buscaba mejores condiciones laborales y la redistribución de tierras.",
+      "C": "La Revolución Mexicana inició en 1910 contra la dictadura de Porfirio Díaz.",
+      "D": "El chocolate contiene antioxidantes beneficiosos para la salud."
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0065",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- Las abejas cumplen un papel esencial en la polinización de las plantas.\n- Sin ellas, muchos cultivos no podrían reproducirse adecuadamente.\n- El Everest es la montaña más alta del mundo.\n- La disminución de sus poblaciones preocupa a los científicos.",
+    "opciones": {
+      "A": "La disminución de sus poblaciones preocupa a los científicos.",
+      "B": "El Everest es la montaña más alta del mundo.",
+      "C": "Sin ellas, muchos cultivos no podrían reproducirse adecuadamente.",
+      "D": "Las abejas cumplen un papel esencial en la polinización de las plantas."
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0066",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El ciclo del agua incluye la evaporación, la condensación y la precipitación.\n- El calor del sol provoca que el agua se evapore de océanos y ríos.\n- La imprenta fue inventada por Johannes Gutenberg en el siglo XV.\n- El vapor de agua se condensa formando nubes en la atmósfera.",
+    "opciones": {
+      "A": "El vapor de agua se condensa formando nubes en la atmósfera.",
+      "B": "El calor del sol provoca que el agua se evapore de océanos y ríos.",
+      "C": "El ciclo del agua incluye la evaporación, la condensación y la precipitación.",
+      "D": "La imprenta fue inventada por Johannes Gutenberg en el siglo XV."
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0067",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El sistema nervioso central está formado por el encéfalo y la médula espinal.\n- Las neuronas transmiten información mediante impulsos eléctricos.\n- El café es una de las bebidas más consumidas en el mundo.\n- La comunicación entre neuronas ocurre en las sinapsis.",
+    "opciones": {
+      "A": "El sistema nervioso central está formado por el encéfalo y la médula espinal.",
+      "B": "El café es una de las bebidas más consumidas en el mundo.",
+      "C": "Las neuronas transmiten información mediante impulsos eléctricos.",
+      "D": "La comunicación entre neuronas ocurre en las sinapsis."
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0068",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La Constitución de 1917 estableció importantes derechos laborales en México.\n- El artículo 123 regula las condiciones de trabajo en el país.\n- El tenis es un deporte que se juega individualmente o en parejas.\n- También estableció la educación laica, gratuita y obligatoria.",
+    "opciones": {
+      "A": "El tenis es un deporte que se juega individualmente o en parejas.",
+      "B": "También estableció la educación laica, gratuita y obligatoria.",
+      "C": "El artículo 123 regula las condiciones de trabajo en el país.",
+      "D": "La Constitución de 1917 estableció importantes derechos laborales en México."
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0069",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- Los volcanes submarinos pueden formar nuevas islas con el tiempo.\n- Su actividad libera magma que se solidifica al contacto con el agua.\n- La lectura mejora el vocabulario y la comprensión del lenguaje.\n- Algunos archipiélagos se formaron gracias a este proceso geológico.",
+    "opciones": {
+      "A": "Los volcanes submarinos pueden formar nuevas islas con el tiempo.",
+      "B": "Su actividad libera magma que se solidifica al contacto con el agua.",
+      "C": "Algunos archipiélagos se formaron gracias a este proceso geológico.",
+      "D": "La lectura mejora el vocabulario y la comprensión del lenguaje."
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0070",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La Declaración Universal de los Derechos Humanos fue adoptada por la ONU en 1948.\n- Establece derechos básicos que corresponden a todas las personas.\n- El café se cultiva principalmente en climas tropicales y húmedos.\n- Ha servido de base para numerosas constituciones y tratados internacionales.",
+    "opciones": {
+      "A": "La Declaración Universal de los Derechos Humanos fue adoptada por la ONU en 1948.",
+      "B": "Ha servido de base para numerosas constituciones y tratados internacionales.",
+      "C": "El café se cultiva principalmente en climas tropicales y húmedos.",
+      "D": "Establece derechos básicos que corresponden a todas las personas."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0071",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- La fotosíntesis permite a las plantas producir su propio alimento.\n- Utiliza la luz solar, el agua y el dióxido de carbono como materias primas.\n- El baloncesto fue inventado por James Naismith en 1891.\n- Libera oxígeno como subproducto de este proceso.",
+    "opciones": {
+      "A": "La fotosíntesis permite a las plantas producir su propio alimento.",
+      "B": "Utiliza la luz solar, el agua y el dióxido de carbono como materias primas.",
+      "C": "El baloncesto fue inventado por James Naismith en 1891.",
+      "D": "Libera oxígeno como subproducto de este proceso."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0072",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- El Renacimiento fue un movimiento cultural surgido en Italia en el siglo XV.\n- Puso al ser humano y sus capacidades en el centro de la reflexión artística.\n- El desierto del Sahara es el desierto cálido más extenso del mundo.\n- Leonardo da Vinci es uno de sus máximos representantes.",
+    "opciones": {
+      "A": "Leonardo da Vinci es uno de sus máximos representantes.",
+      "B": "Puso al ser humano y sus capacidades en el centro de la reflexión artística.",
+      "C": "El desierto del Sahara es el desierto cálido más extenso del mundo.",
+      "D": "El Renacimiento fue un movimiento cultural surgido en Italia en el siglo XV."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0073",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Coherencia y cohesión textual",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Lee el siguiente conjunto de oraciones y determina cuál NO corresponde temáticamente al resto:\n- Los derechos humanos son inalienables e indivisibles.\n- Corresponden a toda persona sin distinción de origen o condición.\n- El bambú es una de las plantas de crecimiento más rápido del mundo.\n- Su protección es responsabilidad de los Estados y organismos internacionales.",
+    "opciones": {
+      "A": "Su protección es responsabilidad de los Estados y organismos internacionales.",
+      "B": "Los derechos humanos son inalienables e indivisibles.",
+      "C": "El bambú es una de las plantas de crecimiento más rápido del mundo.",
+      "D": "Corresponden a toda persona sin distinción de origen o condición."
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La oración señalada rompe la unidad temática del conjunto, ya que trata un tema distinto al que desarrollan las demás oraciones."
+  },
+  {
+    "id_reactivo": "HVER-0074",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Silencio es a ruido como paz es a ___",
+    "opciones": {
+      "A": "director",
+      "B": "llanto",
+      "C": "guerra",
+      "D": "aprender"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'silencio' y 'ruido' es de antonimia; de forma equivalente, 'paz' se relaciona con 'guerra'."
+  },
+  {
+    "id_reactivo": "HVER-0075",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Médico es a enfermo como abogado es a ___",
+    "opciones": {
+      "A": "tratamiento",
+      "B": "agua",
+      "C": "escenario",
+      "D": "cliente"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'médico' y 'enfermo' es de profesional y quien atiende; de forma equivalente, 'abogado' se relaciona con 'cliente'."
+  },
+  {
+    "id_reactivo": "HVER-0076",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Estudiante es a aprender como investigador es a ___",
+    "opciones": {
+      "A": "puerta",
+      "B": "avión",
+      "C": "capítulo",
+      "D": "descubrir"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'estudiante' y 'aprender' es de sujeto y su acción principal; de forma equivalente, 'investigador' se relaciona con 'descubrir'."
+  },
+  {
+    "id_reactivo": "HVER-0077",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Invierno es a frío como verano es a ___",
+    "opciones": {
+      "A": "seco",
+      "B": "calor",
+      "C": "escenario",
+      "D": "madera"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'invierno' y 'frío' es de estación y clima asociado; de forma equivalente, 'verano' se relaciona con 'calor'."
+  },
+  {
+    "id_reactivo": "HVER-0078",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Libro es a capítulo como edificio es a ___",
+    "opciones": {
+      "A": "cuadro",
+      "B": "seco",
+      "C": "llanto",
+      "D": "piso"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'libro' y 'capítulo' es de todo dividido en partes; de forma equivalente, 'edificio' se relaciona con 'piso'."
+  },
+  {
+    "id_reactivo": "HVER-0079",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Actor es a escenario como futbolista es a ___",
+    "opciones": {
+      "A": "cancha",
+      "B": "sol",
+      "C": "lento",
+      "D": "capítulo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'actor' y 'escenario' es de profesional y su lugar de desempeño; de forma equivalente, 'futbolista' se relaciona con 'cancha'."
+  },
+  {
+    "id_reactivo": "HVER-0080",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Miel es a abeja como leche es a ___",
+    "opciones": {
+      "A": "tardanza",
+      "B": "llanto",
+      "C": "capítulo",
+      "D": "vaca"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'miel' y 'abeja' es de producto y su origen animal; de forma equivalente, 'leche' se relaciona con 'vaca'."
+  },
+  {
+    "id_reactivo": "HVER-0081",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Ignorancia es a conocimiento como pobreza es a ___",
+    "opciones": {
+      "A": "frío",
+      "B": "riqueza",
+      "C": "escenario",
+      "D": "cima"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'ignorancia' y 'conocimiento' es de carencia y su opuesto; de forma equivalente, 'pobreza' se relaciona con 'riqueza'."
+  },
+  {
+    "id_reactivo": "HVER-0082",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Melodía es a compositor como novela es a ___",
+    "opciones": {
+      "A": "tardanza",
+      "B": "ruido",
+      "C": "escritor",
+      "D": "conocimiento"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'melodía' y 'compositor' es de obra y su creador; de forma equivalente, 'novela' se relaciona con 'escritor'."
+  },
+  {
+    "id_reactivo": "HVER-0083",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Desierto es a seco como selva es a ___",
+    "opciones": {
+      "A": "avión",
+      "B": "aprender",
+      "C": "húmedo",
+      "D": "compositor"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'desierto' y 'seco' es de ecosistema y su característica climática; de forma equivalente, 'selva' se relaciona con 'húmedo'."
+  },
+  {
+    "id_reactivo": "HVER-0084",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Piloto es a avión como conductor es a ___",
+    "opciones": {
+      "A": "seco",
+      "B": "escenario",
+      "C": "frío",
+      "D": "automóvil"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'piloto' y 'avión' es de persona y el vehículo que opera; de forma equivalente, 'conductor' se relaciona con 'automóvil'."
+  },
+  {
+    "id_reactivo": "HVER-0085",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Dolor es a analgésico como infección es a ___",
+    "opciones": {
+      "A": "avión",
+      "B": "escenario",
+      "C": "cima",
+      "D": "antibiótico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'dolor' y 'analgésico' es de malestar y su tratamiento; de forma equivalente, 'infección' se relaciona con 'antibiótico'."
+  },
+  {
+    "id_reactivo": "HVER-0086",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Veloz es a lento como abundante es a ___",
+    "opciones": {
+      "A": "director",
+      "B": "escaso",
+      "C": "aprender",
+      "D": "tratamiento"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'veloz' y 'lento' es de antonimia de cantidad o velocidad; de forma equivalente, 'abundante' se relaciona con 'escaso'."
+  },
+  {
+    "id_reactivo": "HVER-0087",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Puntual es a tardanza como honesto es a ___",
+    "opciones": {
+      "A": "engaño",
+      "B": "capítulo",
+      "C": "conocimiento",
+      "D": "llanto"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La relación entre 'puntual' y 'tardanza' es de virtud y su opuesto; de forma equivalente, 'honesto' se relaciona con 'engaño'."
+  },
+  {
+    "id_reactivo": "HVER-0088",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Orquesta es a director como equipo es a ___",
+    "opciones": {
+      "A": "aprender",
+      "B": "ruido",
+      "C": "entrenador",
+      "D": "llanto"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'orquesta' y 'director' es de grupo y quien lo dirige; de forma equivalente, 'equipo' se relaciona con 'entrenador'."
+  },
+  {
+    "id_reactivo": "HVER-0089",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Sed es a agua como hambre es a ___",
+    "opciones": {
+      "A": "escenario",
+      "B": "comida",
+      "C": "enfermo",
+      "D": "abeja"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'sed' y 'agua' es de necesidad y lo que la satisface; de forma equivalente, 'hambre' se relaciona con 'comida'."
+  },
+  {
+    "id_reactivo": "HVER-0090",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Llave es a puerta como contraseña es a ___",
+    "opciones": {
+      "A": "director",
+      "B": "cuenta digital",
+      "C": "frío",
+      "D": "madera"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'llave' y 'puerta' es de objeto que da acceso a algo; de forma equivalente, 'contraseña' se relaciona con 'cuenta digital'."
+  },
+  {
+    "id_reactivo": "HVER-0091",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Semilla es a árbol como huevo es a ___",
+    "opciones": {
+      "A": "tratamiento",
+      "B": "ave",
+      "C": "llanto",
+      "D": "abeja"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'semilla' y 'árbol' es de origen y resultado del desarrollo; de forma equivalente, 'huevo' se relaciona con 'ave'."
+  },
+  {
+    "id_reactivo": "HVER-0092",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Triste es a llanto como feliz es a ___",
+    "opciones": {
+      "A": "avión",
+      "B": "risa",
+      "C": "tratamiento",
+      "D": "árbol"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La relación entre 'triste' y 'llanto' es de emoción y su expresión física; de forma equivalente, 'feliz' se relaciona con 'risa'."
+  },
+  {
+    "id_reactivo": "HVER-0093",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Carpintero es a madera como sastre es a ___",
+    "opciones": {
+      "A": "analgésico",
+      "B": "director",
+      "C": "sol",
+      "D": "tela"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'carpintero' y 'madera' es de oficio y material con el que trabaja; de forma equivalente, 'sastre' se relaciona con 'tela'."
+  },
+  {
+    "id_reactivo": "HVER-0094",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Día es a sol como noche es a ___",
+    "opciones": {
+      "A": "capítulo",
+      "B": "avión",
+      "C": "escenario",
+      "D": "luna"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La relación entre 'día' y 'sol' es de periodo y astro asociado; de forma equivalente, 'noche' se relaciona con 'luna'."
+  },
+  {
+    "id_reactivo": "HVER-0095",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Enfermedad es a tratamiento como problema es a ___",
+    "opciones": {
+      "A": "lento",
+      "B": "árbol",
+      "C": "solución",
+      "D": "capítulo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'enfermedad' y 'tratamiento' es de situación negativa y su remedio; de forma equivalente, 'problema' se relaciona con 'solución'."
+  },
+  {
+    "id_reactivo": "HVER-0096",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Pintor es a cuadro como poeta es a ___",
+    "opciones": {
+      "A": "ruido",
+      "B": "seco",
+      "C": "poema",
+      "D": "abeja"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'pintor' y 'cuadro' es de creador y su obra; de forma equivalente, 'poeta' se relaciona con 'poema'."
+  },
+  {
+    "id_reactivo": "HVER-0097",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Analogías verbales y relaciones lógicas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "Montaña es a cima como río es a ___",
+    "opciones": {
+      "A": "capítulo",
+      "B": "puerta",
+      "C": "desembocadura",
+      "D": "sol"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La relación entre 'montaña' y 'cima' es de elemento geográfico y su punto final; de forma equivalente, 'río' se relaciona con 'desembocadura'."
+  },
+  {
+    "id_reactivo": "HVER-0098",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Los arrecifes de coral, a pesar de ocupar menos del 1% del fondo oceánico, albergan aproximadamente una cuarta parte de todas las especies marinas conocidas, lo que los convierte en uno de los ecosistemas más biodiversos del planeta. Sin embargo, el aumento en la temperatura del agua debido al cambio climático ha provocado episodios de blanqueamiento coralino, un fenómeno en el que los corales expulsan las algas que les proporcionan alimento y color, lo que puede llevarlos a la muerte si la condición persiste por tiempo prolongado.",
+    "enunciado": "¿Qué es el blanqueamiento coralino, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Un método utilizado para limpiar los arrecifes",
+      "B": "Un fenómeno en el que los corales expulsan las algas que les dan alimento y color, debido al aumento de temperatura",
+      "C": "Un tipo de coloración permanente de los corales",
+      "D": "Un proceso natural de reproducción de los corales"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0099",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El estrés académico es una respuesta emocional y física que experimentan muchos estudiantes ante las exigencias escolares, como exámenes, tareas y proyectos con fechas límite ajustadas. Si bien cierto nivel de estrés puede motivar el desempeño, niveles excesivos y prolongados pueden afectar negativamente la concentración, la memoria y la salud general. Expertos recomiendan técnicas como la organización del tiempo, el ejercicio físico regular y el descanso adecuado para manejarlo de forma saludable.",
+    "enunciado": "¿Qué recomendaciones se mencionan para manejar el estrés académico?",
+    "opciones": {
+      "A": "Aumentar la carga de trabajo sin ninguna pausa",
+      "B": "Organización del tiempo, ejercicio físico regular y descanso adecuado",
+      "C": "Eliminar por completo las horas de sueño",
+      "D": "Evitar cualquier tipo de actividad física"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0100",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El estrés académico es una respuesta emocional y física que experimentan muchos estudiantes ante las exigencias escolares, como exámenes, tareas y proyectos con fechas límite ajustadas. Si bien cierto nivel de estrés puede motivar el desempeño, niveles excesivos y prolongados pueden afectar negativamente la concentración, la memoria y la salud general. Expertos recomiendan técnicas como la organización del tiempo, el ejercicio físico regular y el descanso adecuado para manejarlo de forma saludable.",
+    "enunciado": "¿Qué es el estrés académico, según el texto?",
+    "opciones": {
+      "A": "Una respuesta emocional y física ante las exigencias escolares",
+      "B": "Un método de estudio recomendado",
+      "C": "Un tipo de enfermedad contagiosa",
+      "D": "Un sinónimo de motivación exclusivamente positiva"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0101",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El estrés académico es una respuesta emocional y física que experimentan muchos estudiantes ante las exigencias escolares, como exámenes, tareas y proyectos con fechas límite ajustadas. Si bien cierto nivel de estrés puede motivar el desempeño, niveles excesivos y prolongados pueden afectar negativamente la concentración, la memoria y la salud general. Expertos recomiendan técnicas como la organización del tiempo, el ejercicio físico regular y el descanso adecuado para manejarlo de forma saludable.",
+    "enunciado": "¿Qué efecto puede tener el estrés excesivo y prolongado, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Mejorar automáticamente el rendimiento académico",
+      "B": "Aumentar la capacidad de memoria de forma permanente",
+      "C": "Afectar negativamente la concentración, la memoria y la salud general",
+      "D": "No tener ningún efecto en el organismo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0102",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La procrastinación, entendida como el hábito de posponer tareas importantes por otras de menor relevancia o más placenteras, afecta a estudiantes y profesionales por igual. Diversos estudios sugieren que no se trata simplemente de pereza, sino de una estrategia inconsciente para evitar la ansiedad asociada a una tarea. Entre las técnicas más recomendadas para combatirla se encuentran dividir las tareas grandes en pasos pequeños y establecer plazos parciales antes de la fecha límite final.",
+    "enunciado": "¿Qué es la procrastinación, según el texto?",
+    "opciones": {
+      "A": "Una técnica de estudio recomendada",
+      "B": "El hábito de posponer tareas importantes por otras de menor relevancia",
+      "C": "Un sinónimo de pereza sin ninguna otra explicación",
+      "D": "Un tipo de trastorno del sueño"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0103",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El comercio justo es un modelo de intercambio comercial que busca condiciones más equitativas para los productores, especialmente en países en desarrollo. A diferencia del comercio convencional, este esquema garantiza un precio mínimo a los productores, independientemente de las fluctuaciones del mercado internacional, además de promover condiciones laborales dignas y prácticas ambientalmente sostenibles. Productos como el café, el cacao y el plátano suelen comercializarse bajo esta certificación.",
+    "enunciado": "¿Qué productos se mencionan como ejemplos comercializados bajo este esquema?",
+    "opciones": {
+      "A": "Automóviles y maquinaria industrial",
+      "B": "Petróleo y gas natural",
+      "C": "Café, cacao y plátano",
+      "D": "Productos tecnológicos y electrónicos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0104",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La procrastinación, entendida como el hábito de posponer tareas importantes por otras de menor relevancia o más placenteras, afecta a estudiantes y profesionales por igual. Diversos estudios sugieren que no se trata simplemente de pereza, sino de una estrategia inconsciente para evitar la ansiedad asociada a una tarea. Entre las técnicas más recomendadas para combatirla se encuentran dividir las tareas grandes en pasos pequeños y establecer plazos parciales antes de la fecha límite final.",
+    "enunciado": "¿Qué técnica se menciona en el texto para combatir la procrastinación?",
+    "opciones": {
+      "A": "Realizar todas las tareas al mismo tiempo",
+      "B": "Dividir las tareas grandes en pasos pequeños y establecer plazos parciales",
+      "C": "Evitar cualquier tipo de planeación",
+      "D": "Dejar todas las tareas para el último momento sin ninguna estrategia"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0105",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Los arrecifes de coral, a pesar de ocupar menos del 1% del fondo oceánico, albergan aproximadamente una cuarta parte de todas las especies marinas conocidas, lo que los convierte en uno de los ecosistemas más biodiversos del planeta. Sin embargo, el aumento en la temperatura del agua debido al cambio climático ha provocado episodios de blanqueamiento coralino, un fenómeno en el que los corales expulsan las algas que les proporcionan alimento y color, lo que puede llevarlos a la muerte si la condición persiste por tiempo prolongado.",
+    "enunciado": "¿Qué proporción de especies marinas conocidas albergan los arrecifes de coral?",
+    "opciones": {
+      "A": "Menos del 1%",
+      "B": "Aproximadamente una cuarta parte",
+      "C": "La totalidad de las especies marinas",
+      "D": "Alrededor de la mitad"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0106",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El insomnio crónico es un trastorno del sueño que afecta la capacidad de una persona para conciliar o mantener el sueño de manera regular, durante un periodo prolongado. Sus causas pueden ser múltiples, desde el estrés y la ansiedad hasta hábitos inadecuados antes de dormir, como el uso excesivo de dispositivos electrónicos. Entre las recomendaciones más comunes para mejorar la calidad del sueño se encuentran mantener horarios regulares para dormir y evitar el consumo de cafeína en las horas previas al descanso.",
+    "enunciado": "¿Qué hábito se menciona como causa posible del insomnio?",
+    "opciones": {
+      "A": "Mantener horarios regulares de sueño",
+      "B": "El uso excesivo de dispositivos electrónicos antes de dormir",
+      "C": "Hacer ejercicio moderado durante el día",
+      "D": "Dormir en un cuarto oscuro"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0107",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La inteligencia artificial (IA) ha comenzado a transformar diversas industrias, desde la medicina hasta la educación, al permitir el análisis de grandes volúmenes de información en tiempos considerablemente menores que los que requeriría un ser humano. Sin embargo, su implementación también plantea desafíos éticos importantes, como la privacidad de los datos y el posible reemplazo de empleos tradicionales. Por ello, diversos organismos internacionales han comenzado a discutir marcos regulatorios para su desarrollo responsable.",
+    "enunciado": "¿Qué están discutiendo diversos organismos internacionales respecto a la IA, de acuerdo con el texto?",
+    "opciones": {
+      "A": "La prohibición total de cualquier tecnología digital",
+      "B": "Marcos regulatorios para su desarrollo responsable",
+      "C": "La creación de un único gobierno mundial",
+      "D": "La eliminación de todos los empleos existentes"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0108",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La inteligencia artificial (IA) ha comenzado a transformar diversas industrias, desde la medicina hasta la educación, al permitir el análisis de grandes volúmenes de información en tiempos considerablemente menores que los que requeriría un ser humano. Sin embargo, su implementación también plantea desafíos éticos importantes, como la privacidad de los datos y el posible reemplazo de empleos tradicionales. Por ello, diversos organismos internacionales han comenzado a discutir marcos regulatorios para su desarrollo responsable.",
+    "enunciado": "¿Qué desafíos éticos plantea la IA, según el texto?",
+    "opciones": {
+      "A": "La eliminación total del uso de energía eléctrica",
+      "B": "La mejora automática de la salud mundial sin ningún riesgo",
+      "C": "La privacidad de los datos y el posible reemplazo de empleos tradicionales",
+      "D": "La reducción de la población mundial"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0109",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El insomnio crónico es un trastorno del sueño que afecta la capacidad de una persona para conciliar o mantener el sueño de manera regular, durante un periodo prolongado. Sus causas pueden ser múltiples, desde el estrés y la ansiedad hasta hábitos inadecuados antes de dormir, como el uso excesivo de dispositivos electrónicos. Entre las recomendaciones más comunes para mejorar la calidad del sueño se encuentran mantener horarios regulares para dormir y evitar el consumo de cafeína en las horas previas al descanso.",
+    "enunciado": "¿Qué es el insomnio crónico, según el texto?",
+    "opciones": {
+      "A": "Un sinónimo de descanso adecuado",
+      "B": "Una técnica de relajación recomendada",
+      "C": "Un trastorno que afecta la capacidad de conciliar o mantener el sueño de manera regular por un periodo prolongado",
+      "D": "Un tipo de alimentación saludable"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0110",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La economía circular es un modelo de producción y consumo que busca extender el ciclo de vida de los productos mediante prácticas como la reutilización, la reparación y el reciclaje, en contraste con el modelo lineal tradicional de 'producir, usar y desechar'. Este enfoque busca reducir la generación de residuos y el consumo de materias primas vírgenes, generando beneficios tanto ambientales como económicos. Diversas empresas alrededor del mundo han comenzado a adoptar estrategias de economía circular en sus procesos productivos.",
+    "enunciado": "¿Con qué modelo contrasta la economía circular, de acuerdo con el texto?",
+    "opciones": {
+      "A": "El modelo de libre mercado",
+      "B": "El modelo de economía planificada",
+      "C": "El modelo de comercio justo",
+      "D": "El modelo lineal tradicional de 'producir, usar y desechar'"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0111",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El comercio justo es un modelo de intercambio comercial que busca condiciones más equitativas para los productores, especialmente en países en desarrollo. A diferencia del comercio convencional, este esquema garantiza un precio mínimo a los productores, independientemente de las fluctuaciones del mercado internacional, además de promover condiciones laborales dignas y prácticas ambientalmente sostenibles. Productos como el café, el cacao y el plátano suelen comercializarse bajo esta certificación.",
+    "enunciado": "¿Qué garantiza el comercio justo a los productores, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Un precio mínimo, independientemente de las fluctuaciones del mercado",
+      "B": "Un monopolio total sobre su producto",
+      "C": "Ganancias ilimitadas sin ningún control",
+      "D": "La eliminación de cualquier tipo de competencia"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0112",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El insomnio crónico es un trastorno del sueño que afecta la capacidad de una persona para conciliar o mantener el sueño de manera regular, durante un periodo prolongado. Sus causas pueden ser múltiples, desde el estrés y la ansiedad hasta hábitos inadecuados antes de dormir, como el uso excesivo de dispositivos electrónicos. Entre las recomendaciones más comunes para mejorar la calidad del sueño se encuentran mantener horarios regulares para dormir y evitar el consumo de cafeína en las horas previas al descanso.",
+    "enunciado": "¿Qué recomendación se menciona en el texto para mejorar la calidad del sueño?",
+    "opciones": {
+      "A": "Mantener horarios regulares para dormir y evitar la cafeína antes de descansar",
+      "B": "Consumir cafeína antes de dormir",
+      "C": "Dormir en horarios completamente distintos cada día",
+      "D": "Usar dispositivos electrónicos hasta quedarse dormido"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0113",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La procrastinación, entendida como el hábito de posponer tareas importantes por otras de menor relevancia o más placenteras, afecta a estudiantes y profesionales por igual. Diversos estudios sugieren que no se trata simplemente de pereza, sino de una estrategia inconsciente para evitar la ansiedad asociada a una tarea. Entre las técnicas más recomendadas para combatirla se encuentran dividir las tareas grandes en pasos pequeños y establecer plazos parciales antes de la fecha límite final.",
+    "enunciado": "¿Qué sugieren los estudios sobre la causa real de la procrastinación?",
+    "opciones": {
+      "A": "Que se debe únicamente a la falta de inteligencia",
+      "B": "Que puede ser una estrategia inconsciente para evitar la ansiedad de una tarea",
+      "C": "Que no tiene ninguna explicación psicológica",
+      "D": "Que es un comportamiento exclusivo de los adolescentes"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0114",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La inteligencia artificial (IA) ha comenzado a transformar diversas industrias, desde la medicina hasta la educación, al permitir el análisis de grandes volúmenes de información en tiempos considerablemente menores que los que requeriría un ser humano. Sin embargo, su implementación también plantea desafíos éticos importantes, como la privacidad de los datos y el posible reemplazo de empleos tradicionales. Por ello, diversos organismos internacionales han comenzado a discutir marcos regulatorios para su desarrollo responsable.",
+    "enunciado": "¿Qué capacidad de la inteligencia artificial se menciona en el texto?",
+    "opciones": {
+      "A": "El análisis de grandes volúmenes de información en tiempos menores que un ser humano",
+      "B": "La eliminación completa de la privacidad de los datos",
+      "C": "La sustitución total de la educación tradicional",
+      "D": "La creación exclusiva de obras de arte"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0115",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La economía circular es un modelo de producción y consumo que busca extender el ciclo de vida de los productos mediante prácticas como la reutilización, la reparación y el reciclaje, en contraste con el modelo lineal tradicional de 'producir, usar y desechar'. Este enfoque busca reducir la generación de residuos y el consumo de materias primas vírgenes, generando beneficios tanto ambientales como económicos. Diversas empresas alrededor del mundo han comenzado a adoptar estrategias de economía circular en sus procesos productivos.",
+    "enunciado": "¿Qué tipo de beneficios genera la economía circular, según el texto?",
+    "opciones": {
+      "A": "Solamente beneficios para las grandes empresas",
+      "B": "Únicamente beneficios políticos",
+      "C": "Ningún beneficio significativo",
+      "D": "Beneficios tanto ambientales como económicos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0116",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "La economía circular es un modelo de producción y consumo que busca extender el ciclo de vida de los productos mediante prácticas como la reutilización, la reparación y el reciclaje, en contraste con el modelo lineal tradicional de 'producir, usar y desechar'. Este enfoque busca reducir la generación de residuos y el consumo de materias primas vírgenes, generando beneficios tanto ambientales como económicos. Diversas empresas alrededor del mundo han comenzado a adoptar estrategias de economía circular en sus procesos productivos.",
+    "enunciado": "¿Qué busca la economía circular, según el texto?",
+    "opciones": {
+      "A": "Extender el ciclo de vida de los productos mediante reutilización, reparación y reciclaje",
+      "B": "Aumentar la producción de residuos",
+      "C": "Eliminar por completo la producción industrial",
+      "D": "Fomentar el modelo de 'producir, usar y desechar'"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0117",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "El comercio justo es un modelo de intercambio comercial que busca condiciones más equitativas para los productores, especialmente en países en desarrollo. A diferencia del comercio convencional, este esquema garantiza un precio mínimo a los productores, independientemente de las fluctuaciones del mercado internacional, además de promover condiciones laborales dignas y prácticas ambientalmente sostenibles. Productos como el café, el cacao y el plátano suelen comercializarse bajo esta certificación.",
+    "enunciado": "¿Qué busca el comercio justo, según el texto?",
+    "opciones": {
+      "A": "Condiciones más equitativas para los productores, especialmente en países en desarrollo",
+      "B": "Reducir los precios pagados a los productores",
+      "C": "Maximizar las ganancias de los intermediarios comerciales",
+      "D": "Eliminar por completo el comercio internacional"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0118",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Comprensión de lectura",
+    "dificultad": "media",
+    "texto_lectura": "Los arrecifes de coral, a pesar de ocupar menos del 1% del fondo oceánico, albergan aproximadamente una cuarta parte de todas las especies marinas conocidas, lo que los convierte en uno de los ecosistemas más biodiversos del planeta. Sin embargo, el aumento en la temperatura del agua debido al cambio climático ha provocado episodios de blanqueamiento coralino, un fenómeno en el que los corales expulsan las algas que les proporcionan alimento y color, lo que puede llevarlos a la muerte si la condición persiste por tiempo prolongado.",
+    "enunciado": "¿Qué porcentaje del fondo oceánico ocupan los arrecifes de coral, según el texto?",
+    "opciones": {
+      "A": "Cerca del 10%",
+      "B": "Más del 50%",
+      "C": "Aproximadamente el 25%",
+      "D": "Menos del 1%"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en la información presentada en el texto."
+  },
+  {
+    "id_reactivo": "HVER-0119",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 28] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "c → b → a → d",
+      "B": "a → b → c → d",
+      "C": "b → d → c → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0120",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 48] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "c → d → a → b",
+      "B": "b → d → c → a",
+      "C": "b → c → d → a",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0121",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 44] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "b → d → c → a",
+      "C": "b → c → d → a",
+      "D": "d → c → a → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0122",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 29] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "d → a → c → b",
+      "B": "c → d → b → a",
+      "C": "b → c → d → a",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0123",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 45] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "a → c → d → b",
+      "B": "b → a → d → c",
+      "C": "b → c → d → a",
+      "D": "d → a → c → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0124",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 13] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "a → c → b → d",
+      "B": "d → c → a → b",
+      "C": "d → b → c → a",
+      "D": "b → d → c → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0125",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 6] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "b → c → a → d",
+      "C": "d → b → a → c",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0126",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 30] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "c → a → b → d",
+      "B": "a → c → d → b",
+      "C": "b → c → d → a",
+      "D": "d → c → a → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0127",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 4] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "a → b → c → d",
+      "B": "b → d → a → c",
+      "C": "b → c → d → a",
+      "D": "d → c → a → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0128",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 33] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "c → a → d → b",
+      "B": "a → d → b → c",
+      "C": "c → d → a → b",
+      "D": "b → d → c → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0129",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 32] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → c → a → b",
+      "B": "c → b → d → a",
+      "C": "b → c → d → a",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0130",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 47] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "d → c → a → b",
+      "B": "b → c → d → a",
+      "C": "b → d → c → a",
+      "D": "d → c → b → a"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0131",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 8] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "d → b → a → c",
+      "C": "c → b → a → d",
+      "D": "a → b → c → d"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0132",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 37] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → a → c → d",
+      "B": "d → c → a → b",
+      "C": "b → d → c → a",
+      "D": "d → b → c → a"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0133",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 17] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "c → b → a → d",
+      "C": "a → c → d → b",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0134",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 39] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "b → c → d → a",
+      "C": "d → a → c → b",
+      "D": "c → b → d → a"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0135",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 48] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "d → c → a → b",
+      "B": "b → d → a → c",
+      "C": "c → d → a → b",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0136",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 36] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "c → a → d → b",
+      "B": "b → c → d → a",
+      "C": "c → a → b → d",
+      "D": "a → c → b → d"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0137",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 30] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "a → d → c → b",
+      "B": "b → d → c → a",
+      "C": "b → a → d → c",
+      "D": "d → c → a → b"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0138",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 5] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → b → a → c",
+      "B": "c → b → a → d",
+      "C": "b → c → d → a",
+      "D": "b → a → d → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0139",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 46] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "c → b → a → d",
+      "C": "c → d → a → b",
+      "D": "b → c → a → d"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0140",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 9] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "b → d → c → a",
+      "B": "b → c → d → a",
+      "C": "c → d → b → a",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0141",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 47] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "b → d → c → a",
+      "C": "a → d → b → c",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0142",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 27] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → b → c → a",
+      "B": "c → d → a → b",
+      "C": "b → c → d → a",
+      "D": "c → b → d → a"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0143",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 16] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "c → b → a → d",
+      "B": "c → a → d → b",
+      "C": "b → c → d → a",
+      "D": "a → d → c → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0144",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 28] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "a → d → b → c",
+      "B": "b → c → d → a",
+      "C": "b → d → c → a",
+      "D": "a → b → d → c"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0145",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 2] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "d → b → a → c",
+      "B": "b → a → c → d",
+      "C": "b → c → d → a",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0146",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 29] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "a → c → b → d",
+      "B": "a → b → c → d",
+      "C": "b → d → c → a",
+      "D": "b → d → a → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0147",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 1] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "d → c → b → a",
+      "C": "a → b → c → d",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0148",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 40] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → c → b → d",
+      "C": "b → a → c → d",
+      "D": "c → d → b → a"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0149",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 43] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → c → b → d",
+      "C": "a → b → d → c",
+      "D": "b → a → c → d"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0150",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 24] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "d → b → a → c",
+      "B": "b → c → d → a",
+      "C": "b → a → d → c",
+      "D": "d → c → b → a"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0151",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 26] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "b → d → c → a",
+      "C": "c → d → a → b",
+      "D": "b → d → a → c"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0152",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 18] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → a → c → b",
+      "B": "a → c → d → b",
+      "C": "b → c → d → a",
+      "D": "c → a → b → d"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0153",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 7] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → c → a → d",
+      "B": "a → d → c → b",
+      "C": "b → c → d → a",
+      "D": "d → b → c → a"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0154",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 44] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "a → d → b → c",
+      "B": "d → a → b → c",
+      "C": "b → a → d → c",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0155",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 28] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "b → a → d → c",
+      "C": "b → c → a → d",
+      "D": "c → d → b → a"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0156",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 38] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → d → c → a",
+      "B": "a → b → c → d",
+      "C": "a → b → d → c",
+      "D": "d → a → b → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0157",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 19] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → d → c → b",
+      "C": "c → d → a → b",
+      "D": "c → d → b → a"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0158",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 22] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "c → a → d → b",
+      "B": "c → a → b → d",
+      "C": "d → b → c → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0159",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 37] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "a → b → d → c",
+      "B": "b → c → a → d",
+      "C": "c → d → b → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0160",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 16] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "c → b → a → d",
+      "B": "b → c → d → a",
+      "C": "c → a → b → d",
+      "D": "d → c → b → a"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0161",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 32] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "c → a → d → b",
+      "B": "b → c → d → a",
+      "C": "d → c → b → a",
+      "D": "d → c → a → b"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0162",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 46] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → c → a → d",
+      "B": "d → b → c → a",
+      "C": "b → c → d → a",
+      "D": "c → a → b → d"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0163",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 43] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "a → b → d → c",
+      "B": "b → c → d → a",
+      "C": "d → c → a → b",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0164",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 6] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → d → c → a",
+      "B": "c → b → a → d",
+      "C": "b → c → a → d",
+      "D": "a → c → d → b"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0165",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 46] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → c → a → b",
+      "B": "c → a → b → d",
+      "C": "b → d → c → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0166",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 6] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "a → d → b → c",
+      "B": "b → c → a → d",
+      "C": "b → c → d → a",
+      "D": "b → a → c → d"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0167",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 2] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "d → c → b → a",
+      "B": "b → c → a → d",
+      "C": "d → a → c → b",
+      "D": "b → d → c → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0168",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 44] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → d → a → c",
+      "B": "b → a → c → d",
+      "C": "b → c → d → a",
+      "D": "d → b → a → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0169",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 30] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "b → a → d → c",
+      "C": "c → d → a → b",
+      "D": "d → a → b → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0170",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 31] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "c → b → d → a",
+      "B": "b → c → a → d",
+      "C": "b → c → d → a",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0171",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 44] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "a → c → b → d",
+      "B": "b → a → c → d",
+      "C": "a → d → b → c",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0172",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 27] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "d → c → b → a",
+      "B": "b → d → c → a",
+      "C": "a → d → c → b",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0173",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 49] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → b → c → a",
+      "B": "a → c → b → d",
+      "C": "d → b → a → c",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0174",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 3] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "c → d → a → b",
+      "B": "a → d → b → c",
+      "C": "b → c → d → a",
+      "D": "b → a → d → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0175",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 18] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "d → c → b → a",
+      "B": "b → c → d → a",
+      "C": "a → b → d → c",
+      "D": "a → b → c → d"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0176",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 13] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "c → d → b → a",
+      "C": "d → a → b → c",
+      "D": "b → d → a → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0177",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 50] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "d → c → a → b",
+      "B": "d → c → b → a",
+      "C": "b → d → a → c",
+      "D": "b → d → c → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0178",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 21] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → d → c → b",
+      "C": "d → b → c → a",
+      "D": "d → c → a → b"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0179",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 48] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → c → b → a",
+      "B": "d → b → a → c",
+      "C": "c → b → d → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0180",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 9] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "b → d → c → a",
+      "C": "d → a → b → c",
+      "D": "d → a → c → b"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0181",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 22] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "c → a → b → d",
+      "B": "b → c → d → a",
+      "C": "c → b → d → a",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0182",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 47] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "c → d → b → a",
+      "C": "b → c → a → d",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0183",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 47] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → a → c → b",
+      "B": "d → b → a → c",
+      "C": "c → a → b → d",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0184",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 43] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "a → c → d → b",
+      "C": "b → c → d → a",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0185",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 25] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → a → d → c",
+      "B": "b → d → a → c",
+      "C": "b → c → d → a",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0186",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 16] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "d → b → a → c",
+      "B": "d → c → a → b",
+      "C": "b → d → c → a",
+      "D": "d → b → c → a"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0187",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 3] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "c → a → b → d",
+      "B": "b → c → d → a",
+      "C": "d → a → c → b",
+      "D": "c → b → d → a"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0188",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 24] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "a → c → d → b",
+      "B": "b → a → c → d",
+      "C": "c → b → d → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0189",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 45] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → b → d → c",
+      "C": "a → c → d → b",
+      "D": "c → b → a → d"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0190",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 1] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "d → b → c → a",
+      "C": "b → a → d → c",
+      "D": "c → d → a → b"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0191",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 45] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "a → d → b → c",
+      "B": "d → b → a → c",
+      "C": "d → c → a → b",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0192",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 41] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "c → b → d → a",
+      "B": "b → c → a → d",
+      "C": "a → c → d → b",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0193",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 10] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "c → d → a → b",
+      "B": "a → c → d → b",
+      "C": "c → b → d → a",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0194",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 31] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → d → c → a",
+      "B": "a → d → c → b",
+      "C": "a → c → d → b",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0195",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 20] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "c → d → a → b",
+      "C": "b → a → c → d",
+      "D": "d → c → b → a"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0196",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 35] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "c → b → a → d",
+      "B": "b → a → c → d",
+      "C": "b → c → d → a",
+      "D": "a → d → b → c"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0197",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 9] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → a → c → d",
+      "B": "a → d → b → c",
+      "C": "b → d → c → a",
+      "D": "c → a → d → b"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0198",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 11] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "c → a → b → d",
+      "C": "a → c → b → d",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0199",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 34] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Al final, el juez dicta una sentencia con base en las pruebas presentadas.\nb) Inicialmente, se presenta una denuncia ante el ministerio público.\nc) Después, se lleva a cabo una investigación para reunir pruebas.\nd) Posteriormente, se celebra un juicio en el que se presentan los argumentos de ambas partes.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → c → d → b",
+      "C": "d → c → b → a",
+      "D": "b → a → d → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0200",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 17] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, el agua se distribuye a las viviendas a través de tuberías.\nb) Primero, el agua se capta de ríos, lagos o pozos subterráneos.\nc) Después, pasa por un proceso de purificación para eliminar impurezas.\nd) Luego, se almacena en tanques o presas antes de su distribución.",
+    "opciones": {
+      "A": "c → d → b → a",
+      "B": "d → a → b → c",
+      "C": "b → c → a → d",
+      "D": "b → c → d → a"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0201",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 18] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → d → c → a",
+      "B": "a → d → b → c",
+      "C": "a → b → c → d",
+      "D": "b → a → c → d"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0202",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 36] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Por último, se presenta el proyecto final ante el comité evaluador.\nb) En primer lugar, se investiga y recopila la información necesaria.\nc) A continuación, se organiza la información en un esquema claro.\nd) Posteriormente, se redacta el primer borrador del documento.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "a → c → d → b",
+      "C": "a → c → b → d",
+      "D": "a → b → d → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0203",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 1] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "b → c → d → a",
+      "B": "c → d → a → b",
+      "C": "a → d → c → b",
+      "D": "b → d → a → c"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0204",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 43] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "d → a → b → c",
+      "B": "b → d → c → a",
+      "C": "b → c → d → a",
+      "D": "c → b → d → a"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0205",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 17] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, la semilla germina y comienza a crecer una nueva planta.\nb) Primero, la semilla se planta en tierra húmeda y fértil.\nc) Después, absorbe agua y nutrientes del suelo.\nd) Luego, comienza el proceso de germinación en su interior.",
+    "opciones": {
+      "A": "d → c → b → a",
+      "B": "b → c → d → a",
+      "C": "c → b → d → a",
+      "D": "d → a → b → c"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  },
+  {
+    "id_reactivo": "HVER-0206",
+    "asignatura": "Habilidad Verbal",
+    "subtemario": "Secuencia lógica y orden de ideas",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "[Serie 21] Ordena lógicamente las siguientes oraciones para formar un proceso coherente:\na) Finalmente, el pan se hornea hasta que adquiere un color dorado.\nb) Primero, se mezclan la harina, el agua, la levadura y la sal.\nc) Después, la masa se deja reposar para que fermente.\nd) Luego, se amasa la mezcla hasta obtener una textura uniforme.",
+    "opciones": {
+      "A": "b → d → c → a",
+      "B": "b → a → c → d",
+      "C": "b → d → a → c",
+      "D": "c → b → a → d"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "El orden correcto sigue la secuencia lógica y temporal del proceso descrito, marcada por los conectores 'primero', 'después', 'luego' y 'finalmente'."
+  }
+]

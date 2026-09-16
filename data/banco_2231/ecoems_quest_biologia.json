@@ -1,0 +1,3202 @@
+[
+  {
+    "id_reactivo": "BIO-0001",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la unidad básica estructural y funcional de todos los seres vivos?",
+    "opciones": {
+      "A": "El tejido",
+      "B": "La célula",
+      "C": "El órgano",
+      "D": "El sistema"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0002",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura celular controla la entrada y salida de sustancias en la célula?",
+    "opciones": {
+      "A": "La mitocondria",
+      "B": "La membrana celular (membrana plasmática)",
+      "C": "El ribosoma",
+      "D": "El núcleo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0003",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organelo se conoce como la 'central energética' de la célula por producir ATP?",
+    "opciones": {
+      "A": "El núcleo",
+      "B": "El retículo endoplasmático",
+      "C": "La mitocondria",
+      "D": "El aparato de Golgi"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0004",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura contiene el material genético (ADN) de la célula?",
+    "opciones": {
+      "A": "El citoplasma",
+      "B": "El lisosoma",
+      "C": "La membrana celular",
+      "D": "El núcleo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0005",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organelo se encarga de la síntesis de proteínas en la célula?",
+    "opciones": {
+      "A": "El lisosoma",
+      "B": "La mitocondria",
+      "C": "La vacuola",
+      "D": "El ribosoma"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0006",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué diferencia principal existe entre una célula procariota y una eucariota?",
+    "opciones": {
+      "A": "La célula eucariota tiene núcleo definido y la procariota no",
+      "B": "La célula procariota es siempre más grande",
+      "C": "Solo las procariotas tienen mitocondrias",
+      "D": "Solo las eucariotas tienen membrana celular"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0007",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura le da forma y soporte a las células vegetales, ausente en las animales?",
+    "opciones": {
+      "A": "El citoplasma",
+      "B": "La pared celular",
+      "C": "La membrana plasmática",
+      "D": "El núcleo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0008",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organelo realiza la fotosíntesis en las células vegetales?",
+    "opciones": {
+      "A": "El ribosoma",
+      "B": "El cloroplasto",
+      "C": "La mitocondria",
+      "D": "El núcleo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0009",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organelo se encarga de digerir desechos y estructuras celulares dañadas?",
+    "opciones": {
+      "A": "El ribosoma",
+      "B": "El núcleo",
+      "C": "El cloroplasto",
+      "D": "El lisosoma"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0010",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura celular almacena agua, nutrientes y desechos, siendo especialmente grande en células vegetales?",
+    "opciones": {
+      "A": "El nucléolo",
+      "B": "El ribosoma",
+      "C": "El lisosoma",
+      "D": "La vacuola"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0011",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso celular permite que una célula se divida en dos células hijas idénticas?",
+    "opciones": {
+      "A": "Respiración celular",
+      "B": "Meiosis",
+      "C": "Fotosíntesis",
+      "D": "Mitosis"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0012",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso celular produce células sexuales (gametos) con la mitad de cromosomas?",
+    "opciones": {
+      "A": "Difusión",
+      "B": "Ósmosis",
+      "C": "Mitosis",
+      "D": "Meiosis"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0013",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué teoría establece que todos los seres vivos están formados por células?",
+    "opciones": {
+      "A": "La teoría de la relatividad",
+      "B": "La teoría del Big Bang",
+      "C": "La teoría de la evolución",
+      "D": "La teoría celular"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0014",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organelo modifica, empaca y distribuye las proteínas dentro de la célula?",
+    "opciones": {
+      "A": "La mitocondria",
+      "B": "El núcleo",
+      "C": "El aparato de Golgi",
+      "D": "El lisosoma"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0015",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura celular se encarga de sintetizar lípidos y también de la destoxificación de la célula?",
+    "opciones": {
+      "A": "El retículo endoplasmático rugoso",
+      "B": "El retículo endoplasmático liso",
+      "C": "La vacuola",
+      "D": "El núcleo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0016",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura celular contiene ribosomas adheridos y participa en la síntesis de proteínas destinadas a secreción?",
+    "opciones": {
+      "A": "El lisosoma",
+      "B": "El retículo endoplasmático liso",
+      "C": "El citoplasma",
+      "D": "El retículo endoplasmático rugoso"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0017",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué componente celular funciona como una especie de 'esqueleto interno', dando forma y permitiendo el movimiento celular?",
+    "opciones": {
+      "A": "La vacuola",
+      "B": "El nucléolo",
+      "C": "La pared celular",
+      "D": "El citoesqueleto"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0018",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura, presente dentro del núcleo, es responsable de producir los ribosomas?",
+    "opciones": {
+      "A": "El nucléolo",
+      "B": "La membrana nuclear",
+      "C": "El citoplasma",
+      "D": "El aparato de Golgi"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0019",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sustancia gelatinosa llena el interior de la célula, entre la membrana y el núcleo, donde se ubican los organelos?",
+    "opciones": {
+      "A": "La pared celular",
+      "B": "El nucléolo",
+      "C": "El citoplasma",
+      "D": "El núcleo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0020",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la principal diferencia estructural entre una célula animal y una célula vegetal?",
+    "opciones": {
+      "A": "La célula vegetal tiene pared celular y cloroplastos, la animal no",
+      "B": "La célula animal tiene núcleo y la vegetal no",
+      "C": "Solo la célula vegetal tiene mitocondrias",
+      "D": "Solo la célula animal tiene membrana plasmática"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0021",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso permite que sustancias como el oxígeno pasen a través de la membrana celular sin gasto de energía, de mayor a menor concentración?",
+    "opciones": {
+      "A": "Fagocitosis",
+      "B": "Mitosis",
+      "C": "Transporte activo",
+      "D": "Difusión simple"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0022",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso celular requiere gasto de energía (ATP) para mover sustancias en contra de su gradiente de concentración?",
+    "opciones": {
+      "A": "Difusión simple",
+      "B": "Ósmosis",
+      "C": "Fotosíntesis",
+      "D": "Transporte activo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0023",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la ósmosis?",
+    "opciones": {
+      "A": "La producción de energía en la mitocondria",
+      "B": "El movimiento del agua a través de una membrana semipermeable, de una zona de menor a mayor concentración de soluto",
+      "C": "El movimiento de proteínas a través del citoplasma",
+      "D": "La división de una célula en dos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0024",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Quién observó por primera vez células, al estudiar corcho con un microscopio rudimentario, y acuñó el término 'célula'?",
+    "opciones": {
+      "A": "Charles Darwin",
+      "B": "Anton van Leeuwenhoek",
+      "C": "Robert Hooke",
+      "D": "Gregor Mendel"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0025",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de célula (procariota o eucariota) tienen las bacterias?",
+    "opciones": {
+      "A": "Eucariota",
+      "B": "Ambas, dependiendo de la especie",
+      "C": "Procariota",
+      "D": "Ninguna de las dos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0026",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué molécula produce la mitocondria como principal fuente de energía utilizable por la célula?",
+    "opciones": {
+      "A": "Glucosa exclusivamente sin transformar",
+      "B": "Oxígeno",
+      "C": "ADN",
+      "D": "ATP (adenosín trifosfato)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0027",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los tejidos, en el nivel de organización biológica?",
+    "opciones": {
+      "A": "Órganos completos con múltiples funciones",
+      "B": "Organelos dentro de una célula",
+      "C": "Conjuntos de células similares que realizan una función específica en conjunto",
+      "D": "Sistemas completos del cuerpo"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0028",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el nivel de organización biológica que sigue después de las células y antes de los órganos?",
+    "opciones": {
+      "A": "Las poblaciones",
+      "B": "Los tejidos",
+      "C": "Los organismos",
+      "D": "Los sistemas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0029",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un órgano, en términos de organización biológica?",
+    "opciones": {
+      "A": "Una sola célula especializada",
+      "B": "Una estructura formada por distintos tejidos que trabajan juntos para realizar una función",
+      "C": "Un tipo de organelo celular",
+      "D": "Un conjunto de organismos de la misma especie"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0030",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un organismo, en el contexto de los niveles de organización biológica?",
+    "opciones": {
+      "A": "Un grupo de células sin organización",
+      "B": "Un ecosistema completo",
+      "C": "Un ser vivo individual, completo y capaz de realizar todas sus funciones vitales",
+      "D": "Un tipo de tejido especializado"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0031",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de microscopio permite observar estructuras celulares con mucho mayor detalle que un microscopio óptico, usando haces de electrones?",
+    "opciones": {
+      "A": "La lupa",
+      "B": "El microscopio electrónico",
+      "C": "El microscopio óptico simple",
+      "D": "El telescopio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0032",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué elemento químico es el componente principal de las moléculas orgánicas que forman a los seres vivos?",
+    "opciones": {
+      "A": "El sodio",
+      "B": "El calcio",
+      "C": "El carbono",
+      "D": "El hierro"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0033",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué molécula orgánica forma la mayor parte de las membranas celulares?",
+    "opciones": {
+      "A": "El ADN",
+      "B": "Los fosfolípidos",
+      "C": "Los carbohidratos simples",
+      "D": "Los minerales"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0034",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso metabólico celular libera energía de la glucosa utilizando oxígeno?",
+    "opciones": {
+      "A": "Respiración celular (aeróbica)",
+      "B": "Fotosíntesis",
+      "C": "Ósmosis",
+      "D": "Fermentación anaeróbica exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0035",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué molécula transporta la información genética copiada del ADN hacia el citoplasma para la síntesis de proteínas?",
+    "opciones": {
+      "A": "Colágeno",
+      "B": "ADN polimerasa",
+      "C": "ARN de transferencia exclusivamente",
+      "D": "ARN mensajero (ARNm)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0036",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso se lleva a cabo en los ribosomas a partir de la información del ARN mensajero?",
+    "opciones": {
+      "A": "La síntesis de proteínas (traducción)",
+      "B": "La digestión celular",
+      "C": "La replicación del ADN",
+      "D": "La fotosíntesis"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0037",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de transporte celular permite a una célula 'engullir' partículas grandes o incluso otras células?",
+    "opciones": {
+      "A": "Fagocitosis",
+      "B": "Difusión simple",
+      "C": "Transporte pasivo por canales",
+      "D": "Ósmosis"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0038",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué característica distingue a un virus de una célula, según la biología moderna?",
+    "opciones": {
+      "A": "Los virus realizan fotosíntesis",
+      "B": "Los virus tienen mitocondrias propias",
+      "C": "Los virus son células procariotas muy pequeñas",
+      "D": "Los virus no tienen estructura celular propia y necesitan una célula huésped para reproducirse"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0039",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué elemento es el principal componente del esqueleto de carbono de las moléculas orgánicas de la vida?",
+    "opciones": {
+      "A": "El fósforo",
+      "B": "El azufre",
+      "C": "El carbono",
+      "D": "El silicio"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0040",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué molécula almacena y transmite la información hereditaria de generación en generación?",
+    "opciones": {
+      "A": "El colágeno",
+      "B": "La glucosa",
+      "C": "El ATP",
+      "D": "El ADN"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0041",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso permite que una célula madre se convierta en un tipo de célula especializada (como neurona o célula muscular)?",
+    "opciones": {
+      "A": "Fermentación",
+      "B": "Diferenciación celular",
+      "C": "Fagocitosis",
+      "D": "Ósmosis"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0042",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el citoplasma en términos de su composición?",
+    "opciones": {
+      "A": "Una membrana rígida que rodea a la célula",
+      "B": "Una sustancia gelatinosa compuesta principalmente de agua, donde se encuentran los organelos celulares",
+      "C": "Una capa externa exclusiva de células vegetales",
+      "D": "El material genético concentrado en el núcleo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0043",
+    "asignatura": "Biología",
+    "subtemario": "La célula y sus organelos",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de reproducción celular asexual realizan las bacterias para multiplicarse?",
+    "opciones": {
+      "A": "Fisión binaria",
+      "B": "Mitosis",
+      "C": "Gemación exclusivamente",
+      "D": "Meiosis"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología celular estudiado a nivel secundaria/bachillerato."
+  },
+  {
+    "id_reactivo": "BIO-0044",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la función principal del sistema digestivo?",
+    "opciones": {
+      "A": "Bombear sangre por todo el cuerpo",
+      "B": "Transformar los alimentos en nutrientes que el cuerpo pueda absorber",
+      "C": "Producir hormonas exclusivamente",
+      "D": "Filtrar el aire que respiramos"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0045",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano bombea la sangre a través del cuerpo?",
+    "opciones": {
+      "A": "El bazo",
+      "B": "El páncreas",
+      "C": "El hígado",
+      "D": "El corazón"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0046",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órganos son responsables del intercambio de gases (oxígeno y dióxido de carbono) en la respiración?",
+    "opciones": {
+      "A": "Los riñones",
+      "B": "El hígado",
+      "C": "Los pulmones",
+      "D": "El estómago"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0047",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órganos filtran la sangre y producen la orina?",
+    "opciones": {
+      "A": "El intestino delgado",
+      "B": "El hígado",
+      "C": "Los riñones",
+      "D": "Los pulmones"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0048",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano produce la bilis, que ayuda a digerir las grasas?",
+    "opciones": {
+      "A": "El páncreas",
+      "B": "El estómago",
+      "C": "El bazo",
+      "D": "El hígado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0049",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano produce insulina para regular el nivel de azúcar en la sangre?",
+    "opciones": {
+      "A": "El bazo",
+      "B": "El páncreas",
+      "C": "El riñón",
+      "D": "El hígado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0050",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuáles son los tres grupos principales de nutrientes que aportan energía al cuerpo?",
+    "opciones": {
+      "A": "Carbohidratos, proteínas y grasas (lípidos)",
+      "B": "Solo proteínas y agua",
+      "C": "Solo carbohidratos y vitaminas",
+      "D": "Vitaminas, minerales y agua"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0051",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué función principal cumplen las proteínas en el organismo?",
+    "opciones": {
+      "A": "Regular exclusivamente la temperatura corporal",
+      "B": "Formar y reparar tejidos del cuerpo",
+      "C": "Aportar únicamente energía inmediata",
+      "D": "Transportar oxígeno en la sangre"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0052",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué función principal cumplen los carbohidratos en el organismo?",
+    "opciones": {
+      "A": "Producir anticuerpos",
+      "B": "Formar la estructura de los músculos",
+      "C": "Ser la principal fuente de energía rápida",
+      "D": "Transportar el oxígeno en la sangre"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0053",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema del cuerpo está formado por huesos y permite el soporte y movimiento?",
+    "opciones": {
+      "A": "El sistema endocrino",
+      "B": "El sistema óseo (esqueleto)",
+      "C": "El sistema digestivo",
+      "D": "El sistema nervioso"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0054",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema coordina las funciones del cuerpo mediante impulsos eléctricos?",
+    "opciones": {
+      "A": "El sistema digestivo",
+      "B": "El sistema nervioso",
+      "C": "El sistema óseo",
+      "D": "El sistema circulatorio"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0055",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema del cuerpo produce hormonas que regulan diversas funciones?",
+    "opciones": {
+      "A": "El sistema endocrino",
+      "B": "El sistema muscular",
+      "C": "El sistema respiratorio",
+      "D": "El sistema óseo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0056",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la función principal de los glóbulos rojos en la sangre?",
+    "opciones": {
+      "A": "Transportar oxígeno a las células del cuerpo",
+      "B": "Coagular la sangre",
+      "C": "Combatir infecciones",
+      "D": "Producir hormonas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0057",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la función principal de los glóbulos blancos?",
+    "opciones": {
+      "A": "Defender al cuerpo contra infecciones y agentes extraños",
+      "B": "Formar coágulos sanguíneos",
+      "C": "Transportar oxígeno",
+      "D": "Digerir alimentos"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0058",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano del sistema digestivo comienza el proceso de digestión mediante la masticación y la saliva?",
+    "opciones": {
+      "A": "El intestino delgado",
+      "B": "La boca",
+      "C": "El estómago",
+      "D": "El hígado"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0059",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿En qué órgano ocurre la mayor parte de la absorción de nutrientes hacia la sangre?",
+    "opciones": {
+      "A": "El estómago",
+      "B": "El intestino delgado",
+      "C": "El esófago",
+      "D": "El intestino grueso"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0060",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué función cumple el intestino grueso en la digestión?",
+    "opciones": {
+      "A": "Filtrar la sangre",
+      "B": "Absorber la mayoría de los nutrientes",
+      "C": "Absorber agua y formar los desechos sólidos (heces)",
+      "D": "Producir insulina"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0061",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura conecta la boca con el estómago, transportando el alimento?",
+    "opciones": {
+      "A": "El intestino delgado",
+      "B": "El esófago",
+      "C": "El hígado",
+      "D": "La tráquea"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0062",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura evita que el alimento entre a la tráquea al tragar?",
+    "opciones": {
+      "A": "El diafragma",
+      "B": "El esófago",
+      "C": "La epiglotis",
+      "D": "La laringe únicamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0063",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué músculo, ubicado debajo de los pulmones, es esencial para el proceso de respiración?",
+    "opciones": {
+      "A": "El bíceps",
+      "B": "El diafragma",
+      "C": "El corazón",
+      "D": "El esófago"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0064",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué vasos sanguíneos llevan la sangre desde el corazón hacia el resto del cuerpo?",
+    "opciones": {
+      "A": "Las arterias",
+      "B": "Las venas",
+      "C": "Los nervios",
+      "D": "Los capilares exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0065",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué vasos sanguíneos regresan la sangre de regreso al corazón?",
+    "opciones": {
+      "A": "Las arterias",
+      "B": "Los nervios",
+      "C": "Los tendones",
+      "D": "Las venas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0066",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántas cámaras tiene el corazón humano?",
+    "opciones": {
+      "A": "Dos",
+      "B": "Seis",
+      "C": "Cuatro (dos aurículas y dos ventrículos)",
+      "D": "Tres"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0067",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de sangre transportan las arterias pulmonares, a diferencia de la mayoría de las arterias del cuerpo?",
+    "opciones": {
+      "A": "Sangre poco oxigenada, hacia los pulmones",
+      "B": "Sangre con altas concentraciones de glucosa",
+      "C": "Solo plasma sin células",
+      "D": "Sangre completamente oxigenada"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0068",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué glándula regula el metabolismo del cuerpo mediante hormonas tiroideas?",
+    "opciones": {
+      "A": "La glándula tiroides",
+      "B": "Las glándulas suprarrenales",
+      "C": "La glándula pituitaria exclusivamente",
+      "D": "El páncreas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0069",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué hormona regula el nivel de glucosa en la sangre, disminuyéndolo al ser liberada por el páncreas?",
+    "opciones": {
+      "A": "El glucagón",
+      "B": "La testosterona",
+      "C": "La adrenalina",
+      "D": "La insulina"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0070",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué sistema del cuerpo está compuesto por músculos que permiten el movimiento voluntario e involuntario?",
+    "opciones": {
+      "A": "El sistema óseo",
+      "B": "El sistema tegumentario",
+      "C": "El sistema muscular",
+      "D": "El sistema linfático"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0071",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "opciones": {
+      "A": "El hígado",
+      "B": "La piel",
+      "C": "El cerebro",
+      "D": "El corazón"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0072",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué parte del sistema nervioso controla las funciones voluntarias e involuntarias del cuerpo desde el cráneo?",
+    "opciones": {
+      "A": "La médula espinal exclusivamente",
+      "B": "El sistema óseo",
+      "C": "El encéfalo (cerebro)",
+      "D": "Los nervios periféricos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0073",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura conecta el cerebro con el resto del cuerpo, transmitiendo señales nerviosas a través de la columna vertebral?",
+    "opciones": {
+      "A": "El encéfalo",
+      "B": "Los pulmones",
+      "C": "La médula espinal",
+      "D": "El corazón"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0074",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la unidad funcional básica del sistema nervioso?",
+    "opciones": {
+      "A": "El eritrocito",
+      "B": "La neurona",
+      "C": "El glóbulo blanco",
+      "D": "El osteocito"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0075",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso permite que el cuerpo mantenga una temperatura interna relativamente constante, sin importar el ambiente externo?",
+    "opciones": {
+      "A": "La homeostasis (termorregulación)",
+      "B": "La ósmosis exclusivamente",
+      "C": "La mitosis",
+      "D": "La fotosíntesis"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0076",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano actúa como principal centro de filtrado y desintoxicación de sustancias en la sangre, además del riñón?",
+    "opciones": {
+      "A": "El páncreas",
+      "B": "El bazo",
+      "C": "El apéndice",
+      "D": "El hígado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0077",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso permite el intercambio de oxígeno y dióxido de carbono entre los alvéolos pulmonares y la sangre?",
+    "opciones": {
+      "A": "Transporte activo",
+      "B": "Peristalsis",
+      "C": "Difusión de gases",
+      "D": "Filtración renal"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0078",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la peristalsis?",
+    "opciones": {
+      "A": "El filtrado de sangre en el riñón",
+      "B": "La producción de saliva en la boca",
+      "C": "La contracción del corazón",
+      "D": "Los movimientos musculares ondulatorios que impulsan el alimento a lo largo del tubo digestivo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0079",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué glándulas producen adrenalina, hormona relacionada con la respuesta de 'lucha o huida'?",
+    "opciones": {
+      "A": "El páncreas",
+      "B": "La glándula tiroides",
+      "C": "Las glándulas suprarrenales",
+      "D": "Las glándulas salivales"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0080",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el sistema linfático y cuál es una de sus funciones principales?",
+    "opciones": {
+      "A": "El conjunto de huesos que da soporte al cuerpo",
+      "B": "El sistema que transporta exclusivamente oxígeno a los músculos",
+      "C": "Una red de vasos y ganglios que ayuda a combatir infecciones y drenar líquidos del cuerpo",
+      "D": "El sistema encargado únicamente de la digestión"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0081",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué función cumplen las plaquetas en la sangre?",
+    "opciones": {
+      "A": "Transportar oxígeno",
+      "B": "Combatir infecciones",
+      "C": "Producir hormonas",
+      "D": "Participar en la coagulación sanguínea"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0082",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de articulación permite el movimiento en varias direcciones, como la del hombro?",
+    "opciones": {
+      "A": "Articulación fija (sutura)",
+      "B": "Articulación en bisagra únicamente",
+      "C": "Articulación esferoidea (de bola y cavidad)",
+      "D": "Cartílago sin movimiento"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0083",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la función principal de los tendones?",
+    "opciones": {
+      "A": "Unir un hueso con otro hueso",
+      "B": "Producir hormonas",
+      "C": "Transportar sangre",
+      "D": "Unir los músculos a los huesos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0084",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuál es la función principal de los ligamentos?",
+    "opciones": {
+      "A": "Unir los músculos a los huesos",
+      "B": "Unir un hueso con otro hueso, dando estabilidad a las articulaciones",
+      "C": "Transportar impulsos nerviosos",
+      "D": "Producir células sanguíneas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0085",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proceso permite que los alimentos avancen desde el estómago hacia el intestino delgado?",
+    "opciones": {
+      "A": "La filtración renal",
+      "B": "El vaciamiento gástrico mediante contracciones musculares",
+      "C": "La absorción directa en el estómago",
+      "D": "La respiración celular"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0086",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué función cumple la médula ósea en el cuerpo humano?",
+    "opciones": {
+      "A": "Digerir las grasas",
+      "B": "Filtrar la sangre para eliminar toxinas",
+      "C": "Producir insulina",
+      "D": "Producir las células sanguíneas (glóbulos rojos, blancos y plaquetas)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0087",
+    "asignatura": "Biología",
+    "subtemario": "Nutrición y sistemas del cuerpo humano",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué órgano del sistema respiratorio se ramifica en bronquios y bronquiolos dentro de los pulmones?",
+    "opciones": {
+      "A": "El esófago",
+      "B": "El corazón",
+      "C": "El diafragma",
+      "D": "La tráquea"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de anatomía y fisiología humana."
+  },
+  {
+    "id_reactivo": "BIO-0088",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué molécula contiene la información genética de los seres vivos?",
+    "opciones": {
+      "A": "El ADN (ácido desoxirribonucleico)",
+      "B": "La glucosa",
+      "C": "El colágeno",
+      "D": "El ARN mensajero exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0089",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nombre reciben las unidades de herencia que se transmiten de padres a hijos?",
+    "opciones": {
+      "A": "Enzimas",
+      "B": "Genes",
+      "C": "Ribosomas",
+      "D": "Cromosomas exclusivamente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0090",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién es considerado el padre de la genética moderna, por sus experimentos con guisantes?",
+    "opciones": {
+      "A": "James Watson",
+      "B": "Charles Darwin",
+      "C": "Gregor Mendel",
+      "D": "Louis Pasteur"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0091",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuántos cromosomas tiene una célula humana normal (somática)?",
+    "opciones": {
+      "A": "23",
+      "B": "48",
+      "C": "92",
+      "D": "46 (23 pares)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0092",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de reproducción involucra la unión de células sexuales de dos progenitores?",
+    "opciones": {
+      "A": "Fisión binaria",
+      "B": "Reproducción sexual",
+      "C": "Reproducción asexual",
+      "D": "Gemación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0093",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué tipo de reproducción no requiere la unión de gametos y produce descendencia genéticamente idéntica al progenitor?",
+    "opciones": {
+      "A": "Meiosis",
+      "B": "Reproducción asexual",
+      "C": "Fecundación",
+      "D": "Reproducción sexual"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0094",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por 'alelo' en genética?",
+    "opciones": {
+      "A": "Cada una de las variantes de un mismo gen",
+      "B": "Una célula reproductiva",
+      "C": "Un cromosoma completo",
+      "D": "Un tipo de proteína estructural"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0095",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un cariotipo?",
+    "opciones": {
+      "A": "La representación ordenada de los cromosomas de una célula",
+      "B": "Un tipo de célula reproductiva",
+      "C": "Una enfermedad hereditaria",
+      "D": "Una mutación genética específica"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0096",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los cromosomas sexuales en los seres humanos?",
+    "opciones": {
+      "A": "Todos los cromosomas del cuerpo",
+      "B": "X y Y, que determinan el sexo biológico",
+      "C": "Únicamente el cromosoma 21",
+      "D": "Los cromosomas presentes solo en la mujer"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0097",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué combinación de cromosomas sexuales generalmente determina el sexo masculino en humanos?",
+    "opciones": {
+      "A": "XXY exclusivamente",
+      "B": "XY",
+      "C": "XX",
+      "D": "YY"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0098",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué combinación de cromosomas sexuales generalmente determina el sexo femenino en humanos?",
+    "opciones": {
+      "A": "YY",
+      "B": "XY",
+      "C": "X0 exclusivamente",
+      "D": "XX"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0099",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por genotipo de un organismo?",
+    "opciones": {
+      "A": "El ambiente en el que vive un organismo",
+      "B": "El número de hijos que puede tener un organismo",
+      "C": "La apariencia física observable de un organismo",
+      "D": "El conjunto de genes (información genética) que posee un organismo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0100",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por fenotipo de un organismo?",
+    "opciones": {
+      "A": "El conjunto completo de genes de un organismo",
+      "B": "Las características físicas y observables que resultan de la interacción entre el genotipo y el ambiente",
+      "C": "El tipo de reproducción que utiliza un organismo",
+      "D": "El número de cromosomas de una especie"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0101",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En genética, ¿qué significa que un alelo sea dominante?",
+    "opciones": {
+      "A": "Que desaparece siempre en la siguiente generación",
+      "B": "Que solo se manifiesta si están presentes dos copias del mismo alelo",
+      "C": "Que produce mutaciones constantemente",
+      "D": "Que se manifiesta en el fenotipo incluso si solo está presente en una copia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0102",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "En genética, ¿qué significa que un alelo sea recesivo?",
+    "opciones": {
+      "A": "Que solo se manifiesta en el fenotipo cuando están presentes dos copias del mismo alelo",
+      "B": "Que se manifiesta siempre, sin importar el otro alelo",
+      "C": "Que es más fuerte que el alelo dominante",
+      "D": "Que no forma parte del ADN"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0103",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una mutación genética?",
+    "opciones": {
+      "A": "El proceso de división celular por mitosis",
+      "B": "La formación de un nuevo tejido",
+      "C": "La combinación normal de genes de los padres",
+      "D": "Un cambio en la secuencia del ADN de un organismo"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0104",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la clonación, en términos generales?",
+    "opciones": {
+      "A": "El proceso normal de reproducción sexual",
+      "B": "La eliminación de un gen específico del ADN",
+      "C": "La combinación de material genético de dos especies distintas",
+      "D": "El proceso de crear una copia genéticamente idéntica de un organismo o célula"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0105",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura celular contiene los cromosomas durante la división celular?",
+    "opciones": {
+      "A": "El citoplasma",
+      "B": "El aparato de Golgi",
+      "C": "El núcleo",
+      "D": "La membrana celular"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0106",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el ARN mensajero (ARNm) en el proceso de síntesis de proteínas?",
+    "opciones": {
+      "A": "Una enzima digestiva",
+      "B": "Una proteína estructural del núcleo",
+      "C": "Un tipo de lípido de membrana",
+      "D": "Una molécula que copia la información del ADN y la lleva a los ribosomas para fabricar proteínas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0107",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué relación de parentesco estudió Gregor Mendel para establecer las leyes de la herencia?",
+    "opciones": {
+      "A": "La reproducción de bacterias en laboratorio",
+      "B": "Cruzas entre distintas especies de moscas",
+      "C": "Cruzas entre plantas de guisantes (chícharos) con características contrastantes",
+      "D": "El desarrollo embrionario de ranas"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0108",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué término describe a un organismo que posee dos alelos idénticos para un gen determinado?",
+    "opciones": {
+      "A": "Heterocigoto",
+      "B": "Híbrido exclusivamente",
+      "C": "Mutante",
+      "D": "Homocigoto"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0109",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué término describe a un organismo que posee dos alelos diferentes para un gen determinado?",
+    "opciones": {
+      "A": "Heterocigoto",
+      "B": "Clonado",
+      "C": "Homocigoto",
+      "D": "Puro exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0110",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué proporción de rasgos dominantes y recesivos predijo Mendel en la segunda generación filial (F2) al cruzar dos híbridos heterocigotos?",
+    "opciones": {
+      "A": "2 a 2",
+      "B": "3 a 1 (tres dominantes por cada recesivo)",
+      "C": "1 a 1",
+      "D": "1 a 3"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0111",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los gemelos idénticos (monocigóticos) en términos genéticos?",
+    "opciones": {
+      "A": "Individuos sin ninguna relación genética",
+      "B": "Individuos con solo el 50% de genes en común, como cualquier hermano",
+      "C": "Individuos genéticamente idénticos, originados de un mismo óvulo fecundado que se divide en dos",
+      "D": "Individuos originados de dos óvulos distintos fecundados por separado"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0112",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son los gemelos fraternos (dicigóticos)?",
+    "opciones": {
+      "A": "Individuos clonados en laboratorio",
+      "B": "Individuos con el mismo sexo obligatoriamente",
+      "C": "Individuos originados de dos óvulos distintos, fecundados por espermatozoides diferentes, con un parecido genético similar al de hermanos comunes",
+      "D": "Individuos genéticamente idénticos entre sí"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0113",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la ingeniería genética?",
+    "opciones": {
+      "A": "La clasificación de especies según su tamaño",
+      "B": "El conjunto de técnicas que permiten modificar o combinar el material genético de los organismos",
+      "C": "El estudio exclusivo de fósiles antiguos",
+      "D": "El estudio del comportamiento animal"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0114",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué enfermedad genética hereditaria está relacionada con una copia extra del cromosoma 21?",
+    "opciones": {
+      "A": "Síndrome de Down",
+      "B": "Hemofilia",
+      "C": "Daltonismo",
+      "D": "Síndrome de Turner"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0115",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un organismo transgénico?",
+    "opciones": {
+      "A": "Un organismo resultado exclusivamente de cruza natural",
+      "B": "Un organismo estéril por mutación espontánea",
+      "C": "Un organismo al que se le ha insertado material genético de otra especie mediante ingeniería genética",
+      "D": "Un fósil de una especie extinta"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0116",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué estructura de la célula contiene la mayor parte del ADN en organismos eucariotas?",
+    "opciones": {
+      "A": "El núcleo",
+      "B": "La mitocondria exclusivamente",
+      "C": "La membrana celular",
+      "D": "El citoplasma"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0117",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la herencia ligada al sexo?",
+    "opciones": {
+      "A": "La transmisión de ciertos genes ubicados en los cromosomas sexuales (X o Y)",
+      "B": "La herencia de rasgos que no dependen de ningún gen",
+      "C": "Un tipo de mutación espontánea sin relación con los cromosomas",
+      "D": "La transmisión exclusiva de rasgos físicos visibles"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0118",
+    "asignatura": "Biología",
+    "subtemario": "Reproducción y genética",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué enfermedad hereditaria ligada al cromosoma X afecta la coagulación de la sangre?",
+    "opciones": {
+      "A": "Síndrome de Down",
+      "B": "Diabetes tipo 1",
+      "C": "Fibrosis quística",
+      "D": "Hemofilia"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de genética y reproducción."
+  },
+  {
+    "id_reactivo": "BIO-0119",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Quién propuso la teoría de la evolución por selección natural?",
+    "opciones": {
+      "A": "Gregor Mendel",
+      "B": "Isaac Newton",
+      "C": "Louis Pasteur",
+      "D": "Charles Darwin"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0120",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la selección natural?",
+    "opciones": {
+      "A": "La extinción total de una especie",
+      "B": "La mutación espontánea de todos los individuos de una población",
+      "C": "El proceso mediante el cual los individuos mejor adaptados a su ambiente tienen mayor probabilidad de sobrevivir y reproducirse",
+      "D": "La elección artificial de características por parte de los humanos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0121",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué término describe a los organismos con estructuras similares a un ancestro común pero funciones distintas?",
+    "opciones": {
+      "A": "Estructuras análogas",
+      "B": "Mutaciones",
+      "C": "Estructuras vestigiales exclusivamente",
+      "D": "Estructuras homólogas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0122",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una especie, en términos biológicos generales?",
+    "opciones": {
+      "A": "Un tipo de ecosistema",
+      "B": "Cualquier grupo de animales que viven en el mismo lugar",
+      "C": "Un grupo de organismos que pueden reproducirse entre sí y generar descendencia fértil",
+      "D": "Un conjunto de células con la misma función"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0123",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la biodiversidad?",
+    "opciones": {
+      "A": "La temperatura promedio de una región",
+      "B": "La cantidad total de agua en un ecosistema",
+      "C": "El número de rocas en un territorio",
+      "D": "La variedad de formas de vida (especies, genes y ecosistemas) en un lugar determinado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0124",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evidencia usan los científicos para estudiar la evolución de especies extintas?",
+    "opciones": {
+      "A": "Las fotografías satelitales",
+      "B": "Los registros meteorológicos",
+      "C": "Los fósiles",
+      "D": "Los mapas de carreteras"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0125",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la extinción de una especie?",
+    "opciones": {
+      "A": "La desaparición completa y permanente de todos los individuos de esa especie",
+      "B": "La reducción temporal de una población",
+      "C": "La mutación de una especie en otra",
+      "D": "La migración de una especie a otro continente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0126",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué mecanismo genera nueva variación genética en una población, base de la evolución?",
+    "opciones": {
+      "A": "La selección artificial exclusivamente",
+      "B": "La migración de especies invasoras",
+      "C": "La extinción de especies",
+      "D": "Las mutaciones"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0127",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la deriva génica en el contexto de la evolución?",
+    "opciones": {
+      "A": "La formación de fósiles en rocas sedimentarias",
+      "B": "El cambio en las frecuencias de los alelos de una población debido al azar, más notorio en poblaciones pequeñas",
+      "C": "La selección consciente de características por parte de los humanos",
+      "D": "La migración masiva de una especie hacia otro continente"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0128",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la adaptación, en el contexto de la evolución biológica?",
+    "opciones": {
+      "A": "Un tipo de enfermedad genética",
+      "B": "La eliminación completa de una especie",
+      "C": "Una característica que mejora la capacidad de un organismo para sobrevivir y reproducirse en su ambiente",
+      "D": "Un cambio inmediato que un organismo elige voluntariamente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0129",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la especiación?",
+    "opciones": {
+      "A": "La combinación de dos especies para formar un híbrido estéril",
+      "B": "La extinción repentina de todas las especies de un ecosistema",
+      "C": "El proceso mediante el cual una nueva especie se forma a partir de poblaciones que se diversifican",
+      "D": "El proceso de digestión de los alimentos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0130",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por estructuras análogas en biología comparada?",
+    "opciones": {
+      "A": "Estructuras exclusivas de una sola especie",
+      "B": "Estructuras con el mismo origen evolutivo y función distinta",
+      "C": "Órganos completamente vestigiales sin función",
+      "D": "Estructuras con función similar pero origen evolutivo distinto, como las alas de aves e insectos"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0131",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son las estructuras vestigiales?",
+    "opciones": {
+      "A": "Estructuras exclusivas de organismos unicelulares",
+      "B": "Estructuras que han perdido su función original a lo largo de la evolución, como el apéndice humano",
+      "C": "Órganos esenciales para la supervivencia inmediata",
+      "D": "Estructuras recién evolucionadas con función nueva"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0132",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué disciplina estudia la clasificación de los seres vivos en categorías jerárquicas (reino, filo, clase, etc.)?",
+    "opciones": {
+      "A": "La ecología",
+      "B": "La fisiología",
+      "C": "La taxonomía",
+      "D": "La genética molecular"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0133",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Cuáles son los reinos en los que tradicionalmente se clasifican los seres vivos?",
+    "opciones": {
+      "A": "Animalia, Plantae, Fungi, Protista y Monera (o Bacteria)",
+      "B": "Solo Animalia y Plantae",
+      "C": "Solo organismos vertebrados e invertebrados",
+      "D": "Solo procariotas y virus"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0134",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué evidencia proporcionó el estudio de los pinzones de las islas Galápagos a la teoría de Darwin?",
+    "opciones": {
+      "A": "Mostró que la selección natural no aplica a las aves",
+      "B": "Probó que los pinzones no pueden evolucionar",
+      "C": "Mostró cómo distintas presiones ambientales pueden dar lugar a variaciones adaptativas del pico entre poblaciones",
+      "D": "Demostró que todas las especies fueron creadas de forma independiente"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0135",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el registro fósil y qué información aporta sobre la evolución?",
+    "opciones": {
+      "A": "Un catálogo de especies vivas actualmente",
+      "B": "El conjunto de restos preservados de organismos antiguos, que muestra cambios graduales de las especies a través del tiempo",
+      "C": "Un registro exclusivo de cambios climáticos",
+      "D": "Un mapa de distribución geográfica de plantas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0136",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la convergencia evolutiva?",
+    "opciones": {
+      "A": "El proceso por el cual dos especies se fusionan en una sola",
+      "B": "El proceso por el cual especies no emparentadas desarrollan estructuras o rasgos similares debido a presiones ambientales parecidas",
+      "C": "La migración conjunta de dos especies diferentes",
+      "D": "La extinción simultánea de varias especies distintas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0137",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué papel juega el aislamiento geográfico en la formación de nuevas especies?",
+    "opciones": {
+      "A": "Elimina toda posibilidad de que ocurra evolución",
+      "B": "Acelera la extinción inmediata de ambas poblaciones",
+      "C": "Al separar poblaciones, impide el flujo genético entre ellas, favoreciendo que evolucionen de forma independiente",
+      "D": "No tiene ningún efecto en la evolución de las especies"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0138",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un fósil viviente, como se le llama coloquialmente a organismos como el celacanto?",
+    "opciones": {
+      "A": "Un organismo completamente extinto",
+      "B": "Un fósil que aún contiene tejido vivo",
+      "C": "Una especie recién descubierta sin relación con fósiles",
+      "D": "Una especie actual muy similar a sus ancestros fósiles, que ha cambiado poco a lo largo de millones de años"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0139",
+    "asignatura": "Biología",
+    "subtemario": "Evolución y biodiversidad",
+    "dificultad": "media",
+    "texto_lectura": null,
+    "enunciado": "¿Qué aporte hizo Alfred Russel Wallace a la teoría de la evolución?",
+    "opciones": {
+      "A": "Inventó el microscopio óptico",
+      "B": "Formuló las leyes de la herencia mendeliana",
+      "C": "Desarrolló de forma independiente una idea similar a la selección natural de Darwin, casi al mismo tiempo",
+      "D": "Descubrió la estructura del ADN"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de biología evolutiva."
+  },
+  {
+    "id_reactivo": "BIO-0140",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un ecosistema?",
+    "opciones": {
+      "A": "Un fenómeno meteorológico",
+      "B": "Solo el conjunto de plantas de una región",
+      "C": "Un tipo de célula especializada",
+      "D": "El conjunto de seres vivos y su ambiente físico que interactúan entre sí en un lugar determinado"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0141",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismos son capaces de producir su propio alimento mediante fotosíntesis?",
+    "opciones": {
+      "A": "Los consumidores primarios",
+      "B": "Los productores (como las plantas)",
+      "C": "Los carnívoros",
+      "D": "Los descomponedores"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0142",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismos se alimentan de otros seres vivos para obtener energía?",
+    "opciones": {
+      "A": "Los descomponedores exclusivamente",
+      "B": "Ninguno, todos producen su alimento",
+      "C": "Los consumidores",
+      "D": "Los productores"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0143",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué organismos descomponen la materia orgánica muerta, reciclando nutrientes al ecosistema?",
+    "opciones": {
+      "A": "Los herbívoros",
+      "B": "Los consumidores primarios",
+      "C": "Los descomponedores (como hongos y bacterias)",
+      "D": "Los productores"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0144",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué representa una cadena alimenticia?",
+    "opciones": {
+      "A": "La cantidad total de agua en un ecosistema",
+      "B": "La secuencia de organismos donde cada uno se alimenta del anterior, transfiriendo energía",
+      "C": "La temperatura de un hábitat",
+      "D": "El ciclo de vida de una sola especie"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0145",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un hábitat?",
+    "opciones": {
+      "A": "Un tipo de célula vegetal",
+      "B": "El conjunto de todas las especies de la Tierra",
+      "C": "El lugar específico donde vive una especie y encuentra las condiciones para sobrevivir",
+      "D": "Una cadena alimenticia completa"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0146",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué gas es liberado principalmente por la quema de combustibles fósiles y contribuye al calentamiento global?",
+    "opciones": {
+      "A": "Oxígeno (O₂)",
+      "B": "Hidrógeno (H₂)",
+      "C": "Nitrógeno (N₂)",
+      "D": "Dióxido de carbono (CO₂)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0147",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué práctica ayuda a reducir la cantidad de residuos que llegan a los vertederos, mediante las 3R?",
+    "opciones": {
+      "A": "Enterrar los desechos sin clasificar",
+      "B": "Quemar todos los desechos",
+      "C": "Verter los desechos en ríos",
+      "D": "Reducir, reutilizar y reciclar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0148",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué se entiende por especie en peligro de extinción?",
+    "opciones": {
+      "A": "Una especie cuya población ha disminuido tanto que corre riesgo de desaparecer",
+      "B": "Una especie que solo vive en cautiverio",
+      "C": "Una especie recién descubierta por la ciencia",
+      "D": "Una especie que ha aumentado su población considerablemente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0149",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la deforestación y cuál es uno de sus principales efectos?",
+    "opciones": {
+      "A": "La protección legal de las selvas",
+      "B": "La plantación masiva de árboles nuevos",
+      "C": "La eliminación de bosques, que reduce la biodiversidad y afecta el clima",
+      "D": "El aumento natural de la vegetación"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0150",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es una red alimenticia, a diferencia de una simple cadena alimenticia?",
+    "opciones": {
+      "A": "El conjunto de todas las plantas de un ecosistema",
+      "B": "Un tipo de suelo fértil",
+      "C": "Un conjunto interconectado de varias cadenas alimenticias dentro de un ecosistema",
+      "D": "Una sola línea de transferencia de energía entre dos especies"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0151",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nivel trófico ocupan los herbívoros en una cadena alimenticia?",
+    "opciones": {
+      "A": "Descomponedores",
+      "B": "Productores",
+      "C": "Consumidores secundarios",
+      "D": "Consumidores primarios"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0152",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué nivel trófico ocupan los organismos que se alimentan de herbívoros?",
+    "opciones": {
+      "A": "Consumidores secundarios",
+      "B": "Descomponedores",
+      "C": "Productores",
+      "D": "Consumidores primarios"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0153",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la lluvia ácida y qué la origina principalmente?",
+    "opciones": {
+      "A": "Un fenómeno exclusivo de zonas desérticas",
+      "B": "Lluvia normal sin ningún contaminante",
+      "C": "Precipitación de nieve en zonas polares",
+      "D": "Precipitación con alto contenido de ácidos, originada por la contaminación con óxidos de azufre y nitrógeno"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0154",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el efecto invernadero?",
+    "opciones": {
+      "A": "Un fenómeno exclusivo de zonas polares",
+      "B": "La eliminación total de la capa de ozono",
+      "C": "El proceso de fotosíntesis en las plantas",
+      "D": "El proceso natural por el cual ciertos gases atmosféricos retienen calor, manteniendo la temperatura del planeta habitable"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0155",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué diferencia existe entre un recurso natural renovable y uno no renovable?",
+    "opciones": {
+      "A": "No existe ninguna diferencia real entre ambos",
+      "B": "El renovable nunca se agota bajo ninguna circunstancia",
+      "C": "El renovable se regenera de forma natural en un tiempo razonable; el no renovable no, o tarda demasiado en formarse",
+      "D": "El no renovable se regenera más rápido que el renovable"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0156",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la sobreexplotación de un recurso natural?",
+    "opciones": {
+      "A": "La protección total de un recurso sin ningún uso",
+      "B": "El uso de un recurso a una tasa mayor que su capacidad de regeneración natural",
+      "C": "El reciclaje completo de todos los materiales",
+      "D": "El uso sostenible y equilibrado de un recurso"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0157",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un área natural protegida?",
+    "opciones": {
+      "A": "Un área sin ningún tipo de regulación ambiental",
+      "B": "Una zona delimitada legalmente para conservar sus ecosistemas y biodiversidad",
+      "C": "Una zona destinada exclusivamente a la construcción urbana",
+      "D": "Un terreno destinado únicamente a la agricultura intensiva"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0158",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué relación ecológica se da cuando dos especies se benefician mutuamente al interactuar?",
+    "opciones": {
+      "A": "Competencia",
+      "B": "Mutualismo",
+      "C": "Parasitismo",
+      "D": "Depredación"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0159",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué relación ecológica ocurre cuando una especie se beneficia y la otra resulta perjudicada?",
+    "opciones": {
+      "A": "Mutualismo",
+      "B": "Parasitismo (o depredación, según el caso)",
+      "C": "Comensalismo exclusivamente",
+      "D": "Neutralismo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0160",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué relación ecológica describe cuando una especie se beneficia sin afectar ni beneficiar a la otra?",
+    "opciones": {
+      "A": "Comensalismo",
+      "B": "Depredación",
+      "C": "Parasitismo",
+      "D": "Mutualismo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0161",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la biomagnificación en un ecosistema?",
+    "opciones": {
+      "A": "La reducción de la temperatura de un ecosistema",
+      "B": "El aumento en la concentración de una sustancia tóxica a medida que asciende en los niveles tróficos de una cadena alimenticia",
+      "C": "La disminución de la biodiversidad en un área determinada",
+      "D": "El crecimiento poblacional exponencial de una especie"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0162",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un bioma?",
+    "opciones": {
+      "A": "Una gran región geográfica con un tipo de clima, suelo y vegetación característicos, como la selva tropical o la tundra",
+      "B": "Un compuesto químico presente en el suelo",
+      "C": "Un tipo específico de célula vegetal",
+      "D": "Un instrumento para medir la biodiversidad"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0163",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué caracteriza a un desierto como bioma?",
+    "opciones": {
+      "A": "Temperaturas bajo cero constantes",
+      "B": "Ausencia total de seres vivos",
+      "C": "Precipitación muy escasa y organismos adaptados a conservar agua",
+      "D": "Abundante precipitación durante todo el año"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0164",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué caracteriza a la tundra como bioma?",
+    "opciones": {
+      "A": "Gran diversidad de árboles altos",
+      "B": "Abundancia de arrecifes de coral",
+      "C": "Clima cálido y húmedo todo el año",
+      "D": "Temperaturas muy bajas, vegetación escasa y suelo permanentemente congelado (permafrost)"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0165",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la capacidad de carga de un ecosistema?",
+    "opciones": {
+      "A": "El número máximo de individuos de una especie que un ecosistema puede sostener de manera sostenible",
+      "B": "La cantidad total de agua disponible en un ecosistema",
+      "C": "El número de especies distintas presentes en un área",
+      "D": "La velocidad de reproducción de una especie"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0166",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son las especies endémicas?",
+    "opciones": {
+      "A": "Especies extintas hace millones de años",
+      "B": "Especies presentes en todos los continentes por igual",
+      "C": "Especies que han sido introducidas artificialmente en un ecosistema",
+      "D": "Especies que se encuentran exclusivamente en una región geográfica determinada y en ningún otro lugar"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0167",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué son las especies invasoras y qué riesgo representan para un ecosistema?",
+    "opciones": {
+      "A": "Especies originarias del ecosistema que ayudan a mantener el equilibrio",
+      "B": "Especies introducidas en un ecosistema ajeno que pueden desplazar a las especies nativas",
+      "C": "Especies que solo existen en zoológicos",
+      "D": "Especies en peligro de extinción que requieren protección especial"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0168",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es la huella ecológica de una persona o población?",
+    "opciones": {
+      "A": "La cantidad de especies que una persona puede identificar",
+      "B": "Una medida del impacto humano sobre el ambiente, en términos de recursos consumidos y residuos generados",
+      "C": "El tamaño físico del pie de una persona",
+      "D": "El número de árboles plantados por una comunidad"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0169",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es el desarrollo sostenible?",
+    "opciones": {
+      "A": "Un sistema que prohíbe cualquier uso de recursos naturales",
+      "B": "Un modelo de desarrollo que satisface las necesidades actuales sin comprometer los recursos de las generaciones futuras",
+      "C": "Un modelo económico basado únicamente en el crecimiento industrial",
+      "D": "La explotación máxima de los recursos naturales disponibles"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0170",
+    "asignatura": "Biología",
+    "subtemario": "Ecosistemas y cuidado del medio ambiente",
+    "dificultad": "fácil",
+    "texto_lectura": null,
+    "enunciado": "¿Qué es un servicio ecosistémico?",
+    "opciones": {
+      "A": "Un impuesto cobrado por el uso de parques nacionales",
+      "B": "Un beneficio que los seres humanos obtienen de los ecosistemas, como la polinización o la purificación del agua",
+      "C": "Un tipo de contaminante industrial",
+      "D": "Una especie introducida artificialmente en un ecosistema"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "Concepto fundamental de ecología y cuidado ambiental."
+  },
+  {
+    "id_reactivo": "BIO-0171",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "La biodiversidad de México es una de las más altas del mundo: se estima que el país alberga alrededor del 10% de las especies conocidas del planeta, a pesar de representar poco más del 1% de la superficie terrestre. Esta riqueza se debe, en parte, a la variedad de climas y ecosistemas presentes en el territorio, desde desiertos y selvas tropicales hasta bosques templados y arrecifes de coral. México es considerado un país 'megadiverso', junto con otras naciones como Brasil, Indonesia y Colombia.",
+    "enunciado": "¿Qué porcentaje aproximado de las especies conocidas del planeta alberga México, según el texto?",
+    "opciones": {
+      "A": "Alrededor del 50%",
+      "B": "Menos del 1%",
+      "C": "Cerca del 25%",
+      "D": "Alrededor del 10%"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0172",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Las vitaminas son compuestos orgánicos que el cuerpo humano necesita en pequeñas cantidades para funcionar correctamente, pero que en su mayoría no puede producir por sí mismo, por lo que deben obtenerse de los alimentos. Se dividen en dos grupos principales: liposolubles (A, D, E, K), que se almacenan en el tejido graso, e hidrosolubles (complejo B y C), que se disuelven en agua y no se almacenan en grandes cantidades, por lo que se deben consumir con mayor regularidad. La falta de ciertas vitaminas puede provocar enfermedades por deficiencia, como el escorbuto por falta de vitamina C.",
+    "enunciado": "¿Qué característica tienen las vitaminas hidrosolubles?",
+    "opciones": {
+      "A": "Solo se encuentran en alimentos de origen animal",
+      "B": "No son necesarias para el funcionamiento del cuerpo",
+      "C": "Se almacenan en el tejido graso del cuerpo",
+      "D": "Se disuelven en agua y no se almacenan en grandes cantidades"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0173",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "La fotosíntesis es el proceso mediante el cual las plantas, algas y algunas bacterias convierten la energía luminosa del sol en energía química, almacenada en forma de glucosa. Este proceso ocurre principalmente en los cloroplastos, utilizando dióxido de carbono y agua como materias primas, y libera oxígeno como subproducto. La fotosíntesis es fundamental para la vida en la Tierra, ya que es la base de la mayoría de las cadenas alimenticias y es la principal fuente de oxígeno atmosférico.",
+    "enunciado": "¿Por qué es fundamental la fotosíntesis para la vida en la Tierra, según el texto?",
+    "opciones": {
+      "A": "Porque regula la temperatura del planeta exclusivamente",
+      "B": "Porque es la base de la mayoría de las cadenas alimenticias y fuente de oxígeno",
+      "C": "Porque produce directamente todos los minerales del suelo",
+      "D": "Porque previene todas las enfermedades en plantas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0174",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sistema inmunológico es la red de células, tejidos y órganos que protegen al cuerpo contra infecciones causadas por virus, bacterias y otros microorganismos. Cuando un agente extraño ingresa al cuerpo, los glóbulos blancos lo identifican y producen anticuerpos específicos para neutralizarlo. Las vacunas funcionan exponiendo al cuerpo a una versión debilitada o inactiva de un patógeno, permitiendo que el sistema inmunológico desarrolle memoria y responda más rápido ante una infección real en el futuro.",
+    "enunciado": "¿Qué producen los glóbulos blancos al identificar un agente extraño?",
+    "opciones": {
+      "A": "Enzimas digestivas",
+      "B": "Hormonas del crecimiento",
+      "C": "Anticuerpos específicos",
+      "D": "Glóbulos rojos adicionales"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0175",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sistema nervioso humano se divide en dos partes principales: el sistema nervioso central, formado por el encéfalo y la médula espinal, y el sistema nervioso periférico, formado por los nervios que se extienden por todo el cuerpo. Las neuronas, células especializadas en transmitir información mediante impulsos eléctricos y señales químicas, son la unidad funcional de este sistema. La comunicación entre neuronas ocurre en las sinapsis, donde se liberan sustancias llamadas neurotransmisores.",
+    "enunciado": "¿Qué estructuras forman el sistema nervioso central, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Los músculos y los huesos",
+      "B": "El encéfalo y la médula espinal",
+      "C": "Los nervios periféricos únicamente",
+      "D": "El corazón y los pulmones"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0176",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los corales son animales marinos que viven en colonias y forman estructuras calcáreas conocidas como arrecifes, considerados uno de los ecosistemas más biodiversos del planeta. Muchos corales mantienen una relación de mutualismo con algas microscópicas llamadas zooxantelas, que les proporcionan alimento a través de la fotosíntesis a cambio de refugio. Cuando la temperatura del agua aumenta de forma anómala, los corales expulsan a estas algas en un fenómeno conocido como blanqueamiento, lo que puede llevarlos a la muerte si la condición persiste.",
+    "enunciado": "¿Qué beneficio obtienen los corales de las zooxantelas?",
+    "opciones": {
+      "A": "Protección física contra depredadores",
+      "B": "Oxígeno exclusivamente para respirar",
+      "C": "Reproducción asexual acelerada",
+      "D": "Alimento producido mediante fotosíntesis"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0177",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "La biodiversidad de México es una de las más altas del mundo: se estima que el país alberga alrededor del 10% de las especies conocidas del planeta, a pesar de representar poco más del 1% de la superficie terrestre. Esta riqueza se debe, en parte, a la variedad de climas y ecosistemas presentes en el territorio, desde desiertos y selvas tropicales hasta bosques templados y arrecifes de coral. México es considerado un país 'megadiverso', junto con otras naciones como Brasil, Indonesia y Colombia.",
+    "enunciado": "¿A qué se atribuye la alta biodiversidad de México, de acuerdo con el texto?",
+    "opciones": {
+      "A": "A que no existen actividades humanas en el territorio",
+      "B": "A la variedad de climas y ecosistemas presentes en el territorio",
+      "C": "A que el país tiene un solo tipo de clima predominante",
+      "D": "A que México tiene la mayor superficie terrestre del mundo"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0178",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sistema inmunológico es la red de células, tejidos y órganos que protegen al cuerpo contra infecciones causadas por virus, bacterias y otros microorganismos. Cuando un agente extraño ingresa al cuerpo, los glóbulos blancos lo identifican y producen anticuerpos específicos para neutralizarlo. Las vacunas funcionan exponiendo al cuerpo a una versión debilitada o inactiva de un patógeno, permitiendo que el sistema inmunológico desarrolle memoria y responda más rápido ante una infección real en el futuro.",
+    "enunciado": "¿Cómo funcionan las vacunas, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Sustituyen a los glóbulos blancos por sintéticos",
+      "B": "Exponen al cuerpo a una versión debilitada o inactiva de un patógeno para generar memoria inmunológica",
+      "C": "Aumentan la temperatura corporal permanentemente",
+      "D": "Eliminan por completo el sistema inmunológico"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0179",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sistema nervioso humano se divide en dos partes principales: el sistema nervioso central, formado por el encéfalo y la médula espinal, y el sistema nervioso periférico, formado por los nervios que se extienden por todo el cuerpo. Las neuronas, células especializadas en transmitir información mediante impulsos eléctricos y señales químicas, son la unidad funcional de este sistema. La comunicación entre neuronas ocurre en las sinapsis, donde se liberan sustancias llamadas neurotransmisores.",
+    "enunciado": "¿Qué ocurre en las sinapsis, según el texto?",
+    "opciones": {
+      "A": "Se filtra la sangre",
+      "B": "Se produce la digestión de nutrientes",
+      "C": "Se liberan neurotransmisores para la comunicación entre neuronas",
+      "D": "Se almacena información genética"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0180",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Las vitaminas son compuestos orgánicos que el cuerpo humano necesita en pequeñas cantidades para funcionar correctamente, pero que en su mayoría no puede producir por sí mismo, por lo que deben obtenerse de los alimentos. Se dividen en dos grupos principales: liposolubles (A, D, E, K), que se almacenan en el tejido graso, e hidrosolubles (complejo B y C), que se disuelven en agua y no se almacenan en grandes cantidades, por lo que se deben consumir con mayor regularidad. La falta de ciertas vitaminas puede provocar enfermedades por deficiencia, como el escorbuto por falta de vitamina C.",
+    "enunciado": "¿Qué enfermedad se menciona como ejemplo de deficiencia vitamínica?",
+    "opciones": {
+      "A": "La osteoporosis, por falta de vitamina B",
+      "B": "La anemia, por falta de vitamina K",
+      "C": "El escorbuto, por falta de vitamina C",
+      "D": "La diabetes, por falta de vitamina A"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0181",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sueño es un estado fisiológico esencial para la salud física y mental del ser humano. Durante el sueño, el cuerpo lleva a cabo procesos de reparación celular, consolidación de la memoria y regulación hormonal. Se distinguen principalmente dos fases: el sueño de movimientos oculares rápidos (REM), asociado con los sueños vívidos y la actividad cerebral intensa, y el sueño de ondas lentas (no REM), relacionado con la recuperación física profunda. Los especialistas recomiendan entre 7 y 9 horas de sueño diario para un adulto sano.",
+    "enunciado": "¿Con qué fase del sueño se asocian los sueños vívidos, de acuerdo con el texto?",
+    "opciones": {
+      "A": "La fase REM",
+      "B": "La fase no REM",
+      "C": "Ninguna fase específica",
+      "D": "Ambas fases por igual"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0182",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sistema nervioso humano se divide en dos partes principales: el sistema nervioso central, formado por el encéfalo y la médula espinal, y el sistema nervioso periférico, formado por los nervios que se extienden por todo el cuerpo. Las neuronas, células especializadas en transmitir información mediante impulsos eléctricos y señales químicas, son la unidad funcional de este sistema. La comunicación entre neuronas ocurre en las sinapsis, donde se liberan sustancias llamadas neurotransmisores.",
+    "enunciado": "¿En qué se divide el sistema nervioso humano, según el texto?",
+    "opciones": {
+      "A": "En sistema óseo y sistema muscular",
+      "B": "En sistema linfático y sistema endocrino",
+      "C": "En sistema digestivo y sistema circulatorio",
+      "D": "En sistema nervioso central y sistema nervioso periférico"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0183",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los antibióticos son sustancias capaces de eliminar o inhibir el crecimiento de bacterias, y su descubrimiento por Alexander Fleming en 1928, con la penicilina, revolucionó la medicina moderna. Sin embargo, el uso excesivo o inadecuado de antibióticos ha favorecido la aparición de bacterias resistentes, que ya no responden a estos tratamientos. Este fenómeno, conocido como resistencia bacteriana, representa uno de los mayores retos de salud pública a nivel mundial.",
+    "enunciado": "¿Qué función cumplen los antibióticos?",
+    "opciones": {
+      "A": "Producir vitaminas en el cuerpo",
+      "B": "Eliminar o inhibir el crecimiento de bacterias",
+      "C": "Reemplazar el sistema inmunológico",
+      "D": "Combatir infecciones causadas por virus"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0184",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "La fotosíntesis es el proceso mediante el cual las plantas, algas y algunas bacterias convierten la energía luminosa del sol en energía química, almacenada en forma de glucosa. Este proceso ocurre principalmente en los cloroplastos, utilizando dióxido de carbono y agua como materias primas, y libera oxígeno como subproducto. La fotosíntesis es fundamental para la vida en la Tierra, ya que es la base de la mayoría de las cadenas alimenticias y es la principal fuente de oxígeno atmosférico.",
+    "enunciado": "¿Dónde ocurre principalmente la fotosíntesis?",
+    "opciones": {
+      "A": "En los cloroplastos",
+      "B": "En las mitocondrias",
+      "C": "En el núcleo celular",
+      "D": "En los ribosomas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0185",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Las vitaminas son compuestos orgánicos que el cuerpo humano necesita en pequeñas cantidades para funcionar correctamente, pero que en su mayoría no puede producir por sí mismo, por lo que deben obtenerse de los alimentos. Se dividen en dos grupos principales: liposolubles (A, D, E, K), que se almacenan en el tejido graso, e hidrosolubles (complejo B y C), que se disuelven en agua y no se almacenan en grandes cantidades, por lo que se deben consumir con mayor regularidad. La falta de ciertas vitaminas puede provocar enfermedades por deficiencia, como el escorbuto por falta de vitamina C.",
+    "enunciado": "¿Cómo se dividen las vitaminas según el texto?",
+    "opciones": {
+      "A": "En liposolubles e hidrosolubles",
+      "B": "En esenciales y no esenciales exclusivamente",
+      "C": "En naturales y artificiales",
+      "D": "En animales y vegetales"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0186",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los antibióticos son sustancias capaces de eliminar o inhibir el crecimiento de bacterias, y su descubrimiento por Alexander Fleming en 1928, con la penicilina, revolucionó la medicina moderna. Sin embargo, el uso excesivo o inadecuado de antibióticos ha favorecido la aparición de bacterias resistentes, que ya no responden a estos tratamientos. Este fenómeno, conocido como resistencia bacteriana, representa uno de los mayores retos de salud pública a nivel mundial.",
+    "enunciado": "¿Quién descubrió la penicilina, según el texto?",
+    "opciones": {
+      "A": "Louis Pasteur",
+      "B": "Charles Darwin",
+      "C": "Alexander Fleming",
+      "D": "Gregor Mendel"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0187",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El ADN, o ácido desoxirribonucleico, es una molécula en forma de doble hélice que contiene las instrucciones genéticas necesarias para el desarrollo y funcionamiento de todos los seres vivos. Está compuesto por unidades llamadas nucleótidos, y la secuencia de estos determina las características hereditarias de un organismo. El descubrimiento de su estructura, en 1953, por James Watson y Francis Crick, fue uno de los hitos más importantes de la biología moderna.",
+    "enunciado": "¿Qué forma tiene la molécula de ADN, según el texto?",
+    "opciones": {
+      "A": "Estructura ramificada",
+      "B": "Doble hélice",
+      "C": "Forma esférica",
+      "D": "Cadena lineal simple"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0188",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los corales son animales marinos que viven en colonias y forman estructuras calcáreas conocidas como arrecifes, considerados uno de los ecosistemas más biodiversos del planeta. Muchos corales mantienen una relación de mutualismo con algas microscópicas llamadas zooxantelas, que les proporcionan alimento a través de la fotosíntesis a cambio de refugio. Cuando la temperatura del agua aumenta de forma anómala, los corales expulsan a estas algas en un fenómeno conocido como blanqueamiento, lo que puede llevarlos a la muerte si la condición persiste.",
+    "enunciado": "¿Qué es el blanqueamiento de coral, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Un tipo de coloración natural permanente",
+      "B": "El crecimiento acelerado del arrecife",
+      "C": "La expulsión de las algas zooxantelas por parte del coral, generalmente debido a un aumento de temperatura",
+      "D": "La reproducción masiva de corales"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0189",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los ecosistemas de manglar, presentes en zonas costeras tropicales, cumplen funciones ecológicas esenciales: sirven como criadero para numerosas especies marinas, protegen la costa de la erosión y actúan como barrera natural contra huracanes. Además, los manglares capturan grandes cantidades de carbono, lo que los convierte en aliados importantes contra el cambio climático. A pesar de su importancia, muchos manglares en el mundo han sido destruidos para dar paso a actividades turísticas o acuícolas.",
+    "enunciado": "¿Qué papel juegan los manglares frente al cambio climático?",
+    "opciones": {
+      "A": "Capturan grandes cantidades de carbono",
+      "B": "Reducen la biodiversidad marina",
+      "C": "Aumentan las emisiones de dióxido de carbono",
+      "D": "No tienen ningún efecto en el clima"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0190",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los corales son animales marinos que viven en colonias y forman estructuras calcáreas conocidas como arrecifes, considerados uno de los ecosistemas más biodiversos del planeta. Muchos corales mantienen una relación de mutualismo con algas microscópicas llamadas zooxantelas, que les proporcionan alimento a través de la fotosíntesis a cambio de refugio. Cuando la temperatura del agua aumenta de forma anómala, los corales expulsan a estas algas en un fenómeno conocido como blanqueamiento, lo que puede llevarlos a la muerte si la condición persiste.",
+    "enunciado": "¿Qué tipo de relación mantienen los corales con las zooxantelas, según el texto?",
+    "opciones": {
+      "A": "Mutualismo",
+      "B": "Depredación",
+      "C": "Competencia",
+      "D": "Parasitismo"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0191",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "La fotosíntesis es el proceso mediante el cual las plantas, algas y algunas bacterias convierten la energía luminosa del sol en energía química, almacenada en forma de glucosa. Este proceso ocurre principalmente en los cloroplastos, utilizando dióxido de carbono y agua como materias primas, y libera oxígeno como subproducto. La fotosíntesis es fundamental para la vida en la Tierra, ya que es la base de la mayoría de las cadenas alimenticias y es la principal fuente de oxígeno atmosférico.",
+    "enunciado": "¿Qué subproducto libera la fotosíntesis?",
+    "opciones": {
+      "A": "Dióxido de carbono",
+      "B": "Oxígeno",
+      "C": "Glucosa exclusivamente sin otros productos",
+      "D": "Nitrógeno"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0192",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El ADN, o ácido desoxirribonucleico, es una molécula en forma de doble hélice que contiene las instrucciones genéticas necesarias para el desarrollo y funcionamiento de todos los seres vivos. Está compuesto por unidades llamadas nucleótidos, y la secuencia de estos determina las características hereditarias de un organismo. El descubrimiento de su estructura, en 1953, por James Watson y Francis Crick, fue uno de los hitos más importantes de la biología moderna.",
+    "enunciado": "¿Qué unidades componen el ADN, de acuerdo con el texto?",
+    "opciones": {
+      "A": "Nucleótidos",
+      "B": "Enzimas",
+      "C": "Aminoácidos",
+      "D": "Ribosomas"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0193",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sistema inmunológico es la red de células, tejidos y órganos que protegen al cuerpo contra infecciones causadas por virus, bacterias y otros microorganismos. Cuando un agente extraño ingresa al cuerpo, los glóbulos blancos lo identifican y producen anticuerpos específicos para neutralizarlo. Las vacunas funcionan exponiendo al cuerpo a una versión debilitada o inactiva de un patógeno, permitiendo que el sistema inmunológico desarrolle memoria y responda más rápido ante una infección real en el futuro.",
+    "enunciado": "¿Qué función cumple el sistema inmunológico, según el texto?",
+    "opciones": {
+      "A": "Regular la temperatura corporal",
+      "B": "Digerir los alimentos",
+      "C": "Transportar oxígeno por el cuerpo",
+      "D": "Proteger al cuerpo contra infecciones"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0194",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El ADN, o ácido desoxirribonucleico, es una molécula en forma de doble hélice que contiene las instrucciones genéticas necesarias para el desarrollo y funcionamiento de todos los seres vivos. Está compuesto por unidades llamadas nucleótidos, y la secuencia de estos determina las características hereditarias de un organismo. El descubrimiento de su estructura, en 1953, por James Watson y Francis Crick, fue uno de los hitos más importantes de la biología moderna.",
+    "enunciado": "¿Quiénes descubrieron la estructura del ADN, según el texto?",
+    "opciones": {
+      "A": "James Watson y Francis Crick",
+      "B": "Charles Darwin y Gregor Mendel",
+      "C": "Isaac Newton y Albert Einstein",
+      "D": "Alexander Fleming y Louis Pasteur"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0195",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los ecosistemas de manglar, presentes en zonas costeras tropicales, cumplen funciones ecológicas esenciales: sirven como criadero para numerosas especies marinas, protegen la costa de la erosión y actúan como barrera natural contra huracanes. Además, los manglares capturan grandes cantidades de carbono, lo que los convierte en aliados importantes contra el cambio climático. A pesar de su importancia, muchos manglares en el mundo han sido destruidos para dar paso a actividades turísticas o acuícolas.",
+    "enunciado": "¿Qué actividades han causado la destrucción de muchos manglares, según el texto?",
+    "opciones": {
+      "A": "El crecimiento natural de los árboles",
+      "B": "Los huracanes exclusivamente",
+      "C": "La migración de aves",
+      "D": "Actividades turísticas o acuícolas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0196",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sueño es un estado fisiológico esencial para la salud física y mental del ser humano. Durante el sueño, el cuerpo lleva a cabo procesos de reparación celular, consolidación de la memoria y regulación hormonal. Se distinguen principalmente dos fases: el sueño de movimientos oculares rápidos (REM), asociado con los sueños vívidos y la actividad cerebral intensa, y el sueño de ondas lentas (no REM), relacionado con la recuperación física profunda. Los especialistas recomiendan entre 7 y 9 horas de sueño diario para un adulto sano.",
+    "enunciado": "¿Qué procesos ocurren durante el sueño, según el texto?",
+    "opciones": {
+      "A": "Solo el crecimiento óseo",
+      "B": "Únicamente la producción de anticuerpos",
+      "C": "Reparación celular, consolidación de la memoria y regulación hormonal",
+      "D": "Solo la digestión de los alimentos"
+    },
+    "respuesta_correcta": "C",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0197",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "El sueño es un estado fisiológico esencial para la salud física y mental del ser humano. Durante el sueño, el cuerpo lleva a cabo procesos de reparación celular, consolidación de la memoria y regulación hormonal. Se distinguen principalmente dos fases: el sueño de movimientos oculares rápidos (REM), asociado con los sueños vívidos y la actividad cerebral intensa, y el sueño de ondas lentas (no REM), relacionado con la recuperación física profunda. Los especialistas recomiendan entre 7 y 9 horas de sueño diario para un adulto sano.",
+    "enunciado": "¿Cuántas horas de sueño recomiendan los especialistas para un adulto sano, según el texto?",
+    "opciones": {
+      "A": "Menos de 5 horas",
+      "B": "Entre 7 y 9 horas",
+      "C": "Entre 2 y 4 horas",
+      "D": "Más de 12 horas"
+    },
+    "respuesta_correcta": "B",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0198",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los antibióticos son sustancias capaces de eliminar o inhibir el crecimiento de bacterias, y su descubrimiento por Alexander Fleming en 1928, con la penicilina, revolucionó la medicina moderna. Sin embargo, el uso excesivo o inadecuado de antibióticos ha favorecido la aparición de bacterias resistentes, que ya no responden a estos tratamientos. Este fenómeno, conocido como resistencia bacteriana, representa uno de los mayores retos de salud pública a nivel mundial.",
+    "enunciado": "¿Qué problema ha generado el uso excesivo de antibióticos, según el texto?",
+    "opciones": {
+      "A": "La resistencia bacteriana",
+      "B": "El aumento de vacunas efectivas",
+      "C": "La eliminación total de las bacterias en el planeta",
+      "D": "La reducción de enfermedades virales"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0199",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "La biodiversidad de México es una de las más altas del mundo: se estima que el país alberga alrededor del 10% de las especies conocidas del planeta, a pesar de representar poco más del 1% de la superficie terrestre. Esta riqueza se debe, en parte, a la variedad de climas y ecosistemas presentes en el territorio, desde desiertos y selvas tropicales hasta bosques templados y arrecifes de coral. México es considerado un país 'megadiverso', junto con otras naciones como Brasil, Indonesia y Colombia.",
+    "enunciado": "¿Qué término se usa en el texto para describir a países con altísima biodiversidad como México?",
+    "opciones": {
+      "A": "Megadiverso",
+      "B": "Endémico",
+      "C": "Subdesarrollado",
+      "D": "Tropical exclusivamente"
+    },
+    "respuesta_correcta": "A",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  },
+  {
+    "id_reactivo": "BIO-0200",
+    "asignatura": "Biología",
+    "subtemario": "Comprensión de lectura científica",
+    "dificultad": "media",
+    "texto_lectura": "Los ecosistemas de manglar, presentes en zonas costeras tropicales, cumplen funciones ecológicas esenciales: sirven como criadero para numerosas especies marinas, protegen la costa de la erosión y actúan como barrera natural contra huracanes. Además, los manglares capturan grandes cantidades de carbono, lo que los convierte en aliados importantes contra el cambio climático. A pesar de su importancia, muchos manglares en el mundo han sido destruidos para dar paso a actividades turísticas o acuícolas.",
+    "enunciado": "¿Qué función cumplen los manglares como criadero, según el texto?",
+    "opciones": {
+      "A": "Funcionan como depósito de agua potable",
+      "B": "Producen oxígeno de forma exclusiva para la atmósfera",
+      "C": "Sirven exclusivamente como fuente de madera",
+      "D": "Sirven como criadero para numerosas especies marinas"
+    },
+    "respuesta_correcta": "D",
+    "feedback": "La respuesta se sustenta directamente en el contenido del texto leído."
+  }
+]
