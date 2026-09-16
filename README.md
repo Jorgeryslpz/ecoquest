@@ -8,6 +8,9 @@ Supabase (auth + Postgres + Realtime) + Stripe + API de Anthropic.
 - ✅ **Etapa 1** — estructura del proyecto, esquema completo de Supabase
   (incluye ya las tablas de Competir y Rachas) con RLS activado, script de
   carga del banco de reactivos, página temporal de verificación.
+- ✅ **"Mundo de Preguntas" (adelantado de la Etapa 3)** — pantalla real en
+  `/mundos`, construida antes de tiempo porque ya había contenido y spec
+  exactos para su formato nuevo. Ver más abajo.
 - ⬜ Etapa 2 — autenticación completa y paywall con Stripe.
 - ⬜ Etapas 3-8 — ver `PROMPT_CLAUDE_CODE.md`.
 
@@ -75,6 +78,41 @@ tenía "Historia" combinada se dividió 6/6 entre ambas, total sigue en 128.
 
 Todos requieren `SUPABASE_SECRET_KEY` y Node **22 o superior** (el cliente
 de Supabase necesita WebSocket nativo, que Node 20 no trae).
+
+## Mundo de Preguntas ("Modo Básico")
+
+Reemplaza por completo el formato viejo de Mundos (A–D + cronómetro sobre
+el banco de `reactivos`). Ahora es: oración con un hueco (`___`) + 4
+palabras para elegir tocando, sin cronómetro, calificación y explicación
+inmediatas. Tabla independiente: `modo_basico_items` (330 ítems: 11
+materias × 3 niveles × 10 preguntas), con el mismo criterio de seguridad
+que `reactivos` (RLS activado, sin policies para el cliente — solo el
+backend puede leer la respuesta correcta).
+
+- `data/modo_basico_330.json` — los 330 ítems que diste, ya en el formato
+  exacto de la tabla.
+- `scripts/merge-modo-basico.mjs` — valida y copia a
+  `supabase/seed/modo_basico.json`.
+- `scripts/generate-modo-basico-sql.mjs` — genera
+  `supabase/seed/0002_modo_basico_seed.sql` (con `TRUNCATE`).
+- `scripts/reset-and-seed-modo-basico.mjs` — carga por API:
+  ```bash
+  node --env-file=.env.local scripts/reset-and-seed-modo-basico.mjs
+  ```
+- `app/mundos/page.tsx` — la pantalla real: elegir materia → elegir nivel
+  (1/2/3, desbloqueo secuencial con ≥6/10 para pasar) → oración con hueco
+  y 4 botones → feedback + explicación inmediatos → resultado.
+- `app/api/modo-basico/route.ts` (GET) — entrega las 10 preguntas del
+  nivel sin la respuesta correcta.
+- `app/api/modo-basico/verificar/route.ts` (POST) — el backend califica
+  cada respuesta; el cliente nunca ve la respuesta correcta de antemano.
+
+**Limitación temporal:** como la Etapa 2 (auth) todavía no existe, el
+progreso de niveles se guarda en `localStorage` del navegador, no por
+usuario en Supabase. La tabla `mundos_progreso` (de la Etapa 1) ya tiene
+la forma correcta para esto (`user_id`, `materia`, `nivel`,
+`mejor_aciertos`) — cuando haya login real, se cambia el guardado local
+por escritura en esa tabla sin tocar la mecánica de la pantalla.
 
 ## Variables de entorno
 

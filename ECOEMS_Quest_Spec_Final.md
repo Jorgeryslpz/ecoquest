@@ -105,22 +105,47 @@ Elementos permanentes en toda la app (excepto dentro de un examen en curso):
 
 ---
 
-## 4. Mundos de preguntas (ruta de aprendizaje gamificada)
+## 4. Mundos de preguntas — "Modo Básico" (ruta de aprendizaje gamificada)
 
-- **Un mundo por materia (11 mundos).** Cada mundo es una ruta de niveles; **un nivel = un tema del temario** de esa materia.
-- Cada nivel tiene **mínimo 10 preguntas** (tomadas del banco por subtemario, con combinatoria para variar en cada intento).
-- **Desbloqueo secuencial:** el nivel N+1 se desbloquea al aprobar el nivel N con **≥ 6/10 aciertos**. El primer nivel de cada mundo siempre está abierto.
-- **Estrellas por nivel (máx 5), según aciertos del mejor intento:**
-  - 10/10 → ★★★★★
-  - 9/10 → ★★★★
-  - 8/10 → ★★★
-  - 7/10 → ★★
-  - 6/10 → ★ (aprobado)
-  - ≤5/10 → sin estrella, nivel no aprobado, [Reintentar].
-- Los niveles se pueden **repetir las veces que sea**; siempre se conserva la mejor puntuación.
-- **Porcentaje del mundo** visible en el mapa y en la tarjeta del mundo: % = niveles aprobados / niveles totales. Mostrar también estrellas acumuladas / estrellas posibles.
-- Dentro de un nivel: pregunta con opciones A–D, feedback inmediato al responder (correcto/incorrecto + explicación breve del campo `feedback` del reactivo), botón **[Repasar]** (ver §5, mismo comportamiento), [Siguiente]. Botón [Salir del nivel] con confirmación (el intento no cuenta si sale antes de terminar).
-- Al terminar el nivel: pantalla de resultado con aciertos, estrellas obtenidas, [Reintentar] [Siguiente nivel] [Volver al mapa].
+**Formato reemplazado por completo** (ya no usa el banco de `reactivos` ni
+el formato A–D con cronómetro de Materias/Examen — es una tabla y una
+mecánica aparte, pensada para practicar de forma más ligera y sin presión
+de tiempo, estilo Duolingo):
+
+- **Un mundo por materia (11 mundos), con exactamente 3 niveles fijos por
+  mundo** (330 reactivos en total: 11 materias × 3 niveles × 10 preguntas).
+  No hay combinatoria de banco ni subtemarios: los 10 ítems de cada nivel
+  son siempre los mismos, aunque el orden de las preguntas y el de las
+  4 opciones se baraja en cada intento.
+- **Cada ítem es una oración con un espacio en blanco** (`oracion`, con el
+  hueco marcado `___`) y **4 palabras/frases para elegir tocando** — sin
+  opciones A/B/C/D, sin cronómetro visible.
+- **Desbloqueo secuencial:** el nivel N+1 se desbloquea al aprobar el
+  nivel N con **≥ 6/10 aciertos**. El nivel 1 de cada mundo siempre está
+  abierto.
+- Al elegir una opción, el backend califica de inmediato (endpoint
+  `/api/modo-basico/verificar` — el cliente nunca conoce la respuesta
+  correcta antes de contestar) y se muestra al instante si acertó o no,
+  junto con la `explicacion` breve, antes de pasar a la siguiente
+  pregunta con **[Siguiente]**.
+- Los niveles se pueden **repetir las veces que sea**; se conserva el
+  mejor puntaje (0-10) de cada nivel.
+- Al terminar el nivel: pantalla de resultado con aciertos, [Reintentar]
+  [Volver a niveles].
+
+Esquema de cada ítem (`modo_basico_items`, tabla separada de `reactivos`):
+```json
+{
+  "id_item": "BAS-MAT-N1-01",
+  "asignatura": "Matemáticas",
+  "nivel": 1,
+  "instruccion": "Completa el espacio en blanco",
+  "oracion": "2 + 3 = ___",
+  "opciones": ["5", "4", "6", "3"],
+  "respuesta_correcta": "5",
+  "explicacion": "2 más 3 es igual a 5."
+}
+```
 
 ---
 

@@ -1,0 +1,4952 @@
+[
+  {
+    "id_item": "BAS-MAT-N1-01",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "2 + 3 = ___",
+    "opciones": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "2 más 3 es igual a 5."
+  },
+  {
+    "id_item": "BAS-MAT-N1-02",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "5 - 2 = ___",
+    "opciones": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "respuesta_correcta": "3",
+    "explicacion": "5 menos 2 es igual a 3."
+  },
+  {
+    "id_item": "BAS-MAT-N1-03",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "4 + 4 = ___",
+    "opciones": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "respuesta_correcta": "8",
+    "explicacion": "4 más 4 es igual a 8."
+  },
+  {
+    "id_item": "BAS-MAT-N1-04",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "10 - 5 = ___",
+    "opciones": [
+      "5",
+      "6",
+      "4",
+      "10"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "10 menos 5 es igual a 5."
+  },
+  {
+    "id_item": "BAS-MAT-N1-05",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "6 + 1 = ___",
+    "opciones": [
+      "7",
+      "8",
+      "6",
+      "5"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "6 más 1 es igual a 7."
+  },
+  {
+    "id_item": "BAS-MAT-N1-06",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "9 - 3 = ___",
+    "opciones": [
+      "6",
+      "7",
+      "5",
+      "3"
+    ],
+    "respuesta_correcta": "6",
+    "explicacion": "9 menos 3 es igual a 6."
+  },
+  {
+    "id_item": "BAS-MAT-N1-07",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "3 + 3 = ___",
+    "opciones": [
+      "6",
+      "5",
+      "7",
+      "3"
+    ],
+    "respuesta_correcta": "6",
+    "explicacion": "3 más 3 es igual a 6."
+  },
+  {
+    "id_item": "BAS-MAT-N1-08",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "8 - 4 = ___",
+    "opciones": [
+      "4",
+      "5",
+      "3",
+      "8"
+    ],
+    "respuesta_correcta": "4",
+    "explicacion": "8 menos 4 es igual a 4."
+  },
+  {
+    "id_item": "BAS-MAT-N1-09",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "7 + 2 = ___",
+    "opciones": [
+      "9",
+      "8",
+      "10",
+      "7"
+    ],
+    "respuesta_correcta": "9",
+    "explicacion": "7 más 2 es igual a 9."
+  },
+  {
+    "id_item": "BAS-MAT-N1-10",
+    "asignatura": "Matemáticas",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "10 - 7 = ___",
+    "opciones": [
+      "3",
+      "4",
+      "2",
+      "7"
+    ],
+    "respuesta_correcta": "3",
+    "explicacion": "10 menos 7 es igual a 3."
+  },
+  {
+    "id_item": "BAS-MAT-N2-01",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "3 × 4 = ___",
+    "opciones": [
+      "12",
+      "10",
+      "7",
+      "14"
+    ],
+    "respuesta_correcta": "12",
+    "explicacion": "3 multiplicado por 4 es 12."
+  },
+  {
+    "id_item": "BAS-MAT-N2-02",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "5 × 2 = ___",
+    "opciones": [
+      "10",
+      "7",
+      "12",
+      "8"
+    ],
+    "respuesta_correcta": "10",
+    "explicacion": "5 multiplicado por 2 es 10."
+  },
+  {
+    "id_item": "BAS-MAT-N2-03",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "6 × 3 = ___",
+    "opciones": [
+      "18",
+      "16",
+      "20",
+      "15"
+    ],
+    "respuesta_correcta": "18",
+    "explicacion": "6 multiplicado por 3 es 18."
+  },
+  {
+    "id_item": "BAS-MAT-N2-04",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La mitad de 10 es ___",
+    "opciones": [
+      "5",
+      "10",
+      "2",
+      "4"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "La mitad de 10 es 5."
+  },
+  {
+    "id_item": "BAS-MAT-N2-05",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "2 × 8 = ___",
+    "opciones": [
+      "16",
+      "14",
+      "18",
+      "10"
+    ],
+    "respuesta_correcta": "16",
+    "explicacion": "2 multiplicado por 8 es 16."
+  },
+  {
+    "id_item": "BAS-MAT-N2-06",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El doble de 6 es ___",
+    "opciones": [
+      "12",
+      "10",
+      "8",
+      "14"
+    ],
+    "respuesta_correcta": "12",
+    "explicacion": "El doble de 6 es 12."
+  },
+  {
+    "id_item": "BAS-MAT-N2-07",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "20 ÷ 4 = ___",
+    "opciones": [
+      "5",
+      "4",
+      "6",
+      "8"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "20 dividido entre 4 es 5."
+  },
+  {
+    "id_item": "BAS-MAT-N2-08",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "4 × 4 = ___",
+    "opciones": [
+      "16",
+      "12",
+      "20",
+      "8"
+    ],
+    "respuesta_correcta": "16",
+    "explicacion": "4 multiplicado por 4 es 16."
+  },
+  {
+    "id_item": "BAS-MAT-N2-09",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La mitad de 8 es ___",
+    "opciones": [
+      "4",
+      "8",
+      "2",
+      "6"
+    ],
+    "respuesta_correcta": "4",
+    "explicacion": "La mitad de 8 es 4."
+  },
+  {
+    "id_item": "BAS-MAT-N2-10",
+    "asignatura": "Matemáticas",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "15 ÷ 3 = ___",
+    "opciones": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "15 dividido entre 3 es 5."
+  },
+  {
+    "id_item": "BAS-MAT-N3-01",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si x + 2 = 5, entonces x = ___",
+    "opciones": [
+      "3",
+      "2",
+      "5",
+      "7"
+    ],
+    "respuesta_correcta": "3",
+    "explicacion": "Despejando: x = 5 - 2 = 3."
+  },
+  {
+    "id_item": "BAS-MAT-N3-02",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si x - 3 = 4, entonces x = ___",
+    "opciones": [
+      "7",
+      "4",
+      "1",
+      "3"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "Despejando: x = 4 + 3 = 7."
+  },
+  {
+    "id_item": "BAS-MAT-N3-03",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El área de un cuadrado de lado 4 es ___",
+    "opciones": [
+      "16",
+      "8",
+      "12",
+      "4"
+    ],
+    "respuesta_correcta": "16",
+    "explicacion": "Área = lado × lado = 4 × 4 = 16."
+  },
+  {
+    "id_item": "BAS-MAT-N3-04",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si 2x = 10, entonces x = ___",
+    "opciones": [
+      "5",
+      "10",
+      "2",
+      "20"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "Despejando: x = 10 ÷ 2 = 5."
+  },
+  {
+    "id_item": "BAS-MAT-N3-05",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El perímetro de un cuadrado de lado 3 es ___",
+    "opciones": [
+      "12",
+      "9",
+      "6",
+      "3"
+    ],
+    "respuesta_correcta": "12",
+    "explicacion": "Perímetro = 4 × lado = 4 × 3 = 12."
+  },
+  {
+    "id_item": "BAS-MAT-N3-06",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "30% de 100 es ___",
+    "opciones": [
+      "30",
+      "3",
+      "70",
+      "13"
+    ],
+    "respuesta_correcta": "30",
+    "explicacion": "El 30% de 100 es 30."
+  },
+  {
+    "id_item": "BAS-MAT-N3-07",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si x + 5 = 12, entonces x = ___",
+    "opciones": [
+      "7",
+      "5",
+      "12",
+      "17"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "Despejando: x = 12 - 5 = 7."
+  },
+  {
+    "id_item": "BAS-MAT-N3-08",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El triple de 5 es ___",
+    "opciones": [
+      "15",
+      "10",
+      "20",
+      "5"
+    ],
+    "respuesta_correcta": "15",
+    "explicacion": "El triple de 5 es 15."
+  },
+  {
+    "id_item": "BAS-MAT-N3-09",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "50% de 20 es ___",
+    "opciones": [
+      "10",
+      "5",
+      "15",
+      "20"
+    ],
+    "respuesta_correcta": "10",
+    "explicacion": "El 50% de 20 es 10."
+  },
+  {
+    "id_item": "BAS-MAT-N3-10",
+    "asignatura": "Matemáticas",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si 3x = 9, entonces x = ___",
+    "opciones": [
+      "3",
+      "9",
+      "6",
+      "1"
+    ],
+    "respuesta_correcta": "3",
+    "explicacion": "Despejando: x = 9 ÷ 3 = 3."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-01",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "2, 4, 6, ___",
+    "opciones": [
+      "8",
+      "7",
+      "10",
+      "6"
+    ],
+    "respuesta_correcta": "8",
+    "explicacion": "La secuencia suma 2 cada vez: 8."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-02",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "1, 2, 3, ___",
+    "opciones": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "respuesta_correcta": "4",
+    "explicacion": "La secuencia suma 1 cada vez: 4."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-03",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "5, 10, 15, ___",
+    "opciones": [
+      "20",
+      "25",
+      "18",
+      "10"
+    ],
+    "respuesta_correcta": "20",
+    "explicacion": "La secuencia suma 5 cada vez: 20."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-04",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "10, 9, 8, ___",
+    "opciones": [
+      "7",
+      "6",
+      "9",
+      "10"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "La secuencia resta 1 cada vez: 7."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-05",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "3, 6, 9, ___",
+    "opciones": [
+      "12",
+      "10",
+      "15",
+      "9"
+    ],
+    "respuesta_correcta": "12",
+    "explicacion": "La secuencia suma 3 cada vez: 12."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-06",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "¿Cuál número es mayor: 15 o 12? ___",
+    "opciones": [
+      "15",
+      "12",
+      "Son iguales",
+      "Ninguno"
+    ],
+    "respuesta_correcta": "15",
+    "explicacion": "15 es mayor que 12."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-07",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "¿Cuál número es menor: 8 o 20? ___",
+    "opciones": [
+      "8",
+      "20",
+      "Son iguales",
+      "Ninguno"
+    ],
+    "respuesta_correcta": "8",
+    "explicacion": "8 es menor que 20."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-08",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "4, 8, 12, ___",
+    "opciones": [
+      "16",
+      "14",
+      "20",
+      "12"
+    ],
+    "respuesta_correcta": "16",
+    "explicacion": "La secuencia suma 4 cada vez: 16."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-09",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "20, 15, 10, ___",
+    "opciones": [
+      "5",
+      "10",
+      "0",
+      "15"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "La secuencia resta 5 cada vez: 5."
+  },
+  {
+    "id_item": "BAS-HABMAT-N1-10",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "1, 3, 5, ___",
+    "opciones": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "La secuencia de números impares continúa con 7."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-01",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "2, 4, 8, ___",
+    "opciones": [
+      "16",
+      "12",
+      "10",
+      "20"
+    ],
+    "respuesta_correcta": "16",
+    "explicacion": "Cada número se multiplica por 2: 16."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-02",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si Juan tiene 5 pesos y le dan 3 más, tiene ___ pesos",
+    "opciones": [
+      "8",
+      "5",
+      "3",
+      "2"
+    ],
+    "respuesta_correcta": "8",
+    "explicacion": "5 + 3 = 8 pesos."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-03",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "1, 4, 9, ___",
+    "opciones": [
+      "16",
+      "12",
+      "14",
+      "10"
+    ],
+    "respuesta_correcta": "16",
+    "explicacion": "Son cuadrados: 1²,2²,3²,4²=16."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-04",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si un pastel se parte en 4 partes iguales, cada parte es ___ del total",
+    "opciones": [
+      "1/4",
+      "1/2",
+      "2/4",
+      "4/4"
+    ],
+    "respuesta_correcta": "1/4",
+    "explicacion": "Cada parte representa un cuarto del total."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-05",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "100, 90, 80, ___",
+    "opciones": [
+      "70",
+      "60",
+      "75",
+      "85"
+    ],
+    "respuesta_correcta": "70",
+    "explicacion": "La secuencia resta 10 cada vez: 70."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-06",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si tengo 3 cajas con 4 dulces cada una, tengo ___ dulces en total",
+    "opciones": [
+      "12",
+      "7",
+      "9",
+      "16"
+    ],
+    "respuesta_correcta": "12",
+    "explicacion": "3 × 4 = 12 dulces."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-07",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "2, 6, 18, ___",
+    "opciones": [
+      "54",
+      "36",
+      "24",
+      "20"
+    ],
+    "respuesta_correcta": "54",
+    "explicacion": "Cada número se multiplica por 3: 54."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-08",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si un tren sale a las 3:00 y tarda 2 horas, llega a las ___",
+    "opciones": [
+      "5:00",
+      "4:00",
+      "6:00",
+      "3:00"
+    ],
+    "respuesta_correcta": "5:00",
+    "explicacion": "3:00 + 2 horas = 5:00."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-09",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "1, 1, 2, 3, 5, ___",
+    "opciones": [
+      "8",
+      "6",
+      "7",
+      "10"
+    ],
+    "respuesta_correcta": "8",
+    "explicacion": "Cada número es la suma de los dos anteriores: 3+5=8."
+  },
+  {
+    "id_item": "BAS-HABMAT-N2-10",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si algo cuesta 50 pesos y pago con 100, me regresan ___",
+    "opciones": [
+      "50",
+      "40",
+      "60",
+      "100"
+    ],
+    "respuesta_correcta": "50",
+    "explicacion": "100 - 50 = 50 pesos."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-01",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si un auto viaja a 60 km/h durante 2 horas, recorre ___ km",
+    "opciones": [
+      "120",
+      "60",
+      "30",
+      "180"
+    ],
+    "respuesta_correcta": "120",
+    "explicacion": "60 × 2 = 120 km."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-02",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Ana es más alta que Luis, y Luis es más alto que Pedro. El más bajo es ___",
+    "opciones": [
+      "Pedro",
+      "Ana",
+      "Luis",
+      "No se sabe"
+    ],
+    "respuesta_correcta": "Pedro",
+    "explicacion": "Si Ana>Luis>Pedro, Pedro es el más bajo."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-03",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si 5 obreros hacen un trabajo en 10 días, 10 obreros lo harían en ___ días",
+    "opciones": [
+      "5",
+      "10",
+      "20",
+      "15"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "El doble de obreros hace el trabajo en la mitad del tiempo."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-04",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un número par más un número par siempre da un número ___",
+    "opciones": [
+      "par",
+      "impar",
+      "negativo",
+      "decimal"
+    ],
+    "respuesta_correcta": "par",
+    "explicacion": "La suma de dos números pares siempre es par."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-05",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si hoy es martes, dentro de 3 días será ___",
+    "opciones": [
+      "viernes",
+      "jueves",
+      "sábado",
+      "lunes"
+    ],
+    "respuesta_correcta": "viernes",
+    "explicacion": "Martes + 3 días = viernes."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-06",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "De cada 10 alumnos, 3 reprobaron. Aprobaron ___ alumnos",
+    "opciones": [
+      "7",
+      "3",
+      "10",
+      "5"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "10 - 3 = 7 alumnos aprobaron."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-07",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si un litro de leche cuesta 20 pesos, 3 litros cuestan ___",
+    "opciones": [
+      "60",
+      "40",
+      "20",
+      "80"
+    ],
+    "respuesta_correcta": "60",
+    "explicacion": "20 × 3 = 60 pesos."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-08",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El siguiente número primo después de 7 es ___",
+    "opciones": [
+      "11",
+      "9",
+      "10",
+      "8"
+    ],
+    "respuesta_correcta": "11",
+    "explicacion": "9 y 10 no son primos; el siguiente primo es 11."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-09",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si María nació en el año 2000, en 2015 tenía ___ años",
+    "opciones": [
+      "15",
+      "10",
+      "20",
+      "5"
+    ],
+    "respuesta_correcta": "15",
+    "explicacion": "2015 - 2000 = 15 años."
+  },
+  {
+    "id_item": "BAS-HABMAT-N3-10",
+    "asignatura": "Habilidad Matemática",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La mitad de la mitad de 20 es ___",
+    "opciones": [
+      "5",
+      "10",
+      "2.5",
+      "15"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "La mitad de 20 es 10, y la mitad de 10 es 5."
+  },
+  {
+    "id_item": "BAS-ESP-N1-01",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El perro ___ en el jardín.",
+    "opciones": [
+      "corre",
+      "corren",
+      "correr",
+      "corriendo"
+    ],
+    "respuesta_correcta": "corre",
+    "explicacion": "Concuerda con 'el perro' (singular)."
+  },
+  {
+    "id_item": "BAS-ESP-N1-02",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las flores ___ muy bonitas.",
+    "opciones": [
+      "son",
+      "es",
+      "fue",
+      "era"
+    ],
+    "respuesta_correcta": "son",
+    "explicacion": "Concuerda con 'las flores' (plural)."
+  },
+  {
+    "id_item": "BAS-ESP-N1-03",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Yo ___ Juan.",
+    "opciones": [
+      "soy",
+      "es",
+      "son",
+      "eres"
+    ],
+    "respuesta_correcta": "soy",
+    "explicacion": "La primera persona usa 'soy'."
+  },
+  {
+    "id_item": "BAS-ESP-N1-04",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Tú ___ mi amigo.",
+    "opciones": [
+      "eres",
+      "soy",
+      "es",
+      "somos"
+    ],
+    "respuesta_correcta": "eres",
+    "explicacion": "La segunda persona usa 'eres'."
+  },
+  {
+    "id_item": "BAS-ESP-N1-05",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Nosotros ___ estudiantes.",
+    "opciones": [
+      "somos",
+      "soy",
+      "es",
+      "son"
+    ],
+    "respuesta_correcta": "somos",
+    "explicacion": "La primera persona plural usa 'somos'."
+  },
+  {
+    "id_item": "BAS-ESP-N1-06",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El sol ___ muy fuerte hoy.",
+    "opciones": [
+      "está",
+      "son",
+      "están",
+      "es"
+    ],
+    "respuesta_correcta": "está",
+    "explicacion": "'Está' se usa para estados temporales."
+  },
+  {
+    "id_item": "BAS-ESP-N1-07",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La casa ___ grande.",
+    "opciones": [
+      "es",
+      "son",
+      "está",
+      "están"
+    ],
+    "respuesta_correcta": "es",
+    "explicacion": "'Es' se usa para características permanentes."
+  },
+  {
+    "id_item": "BAS-ESP-N1-08",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Ellos ___ en la escuela.",
+    "opciones": [
+      "están",
+      "es",
+      "está",
+      "son"
+    ],
+    "respuesta_correcta": "están",
+    "explicacion": "Concuerda con 'ellos' (plural)."
+  },
+  {
+    "id_item": "BAS-ESP-N1-09",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Mi mamá ___ pan todos los días.",
+    "opciones": [
+      "compra",
+      "compran",
+      "comprar",
+      "comprando"
+    ],
+    "respuesta_correcta": "compra",
+    "explicacion": "Concuerda con 'mi mamá' (singular)."
+  },
+  {
+    "id_item": "BAS-ESP-N1-10",
+    "asignatura": "Español",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los niños ___ en el parque.",
+    "opciones": [
+      "juegan",
+      "juega",
+      "jugar",
+      "jugando"
+    ],
+    "respuesta_correcta": "juegan",
+    "explicacion": "Concuerda con 'los niños' (plural)."
+  },
+  {
+    "id_item": "BAS-ESP-N2-01",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'feliz' es ___.",
+    "opciones": [
+      "contento",
+      "triste",
+      "enojado",
+      "cansado"
+    ],
+    "respuesta_correcta": "contento",
+    "explicacion": "'Contento' significa lo mismo que 'feliz'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-02",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'grande' es ___.",
+    "opciones": [
+      "enorme",
+      "pequeño",
+      "chico",
+      "bajo"
+    ],
+    "respuesta_correcta": "enorme",
+    "explicacion": "'Enorme' significa lo mismo que 'grande'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-03",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'alto' es ___.",
+    "opciones": [
+      "bajo",
+      "grande",
+      "enorme",
+      "ancho"
+    ],
+    "respuesta_correcta": "bajo",
+    "explicacion": "'Bajo' es lo contrario de 'alto'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-04",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'rápido' es ___.",
+    "opciones": [
+      "lento",
+      "veloz",
+      "ligero",
+      "ágil"
+    ],
+    "respuesta_correcta": "lento",
+    "explicacion": "'Lento' es lo contrario de 'rápido'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-05",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'bonito' es ___.",
+    "opciones": [
+      "hermoso",
+      "feo",
+      "raro",
+      "normal"
+    ],
+    "respuesta_correcta": "hermoso",
+    "explicacion": "'Hermoso' significa lo mismo que 'bonito'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-06",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'día' es ___.",
+    "opciones": [
+      "noche",
+      "tarde",
+      "sol",
+      "luz"
+    ],
+    "respuesta_correcta": "noche",
+    "explicacion": "'Noche' es lo contrario de 'día'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-07",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'comenzar' es ___.",
+    "opciones": [
+      "iniciar",
+      "terminar",
+      "acabar",
+      "concluir"
+    ],
+    "respuesta_correcta": "iniciar",
+    "explicacion": "'Iniciar' significa lo mismo que 'comenzar'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-08",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'abrir' es ___.",
+    "opciones": [
+      "cerrar",
+      "entrar",
+      "salir",
+      "abrir"
+    ],
+    "respuesta_correcta": "cerrar",
+    "explicacion": "'Cerrar' es lo contrario de 'abrir'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-09",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'triste' es ___.",
+    "opciones": [
+      "melancólico",
+      "alegre",
+      "feliz",
+      "contento"
+    ],
+    "respuesta_correcta": "melancólico",
+    "explicacion": "'Melancólico' significa lo mismo que 'triste'."
+  },
+  {
+    "id_item": "BAS-ESP-N2-10",
+    "asignatura": "Español",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'limpio' es ___.",
+    "opciones": [
+      "sucio",
+      "claro",
+      "brillante",
+      "nuevo"
+    ],
+    "respuesta_correcta": "sucio",
+    "explicacion": "'Sucio' es lo contrario de 'limpio'."
+  },
+  {
+    "id_item": "BAS-ESP-N3-01",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Quiero pan ___ también quiero leche.",
+    "opciones": [
+      "y",
+      "pero",
+      "o",
+      "porque"
+    ],
+    "respuesta_correcta": "y",
+    "explicacion": "'Y' une dos ideas que se agregan."
+  },
+  {
+    "id_item": "BAS-ESP-N3-02",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Quiero salir ___ está lloviendo.",
+    "opciones": [
+      "pero",
+      "y",
+      "porque",
+      "entonces"
+    ],
+    "respuesta_correcta": "pero",
+    "explicacion": "'Pero' introduce una idea contraria."
+  },
+  {
+    "id_item": "BAS-ESP-N3-03",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "No fui a la escuela ___ estaba enfermo.",
+    "opciones": [
+      "porque",
+      "pero",
+      "aunque",
+      "sin embargo"
+    ],
+    "respuesta_correcta": "porque",
+    "explicacion": "'Porque' explica la causa."
+  },
+  {
+    "id_item": "BAS-ESP-N3-04",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "¿Vas a comer arroz ___ pasta?",
+    "opciones": [
+      "o",
+      "y",
+      "pero",
+      "porque"
+    ],
+    "respuesta_correcta": "o",
+    "explicacion": "'O' presenta una opción entre dos cosas."
+  },
+  {
+    "id_item": "BAS-ESP-N3-05",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Estudié mucho, ___ no aprobé el examen.",
+    "opciones": [
+      "sin embargo",
+      "y",
+      "porque",
+      "o"
+    ],
+    "respuesta_correcta": "sin embargo",
+    "explicacion": "'Sin embargo' indica un contraste."
+  },
+  {
+    "id_item": "BAS-ESP-N3-06",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La palabra 'árbol' lleva tilde porque es ___.",
+    "opciones": [
+      "grave",
+      "aguda",
+      "esdrújula",
+      "monosílaba"
+    ],
+    "respuesta_correcta": "grave",
+    "explicacion": "'Árbol' termina en consonante distinta de n/s y lleva tilde: es grave."
+  },
+  {
+    "id_item": "BAS-ESP-N3-07",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La palabra 'camión' es ___.",
+    "opciones": [
+      "aguda",
+      "grave",
+      "esdrújula",
+      "monosílaba"
+    ],
+    "respuesta_correcta": "aguda",
+    "explicacion": "'Camión' termina en 'n' con acento en la última sílaba: es aguda."
+  },
+  {
+    "id_item": "BAS-ESP-N3-08",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "En la oración 'El perro corre rápido', la palabra 'rápido' es un ___.",
+    "opciones": [
+      "adverbio",
+      "sustantivo",
+      "verbo",
+      "artículo"
+    ],
+    "respuesta_correcta": "adverbio",
+    "explicacion": "'Rápido' modifica al verbo 'corre': es un adverbio."
+  },
+  {
+    "id_item": "BAS-ESP-N3-09",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "En la oración 'La casa azul', la palabra 'azul' es un ___.",
+    "opciones": [
+      "adjetivo",
+      "sustantivo",
+      "verbo",
+      "adverbio"
+    ],
+    "respuesta_correcta": "adjetivo",
+    "explicacion": "'Azul' describe a 'casa': es un adjetivo."
+  },
+  {
+    "id_item": "BAS-ESP-N3-10",
+    "asignatura": "Español",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "En la oración 'María canta', la palabra 'canta' es un ___.",
+    "opciones": [
+      "verbo",
+      "sustantivo",
+      "adjetivo",
+      "adverbio"
+    ],
+    "respuesta_correcta": "verbo",
+    "explicacion": "'Canta' indica la acción: es un verbo."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-01",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'casa' es ___.",
+    "opciones": [
+      "hogar",
+      "calle",
+      "carro",
+      "árbol"
+    ],
+    "respuesta_correcta": "hogar",
+    "explicacion": "'Hogar' significa lo mismo que 'casa'."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-02",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'niño' es ___.",
+    "opciones": [
+      "chico",
+      "grande",
+      "viejo",
+      "adulto"
+    ],
+    "respuesta_correcta": "chico",
+    "explicacion": "'Chico' significa lo mismo que 'niño'."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-03",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'amigo' es ___.",
+    "opciones": [
+      "enemigo",
+      "compañero",
+      "hermano",
+      "vecino"
+    ],
+    "respuesta_correcta": "enemigo",
+    "explicacion": "'Enemigo' es lo contrario de 'amigo'."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-04",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'nuevo' es ___.",
+    "opciones": [
+      "viejo",
+      "moderno",
+      "reciente",
+      "fresco"
+    ],
+    "respuesta_correcta": "viejo",
+    "explicacion": "'Viejo' es lo contrario de 'nuevo'."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-05",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Perro es a ladrar como gato es a ___.",
+    "opciones": [
+      "maullar",
+      "volar",
+      "nadar",
+      "correr"
+    ],
+    "respuesta_correcta": "maullar",
+    "explicacion": "Cada animal tiene su sonido característico."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-06",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Sol es a día como luna es a ___.",
+    "opciones": [
+      "noche",
+      "tarde",
+      "mañana",
+      "sol"
+    ],
+    "respuesta_correcta": "noche",
+    "explicacion": "El sol se asocia al día y la luna a la noche."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-07",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'contento' es ___.",
+    "opciones": [
+      "feliz",
+      "triste",
+      "enojado",
+      "serio"
+    ],
+    "respuesta_correcta": "feliz",
+    "explicacion": "'Feliz' significa lo mismo que 'contento'."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-08",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Pez es a agua como ave es a ___.",
+    "opciones": [
+      "aire",
+      "tierra",
+      "fuego",
+      "hielo"
+    ],
+    "respuesta_correcta": "aire",
+    "explicacion": "El pez vive en el agua y el ave vuela en el aire."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-09",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'subir' es ___.",
+    "opciones": [
+      "bajar",
+      "correr",
+      "saltar",
+      "caminar"
+    ],
+    "respuesta_correcta": "bajar",
+    "explicacion": "'Bajar' es lo contrario de 'subir'."
+  },
+  {
+    "id_item": "BAS-HABVER-N1-10",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'rápido' es ___.",
+    "opciones": [
+      "veloz",
+      "lento",
+      "despacio",
+      "tranquilo"
+    ],
+    "respuesta_correcta": "veloz",
+    "explicacion": "'Veloz' significa lo mismo que 'rápido'."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-01",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Médico es a hospital como maestro es a ___.",
+    "opciones": [
+      "escuela",
+      "hospital",
+      "tienda",
+      "parque"
+    ],
+    "respuesta_correcta": "escuela",
+    "explicacion": "Cada profesión tiene su lugar de trabajo."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-02",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Libro es a leer como pelota es a ___.",
+    "opciones": [
+      "jugar",
+      "comer",
+      "dormir",
+      "escribir"
+    ],
+    "respuesta_correcta": "jugar",
+    "explicacion": "Cada objeto se asocia a su función principal."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-03",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'difícil' es ___.",
+    "opciones": [
+      "complicado",
+      "fácil",
+      "simple",
+      "sencillo"
+    ],
+    "respuesta_correcta": "complicado",
+    "explicacion": "'Complicado' significa lo mismo que 'difícil'."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-04",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'comprar' es ___.",
+    "opciones": [
+      "vender",
+      "pagar",
+      "gastar",
+      "ahorrar"
+    ],
+    "respuesta_correcta": "vender",
+    "explicacion": "'Vender' es lo contrario de 'comprar'."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-05",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Carpintero es a madera como herrero es a ___.",
+    "opciones": [
+      "metal",
+      "tela",
+      "papel",
+      "vidrio"
+    ],
+    "respuesta_correcta": "metal",
+    "explicacion": "Cada oficio trabaja con un material distinto."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-06",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'hablar' es ___.",
+    "opciones": [
+      "conversar",
+      "callar",
+      "escuchar",
+      "pensar"
+    ],
+    "respuesta_correcta": "conversar",
+    "explicacion": "'Conversar' significa lo mismo que 'hablar'."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-07",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El antónimo de 'permitir' es ___.",
+    "opciones": [
+      "prohibir",
+      "aceptar",
+      "dejar",
+      "autorizar"
+    ],
+    "respuesta_correcta": "prohibir",
+    "explicacion": "'Prohibir' es lo contrario de 'permitir'."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-08",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Llave es a puerta como interruptor es a ___.",
+    "opciones": [
+      "luz",
+      "mesa",
+      "silla",
+      "ventana"
+    ],
+    "respuesta_correcta": "luz",
+    "explicacion": "Cada objeto activa algo distinto."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-09",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un sinónimo de 'valiente' es ___.",
+    "opciones": [
+      "audaz",
+      "cobarde",
+      "tímido",
+      "miedoso"
+    ],
+    "respuesta_correcta": "audaz",
+    "explicacion": "'Audaz' significa lo mismo que 'valiente'."
+  },
+  {
+    "id_item": "BAS-HABVER-N2-10",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Panadero es a pan como zapatero es a ___.",
+    "opciones": [
+      "zapatos",
+      "ropa",
+      "muebles",
+      "libros"
+    ],
+    "respuesta_correcta": "zapatos",
+    "explicacion": "Cada oficio produce algo distinto."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-01",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "En el texto, la idea principal es aquella que ___.",
+    "opciones": [
+      "resume el tema central",
+      "es la primera oración siempre",
+      "tiene más palabras",
+      "aparece al final siempre"
+    ],
+    "respuesta_correcta": "resume el tema central",
+    "explicacion": "La idea principal resume de qué trata el texto."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-02",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un párrafo bien organizado tiene una idea ___ y varias ideas secundarias.",
+    "opciones": [
+      "principal",
+      "irrelevante",
+      "repetida",
+      "opuesta"
+    ],
+    "respuesta_correcta": "principal",
+    "explicacion": "El párrafo se organiza alrededor de una idea principal."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-03",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuando un texto explica una opinión con argumentos, decimos que es ___.",
+    "opciones": [
+      "argumentativo",
+      "narrativo",
+      "descriptivo",
+      "poético"
+    ],
+    "respuesta_correcta": "argumentativo",
+    "explicacion": "Un texto argumentativo defiende una postura con razones."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-04",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuando un texto cuenta una historia con personajes, decimos que es ___.",
+    "opciones": [
+      "narrativo",
+      "argumentativo",
+      "expositivo",
+      "informativo"
+    ],
+    "respuesta_correcta": "narrativo",
+    "explicacion": "Un texto narrativo cuenta una historia."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-05",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La palabra que conecta dos ideas opuestas es ___.",
+    "opciones": [
+      "pero",
+      "y",
+      "también",
+      "además"
+    ],
+    "respuesta_correcta": "pero",
+    "explicacion": "'Pero' conecta ideas que contrastan."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-06",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Resumir un texto significa ___.",
+    "opciones": [
+      "decir lo más importante en pocas palabras",
+      "copiar el texto completo",
+      "inventar una historia nueva",
+      "traducir el texto"
+    ],
+    "respuesta_correcta": "decir lo más importante en pocas palabras",
+    "explicacion": "Resumir es sintetizar las ideas clave."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-07",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un texto informativo busca principalmente ___.",
+    "opciones": [
+      "dar datos y hechos",
+      "contar una historia",
+      "convencer con opiniones",
+      "expresar sentimientos"
+    ],
+    "respuesta_correcta": "dar datos y hechos",
+    "explicacion": "El objetivo de un texto informativo es informar con datos."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-08",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuando una palabra tiene varios significados según el contexto, se llama ___.",
+    "opciones": [
+      "polisemia",
+      "sinonimia",
+      "antonimia",
+      "rima"
+    ],
+    "respuesta_correcta": "polisemia",
+    "explicacion": "La polisemia ocurre cuando una palabra tiene varios significados."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-09",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El propósito de un texto publicitario es ___.",
+    "opciones": [
+      "convencer para comprar algo",
+      "narrar una historia",
+      "explicar un fenómeno natural",
+      "dar instrucciones técnicas"
+    ],
+    "respuesta_correcta": "convencer para comprar algo",
+    "explicacion": "La publicidad busca persuadir al consumidor."
+  },
+  {
+    "id_item": "BAS-HABVER-N3-10",
+    "asignatura": "Habilidad Verbal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Inferir en un texto significa ___.",
+    "opciones": [
+      "deducir algo que no está escrito directamente",
+      "copiar una idea textual",
+      "memorizar el texto completo",
+      "ignorar el contexto"
+    ],
+    "respuesta_correcta": "deducir algo que no está escrito directamente",
+    "explicacion": "Inferir es concluir algo a partir de pistas del texto."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-01",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La unidad para medir la distancia es el ___.",
+    "opciones": [
+      "metro",
+      "segundo",
+      "kilogramo",
+      "litro"
+    ],
+    "respuesta_correcta": "metro",
+    "explicacion": "La distancia se mide en metros."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-02",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La unidad para medir el tiempo es el ___.",
+    "opciones": [
+      "segundo",
+      "metro",
+      "kilogramo",
+      "litro"
+    ],
+    "respuesta_correcta": "segundo",
+    "explicacion": "El tiempo se mide en segundos."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-03",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La unidad para medir la masa es el ___.",
+    "opciones": [
+      "kilogramo",
+      "metro",
+      "segundo",
+      "litro"
+    ],
+    "respuesta_correcta": "kilogramo",
+    "explicacion": "La masa se mide en kilogramos."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-04",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un objeto en reposo no se mueve porque no tiene ___ actuando sobre él.",
+    "opciones": [
+      "fuerza",
+      "color",
+      "tiempo",
+      "masa"
+    ],
+    "respuesta_correcta": "fuerza",
+    "explicacion": "Sin fuerza que lo mueva, un objeto permanece en reposo."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-05",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El agua hierve y se convierte en ___.",
+    "opciones": [
+      "vapor",
+      "hielo",
+      "piedra",
+      "madera"
+    ],
+    "respuesta_correcta": "vapor",
+    "explicacion": "Al hervir, el agua se convierte en vapor."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-06",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El hielo es agua en estado ___.",
+    "opciones": [
+      "sólido",
+      "líquido",
+      "gaseoso",
+      "plasma"
+    ],
+    "respuesta_correcta": "sólido",
+    "explicacion": "El hielo es agua congelada, en estado sólido."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-07",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La luz viaja más ___ que el sonido.",
+    "opciones": [
+      "rápido",
+      "lento",
+      "despacio",
+      "igual"
+    ],
+    "respuesta_correcta": "rápido",
+    "explicacion": "La luz viaja mucho más rápido que el sonido."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-08",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuando algo cae al suelo, es por la fuerza de ___.",
+    "opciones": [
+      "gravedad",
+      "electricidad",
+      "magnetismo",
+      "fricción"
+    ],
+    "respuesta_correcta": "gravedad",
+    "explicacion": "La gravedad atrae los objetos hacia el suelo."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-09",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El termómetro sirve para medir la ___.",
+    "opciones": [
+      "temperatura",
+      "distancia",
+      "masa",
+      "velocidad"
+    ],
+    "respuesta_correcta": "temperatura",
+    "explicacion": "El termómetro mide la temperatura."
+  },
+  {
+    "id_item": "BAS-FÍS-N1-10",
+    "asignatura": "Física",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un imán atrae objetos de ___.",
+    "opciones": [
+      "hierro",
+      "madera",
+      "plástico",
+      "vidrio"
+    ],
+    "respuesta_correcta": "hierro",
+    "explicacion": "Los imanes atraen materiales como el hierro."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-01",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La velocidad se calcula dividiendo la distancia entre el ___.",
+    "opciones": [
+      "tiempo",
+      "peso",
+      "color",
+      "volumen"
+    ],
+    "respuesta_correcta": "tiempo",
+    "explicacion": "Velocidad = distancia / tiempo."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-02",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La fórmula de la fuerza es masa por ___.",
+    "opciones": [
+      "aceleración",
+      "velocidad",
+      "tiempo",
+      "distancia"
+    ],
+    "respuesta_correcta": "aceleración",
+    "explicacion": "Fuerza = masa × aceleración."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-03",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un cuerpo que cae libremente acelera por la ___.",
+    "opciones": [
+      "gravedad",
+      "fricción",
+      "electricidad",
+      "tensión"
+    ],
+    "respuesta_correcta": "gravedad",
+    "explicacion": "La gravedad acelera los cuerpos en caída libre."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-04",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La energía que tiene un objeto en movimiento se llama energía ___.",
+    "opciones": [
+      "cinética",
+      "potencial",
+      "térmica",
+      "eléctrica"
+    ],
+    "respuesta_correcta": "cinética",
+    "explicacion": "La energía cinética es la energía del movimiento."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-05",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La energía que tiene un objeto por su altura se llama energía ___.",
+    "opciones": [
+      "potencial",
+      "cinética",
+      "térmica",
+      "eléctrica"
+    ],
+    "respuesta_correcta": "potencial",
+    "explicacion": "La energía potencial depende de la posición o altura."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-06",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los polos opuestos de un imán se ___.",
+    "opciones": [
+      "atraen",
+      "repelen",
+      "ignoran",
+      "destruyen"
+    ],
+    "respuesta_correcta": "atraen",
+    "explicacion": "Polos opuestos (norte-sur) se atraen."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-07",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los polos iguales de un imán se ___.",
+    "opciones": [
+      "repelen",
+      "atraen",
+      "unen",
+      "funden"
+    ],
+    "respuesta_correcta": "repelen",
+    "explicacion": "Polos iguales (norte-norte) se repelen."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-08",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El sonido necesita un ___ para propagarse.",
+    "opciones": [
+      "medio material",
+      "vacío",
+      "espacio",
+      "color"
+    ],
+    "respuesta_correcta": "medio material",
+    "explicacion": "El sonido no puede viajar en el vacío."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-09",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La corriente eléctrica se mide en ___.",
+    "opciones": [
+      "amperes",
+      "metros",
+      "segundos",
+      "kilogramos"
+    ],
+    "respuesta_correcta": "amperes",
+    "explicacion": "La corriente eléctrica se mide en amperes."
+  },
+  {
+    "id_item": "BAS-FÍS-N2-10",
+    "asignatura": "Física",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La resistencia eléctrica se mide en ___.",
+    "opciones": [
+      "ohms",
+      "watts",
+      "volts",
+      "amperes"
+    ],
+    "respuesta_correcta": "ohms",
+    "explicacion": "La resistencia se mide en ohms."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-01",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si un auto acelera de 0 a 20 m/s en 4 segundos, su aceleración es ___ m/s².",
+    "opciones": [
+      "5",
+      "4",
+      "20",
+      "80"
+    ],
+    "respuesta_correcta": "5",
+    "explicacion": "Aceleración = (20-0)/4 = 5 m/s²."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-02",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La ley de Newton que dice 'a toda acción corresponde una reacción' es la ___ ley.",
+    "opciones": [
+      "tercera",
+      "primera",
+      "segunda",
+      "cuarta"
+    ],
+    "respuesta_correcta": "tercera",
+    "explicacion": "La tercera ley de Newton es la ley de acción y reacción."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-03",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La ley de la inercia es la ___ ley de Newton.",
+    "opciones": [
+      "primera",
+      "segunda",
+      "tercera",
+      "cuarta"
+    ],
+    "respuesta_correcta": "primera",
+    "explicacion": "La primera ley de Newton es la ley de la inercia."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-04",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La fórmula de la energía cinética es ___.",
+    "opciones": [
+      "½mv²",
+      "mgh",
+      "m×a",
+      "V×I"
+    ],
+    "respuesta_correcta": "½mv²",
+    "explicacion": "La energía cinética se calcula como ½ masa × velocidad²."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-05",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La ley de Ohm relaciona el voltaje, la corriente y la ___.",
+    "opciones": [
+      "resistencia",
+      "masa",
+      "distancia",
+      "temperatura"
+    ],
+    "respuesta_correcta": "resistencia",
+    "explicacion": "La ley de Ohm: Voltaje = Corriente × Resistencia."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-06",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un cuerpo con más masa tiene más ___ al cambio de movimiento.",
+    "opciones": [
+      "inercia",
+      "velocidad",
+      "color",
+      "temperatura"
+    ],
+    "respuesta_correcta": "inercia",
+    "explicacion": "La inercia aumenta con la masa del cuerpo."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-07",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La potencia eléctrica se calcula como voltaje por ___.",
+    "opciones": [
+      "corriente",
+      "resistencia",
+      "tiempo",
+      "masa"
+    ],
+    "respuesta_correcta": "corriente",
+    "explicacion": "Potencia = Voltaje × Corriente."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-08",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un cuerpo que cae desde el reposo tras 2 segundos (g=10) tiene una velocidad de ___ m/s.",
+    "opciones": [
+      "20",
+      "10",
+      "5",
+      "40"
+    ],
+    "respuesta_correcta": "20",
+    "explicacion": "v = g × t = 10 × 2 = 20 m/s."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-09",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La frecuencia de una onda se mide en ___.",
+    "opciones": [
+      "Hertz",
+      "metros",
+      "segundos",
+      "Newtons"
+    ],
+    "respuesta_correcta": "Hertz",
+    "explicacion": "La frecuencia se mide en Hertz (Hz)."
+  },
+  {
+    "id_item": "BAS-FÍS-N3-10",
+    "asignatura": "Física",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La energía no se crea ni se destruye, solo se ___.",
+    "opciones": [
+      "transforma",
+      "elimina",
+      "multiplica",
+      "detiene"
+    ],
+    "respuesta_correcta": "transforma",
+    "explicacion": "Ley de conservación de la energía."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-01",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El símbolo químico del agua es ___.",
+    "opciones": [
+      "H2O",
+      "O2",
+      "CO2",
+      "H2"
+    ],
+    "respuesta_correcta": "H2O",
+    "explicacion": "El agua está formada por 2 hidrógenos y 1 oxígeno."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-02",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El aire que respiramos contiene principalmente ___.",
+    "opciones": [
+      "oxígeno y nitrógeno",
+      "solo oxígeno",
+      "solo hidrógeno",
+      "solo dióxido de carbono"
+    ],
+    "respuesta_correcta": "oxígeno y nitrógeno",
+    "explicacion": "El aire es una mezcla, principalmente de nitrógeno y oxígeno."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-03",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El estado del agua a temperatura ambiente es ___.",
+    "opciones": [
+      "líquido",
+      "sólido",
+      "gaseoso",
+      "plasma"
+    ],
+    "respuesta_correcta": "líquido",
+    "explicacion": "A temperatura ambiente el agua es líquida."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-04",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La sal de mesa se llama químicamente ___.",
+    "opciones": [
+      "cloruro de sodio",
+      "óxido de hierro",
+      "dióxido de carbono",
+      "carbonato de calcio"
+    ],
+    "respuesta_correcta": "cloruro de sodio",
+    "explicacion": "La sal común es cloruro de sodio (NaCl)."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-05",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El elemento más ligero de la tabla periódica es el ___.",
+    "opciones": [
+      "hidrógeno",
+      "oxígeno",
+      "carbono",
+      "hierro"
+    ],
+    "respuesta_correcta": "hidrógeno",
+    "explicacion": "El hidrógeno es el elemento más ligero."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-06",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El símbolo del oxígeno es ___.",
+    "opciones": [
+      "O",
+      "Ox",
+      "Og",
+      "On"
+    ],
+    "respuesta_correcta": "O",
+    "explicacion": "El símbolo químico del oxígeno es O."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-07",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El símbolo del hierro es ___.",
+    "opciones": [
+      "Fe",
+      "Hi",
+      "Ir",
+      "He"
+    ],
+    "respuesta_correcta": "Fe",
+    "explicacion": "El símbolo del hierro viene del latín 'ferrum': Fe."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-08",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Una mezcla de agua y aceite es ___.",
+    "opciones": [
+      "heterogénea",
+      "homogénea",
+      "pura",
+      "elemental"
+    ],
+    "respuesta_correcta": "heterogénea",
+    "explicacion": "El agua y el aceite no se mezclan uniformemente."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-09",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un elemento químico está formado por un solo tipo de ___.",
+    "opciones": [
+      "átomo",
+      "molécula",
+      "mezcla",
+      "compuesto"
+    ],
+    "respuesta_correcta": "átomo",
+    "explicacion": "Un elemento tiene un solo tipo de átomo."
+  },
+  {
+    "id_item": "BAS-QUÍ-N1-10",
+    "asignatura": "Química",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de pasar de líquido a gas se llama ___.",
+    "opciones": [
+      "evaporación",
+      "condensación",
+      "solidificación",
+      "fusión"
+    ],
+    "respuesta_correcta": "evaporación",
+    "explicacion": "La evaporación convierte líquido en gas."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-01",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El número atómico indica la cantidad de ___ en un átomo.",
+    "opciones": [
+      "protones",
+      "neutrones",
+      "electrones libres",
+      "moléculas"
+    ],
+    "respuesta_correcta": "protones",
+    "explicacion": "El número atómico es igual al número de protones."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-02",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un átomo neutro tiene el mismo número de protones que de ___.",
+    "opciones": [
+      "electrones",
+      "neutrones",
+      "moléculas",
+      "iones"
+    ],
+    "respuesta_correcta": "electrones",
+    "explicacion": "En un átomo neutro, protones = electrones."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-03",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las filas horizontales de la tabla periódica se llaman ___.",
+    "opciones": [
+      "periodos",
+      "grupos",
+      "familias",
+      "bloques"
+    ],
+    "respuesta_correcta": "periodos",
+    "explicacion": "Las filas horizontales son periodos."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-04",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las columnas verticales de la tabla periódica se llaman ___.",
+    "opciones": [
+      "grupos",
+      "periodos",
+      "capas",
+      "niveles"
+    ],
+    "respuesta_correcta": "grupos",
+    "explicacion": "Las columnas verticales son grupos o familias."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-05",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un enlace donde se comparten electrones se llama ___.",
+    "opciones": [
+      "covalente",
+      "iónico",
+      "metálico",
+      "nuclear"
+    ],
+    "respuesta_correcta": "covalente",
+    "explicacion": "En el enlace covalente los átomos comparten electrones."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-06",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un enlace donde se transfieren electrones se llama ___.",
+    "opciones": [
+      "iónico",
+      "covalente",
+      "metálico",
+      "débil"
+    ],
+    "respuesta_correcta": "iónico",
+    "explicacion": "En el enlace iónico hay transferencia de electrones."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-07",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Una sustancia con pH menor a 7 es ___.",
+    "opciones": [
+      "ácida",
+      "básica",
+      "neutra",
+      "sólida"
+    ],
+    "respuesta_correcta": "ácida",
+    "explicacion": "Valores de pH menores a 7 indican acidez."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-08",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Una sustancia con pH mayor a 7 es ___.",
+    "opciones": [
+      "básica",
+      "ácida",
+      "neutra",
+      "gaseosa"
+    ],
+    "respuesta_correcta": "básica",
+    "explicacion": "Valores de pH mayores a 7 indican basicidad."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-09",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El agua pura tiene un pH de ___.",
+    "opciones": [
+      "7",
+      "0",
+      "14",
+      "10"
+    ],
+    "respuesta_correcta": "7",
+    "explicacion": "El agua pura es neutra, con pH 7."
+  },
+  {
+    "id_item": "BAS-QUÍ-N2-10",
+    "asignatura": "Química",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La unidad para medir la cantidad de sustancia es el ___.",
+    "opciones": [
+      "mol",
+      "litro",
+      "gramo",
+      "metro"
+    ],
+    "respuesta_correcta": "mol",
+    "explicacion": "El mol es la unidad para medir cantidad de sustancia."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-01",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si un elemento tiene número atómico 6, tiene ___ protones.",
+    "opciones": [
+      "6",
+      "12",
+      "3",
+      "0"
+    ],
+    "respuesta_correcta": "6",
+    "explicacion": "El número atómico es directamente el número de protones."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-02",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "En la ecuación 2H2 + O2 → 2H2O, hay ___ átomos de hidrógeno en los reactivos.",
+    "opciones": [
+      "4",
+      "2",
+      "6",
+      "8"
+    ],
+    "respuesta_correcta": "4",
+    "explicacion": "2 moléculas de H2 tienen 4 átomos de hidrógeno."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-03",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Una reacción que libera calor se llama ___.",
+    "opciones": [
+      "exotérmica",
+      "endotérmica",
+      "neutra",
+      "catalítica"
+    ],
+    "respuesta_correcta": "exotérmica",
+    "explicacion": "Las reacciones exotérmicas liberan calor."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-04",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Una reacción que absorbe calor se llama ___.",
+    "opciones": [
+      "endotérmica",
+      "exotérmica",
+      "neutra",
+      "espontánea"
+    ],
+    "respuesta_correcta": "endotérmica",
+    "explicacion": "Las reacciones endotérmicas absorben calor."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-05",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La ley que dice que la masa no se crea ni se destruye es la ley de ___.",
+    "opciones": [
+      "conservación de la masa",
+      "gravitación",
+      "Ohm",
+      "Newton"
+    ],
+    "respuesta_correcta": "conservación de la masa",
+    "explicacion": "Ley de Lavoisier: la masa se conserva en una reacción."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-06",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de separar un sólido disuelto evaporando el líquido se llama ___.",
+    "opciones": [
+      "evaporación",
+      "filtración",
+      "decantación",
+      "destilación"
+    ],
+    "respuesta_correcta": "evaporación",
+    "explicacion": "La evaporación separa un sólido disuelto en líquido."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-07",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de separar líquidos por su punto de ebullición se llama ___.",
+    "opciones": [
+      "destilación",
+      "filtración",
+      "decantación",
+      "tamizado"
+    ],
+    "respuesta_correcta": "destilación",
+    "explicacion": "La destilación separa líquidos según su punto de ebullición."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-08",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un ácido y una base al reaccionar forman sal y ___.",
+    "opciones": [
+      "agua",
+      "gas",
+      "metal",
+      "óxido"
+    ],
+    "respuesta_correcta": "agua",
+    "explicacion": "La neutralización entre ácido y base produce sal y agua."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-09",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El reactivo que se consume por completo primero en una reacción se llama reactivo ___.",
+    "opciones": [
+      "limitante",
+      "exceso",
+      "catalizador",
+      "neutro"
+    ],
+    "respuesta_correcta": "limitante",
+    "explicacion": "El reactivo limitante determina cuánto producto se forma."
+  },
+  {
+    "id_item": "BAS-QUÍ-N3-10",
+    "asignatura": "Química",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Si se disuelven 2 moles de sal en agua, la cantidad de sustancia es ___.",
+    "opciones": [
+      "2 mol",
+      "2 gramos",
+      "2 litros",
+      "2 átomos"
+    ],
+    "respuesta_correcta": "2 mol",
+    "explicacion": "La cantidad de sustancia se mide en moles."
+  },
+  {
+    "id_item": "BAS-BIO-N1-01",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La célula es la unidad básica de los ___.",
+    "opciones": [
+      "seres vivos",
+      "minerales",
+      "planetas",
+      "metales"
+    ],
+    "respuesta_correcta": "seres vivos",
+    "explicacion": "Todos los seres vivos están hechos de células."
+  },
+  {
+    "id_item": "BAS-BIO-N1-02",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las plantas producen su alimento mediante la ___.",
+    "opciones": [
+      "fotosíntesis",
+      "respiración",
+      "digestión",
+      "circulación"
+    ],
+    "respuesta_correcta": "fotosíntesis",
+    "explicacion": "La fotosíntesis permite a las plantas producir su alimento."
+  },
+  {
+    "id_item": "BAS-BIO-N1-03",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El corazón bombea ___ por todo el cuerpo.",
+    "opciones": [
+      "sangre",
+      "aire",
+      "agua",
+      "comida"
+    ],
+    "respuesta_correcta": "sangre",
+    "explicacion": "El corazón bombea sangre a través del cuerpo."
+  },
+  {
+    "id_item": "BAS-BIO-N1-04",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los pulmones sirven para ___.",
+    "opciones": [
+      "respirar",
+      "digerir",
+      "pensar",
+      "caminar"
+    ],
+    "respuesta_correcta": "respirar",
+    "explicacion": "Los pulmones son el órgano principal de la respiración."
+  },
+  {
+    "id_item": "BAS-BIO-N1-05",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El estómago ayuda a ___ los alimentos.",
+    "opciones": [
+      "digerir",
+      "respirar",
+      "bombear",
+      "pensar"
+    ],
+    "respuesta_correcta": "digerir",
+    "explicacion": "El estómago participa en la digestión de los alimentos."
+  },
+  {
+    "id_item": "BAS-BIO-N1-06",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los animales que comen solo plantas se llaman ___.",
+    "opciones": [
+      "herbívoros",
+      "carnívoros",
+      "omnívoros",
+      "insectívoros"
+    ],
+    "respuesta_correcta": "herbívoros",
+    "explicacion": "Los herbívoros se alimentan de plantas."
+  },
+  {
+    "id_item": "BAS-BIO-N1-07",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los animales que comen solo carne se llaman ___.",
+    "opciones": [
+      "carnívoros",
+      "herbívoros",
+      "omnívoros",
+      "vegetarianos"
+    ],
+    "respuesta_correcta": "carnívoros",
+    "explicacion": "Los carnívoros se alimentan de otros animales."
+  },
+  {
+    "id_item": "BAS-BIO-N1-08",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El órgano que controla el cuerpo es el ___.",
+    "opciones": [
+      "cerebro",
+      "hígado",
+      "estómago",
+      "riñón"
+    ],
+    "respuesta_correcta": "cerebro",
+    "explicacion": "El cerebro controla las funciones del cuerpo."
+  },
+  {
+    "id_item": "BAS-BIO-N1-09",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los huesos forman el ___ del cuerpo.",
+    "opciones": [
+      "esqueleto",
+      "sistema digestivo",
+      "sistema circulatorio",
+      "cerebro"
+    ],
+    "respuesta_correcta": "esqueleto",
+    "explicacion": "Los huesos forman el esqueleto que da soporte al cuerpo."
+  },
+  {
+    "id_item": "BAS-BIO-N1-10",
+    "asignatura": "Biología",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las plantas absorben agua a través de sus ___.",
+    "opciones": [
+      "raíces",
+      "hojas",
+      "flores",
+      "tallos"
+    ],
+    "respuesta_correcta": "raíces",
+    "explicacion": "Las raíces absorben el agua del suelo."
+  },
+  {
+    "id_item": "BAS-BIO-N2-01",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El organelo que produce energía en la célula es la ___.",
+    "opciones": [
+      "mitocondria",
+      "membrana",
+      "vacuola",
+      "pared celular"
+    ],
+    "respuesta_correcta": "mitocondria",
+    "explicacion": "La mitocondria es la 'central energética' de la célula."
+  },
+  {
+    "id_item": "BAS-BIO-N2-02",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El núcleo de la célula contiene el ___.",
+    "opciones": [
+      "ADN",
+      "citoplasma",
+      "oxígeno",
+      "agua"
+    ],
+    "respuesta_correcta": "ADN",
+    "explicacion": "El núcleo contiene el material genético (ADN)."
+  },
+  {
+    "id_item": "BAS-BIO-N2-03",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los glóbulos rojos transportan ___ en la sangre.",
+    "opciones": [
+      "oxígeno",
+      "comida",
+      "agua",
+      "hueso"
+    ],
+    "respuesta_correcta": "oxígeno",
+    "explicacion": "Los glóbulos rojos llevan oxígeno por el cuerpo."
+  },
+  {
+    "id_item": "BAS-BIO-N2-04",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los glóbulos blancos ayudan a combatir ___.",
+    "opciones": [
+      "infecciones",
+      "el hambre",
+      "el sueño",
+      "el frío"
+    ],
+    "respuesta_correcta": "infecciones",
+    "explicacion": "Los glóbulos blancos defienden al cuerpo de infecciones."
+  },
+  {
+    "id_item": "BAS-BIO-N2-05",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las plantas tienen cloroplastos para hacer la ___.",
+    "opciones": [
+      "fotosíntesis",
+      "digestión",
+      "respiración",
+      "reproducción"
+    ],
+    "respuesta_correcta": "fotosíntesis",
+    "explicacion": "Los cloroplastos son donde ocurre la fotosíntesis."
+  },
+  {
+    "id_item": "BAS-BIO-N2-06",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de división celular para crecer se llama ___.",
+    "opciones": [
+      "mitosis",
+      "meiosis",
+      "fotosíntesis",
+      "digestión"
+    ],
+    "respuesta_correcta": "mitosis",
+    "explicacion": "La mitosis permite que las células se dividan y el organismo crezca."
+  },
+  {
+    "id_item": "BAS-BIO-N2-07",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los seres vivos que producen su propio alimento se llaman ___.",
+    "opciones": [
+      "productores",
+      "consumidores",
+      "descomponedores",
+      "depredadores"
+    ],
+    "respuesta_correcta": "productores",
+    "explicacion": "Las plantas son productores porque hacen su propio alimento."
+  },
+  {
+    "id_item": "BAS-BIO-N2-08",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los seres vivos que descomponen materia muerta se llaman ___.",
+    "opciones": [
+      "descomponedores",
+      "productores",
+      "consumidores",
+      "herbívoros"
+    ],
+    "respuesta_correcta": "descomponedores",
+    "explicacion": "Los hongos y bacterias son descomponedores."
+  },
+  {
+    "id_item": "BAS-BIO-N2-09",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El ADN se encuentra dentro del ___ de la célula.",
+    "opciones": [
+      "núcleo",
+      "citoplasma",
+      "membrana",
+      "mitocondria"
+    ],
+    "respuesta_correcta": "núcleo",
+    "explicacion": "El ADN está guardado en el núcleo celular."
+  },
+  {
+    "id_item": "BAS-BIO-N2-10",
+    "asignatura": "Biología",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los seres humanos tenemos ___ cromosomas en cada célula.",
+    "opciones": [
+      "46",
+      "23",
+      "100",
+      "10"
+    ],
+    "respuesta_correcta": "46",
+    "explicacion": "Una célula humana normal tiene 46 cromosomas (23 pares)."
+  },
+  {
+    "id_item": "BAS-BIO-N3-01",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La teoría de la evolución fue propuesta por ___.",
+    "opciones": [
+      "Charles Darwin",
+      "Isaac Newton",
+      "Gregor Mendel",
+      "Albert Einstein"
+    ],
+    "respuesta_correcta": "Charles Darwin",
+    "explicacion": "Darwin propuso la teoría de la evolución por selección natural."
+  },
+  {
+    "id_item": "BAS-BIO-N3-02",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Gregor Mendel es conocido como el padre de la ___.",
+    "opciones": [
+      "genética",
+      "física",
+      "química",
+      "astronomía"
+    ],
+    "respuesta_correcta": "genética",
+    "explicacion": "Mendel hizo los primeros estudios sobre herencia genética."
+  },
+  {
+    "id_item": "BAS-BIO-N3-03",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un ecosistema está formado por seres vivos y su ___.",
+    "opciones": [
+      "ambiente físico",
+      "dinero",
+      "tecnología",
+      "idioma"
+    ],
+    "respuesta_correcta": "ambiente físico",
+    "explicacion": "Un ecosistema incluye a los seres vivos y su entorno."
+  },
+  {
+    "id_item": "BAS-BIO-N3-04",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La cadena alimenticia muestra cómo se transfiere la ___ entre organismos.",
+    "opciones": [
+      "energía",
+      "masa",
+      "temperatura",
+      "electricidad"
+    ],
+    "respuesta_correcta": "energía",
+    "explicacion": "La cadena alimenticia representa el flujo de energía."
+  },
+  {
+    "id_item": "BAS-BIO-N3-05",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de selección natural favorece a los individuos mejor ___.",
+    "opciones": [
+      "adaptados",
+      "alimentados",
+      "altos",
+      "fuertes exclusivamente"
+    ],
+    "respuesta_correcta": "adaptados",
+    "explicacion": "La selección natural favorece a quienes se adaptan mejor a su ambiente."
+  },
+  {
+    "id_item": "BAS-BIO-N3-06",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un alelo dominante se manifiesta ___.",
+    "opciones": [
+      "aunque solo haya una copia",
+      "solo con dos copias",
+      "nunca",
+      "solo en animales"
+    ],
+    "respuesta_correcta": "aunque solo haya una copia",
+    "explicacion": "Un alelo dominante se expresa con una sola copia presente."
+  },
+  {
+    "id_item": "BAS-BIO-N3-07",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La reproducción sexual combina genes de ___ progenitores.",
+    "opciones": [
+      "dos",
+      "uno",
+      "tres",
+      "ninguno"
+    ],
+    "respuesta_correcta": "dos",
+    "explicacion": "La reproducción sexual une el material genético de dos progenitores."
+  },
+  {
+    "id_item": "BAS-BIO-N3-08",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de división celular que forma células sexuales se llama ___.",
+    "opciones": [
+      "meiosis",
+      "mitosis",
+      "fotosíntesis",
+      "digestión"
+    ],
+    "respuesta_correcta": "meiosis",
+    "explicacion": "La meiosis produce las células sexuales (gametos)."
+  },
+  {
+    "id_item": "BAS-BIO-N3-09",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La biodiversidad se refiere a la variedad de ___ en un lugar.",
+    "opciones": [
+      "especies",
+      "rocas",
+      "edificios",
+      "carreteras"
+    ],
+    "respuesta_correcta": "especies",
+    "explicacion": "La biodiversidad es la variedad de formas de vida."
+  },
+  {
+    "id_item": "BAS-BIO-N3-10",
+    "asignatura": "Biología",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un organismo transgénico tiene genes de ___ especie insertados.",
+    "opciones": [
+      "otra",
+      "la misma",
+      "ninguna",
+      "tres"
+    ],
+    "respuesta_correcta": "otra",
+    "explicacion": "Un transgénico contiene material genético de otra especie."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-01",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La capital de México se llama ___.",
+    "opciones": [
+      "Ciudad de México",
+      "Guadalajara",
+      "Monterrey",
+      "Puebla"
+    ],
+    "respuesta_correcta": "Ciudad de México",
+    "explicacion": "La capital del país es la Ciudad de México."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-02",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los mexicas fundaron la ciudad de ___.",
+    "opciones": [
+      "Tenochtitlan",
+      "Teotihuacán",
+      "Palenque",
+      "Monte Albán"
+    ],
+    "respuesta_correcta": "Tenochtitlan",
+    "explicacion": "Tenochtitlan fue la capital del imperio mexica."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-03",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El alimento base de las culturas prehispánicas era el ___.",
+    "opciones": [
+      "maíz",
+      "trigo",
+      "arroz",
+      "papa"
+    ],
+    "respuesta_correcta": "maíz",
+    "explicacion": "El maíz fue el alimento principal en Mesoamérica."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-04",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "México se independizó de ___.",
+    "opciones": [
+      "España",
+      "Francia",
+      "Estados Unidos",
+      "Portugal"
+    ],
+    "respuesta_correcta": "España",
+    "explicacion": "México se independizó del dominio español."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-05",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El Grito de Independencia lo dio ___.",
+    "opciones": [
+      "Miguel Hidalgo",
+      "Benito Juárez",
+      "Porfirio Díaz",
+      "Emiliano Zapata"
+    ],
+    "respuesta_correcta": "Miguel Hidalgo",
+    "explicacion": "Miguel Hidalgo dio el Grito de Dolores en 1810."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-06",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "México se independizó en el año ___.",
+    "opciones": [
+      "1821",
+      "1810",
+      "1910",
+      "1857"
+    ],
+    "respuesta_correcta": "1821",
+    "explicacion": "La independencia se consumó en 1821 (aunque inició en 1810)."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-07",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Benito Juárez fue un importante ___ de México.",
+    "opciones": [
+      "presidente",
+      "rey",
+      "emperador",
+      "virrey"
+    ],
+    "respuesta_correcta": "presidente",
+    "explicacion": "Benito Juárez fue presidente de México."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-08",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Revolución Mexicana comenzó en el año ___.",
+    "opciones": [
+      "1910",
+      "1821",
+      "1857",
+      "1521"
+    ],
+    "respuesta_correcta": "1910",
+    "explicacion": "La Revolución Mexicana inició en 1910."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-09",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Emiliano Zapata luchó principalmente por la ___.",
+    "opciones": [
+      "tierra",
+      "independencia",
+      "religión",
+      "monarquía"
+    ],
+    "respuesta_correcta": "tierra",
+    "explicacion": "Zapata luchó por la repartición de tierras a los campesinos."
+  },
+  {
+    "id_item": "BAS-HISDEM-N1-10",
+    "asignatura": "Historia de México",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La bandera de México tiene los colores verde, blanco y ___.",
+    "opciones": [
+      "rojo",
+      "azul",
+      "amarillo",
+      "negro"
+    ],
+    "respuesta_correcta": "rojo",
+    "explicacion": "La bandera mexicana es verde, blanco y rojo."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-01",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El imperio mexica tenía como capital a ___.",
+    "opciones": [
+      "Tenochtitlan",
+      "Teotihuacán",
+      "Tula",
+      "Palenque"
+    ],
+    "respuesta_correcta": "Tenochtitlan",
+    "explicacion": "Tenochtitlan fue la capital del imperio mexica."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-02",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El último emperador mexica que resistió a los españoles fue ___.",
+    "opciones": [
+      "Cuauhtémoc",
+      "Moctezuma",
+      "Netzahualcóyotl",
+      "Itzcóatl"
+    ],
+    "respuesta_correcta": "Cuauhtémoc",
+    "explicacion": "Cuauhtémoc resistió el asedio final de Tenochtitlan."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-03",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Hernán Cortés llegó a México en el año ___.",
+    "opciones": [
+      "1519",
+      "1521",
+      "1810",
+      "1910"
+    ],
+    "respuesta_correcta": "1519",
+    "explicacion": "Cortés llegó a las costas mexicanas en 1519."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-04",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las Leyes de Reforma fueron impulsadas por ___.",
+    "opciones": [
+      "Benito Juárez",
+      "Porfirio Díaz",
+      "Agustín de Iturbide",
+      "Vicente Guerrero"
+    ],
+    "respuesta_correcta": "Benito Juárez",
+    "explicacion": "Juárez impulsó las Leyes de Reforma."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-05",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Porfirio Díaz gobernó México durante el periodo llamado ___.",
+    "opciones": [
+      "Porfiriato",
+      "Virreinato",
+      "Colonia",
+      "Imperio"
+    ],
+    "respuesta_correcta": "Porfiriato",
+    "explicacion": "El gobierno de Díaz se conoce como el Porfiriato."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-06",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Constitución mexicana vigente se promulgó en ___.",
+    "opciones": [
+      "1917",
+      "1857",
+      "1824",
+      "1810"
+    ],
+    "respuesta_correcta": "1917",
+    "explicacion": "La Constitución actual data de 1917."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-07",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Francisco I. Madero luchó contra la reelección de ___.",
+    "opciones": [
+      "Porfirio Díaz",
+      "Benito Juárez",
+      "Antonio López de Santa Anna",
+      "Agustín de Iturbide"
+    ],
+    "respuesta_correcta": "Porfirio Díaz",
+    "explicacion": "Madero se opuso a la reelección de Díaz."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-08",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Pancho Villa lideró la División del ___.",
+    "opciones": [
+      "Norte",
+      "Sur",
+      "Centro",
+      "Occidente"
+    ],
+    "respuesta_correcta": "Norte",
+    "explicacion": "Pancho Villa encabezó la famosa División del Norte."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-09",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "México perdió gran parte de su territorio en una guerra contra ___.",
+    "opciones": [
+      "Estados Unidos",
+      "Francia",
+      "España",
+      "Inglaterra"
+    ],
+    "respuesta_correcta": "Estados Unidos",
+    "explicacion": "México perdió territorio en la guerra contra Estados Unidos (1846-1848)."
+  },
+  {
+    "id_item": "BAS-HISDEM-N2-10",
+    "asignatura": "Historia de México",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La intervención francesa impuso como emperador a ___.",
+    "opciones": [
+      "Maximiliano de Habsburgo",
+      "Agustín de Iturbide",
+      "Porfirio Díaz",
+      "Antonio López de Santa Anna"
+    ],
+    "respuesta_correcta": "Maximiliano de Habsburgo",
+    "explicacion": "Maximiliano fue impuesto como emperador durante la intervención francesa."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-01",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El documento firmado en 1821 que estableció las bases de la independencia se llama Plan de ___.",
+    "opciones": [
+      "Iguala",
+      "Ayala",
+      "San Luis",
+      "Agua Prieta"
+    ],
+    "respuesta_correcta": "Iguala",
+    "explicacion": "El Plan de Iguala estableció las Tres Garantías en 1821."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-02",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El artículo constitucional que establece los derechos laborales en México es el ___.",
+    "opciones": [
+      "123",
+      "3",
+      "27",
+      "4"
+    ],
+    "respuesta_correcta": "123",
+    "explicacion": "El artículo 123 regula los derechos laborales."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-03",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El artículo constitucional que establece la educación laica y gratuita es el ___.",
+    "opciones": [
+      "3",
+      "123",
+      "27",
+      "4"
+    ],
+    "respuesta_correcta": "3",
+    "explicacion": "El artículo 3° regula la educación en México."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-04",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Guerra de Reforma enfrentó a liberales contra ___.",
+    "opciones": [
+      "conservadores",
+      "Estados Unidos",
+      "Francia",
+      "España"
+    ],
+    "respuesta_correcta": "conservadores",
+    "explicacion": "La Guerra de Reforma fue un conflicto interno entre liberales y conservadores."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-05",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El movimiento zapatista tenía como lema 'Tierra y ___'.",
+    "opciones": [
+      "Libertad",
+      "Justicia",
+      "Igualdad",
+      "Progreso"
+    ],
+    "respuesta_correcta": "Libertad",
+    "explicacion": "El lema zapatista era 'Tierra y Libertad'."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-06",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El Plan de Ayala fue promovido por ___.",
+    "opciones": [
+      "Emiliano Zapata",
+      "Francisco I. Madero",
+      "Venustiano Carranza",
+      "Pancho Villa"
+    ],
+    "respuesta_correcta": "Emiliano Zapata",
+    "explicacion": "El Plan de Ayala exigía la devolución de tierras a los campesinos."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-07",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Triple Alianza mexica estaba formada por Tenochtitlan, Texcoco y ___.",
+    "opciones": [
+      "Tlacopan",
+      "Tula",
+      "Cholula",
+      "Cuernavaca"
+    ],
+    "respuesta_correcta": "Tlacopan",
+    "explicacion": "La Triple Alianza unía a Tenochtitlan, Texcoco y Tlacopan."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-08",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El sistema agrícola mexica que se cultivaba sobre el lago se llama ___.",
+    "opciones": [
+      "chinampas",
+      "milpas",
+      "terrazas",
+      "huertos"
+    ],
+    "respuesta_correcta": "chinampas",
+    "explicacion": "Las chinampas eran parcelas flotantes de cultivo."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-09",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Constitución de 1917 surgió como resultado de la ___.",
+    "opciones": [
+      "Revolución Mexicana",
+      "Independencia",
+      "Guerra de Reforma",
+      "Conquista"
+    ],
+    "respuesta_correcta": "Revolución Mexicana",
+    "explicacion": "La Constitución de 1917 fue producto de la Revolución Mexicana."
+  },
+  {
+    "id_item": "BAS-HISDEM-N3-10",
+    "asignatura": "Historia de México",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El movimiento armado de 1910 buscaba terminar con la dictadura de ___.",
+    "opciones": [
+      "Porfirio Díaz",
+      "Benito Juárez",
+      "Antonio López de Santa Anna",
+      "Agustín de Iturbide"
+    ],
+    "respuesta_correcta": "Porfirio Díaz",
+    "explicacion": "La Revolución buscaba terminar con la larga dictadura porfirista."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-01",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los antiguos egipcios construyeron las famosas ___.",
+    "opciones": [
+      "pirámides",
+      "murallas",
+      "catedrales",
+      "torres"
+    ],
+    "respuesta_correcta": "pirámides",
+    "explicacion": "Los egipcios construyeron las grandes pirámides."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-02",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El río más importante para el antiguo Egipto fue el ___.",
+    "opciones": [
+      "Nilo",
+      "Amazonas",
+      "Tigris",
+      "Misisipi"
+    ],
+    "respuesta_correcta": "Nilo",
+    "explicacion": "El río Nilo fue vital para la civilización egipcia."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-03",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los antiguos griegos crearon la ___ como forma de gobierno.",
+    "opciones": [
+      "democracia",
+      "monarquía",
+      "dictadura",
+      "teocracia"
+    ],
+    "respuesta_correcta": "democracia",
+    "explicacion": "Los griegos, en Atenas, crearon la democracia."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-04",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El Imperio Romano tuvo como capital a ___.",
+    "opciones": [
+      "Roma",
+      "Atenas",
+      "El Cairo",
+      "París"
+    ],
+    "respuesta_correcta": "Roma",
+    "explicacion": "Roma fue la capital del Imperio Romano."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-05",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cristóbal Colón llegó a América en el año ___.",
+    "opciones": [
+      "1492",
+      "1521",
+      "1810",
+      "1600"
+    ],
+    "respuesta_correcta": "1492",
+    "explicacion": "Colón llegó a América en 1492."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-06",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Segunda Guerra Mundial terminó en el año ___.",
+    "opciones": [
+      "1945",
+      "1939",
+      "1918",
+      "1950"
+    ],
+    "respuesta_correcta": "1945",
+    "explicacion": "La Segunda Guerra Mundial terminó en 1945."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-07",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Revolución Francesa comenzó en el año ___.",
+    "opciones": [
+      "1789",
+      "1776",
+      "1810",
+      "1917"
+    ],
+    "respuesta_correcta": "1789",
+    "explicacion": "La Revolución Francesa inició en 1789."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-08",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Torre Eiffel se encuentra en la ciudad de ___.",
+    "opciones": [
+      "París",
+      "Roma",
+      "Londres",
+      "Berlín"
+    ],
+    "respuesta_correcta": "París",
+    "explicacion": "La Torre Eiffel está en París, Francia."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-09",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El primer hombre en llegar a la Luna fue de nacionalidad ___.",
+    "opciones": [
+      "estadounidense",
+      "rusa",
+      "francesa",
+      "china"
+    ],
+    "respuesta_correcta": "estadounidense",
+    "explicacion": "Neil Armstrong, el primer hombre en la Luna, era estadounidense."
+  },
+  {
+    "id_item": "BAS-HISUNI-N1-10",
+    "asignatura": "Historia Universal",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Gran Muralla se encuentra en el país de ___.",
+    "opciones": [
+      "China",
+      "Egipto",
+      "México",
+      "Grecia"
+    ],
+    "respuesta_correcta": "China",
+    "explicacion": "La Gran Muralla está en China."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-01",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La invención de la imprenta se le atribuye a ___.",
+    "opciones": [
+      "Johannes Gutenberg",
+      "Isaac Newton",
+      "Cristóbal Colón",
+      "Napoleón"
+    ],
+    "respuesta_correcta": "Johannes Gutenberg",
+    "explicacion": "Gutenberg inventó la imprenta de tipos móviles."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-02",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El Renacimiento surgió principalmente en ___.",
+    "opciones": [
+      "Italia",
+      "Francia",
+      "Alemania",
+      "España"
+    ],
+    "respuesta_correcta": "Italia",
+    "explicacion": "El Renacimiento nació en ciudades italianas como Florencia."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-03",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Leonardo da Vinci pintó la famosa obra ___.",
+    "opciones": [
+      "La Mona Lisa",
+      "El Guernica",
+      "Las Meninas",
+      "La noche estrellada"
+    ],
+    "respuesta_correcta": "La Mona Lisa",
+    "explicacion": "Leonardo da Vinci es autor de la Mona Lisa."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-04",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Primera Guerra Mundial inició en el año ___.",
+    "opciones": [
+      "1914",
+      "1939",
+      "1918",
+      "1900"
+    ],
+    "respuesta_correcta": "1914",
+    "explicacion": "La Primera Guerra Mundial comenzó en 1914."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-05",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El muro de Berlín cayó en el año ___.",
+    "opciones": [
+      "1989",
+      "1945",
+      "1991",
+      "1961"
+    ],
+    "respuesta_correcta": "1989",
+    "explicacion": "El Muro de Berlín cayó en 1989."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-06",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Guerra Fría enfrentó principalmente a Estados Unidos contra ___.",
+    "opciones": [
+      "la Unión Soviética",
+      "Francia",
+      "China",
+      "Alemania"
+    ],
+    "respuesta_correcta": "la Unión Soviética",
+    "explicacion": "La Guerra Fría fue entre EUA y la URSS."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-07",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Napoleón Bonaparte fue emperador de ___.",
+    "opciones": [
+      "Francia",
+      "España",
+      "Inglaterra",
+      "Italia"
+    ],
+    "respuesta_correcta": "Francia",
+    "explicacion": "Napoleón fue emperador de Francia."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-08",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Declaración de Independencia de Estados Unidos se firmó en ___.",
+    "opciones": [
+      "1776",
+      "1789",
+      "1810",
+      "1865"
+    ],
+    "respuesta_correcta": "1776",
+    "explicacion": "Estados Unidos declaró su independencia en 1776."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-09",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Martín Lutero inició el movimiento religioso conocido como ___.",
+    "opciones": [
+      "Reforma protestante",
+      "Contrarreforma",
+      "Cisma de Oriente",
+      "Concilio de Trento"
+    ],
+    "respuesta_correcta": "Reforma protestante",
+    "explicacion": "Lutero inició la Reforma protestante en 1517."
+  },
+  {
+    "id_item": "BAS-HISUNI-N2-10",
+    "asignatura": "Historia Universal",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El Imperio Bizantino tenía como capital a ___.",
+    "opciones": [
+      "Constantinopla",
+      "Roma",
+      "Atenas",
+      "El Cairo"
+    ],
+    "respuesta_correcta": "Constantinopla",
+    "explicacion": "Constantinopla fue la capital del Imperio Bizantino."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-01",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La Revolución Industrial se originó primero en ___.",
+    "opciones": [
+      "Inglaterra",
+      "Francia",
+      "Alemania",
+      "Estados Unidos"
+    ],
+    "respuesta_correcta": "Inglaterra",
+    "explicacion": "La Revolución Industrial comenzó en Inglaterra."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-02",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El sistema político medieval basado en señores y vasallos se llama ___.",
+    "opciones": [
+      "feudalismo",
+      "capitalismo",
+      "socialismo",
+      "imperialismo"
+    ],
+    "respuesta_correcta": "feudalismo",
+    "explicacion": "El feudalismo dominó la organización social medieval."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-03",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La caída de Constantinopla en 1453 marcó el fin de la ___.",
+    "opciones": [
+      "Edad Media",
+      "Edad Antigua",
+      "Edad Moderna",
+      "Prehistoria"
+    ],
+    "respuesta_correcta": "Edad Media",
+    "explicacion": "Tradicionalmente, 1453 marca el fin de la Edad Media."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-04",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El filósofo griego maestro de Alejandro Magno fue ___.",
+    "opciones": [
+      "Aristóteles",
+      "Sócrates",
+      "Platón",
+      "Pitágoras"
+    ],
+    "respuesta_correcta": "Aristóteles",
+    "explicacion": "Aristóteles fue tutor de Alejandro Magno."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-05",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La ONU se fundó al terminar la ___.",
+    "opciones": [
+      "Segunda Guerra Mundial",
+      "Primera Guerra Mundial",
+      "Guerra Fría",
+      "Revolución Francesa"
+    ],
+    "respuesta_correcta": "Segunda Guerra Mundial",
+    "explicacion": "La ONU se creó en 1945, tras la Segunda Guerra Mundial."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-06",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El movimiento que buscó recuperar ideales de la cultura griega y romana antigua fue el ___.",
+    "opciones": [
+      "Renacimiento",
+      "Feudalismo",
+      "Absolutismo",
+      "Colonialismo"
+    ],
+    "respuesta_correcta": "Renacimiento",
+    "explicacion": "El Renacimiento retomó ideales clásicos grecorromanos."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-07",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Adolf Hitler lideró a la Alemania ___.",
+    "opciones": [
+      "nazi",
+      "comunista",
+      "imperial",
+      "republicana"
+    ],
+    "respuesta_correcta": "nazi",
+    "explicacion": "Hitler lideró el régimen nazi en Alemania."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-08",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La bomba atómica fue lanzada por Estados Unidos sobre ___.",
+    "opciones": [
+      "Japón",
+      "Alemania",
+      "Italia",
+      "China"
+    ],
+    "respuesta_correcta": "Japón",
+    "explicacion": "Estados Unidos lanzó bombas atómicas sobre Hiroshima y Nagasaki, en Japón."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-09",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El proceso de independencia de muchas colonias africanas y asiáticas del siglo XX se llama ___.",
+    "opciones": [
+      "descolonización",
+      "colonización",
+      "globalización",
+      "industrialización"
+    ],
+    "respuesta_correcta": "descolonización",
+    "explicacion": "La descolonización liberó a muchas colonias en el siglo XX."
+  },
+  {
+    "id_item": "BAS-HISUNI-N3-10",
+    "asignatura": "Historia Universal",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Karl Marx es considerado el principal teórico del ___.",
+    "opciones": [
+      "socialismo",
+      "liberalismo",
+      "feudalismo",
+      "fascismo"
+    ],
+    "respuesta_correcta": "socialismo",
+    "explicacion": "Marx es el principal teórico del socialismo científico."
+  },
+  {
+    "id_item": "BAS-GEO-N1-01",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "México se encuentra en el continente ___.",
+    "opciones": [
+      "América",
+      "Europa",
+      "Asia",
+      "África"
+    ],
+    "respuesta_correcta": "América",
+    "explicacion": "México está ubicado en el continente americano."
+  },
+  {
+    "id_item": "BAS-GEO-N1-02",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La capital de Francia es ___.",
+    "opciones": [
+      "París",
+      "Madrid",
+      "Roma",
+      "Londres"
+    ],
+    "respuesta_correcta": "París",
+    "explicacion": "París es la capital de Francia."
+  },
+  {
+    "id_item": "BAS-GEO-N1-03",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El océano más grande del mundo es el ___.",
+    "opciones": [
+      "Pacífico",
+      "Atlántico",
+      "Índico",
+      "Ártico"
+    ],
+    "respuesta_correcta": "Pacífico",
+    "explicacion": "El océano Pacífico es el más grande y profundo."
+  },
+  {
+    "id_item": "BAS-GEO-N1-04",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El río más largo del mundo es el ___.",
+    "opciones": [
+      "Nilo",
+      "Amazonas",
+      "Misisipi",
+      "Yangtsé"
+    ],
+    "respuesta_correcta": "Nilo",
+    "explicacion": "El Nilo es considerado el río más largo del mundo."
+  },
+  {
+    "id_item": "BAS-GEO-N1-05",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La montaña más alta del mundo es el ___.",
+    "opciones": [
+      "Everest",
+      "Aconcagua",
+      "Kilimanjaro",
+      "Popocatépetl"
+    ],
+    "respuesta_correcta": "Everest",
+    "explicacion": "El Everest es la montaña más alta del mundo."
+  },
+  {
+    "id_item": "BAS-GEO-N1-06",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un lugar con mucha lluvia y vegetación se llama ___.",
+    "opciones": [
+      "selva",
+      "desierto",
+      "tundra",
+      "estepa"
+    ],
+    "respuesta_correcta": "selva",
+    "explicacion": "La selva se caracteriza por abundante lluvia y vegetación."
+  },
+  {
+    "id_item": "BAS-GEO-N1-07",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un lugar muy seco con poca lluvia se llama ___.",
+    "opciones": [
+      "desierto",
+      "selva",
+      "bosque",
+      "pradera"
+    ],
+    "respuesta_correcta": "desierto",
+    "explicacion": "El desierto tiene muy poca precipitación."
+  },
+  {
+    "id_item": "BAS-GEO-N1-08",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La capital de Estados Unidos es ___.",
+    "opciones": [
+      "Washington D.C.",
+      "Nueva York",
+      "Los Ángeles",
+      "Chicago"
+    ],
+    "respuesta_correcta": "Washington D.C.",
+    "explicacion": "Washington D.C. es la capital de Estados Unidos."
+  },
+  {
+    "id_item": "BAS-GEO-N1-09",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Japón se encuentra en el continente ___.",
+    "opciones": [
+      "Asia",
+      "Europa",
+      "América",
+      "Oceanía"
+    ],
+    "respuesta_correcta": "Asia",
+    "explicacion": "Japón está en el continente asiático."
+  },
+  {
+    "id_item": "BAS-GEO-N1-10",
+    "asignatura": "Geografía",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La línea que divide la Tierra en norte y sur se llama ___.",
+    "opciones": [
+      "ecuador",
+      "meridiano",
+      "trópico",
+      "polo"
+    ],
+    "respuesta_correcta": "ecuador",
+    "explicacion": "El ecuador divide la Tierra en hemisferio norte y sur."
+  },
+  {
+    "id_item": "BAS-GEO-N2-01",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La capital de Japón es ___.",
+    "opciones": [
+      "Tokio",
+      "Pekín",
+      "Seúl",
+      "Bangkok"
+    ],
+    "respuesta_correcta": "Tokio",
+    "explicacion": "Tokio es la capital de Japón."
+  },
+  {
+    "id_item": "BAS-GEO-N2-02",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El continente más grande del mundo es ___.",
+    "opciones": [
+      "Asia",
+      "África",
+      "América",
+      "Europa"
+    ],
+    "respuesta_correcta": "Asia",
+    "explicacion": "Asia es el continente más extenso."
+  },
+  {
+    "id_item": "BAS-GEO-N2-03",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El desierto más grande del mundo (cálido) es el ___.",
+    "opciones": [
+      "Sahara",
+      "Atacama",
+      "Gobi",
+      "Kalahari"
+    ],
+    "respuesta_correcta": "Sahara",
+    "explicacion": "El Sahara es el desierto cálido más grande del mundo."
+  },
+  {
+    "id_item": "BAS-GEO-N2-04",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las líneas horizontales de un mapa que miden la latitud se llaman ___.",
+    "opciones": [
+      "paralelos",
+      "meridianos",
+      "fronteras",
+      "cordilleras"
+    ],
+    "respuesta_correcta": "paralelos",
+    "explicacion": "Los paralelos son las líneas horizontales que miden latitud."
+  },
+  {
+    "id_item": "BAS-GEO-N2-05",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Las líneas verticales de un mapa que miden la longitud se llaman ___.",
+    "opciones": [
+      "meridianos",
+      "paralelos",
+      "fronteras",
+      "ríos"
+    ],
+    "respuesta_correcta": "meridianos",
+    "explicacion": "Los meridianos son las líneas verticales que miden longitud."
+  },
+  {
+    "id_item": "BAS-GEO-N2-06",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un país que no tiene salida al mar se llama país ___.",
+    "opciones": [
+      "sin litoral",
+      "costero",
+      "insular",
+      "peninsular"
+    ],
+    "respuesta_correcta": "sin litoral",
+    "explicacion": "Un país sin litoral no tiene acceso directo al mar."
+  },
+  {
+    "id_item": "BAS-GEO-N2-07",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La península más grande de México es la de ___.",
+    "opciones": [
+      "Yucatán",
+      "Baja California",
+      "Florida",
+      "Baja California Sur"
+    ],
+    "respuesta_correcta": "Yucatán",
+    "explicacion": "La península de Yucatán es la más extensa de México."
+  },
+  {
+    "id_item": "BAS-GEO-N2-08",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un país formado completamente por islas se llama país ___.",
+    "opciones": [
+      "insular",
+      "costero",
+      "continental",
+      "fronterizo"
+    ],
+    "respuesta_correcta": "insular",
+    "explicacion": "Un país insular está formado por islas."
+  },
+  {
+    "id_item": "BAS-GEO-N2-09",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El clima con veranos secos e inviernos lluviosos se llama ___.",
+    "opciones": [
+      "mediterráneo",
+      "tropical",
+      "polar",
+      "desértico"
+    ],
+    "respuesta_correcta": "mediterráneo",
+    "explicacion": "El clima mediterráneo tiene veranos secos e inviernos húmedos."
+  },
+  {
+    "id_item": "BAS-GEO-N2-10",
+    "asignatura": "Geografía",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La brújula sirve para orientarse usando el ___.",
+    "opciones": [
+      "norte magnético",
+      "sol",
+      "viento",
+      "reloj"
+    ],
+    "respuesta_correcta": "norte magnético",
+    "explicacion": "La brújula señala el norte magnético."
+  },
+  {
+    "id_item": "BAS-GEO-N3-01",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Rusia se extiende sobre los continentes de ___.",
+    "opciones": [
+      "Europa y Asia",
+      "Asia y África",
+      "Europa y América",
+      "Asia y Oceanía"
+    ],
+    "respuesta_correcta": "Europa y Asia",
+    "explicacion": "Rusia es un país transcontinental entre Europa y Asia."
+  },
+  {
+    "id_item": "BAS-GEO-N3-02",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La densidad de población se calcula dividiendo habitantes entre ___.",
+    "opciones": [
+      "superficie",
+      "tiempo",
+      "dinero",
+      "temperatura"
+    ],
+    "respuesta_correcta": "superficie",
+    "explicacion": "Densidad = número de habitantes / superficie."
+  },
+  {
+    "id_item": "BAS-GEO-N3-03",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El fenómeno de crecimiento de las ciudades se llama ___.",
+    "opciones": [
+      "urbanización",
+      "migración",
+      "globalización",
+      "industrialización"
+    ],
+    "respuesta_correcta": "urbanización",
+    "explicacion": "La urbanización es el crecimiento de las zonas urbanas."
+  },
+  {
+    "id_item": "BAS-GEO-N3-04",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un huso horario agrupa zonas que comparten la misma ___.",
+    "opciones": [
+      "hora",
+      "temperatura",
+      "altitud",
+      "lluvia"
+    ],
+    "respuesta_correcta": "hora",
+    "explicacion": "Los husos horarios dividen el mundo en zonas con la misma hora."
+  },
+  {
+    "id_item": "BAS-GEO-N3-05",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El sector económico dedicado a la agricultura y minería es el sector ___.",
+    "opciones": [
+      "primario",
+      "secundario",
+      "terciario",
+      "cuaternario"
+    ],
+    "respuesta_correcta": "primario",
+    "explicacion": "El sector primario extrae recursos naturales directamente."
+  },
+  {
+    "id_item": "BAS-GEO-N3-06",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El sector económico dedicado a los servicios es el sector ___.",
+    "opciones": [
+      "terciario",
+      "primario",
+      "secundario",
+      "cuaternario"
+    ],
+    "respuesta_correcta": "terciario",
+    "explicacion": "El sector terciario incluye servicios como el comercio y el turismo."
+  },
+  {
+    "id_item": "BAS-GEO-N3-07",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La escala de un mapa representa la relación entre distancia real y ___.",
+    "opciones": [
+      "distancia en el mapa",
+      "altitud",
+      "clima",
+      "población"
+    ],
+    "respuesta_correcta": "distancia en el mapa",
+    "explicacion": "La escala relaciona distancias reales con las del mapa."
+  },
+  {
+    "id_item": "BAS-GEO-N3-08",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un recurso que se puede regenerar con el tiempo se llama ___.",
+    "opciones": [
+      "renovable",
+      "no renovable",
+      "fósil",
+      "escaso"
+    ],
+    "respuesta_correcta": "renovable",
+    "explicacion": "Un recurso renovable se regenera naturalmente."
+  },
+  {
+    "id_item": "BAS-GEO-N3-09",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El petróleo es un recurso natural ___.",
+    "opciones": [
+      "no renovable",
+      "renovable",
+      "inagotable",
+      "ilimitado"
+    ],
+    "respuesta_correcta": "no renovable",
+    "explicacion": "El petróleo tarda millones de años en formarse: es no renovable."
+  },
+  {
+    "id_item": "BAS-GEO-N3-10",
+    "asignatura": "Geografía",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Los países con muy alto crecimiento económico reciente se llaman países ___.",
+    "opciones": [
+      "emergentes",
+      "desarrollados",
+      "subdesarrollados",
+      "estancados"
+    ],
+    "respuesta_correcta": "emergentes",
+    "explicacion": "Los países emergentes tienen un crecimiento económico acelerado."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-01",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Decir siempre la verdad es un ejemplo del valor de la ___.",
+    "opciones": [
+      "honestidad",
+      "envidia",
+      "pereza",
+      "mentira"
+    ],
+    "respuesta_correcta": "honestidad",
+    "explicacion": "Decir la verdad refleja honestidad."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-02",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cumplir con nuestras tareas y compromisos es ser ___.",
+    "opciones": [
+      "responsable",
+      "irresponsable",
+      "flojo",
+      "descuidado"
+    ],
+    "respuesta_correcta": "responsable",
+    "explicacion": "Cumplir compromisos refleja responsabilidad."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-03",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Ayudar a un compañero que lo necesita es un acto de ___.",
+    "opciones": [
+      "solidaridad",
+      "egoísmo",
+      "indiferencia",
+      "envidia"
+    ],
+    "respuesta_correcta": "solidaridad",
+    "explicacion": "Ayudar a otros es un acto solidario."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-04",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Respetar las opiniones distintas a la mía es ser ___.",
+    "opciones": [
+      "tolerante",
+      "intolerante",
+      "grosero",
+      "indiferente"
+    ],
+    "respuesta_correcta": "tolerante",
+    "explicacion": "Aceptar opiniones diferentes es tolerancia."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-05",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El derecho a expresar mis ideas libremente se llama libertad de ___.",
+    "opciones": [
+      "expresión",
+      "trabajo",
+      "tránsito",
+      "comercio"
+    ],
+    "respuesta_correcta": "expresión",
+    "explicacion": "La libertad de expresión permite compartir ideas."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-06",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Todos los niños tienen derecho a ir a la ___.",
+    "opciones": [
+      "escuela",
+      "cárcel",
+      "fábrica",
+      "mina"
+    ],
+    "respuesta_correcta": "escuela",
+    "explicacion": "La educación es un derecho de la niñez."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-07",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El derecho a votar en las elecciones se llama ___.",
+    "opciones": [
+      "sufragio",
+      "comercio",
+      "impuesto",
+      "salario"
+    ],
+    "respuesta_correcta": "sufragio",
+    "explicacion": "El sufragio es el derecho al voto."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-08",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Tratar igual a hombres y mujeres es promover la ___ de género.",
+    "opciones": [
+      "igualdad",
+      "superioridad",
+      "diferencia",
+      "exclusión"
+    ],
+    "respuesta_correcta": "igualdad",
+    "explicacion": "Tratar igual a todos promueve la igualdad de género."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-09",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuidar el medio ambiente es una ___ de todos.",
+    "opciones": [
+      "responsabilidad",
+      "opción",
+      "broma",
+      "tontería"
+    ],
+    "respuesta_correcta": "responsabilidad",
+    "explicacion": "Cuidar el ambiente es responsabilidad de todos."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N1-10",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 1,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un país gobernado por el pueblo mediante elecciones se llama ___.",
+    "opciones": [
+      "democracia",
+      "monarquía",
+      "dictadura",
+      "imperio"
+    ],
+    "respuesta_correcta": "democracia",
+    "explicacion": "La democracia es el gobierno del pueblo."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-01",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El documento que contiene las leyes más importantes de México se llama ___.",
+    "opciones": [
+      "Constitución",
+      "Reglamento",
+      "Manual",
+      "Diccionario"
+    ],
+    "respuesta_correcta": "Constitución",
+    "explicacion": "La Constitución es la ley suprema de México."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-02",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El poder encargado de crear las leyes en México es el ___.",
+    "opciones": [
+      "Legislativo",
+      "Ejecutivo",
+      "Judicial",
+      "Electoral"
+    ],
+    "respuesta_correcta": "Legislativo",
+    "explicacion": "El Poder Legislativo crea las leyes."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-03",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El poder encargado de aplicar las leyes, encabezado por el presidente, es el ___.",
+    "opciones": [
+      "Ejecutivo",
+      "Legislativo",
+      "Judicial",
+      "Municipal"
+    ],
+    "respuesta_correcta": "Ejecutivo",
+    "explicacion": "El Poder Ejecutivo aplica y hace cumplir las leyes."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-04",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El poder encargado de impartir justicia es el ___.",
+    "opciones": [
+      "Judicial",
+      "Ejecutivo",
+      "Legislativo",
+      "Militar"
+    ],
+    "respuesta_correcta": "Judicial",
+    "explicacion": "El Poder Judicial imparte justicia."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-05",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un documento internacional que protege los derechos de todas las personas es la Declaración de los ___.",
+    "opciones": [
+      "Derechos Humanos",
+      "Impuestos",
+      "Tratados",
+      "Aranceles"
+    ],
+    "respuesta_correcta": "Derechos Humanos",
+    "explicacion": "La Declaración Universal protege los derechos humanos."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-06",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Discriminar a alguien por su origen o religión va en contra de la ___.",
+    "opciones": [
+      "igualdad",
+      "libertad de tránsito",
+      "propiedad privada",
+      "democracia directa"
+    ],
+    "respuesta_correcta": "igualdad",
+    "explicacion": "La discriminación viola el principio de igualdad."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-07",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El derecho a no ser esclavizado es un derecho ___.",
+    "opciones": [
+      "humano",
+      "opcional",
+      "municipal",
+      "comercial"
+    ],
+    "respuesta_correcta": "humano",
+    "explicacion": "La libertad personal es un derecho humano fundamental."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-08",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El organismo que organiza las elecciones en México se llama ___.",
+    "opciones": [
+      "INE",
+      "SEP",
+      "IMSS",
+      "DIF"
+    ],
+    "respuesta_correcta": "INE",
+    "explicacion": "El INE organiza las elecciones federales en México."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-09",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La edad mínima para votar en México es ___ años.",
+    "opciones": [
+      "18",
+      "16",
+      "21",
+      "15"
+    ],
+    "respuesta_correcta": "18",
+    "explicacion": "En México se puede votar a partir de los 18 años."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N2-10",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 2,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un conflicto se puede resolver hablando en vez de pelear, esto se llama resolución ___ de conflictos.",
+    "opciones": [
+      "pacífica",
+      "violenta",
+      "ignorada",
+      "forzada"
+    ],
+    "respuesta_correcta": "pacífica",
+    "explicacion": "La resolución pacífica evita la violencia para resolver problemas."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-01",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un dilema ético ocurre cuando debo elegir entre dos valores en ___.",
+    "opciones": [
+      "conflicto",
+      "armonía",
+      "venta",
+      "préstamo"
+    ],
+    "respuesta_correcta": "conflicto",
+    "explicacion": "Un dilema ético surge cuando los valores en juego se contraponen."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-02",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La corrupción es el uso indebido del poder para obtener un beneficio ___.",
+    "opciones": [
+      "personal",
+      "colectivo",
+      "legal",
+      "transparente"
+    ],
+    "respuesta_correcta": "personal",
+    "explicacion": "La corrupción busca beneficio personal a costa del bien común."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-03",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La rendición de cuentas obliga a los gobernantes a ___ sus decisiones.",
+    "opciones": [
+      "informar",
+      "ocultar",
+      "inventar",
+      "negar"
+    ],
+    "respuesta_correcta": "informar",
+    "explicacion": "La rendición de cuentas implica transparencia e información."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-04",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Un mecanismo donde el pueblo vota directamente sobre una ley específica se llama ___.",
+    "opciones": [
+      "referéndum",
+      "dictadura",
+      "monarquía",
+      "censura"
+    ],
+    "respuesta_correcta": "referéndum",
+    "explicacion": "El referéndum permite votar directamente sobre un tema."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-05",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El principio de que nadie está por encima de la ley se llama Estado de ___.",
+    "opciones": [
+      "derecho",
+      "excepción",
+      "emergencia",
+      "sitio"
+    ],
+    "respuesta_correcta": "derecho",
+    "explicacion": "El Estado de derecho asegura que todos, incluidas las autoridades, respeten la ley."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-06",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuando un Estado no impone ninguna religión oficial, se dice que es un Estado ___.",
+    "opciones": [
+      "laico",
+      "religioso",
+      "teocrático",
+      "confesional"
+    ],
+    "respuesta_correcta": "laico",
+    "explicacion": "Un Estado laico separa la religión del gobierno."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-07",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El bien común se refiere a lo que beneficia a ___.",
+    "opciones": [
+      "toda la comunidad",
+      "una sola persona",
+      "el gobierno exclusivamente",
+      "una empresa"
+    ],
+    "respuesta_correcta": "toda la comunidad",
+    "explicacion": "El bien común beneficia a la sociedad en general."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-08",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "La capacidad de tomar decisiones éticas por uno mismo se llama ___ moral.",
+    "opciones": [
+      "autonomía",
+      "dependencia",
+      "obediencia ciega",
+      "indiferencia"
+    ],
+    "respuesta_correcta": "autonomía",
+    "explicacion": "La autonomía moral es decidir según los propios valores."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-09",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "Cuando una persona actúa igual a lo que piensa y dice, se dice que es ___.",
+    "opciones": [
+      "congruente",
+      "hipócrita",
+      "mentirosa",
+      "indiferente"
+    ],
+    "respuesta_correcta": "congruente",
+    "explicacion": "La congruencia es actuar conforme a lo que se piensa."
+  },
+  {
+    "id_item": "BAS-FORCÍV-N3-10",
+    "asignatura": "Formación Cívica y Ética",
+    "nivel": 3,
+    "instruccion": "Completa el espacio en blanco",
+    "oracion": "El acoso repetido hacia un compañero en la escuela se llama ___.",
+    "opciones": [
+      "bullying",
+      "amistad",
+      "juego",
+      "cooperación"
+    ],
+    "respuesta_correcta": "bullying",
+    "explicacion": "El bullying es el maltrato repetido hacia otra persona."
+  }
+]
