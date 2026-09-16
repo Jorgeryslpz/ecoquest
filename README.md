@@ -46,14 +46,17 @@ que diste, uno por materia, con `id_reactivo`, `asignatura`, `subtemario`,
 `dificultad`, `texto_lectura`, `enunciado`, `opciones`, `respuesta_correcta`
 y `feedback` ya completos.
 
+**11 materias reales** (Historia de México e Historia Universal cuentan
+como materias separadas — decisión confirmada: no hay fuente oficial
+gratuita que aclare el desglose exacto sin la guía completa de
+miderechomilugar.gob.mx, y el banco ya las desarrolla por separado con 200
+reactivos cada una). La spec §0 quedó actualizada: la cuota de 12 que
+tenía "Historia" combinada se dividió 6/6 entre ambas, total sigue en 128.
+
 - `scripts/merge-banco-reactivos.mjs` — combina los 11 archivos en
   `supabase/seed/reactivos.json`, con el mapeo exacto a las columnas de la
-  tabla `reactivos`. Solo dos conversiones: `dificultad` viene como texto
-  (fácil/media/difícil) y se pasa a 1/2/3; y **"Historia de México" +
-  "Historia Universal" se combinan en una sola asignatura "Historia"**
-  (conservando el origen como prefijo del subtemario) para no romper la
-  distribución de 10 materias de la spec — si prefieres tratarlas como dos
-  materias reales (11 mundos), dímelo y se deshace fácil.
+  tabla `reactivos`. La única conversión real es `dificultad`: viene como
+  texto (fácil/media/difícil) y se pasa a 1/2/3.
 - `scripts/generate-seed-sql.mjs` — genera
   `supabase/seed/0001_reactivos_seed.sql` a partir de ese JSON (con un
   `TRUNCATE` al inicio), para poder recargar el banco completo por el SQL
@@ -88,8 +91,6 @@ falta y de dónde sacarlo:
 
 ## Pendientes de tu lado
 
-- Confirmar si "Historia de México" / "Historia Universal" quedan como una
-  sola materia "Historia" (así está ahora) o como dos materias separadas.
 - Dominio (ecoemsquest.mx o similar).
 - Datos fiscales en Stripe antes del primer cobro real.
 - Aviso de privacidad y términos (usuarios menores de edad).

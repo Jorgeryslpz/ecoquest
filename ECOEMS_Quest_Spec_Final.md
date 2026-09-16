@@ -8,7 +8,13 @@ App web de preparación para el examen ECOEMS "Mi Derecho, Mi Lugar" (ingreso a 
 
 El examen real ECOEMS: **128 reactivos, opción múltiple A/B/C/D, una sola correcta, 3 horas.**
 
-Distribución oficial por materia (10 materias):
+Distribución oficial por materia (11 materias — Historia de México e
+Historia Universal se tratan como materias separadas: no hay una fuente
+100% oficial y gratuita que aclare el desglose exacto sin descargar la
+guía completa de miderechomilugar.gob.mx, y el banco de reactivos real ya
+las desarrolla por separado con 200 reactivos cada una y su propio enfoque
+temático. La cuota que tenía "Historia" combinada, 12, se divide en partes
+iguales entre ambas):
 
 | # | Materia | Reactivos en examen | Tipo |
 |---|---------|--------------------|------|
@@ -19,9 +25,10 @@ Distribución oficial por materia (10 materias):
 | 5 | Biología | 12 | Conocimiento |
 | 6 | Física | 12 | Conocimiento |
 | 7 | Química | 12 | Conocimiento |
-| 8 | Historia | 12 | Conocimiento |
-| 9 | Geografía | 12 | Conocimiento |
-| 10 | Formación Cívica y Ética | 12 | Conocimiento |
+| 8 | Historia de México | 6 | Conocimiento |
+| 9 | Historia Universal | 6 | Conocimiento |
+| 10 | Geografía | 12 | Conocimiento |
+| 11 | Formación Cívica y Ética | 12 | Conocimiento |
 
 **Total: 128.** Esta tabla gobierna: el simulador, el diagnóstico, los mundos y la distribución del banco de preguntas.
 
@@ -91,7 +98,7 @@ Elementos permanentes en toda la app (excepto dentro de un examen en curso):
 
 ### 3.1 Examen diagnóstico (solo primera vez)
 - Al primer ingreso tras el pago, modal: "Antes de empezar, haz tu examen diagnóstico" con [Comenzar] y [Omitir por ahora] (si omite, la tarjeta del diagnóstico queda visible en inicio hasta que lo haga; se puede hacer una sola vez).
-- Contenido: **5 preguntas por materia × 10 materias = 50 preguntas**, dificultad progresiva dentro de cada materia. **Tiempo máximo total: 1 hora** (cronómetro visible).
+- Contenido: **5 preguntas por materia × 11 materias = 55 preguntas**, dificultad progresiva dentro de cada materia. **Tiempo máximo total: 1 hora** (cronómetro visible).
 - Al terminar: puntaje global, desglose por materia, clasificación de materias en Fuerte / Regular / Débil.
 - Los resultados se guardan y se envían como contexto inicial a TutorIA.
 - Navegación interna: [Siguiente], [Anterior], mapa de preguntas para saltar, [Terminar y calificar] con confirmación. Botón [Salir] con advertencia: "Si sales, se calificará con lo que llevas" / opción cancelar.
@@ -100,7 +107,7 @@ Elementos permanentes en toda la app (excepto dentro de un examen en curso):
 
 ## 4. Mundos de preguntas (ruta de aprendizaje gamificada)
 
-- **Un mundo por materia (10 mundos).** Cada mundo es una ruta de niveles; **un nivel = un tema del temario** de esa materia.
+- **Un mundo por materia (11 mundos).** Cada mundo es una ruta de niveles; **un nivel = un tema del temario** de esa materia.
 - Cada nivel tiene **mínimo 10 preguntas** (tomadas del banco por subtemario, con combinatoria para variar en cada intento).
 - **Desbloqueo secuencial:** el nivel N+1 se desbloquea al aprobar el nivel N con **≥ 6/10 aciertos**. El primer nivel de cada mundo siempre está abierto.
 - **Estrellas por nivel (máx 5), según aciertos del mejor intento:**
@@ -119,7 +126,7 @@ Elementos permanentes en toda la app (excepto dentro de un examen en curso):
 
 ## 5. Materias (ejercicios tipo examen)
 
-- El usuario elige una de las 10 materias.
+- El usuario elige una de las 11 materias.
 - Cada ejercicio: **20 preguntas tipo examen** (estructura idéntica al examen real: enunciado + opciones A, B, C, D, una correcta).
 - **Combinatoria:** en cada intento se arma un set de 20 preguntas distinto, seleccionado aleatoriamente del banco de esa materia, evitando repetir preguntas usadas en los últimos 2 intentos del usuario en esa materia (si el banco no alcanza, se permite repetir las más antiguas).
 - **Tiempo:** 15 minutos por ejercicio; **20 minutos para Habilidad Matemática y Habilidad Verbal.** Cronómetro visible; al agotarse, se califica automáticamente con lo respondido.
@@ -150,7 +157,7 @@ Elementos permanentes en toda la app (excepto dentro de un examen en curso):
 
 ### 7.1 Función
 Chat de tutoría que:
-- Responde dudas académicas de las 10 materias del ECOEMS.
+- Responde dudas académicas de las 11 materias del ECOEMS.
 - Recibe automáticamente como contexto: resultados del diagnóstico, materias débiles de los simulacros, y la **lista de preguntas guardadas con [Repasar]** (puede explicarlas una por una: "Explícame mi pregunta guardada de Química").
 - Da planes de repaso y explica temas paso a paso, adaptado a nivel secundaria.
 
@@ -229,6 +236,6 @@ Estados que la UI debe manejar siempre: cargando (spinner), error de red (reinte
 1. Flujo de Google ya NO se salta el pago: ambas rutas de registro pasan por el paywall.
 2. Precio anual corregido: **$949** (no $1,049).
 3. Ejercicios de Materias unificados en **20 preguntas** (el diagrama decía 20 y 15).
-4. Distribución del simulador y del banco alineada a las **10 materias reales del ECOEMS** con sus cuotas oficiales (128 reactivos).
+4. Distribución del simulador y del banco alineada a las **11 materias reales del ECOEMS** (Historia de México y Universal por separado) con sus cuotas oficiales (128 reactivos).
 5. Textos de lectura: originales precargados en el banco, no "buscados en la red".
 6. Agregados: recuperación de contraseña, verificación con reenvío, modo bloqueado por expiración, botones de regresar/salir/confirmar en todos los flujos, límites y recargas de TutorIA, manejo de errores de pago y de API.

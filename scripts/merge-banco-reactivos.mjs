@@ -12,15 +12,12 @@
 //     propio texto_lectura en vez de compartir un id). Se deja en null;
 //     no rompe nada, solo no deduplica el texto en la base de datos.
 //
-// Decisión de contenido que tomé y que deberías confirmar: el banco trae
-// "Historia de México" e "Historia Universal" como dos asignaturas
-// separadas, pero la spec (§0, distribución de 128 reactivos) y el resto
-// de la app (Mundos, Materias, front end) solo conocen una materia
-// "Historia". Para no romper esa distribución ni inventar un 11º mundo sin
-// que tú lo pidieras, aquí ambas se combinan en asignatura = "Historia",
-// conservando el origen como prefijo del subtemario ("México: ..." /
-// "Universal: ..."). Si prefieres tratarlas como dos materias reales de
-// aquí en adelante (11 mundos en vez de 10), dímelo y lo deshago.
+// "Historia de México" e "Historia Universal" se mantienen como dos
+// asignaturas separadas (decisión confirmada: no hay fuente oficial
+// gratuita que aclare el desglose sin la guía completa de
+// miderechomilugar.gob.mx, y el banco real ya las desarrolla por separado
+// con 200 reactivos cada una). La spec §0 quedó actualizada a 11 materias,
+// con la cuota de 12 que tenía "Historia" combinada dividida en 6 y 6.
 
 import { readFile, writeFile, readdir } from "node:fs/promises";
 import path from "node:path";
@@ -40,26 +37,17 @@ const MATERIAS_VALIDAS = [
   "Biología",
   "Física",
   "Química",
-  "Historia",
+  "Historia de México",
+  "Historia Universal",
   "Geografía",
   "Formación Cívica y Ética",
 ];
 
-// asignatura tal como viene en el archivo -> asignatura canónica + prefijo
-// de subtemario (null = no se antepone nada)
-const ASIGNATURA_MAP = {
-  "Español": { asignatura: "Español", prefijoSubtemario: null },
-  "Habilidad Verbal": { asignatura: "Habilidad Verbal", prefijoSubtemario: null },
-  "Matemáticas": { asignatura: "Matemáticas", prefijoSubtemario: null },
-  "Habilidad Matemática": { asignatura: "Habilidad Matemática", prefijoSubtemario: null },
-  "Biología": { asignatura: "Biología", prefijoSubtemario: null },
-  "Física": { asignatura: "Física", prefijoSubtemario: null },
-  "Química": { asignatura: "Química", prefijoSubtemario: null },
-  "Geografía": { asignatura: "Geografía", prefijoSubtemario: null },
-  "Formación Cívica y Ética": { asignatura: "Formación Cívica y Ética", prefijoSubtemario: null },
-  "Historia de México": { asignatura: "Historia", prefijoSubtemario: "México" },
-  "Historia Universal": { asignatura: "Historia", prefijoSubtemario: "Universal" },
-};
+// asignatura tal como viene en el archivo -> asignatura canónica (aquí no
+// se renombra nada; el banco ya trae los 11 nombres correctos)
+const ASIGNATURA_MAP = Object.fromEntries(
+  MATERIAS_VALIDAS.map((m) => [m, { asignatura: m, prefijoSubtemario: null }])
+);
 
 async function main() {
   const archivos = (await readdir(bancoDir)).filter((f) => f.endsWith(".json"));
@@ -116,7 +104,7 @@ async function main() {
 
   for (const r of reactivos) {
     if (!MATERIAS_VALIDAS.includes(r.asignatura)) {
-      throw new Error(`Asignatura fuera de las 10 canónicas: ${r.asignatura}`);
+      throw new Error(`Asignatura fuera de las 11 canónicas: ${r.asignatura}`);
     }
   }
 

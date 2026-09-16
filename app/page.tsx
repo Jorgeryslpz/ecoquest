@@ -8,7 +8,8 @@ const MATERIAS = [
   "Biología",
   "Física",
   "Química",
-  "Historia",
+  "Historia de México",
+  "Historia Universal",
   "Geografía",
   "Formación Cívica y Ética",
 ];
