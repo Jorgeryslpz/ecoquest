@@ -30,29 +30,14 @@ type Feedback = {
   explicacion: string;
 };
 
-type Progreso = Record<string, { 1?: number; 2?: number; 3?: number }>;
+type Progreso = Record<string, Record<number, number>>;
 
-const PROGRESO_KEY = "ecoquest_mundos_progreso_local";
-
-function cargarProgreso(): Progreso {
-  if (typeof window === "undefined") return {};
-  try {
-    return JSON.parse(localStorage.getItem(PROGRESO_KEY) ?? "{}");
-  } catch {
-    return {};
-  }
-}
-
-function guardarProgreso(p: Progreso) {
-  localStorage.setItem(PROGRESO_KEY, JSON.stringify(p));
-}
-
-export default function MundosPage() {
+export default function MundosClient({ progresoInicial }: { progresoInicial: Progreso }) {
   const [claro, setClaro] = useState(false);
   const [pantalla, setPantalla] = useState<"materias" | "niveles" | "quiz" | "resultado">(
     "materias"
   );
-  const [progreso, setProgreso] = useState<Progreso>(() => cargarProgreso());
+  const [progreso, setProgreso] = useState<Progreso>(progresoInicial);
   const [materia, setMateria] = useState<string | null>(null);
   const [nivel, setNivel] = useState<1 | 2 | 3 | null>(null);
   const [preguntas, setPreguntas] = useState<Pregunta[]>([]);
@@ -100,13 +85,21 @@ export default function MundosPage() {
     if (data.correcto) setAciertos((a) => a + 1);
   }
 
-  function siguiente() {
+  async function siguiente() {
     if (indice + 1 >= preguntas.length) {
       if (materia && nivel) {
-        const nuevo = { ...progreso, [materia]: { ...progreso[materia] } };
-        nuevo[materia][nivel] = Math.max(nuevo[materia][nivel] ?? 0, aciertos);
-        setProgreso(nuevo);
-        guardarProgreso(nuevo);
+        const res = await fetch("/api/modo-basico/terminar-nivel", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ materia, nivel, aciertos }),
+        });
+        const data = await res.json();
+        if (res.ok) {
+          setProgreso((p) => ({
+            ...p,
+            [materia]: { ...p[materia], [nivel]: data.mejor },
+          }));
+        }
       }
       setPantalla("resultado");
       return;
@@ -118,24 +111,19 @@ export default function MundosPage() {
 
   function nivelDesbloqueado(m: string, n: 1 | 2 | 3) {
     if (n === 1) return true;
-    return (progreso[m]?.[(n - 1) as 1 | 2] ?? 0) >= 6;
+    return (progreso[m]?.[n - 1] ?? 0) >= 6;
   }
 
   const preguntaActual = preguntas[indice];
-  const titulo =
-    pantalla === "materias" ? "Mundo de Preguntas" : pantalla === "niveles" ? materia! : materia!;
+  const titulo = pantalla === "materias" ? "Mundo de Preguntas" : materia!;
 
   return (
     <div className={`eq ${claro ? "light" : ""}`}>
       <div className="eq-app">
         <div className="topbar">
-          {pantalla !== "materias" ? (
-            <button className="iconbtn" onClick={regresar} title="Regresar">
-              <BackIcon />
-            </button>
-          ) : (
-            <span style={{ width: 40 }} />
-          )}
+          <button className="iconbtn" onClick={regresar} title="Regresar">
+            <BackIcon />
+          </button>
           <div className="tb-title">{titulo}</div>
           <button className="iconbtn" onClick={() => setClaro((c) => !c)} title="Cambiar tema">
             {claro ? <MoonIcon /> : <SunIcon />}
@@ -211,10 +199,8 @@ export default function MundosPage() {
 
               <p className="enunciado">
                 {preguntaActual.oracion.split("___")[0]}
-                <span
-                  className={`hueco ${feedback ? (feedback.correcto ? "ok" : "bad") : ""}`}
-                >
-                  {elegida ?? "    "}
+                <span className={`hueco ${feedback ? (feedback.correcto ? "ok" : "bad") : ""}`}>
+                  {elegida ?? "    "}
                 </span>
                 {preguntaActual.oracion.split("___")[1]}
               </p>
@@ -251,10 +237,14 @@ export default function MundosPage() {
 
           {pantalla === "resultado" && (
             <div className="center">
-              <p className="dim" style={{ marginTop: 20 }}>Resultado</p>
+              <p className="dim" style={{ marginTop: 20 }}>
+                Resultado
+              </p>
               <p className="score-big">
                 {aciertos}
-                <span className="dim" style={{ fontSize: 24 }}>/{preguntas.length}</span>
+                <span className="dim" style={{ fontSize: 24 }}>
+                  /{preguntas.length}
+                </span>
               </p>
               <p className="dim">
                 {aciertos >= 6 ? "¡Nivel aprobado! 🎉" : "Necesitas 6/10 para aprobar. Inténtalo de nuevo."}

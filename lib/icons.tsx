@@ -136,6 +136,74 @@ export function SunIcon({ className }: IconProps) {
   );
 }
 
+export function ArenaIcon({ className }: IconProps) {
+  return (
+    <Svg className={className}>
+      <path d="M4 20L18 6M15 3l3 3-2 2-3-3z" />
+      <path d="M20 20L6 6M9 3L6 6l2 2 3-3z" />
+    </Svg>
+  );
+}
+
+export function ClanesIcon({ className }: IconProps) {
+  return (
+    <Svg className={className} fill>
+      <path d="M12 2.5l7.5 3v5.4c0 5.4-3.3 9-7.5 10.6-4.2-1.6-7.5-5.2-7.5-10.6V5.5l7.5-3z" />
+    </Svg>
+  );
+}
+
+export function MarcadorIcon({ className }: IconProps) {
+  return (
+    <Svg className={className} fill>
+      <rect x="3" y="13" width="5" height="8" rx="1" />
+      <rect x="9.5" y="8" width="5" height="13" rx="1" />
+      <rect x="16" y="11" width="5" height="10" rx="1" />
+    </Svg>
+  );
+}
+
+export function MundosIcon({ className }: IconProps) {
+  return (
+    <Svg className={className}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18" />
+      <path d="M12 3c3 3.2 3 14.8 0 18" />
+      <path d="M12 3c-3 3.2-3 14.8 0 18" />
+    </Svg>
+  );
+}
+
+export function ExamenIcon({ className }: IconProps) {
+  return (
+    <Svg className={className}>
+      <rect x="5" y="4" width="14" height="17" rx="2" />
+      <rect x="9" y="2.5" width="6" height="3" rx="1" />
+      <path d="M8.5 11h7M8.5 15h7" />
+    </Svg>
+  );
+}
+
+export function TrofeoIcon({ className }: IconProps) {
+  return (
+    <Svg className={className} fill>
+      <path d="M6 3h12v3.5c0 3.6-2.3 6.3-5 6.9v2.6h2.5a1.5 1.5 0 011.5 1.5V19H7v-1.5A1.5 1.5 0 018.5 16H11v-2.6C8.3 12.8 6 10.1 6 6.5V3z" />
+      <path d="M4 4h2v2.2c0 1.6.9 2.9 2 3.4C6.6 8.8 5 7.1 5 5V4z" opacity=".85" />
+      <path d="M20 4h-2v2.2c0 1.6-.9 2.9-2 3.4 1.4-.8 3-2.5 3-4.6V4z" opacity=".85" />
+      <rect x="6.5" y="19.4" width="11" height="1.8" rx=".9" />
+    </Svg>
+  );
+}
+
+export function LogoIcon({ className }: IconProps) {
+  return (
+    <Svg className={className}>
+      <circle cx="12" cy="12" r="9.5" />
+      <path d="M15.5 8.5l-2 5-5 2 2-5z" fill="currentColor" stroke="none" />
+    </Svg>
+  );
+}
+
 export function MoonIcon({ className }: IconProps) {
   return (
     <Svg className={className} fill>

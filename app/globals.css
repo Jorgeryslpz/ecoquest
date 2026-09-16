@@ -28,7 +28,7 @@ body {
 
 /* =====================================================================
    Sistema de diseño ECOEMS Quest — portado del front end aprobado
-   (demo/ECOEMS_Quest_FrontEnd_V0.0.2.html) para que las pantallas reales
+   (demo/ECOEMS_Quest_FrontEnd_V0.0.3.html) para que las pantallas reales
    se vean igual. Todo vive bajo .eq para no chocar con los estilos base
    de Next/Tailwind fuera de estas pantallas.
    ===================================================================== */
@@ -128,3 +128,52 @@ body {
 .eq .row2 { display: flex; gap: 10px; }
 .eq .row2 .btn { flex: 1; }
 .eq .gold { color: var(--gold); }
+.eq .green-t { color: var(--green); }
+.eq .red-t { color: var(--red); }
+
+/* ---------- inputs ---------- */
+.eq .field { width: 100%; padding: 13px 14px; margin-top: 10px; border-radius: 14px; border: 2px solid var(--line); background: var(--panel2); color: var(--ink); font-family: inherit; font-size: 16px; }
+.eq .field::placeholder { color: var(--dim); }
+.eq .field:disabled { opacity: .6; }
+
+/* ---------- portada / hero ---------- */
+.eq .hero { display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 46px; }
+.eq .logo-shield { width: 118px; height: 118px; border-radius: 34px; background: linear-gradient(160deg, var(--panel2), var(--panel)); border: 3px solid var(--gold); display: flex; align-items: center; justify-content: center; font-size: 56px; box-shadow: 0 10px 30px rgba(0,0,0,.4); margin-bottom: 18px; color: var(--gold); }
+.eq .hero h1 span { color: var(--gold); }
+
+/* ---------- inicio: tarjetas grandes ---------- */
+.eq .mode-card { display: flex; align-items: center; gap: 14px; background: var(--panel); border: 2px solid var(--line); border-radius: 20px; padding: 16px; margin-top: 12px; cursor: pointer; width: 100%; text-align: left; }
+.eq .mode-card:active { transform: scale(.98); }
+.eq .mode-card:disabled { opacity: .5; cursor: default; }
+.eq .mode-ico { width: 52px; height: 52px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 26px; flex-shrink: 0; }
+.eq .mode-card .mc-txt { flex: 1; }
+.eq .mode-card .mc-txt b { font-size: 17px; display: block; }
+.eq .mode-card .mc-txt span { font-size: 13px; color: var(--dim); }
+.eq .mode-card .chev { color: var(--dim); font-size: 20px; font-weight: 800; }
+
+/* ---------- pagos ---------- */
+.eq .plan { display: flex; justify-content: space-between; align-items: center; background: var(--panel); border: 2px solid var(--line); border-radius: 18px; padding: 16px; margin-top: 12px; cursor: pointer; width: 100%; text-align: left; }
+.eq .plan.best { border-color: var(--gold); }
+.eq .plan:disabled { opacity: .6; cursor: default; }
+.eq .plan b { font-size: 17px; }
+.eq .plan .price { font-size: 20px; font-weight: 800; color: var(--gold); }
+.eq .plan .sub { font-size: 13px; color: var(--dim); display: block; }
+
+/* ---------- modal ---------- */
+.eq .modal-bg { position: fixed; inset: 0; background: rgba(14,14,16,.75); display: flex; align-items: center; justify-content: center; z-index: 50; padding: 24px; opacity: 0; pointer-events: none; }
+.eq .modal-bg.show { opacity: 1; pointer-events: auto; }
+.eq .modal { background: var(--panel); border: 2px solid var(--line); border-radius: 22px; padding: 22px; width: 100%; max-width: 360px; transform: scale(.92) translateY(6px); opacity: 0; color: var(--ink); }
+.eq .modal-bg.show .modal { transform: none; opacity: 1; }
+.eq .modal h2 { margin-bottom: 8px; }
+
+/* ---------- perfil / listas ---------- */
+.eq .mat-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1.5px solid var(--line); font-size: 15px; }
+.eq .mat-row:last-child { border-bottom: none; }
+.eq .pill { border-radius: 999px; padding: 2px 12px; font-size: 13px; font-weight: 800; }
+.eq .pill.f { background: var(--tint-ok); color: var(--green); }
+.eq .pill.r { background: var(--tint-warn); color: var(--gold); }
+.eq .pill.d { background: var(--tint-bad); color: var(--red); }
+
+/* ---------- timer / cronómetro ---------- */
+.eq .timer { font-weight: 800; font-size: 16px; background: var(--panel2); border: 2px solid var(--line); border-radius: 999px; padding: 5px 14px; }
+.eq .timer.low { color: var(--red); border-color: var(--red); }

@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createServiceRoleClient } from "@/lib/supabase/server";
+import { getUser } from "@/lib/auth";
 
 // Recibe el id_item y la palabra elegida por el usuario, y el backend
 // decide si es correcta — el cliente nunca sabe la respuesta hasta que
 // contesta. Nunca se confía en el cliente para calificar.
 export async function POST(request: NextRequest) {
+  const user = await getUser();
+  if (!user) return NextResponse.json({ error: "No hay sesión." }, { status: 401 });
+
   const body = await request.json().catch(() => null);
   const idItem = body?.id_item;
   const respuesta = body?.respuesta;

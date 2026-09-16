@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createServiceRoleClient } from "@/lib/supabase/server";
+import { getUser } from "@/lib/auth";
 
 export const MATERIAS_MODO_BASICO = [
   "Español",
@@ -29,6 +30,9 @@ function shuffle<T>(arr: T[]): T[] {
 // la respuesta antes de contestar. La calificación real ocurre en
 // /api/modo-basico/verificar.
 export async function GET(request: NextRequest) {
+  const user = await getUser();
+  if (!user) return NextResponse.json({ error: "No hay sesión." }, { status: 401 });
+
   const { searchParams } = new URL(request.url);
   const asignatura = searchParams.get("asignatura");
   const nivelRaw = searchParams.get("nivel");
