@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { getUser } from "@/lib/auth";
 import { createServiceRoleClient } from "@/lib/supabase/server";
 import { ExamenIcon, MATERIA_ICONS, MundosIcon, TrofeoIcon } from "@/lib/icons";
@@ -6,12 +7,13 @@ import LogoutButton from "@/components/LogoutButton";
 
 export default async function InicioPage() {
   const user = await getUser();
+  if (!user) redirect("/login");
   const admin = createServiceRoleClient();
 
   const { data: diag } = await admin
     .from("diagnostico_resultados")
     .select("completado")
-    .eq("user_id", user!.id)
+    .eq("user_id", user.id)
     .maybeSingle();
 
   const MateriasIcon = MATERIA_ICONS["Español"];

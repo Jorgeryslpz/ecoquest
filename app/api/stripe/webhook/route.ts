@@ -30,14 +30,24 @@ export async function POST(request: NextRequest) {
   }
 
   const admin = createServiceRoleClient();
+  let huboError = false;
 
+  // Revisa SIEMPRE el {error} de cada escritura — un upsert/insert que
+  // falla en Supabase no lanza excepción, solo regresa {error}. Si no se
+  // revisa, el webhook responde 200 igual aunque la fila nunca se haya
+  // escrito (así pasó en pruebas reales: el checkout de Stripe se
+  // completaba, el webhook respondía 200, pero `suscripciones` seguía
+  // vacía porque el upsert fallaba por un índice mal definido).
   async function upsertDesdeSuscripcion(sub: Stripe.Subscription) {
     const userId = sub.metadata?.user_id;
     const plan = sub.metadata?.plan;
-    if (!userId || !plan) return;
+    if (!userId || !plan) {
+      console.error("[stripe webhook] suscripción sin metadata user_id/plan:", sub.id);
+      return;
+    }
 
     const item = sub.items.data[0];
-    const finUnix = item?.current_period_end ?? sub.items.data[0]?.current_period_end;
+    const finUnix = item?.current_period_end;
     const fin = finUnix ? new Date(finUnix * 1000).toISOString() : new Date().toISOString();
 
     const estado: "activa" | "vencida" | "cancelada" =
@@ -47,7 +57,7 @@ export async function POST(request: NextRequest) {
           ? "cancelada"
           : "vencida";
 
-    await admin.from("suscripciones").upsert(
+    const { error } = await admin.from("suscripciones").upsert(
       {
         user_id: userId,
         plan,
@@ -58,6 +68,10 @@ export async function POST(request: NextRequest) {
       },
       { onConflict: "stripe_subscription_id" }
     );
+    if (error) {
+      console.error("[stripe webhook] error al escribir suscripciones:", error.message);
+      huboError = true;
+    }
   }
 
   switch (event.type) {
@@ -70,7 +84,7 @@ export async function POST(request: NextRequest) {
         const userId = session.metadata?.user_id;
         const plan = session.metadata?.plan;
         if (userId && plan) {
-          await admin.from("pagos").insert({
+          const { error } = await admin.from("pagos").insert({
             user_id: userId,
             plan,
             monto_mxn: Math.round((session.amount_total ?? 0) / 100),
@@ -78,6 +92,10 @@ export async function POST(request: NextRequest) {
             stripe_payment_intent_id:
               typeof session.payment_intent === "string" ? session.payment_intent : null,
           });
+          if (error) {
+            console.error("[stripe webhook] error al escribir pagos:", error.message);
+            huboError = true;
+          }
         }
       }
       break;
@@ -92,5 +110,11 @@ export async function POST(request: NextRequest) {
       break;
   }
 
+  // Si algo falló, regresamos 500 a propósito: Stripe reintenta
+  // automáticamente los webhooks que no responden 2xx, así que esto le
+  // da una segunda oportunidad en vez de perder el evento en silencio.
+  if (huboError) {
+    return NextResponse.json({ error: "Error al procesar el webhook." }, { status: 500 });
+  }
   return NextResponse.json({ received: true });
 }
