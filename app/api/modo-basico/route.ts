@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createServiceRoleClient } from "@/lib/supabase/server";
 import { getUser } from "@/lib/auth";
+import { crearSesion } from "@/lib/sesiones";
 
 export const MATERIAS_MODO_BASICO = [
   "Español",
@@ -46,6 +47,22 @@ export async function GET(request: NextRequest) {
   }
 
   const supabase = createServiceRoleClient();
+
+  // El desbloqueo secuencial (≥6/10 en el nivel anterior) se valida aquí,
+  // no solo en la pantalla.
+  if (nivel > 1) {
+    const { data: anterior } = await supabase
+      .from("mundos_progreso")
+      .select("mejor_aciertos")
+      .eq("user_id", user.id)
+      .eq("materia", asignatura)
+      .eq("nivel", nivel - 1)
+      .maybeSingle();
+    if ((anterior?.mejor_aciertos ?? 0) < 6) {
+      return NextResponse.json({ error: "Nivel bloqueado." }, { status: 403 });
+    }
+  }
+
   const { data, error } = await supabase
     .from("modo_basico_items")
     .select("id_item, instruccion, oracion, opciones")
@@ -61,5 +78,12 @@ export async function GET(request: NextRequest) {
     opciones: shuffle(p.opciones as string[]),
   }));
 
-  return NextResponse.json({ preguntas });
+  const sesion_id = await crearSesion(
+    user.id,
+    "mundo",
+    preguntas.map((p) => p.id_item),
+    { materia: asignatura, nivel }
+  );
+
+  return NextResponse.json({ sesion_id, preguntas });
 }

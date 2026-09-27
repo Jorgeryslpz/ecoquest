@@ -122,23 +122,32 @@ export type ResultadoCalificacion = {
 };
 
 /**
- * Califica un set de respuestas contra la base de datos real — el cliente
- * nunca decide su propio puntaje. `respuestas` es {id_reactivo: letra}.
+ * Califica contra la base de datos real — el cliente nunca decide su propio
+ * puntaje. `idsEsperados` es el set exacto que armó el servidor (guardado
+ * en sesiones_quiz): solo se califican esos, y los que el usuario dejó en
+ * blanco cuentan como error. `respuestas` es {id_reactivo: letra}; lo que
+ * venga fuera del set se ignora.
  */
-export async function calificar(respuestas: Record<string, string>): Promise<ResultadoCalificacion> {
+export async function calificar(
+  respuestas: Record<string, unknown>,
+  idsEsperados: string[]
+): Promise<ResultadoCalificacion> {
   const admin = createServiceRoleClient();
-  const ids = Object.keys(respuestas);
   const { data } = await admin
     .from("reactivos")
     .select("id_reactivo, asignatura, respuesta_correcta, feedback")
-    .in("id_reactivo", ids);
+    .in("id_reactivo", idsEsperados);
 
   const reactivos = data ?? [];
+  const elegidaDe = (id: string) => {
+    const r = respuestas[id];
+    return typeof r === "string" ? r : null;
+  };
   const detalle = reactivos.map((r) => ({
     id_reactivo: r.id_reactivo,
-    elegida: respuestas[r.id_reactivo] ?? null,
+    elegida: elegidaDe(r.id_reactivo),
     respuesta_correcta: r.respuesta_correcta,
-    correcta: respuestas[r.id_reactivo] === r.respuesta_correcta,
+    correcta: elegidaDe(r.id_reactivo) === r.respuesta_correcta,
     feedback: r.feedback,
   }));
 
@@ -146,7 +155,7 @@ export async function calificar(respuestas: Record<string, string>): Promise<Res
   for (const r of reactivos) {
     porMateria[r.asignatura] ??= { aciertos: 0, total: 0, clasificacion: "" };
     porMateria[r.asignatura].total++;
-    if (respuestas[r.id_reactivo] === r.respuesta_correcta) porMateria[r.asignatura].aciertos++;
+    if (elegidaDe(r.id_reactivo) === r.respuesta_correcta) porMateria[r.asignatura].aciertos++;
   }
   for (const m of Object.keys(porMateria)) {
     const { aciertos, total } = porMateria[m];
@@ -161,14 +170,7 @@ export async function calificar(respuestas: Record<string, string>): Promise<Res
 export async function sumarPuntosClan(userId: string, puntos: number) {
   if (puntos <= 0) return;
   const admin = createServiceRoleClient();
-  const { data: miembro } = await admin
-    .from("clan_miembros")
-    .select("clan_id, puntos_semana")
-    .eq("user_id", userId)
-    .maybeSingle();
-  if (!miembro) return;
-  await admin
-    .from("clan_miembros")
-    .update({ puntos_semana: miembro.puntos_semana + puntos })
-    .eq("user_id", userId);
+  // Suma atómica en Postgres (migración 0008); si no está en un grupo, no hace nada.
+  const { error } = await admin.rpc("sumar_puntos_clan", { p_user: userId, p_puntos: puntos });
+  if (error) console.error("[banco] error al sumar puntos de grupo:", error.message);
 }

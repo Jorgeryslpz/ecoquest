@@ -50,6 +50,9 @@ export async function POST(request: NextRequest) {
     const finUnix = item?.current_period_end;
     const fin = finUnix ? new Date(finUnix * 1000).toISOString() : new Date().toISOString();
 
+    // `trialing` ya no se genera desde el checkout (cobro inmediato), pero
+    // se deja mapeado a "activa" por suscripciones viejas en prueba y por
+    // si se reactiva la prueba más adelante.
     const estado: "activa" | "vencida" | "cancelada" =
       sub.status === "trialing" || sub.status === "active"
         ? "activa"

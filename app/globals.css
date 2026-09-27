@@ -46,7 +46,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.eq.light {
+.eq.light, html.light .eq {
   --outer: #E3E7EF; --bg: #F5F6FA; --panel: #FFFFFF; --panel2: #EAEFF8; --line: #C9D3E6;
   --ink: #1E2433; --dim: #68718C;
   --gold: #FF8A3D; --gold-deep: #C75812; --green: #1FA45F; --red: #E03B55; --blue: #2E6FD9;
@@ -150,6 +150,16 @@ body {
 .eq .mode-card .mc-txt b { font-size: 17px; display: block; }
 .eq .mode-card .mc-txt span { font-size: 13px; color: var(--dim); }
 .eq .mode-card .chev { color: var(--dim); font-size: 20px; font-weight: 800; }
+
+.eq .dash-card { background: linear-gradient(160deg, var(--panel2), var(--panel)); border: 2px solid var(--line); border-radius: 22px; padding: 18px; margin-top: 6px; display: flex; align-items: center; gap: 14px; cursor: pointer; width: 100%; text-align: left; }
+.eq .dash-card:active { transform: scale(.98); }
+.eq .dash-card .dash-flame { font-size: 32px; flex-shrink: 0; }
+.eq .dash-card .dash-txt { flex: 1; }
+.eq .dash-card .dash-txt b { font-size: 17px; display: block; }
+.eq .dash-stats { display: flex; gap: 10px; margin-top: 12px; }
+.eq .stat-box { flex: 1; background: var(--panel); border: 2px solid var(--line); border-radius: 16px; padding: 10px 8px; text-align: center; }
+.eq .stat-box b { display: block; font-size: 20px; color: var(--gold); }
+.eq .stat-box span { font-size: 11px; color: var(--dim); }
 
 /* ---------- pagos ---------- */
 .eq .plan { display: flex; justify-content: space-between; align-items: center; background: var(--panel); border: 2px solid var(--line); border-radius: 18px; padding: 16px; margin-top: 12px; cursor: pointer; width: 100%; text-align: left; }

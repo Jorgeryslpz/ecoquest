@@ -3,6 +3,7 @@ import { getUser } from "@/lib/auth";
 import { createServiceRoleClient } from "@/lib/supabase/server";
 import { calificar } from "@/lib/banco";
 import { BOTS_ARRANQUE_FRIO } from "@/lib/liga";
+import { reclamarSesion } from "@/lib/sesiones";
 
 // El rival se decide AQUÍ, en el servidor, en el mismo momento en que se
 // califica — nunca se recibe del cliente, para que no se pueda fabricar un
@@ -57,7 +58,12 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Datos inválidos." }, { status: 400 });
   }
 
-  const resultado = await calificar(respuestas);
+  // Solo se califica el set que armó /api/arena/duelo para este usuario,
+  // una vez y dentro del tiempo del duelo — no una lista que mande el cliente.
+  const reclamo = await reclamarSesion(user.id, body?.sesion_id, ["arena"]);
+  if (!reclamo.ok) return NextResponse.json({ error: reclamo.error }, { status: reclamo.status });
+
+  const resultado = await calificar(respuestas, reclamo.sesion.items_ids);
   const admin = createServiceRoleClient();
   const rival = await elegirRival(admin, user.id);
 
@@ -74,21 +80,21 @@ export async function POST(request: NextRequest) {
     desenlace = "empate";
   }
 
-  const { data: trofeosActuales } = await admin
-    .from("trofeos_liga")
-    .select("trofeos")
-    .eq("user_id", user.id)
-    .maybeSingle();
-  const nuevoTotal = Math.max(0, (trofeosActuales?.trofeos ?? 0) + cambio);
-
-  await admin.from("trofeos_liga").upsert({ user_id: user.id, trofeos: nuevoTotal });
-  await admin.from("duelos_arena").insert({
+  const { data: nuevoTotal, error: errTrofeos } = await admin.rpc("sumar_trofeos", {
+    p_user: user.id,
+    p_cambio: cambio,
+  });
+  const { error: errDuelo } = await admin.from("duelos_arena").insert({
     user_id: user.id,
     aciertos_user: resultado.aciertos,
     aciertos_rival: rival.aciertos,
     trofeos_cambio: cambio,
     resultado: desenlace,
   });
+  if (errTrofeos || errDuelo) {
+    console.error("[arena] error al guardar el duelo:", errTrofeos?.message, errDuelo?.message);
+    return NextResponse.json({ error: "No se pudo guardar el duelo." }, { status: 500 });
+  }
 
   return NextResponse.json({
     ...resultado,

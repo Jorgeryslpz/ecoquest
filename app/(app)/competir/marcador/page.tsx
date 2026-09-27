@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
-import LogoutButton from "@/components/LogoutButton";
+import Topbar from "@/components/Topbar";
 import { MarcadorIcon } from "@/lib/icons";
 
 type Fila = { id: string; apodo: string; score: number; tu: boolean };
@@ -25,13 +24,7 @@ export default function MarcadorPage() {
   return (
     <div className="eq">
       <div className="eq-app">
-        <div className="topbar">
-          <Link href="/competir" className="iconbtn" title="Regresar">
-            ←
-          </Link>
-          <div className="tb-title">Marcador Global</div>
-          <LogoutButton />
-        </div>
+        <Topbar title="Marcador Global" backHref="/competir" />
         <div className="screen">
           <h1>
             <span style={{ color: "var(--red)" }}>

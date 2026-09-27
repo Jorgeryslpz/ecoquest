@@ -1,18 +1,12 @@
 import Link from "next/link";
-import LogoutButton from "@/components/LogoutButton";
+import Topbar from "@/components/Topbar";
 import { ArenaIcon, ClanesIcon, MarcadorIcon, TrofeoIcon } from "@/lib/icons";
 
 export default function CompetirPage() {
   return (
     <div className="eq">
       <div className="eq-app">
-        <div className="topbar">
-          <Link href="/inicio" className="iconbtn" title="Inicio">
-            ←
-          </Link>
-          <div className="tb-title">Competir</div>
-          <LogoutButton />
-        </div>
+        <Topbar title="Competir" backHref="/inicio" />
         <div className="screen">
           <h1>
             <span className="gold">

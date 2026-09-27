@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { BackIcon, SunIcon, MoonIcon } from "@/lib/icons";
+import { BackIcon } from "@/lib/icons";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export type PreguntaQuiz = {
   id_reactivo: string;
@@ -27,7 +28,6 @@ export default function QuizRunner({
   onTerminar: (respuestas: Record<string, string>) => void;
   onSalir: () => void;
 }) {
-  const [claro, setClaro] = useState(false);
   const [indice, setIndice] = useState(0);
   const [respuestas, setRespuestas] = useState<Record<string, string>>({});
   const [tiempoRestante, setTiempoRestante] = useState(tiempoSeg ?? 0);
@@ -57,16 +57,14 @@ export default function QuizRunner({
   if (!q) return null;
 
   return (
-    <div className={`eq ${claro ? "light" : ""}`}>
+    <div className="eq">
       <div className="eq-app">
         <div className="topbar">
           <button className="iconbtn" onClick={() => setConfirmarSalida(true)} title="Salir">
             <BackIcon />
           </button>
           <div className="tb-title">{titulo}</div>
-          <button className="iconbtn" onClick={() => setClaro((c) => !c)} title="Cambiar tema">
-            {claro ? <MoonIcon /> : <SunIcon />}
-          </button>
+          <ThemeToggle />
         </div>
 
         <div className="screen">

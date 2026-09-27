@@ -17,7 +17,7 @@ export default async function PagoPage() {
         <div className="screen">
           <h1>Elige tu plan</h1>
           <p className="dim" style={{ marginTop: 6 }}>
-            7 días de prueba gratis, luego se cobra automáticamente. Cancela cuando quieras.
+            Se renueva automáticamente. Cancela cuando quieras.
           </p>
 
           <PlanButton plan="1_mes" nombre={PLANES["1_mes"].nombre} precio={`$${PLANES["1_mes"].precioMxn}`} />

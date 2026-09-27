@@ -211,3 +211,29 @@ export function MoonIcon({ className }: IconProps) {
     </Svg>
   );
 }
+
+export function HomeIcon({ className }: IconProps) {
+  return (
+    <Svg className={className}>
+      <path d="M4 11.5L12 4l8 7.5" />
+      <path d="M6 10v9a1 1 0 001 1h3v-5h4v5h3a1 1 0 001-1v-9" />
+    </Svg>
+  );
+}
+
+export function PerfilIcon({ className }: IconProps) {
+  return (
+    <Svg className={className}>
+      <circle cx="12" cy="8" r="3.6" />
+      <path d="M4.5 20c1-4 4-6 7.5-6s6.5 2 7.5 6" />
+    </Svg>
+  );
+}
+
+export function FuegoIcon({ className }: IconProps) {
+  return (
+    <Svg className={className} fill>
+      <path d="M12 2c1 3-2.5 4-2.5 7.5 0 1 .4 1.8 1 2.3-1.6-.3-3-2-3-4.3C4.7 10 3 12.8 3 15.5 3 19.6 6.6 22 11 22c5 0 8.5-3 8.5-7.3 0-3.4-2-5.7-3.8-7.4.3 1.6-.2 2.9-1.2 3.6.4-2-.4-3.4-1.5-4.6C12.4 5.3 12.3 3.6 12 2z" />
+    </Svg>
+  );
+}

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import QuizRunner, { PreguntaQuiz } from "@/components/QuizRunner";
+import Topbar from "@/components/Topbar";
 
 type Resultado = {
   aciertos: number;
@@ -15,11 +16,20 @@ export default function ExamenPage() {
   const [estado, setEstado] = useState<"intro" | "cargando" | "quiz" | "resultado">("intro");
   const [preguntas, setPreguntas] = useState<PreguntaQuiz[]>([]);
   const [resultado, setResultado] = useState<Resultado | null>(null);
+  const [sesionId, setSesionId] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   async function comenzar() {
+    setError(null);
     setEstado("cargando");
     const res = await fetch("/api/examen/armar");
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo armar el examen.");
+      setEstado("intro");
+      return;
+    }
+    setSesionId(data.sesion_id);
     setPreguntas(data.preguntas ?? []);
     setEstado("quiz");
   }
@@ -28,9 +38,14 @@ export default function ExamenPage() {
     const res = await fetch("/api/examen/calificar", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ respuestas }),
+      body: JSON.stringify({ sesion_id: sesionId, respuestas }),
     });
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo calificar el examen.");
+      setEstado("intro");
+      return;
+    }
     setResultado(data);
     setEstado("resultado");
   }
@@ -39,13 +54,7 @@ export default function ExamenPage() {
     return (
       <div className="eq">
         <div className="eq-app">
-          <div className="topbar">
-            <button className="iconbtn" onClick={() => router.push("/inicio")}>
-              ←
-            </button>
-            <div className="tb-title">Examen</div>
-            <span style={{ width: 40 }} />
-          </div>
+          <Topbar title="Examen" backHref="/inicio" />
           <div className="screen">
             <h1>Simulador de examen</h1>
             <div className="card">
@@ -55,6 +64,7 @@ export default function ExamenPage() {
                 examen real.
               </p>
             </div>
+            {error && <p className="red-t">{error}</p>}
             <button className="btn" onClick={comenzar}>
               Comenzar simulacro
             </button>
@@ -71,6 +81,7 @@ export default function ExamenPage() {
     return (
       <div className="eq">
         <div className="eq-app">
+          <Topbar title="Examen" backHref="/inicio" />
           <div className="screen center" style={{ paddingTop: 60 }}>
             <p className="dim">Armando tus 128 reactivos...</p>
           </div>
@@ -95,6 +106,7 @@ export default function ExamenPage() {
     return (
       <div className="eq">
         <div className="eq-app">
+          <Topbar title="Resultados" backHref="/inicio" />
           <div className="screen">
             <h1 className="center">Resultados del examen</h1>
             <p className="score-big">

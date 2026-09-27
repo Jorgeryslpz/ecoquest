@@ -1,18 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
-import LogoutButton from "@/components/LogoutButton";
+import Topbar from "@/components/Topbar";
 import { ClanesIcon } from "@/lib/icons";
 
 type Miembro = { user_id: string; puntos_semana: number; apodo: string };
 type MiClan = { id: string; nombre: string; codigo: string; miembros: Miembro[] } | null;
-
-function codigoAleatorio() {
-  const letras = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-  return Array.from({ length: 6 }, () => letras[Math.floor(Math.random() * letras.length)]).join("");
-}
 
 export default function ClanesPage() {
   const [cargando, setCargando] = useState(true);
@@ -60,65 +54,23 @@ export default function ClanesPage() {
     cargar();
   }, []);
 
-  async function crear() {
+  async function enviar(cuerpo: { accion: "crear"; nombre: string } | { accion: "unirse"; codigo: string }) {
     setError(null);
-    const supabase = createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-    if (!user) return;
-
-    for (let intento = 0; intento < 5; intento++) {
-      const codigo = codigoAleatorio();
-      const { data: clan, error: err } = await supabase
-        .from("clanes")
-        .insert({ nombre: nombre.trim() || "Mi Grupo", codigo, creado_por: user.id })
-        .select("id")
-        .single();
-      if (err) {
-        if (err.code === "23505") continue; // código duplicado, reintenta
-        setError(err.message);
-        return;
-      }
-      const { error: errMiembro } = await supabase
-        .from("clan_miembros")
-        .insert({ clan_id: clan.id, user_id: user.id });
-      if (errMiembro) {
-        setError(errMiembro.message.includes("duplicate") ? "Ya perteneces a un grupo." : errMiembro.message);
-        return;
-      }
-      await cargar();
-      return;
-    }
-    setError("No se pudo generar un código único, intenta de nuevo.");
-  }
-
-  async function unirse() {
-    setError(null);
-    const supabase = createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-    if (!user) return;
-
-    const { data: clan, error: errBusqueda } = await supabase
-      .from("clanes")
-      .select("id")
-      .eq("codigo", codigoInput.trim().toUpperCase())
-      .maybeSingle();
-    if (errBusqueda || !clan) {
-      setError("No existe un grupo con ese código.");
-      return;
-    }
-    const { error: errMiembro } = await supabase
-      .from("clan_miembros")
-      .insert({ clan_id: clan.id, user_id: user.id });
-    if (errMiembro) {
-      setError(errMiembro.code === "23505" ? "Ya perteneces a un grupo." : errMiembro.message);
+    const res = await fetch("/api/clanes", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(cuerpo),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo completar la acción.");
       return;
     }
     await cargar();
   }
+
+  const crear = () => enviar({ accion: "crear", nombre });
+  const unirse = () => enviar({ accion: "unirse", codigo: codigoInput });
 
   async function salir() {
     const supabase = createClient();
@@ -133,13 +85,7 @@ export default function ClanesPage() {
   return (
     <div className="eq">
       <div className="eq-app">
-        <div className="topbar">
-          <Link href="/competir" className="iconbtn" title="Regresar">
-            ←
-          </Link>
-          <div className="tb-title">Grupos de Estudio</div>
-          <LogoutButton />
-        </div>
+        <Topbar title="Grupos de Estudio" backHref="/competir" />
         <div className="screen">
           <h1>
             <span style={{ color: "var(--green)" }}>

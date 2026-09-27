@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getUser } from "@/lib/auth";
 import { createServiceRoleClient } from "@/lib/supabase/server";
 import { armarDiagnostico, armarSet, MATERIAS } from "@/lib/banco";
+import { crearSesion } from "@/lib/sesiones";
 
 export async function GET(request: NextRequest) {
   const user = await getUser();
@@ -21,7 +22,12 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: "El diagnóstico ya se hizo una vez." }, { status: 409 });
     }
     const preguntas = await armarDiagnostico();
-    return NextResponse.json({ preguntas });
+    const sesion_id = await crearSesion(
+      user.id,
+      "diagnostico",
+      preguntas.map((p) => p.id_reactivo)
+    );
+    return NextResponse.json({ sesion_id, preguntas });
   }
 
   const materia = searchParams.get("materia");
@@ -43,6 +49,12 @@ export async function GET(request: NextRequest) {
 
   const excluirIds = (intentosRecientes ?? []).flatMap((i) => i.reactivos_ids ?? []);
   const preguntas = await armarSet(materia, 20, excluirIds);
+  const sesion_id = await crearSesion(
+    user.id,
+    "materias",
+    preguntas.map((p) => p.id_reactivo),
+    { materia }
+  );
 
-  return NextResponse.json({ preguntas });
+  return NextResponse.json({ sesion_id, preguntas });
 }

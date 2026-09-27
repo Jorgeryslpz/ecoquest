@@ -16,6 +16,7 @@ export default function DiagnosticoPage() {
   const [preguntas, setPreguntas] = useState<PreguntaQuiz[]>([]);
   const [resultado, setResultado] = useState<Resultado | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [sesionId, setSesionId] = useState<string | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -26,6 +27,7 @@ export default function DiagnosticoPage() {
         setEstado("error");
         return;
       }
+      setSesionId(data.sesion_id);
       setPreguntas(data.preguntas ?? []);
       setEstado("quiz");
     })();
@@ -35,9 +37,14 @@ export default function DiagnosticoPage() {
     const res = await fetch("/api/materias/calificar", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ tipo: "diagnostico", respuestas }),
+      body: JSON.stringify({ tipo: "diagnostico", sesion_id: sesionId, respuestas }),
     });
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo calificar el diagnóstico.");
+      setEstado("error");
+      return;
+    }
     setResultado(data);
     setEstado("resultado");
   }

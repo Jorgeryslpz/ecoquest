@@ -13,7 +13,7 @@ export async function getUser() {
   return user;
 }
 
-/** Suscripción activa (o en periodo de prueba) del usuario, o null. */
+/** Suscripción activa del usuario, o null. */
 export async function getSuscripcionActiva(userId: string) {
   const supabase = createServiceRoleClient();
   const { data } = await supabase

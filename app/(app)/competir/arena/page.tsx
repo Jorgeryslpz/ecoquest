@@ -1,11 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { ligaDeTrofeos } from "@/lib/liga";
 import QuizRunner, { PreguntaQuiz } from "@/components/QuizRunner";
-import LogoutButton from "@/components/LogoutButton";
+import Topbar from "@/components/Topbar";
 
 type ResultadoDuelo = {
   aciertos: number;
@@ -22,6 +21,8 @@ export default function ArenaPage() {
   const [estado, setEstado] = useState<"inicio" | "cargando" | "duelo" | "resultado">("inicio");
   const [preguntas, setPreguntas] = useState<PreguntaQuiz[]>([]);
   const [resultado, setResultado] = useState<ResultadoDuelo | null>(null);
+  const [sesionId, setSesionId] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   async function cargarTrofeos() {
     const supabase = createClient();
@@ -39,9 +40,16 @@ export default function ArenaPage() {
   }, []);
 
   async function buscarRival() {
+    setError(null);
     setEstado("cargando");
     const res = await fetch("/api/arena/duelo");
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo armar el duelo.");
+      setEstado("inicio");
+      return;
+    }
+    setSesionId(data.sesion_id);
     setPreguntas(data.preguntas ?? []);
     setEstado("duelo");
   }
@@ -50,9 +58,14 @@ export default function ArenaPage() {
     const res = await fetch("/api/arena/calificar", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ respuestas }),
+      body: JSON.stringify({ sesion_id: sesionId, respuestas }),
     });
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo calificar el duelo.");
+      setEstado("inicio");
+      return;
+    }
     setResultado(data);
     setTrofeos(data.trofeosTotal);
     setEstado("resultado");
@@ -75,13 +88,7 @@ export default function ArenaPage() {
   return (
     <div className="eq">
       <div className="eq-app">
-        <div className="topbar">
-          <Link href="/competir" className="iconbtn" title="Regresar">
-            ←
-          </Link>
-          <div className="tb-title">Arena PvP</div>
-          <LogoutButton />
-        </div>
+        <Topbar title="Arena PvP" backHref="/competir" />
         <div className="screen">
           <h1>Arena PvP</h1>
 
@@ -138,6 +145,7 @@ export default function ArenaPage() {
             </div>
           )}
 
+          {error && <p className="red-t">{error}</p>}
           <button className="btn" disabled={estado === "cargando"} onClick={buscarRival}>
             {estado === "cargando" ? "Buscando rival..." : "Buscar rival"}
           </button>

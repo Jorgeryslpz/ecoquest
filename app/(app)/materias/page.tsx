@@ -1,5 +1,5 @@
 import Link from "next/link";
-import LogoutButton from "@/components/LogoutButton";
+import Topbar from "@/components/Topbar";
 import { MATERIA_ICONS } from "@/lib/icons";
 import { MATERIAS } from "@/lib/banco";
 
@@ -7,13 +7,7 @@ export default function MateriasPage() {
   return (
     <div className="eq">
       <div className="eq-app">
-        <div className="topbar">
-          <Link href="/inicio" className="iconbtn" title="Inicio">
-            ←
-          </Link>
-          <div className="tb-title">Materias</div>
-          <LogoutButton />
-        </div>
+        <Topbar title="Materias" backHref="/inicio" />
         <div className="screen">
           <h1>Materias</h1>
           <p className="dim">Ejercicio tipo examen: 20 preguntas por materia, cronometrado.</p>

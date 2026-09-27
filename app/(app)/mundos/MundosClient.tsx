@@ -1,7 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { BackIcon, LockIcon, MATERIA_ICONS, MoonIcon, SunIcon } from "@/lib/icons";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { BackIcon, HomeIcon, LockIcon, MATERIA_ICONS, PerfilIcon } from "@/lib/icons";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const MATERIAS = [
   "Español",
@@ -33,7 +36,7 @@ type Feedback = {
 type Progreso = Record<string, Record<number, number>>;
 
 export default function MundosClient({ progresoInicial }: { progresoInicial: Progreso }) {
-  const [claro, setClaro] = useState(false);
+  const router = useRouter();
   const [pantalla, setPantalla] = useState<"materias" | "niveles" | "quiz" | "resultado">(
     "materias"
   );
@@ -46,6 +49,7 @@ export default function MundosClient({ progresoInicial }: { progresoInicial: Pro
   const [elegida, setElegida] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [cargando, setCargando] = useState(false);
+  const [sesionId, setSesionId] = useState<string | null>(null);
 
   function abrirMateria(m: string) {
     setMateria(m);
@@ -54,7 +58,8 @@ export default function MundosClient({ progresoInicial }: { progresoInicial: Pro
 
   function regresar() {
     if (pantalla === "quiz" || pantalla === "resultado") setPantalla("niveles");
-    else setPantalla("materias");
+    else if (pantalla === "niveles") setPantalla("materias");
+    else router.push("/inicio");
   }
 
   async function iniciarNivel(n: 1 | 2 | 3) {
@@ -63,6 +68,11 @@ export default function MundosClient({ progresoInicial }: { progresoInicial: Pro
     setNivel(n);
     const res = await fetch(`/api/modo-basico?asignatura=${encodeURIComponent(materia)}&nivel=${n}`);
     const data = await res.json();
+    if (!res.ok) {
+      setCargando(false);
+      return;
+    }
+    setSesionId(data.sesion_id);
     setPreguntas(data.preguntas ?? []);
     setIndice(0);
     setAciertos(0);
@@ -78,8 +88,12 @@ export default function MundosClient({ progresoInicial }: { progresoInicial: Pro
     const res = await fetch("/api/modo-basico/verificar", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id_item: preguntas[indice].id_item, respuesta: opcion }),
+      body: JSON.stringify({ sesion_id: sesionId, id_item: preguntas[indice].id_item, respuesta: opcion }),
     });
+    if (!res.ok) {
+      setElegida(null);
+      return;
+    }
     const data: Feedback = await res.json();
     setFeedback(data);
     if (data.correcto) setAciertos((a) => a + 1);
@@ -91,10 +105,12 @@ export default function MundosClient({ progresoInicial }: { progresoInicial: Pro
         const res = await fetch("/api/modo-basico/terminar-nivel", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ materia, nivel, aciertos }),
+          body: JSON.stringify({ sesion_id: sesionId }),
         });
         const data = await res.json();
         if (res.ok) {
+          // El conteo oficial es el del servidor.
+          setAciertos(data.aciertos);
           setProgreso((p) => ({
             ...p,
             [materia]: { ...p[materia], [nivel]: data.mejor },
@@ -117,17 +133,27 @@ export default function MundosClient({ progresoInicial }: { progresoInicial: Pro
   const preguntaActual = preguntas[indice];
   const titulo = pantalla === "materias" ? "Mundo de Preguntas" : materia!;
 
+  const enQuiz = pantalla === "quiz";
+
   return (
-    <div className={`eq ${claro ? "light" : ""}`}>
+    <div className="eq">
       <div className="eq-app">
         <div className="topbar">
           <button className="iconbtn" onClick={regresar} title="Regresar">
             <BackIcon />
           </button>
           <div className="tb-title">{titulo}</div>
-          <button className="iconbtn" onClick={() => setClaro((c) => !c)} title="Cambiar tema">
-            {claro ? <MoonIcon /> : <SunIcon />}
-          </button>
+          <ThemeToggle />
+          {!enQuiz && (
+            <>
+              <Link href="/inicio" className="iconbtn" title="Inicio">
+                <HomeIcon />
+              </Link>
+              <Link href="/perfil" className="iconbtn" title="Perfil">
+                <PerfilIcon />
+              </Link>
+            </>
+          )}
         </div>
 
         <div className="screen">

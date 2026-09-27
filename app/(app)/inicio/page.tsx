@@ -2,31 +2,74 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { getUser } from "@/lib/auth";
 import { createServiceRoleClient } from "@/lib/supabase/server";
-import { ExamenIcon, MATERIA_ICONS, MundosIcon, TrofeoIcon } from "@/lib/icons";
-import LogoutButton from "@/components/LogoutButton";
+import { ExamenIcon, FuegoIcon, MATERIA_ICONS, MundosIcon, TrofeoIcon } from "@/lib/icons";
+import Topbar from "@/components/Topbar";
 
 export default async function InicioPage() {
   const user = await getUser();
   if (!user) redirect("/login");
   const admin = createServiceRoleClient();
 
-  const { data: diag } = await admin
-    .from("diagnostico_resultados")
-    .select("completado")
-    .eq("user_id", user.id)
-    .maybeSingle();
+  const [{ data: diag }, { data: racha }, { count: nivelesAprobados }, { count: enRepaso }, { data: trofeosRow }] =
+    await Promise.all([
+      admin.from("diagnostico_resultados").select("completado").eq("user_id", user.id).maybeSingle(),
+      admin
+        .from("rachas_estudio")
+        .select("dias_actuales, ultima_actividad")
+        .eq("user_id", user.id)
+        .maybeSingle(),
+      admin
+        .from("mundos_progreso")
+        .select("*", { count: "exact", head: true })
+        .eq("user_id", user.id)
+        .eq("aprobado", true),
+      admin.from("repaso").select("*", { count: "exact", head: true }).eq("user_id", user.id),
+      admin.from("trofeos_liga").select("trofeos").eq("user_id", user.id).maybeSingle(),
+    ]);
+
+  const diasRacha = racha?.dias_actuales ?? 0;
+  const hoy = new Date().toISOString().slice(0, 10);
+  const estudiasteHoy = racha?.ultima_actividad === hoy;
+  const trofeos = trofeosRow?.trofeos ?? 0;
 
   const MateriasIcon = MATERIA_ICONS["Español"];
 
   return (
     <div className="eq">
       <div className="eq-app">
-        <div className="topbar">
-          <div className="tb-title">ECOEMS Quest</div>
-          <LogoutButton />
-        </div>
+        <Topbar title="ECOEMS Quest" />
         <div className="screen">
-          <h1>¡Hola, aspirante!</h1>
+          <h1>¡Hola, aspirante! 👋</h1>
+
+          <Link href="/perfil" className="dash-card">
+            <span className="dash-flame" style={{ color: "var(--gold)" }}>
+              <FuegoIcon />
+            </span>
+            <div className="dash-txt">
+              <b>
+                {diasRacha} día{diasRacha === 1 ? "" : "s"} de racha
+              </b>
+              <span className="dim" style={{ fontSize: 12 }}>
+                {estudiasteHoy ? "✅ Ya estudiaste hoy" : "⭕ Aún no estudias hoy"}
+              </span>
+            </div>
+            <span className="chev">›</span>
+          </Link>
+
+          <div className="dash-stats">
+            <div className="stat-box">
+              <b>{nivelesAprobados ?? 0}</b>
+              <span>Niveles aprobados</span>
+            </div>
+            <div className="stat-box">
+              <b>{enRepaso ?? 0}</b>
+              <span>En repaso</span>
+            </div>
+            <div className="stat-box">
+              <b>{trofeos}</b>
+              <span>🏆 Trofeos</span>
+            </div>
+          </div>
 
           {diag && !diag.completado && (
             <div className="card" style={{ borderColor: "var(--gold)" }}>

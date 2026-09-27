@@ -40,8 +40,8 @@ export async function POST(request: NextRequest) {
   const session = await stripe.checkout.sessions.create({
     mode: "subscription",
     line_items: [{ price: priceId, quantity: 1 }],
+    // Cobro inmediato, sin periodo de prueba.
     subscription_data: {
-      trial_period_days: 7,
       metadata: { user_id: user.id, plan },
     },
     metadata: { user_id: user.id, plan },

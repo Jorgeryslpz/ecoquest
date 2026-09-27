@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import QuizRunner, { PreguntaQuiz } from "@/components/QuizRunner";
+import Topbar from "@/components/Topbar";
 
 type Resultado = {
   aciertos: number;
@@ -18,9 +19,11 @@ type Resultado = {
 
 export default function MateriaClient({ materia }: { materia: string }) {
   const router = useRouter();
-  const [estado, setEstado] = useState<"cargando" | "quiz" | "resultado">("cargando");
+  const [estado, setEstado] = useState<"cargando" | "quiz" | "resultado" | "error">("cargando");
   const [preguntas, setPreguntas] = useState<PreguntaQuiz[]>([]);
   const [resultado, setResultado] = useState<Resultado | null>(null);
+  const [sesionId, setSesionId] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const tiempoSeg = materia.startsWith("Habilidad") ? 20 * 60 : 15 * 60;
 
@@ -28,6 +31,12 @@ export default function MateriaClient({ materia }: { materia: string }) {
     setEstado("cargando");
     const res = await fetch(`/api/materias/armar?materia=${encodeURIComponent(materia)}`);
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo armar el ejercicio.");
+      setEstado("error");
+      return;
+    }
+    setSesionId(data.sesion_id);
     setPreguntas(data.preguntas ?? []);
     setEstado("quiz");
   }
@@ -42,9 +51,14 @@ export default function MateriaClient({ materia }: { materia: string }) {
     const res = await fetch("/api/materias/calificar", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ tipo: "materias", materia, respuestas }),
+      body: JSON.stringify({ tipo: "materias", sesion_id: sesionId, respuestas }),
     });
     const data = await res.json();
+    if (!res.ok) {
+      setError(data.error ?? "No se pudo calificar el ejercicio.");
+      setEstado("error");
+      return;
+    }
     setResultado(data);
     setEstado("resultado");
   }
@@ -69,6 +83,22 @@ export default function MateriaClient({ materia }: { materia: string }) {
     );
   }
 
+  if (estado === "error") {
+    return (
+      <div className="eq">
+        <div className="eq-app">
+          <Topbar title={materia} backHref="/materias" />
+          <div className="screen center" style={{ paddingTop: 60 }}>
+            <p className="dim">{error}</p>
+            <button className="btn" onClick={cargar}>
+              Otro ejercicio
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (estado === "quiz") {
     return (
       <QuizRunner
@@ -85,6 +115,7 @@ export default function MateriaClient({ materia }: { materia: string }) {
     return (
       <div className="eq">
         <div className="eq-app">
+          <Topbar title={materia} backHref="/materias" />
           <div className="screen">
             <h1 className="center">Ejercicio terminado</h1>
             <p className="score-big">
