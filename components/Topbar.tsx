@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BackIcon, HomeIcon, PerfilIcon } from "@/lib/icons";
+import { BackIcon, HomeIcon, LogoIcon, PerfilIcon } from "@/lib/icons";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Topbar({ title, backHref }: { title: string; backHref?: string }) {
@@ -10,6 +10,7 @@ export default function Topbar({ title, backHref }: { title: string; backHref?: 
           <BackIcon />
         </Link>
       )}
+      <LogoIcon size={28} />
       <div className="tb-title">{title}</div>
       <ThemeToggle />
       <Link href="/inicio" className="iconbtn" title="Inicio">

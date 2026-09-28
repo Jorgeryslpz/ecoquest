@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ECOEMS Quest",
-  description: "Preparación para el examen ECOEMS.",
+  title: "Kaanki",
+  description: "Prepárate para el ECOEMS con Kaanki.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -16,7 +16,7 @@ export default async function Portada() {
               <LogoIcon />
             </div>
             <h1>
-              ECOEMS <span>QUEST</span>
+              KAAN<span>KI</span>
             </h1>
             <p className="dim" style={{ marginTop: 6 }}>
               Tu aventura rumbo a la prepa que quieres.

@@ -37,7 +37,7 @@ export default async function InicioPage() {
   return (
     <div className="eq">
       <div className="eq-app">
-        <Topbar title="ECOEMS Quest" />
+        <Topbar title="Kaanki" />
         <div className="screen">
           <h1>¡Hola, aspirante! 👋</h1>
 

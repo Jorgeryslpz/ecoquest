@@ -1,6 +1,8 @@
 // Mismo set de íconos SVG estáticos del front end (demo/ECOEMS_Quest_FrontEnd_V0.0.2.html),
 // portado a componentes React para usarse en las pantallas reales.
 
+import Image from "next/image";
+
 type IconProps = { className?: string };
 
 function Svg({
@@ -195,12 +197,16 @@ export function TrofeoIcon({ className }: IconProps) {
   );
 }
 
-export function LogoIcon({ className }: IconProps) {
+export function LogoIcon({ className, size = 56 }: IconProps & { size?: number }) {
   return (
-    <Svg className={className}>
-      <circle cx="12" cy="12" r="9.5" />
-      <path d="M15.5 8.5l-2 5-5 2 2-5z" fill="currentColor" stroke="none" />
-    </Svg>
+    <Image
+      src="/kaanki-mascota.png"
+      alt="Kaanki"
+      width={size}
+      height={size}
+      className={className}
+      style={{ display: "block", objectFit: "contain" }}
+    />
   );
 }
 
