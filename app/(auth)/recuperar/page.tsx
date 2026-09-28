@@ -1,11 +1,13 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
-export default function RecuperarPage() {
+function RecuperarContenido() {
   const router = useRouter();
+  const params = useSearchParams();
+  const expirado = params.get("expirado") === "1";
   const [email, setEmail] = useState("");
   const [enviado, setEnviado] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -17,7 +19,7 @@ export default function RecuperarPage() {
     setCargando(true);
     const supabase = createClient();
     const { error: err } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/restablecer`,
+      redirectTo: `${window.location.origin}/api/auth/callback?next=/restablecer`,
     });
     setCargando(false);
     if (err) {
@@ -33,6 +35,12 @@ export default function RecuperarPage() {
         ←
       </button>
       <h1>Recuperar contraseña</h1>
+
+      {expirado && !enviado && (
+        <p className="red-t" style={{ marginTop: 10, fontSize: 14 }}>
+          El link anterior ya expiró o ya se usó. Pide uno nuevo.
+        </p>
+      )}
 
       {enviado ? (
         <p className="dim" style={{ marginTop: 10 }}>
@@ -62,5 +70,13 @@ export default function RecuperarPage() {
         </form>
       )}
     </>
+  );
+}
+
+export default function RecuperarPage() {
+  return (
+    <Suspense fallback={null}>
+      <RecuperarContenido />
+    </Suspense>
   );
 }
