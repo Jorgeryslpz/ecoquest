@@ -1,39 +1,10 @@
-import Link from "next/link";
-import { redirect } from "next/navigation";
-import { getUser } from "@/lib/auth";
-import { LogoIcon } from "@/lib/icons";
+import ComingSoonClient from "./ComingSoonClient";
 
-export default async function Portada() {
-  const user = await getUser();
-  if (user) redirect("/inicio");
+export const metadata = {
+  title: "Kaanki · Muy pronto",
+  description: "Kaanki: tu aventura rumbo a la prepa que quieres. Muy pronto.",
+};
 
-  return (
-    <div className="eq">
-      <div className="eq-app">
-        <div className="screen">
-          <div className="hero">
-            <div className="logo-shield">
-              <LogoIcon />
-            </div>
-            <h1>
-              KAAN<span>KI</span>
-            </h1>
-            <p className="dim" style={{ marginTop: 6 }}>
-              Tu aventura rumbo a la prepa que quieres.
-              <br />
-              2,231 reactivos. 11 materias. Un mapa.
-            </p>
-            <div style={{ width: "100%", marginTop: 26 }}>
-              <Link href="/registro" className="btn">
-                Crear cuenta
-              </Link>
-              <Link href="/login" className="btn ghost">
-                Iniciar sesión
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+export default function Portada() {
+  return <ComingSoonClient />;
 }
