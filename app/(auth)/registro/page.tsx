@@ -1,17 +1,23 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 
-export default function RegistroPage() {
+function RegistroContenido() {
   const router = useRouter();
+  const params = useSearchParams();
+  const plan = params.get("plan");
   const [email, setEmail] = useState("");
   const [pass1, setPass1] = useState("");
   const [pass2, setPass2] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [cargando, setCargando] = useState(false);
+
+  // A dónde debe caer el usuario una vez que ya tiene sesión: si llegó
+  // eligiendo un plan desde la landing, directo a pagarlo; si no, a inicio.
+  const siguiente = plan ? `/pago?plan=${plan}` : "/inicio";
 
   async function crearCuenta(e: React.FormEvent) {
     e.preventDefault();
@@ -35,7 +41,9 @@ export default function RegistroPage() {
     const { error: signUpError } = await supabase.auth.signUp({
       email,
       password: pass1,
-      options: { emailRedirectTo: `${window.location.origin}/api/auth/callback` },
+      options: {
+        emailRedirectTo: `${window.location.origin}/api/auth/callback?next=${encodeURIComponent(siguiente)}`,
+      },
     });
     setCargando(false);
 
@@ -48,7 +56,7 @@ export default function RegistroPage() {
       return;
     }
 
-    router.push(`/verificar?email=${encodeURIComponent(email)}`);
+    router.push(`/verificar?email=${encodeURIComponent(email)}${plan ? `&plan=${plan}` : ""}`);
   }
 
   async function conGoogle() {
@@ -56,7 +64,9 @@ export default function RegistroPage() {
     const supabase = createClient();
     const { error: oauthError } = await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: `${window.location.origin}/api/auth/callback` },
+      options: {
+        redirectTo: `${window.location.origin}/api/auth/callback?next=${encodeURIComponent(siguiente)}`,
+      },
     });
     if (oauthError) setError(oauthError.message);
   }
@@ -111,8 +121,19 @@ export default function RegistroPage() {
       </form>
 
       <p className="dim center" style={{ marginTop: 16 }}>
-        ¿Ya tienes cuenta? <Link href="/login" style={{ textDecoration: "underline" }}>Inicia sesión</Link>
+        ¿Ya tienes cuenta?{" "}
+        <Link href={plan ? `/login?plan=${plan}` : "/login"} style={{ textDecoration: "underline" }}>
+          Inicia sesión
+        </Link>
       </p>
     </>
+  );
+}
+
+export default function RegistroPage() {
+  return (
+    <Suspense fallback={null}>
+      <RegistroContenido />
+    </Suspense>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { PlanId } from "@/lib/stripe";
 
 export default function PlanButton({
@@ -9,12 +9,16 @@ export default function PlanButton({
   precio,
   sub,
   best,
+  autoStart,
 }: {
   plan: PlanId;
   nombre: string;
   precio: string;
   sub?: string;
   best?: boolean;
+  // Si viene de un link de precios (?plan=...), dispara el checkout solo,
+  // sin esperar a que el usuario vuelva a darle clic al plan que ya eligió.
+  autoStart?: boolean;
 }) {
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -36,6 +40,17 @@ export default function PlanButton({
     window.location.href = data.url;
   }
 
+  useEffect(() => {
+    if (!autoStart) return;
+    // setTimeout defiere la llamada fuera del cuerpo síncrono del efecto
+    // (evita el aviso de React sobre setState síncrono dentro de un efecto).
+    const id = setTimeout(() => {
+      elegir();
+    }, 0);
+    return () => clearTimeout(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoStart]);
+
   return (
     <>
       <button className={`plan ${best ? "best" : ""}`} onClick={elegir} disabled={cargando}>
@@ -43,7 +58,9 @@ export default function PlanButton({
           <b>
             {nombre} {best ? "⭐" : ""}
           </b>
-          <span className="sub">{sub ?? "Para el empujón final"}</span>
+          <span className="sub">
+            {cargando && autoStart ? "Preparando tu pago..." : (sub ?? "Para el empujón final")}
+          </span>
         </div>
         <span className="price">{precio}</span>
       </button>

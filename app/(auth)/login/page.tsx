@@ -1,12 +1,15 @@
 "use client";
 
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 
-export default function LoginPage() {
+function LoginContenido() {
   const router = useRouter();
+  const params = useSearchParams();
+  const plan = params.get("plan");
+  const siguiente = plan ? `/pago?plan=${plan}` : "/inicio";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -27,7 +30,7 @@ export default function LoginPage() {
       setError(data.error ?? "No se pudo iniciar sesión.");
       return;
     }
-    router.push("/inicio");
+    router.push(siguiente);
     router.refresh();
   }
 
@@ -36,7 +39,9 @@ export default function LoginPage() {
     const supabase = createClient();
     const { error: oauthError } = await supabase.auth.signInWithOAuth({
       provider: "google",
-      options: { redirectTo: `${window.location.origin}/api/auth/callback` },
+      options: {
+        redirectTo: `${window.location.origin}/api/auth/callback?next=${encodeURIComponent(siguiente)}`,
+      },
     });
     if (oauthError) setError(oauthError.message);
   }
@@ -90,8 +95,19 @@ export default function LoginPage() {
         ¿Olvidaste tu contraseña?
       </p>
       <p className="dim center" style={{ marginTop: 8 }}>
-        ¿No tienes cuenta? <Link href="/registro" style={{ textDecoration: "underline" }}>Créala</Link>
+        ¿No tienes cuenta?{" "}
+        <Link href={plan ? `/registro?plan=${plan}` : "/registro"} style={{ textDecoration: "underline" }}>
+          Créala
+        </Link>
       </p>
     </>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={null}>
+      <LoginContenido />
+    </Suspense>
   );
 }

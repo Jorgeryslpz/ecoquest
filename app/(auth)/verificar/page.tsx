@@ -7,6 +7,8 @@ import { createClient } from "@/lib/supabase/client";
 function VerificarContenido() {
   const params = useSearchParams();
   const email = params.get("email") ?? "";
+  const plan = params.get("plan");
+  const siguiente = plan ? `/pago?plan=${plan}` : "/inicio";
   const [error, setError] = useState<string | null>(null);
   const [reenviado, setReenviado] = useState(false);
   const [cooldown, setCooldown] = useState(0);
@@ -24,7 +26,9 @@ function VerificarContenido() {
     const { error: resendError } = await supabase.auth.resend({
       type: "signup",
       email,
-      options: { emailRedirectTo: `${window.location.origin}/api/auth/callback` },
+      options: {
+        emailRedirectTo: `${window.location.origin}/api/auth/callback?next=${encodeURIComponent(siguiente)}`,
+      },
     });
     if (resendError) setError(resendError.message);
     else {
